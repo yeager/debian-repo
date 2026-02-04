@@ -1,17 +1,17 @@
 Package: l10n-lint
-Version: 1.7.0
+Version: 1.8.0
 Architecture: all
 Maintainer: Daniel Nylander <daniel@danielnylander.se>
-Installed-Size: 270
+Installed-Size: 290
 Depends: python3
 Homepage: https://github.com/yeager/l10n-lint
 Priority: optional
 Section: devel
-Filename: pool/main/l10n-lint_1.7.0_all.deb
-Size: 35770
-SHA256: 835b0bbb51ef92e492a50afe54b520d18053e09427d5dfed0a167d25281ae32e
+Filename: pool/main/l10n-lint_1.8.0_all.deb
+Size: 38444
+SHA256: 98397e61e52cca83fff0c4037b7cab4cf9cb456c3cf27d9d94c7b6770ca8461c
 Description: Linter for localization files (.po, .ts)
- 20+ lint rules. HTML/JSON reports. 45 languages.
+ 22 lint rules with test suite. HTML/JSON reports.
 
 Package: tp-lint
 Version: 1.7.0
