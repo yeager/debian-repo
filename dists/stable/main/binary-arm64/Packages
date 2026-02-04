@@ -1,41 +1,47 @@
 Package: l10n-lint
-Version: 1.3.4
+Version: 1.3.6
 Architecture: all
 Maintainer: Daniel Nylander <daniel@danielnylander.se>
-Description: Linter for localization files (.po, .ts)
+Installed-Size: 120
+Depends: python3
 Homepage: https://github.com/yeager/l10n-lint
 Priority: optional
-Section: utils
-Filename: pool/main/l10n-lint_1.3.4_all.deb
-Size: 63598
-MD5sum: bcd34739c0a88576701d6c65fba4cad0
-SHA1: aeba12a06842106992d2428ddd6b3ba6f5b4b832
-SHA256: 98e881b9d14561521c4a439e2d7a00d09c35ebf6ac9f819f33cd494520b679e6
+Section: devel
+Filename: pool/main/l10n-lint_1.3.6_all.deb
+Size: 28038
+SHA256: 42058560c7e9baabcfbf224b02ade5cb64192e7ba88d2d5f9fa4aa44a47cb700
+Description: Linter for localization files (.po, .ts)
+ Checks for missing translations, fuzzy entries, placeholder
+ mismatches, and length issues in gettext and Qt translation files.
+
+Package: tp-lint
+Version: 1.5.6
+Architecture: all
+Maintainer: Daniel Nylander <daniel@danielnylander.se>
+Installed-Size: 180
+Depends: python3
+Homepage: https://github.com/yeager/tp-lint
+Priority: optional
+Section: devel
+Filename: pool/main/tp-lint_1.5.6_all.deb
+Size: 40964
+SHA256: 813bb4e3a041263e27f20e2e544b06c4e9515a949b107d5239de077a18ac3942
+Description: Translation Progress linter and report generator
+ Analyzes gettext .po files and generates HTML reports showing
+ translation progress with charts and statistics.
 
 Package: po-translate
 Version: 1.3.3
 Architecture: all
 Maintainer: Daniel Nylander <daniel@danielnylander.se>
-Description: Batch translate PO and TS localization files
+Installed-Size: 200
+Depends: python3
 Homepage: https://github.com/yeager/po-translate
 Priority: optional
-Section: utils
+Section: devel
 Filename: pool/main/po-translate_1.3.3_all.deb
-Size: 83690
-MD5sum: a48c28e209b87ae09e4d34190d800994
-SHA1: bfb7ce0be61ef7ee102d7b9cc70e9eff694ed8f6
-SHA256: 643f28972ca32e8f081b73bec63a56aa294382ff9cfe4c68b0de0a611c942968
-
-Package: tp-lint
-Version: 1.5.5
-Architecture: all
-Maintainer: Daniel Nylander <daniel@danielnylander.se>
-Description: Translation Project linter and statistics tool
-Homepage: https://github.com/yeager/tp-lint
-Priority: optional
-Section: utils
-Filename: pool/main/tp-lint_1.5.5_all.deb
-Size: 69074
-MD5sum: 63d970451d0d868b1575fe0f740d91b8
-SHA1: bf6151f7609f95507eb201ec0b59947f86baf58f
-SHA256: c5bed1a549e8beac6ec0bd2e1bc96a0513411daa13f2063be76bfa104aef2fc0
+Size: 47574
+SHA256: 7f5233281b799c2c775edc81f49ef8319752c2f53418a7f2cbbb4e8db45abb53
+Description: Batch translate .po and .ts files
+ Translates gettext .po and Qt .ts files using various translation
+ services including Lingva, MyMemory, OpenAI, and Anthropic.
