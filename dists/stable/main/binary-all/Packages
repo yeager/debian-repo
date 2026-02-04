@@ -1,32 +1,32 @@
 Package: l10n-lint
-Version: 1.3.6
+Version: 1.4.0
 Architecture: all
 Maintainer: Daniel Nylander <daniel@danielnylander.se>
-Installed-Size: 200
+Installed-Size: 210
 Depends: python3
 Homepage: https://github.com/yeager/l10n-lint
 Priority: optional
 Section: devel
-Filename: pool/main/l10n-lint_1.3.6_all.deb
-Size: 28072
-SHA256: 2ceb646a0e4468846e71255e9ab1c80859a584d689e8a2f44f28ecb7fb11038d
+Filename: pool/main/l10n-lint_1.4.0_all.deb
+Size: 29064
+SHA256: f07aa8e87b026e4d7ee67955a5f9a0544c564e25a02812af5d59999cfa0f3ede
 Description: Linter for localization files (.po, .ts)
  Checks for missing translations, fuzzy entries, placeholder
  mismatches, and length issues in gettext and Qt translation files.
 
 Package: tp-lint
-Version: 1.5.8
+Version: 1.6.0
 Architecture: all
 Maintainer: Daniel Nylander <daniel@danielnylander.se>
-Installed-Size: 230
+Installed-Size: 240
 Depends: python3
 Suggests: l10n-lint
 Homepage: https://github.com/yeager/tp-lint
 Priority: optional
 Section: devel
-Filename: pool/main/tp-lint_1.5.8_all.deb
-Size: 41730
-SHA256: 472b9769c3f16214ff3f2661ab4963be29c306ba1f510e2a622be9a27083a2fa
+Filename: pool/main/tp-lint_1.6.0_all.deb
+Size: 41720
+SHA256: fb463933d7f832bf6de0198ea298831aea23978960b7684f762a33f467d66cfa
 Description: Translation Progress linter and report generator
  Analyzes gettext .po files from the Translation Project and generates
  HTML reports showing translation progress with charts and statistics.
