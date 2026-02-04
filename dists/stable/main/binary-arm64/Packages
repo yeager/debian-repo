@@ -1,17 +1,17 @@
 Package: l10n-lint
-Version: 1.6.0
+Version: 1.7.0
 Architecture: all
 Maintainer: Daniel Nylander <daniel@danielnylander.se>
-Installed-Size: 260
+Installed-Size: 270
 Depends: python3
 Homepage: https://github.com/yeager/l10n-lint
 Priority: optional
 Section: devel
-Filename: pool/main/l10n-lint_1.6.0_all.deb
-Size: 34108
-SHA256: 278422a051d60c29bf47b9104bc6b6d282bd9a1a7a6d5f2d8daadfec90f12d9d
+Filename: pool/main/l10n-lint_1.7.0_all.deb
+Size: 35770
+SHA256: 835b0bbb51ef92e492a50afe54b520d18053e09427d5dfed0a167d25281ae32e
 Description: Linter for localization files (.po, .ts)
- 20+ lint rules for translation quality.
+ 20+ lint rules. HTML/JSON reports. 45 languages.
 
 Package: tp-lint
 Version: 1.7.0
@@ -27,7 +27,7 @@ Filename: pool/main/tp-lint_1.7.0_all.deb
 Size: 42972
 SHA256: 61c90b185bf2a66f02a4b3c4d37ffdeb7e42117bd7175305e431b8d7a7253023
 Description: Translation Progress linter and report generator
- Analyzes PO files from the GNU Translation Project.
+ Lint and report from the GNU Translation Project.
 
 Package: po-translate
 Version: 1.3.4
