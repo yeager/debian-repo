@@ -1,18 +1,18 @@
 Package: l10n-lint
-Version: 1.4.0
+Version: 1.5.0
 Architecture: all
 Maintainer: Daniel Nylander <daniel@danielnylander.se>
-Installed-Size: 210
+Installed-Size: 250
 Depends: python3
 Homepage: https://github.com/yeager/l10n-lint
 Priority: optional
 Section: devel
-Filename: pool/main/l10n-lint_1.4.0_all.deb
-Size: 30182
-SHA256: 1ab909bbaacdcdf9a16ed34321fc148a407e01a47c59c7372ac33cf1a08dc097
+Filename: pool/main/l10n-lint_1.5.0_all.deb
+Size: 33412
+SHA256: 80ccea5a0260160aa3c965547c21cc5d58927a8d2ffa2386e67407cf83503c1a
 Description: Linter for localization files (.po, .ts)
  Checks for missing translations, fuzzy entries, placeholder
- mismatches, and length issues in gettext and Qt translation files.
+ mismatches, HTML tags, keyboard accelerators, and more.
 
 Package: tp-lint
 Version: 1.6.0
@@ -28,8 +28,7 @@ Filename: pool/main/tp-lint_1.6.0_all.deb
 Size: 42530
 SHA256: 1164a9ff8272e292abe25407151795cf54dbb172f55fed434c5acc1612a58fc0
 Description: Translation Progress linter and report generator
- Analyzes gettext .po files from the Translation Project and generates
- HTML reports showing translation progress with charts and statistics.
+ Analyzes gettext .po files from the Translation Project.
 
 Package: po-translate
 Version: 1.3.3
@@ -44,5 +43,4 @@ Filename: pool/main/po-translate_1.3.3_all.deb
 Size: 48320
 SHA256: 1dbb831df26bebf360311fa07d618465d7d58f3588f56ab4a5251eca6478598d
 Description: Batch translate .po and .ts files
- Translates gettext .po and Qt .ts files using various translation
- services including Lingva, MyMemory, OpenAI, and Anthropic.
+ Translates using Lingva, MyMemory, OpenAI, Anthropic, and more.
