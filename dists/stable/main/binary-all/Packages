@@ -27,15 +27,15 @@ SHA1: bfb7ce0be61ef7ee102d7b9cc70e9eff694ed8f6
 SHA256: 643f28972ca32e8f081b73bec63a56aa294382ff9cfe4c68b0de0a611c942968
 
 Package: tp-lint
-Version: 1.5.4
+Version: 1.5.5
 Architecture: all
 Maintainer: Daniel Nylander <daniel@danielnylander.se>
 Description: Translation Project linter and statistics tool
 Homepage: https://github.com/yeager/tp-lint
 Priority: optional
 Section: utils
-Filename: pool/main/tp-lint_1.5.4_all.deb
-Size: 67538
-MD5sum: 3c1f401eca0f58dad0f6ed8d51f1fbb9
-SHA1: aed5fddb169133276c50c6b3506df2ed81a7551c
-SHA256: e7b2ab62ae847792148c42b6536e4997517021e9308c883fd7624185455e3c43
+Filename: pool/main/tp-lint_1.5.5_all.deb
+Size: 69074
+MD5sum: 63d970451d0d868b1575fe0f740d91b8
+SHA1: bf6151f7609f95507eb201ec0b59947f86baf58f
+SHA256: c5bed1a549e8beac6ec0bd2e1bc96a0513411daa13f2063be76bfa104aef2fc0

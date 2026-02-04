@@ -5,13 +5,13 @@ Codename: stable
 Architectures: all
 Components: main
 Description: Debian repository for l10n-lint, tp-lint, and po-translate
-Date: Wed, 04 Feb 2026 12:19:03 UTC
+Date: Wed, 04 Feb 2026 12:45:43 UTC
 MD5Sum:
- 17cbd3d9a7d3ee3fbf0e931ed04ecadd     1389 main/binary-all/Packages
- c2fecdc8a664162c11c356c8462850e9      654 main/binary-all/Packages.gz
+ cc4479a2f19d4868fdb82e8bc54d152c     1389 main/binary-all/Packages
+ a52365c0563bc631236bc5a1de1db3c8      653 main/binary-all/Packages.gz
 SHA1:
- dbc0b0833bf14388fee50a2812016e0a15b6426b     1389 main/binary-all/Packages
- 0034a187c14cf92ae3376270e96b9c13bd80b3b8      654 main/binary-all/Packages.gz
+ 2dd90450279ac59c219171d3119085e5d116e603     1389 main/binary-all/Packages
+ 03df9e7a0a2992f87c032d3595b4903f02e2954e      653 main/binary-all/Packages.gz
 SHA256:
- cc4ddc2f1a810c0b8dac8193a629484e43711b875336a2d337cf57b9952ab95a     1389 main/binary-all/Packages
- f97e0b648fe3a07d83b6bfdd910b2f90012436910eafa273215d82d6b8b6ac2b      654 main/binary-all/Packages.gz
+ ea80a651c5d34505277c8757cb50eba8e73284161642ada17006277048f721c5     1389 main/binary-all/Packages
+ de7c85afd7433b6e4635632b3a0b2d49015797b8501abd109a86ba8dd41b8e64      653 main/binary-all/Packages.gz
