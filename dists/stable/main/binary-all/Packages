@@ -48,28 +48,13 @@ Package: po-diff
 Version: 1.0.0
 Architecture: all
 Maintainer: Daniel Nylander <daniel@danielnylander.se>
-Installed-Size: 50
+Installed-Size: 80
 Depends: python3
 Homepage: https://github.com/yeager/po-diff
 Priority: optional
 Section: devel
 Filename: pool/main/po-diff_1.0.0_all.deb
-Size: 7386
-SHA256: 26752cbd4c46d85092b0a254343d339ec94fc4bd78fbf624ee708a74a73ef47a
+Size: 14404
+SHA256: ae30e9790b84ca6ebb340358eead3ce9a6ce84fbdb7bab8beaeab6c3da3fd37c
 Description: Compare PO/TS translation files
- Shows differences between translation files.
-
-Package: home-dash
-Version: 1.0.0
-Architecture: all
-Maintainer: Daniel Nylander <daniel@danielnylander.se>
-Installed-Size: 40
-Depends: python3
-Homepage: https://github.com/yeager/home-dash
-Priority: optional
-Section: utils
-Filename: pool/main/home-dash_1.0.0_all.deb
-Size: 5322
-SHA256: b09b26816bd3dc4cd84fa3c56619a8d4e25bd8224e1ad824885e776f491288b1
-Description: Home dashboard for macOS
- Weather, transit, and time dashboard.
+ Shows differences between translation files. 11 languages.
