@@ -5,7 +5,7 @@ Codename: stable
 Architectures: all amd64 arm64 i386 armhf
 Components: main
 Description: Debian repository for l10n-lint, tp-lint, and po-translate
-Date: Wed, 04 Feb 2026 16:45:08 UTC
+Date: Wed, 04 Feb 2026 16:47:16 UTC
 MD5Sum:
  77d05c20024eb646de9d64d5c88c2c63     1597 main/binary-all/Packages
  77d05c20024eb646de9d64d5c88c2c63     1597 main/binary-amd64/Packages
@@ -18,24 +18,24 @@ MD5Sum:
  34e3972a318594479911ba81db1a2919      719 main/binary-armhf/Packages.gz
  34e3972a318594479911ba81db1a2919      719 main/binary-i386/Packages.gz
 SHA1:
- main/binary-all/Packages     1597 main/binary-all/Packages
- main/binary-amd64/Packages     1597 main/binary-amd64/Packages
- main/binary-arm64/Packages     1597 main/binary-arm64/Packages
- main/binary-armhf/Packages     1597 main/binary-armhf/Packages
- main/binary-i386/Packages     1597 main/binary-i386/Packages
- main/binary-all/Packages.gz      719 main/binary-all/Packages.gz
- main/binary-amd64/Packages.gz      719 main/binary-amd64/Packages.gz
- main/binary-arm64/Packages.gz      719 main/binary-arm64/Packages.gz
- main/binary-armhf/Packages.gz      719 main/binary-armhf/Packages.gz
- main/binary-i386/Packages.gz      719 main/binary-i386/Packages.gz
+ 0d803011343cbea38e7557668fa5610db089630f     1597 main/binary-all/Packages
+ 0d803011343cbea38e7557668fa5610db089630f     1597 main/binary-amd64/Packages
+ 0d803011343cbea38e7557668fa5610db089630f     1597 main/binary-arm64/Packages
+ 0d803011343cbea38e7557668fa5610db089630f     1597 main/binary-armhf/Packages
+ 0d803011343cbea38e7557668fa5610db089630f     1597 main/binary-i386/Packages
+ 1926b044c4db15d14caef560b772a8b9d39d4511      719 main/binary-all/Packages.gz
+ 1926b044c4db15d14caef560b772a8b9d39d4511      719 main/binary-amd64/Packages.gz
+ 1926b044c4db15d14caef560b772a8b9d39d4511      719 main/binary-arm64/Packages.gz
+ 1926b044c4db15d14caef560b772a8b9d39d4511      719 main/binary-armhf/Packages.gz
+ 1926b044c4db15d14caef560b772a8b9d39d4511      719 main/binary-i386/Packages.gz
 SHA256:
- main/binary-all/Packages     1597 main/binary-all/Packages
- main/binary-amd64/Packages     1597 main/binary-amd64/Packages
- main/binary-arm64/Packages     1597 main/binary-arm64/Packages
- main/binary-armhf/Packages     1597 main/binary-armhf/Packages
- main/binary-i386/Packages     1597 main/binary-i386/Packages
- main/binary-all/Packages.gz      719 main/binary-all/Packages.gz
- main/binary-amd64/Packages.gz      719 main/binary-amd64/Packages.gz
- main/binary-arm64/Packages.gz      719 main/binary-arm64/Packages.gz
- main/binary-armhf/Packages.gz      719 main/binary-armhf/Packages.gz
- main/binary-i386/Packages.gz      719 main/binary-i386/Packages.gz
+ 6ce7b68c6c84b3274d803ceeafee6428cdc53121f572bc296f2bc62f3cd31153     1597 main/binary-all/Packages
+ 6ce7b68c6c84b3274d803ceeafee6428cdc53121f572bc296f2bc62f3cd31153     1597 main/binary-amd64/Packages
+ 6ce7b68c6c84b3274d803ceeafee6428cdc53121f572bc296f2bc62f3cd31153     1597 main/binary-arm64/Packages
+ 6ce7b68c6c84b3274d803ceeafee6428cdc53121f572bc296f2bc62f3cd31153     1597 main/binary-armhf/Packages
+ 6ce7b68c6c84b3274d803ceeafee6428cdc53121f572bc296f2bc62f3cd31153     1597 main/binary-i386/Packages
+ 4d26119a9b3e00207b8e35f65335ca62ef2dbe6d487214b906293d7871674d9c      719 main/binary-all/Packages.gz
+ 4d26119a9b3e00207b8e35f65335ca62ef2dbe6d487214b906293d7871674d9c      719 main/binary-amd64/Packages.gz
+ 4d26119a9b3e00207b8e35f65335ca62ef2dbe6d487214b906293d7871674d9c      719 main/binary-arm64/Packages.gz
+ 4d26119a9b3e00207b8e35f65335ca62ef2dbe6d487214b906293d7871674d9c      719 main/binary-armhf/Packages.gz
+ 4d26119a9b3e00207b8e35f65335ca62ef2dbe6d487214b906293d7871674d9c      719 main/binary-i386/Packages.gz
