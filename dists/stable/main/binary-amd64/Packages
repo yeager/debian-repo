@@ -15,18 +15,18 @@ Description: Linter for localization files (.po, .ts)
  mismatches, and length issues in gettext and Qt translation files.
 
 Package: tp-lint
-Version: 1.5.7
+Version: 1.5.8
 Architecture: all
 Maintainer: Daniel Nylander <daniel@danielnylander.se>
-Installed-Size: 220
+Installed-Size: 230
 Depends: python3
 Suggests: l10n-lint
 Homepage: https://github.com/yeager/tp-lint
 Priority: optional
 Section: devel
-Filename: pool/main/tp-lint_1.5.7_all.deb
-Size: 41234
-SHA256: f674e27cae2fd3918bf97a536d2c218fa3a2130b874631a227f58c07cb7f263d
+Filename: pool/main/tp-lint_1.5.8_all.deb
+Size: 41730
+SHA256: 472b9769c3f16214ff3f2661ab4963be29c306ba1f510e2a622be9a27083a2fa
 Description: Translation Progress linter and report generator
  Analyzes gettext .po files from the Translation Project and generates
  HTML reports showing translation progress with charts and statistics.
