@@ -1,46 +1,45 @@
 Package: l10n-lint
-Version: 1.5.0
+Version: 1.6.0
 Architecture: all
 Maintainer: Daniel Nylander <daniel@danielnylander.se>
-Installed-Size: 250
+Installed-Size: 260
 Depends: python3
 Homepage: https://github.com/yeager/l10n-lint
 Priority: optional
 Section: devel
-Filename: pool/main/l10n-lint_1.5.0_all.deb
-Size: 33412
-SHA256: 80ccea5a0260160aa3c965547c21cc5d58927a8d2ffa2386e67407cf83503c1a
+Filename: pool/main/l10n-lint_1.6.0_all.deb
+Size: 34108
+SHA256: 278422a051d60c29bf47b9104bc6b6d282bd9a1a7a6d5f2d8daadfec90f12d9d
 Description: Linter for localization files (.po, .ts)
- Checks for missing translations, fuzzy entries, placeholder
- mismatches, HTML tags, keyboard accelerators, and more.
+ 20+ lint rules for translation quality.
 
 Package: tp-lint
-Version: 1.6.0
+Version: 1.7.0
 Architecture: all
 Maintainer: Daniel Nylander <daniel@danielnylander.se>
-Installed-Size: 240
+Installed-Size: 250
 Depends: python3
 Suggests: l10n-lint
 Homepage: https://github.com/yeager/tp-lint
 Priority: optional
 Section: devel
-Filename: pool/main/tp-lint_1.6.0_all.deb
-Size: 42530
-SHA256: 1164a9ff8272e292abe25407151795cf54dbb172f55fed434c5acc1612a58fc0
+Filename: pool/main/tp-lint_1.7.0_all.deb
+Size: 42972
+SHA256: 61c90b185bf2a66f02a4b3c4d37ffdeb7e42117bd7175305e431b8d7a7253023
 Description: Translation Progress linter and report generator
- Analyzes gettext .po files from the Translation Project.
+ Analyzes PO files from the GNU Translation Project.
 
 Package: po-translate
-Version: 1.3.3
+Version: 1.3.4
 Architecture: all
 Maintainer: Daniel Nylander <daniel@danielnylander.se>
-Installed-Size: 270
+Installed-Size: 280
 Depends: python3
 Homepage: https://github.com/yeager/po-translate
 Priority: optional
 Section: devel
-Filename: pool/main/po-translate_1.3.3_all.deb
-Size: 48320
-SHA256: 1dbb831df26bebf360311fa07d618465d7d58f3588f56ab4a5251eca6478598d
+Filename: pool/main/po-translate_1.3.4_all.deb
+Size: 48594
+SHA256: 1e1f4e29d1d9c5dca18d134babbd199ce3729d1490177486f4ff65f1067f4d76
 Description: Batch translate .po and .ts files
- Translates using Lingva, MyMemory, OpenAI, Anthropic, and more.
+ Translate using Lingva, MyMemory, OpenAI, Anthropic, DeepL.
