@@ -8,8 +8,8 @@ Homepage: https://github.com/yeager/l10n-lint
 Priority: optional
 Section: devel
 Filename: pool/main/l10n-lint_1.3.6_all.deb
-Size: 28038
-SHA256: 42058560c7e9baabcfbf224b02ade5cb64192e7ba88d2d5f9fa4aa44a47cb700
+Size: 28076
+SHA256: 41944671c6ff6862ebecb1488196709537e4dac8b196ffa4323fe82e78922671
 Description: Linter for localization files (.po, .ts)
  Checks for missing translations, fuzzy entries, placeholder
  mismatches, and length issues in gettext and Qt translation files.
@@ -24,8 +24,8 @@ Homepage: https://github.com/yeager/tp-lint
 Priority: optional
 Section: devel
 Filename: pool/main/tp-lint_1.5.6_all.deb
-Size: 40964
-SHA256: 813bb4e3a041263e27f20e2e544b06c4e9515a949b107d5239de077a18ac3942
+Size: 40942
+SHA256: b4cbaef73cb3938276fb054f343d004fd3a7941a7e51a93f0e866643618ca4a3
 Description: Translation Progress linter and report generator
  Analyzes gettext .po files and generates HTML reports showing
  translation progress with charts and statistics.
@@ -40,8 +40,8 @@ Homepage: https://github.com/yeager/po-translate
 Priority: optional
 Section: devel
 Filename: pool/main/po-translate_1.3.3_all.deb
-Size: 47574
-SHA256: 7f5233281b799c2c775edc81f49ef8319752c2f53418a7f2cbbb4e8db45abb53
+Size: 47554
+SHA256: 8480293276b5e9854e0e581fd1b278c935ea766d936805d09375fbb11559534e
 Description: Batch translate .po and .ts files
  Translates gettext .po and Qt .ts files using various translation
  services including Lingva, MyMemory, OpenAI, and Anthropic.
