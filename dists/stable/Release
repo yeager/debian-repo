@@ -1,0 +1,17 @@
+Origin: yeager
+Label: Yeager's Translation Tools
+Suite: stable
+Codename: stable
+Architectures: all
+Components: main
+Description: Debian repository for l10n-lint, tp-lint, and po-translate
+Date: Wed, 04 Feb 2026 12:19:03 UTC
+MD5Sum:
+ 17cbd3d9a7d3ee3fbf0e931ed04ecadd     1389 main/binary-all/Packages
+ c2fecdc8a664162c11c356c8462850e9      654 main/binary-all/Packages.gz
+SHA1:
+ dbc0b0833bf14388fee50a2812016e0a15b6426b     1389 main/binary-all/Packages
+ 0034a187c14cf92ae3376270e96b9c13bd80b3b8      654 main/binary-all/Packages.gz
+SHA256:
+ cc4ddc2f1a810c0b8dac8193a629484e43711b875336a2d337cf57b9952ab95a     1389 main/binary-all/Packages
+ f97e0b648fe3a07d83b6bfdd910b2f90012436910eafa273215d82d6b8b6ac2b      654 main/binary-all/Packages.gz

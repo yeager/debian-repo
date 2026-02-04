@@ -1,0 +1,41 @@
+Package: l10n-lint
+Version: 1.3.4
+Architecture: all
+Maintainer: Daniel Nylander <daniel@danielnylander.se>
+Description: Linter for localization files (.po, .ts)
+Homepage: https://github.com/yeager/l10n-lint
+Priority: optional
+Section: utils
+Filename: pool/main/l10n-lint_1.3.4_all.deb
+Size: 63598
+MD5sum: bcd34739c0a88576701d6c65fba4cad0
+SHA1: aeba12a06842106992d2428ddd6b3ba6f5b4b832
+SHA256: 98e881b9d14561521c4a439e2d7a00d09c35ebf6ac9f819f33cd494520b679e6
+
+Package: po-translate
+Version: 1.3.3
+Architecture: all
+Maintainer: Daniel Nylander <daniel@danielnylander.se>
+Description: Batch translate PO and TS localization files
+Homepage: https://github.com/yeager/po-translate
+Priority: optional
+Section: utils
+Filename: pool/main/po-translate_1.3.3_all.deb
+Size: 83690
+MD5sum: a48c28e209b87ae09e4d34190d800994
+SHA1: bfb7ce0be61ef7ee102d7b9cc70e9eff694ed8f6
+SHA256: 643f28972ca32e8f081b73bec63a56aa294382ff9cfe4c68b0de0a611c942968
+
+Package: tp-lint
+Version: 1.5.4
+Architecture: all
+Maintainer: Daniel Nylander <daniel@danielnylander.se>
+Description: Translation Project linter and statistics tool
+Homepage: https://github.com/yeager/tp-lint
+Priority: optional
+Section: utils
+Filename: pool/main/tp-lint_1.5.4_all.deb
+Size: 67538
+MD5sum: 3c1f401eca0f58dad0f6ed8d51f1fbb9
+SHA1: aed5fddb169133276c50c6b3506df2ed81a7551c
+SHA256: e7b2ab62ae847792148c42b6536e4997517021e9308c883fd7624185455e3c43
