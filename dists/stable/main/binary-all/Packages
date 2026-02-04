@@ -43,3 +43,33 @@ Size: 48594
 SHA256: 1e1f4e29d1d9c5dca18d134babbd199ce3729d1490177486f4ff65f1067f4d76
 Description: Batch translate .po and .ts files
  Translate using Lingva, MyMemory, OpenAI, Anthropic, DeepL.
+
+Package: po-diff
+Version: 1.0.0
+Architecture: all
+Maintainer: Daniel Nylander <daniel@danielnylander.se>
+Installed-Size: 50
+Depends: python3
+Homepage: https://github.com/yeager/po-diff
+Priority: optional
+Section: devel
+Filename: pool/main/po-diff_1.0.0_all.deb
+Size: 7386
+SHA256: 26752cbd4c46d85092b0a254343d339ec94fc4bd78fbf624ee708a74a73ef47a
+Description: Compare PO/TS translation files
+ Shows differences between translation files.
+
+Package: home-dash
+Version: 1.0.0
+Architecture: all
+Maintainer: Daniel Nylander <daniel@danielnylander.se>
+Installed-Size: 40
+Depends: python3
+Homepage: https://github.com/yeager/home-dash
+Priority: optional
+Section: utils
+Filename: pool/main/home-dash_1.0.0_all.deb
+Size: 5322
+SHA256: b09b26816bd3dc4cd84fa3c56619a8d4e25bd8224e1ad824885e776f491288b1
+Description: Home dashboard for macOS
+ Weather, transit, and time dashboard.
