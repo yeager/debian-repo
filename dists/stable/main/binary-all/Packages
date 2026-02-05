@@ -1,60 +1,62 @@
 Package: l10n-lint
-Version: 1.8.0
+Version: 1.9.0
 Architecture: all
 Maintainer: Daniel Nylander <daniel@danielnylander.se>
-Installed-Size: 290
 Depends: python3
-Homepage: https://github.com/yeager/l10n-lint
-Priority: optional
+Filename: pool/main/l10n-lint_1.9.0_all.deb
+Size: 31444
+MD5sum: c5a2ecd9e440fc22db448afd7c5bc799
+SHA1: 7ab88cfc28743e8040d7ccc96529055a66cfe148
+SHA256: eeae820d0930e4221f835fbdd84fae7b3565d4c5f6f8ccf6c0d661beb7e44074
 Section: devel
-Filename: pool/main/l10n-lint_1.8.0_all.deb
-Size: 38444
-SHA256: 98397e61e52cca83fff0c4037b7cab4cf9cb456c3cf27d9d94c7b6770ca8461c
+Priority: optional
 Description: Linter for localization files (.po, .ts)
- 22 lint rules with test suite. HTML/JSON reports.
-
-Package: tp-lint
-Version: 1.7.0
-Architecture: all
-Maintainer: Daniel Nylander <daniel@danielnylander.se>
-Installed-Size: 250
-Depends: python3
-Suggests: l10n-lint
-Homepage: https://github.com/yeager/tp-lint
-Priority: optional
-Section: devel
-Filename: pool/main/tp-lint_1.7.0_all.deb
-Size: 42972
-SHA256: 61c90b185bf2a66f02a4b3c4d37ffdeb7e42117bd7175305e431b8d7a7253023
-Description: Translation Progress linter and report generator
- Lint and report from the GNU Translation Project.
-
-Package: po-translate
-Version: 1.3.4
-Architecture: all
-Maintainer: Daniel Nylander <daniel@danielnylander.se>
-Installed-Size: 280
-Depends: python3
-Homepage: https://github.com/yeager/po-translate
-Priority: optional
-Section: devel
-Filename: pool/main/po-translate_1.3.4_all.deb
-Size: 48594
-SHA256: 1e1f4e29d1d9c5dca18d134babbd199ce3729d1490177486f4ff65f1067f4d76
-Description: Batch translate .po and .ts files
- Translate using Lingva, MyMemory, OpenAI, Anthropic, DeepL.
+ l10n-lint checks PO and TS files for common issues like
+ missing translations, placeholder mismatches, and more.
 
 Package: po-diff
 Version: 1.0.0
 Architecture: all
 Maintainer: Daniel Nylander <daniel@danielnylander.se>
-Installed-Size: 80
 Depends: python3
-Homepage: https://github.com/yeager/po-diff
-Priority: optional
-Section: devel
 Filename: pool/main/po-diff_1.0.0_all.deb
 Size: 14404
+MD5sum: a48e50a291d2f40f7b2c1051cd54a796
+SHA1: 6c5e0fd4a8e7ec649a6ffd7a9d0d077164436f1b
 SHA256: ae30e9790b84ca6ebb340358eead3ce9a6ce84fbdb7bab8beaeab6c3da3fd37c
+Section: devel
+Priority: optional
+Homepage: https://github.com/yeager/po-diff
 Description: Compare PO/TS translation files
  Shows differences between translation files. 11 languages.
+
+Package: po-translate
+Version: 1.4.0
+Architecture: all
+Maintainer: Daniel Nylander <daniel@danielnylander.se>
+Depends: python3
+Filename: pool/main/po-translate_1.4.0_all.deb
+Size: 15420
+MD5sum: 85ff11d8ac9ff8f2eb798b3691e8df25
+SHA1: 8383ae70a21a71c400b00df52b0acaf4341e5815
+SHA256: 3a5edb10a2f8c14d485afd0820532f0231d041b69d3f74563c2de2eacc140303
+Section: devel
+Priority: optional
+Description: Batch translate .po and .ts files
+ po-translate translates PO and TS files using AI or free services.
+
+Package: tp-lint
+Version: 1.8.0
+Architecture: all
+Maintainer: Daniel Nylander <daniel@danielnylander.se>
+Depends: python3, l10n-lint
+Filename: pool/main/tp-lint_1.8.0_all.deb
+Size: 23768
+MD5sum: cd011c4cbb51df6ea556e035b63f6e82
+SHA1: 8ec3ea533ebf68af61644580e6e387a3b4d09e0b
+SHA256: dc2b0da9a62f743efaf485a773a1a7e858066184a594346ba15928e2c6ba2c80
+Section: devel
+Priority: optional
+Description: Lint PO files from the Translation Project
+ tp-lint fetches and lints PO files from translationproject.org.
+
