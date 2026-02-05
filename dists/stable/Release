@@ -4,11 +4,11 @@ Suite: stable
 Codename: stable
 Architectures: all
 Components: main
-Description: Daniel Nylander's Debian Repository
-Date: Thu, 05 Feb 2026 06:09:42 +0000
-MD5Sum:
- 944b01b28c7b59c6fb8e049f2c672975 2066 main/binary-all/Packages
- f58456b03f29634903f1bb2c0d39a4bf 934 main/binary-all/Packages.gz
+Description: Yeager's Debian repository
+Date: Thu, 05 Feb 2026 06:39:02 +0000
 SHA256:
- 7cc66488f150be1e60b142da66886a9d5518d76a2d104348964cab0bd18e8614 2066 main/binary-all/Packages
- 4638bb242c77d9c7758554f56158e952edababa02b54e87b6d56c401b8a6ac48 934 main/binary-all/Packages.gz
+ f8bd5956148c98a741284935c111aee4eaa8cc895c9279205d13a5f15c8bbdde 1996 main/binary-all/Packages
+ 54a3b214d91db5c4d04bba22b6592b2a979246813d04cbb7a5545ec81ffedd41 900 main/binary-all/Packages.gz
+MD5Sum:
+ aad89bd74521ca0f5ef900d24d1d9d93 1996 main/binary-all/Packages
+ 08418b566204fdee866e2f3cd6a62d7f 900 main/binary-all/Packages.gz
