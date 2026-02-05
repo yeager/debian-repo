@@ -1,20 +1,37 @@
 Package: l10n-lint
-Version: 1.13.1
+Version: 1.14.0
 Architecture: all
 Maintainer: Daniel Nylander <daniel@danielnylander.se>
-Depends: python3 (>= 3.9)
-Filename: pool/main/l10n-lint_1.13.1_all.deb
-Size: 38964
-MD5sum: bb0897fdd8de4bd1a298a38859da4621
-SHA1: 1bb535214d9fe7ae9be8dcd1fe625dddaa5a8338
-SHA256: c650253816d38b5219fb1449c17f048abde6d5d24b30ef3f16a984cc0ef3e764
-Section: devel
+Depends: python3
+Recommends: l10n-lint-gtk
+Filename: pool/main/l10n-lint_1.14.0_all.deb
+Size: 27092
+MD5sum: fbbfc9e8a4837744a84169c151b9417f
+SHA1: fbfb7fcb30f1ce64fa5903a989e6564e900d1ee4
+SHA256: 068b49b5dd2dd7b6d6d2dc38d91411c73544a821b78710f1a36c17301a8af219
+Section: utils
 Priority: optional
 Description: Linter for localization files (.po, .ts)
- l10n-lint checks gettext .po and Qt .ts localization files for
- common issues: missing translations, fuzzy entries, placeholder
- mismatches, length issues, and more. Supports local files, URLs,
- and GitHub repositories.
+ l10n-lint checks gettext .po and Qt .ts localization files for common
+ issues like missing translations, fuzzy entries, placeholder mismatches,
+ and more. Supports local files, URLs, and GitHub repositories.
+
+Package: l10n-lint-gtk
+Version: 1.2.0
+Architecture: all
+Maintainer: Daniel Nylander <daniel@danielnylander.se>
+Depends: python3, python3-gi, gir1.2-gtk-4.0, gir1.2-adw-1, l10n-lint (>= 1.14.0)
+Filename: pool/main/l10n-lint-gtk_1.2.0_all.deb
+Size: 9768
+MD5sum: 029ee35c680c4e959f53137955f61af0
+SHA1: cf2a143f69b7b2e33057d70b1898101d75686d03
+SHA256: 9a683f25dc9bea73f59e298e6537548eed7c6442bfbd417e6e96bbaad9977ede
+Section: utils
+Priority: optional
+Description: GTK graphical interface for l10n-lint
+ A modern GTK4/libadwaita graphical frontend for the l10n-lint localization
+ file linter. Features include sidebar history, filter bar, statistics panel,
+ report export (HTML/JSON/text), preferences dialog, and keyboard shortcuts.
 
 Package: po-diff
 Version: 1.0.0
