@@ -2,13 +2,13 @@
 Hash: SHA256
 
 Origin: yeager
-Label: yeager
+Label: Yeager's Translation Tools
 Suite: stable
 Codename: stable
 Architectures: all amd64 arm64 i386 armhf
 Components: main
 Description: Yeager's Debian repository
-Date: Thu, 05 Feb 2026 06:54:33 +0000
+Date: Thu, 05 Feb 2026 07:10:23 +0000
 SHA256:
  f8bd5956148c98a741284935c111aee4eaa8cc895c9279205d13a5f15c8bbdde 1996 main/binary-all/Packages
  54a3b214d91db5c4d04bba22b6592b2a979246813d04cbb7a5545ec81ffedd41 900 main/binary-all/Packages.gz
@@ -17,17 +17,17 @@ MD5Sum:
  08418b566204fdee866e2f3cd6a62d7f 900 main/binary-all/Packages.gz
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAEBCAAdFiEEN5hu++1i1inAzyaO4xjH3j2ofFsFAmmEPxYACgkQ4xjH3j2o
-fFvRAA//eOVFtHHACiTsT704wlWTF5pFs9OBbQiIknXNvs+mtjZIBFvSJXAUeu/n
-EhIF5KrZ2vVOmuWXZ+NXhu9Om4Clo0yscmY2ZqJh4o4UoodwE/PCf3pb49vrh5lL
-vPT4exG87Ypu+1yVnoRaczRf4V/Nz6qOjFmnGCr9jiQ1v7YcwuZjD/wd8avvhk6W
-X5UK1nh4rD5IXeG8VzK9pXBZPG9w9yoYI6RS09DsQp8+kBkK/FWdd1kZY6eCFEGt
-E62qDmFoWIJtVi6z//qbz14balz7s+y5rYJLhPKZHtV2N80TANP27GrD4jmkLJ99
-jFHL9PZhAweWNxEFVnOea96AKmlmRR/gicdiNkEwvdnBBkDH1WcwKHLCiH42iXUh
-waCEMk+8+2H3MUf8fOYkDLgPPDw2TVfFX5hCDfqI4d005djLSwtETbxdzg11mK0J
-ADCgbGMYKpZbRWpE6rIidzJhonF48zqtSGAQiB2x7uEyEiK4RKRcB4ZSvhSuZ+6x
-gvqBmOnpH/Ub/+skmMnnXB3Qdz3ZFN0SYiaDsODmzrV9AjBQTSKeCQRSEesazEHZ
-eVoy1gDVSKsb3D8hRP9qqdrhDAzEMCqyFlD9uBuki7BgR98DfdmSQPLvCfid8iuG
-ptEROOhmUJuXYT66O6VGiuNNUGZ0raZZ+NxIxOKJT0WOqrotMPE=
-=+Z7W
+iQIzBAEBCAAdFiEEN5hu++1i1inAzyaO4xjH3j2ofFsFAmmEQmUACgkQ4xjH3j2o
+fFuZ4w/5AcK2J6sUsDcokUkJ0GN3OwxavMEWfzDhLuGkNI4rvbLGcU4zrd/3Y3XJ
+az69GZmngUy8k6G9T+0YGduuVU0Ypzw8uYfm5pOGS/Cp79ZpE9/W7/I1EVpX6Mtr
+hARaWOkA6mKYzoAMaL6Eey69fEBloh3s0Z6n9LIuDcv6ZySYRo1rnzOqo0MUexNo
+QRBql+kF1dtidg47Fm77NUwYrkaHDRhFLEMpnszvl6f1fBqWqPa4GrdxCpQIdXtd
+qVGCDYG9uxNRj3h+nxNp1e2ol2NNQW3l0Y1bp38oATXrKYpFh2fShf+PUH3v/+fW
+Cl4TuFwF/K98f1W/eezhIpyShJ1nzXOuxidcUbah+JwwSzUTyEQts403TPTwj1if
+og773HJdZS55hF3u8TUnB97/qUh/NSqCZyjLQnVUqGCT4z3fMhjfndaE+MSyCUrP
+Y2pllLM/je6uPoXTeul5YAfw1nYjufM06snr6AYEGX9HIJzMPxYaNcHinewFDhHW
++iya+9CFm4uHYk3Ivy/5oDnFo94tTDVofGRL/0B+pUSsXwmgarq9uejZ74gZnhc8
+kwnKaLdWGWu0r3Ctj9jafuh3Xy1KTGQC4jYFcDBzJgEMddQE308OXtJcVc+my3Xd
+x+gdktu3984KpdWdQopkBlaXbUN+gG9jBBxDq1LIPbaqQe17FdU=
+=mTtr
 -----END PGP SIGNATURE-----
