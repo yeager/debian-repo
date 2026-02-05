@@ -5,10 +5,10 @@ Codename: stable
 Architectures: all amd64 arm64 i386 armhf
 Components: main
 Description: Yeager's Debian repository
-Date: Thu, 05 Feb 2026 19:47:32 +0000
+Date: Thu, 05 Feb 2026 19:56:49 +0000
 SHA256:
- 0ac3825b3265711e22f29412c52f9f5ea49467aa191a4036f46e4126447381c6 2184 main/binary-all/Packages
- c1b41715e771104e6deefe138f6f38988aa0fc2e8c00c52d0aac70257ae85053 1008 main/binary-all/Packages.gz
+ cff2be7b4711a8acc40fc3b3fd3ca8e6de3bc8c47f04ca633528af4f92d493e1 2184 main/binary-all/Packages
+ c53b19389b744809229aebf058f3439bfce12d3eb26290eb3bdd555b5a43bf0a 1007 main/binary-all/Packages.gz
 MD5Sum:
- 81e43712fa64f737f515aece82b6d4b7 2184 main/binary-all/Packages
- 4e47e7ceb8951b338e88808c99dfcaf3 1008 main/binary-all/Packages.gz
+ 0a3b55cfaba547988d436b73d47339ed 2184 main/binary-all/Packages
+ 32cfbdc94b6ecb43b470da04e8db6f7a 1007 main/binary-all/Packages.gz

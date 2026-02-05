@@ -1,13 +1,13 @@
 Package: l10n-lint
-Version: 1.12.0
+Version: 1.13.0
 Architecture: all
 Maintainer: Daniel Nylander <daniel@danielnylander.se>
 Depends: python3 (>= 3.9)
-Filename: pool/main/l10n-lint_1.12.0_all.deb
-Size: 37824
-MD5sum: 50f92a4ecbb6e4999c87a5f6222149ca
-SHA1: 676236871be643ee59479596f0d383ec86edfbbc
-SHA256: 68e91d6294d99312f3a0748703090ca2fcf0ce26ce05cc04221a52559b4d9a7b
+Filename: pool/main/l10n-lint_1.13.0_all.deb
+Size: 38980
+MD5sum: c95203ffee0e2d38013246202ad62a77
+SHA1: f71d7f04247d4e612ebd6a63dbbff15ec95ae0dd
+SHA256: a84d8b06d403b05f4954d9daafdebc42946d4b0e39c6219829b0ec4737383ce3
 Section: devel
 Priority: optional
 Description: Linter for localization files (.po, .ts)
