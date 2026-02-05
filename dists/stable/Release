@@ -1,5 +1,5 @@
 Origin: yeager
-Label: Yeager's Translation Tools
+Label: yeager
 Suite: stable
 Codename: stable
 Architectures: all amd64 arm64 i386 armhf
