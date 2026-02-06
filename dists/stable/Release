@@ -5,10 +5,10 @@ Codename: stable
 Architectures: all amd64 arm64 i386 armhf
 Components: main
 Description: Yeager's Debian Repository for Translation Tools
-Date: Fri, 06 Feb 2026 06:11:30 +0000
+Date: Fri, 06 Feb 2026 06:27:55 +0000
 MD5Sum:
- 413e68268e49c0c10aebbf9ce5609440     2511 main/binary-all/Packages
- d161800ebcca0204e72b288c121cc439     1003 main/binary-all/Packages.gz
+ 263769bc031bd823c36405f6e54ea522     1428 main/binary-all/Packages
+ 03329f2101d85516dae3010153bfe281      649 main/binary-all/Packages.gz
 SHA256:
- 89a0473215000879bd3f53867a496ca0a38ad502692caedd83b8ba1657cc4798     2511 main/binary-all/Packages
- 3b730badd42d5292b0c6fa07994951aede8d3cb5c6b4263de950d27db0ced964     1003 main/binary-all/Packages.gz
+ 70ed8ab933b7ce3c3bf59db64619f4ecf668b23fd0a5c4eb0bb7995d5b9a49aa     1428 main/binary-all/Packages
+ 2dae714ef5446a2fff67c9716f683eaa859fdc48fcbeb559af09ebd4ab35b456      649 main/binary-all/Packages.gz
