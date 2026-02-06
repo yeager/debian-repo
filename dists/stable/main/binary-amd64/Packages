@@ -1,13 +1,13 @@
 Package: l10n-lint
-Version: 1.14.3
+Version: 1.14.4
 Architecture: all
 Maintainer: Daniel Nylander <daniel@danielnylander.se>
 Depends: python3 (>= 3.8)
-Filename: pool/main/l10n-lint_1.14.3_all.deb
-Size: 40850
-MD5sum: d1f204636a67342ebd41ea95d7d70328
-SHA1: d8787def3b31c9af269f962a76d6f8fe8464c69e
-SHA256: 1c4a540337df1b04b3ec0d9f0985b25baccfa4fe31836f26b9a47ceb54c871b2
+Filename: pool/main/l10n-lint_1.14.4_all.deb
+Size: 45998
+MD5sum: 8b835dfda8be39c616726c231407ad09
+SHA1: 14ac065297deb8082391eaaaa2b12c7e2ca22cad
+SHA256: 8793641d71ae70f5c6b7aff3addae5deece322bcda8c659a929bd971fbf0c74a
 Section: devel
 Priority: optional
 Homepage: https://github.com/yeager/l10n-lint
@@ -17,21 +17,22 @@ Description: Linter for localization files (.po, .ts)
  Supports gettext .po and Qt .ts formats.
 
 Package: l10n-lint-gtk
-Version: 1.2.3
+Version: 1.2.4
 Architecture: all
 Maintainer: Daniel Nylander <daniel@danielnylander.se>
-Depends: python3 (>= 3.8), l10n-lint (>= 1.14.3), python3-gi, gir1.2-gtk-4.0, gir1.2-adw-1
-Filename: pool/main/l10n-lint-gtk_1.2.3_all.deb
-Size: 12934
-MD5sum: d3ed2311b47e84d89375ede52df6098e
-SHA1: 893c7d42bb45e56421cb2236e72d2fdc6e93cbdb
-SHA256: 237bcd9e2c7c136e5e9be2c04bb13166bab3db56cca72b42248540063d5df2dd
+Depends: python3 (>= 3.8), l10n-lint (>= 1.14.4), python3-gi, gir1.2-gtk-4.0, gir1.2-adw-1
+Filename: pool/main/l10n-lint-gtk_1.2.4_all.deb
+Size: 12944
+MD5sum: ededf052d3a38ae748bdc7faea51a3c1
+SHA1: fa696bd1170799e441cc2ef46efdca14217e3c2d
+SHA256: 2dd5c815e1958c03689d3e8a015f52373ded66df51467b9ac2291fed90b7e289
 Section: devel
 Priority: optional
 Homepage: https://github.com/yeager/l10n-lint
 Description: GTK interface for l10n-lint
  Graphical frontend for the l10n-lint localization file linter.
  Features: rule preferences, metadata panel, drag & drop, export reports.
+ Full Swedish translation.
 
 Package: po-diff
 Version: 1.0.0
