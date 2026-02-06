@@ -8,7 +8,7 @@ Codename: stable
 Architectures: all amd64 arm64 i386 armhf
 Components: main
 Description: Yeager's Translation Tools Repository
-Date: Fri, 06 Feb 2026 09:14:20 +0100
+Date: Fri, 06 Feb 2026 08:25:33 +0000
 MD5Sum:
  18ebc052d265927414d0e586e345fcdb     2850 main/binary-all/Packages
  55433253eae11c78743494ce1be13ec4     1214 main/binary-all/Packages.gz
@@ -17,17 +17,17 @@ SHA256:
  e731c5eebd13b8f7ede1090d243c34fe851878e5bf39d63749266666536b4b2e     1214 main/binary-all/Packages.gz
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAEBCAAdFiEEN5hu++1i1inAzyaO4xjH3j2ofFsFAmmFouIACgkQ4xjH3j2o
-fFuPHA//eUF4erNWBOoqd4yksOZdJOB1/4NXnatZYOVB+dHSckezsaWzF/fc/nEJ
-8yGnIXKfb20GGciOSy373xqcjEZGvYP9eWO2jgFzkc172dnyR2xpvtTyys/nMtpq
-Mw151ltMSFWGYXhADKLVSwLAsKADqOgjdAVZCM/+6ajXmqPamvHTEyuWKKFmCCKW
-ubqqEi9OjjFKFfG4EqM9CL0Re+Qw954eheijAeo9D8bvdFaqalnYykqvecrXC+Aa
-UPjimT3DNwAvX/AxqOd50Q+A05afloOYMSePjdeC2oPG3GhbRMMeA0U3YLeaDuhC
-FdrsJgDLrSCbMctFJeRuObxw+J+QbHQ/VVbvL7xEPI26o64nJKAzXaykfP8TQ6cI
-AtqSOLXvI3oGFjB35qc7FSnD+0Qxm0Lbzm5qDGu3avJp5H829YuOK2h0me1eAJKQ
-RUWJTcVx3slMq8Lor7x+hDXwWoKSBgUzT9mlPVQyP8lQeJ1UMjg5Y9hkc3dQsNwf
-rBgkU9gLVKGppeYPgksh+2+0ZKGUtAS9hB/p4mMTm+YfQAAm36vyTzkVGZ9d+Yv+
-+67rJXpmkuXDmP4ybNsx3gLsOWLIQBnoYvKBf3zEkrNyG1LLpccB1qIqhg+SFPv1
-bSyeIl4bcMejoApAetdDqqcRzlCu6jD0HecWABW4bMuVX5M0994=
-=qCX9
+iQIzBAEBCAAdFiEEN5hu++1i1inAzyaO4xjH3j2ofFsFAmmFpYIACgkQ4xjH3j2o
+fFs+gw//Z7Wps+bMYxlTOSSVLadI9pUsRIOkM1ZmJN6VXMTJ3UG/KeVjwNyUdKF1
+d+SYyLE+Jj2PKdBL6q2RyGPaaUKDfkOzwSyqs5LSJCgL0IC093dn2OedE2zyE3Hb
+I1fp3xsAMT42aFhV7hH54BtE7j/0xp3LiDvNGSAnjXclsq2ODXE+uwVV+nvKxYPo
+Ii9Cn6H75H1Z1nN7ZSSl0ciKUYjH28Bcv1o/9onfLDEExwGvy8ghlTBV9/iHUSBO
+r3D0CE/4++hDbuvoPxadvc85iuW3yxu2PRbSLpCgCPiANuHT/K+AEWewusBk9Y90
+hPLnC//2WwpFP65SNOR20ULAbjpZcmcb5EztCM+xbGTz5gQyfpxLFBc/Ey24lIu1
+BMklX/ALfxGvhU18vhMbTud7ERndhucenM2+v0gyomLmjq4YqsIS4tORMqScpiqb
+4Yd/RDwpsBgV1x53XeEED1Ai0XP6tUpYSxCC+m5OlYtBPZMMnuQuyfw3sAmrKicp
+mG/O3UwMTeR/L+X6VY/l2zVMJVXfeUoz3h3Ed39yA6HOF41dUs1HpOzC1mBP+ARR
+db3549LIZ7WgqlIx2xYnR1QICdKRSMh4FpY4Z7ZMynq4ToHm7WlixCC/KlGMUvXR
+VUQ+ZZG7ygDRUp2xKdt8Afu8yF33jORYZt0CZuVsRvARoAu5oqQ=
+=arZn
 -----END PGP SIGNATURE-----
