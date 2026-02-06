@@ -1,81 +1,72 @@
-Package: l10n-lint
-Version: 1.14.0
-Architecture: all
-Maintainer: Daniel Nylander <daniel@danielnylander.se>
-Depends: python3
-Recommends: l10n-lint-gtk
-Filename: pool/main/l10n-lint_1.14.0_all.deb
-Size: 27092
-MD5sum: fbbfc9e8a4837744a84169c151b9417f
-SHA1: fbfb7fcb30f1ce64fa5903a989e6564e900d1ee4
-SHA256: 068b49b5dd2dd7b6d6d2dc38d91411c73544a821b78710f1a36c17301a8af219
-Section: utils
-Priority: optional
-Description: Linter for localization files (.po, .ts)
- l10n-lint checks gettext .po and Qt .ts localization files for common
- issues like missing translations, fuzzy entries, placeholder mismatches,
- and more. Supports local files, URLs, and GitHub repositories.
-
 Package: l10n-lint-gtk
-Version: 1.2.0
-Architecture: all
-Maintainer: Daniel Nylander <daniel@danielnylander.se>
-Depends: python3, python3-gi, gir1.2-gtk-4.0, gir1.2-adw-1, l10n-lint (>= 1.14.0)
-Filename: pool/main/l10n-lint-gtk_1.2.0_all.deb
-Size: 9768
-MD5sum: 029ee35c680c4e959f53137955f61af0
-SHA1: cf2a143f69b7b2e33057d70b1898101d75686d03
-SHA256: 9a683f25dc9bea73f59e298e6537548eed7c6442bfbd417e6e96bbaad9977ede
-Section: utils
+Version: 1.2.1
+Section: devel
 Priority: optional
-Description: GTK graphical interface for l10n-lint
- A modern GTK4/libadwaita graphical frontend for the l10n-lint localization
- file linter. Features include sidebar history, filter bar, statistics panel,
- report export (HTML/JSON/text), preferences dialog, and keyboard shortcuts.
+Architecture: all
+Depends: python3 (>= 3.8), l10n-lint (>= 1.14.1), python3-gi, gir1.2-gtk-4.0, gir1.2-adw-1
+Maintainer: Daniel Nylander <daniel@danielnylander.se>
+Description: GTK4 graphical interface for l10n-lint
+ A modern GTK4/Adwaita graphical frontend for l10n-lint.
+ Provides a user-friendly interface for linting localization files.
+Homepage: https://github.com/yeager/l10n-lint
+Filename: pool/main/l10n-lint-gtk_1.2.1_all.deb
+Size: 9626
+SHA256: e8fef42756113e415629cb6e465de774fa4234f624c0e20663a44b1e286bf7f6
+
+Package: l10n-lint
+Version: 1.14.1
+Section: devel
+Priority: optional
+Architecture: all
+Depends: python3 (>= 3.8)
+Maintainer: Daniel Nylander <daniel@danielnylander.se>
+Description: Linter for localization files (.po, .ts)
+ l10n-lint checks gettext PO files and Qt TS files for common issues:
+ missing translations, fuzzy entries, placeholder mismatches, length
+ issues, duplicate entries, and syntax errors. Supports linting local
+ files, directories, and remote GitHub repositories.
+Homepage: https://github.com/yeager/l10n-lint
+Filename: pool/main/l10n-lint_1.14.1_all.deb
+Size: 47248
+SHA256: a7642dfe186ffd4ce3da6882ed70b72965164418573ae2957f17192800ebef1d
 
 Package: po-diff
 Version: 1.0.0
-Architecture: all
-Maintainer: Daniel Nylander <daniel@danielnylander.se>
-Depends: python3
-Filename: pool/main/po-diff_1.0.0_all.deb
-Size: 14404
-MD5sum: a48e50a291d2f40f7b2c1051cd54a796
-SHA1: 6c5e0fd4a8e7ec649a6ffd7a9d0d077164436f1b
-SHA256: ae30e9790b84ca6ebb340358eead3ce9a6ce84fbdb7bab8beaeab6c3da3fd37c
 Section: devel
 Priority: optional
+Architecture: all
+Depends: python3
+Maintainer: Daniel Nylander <daniel@danielnylander.se>
 Homepage: https://github.com/yeager/po-diff
 Description: Compare PO/TS translation files
  Shows differences between translation files. 11 languages.
+Filename: pool/main/po-diff_1.0.0_all.deb
+Size: 14404
+SHA256: ae30e9790b84ca6ebb340358eead3ce9a6ce84fbdb7bab8beaeab6c3da3fd37c
 
 Package: po-translate
 Version: 1.4.0
-Architecture: all
-Maintainer: Daniel Nylander <daniel@danielnylander.se>
-Depends: python3
-Filename: pool/main/po-translate_1.4.0_all.deb
-Size: 15420
-MD5sum: 85ff11d8ac9ff8f2eb798b3691e8df25
-SHA1: 8383ae70a21a71c400b00df52b0acaf4341e5815
-SHA256: 3a5edb10a2f8c14d485afd0820532f0231d041b69d3f74563c2de2eacc140303
 Section: devel
 Priority: optional
+Architecture: all
+Depends: python3
+Maintainer: Daniel Nylander <daniel@danielnylander.se>
 Description: Batch translate .po and .ts files
  po-translate translates PO and TS files using AI or free services.
+Filename: pool/main/po-translate_1.4.0_all.deb
+Size: 15420
+SHA256: 3a5edb10a2f8c14d485afd0820532f0231d041b69d3f74563c2de2eacc140303
 
 Package: tp-lint
 Version: 1.8.0
-Architecture: all
-Maintainer: Daniel Nylander <daniel@danielnylander.se>
-Depends: python3, l10n-lint
-Filename: pool/main/tp-lint_1.8.0_all.deb
-Size: 23768
-MD5sum: cd011c4cbb51df6ea556e035b63f6e82
-SHA1: 8ec3ea533ebf68af61644580e6e387a3b4d09e0b
-SHA256: dc2b0da9a62f743efaf485a773a1a7e858066184a594346ba15928e2c6ba2c80
 Section: devel
 Priority: optional
+Architecture: all
+Depends: python3, l10n-lint
+Maintainer: Daniel Nylander <daniel@danielnylander.se>
 Description: Lint PO files from the Translation Project
  tp-lint fetches and lints PO files from translationproject.org.
+Filename: pool/main/tp-lint_1.8.0_all.deb
+Size: 23768
+SHA256: dc2b0da9a62f743efaf485a773a1a7e858066184a594346ba15928e2c6ba2c80
 

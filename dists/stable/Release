@@ -1,14 +1,14 @@
-Origin: yeager
-Label: yeager
+Origin: Yeager
+Label: Yeager's Translation Tools
 Suite: stable
 Codename: stable
 Architectures: all amd64 arm64 i386 armhf
 Components: main
-Description: Yeager's Debian repository
-Date: Thu, 05 Feb 2026 20:34:53 +0000
-SHA256:
- a8c720f247151edfc7188d451cefc2cd9570afe70efa42db330ac8ad62b9d23c 2919 main/binary-all/Packages
- b30243ccb279bc2dc7f7288625a6d8d6f82699c0cccd030c64c5eac83db44a94 1318 main/binary-all/Packages.gz
+Description: Yeager's Debian Repository for Translation Tools
+Date: Fri, 06 Feb 2026 06:11:30 +0000
 MD5Sum:
- d26b9e0230a247c192c57106ae1f1e59 2919 main/binary-all/Packages
- 44bd0568e107dee68a2dab49bb1a90d4 1318 main/binary-all/Packages.gz
+ 413e68268e49c0c10aebbf9ce5609440     2511 main/binary-all/Packages
+ d161800ebcca0204e72b288c121cc439     1003 main/binary-all/Packages.gz
+SHA256:
+ 89a0473215000879bd3f53867a496ca0a38ad502692caedd83b8ba1657cc4798     2511 main/binary-all/Packages
+ 3b730badd42d5292b0c6fa07994951aede8d3cb5c6b4263de950d27db0ced964     1003 main/binary-all/Packages.gz
