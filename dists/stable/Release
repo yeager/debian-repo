@@ -3,13 +3,13 @@ Label: Yeager's Translation Tools
 Suite: stable
 Version: 1.0
 Codename: stable
-Date: Fri, 06 Feb 2026 08:26:58 UTC
+Date: Fri, 06 Feb 2026 08:46:42 UTC
 Architectures: amd64 arm64 armhf i386
 Components: main
 Description: Yeager's Translation Tools Repository
 MD5Sum:
- 18ebc052d265927414d0e586e345fcdb     2850 main/binary-all/Packages
- 55433253eae11c78743494ce1be13ec4     1214 main/binary-all/Packages.gz
+ 929a0cd5b314cca1296ad8fca62e8bb5     2903 main/binary-all/Packages
+ d47b7f166e406c090a3c7fc0666f28ce     1219 main/binary-all/Packages.gz
 SHA256:
- 8a79634f79e65af90ed0e3167b07930033c5cc8dfb9faf25e44569a3644d430a     2850 main/binary-all/Packages
- e731c5eebd13b8f7ede1090d243c34fe851878e5bf39d63749266666536b4b2e     1214 main/binary-all/Packages.gz
+ 28dbefcdf77c04a3aa084812773303c56fcc0d20475ee9b5c228a3d49a20be61     2903 main/binary-all/Packages
+ e7777ee17b625876e32524a1c27c2099f35d7ac4ecd40bdf7a8e08d43e839288     1219 main/binary-all/Packages.gz

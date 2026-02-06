@@ -6,29 +6,29 @@ Label: Yeager's Translation Tools
 Suite: stable
 Version: 1.0
 Codename: stable
-Date: Fri, 06 Feb 2026 08:26:58 UTC
+Date: Fri, 06 Feb 2026 08:46:42 UTC
 Architectures: amd64 arm64 armhf i386
 Components: main
 Description: Yeager's Translation Tools Repository
 MD5Sum:
- 18ebc052d265927414d0e586e345fcdb     2850 main/binary-all/Packages
- 55433253eae11c78743494ce1be13ec4     1214 main/binary-all/Packages.gz
+ 929a0cd5b314cca1296ad8fca62e8bb5     2903 main/binary-all/Packages
+ d47b7f166e406c090a3c7fc0666f28ce     1219 main/binary-all/Packages.gz
 SHA256:
- 8a79634f79e65af90ed0e3167b07930033c5cc8dfb9faf25e44569a3644d430a     2850 main/binary-all/Packages
- e731c5eebd13b8f7ede1090d243c34fe851878e5bf39d63749266666536b4b2e     1214 main/binary-all/Packages.gz
+ 28dbefcdf77c04a3aa084812773303c56fcc0d20475ee9b5c228a3d49a20be61     2903 main/binary-all/Packages
+ e7777ee17b625876e32524a1c27c2099f35d7ac4ecd40bdf7a8e08d43e839288     1219 main/binary-all/Packages.gz
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAEBCAAdFiEEN5hu++1i1inAzyaO4xjH3j2ofFsFAmmFpdcACgkQ4xjH3j2o
-fFv8Xg//Yw1+pXVi9rA1uOEK2nZEwD1IUMLzSjfmZf/6C8WLupUzdVj6ipe6QWnP
-/duMMhDEl33QAfRwPLKoKVLzk6xrcYU6qzbDjZyTb80fligbQgJ5tqULd52jc5eQ
-+dn0zY+pY+Tm+IQNV0lfbXJ48KncpiYF6sdnRAdWWYaakSjTAWJ4l+p+Zif7GQim
-WUaFfrp7L19BWQ37mehteQaFPfnHA5RfI+cciZiEBdM8pexmDtneTbpqRuyhuptI
-fshymT6QMsyQsmgnmSK7sn2kJKNJGSmDDefXAmqc6hkqyfGbvDil0MilwZjfSin0
-ma41eH/XOfVwHmU4viCtq8YCnlijE9sxHT47LBrimypCNoyHR5qi0bmZpqJm4W9p
-CBsXtNv5KO5HaPC65e/9X4Bpd+JV6n93nqQT9ELgRbd9pKRabO0pEiHsaQ7Q54yr
-lhCoAVUT/aSCPY0qFk4pu0EzGmTU6DgOG01Q2Nv1xgGfpFZgFLxmj1cWVwA7aubC
-HI/iL0b7pUNUdn0MCnnuvxqSnOum+Um695q1X+nDRL28iB3SqTjeV9kN0tEJ3MOe
-pqxfJGSqOveki56VBs+U1BcM4fYjK3tJkLXBlzAJ3MwMjPTbED9Mff+/wqqWIHvw
-RlibpnOyGt/5nqxnZ1xdXITOgelJfBZ6q/vi/oStChjPqqP4ueI=
-=KoUY
+iQIzBAEBCAAdFiEEN5hu++1i1inAzyaO4xjH3j2ofFsFAmmFqnIACgkQ4xjH3j2o
+fFuxJw/9FkfH1Fi2tkGUNI1/r6M4btLh/1cUM6sNL1dYKRrLXxChXqaF5O8NFVcz
+bj7ikVAKOyJRErCUUCusv0VAzSpp9poKAy1vePUTEPGxutQzVWUHNnEIN1RUQbMU
+3xGY1Uiw/xuD5KF1skzK3EHTV064i809pudflZMG38c/S9thOEb4/cuIm9+Fv8wo
+baJ274JXcd+YrTBjRPKrjnObSTNk5p3+4jpKqly91NZFlmuiiytgnDAHhRGzmmtx
+pmYIw6Yf3oj4CISl3jBFocFS4A39U28VrNw5AwxxuBXKBAFMhzgjiPZU+KXP3p3d
+cehmoGh96jCm/slULacyWm2ODfW7kPrcap3ha3CQYE92WHJ5n9dqaMJ8mnHicRPP
+MIMU2bYLx+EnYl4E154oxrtzSb+j3bd7KrnwGf/FxDpjACHcczdj1oeQZ5h8cM3U
+9lr6fxm5w0yOMj3M3hbQnW3P587ju5Nj65RAB0i0RrwqByUbJPlXDjYBisust4bj
+9ywbdzRO77io+2k6QSFues+2+Ylah6YSUxP8S6FoW75CHAuscQIXc98tl4rq9AbI
+ptPw5onUkkfIcyrQ5jz7046rT/vOJQsVdac2prp0oBy0Es/CeNsWqXHc7ongE75y
+5BaJXOntMyFpRY9Tzmh2BWiJ2ogcL5jSlliNWqXHKAqdOa8Av2U=
+=mvQp
 -----END PGP SIGNATURE-----

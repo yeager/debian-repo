@@ -37,17 +37,18 @@ Package: po-diff
 Version: 1.0.0
 Architecture: all
 Maintainer: Daniel Nylander <daniel@danielnylander.se>
-Depends: python3
+Depends: python3 (>= 3.8)
 Filename: pool/main/po-diff_1.0.0_all.deb
-Size: 14404
-MD5sum: a48e50a291d2f40f7b2c1051cd54a796
-SHA1: 6c5e0fd4a8e7ec649a6ffd7a9d0d077164436f1b
-SHA256: ae30e9790b84ca6ebb340358eead3ce9a6ce84fbdb7bab8beaeab6c3da3fd37c
+Size: 13816
+MD5sum: 5a6607e153ca1025b0c5eaf7c5efa7ba
+SHA1: 74ff93280d6b0591b61cf12a2f4bd7ec7d9cd205
+SHA256: 22d87bddcaf2fd66afb9179fbc5d9ae0e043157f06b2388d360132e1c7248918
 Section: devel
 Priority: optional
 Homepage: https://github.com/yeager/po-diff
 Description: Compare PO/TS translation files
- Shows differences between translation files. 11 languages.
+ Shows differences between two versions of translation files.
+ Supports gettext .po and Qt .ts formats.
 
 Package: po-translate
 Version: 1.4.0
