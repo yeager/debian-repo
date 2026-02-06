@@ -4,11 +4,12 @@ Hash: SHA256
 Origin: Yeager's Translation Tools
 Label: Yeager's Translation Tools
 Suite: stable
+Version: 1.0
 Codename: stable
-Architectures: all amd64 arm64 i386 armhf
+Date: Fri, 06 Feb 2026 08:26:58 UTC
+Architectures: amd64 arm64 armhf i386
 Components: main
 Description: Yeager's Translation Tools Repository
-Date: Fri, 06 Feb 2026 08:25:33 +0000
 MD5Sum:
  18ebc052d265927414d0e586e345fcdb     2850 main/binary-all/Packages
  55433253eae11c78743494ce1be13ec4     1214 main/binary-all/Packages.gz
@@ -17,17 +18,17 @@ SHA256:
  e731c5eebd13b8f7ede1090d243c34fe851878e5bf39d63749266666536b4b2e     1214 main/binary-all/Packages.gz
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAEBCAAdFiEEN5hu++1i1inAzyaO4xjH3j2ofFsFAmmFpYIACgkQ4xjH3j2o
-fFs+gw//Z7Wps+bMYxlTOSSVLadI9pUsRIOkM1ZmJN6VXMTJ3UG/KeVjwNyUdKF1
-d+SYyLE+Jj2PKdBL6q2RyGPaaUKDfkOzwSyqs5LSJCgL0IC093dn2OedE2zyE3Hb
-I1fp3xsAMT42aFhV7hH54BtE7j/0xp3LiDvNGSAnjXclsq2ODXE+uwVV+nvKxYPo
-Ii9Cn6H75H1Z1nN7ZSSl0ciKUYjH28Bcv1o/9onfLDEExwGvy8ghlTBV9/iHUSBO
-r3D0CE/4++hDbuvoPxadvc85iuW3yxu2PRbSLpCgCPiANuHT/K+AEWewusBk9Y90
-hPLnC//2WwpFP65SNOR20ULAbjpZcmcb5EztCM+xbGTz5gQyfpxLFBc/Ey24lIu1
-BMklX/ALfxGvhU18vhMbTud7ERndhucenM2+v0gyomLmjq4YqsIS4tORMqScpiqb
-4Yd/RDwpsBgV1x53XeEED1Ai0XP6tUpYSxCC+m5OlYtBPZMMnuQuyfw3sAmrKicp
-mG/O3UwMTeR/L+X6VY/l2zVMJVXfeUoz3h3Ed39yA6HOF41dUs1HpOzC1mBP+ARR
-db3549LIZ7WgqlIx2xYnR1QICdKRSMh4FpY4Z7ZMynq4ToHm7WlixCC/KlGMUvXR
-VUQ+ZZG7ygDRUp2xKdt8Afu8yF33jORYZt0CZuVsRvARoAu5oqQ=
-=arZn
+iQIzBAEBCAAdFiEEN5hu++1i1inAzyaO4xjH3j2ofFsFAmmFpdcACgkQ4xjH3j2o
+fFv8Xg//Yw1+pXVi9rA1uOEK2nZEwD1IUMLzSjfmZf/6C8WLupUzdVj6ipe6QWnP
+/duMMhDEl33QAfRwPLKoKVLzk6xrcYU6qzbDjZyTb80fligbQgJ5tqULd52jc5eQ
++dn0zY+pY+Tm+IQNV0lfbXJ48KncpiYF6sdnRAdWWYaakSjTAWJ4l+p+Zif7GQim
+WUaFfrp7L19BWQ37mehteQaFPfnHA5RfI+cciZiEBdM8pexmDtneTbpqRuyhuptI
+fshymT6QMsyQsmgnmSK7sn2kJKNJGSmDDefXAmqc6hkqyfGbvDil0MilwZjfSin0
+ma41eH/XOfVwHmU4viCtq8YCnlijE9sxHT47LBrimypCNoyHR5qi0bmZpqJm4W9p
+CBsXtNv5KO5HaPC65e/9X4Bpd+JV6n93nqQT9ELgRbd9pKRabO0pEiHsaQ7Q54yr
+lhCoAVUT/aSCPY0qFk4pu0EzGmTU6DgOG01Q2Nv1xgGfpFZgFLxmj1cWVwA7aubC
+HI/iL0b7pUNUdn0MCnnuvxqSnOum+Um695q1X+nDRL28iB3SqTjeV9kN0tEJ3MOe
+pqxfJGSqOveki56VBs+U1BcM4fYjK3tJkLXBlzAJ3MwMjPTbED9Mff+/wqqWIHvw
+RlibpnOyGt/5nqxnZ1xdXITOgelJfBZ6q/vi/oStChjPqqP4ueI=
+=KoUY
 -----END PGP SIGNATURE-----
