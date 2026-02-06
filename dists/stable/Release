@@ -6,26 +6,26 @@ Codename: stable
 Architectures: amd64 arm64 armhf i386 all
 Components: main
 Description: Yeager's Translation Tools Repository
-Date: Fri, 06 Feb 2026 11:27:18 UTC
+Date: Fri, 06 Feb 2026 11:36:59 UTC
 MD5Sum:
- 481119ed5caede582ced1fee6856e1c4     2787 main/binary-all/Packages
- 375726120a351f5d108ae5db96fd92bb     1176 main/binary-all/Packages.gz
- 481119ed5caede582ced1fee6856e1c4     2787 main/binary-amd64/Packages
- 375726120a351f5d108ae5db96fd92bb     1176 main/binary-amd64/Packages.gz
- 481119ed5caede582ced1fee6856e1c4     2787 main/binary-arm64/Packages
- 375726120a351f5d108ae5db96fd92bb     1176 main/binary-arm64/Packages.gz
- 481119ed5caede582ced1fee6856e1c4     2787 main/binary-armhf/Packages
- 375726120a351f5d108ae5db96fd92bb     1176 main/binary-armhf/Packages.gz
- 481119ed5caede582ced1fee6856e1c4     2787 main/binary-i386/Packages
- 375726120a351f5d108ae5db96fd92bb     1176 main/binary-i386/Packages.gz
+ f5144ff6da1bad0086c9d2008cdce323     2787 main/binary-all/Packages
+ 6c05e8ba24b515c0e35c036e2dafd986     1171 main/binary-all/Packages.gz
+ f5144ff6da1bad0086c9d2008cdce323     2787 main/binary-amd64/Packages
+ 6c05e8ba24b515c0e35c036e2dafd986     1171 main/binary-amd64/Packages.gz
+ f5144ff6da1bad0086c9d2008cdce323     2787 main/binary-arm64/Packages
+ 6c05e8ba24b515c0e35c036e2dafd986     1171 main/binary-arm64/Packages.gz
+ f5144ff6da1bad0086c9d2008cdce323     2787 main/binary-armhf/Packages
+ 6c05e8ba24b515c0e35c036e2dafd986     1171 main/binary-armhf/Packages.gz
+ f5144ff6da1bad0086c9d2008cdce323     2787 main/binary-i386/Packages
+ 6c05e8ba24b515c0e35c036e2dafd986     1171 main/binary-i386/Packages.gz
 SHA256:
- 1cd451a7f4aca2290598e9453fe813bbc14e5e774cace34f75133d265de6de48     2787 main/binary-all/Packages
- 6d47c158ea33cbf24cf3f40bd2c24db8b2436ccff7f9492a604021fc9a997733     1176 main/binary-all/Packages.gz
- 1cd451a7f4aca2290598e9453fe813bbc14e5e774cace34f75133d265de6de48     2787 main/binary-amd64/Packages
- 6d47c158ea33cbf24cf3f40bd2c24db8b2436ccff7f9492a604021fc9a997733     1176 main/binary-amd64/Packages.gz
- 1cd451a7f4aca2290598e9453fe813bbc14e5e774cace34f75133d265de6de48     2787 main/binary-arm64/Packages
- 6d47c158ea33cbf24cf3f40bd2c24db8b2436ccff7f9492a604021fc9a997733     1176 main/binary-arm64/Packages.gz
- 1cd451a7f4aca2290598e9453fe813bbc14e5e774cace34f75133d265de6de48     2787 main/binary-armhf/Packages
- 6d47c158ea33cbf24cf3f40bd2c24db8b2436ccff7f9492a604021fc9a997733     1176 main/binary-armhf/Packages.gz
- 1cd451a7f4aca2290598e9453fe813bbc14e5e774cace34f75133d265de6de48     2787 main/binary-i386/Packages
- 6d47c158ea33cbf24cf3f40bd2c24db8b2436ccff7f9492a604021fc9a997733     1176 main/binary-i386/Packages.gz
+ 853a7edb25a86ceaba638b0adf0793ea2893d1fb4bc4314bc633708890024eef     2787 main/binary-all/Packages
+ 3596ff0891c7dfa54cedb50ae450c6316d163af2d7bd8709a102b49b5e357816     1171 main/binary-all/Packages.gz
+ 853a7edb25a86ceaba638b0adf0793ea2893d1fb4bc4314bc633708890024eef     2787 main/binary-amd64/Packages
+ 3596ff0891c7dfa54cedb50ae450c6316d163af2d7bd8709a102b49b5e357816     1171 main/binary-amd64/Packages.gz
+ 853a7edb25a86ceaba638b0adf0793ea2893d1fb4bc4314bc633708890024eef     2787 main/binary-arm64/Packages
+ 3596ff0891c7dfa54cedb50ae450c6316d163af2d7bd8709a102b49b5e357816     1171 main/binary-arm64/Packages.gz
+ 853a7edb25a86ceaba638b0adf0793ea2893d1fb4bc4314bc633708890024eef     2787 main/binary-armhf/Packages
+ 3596ff0891c7dfa54cedb50ae450c6316d163af2d7bd8709a102b49b5e357816     1171 main/binary-armhf/Packages.gz
+ 853a7edb25a86ceaba638b0adf0793ea2893d1fb4bc4314bc633708890024eef     2787 main/binary-i386/Packages
+ 3596ff0891c7dfa54cedb50ae450c6316d163af2d7bd8709a102b49b5e357816     1171 main/binary-i386/Packages.gz

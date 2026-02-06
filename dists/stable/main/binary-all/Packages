@@ -1,13 +1,13 @@
 Package: l10n-lint
-Version: 1.14.6
+Version: 1.14.7
 Architecture: all
 Maintainer: Daniel Nylander <daniel@danielnylander.se>
 Depends: python3 (>= 3.8)
-Filename: pool/main/l10n-lint_1.14.6_all.deb
-Size: 45764
-MD5sum: 3c15edad0ea2d8341ac35b6cdaca53dc
-SHA1: b943cbed279082735275ca2dd500bfa515baa84f
-SHA256: e434ca898049662f453fd2a471fc5b54f045c5bcf4a549422bb025d6d2f90f83
+Filename: pool/main/l10n-lint_1.14.7_all.deb
+Size: 45770
+MD5sum: 01e2dc726eeb37b5c63097a9c9efb94b
+SHA1: 261f9b41190e8c4174cb3bd4c564fc8ee5d268bc
+SHA256: ce4f2db26b285fbeb9603ce8f4d4add39b2180cc88c16558a1e504eb91ff10d6
 Section: devel
 Priority: optional
 Homepage: https://github.com/yeager/l10n-lint
@@ -16,15 +16,15 @@ Description: Linter for localization files (.po, .ts)
  placeholder mismatches, and other common issues.
 
 Package: l10n-lint-gtk
-Version: 1.2.6
+Version: 1.2.7
 Architecture: all
 Maintainer: Daniel Nylander <daniel@danielnylander.se>
-Depends: python3 (>= 3.8), l10n-lint (>= 1.14.6), python3-gi, gir1.2-gtk-4.0, gir1.2-adw-1
-Filename: pool/main/l10n-lint-gtk_1.2.6_all.deb
+Depends: python3 (>= 3.8), l10n-lint (>= 1.14.7), python3-gi, gir1.2-gtk-4.0, gir1.2-adw-1
+Filename: pool/main/l10n-lint-gtk_1.2.7_all.deb
 Size: 12898
-MD5sum: 96ed442e2cbdc0f38c9895d09518296d
-SHA1: 8a79bb3c4ebb28fae0efddb75bd24b3cf435bcb9
-SHA256: 40bb76ac05fcbfa403c9923d2a745d28a10f9f21dea6e3ea36ba79b75989c287
+MD5sum: c28c111c59dac89e3f89aaca2f0b2000
+SHA1: 7ced354716f3ea2de0949ef010c4fb8ab2a2fe7f
+SHA256: c872f6c56664d12c19c9ede1c9a5514a3478852c9aba13867eba75e4a11b820f
 Section: devel
 Priority: optional
 Homepage: https://github.com/yeager/l10n-lint
