@@ -1,0 +1,33 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA256
+
+Origin: Yeager
+Label: Yeager's Translation Tools
+Suite: stable
+Codename: stable
+Architectures: all amd64 arm64 i386 armhf
+Components: main
+Description: Yeager's Debian Repository for Translation Tools
+Date: Fri, 06 Feb 2026 06:11:30 +0000
+MD5Sum:
+ 413e68268e49c0c10aebbf9ce5609440     2511 main/binary-all/Packages
+ d161800ebcca0204e72b288c121cc439     1003 main/binary-all/Packages.gz
+SHA256:
+ 89a0473215000879bd3f53867a496ca0a38ad502692caedd83b8ba1657cc4798     2511 main/binary-all/Packages
+ 3b730badd42d5292b0c6fa07994951aede8d3cb5c6b4263de950d27db0ced964     1003 main/binary-all/Packages.gz
+-----BEGIN PGP SIGNATURE-----
+
+iQIzBAEBCAAdFiEEN5hu++1i1inAzyaO4xjH3j2ofFsFAmmFh1oACgkQ4xjH3j2o
+fFs9MQ//eM70cTENvzBfxHI0UxGxkIe8nX39UFaDKg6iRUD/zRjlREVQR4LwRn1m
+TH0Dt5Ga/rLabU7Ee3hS76IsNoQigujn+Br6iNBQBZidR0/qNl1Ot/b6MUzW5ZNk
+2xZx0LhqmU8LtQ/XxMxKK/WnNT2QG+oJok3XdnalTA2xS6AIw/DEvWSRX05bC2r7
+g5PfjowMDO1GgutTrzsc2q5HlqpMhFGnzCFpU/riLiyrhaXGMWSPg0obnKzqVe3B
+Gu/eAJFyH4qem836hIi8swPURKyP+HIaNtafGfftDU9EPrSRFwb3lBKvXqwgPr7I
+2t71p5nc3Qc12VRApR7zkSRYaZoX0CcaHUDXrsjpY6naJc+NjbKzSMWspLL7rgCX
+sre0MOJm5eq901c6GUL26pNRwJBvVzH5fH4RSnasiismDRL0/pYHc6wdXGD8nI6X
+QTWZ9I3d6sfYIPzpr2YfdB7J44qEAz8ywXjusOAwlivzOfq+GzzcDW8BXHVdkzPK
+RGjyaBJ3K3/i9EJSZi1GtZ4QXzuuWGSemcRGUgNa4SZUGdIAyDuj+9TvcFuHfqZB
+z7jR5EnD5tdZ6lU02Q4gJBpcow03ibUcNrsoDN5PEc2CMjeDTNiIHEP8zO5CIzTn
+ojIZfifinlHfaxBGdxafbJRtqAA0BuTzxnH8W9hgYY09KOITeIE=
+=L3iG
+-----END PGP SIGNATURE-----
