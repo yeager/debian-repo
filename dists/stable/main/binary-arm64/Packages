@@ -1,13 +1,13 @@
 Package: l10n-lint
-Version: 1.14.8
+Version: 1.14.9
 Architecture: all
 Maintainer: Daniel Nylander <daniel@danielnylander.se>
 Depends: python3 (>= 3.8)
-Filename: pool/main/l10n-lint_1.14.8_all.deb
-Size: 46348
-MD5sum: c2f9fd9a20b3a1e066ea3913ece4c2e5
-SHA1: e740a430ac32199721fc8aede7bf5645601aa6ea
-SHA256: 93d376619c7ddf63c2194396b48d95ad82edbbc6b8aac5fd53dd46212e69e26f
+Filename: pool/main/l10n-lint_1.14.9_all.deb
+Size: 43246
+MD5sum: 26818baf66ba88cfe802b538e11743d3
+SHA1: ed3d027824b614d14c58c06eb4991f6a80c39b0c
+SHA256: 4d8d709df0d21575262ab7966b91fd5bbc85944c8d71004ae3b0eab9934449f2
 Section: devel
 Priority: optional
 Homepage: https://github.com/yeager/l10n-lint
@@ -15,15 +15,15 @@ Description: Linter for localization files (.po, .ts)
  Check translation files for common issues.
 
 Package: l10n-lint-gtk
-Version: 1.2.8
+Version: 1.2.9
 Architecture: all
 Maintainer: Daniel Nylander <daniel@danielnylander.se>
-Depends: python3 (>= 3.8), l10n-lint (>= 1.14.8), python3-gi, gir1.2-gtk-4.0, gir1.2-adw-1
-Filename: pool/main/l10n-lint-gtk_1.2.8_all.deb
-Size: 12888
-MD5sum: 9ca09b5471cb61c777a88900cd6d2b9d
-SHA1: 146b3c1222963a9230ed18c7a834b0f4a8fa7b9b
-SHA256: 6256ece757db79f056a4f6eed964ec1e3d4aa7d396d473dde051635ec23a9cda
+Depends: python3 (>= 3.8), l10n-lint (>= 1.14.9), python3-gi, gir1.2-gtk-4.0, gir1.2-adw-1
+Filename: pool/main/l10n-lint-gtk_1.2.9_all.deb
+Size: 13010
+MD5sum: 57a387cfc6da91c9f313f4ef2abe0efc
+SHA1: 5c571a9370483ebd8452302d77224d8bcc18c5d0
+SHA256: d28cd3bdb8effe434210b89efddc6817d032272fa8f880f44c6d5b9412511c99
 Section: devel
 Priority: optional
 Homepage: https://github.com/yeager/l10n-lint
@@ -75,4 +75,3 @@ Section: devel
 Priority: optional
 Description: Lint PO files from the Translation Project
  tp-lint fetches and lints PO files from translationproject.org.
-

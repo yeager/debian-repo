@@ -20,8 +20,8 @@ sudo apt install l10n-lint l10n-lint-gtk po-translate po-diff tp-lint
 
 | Package | Version | Description |
 |---------|---------|-------------|
-| **l10n-lint** | 1.14.3 | Linter for localization files (.po, .ts) |
-| **l10n-lint-gtk** | 1.2.3 | GTK4 graphical interface for l10n-lint |
+| **l10n-lint** | 1.14.9 | Linter for localization files (.po, .ts) |
+| **l10n-lint-gtk** | 1.2.9 | GTK4 graphical interface for l10n-lint |
 | **po-translate** | 1.4.0 | Batch translate PO and TS files |
 | **po-diff** | 1.0.0 | Compare and diff PO files |
 | **tp-lint** | 1.8.0 | Translation Project linter and statistics |
