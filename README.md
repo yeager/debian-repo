@@ -25,7 +25,7 @@ sudo apt install l10n-lint l10n-lint-gtk po-translate po-diff tp-lint linguaedit
 | **po-translate** | 1.4.0 | Batch translate PO and TS files |
 | **po-diff** | 1.0.0 | Compare and diff PO files |
 | **tp-lint** | 1.8.0 | Translation Project linter and statistics |
-| **linguaedit** | 0.2.0 | GTK4 translation file editor for PO, TS, and JSON |
+| **linguaedit** | 0.3.0 | GTK4 translation file editor for PO, TS, JSON, XLIFF, Android, ARB, PHP, YAML |
 
 ## GPG Signing
 
