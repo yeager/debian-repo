@@ -13,7 +13,7 @@ echo 'deb [signed-by=/usr/share/keyrings/yeager.gpg] https://yeager.github.io/de
 
 # Update and install
 sudo apt update
-sudo apt install l10n-lint l10n-lint-gtk po-translate po-diff tp-lint
+sudo apt install l10n-lint l10n-lint-gtk po-translate po-diff tp-lint traduco
 ```
 
 ## Available Packages
@@ -25,6 +25,7 @@ sudo apt install l10n-lint l10n-lint-gtk po-translate po-diff tp-lint
 | **po-translate** | 1.4.0 | Batch translate PO and TS files |
 | **po-diff** | 1.0.0 | Compare and diff PO files |
 | **tp-lint** | 1.8.0 | Translation Project linter and statistics |
+| **traduco** | 0.2.0 | GTK4 translation file editor for PO, TS, and JSON |
 
 ## GPG Signing
 
@@ -60,10 +61,11 @@ sudo dnf install l10n-lint po-translate
 | po-translate | [github.com/yeager/po-translate](https://github.com/yeager/po-translate) |
 | po-diff | [github.com/yeager/po-diff](https://github.com/yeager/po-diff) |
 | tp-lint | [github.com/yeager/tp-lint](https://github.com/yeager/tp-lint) |
+| traduco | [github.com/yeager/traduco](https://github.com/yeager/traduco) |
 
 ## License
 
 All packages are GPL-3.0-or-later.
 
 ---
-*Last updated: 2026-02-06*
+*Last updated: 2026-02-07*
