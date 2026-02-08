@@ -1,22 +1,3 @@
-Package: kodi-addon-service-subtitletranslator
-Version: 0.9.1
-Architecture: all
-Maintainer: Daniel Nylander <daniel@danielnylander.se>
-Depends: kodi
-Recommends: ffmpeg
-Section: video
-Priority: optional
-Homepage: https://github.com/yeager/kodi-subtitle-translator
-Description: Subtitle Translator for Kodi
-Automatically translates embedded and external subtitles when no
-subtitle is available in the user's preferred language. Supports
-DeepL, LibreTranslate, Google Translate, OpenAI, Anthropic, and more.
-Filename: pool/main/kodi-addon-service-subtitletranslator_0.9.1_all.deb
-Size: 392960
-MD5sum: c0e0ffb461b7801ba4749d094c0215a3
-SHA1: f1d057d94e51482b69433081b600b7b61e095bd4
-SHA256: 5bbb38714291bafdafac090660d095e6fc9fd145eb9ed73f88b3c4f7c35fdd40
-
 Package: l10n-lint-gtk
 Version: 1.2.9
 Section: devel
