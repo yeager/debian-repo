@@ -4,6 +4,7 @@ Hash: SHA256
 Origin: Yeager
 Label: Yeager's Translation Tools
 Suite: stable
+Version: 1.0
 Codename: stable
 Architectures: all amd64 arm64 i386 armhf
 Components: main
@@ -32,17 +33,17 @@ SHA256:
  34fd697baf4aa926ab387cdc7a298676f9ca971cc3834801ed32ec5be405eb3b 1358  main/binary-i386/Packages.gz
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAEBCAAdFiEEN5hu++1i1inAzyaO4xjH3j2ofFsFAmmISloACgkQ4xjH3j2o
-fFsi4w//ZNYyL0Kmyha9/DJQAf3gD+0UgWNDqN0go8xNnfg+6U8jht6D83vv0I+g
-4lU6zWEzdttTlvAbWkhbJRig0zbm0eSeWuhFJR84fQFkDg8/u/xKftr5TgGUvkFM
-azbtMsRApgD3S12xPxqapDoe01XAefdEJtwi5XQxKDbUi5LX4VhzIORcHQ+ifrRk
-Ar3Cs9QbITad1P+ePd3nID+9Wc6khx+pVJmbIdvqRpuWboy7kODPdgMukU9u+Ac+
-yv7879ZXvz388kYIGgljwOqeLaMimoTi+MMfJGw7zTFnU1Hdc5ZOGzywt+dISPmd
-oAanzXrPOxZwjRiMbc29wKJg5q+GHDddgzGVMUmjoV3AMGqA4KS7S98igavtZjiQ
-YAZINIPU2BoBXklWuykcytM1qHGlb1/jeWjF9/vjdJSu/b2S7AsDT483dYcnjlcg
-NV2z8rsCcycv3SBHkBNoki/wcZ9UXouBufO+mNQMV4ShAI8DVDY8szM7ZqwIO1J0
-fPtdg+3YEs6dUWKuYWMup9kNpZe25ae3Rxtb9MFK7728L5M4LBvf78q74CesQ6VY
-pFDT2AeiniTof2x42FSRLMjxvgfVY5p5N53Yrn0xpKZ28rYb65FomA5K10/wXVnH
-AkYc7irQcmz2SPLia+n2+KUZ+5MnxO7Ko85IM4RsUcDXB6b9pO4=
-=Fttu
+iQIzBAEBCAAdFiEEN5hu++1i1inAzyaO4xjH3j2ofFsFAmmISqwACgkQ4xjH3j2o
+fFtZ4w//cK1IkwWZnmL5Xu6Y6JYrZGIcRvjUGt+KQUcYfFuJyrvyWz0gBR7HTMSv
++RdoeXn3/SwibsKmNHUbITEj1BNzmY2BZ3FzzliASfYfIOSWVI1/AE+GTSat+VqL
+9l6EdlZkqytwcniXeIcwNGILwIpPZ0T86sr6qPoJ1iOAcatxlctuWnsvhSGfxWTX
+ni6lfb9URWp4L5SnPboaHs+Q6WPXgJXx5yQGI+bQ0WVRxdp0f63e+aEC/O++NxP6
+PizJAdtCA0PWUPqm9lOS0wJykkXcwYGJX9P2cO24X+eYV0wmRKZLfq1JSoqKGSXZ
+mVS/IQXNEPKZNOOfPA48kfdBfcZgJvTSfuHufdokjr5wcoGli6bCDo3LBr3OaMCJ
+5Lm5yuaB+5eHOw1pV8FWCnWlX3XuhzwyEMVZRYhnH00vIaAh2c8KMy/0RJ9dCppZ
+ecKHvgBz/kBLUsZtLV5h+1dDsYE1Wuay/JPy2U9XQivIeCScPvUfnT7Zox5Lp5D4
+lUV/KncXcb0qrIPkG2ybis2wrfM534qCX55KzN2spdDYU6MmtMolA2d9N4z4HllF
+o6DP2DdzlZZj8TWKjZSMvQm+ujxTSYZgo3w5bmGFSWxT5mkaKNULm3RsWlZwbw3A
+qut02Xwfbr3F7JL7ngyMfImT8aWbxmeU8BxyRkvi5Cv1cZW9xqs=
+=7WFo
 -----END PGP SIGNATURE-----

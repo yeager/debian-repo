@@ -1,6 +1,7 @@
 Origin: Yeager
 Label: Yeager's Translation Tools
 Suite: stable
+Version: 1.0
 Codename: stable
 Architectures: all amd64 arm64 i386 armhf
 Components: main
