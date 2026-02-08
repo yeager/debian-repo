@@ -35,10 +35,10 @@ Architecture: all
 Maintainer: Daniel Nylander <daniel@danielnylander.se>
 Depends: python3 (>= 3.10), python3-pyside6
 Filename: pool/main/linguaedit_0.4.0_all.deb
-Size: 54376
-MD5sum: 85e116818ccd284d1600e0e075cdf591
-SHA1: 711ccca0e1d575e816b06e98ae2ad9b6a9398c57
-SHA256: b6a8f17e5ca785816ca996b9ef04aec6a99e2e8d1b625db27b6ab52a974c6eed
+Size: 54432
+MD5sum: 0d512c30639239c37a3bfd3f04959ebd
+SHA1: d8b631e1d666c5751350ecb7ed96675deab51036
+SHA256: 25261fec2ca0118c31cec74381f22f0a3f9d29d58a31626995c54f67818ce777
 Section: devel
 Priority: optional
 Homepage: https://github.com/yeager/linguaedit
