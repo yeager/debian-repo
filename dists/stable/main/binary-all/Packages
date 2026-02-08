@@ -30,23 +30,22 @@ Homepage: https://github.com/yeager/l10n-lint
 Description: GTK interface for l10n-lint
 
 Package: linguaedit
-Version: 0.4.0
+Version: 0.4.1
 Architecture: all
-Maintainer: Daniel Nylander <daniel@danielnylander.se>
+Maintainer: Daniel Nylander <po@danielnylander.se>
 Depends: python3 (>= 3.10), python3-pyside6
-Filename: pool/main/linguaedit_0.4.0_all.deb
-Size: 54432
-MD5sum: 0d512c30639239c37a3bfd3f04959ebd
-SHA1: d8b631e1d666c5751350ecb7ed96675deab51036
-SHA256: 25261fec2ca0118c31cec74381f22f0a3f9d29d58a31626995c54f67818ce777
+Filename: pool/main/linguaedit_0.4.1_all.deb
+Size: 53406
+MD5sum: 2603225bb520f061b6b4ccbb0aa33fd5
+SHA1: c97fd9bcbc6e237d47c112fb4a56744194af4807
+SHA256: a8022ef9b39e7a2ca17af46dbfe9c8bbff5509fc9b5b2aa3ca4c1a50d35eaa02
 Section: devel
 Priority: optional
 Homepage: https://github.com/yeager/linguaedit
-Description: Translation file editor
- LinguaEdit is a translation file editor supporting PO, XLIFF, TS,
- JSON, YAML, ARB, PHP, and Android XML formats.
- Built with PySide6/Qt6.
-License: GPL-3.0
+Description: Qt6 translation file editor
+ A PySide6-based editor for PO, TS, JSON, XLIFF, Android XML,
+ ARB, PHP, and YAML translation files.
+License: GPL-3.0-or-later
 
 Package: po-diff
 Version: 1.0.0
