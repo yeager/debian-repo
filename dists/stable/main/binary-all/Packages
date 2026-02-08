@@ -1,97 +1,97 @@
-Package: l10n-lint-gtk
-Version: 1.2.9
-Section: devel
-Priority: optional
-Architecture: all
-Depends: python3 (>= 3.8), l10n-lint (>= 1.14.9), python3-gi, gir1.2-gtk-4.0, gir1.2-adw-1
-Maintainer: Daniel Nylander <daniel@danielnylander.se>
-Homepage: https://github.com/yeager/l10n-lint
-Description: GTK interface for l10n-lint
-Filename: pool/main/l10n-lint-gtk_1.2.9_all.deb
-Size: 13010
-MD5sum: 57a387cfc6da91c9f313f4ef2abe0efc
-SHA1: 5c571a9370483ebd8452302d77224d8bcc18c5d0
-SHA256: d28cd3bdb8effe434210b89efddc6817d032272fa8f880f44c6d5b9412511c99
-
 Package: l10n-lint
 Version: 1.14.9
-Section: devel
-Priority: optional
 Architecture: all
-Depends: python3 (>= 3.8)
 Maintainer: Daniel Nylander <daniel@danielnylander.se>
-Homepage: https://github.com/yeager/l10n-lint
-Description: Linter for localization files (.po, .ts)
-Check translation files for common issues.
+Depends: python3 (>= 3.8)
 Filename: pool/main/l10n-lint_1.14.9_all.deb
 Size: 43246
 MD5sum: 26818baf66ba88cfe802b538e11743d3
 SHA1: ed3d027824b614d14c58c06eb4991f6a80c39b0c
 SHA256: 4d8d709df0d21575262ab7966b91fd5bbc85944c8d71004ae3b0eab9934449f2
-
-Package: linguaedit
-Version: 0.3.0
 Section: devel
 Priority: optional
+Homepage: https://github.com/yeager/l10n-lint
+Description: Linter for localization files (.po, .ts)
+ Check translation files for common issues.
+
+Package: l10n-lint-gtk
+Version: 1.2.9
 Architecture: all
-Depends: python3 (>= 3.10), python3-gi, gir1.2-gtk-4.0, gir1.2-adw-1
-Maintainer: Daniel Nylander <po@danielnylander.se>
-Description: GTK4 translation file editor
-LinguaEdit is a GTK4-based editor for PO, TS, JSON, XLIFF,
-Android XML, ARB, PHP, and YAML translation files with linting,
-translation memory, glossary, QA profiles, and platform integration.
+Maintainer: Daniel Nylander <daniel@danielnylander.se>
+Depends: python3 (>= 3.8), l10n-lint (>= 1.14.9), python3-gi, gir1.2-gtk-4.0, gir1.2-adw-1
+Filename: pool/main/l10n-lint-gtk_1.2.9_all.deb
+Size: 13010
+MD5sum: 57a387cfc6da91c9f313f4ef2abe0efc
+SHA1: 5c571a9370483ebd8452302d77224d8bcc18c5d0
+SHA256: d28cd3bdb8effe434210b89efddc6817d032272fa8f880f44c6d5b9412511c99
+Section: devel
+Priority: optional
+Homepage: https://github.com/yeager/l10n-lint
+Description: GTK interface for l10n-lint
+
+Package: linguaedit
+Version: 0.4.0
+Architecture: all
+Maintainer: Daniel Nylander <daniel@danielnylander.se>
+Depends: python3 (>= 3.10), python3-pyside6
+Filename: pool/main/linguaedit_0.4.0_all.deb
+Size: 54376
+MD5sum: 85e116818ccd284d1600e0e075cdf591
+SHA1: 711ccca0e1d575e816b06e98ae2ad9b6a9398c57
+SHA256: b6a8f17e5ca785816ca996b9ef04aec6a99e2e8d1b625db27b6ab52a974c6eed
+Section: devel
+Priority: optional
 Homepage: https://github.com/yeager/linguaedit
-License: GPL-3.0-or-later
-Filename: pool/main/linguaedit_0.3.0_all.deb
-Size: 154578
-MD5sum: 2144195bc6725c84e48478fb88c303ed
-SHA1: 177cb562f7821fbef24f07025f20a08cdb54c124
-SHA256: 8c70e07735ac21fbc76a22d03c46e1a1fdd939c02752a513a29d7017350def64
+Description: Translation file editor
+ LinguaEdit is a translation file editor supporting PO, XLIFF, TS,
+ JSON, YAML, ARB, PHP, and Android XML formats.
+ Built with PySide6/Qt6.
+License: GPL-3.0
 
 Package: po-diff
 Version: 1.0.0
-Section: devel
-Priority: optional
 Architecture: all
-Depends: python3 (>= 3.8)
 Maintainer: Daniel Nylander <daniel@danielnylander.se>
-Homepage: https://github.com/yeager/po-diff
-Description: Compare PO/TS translation files
-Shows differences between two versions of translation files.
-Supports gettext .po and Qt .ts formats.
+Depends: python3 (>= 3.8)
 Filename: pool/main/po-diff_1.0.0_all.deb
 Size: 13816
 MD5sum: 5a6607e153ca1025b0c5eaf7c5efa7ba
 SHA1: 74ff93280d6b0591b61cf12a2f4bd7ec7d9cd205
 SHA256: 22d87bddcaf2fd66afb9179fbc5d9ae0e043157f06b2388d360132e1c7248918
+Section: devel
+Priority: optional
+Homepage: https://github.com/yeager/po-diff
+Description: Compare PO/TS translation files
+ Shows differences between two versions of translation files.
+ Supports gettext .po and Qt .ts formats.
 
 Package: po-translate
 Version: 1.4.0
-Section: devel
-Priority: optional
 Architecture: all
-Depends: python3
 Maintainer: Daniel Nylander <daniel@danielnylander.se>
-Description: Batch translate .po and .ts files
-po-translate translates PO and TS files using AI or free services.
+Depends: python3
 Filename: pool/main/po-translate_1.4.0_all.deb
 Size: 15420
 MD5sum: 85ff11d8ac9ff8f2eb798b3691e8df25
 SHA1: 8383ae70a21a71c400b00df52b0acaf4341e5815
 SHA256: 3a5edb10a2f8c14d485afd0820532f0231d041b69d3f74563c2de2eacc140303
+Section: devel
+Priority: optional
+Description: Batch translate .po and .ts files
+ po-translate translates PO and TS files using AI or free services.
 
 Package: tp-lint
 Version: 1.8.0
-Section: devel
-Priority: optional
 Architecture: all
-Depends: python3, l10n-lint
 Maintainer: Daniel Nylander <daniel@danielnylander.se>
-Description: Lint PO files from the Translation Project
-tp-lint fetches and lints PO files from translationproject.org.
+Depends: python3, l10n-lint
 Filename: pool/main/tp-lint_1.8.0_all.deb
 Size: 23768
 MD5sum: cd011c4cbb51df6ea556e035b63f6e82
 SHA1: 8ec3ea533ebf68af61644580e6e387a3b4d09e0b
 SHA256: dc2b0da9a62f743efaf485a773a1a7e858066184a594346ba15928e2c6ba2c80
+Section: devel
+Priority: optional
+Description: Lint PO files from the Translation Project
+ tp-lint fetches and lints PO files from translationproject.org.
 
