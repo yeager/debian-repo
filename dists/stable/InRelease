@@ -1,3 +1,6 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA256
+
 Origin: Yeager
 Label: Yeager's Translation Tools
 Suite: stable
@@ -27,3 +30,19 @@ SHA256:
  bb3502e2b2ce8a78f4271fdb3c30ef256381d0c2b2c27248030d9bf474e4a734     1697 main/binary-i386/Packages.gz
  8409fbdd984b57d86062cb35ace598b50f5928508d15748764a72b5ab71534e2     4132 main/binary-armhf/Packages
  bb3502e2b2ce8a78f4271fdb3c30ef256381d0c2b2c27248030d9bf474e4a734     1697 main/binary-armhf/Packages.gz
+-----BEGIN PGP SIGNATURE-----
+
+iQIzBAEBCAAdFiEEN5hu++1i1inAzyaO4xjH3j2ofFsFAmmIPe4ACgkQ4xjH3j2o
+fFu+9g//cqs0JP5rQz3kKKil4eAOzuTAhZmatPyYBAXqAAALk5/a3T1mf9Oid5JY
+chy3FuRUDv+PqJ8yGHRednZ5QKzK2RbMh/Q0mkDPpP4iLTI9KOGzVnmFr+8+Cmjg
+LvtkYWkIps2PtN+Ik4jKqf5+oKnVnxuXLEu7LR8mCEz1vSWXXOpinXrdWlJ5v9vS
+6WzOMTZlqRxgz9tV5mRSq9cTeQlsBezi9J/wo+V0QxjdRKfetPRCYTn7WZZQaf9s
+yfaPh1OC0cKeqktH5iTr+RDdUpr6uFNRghHwbTAIOT5RC7hedicxlH1B7uWNLf0s
+povrplnwEsQd4KwwwzrxhpJGv8pA96rVhyhbu/acU2uqU9TWRxCmwgHcIR0OBJiS
+apO2fpjR5E4bz5TiI3OBQsjZOAzAZwc01xV4asxQoG6I0KUtUWUpltV4Ghj85jx5
+NWRr8JoWApebga57xj9TZuAFd+r6huet09Q2xaWAZ6F1PKz4Pho+dsj63iMF7zkY
+f6e/ALtNPfZlumQsNOrho6yi/Rp4tAix9KDHQi0ymVGpqNpJ/1rK4Lh/M5e+SCmk
+eO5gAkKAQLHrpgwPMBAzWNS+Q3pNAvECoZ62VS9jTBBVfQMwL8V/UJanavfAw+cj
+09kcKMYYj/RiYDXKEDxeFfiCO+ywY7E7x6o/Iasw1sKqZyXpw1w=
+=EoSp
+-----END PGP SIGNATURE-----
