@@ -33,12 +33,12 @@ Package: linguaedit
 Version: 0.4.1
 Architecture: all
 Maintainer: Daniel Nylander <po@danielnylander.se>
-Depends: python3 (>= 3.10), python3-pyside6
+Depends: python3 (>= 3.10), python3-pip, python3-venv
 Filename: pool/main/linguaedit_0.4.1_all.deb
-Size: 53406
-MD5sum: 2603225bb520f061b6b4ccbb0aa33fd5
-SHA1: c97fd9bcbc6e237d47c112fb4a56744194af4807
-SHA256: a8022ef9b39e7a2ca17af46dbfe9c8bbff5509fc9b5b2aa3ca4c1a50d35eaa02
+Size: 1022
+MD5sum: a3c8d9a99ad07b404177a98d8283b6b8
+SHA1: b4746cd44f5108b4a2eed27856ee5b59641eb37b
+SHA256: a4eccbdfbf3697688dcd41a526d5362e44b9ed76aa4dc084dfef29b7f2250728
 Section: devel
 Priority: optional
 Homepage: https://github.com/yeager/linguaedit
