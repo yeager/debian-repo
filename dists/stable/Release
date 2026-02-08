@@ -3,17 +3,15 @@ Label: Yeager's Translation Tools
 Suite: stable
 Codename: stable
 Version: 1.0
-Architectures: all amd64 arm64
+Architectures: all
 Components: main
-Description: Yeager's Translation Tools APT Repository
-Date: Sun, 08 Feb 2026 13:29:55 +0000
-SHA256:
- 020690504bcf5e3a220beea4e9eca001fea4a35cd8c278d027f509199826ac95     3009 main/binary-amd64/Packages
- 44f9b0e10d3fd2042ac76a6955e3b87bf33375ff9d7ea57d374056bfb3839153     1203 main/binary-amd64/Packages.gz
- 020690504bcf5e3a220beea4e9eca001fea4a35cd8c278d027f509199826ac95     3009 main/binary-arm64/Packages
- 44f9b0e10d3fd2042ac76a6955e3b87bf33375ff9d7ea57d374056bfb3839153     1203 main/binary-arm64/Packages.gz
+Date: Sun, 08 Feb 2026 14:26:14 UTC
 MD5Sum:
- 30546fe7f953ca18204185893869ead7     3009 main/binary-amd64/Packages
- 0e3cae4147f2a575896c7b4a3982db2d     1203 main/binary-amd64/Packages.gz
- 30546fe7f953ca18204185893869ead7     3009 main/binary-arm64/Packages
- 0e3cae4147f2a575896c7b4a3982db2d     1203 main/binary-arm64/Packages.gz
+ ddee2a56cc67c685bf8bfcb1b79d1c0a 3221 main/binary-all/Packages
+ 5733a3979923216503ea2c34adbc96f2 1350 main/binary-all/Packages.gz
+SHA256:
+ 1b128ca97d7ccb4af86ddd2080aa26ee6aedd959c02c69f3067f17c156527e8c 3221 main/binary-all/Packages
+ 4c87f0b5b574d764b0580276d06288d4c6ea8e6c4e662923483903a8038efa7c 1350 main/binary-all/Packages.gz
+SHA512:
+ d0515546435b5f3120d8d5d5a7f67a287df0cca5511a1ebdfca224e07aa08ffd3cb4d0c18886d5af1c388fba0c32b473cacd627b267c0caee25422782573f569 3221 main/binary-all/Packages
+ 339541aa2ebf9deaf521e14f638117ac4a0fd90e919a6ea005383d03e68209a671ce8d6934187077d5f29ba4d4f8c8dcaf7d1952bb9afe0545944a6b609cabce 1350 main/binary-all/Packages.gz
