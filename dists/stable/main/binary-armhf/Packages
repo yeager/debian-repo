@@ -48,22 +48,20 @@ Description: Professional Qt6 translation file editor
  Apple .strings, Unity, RESX, Java .properties, subtitles, and more.
 
 Package: makebread
-Version: 0.2.0
+Version: 0.3.0
 Architecture: all
 Maintainer: Daniel Nylander <daniel@danielnylander.se>
-Installed-Size: 73
-Depends: python3, python3-pyside6
-Filename: pool/main/makebread_0.2.0_all.deb
-Size: 42612
-MD5sum: 62144fc4c1ecda3b9990540a9265e475
-SHA1: 73777128cfbdfd32c271101f0c40a955aae085de
-SHA256: a5c78499745291360f2a8c973afa860fe794eefa32c27c5ce0fb44c39d7591c2
-Section: default
+Depends: python3 (>= 3.10), python3-pyside6
+Filename: pool/main/makebread_0.3.0_all.deb
+Size: 29024
+MD5sum: 92f8f6b8727eae8479329b3005c94f87
+SHA1: f677da29d45188c7452d6fc1ebdc842c53143b08
+SHA256: 0116a97a5c82ca4cb825d5247a28c824abef075e72fb298bbde9cadab417d063
+Section: utils
 Priority: optional
 Homepage: https://github.com/yeager/makebread
 Description: Bread machine recipe manager
-License: GPL-3.0-or-later
-Vendor: none
+ A simple, clean recipe manager for bread machines built with PySide6/Qt6.
 
 Package: po-diff
 Version: 1.0.0
@@ -112,6 +110,3 @@ Priority: optional
 Description: Lint PO files from the Translation Project
  tp-lint fetches and lints PO files from translationproject.org.
 
-dpkg-scanpackages: warning: Packages in archive but missing from override file:
-dpkg-scanpackages: warning:   l10n-lint l10n-lint-gtk linguaedit makebread po-diff po-translate tp-lint
-dpkg-scanpackages: info: Wrote 7 entries to output Packages file.
