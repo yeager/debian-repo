@@ -6,5 +6,8 @@ Architectures: all amd64 arm64 i386 armhf
 Components: main
 Description: Yeager's Translation Tools Repository
 SHA256:
- 2ec797e20988174289e13c794ea97d244c720192fbc5af809485a95472638625 4689 main/binary-all/Packages
- 31f5d70569e1b7326b832de34a77ec429a8ec1d64137b259ee2a884b112f782e 1764 main/binary-all/Packages.gz
+ 78323014f161b0a253307bd60f95ecad7c84d27bcaabb6e8c37c9c814080ef8c 4439 main/binary-all/Packages
+ 93b76208a9f72011067e860b286fe01a4dc9095702a0fe875d834898f8dfcc75 1664 main/binary-all/Packages.gz
+MD5Sum:
+ 4cad5ec4d13e060e6017ad00720ce1d1 4439 main/binary-all/Packages
+ fadf40f6af70f737fdbf59e192a9b7e4 1664 main/binary-all/Packages.gz
