@@ -36,15 +36,15 @@ Maintainer: Daniel Nylander <daniel@danielnylander.se>
 Depends: python3 (>= 3.10)
 Recommends: ffmpeg, hunspell, python3-polib, python3-yaml
 Filename: pool/main/linguaedit_1.3.0_all.deb
-Size: 582892
-MD5sum: 82df8c226180802de94237b2a2a7e91d
-SHA1: 9abcf4e3e54cc0e07579b6233f17b315bd9ff589
-SHA256: c000caa470364b965f45c4b6e2d35e25d838153cd57676241e23efbb80f07863
+Size: 203528
+MD5sum: 7833560609bfe5806af45e0d885671c6
+SHA1: 6ecca276db02ea65acff9312ded35f8498796518
+SHA256: 34252bac5b9ec89f055117bdf2d2bb4e92c02c38790f4afee8e89e70dfdd23b0
 Section: editors
 Priority: optional
 Homepage: https://github.com/yeager/linguaedit
 Description: Professional translation editor
- A PySide6/Qt6 translation editor supporting 15+ file formats with
+ A PySide6/Qt6 translation editor supporting 17+ file formats with
  translation memory, glossary, AI review, linting, Zen mode, and more.
  PySide6 must be installed via pip: pip install PySide6
 
