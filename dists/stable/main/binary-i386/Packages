@@ -3,7 +3,7 @@ Version: 1.14.9
 Architecture: all
 Maintainer: Daniel Nylander <daniel@danielnylander.se>
 Depends: python3 (>= 3.8)
-Filename: ../../../../pool/main/l10n-lint_1.14.9_all.deb
+Filename: pool/main/l10n-lint_1.14.9_all.deb
 Size: 43246
 MD5sum: 26818baf66ba88cfe802b538e11743d3
 SHA1: ed3d027824b614d14c58c06eb4991f6a80c39b0c
@@ -19,7 +19,7 @@ Version: 1.2.9
 Architecture: all
 Maintainer: Daniel Nylander <daniel@danielnylander.se>
 Depends: python3 (>= 3.8), l10n-lint (>= 1.14.9), python3-gi, gir1.2-gtk-4.0, gir1.2-adw-1
-Filename: ../../../../pool/main/l10n-lint-gtk_1.2.9_all.deb
+Filename: pool/main/l10n-lint-gtk_1.2.9_all.deb
 Size: 13010
 MD5sum: 57a387cfc6da91c9f313f4ef2abe0efc
 SHA1: 5c571a9370483ebd8452302d77224d8bcc18c5d0
@@ -34,7 +34,7 @@ Version: 1.0.0
 Architecture: all
 Maintainer: Daniel Nylander <po@danielnylander.se>
 Depends: python3 (>= 3.10), python3-pip, python3-venv
-Filename: ../../../../pool/main/linguaedit_1.0.0_all.deb
+Filename: pool/main/linguaedit_1.0.0_all.deb
 Size: 158332
 MD5sum: 1863326007dccc3855797da845311116
 SHA1: 8ad7e89d7317d58c8d0fc4e977d46a25d2c680ca
@@ -47,12 +47,31 @@ Description: Professional Qt6 translation file editor
  Supports PO, TS, XLIFF, JSON, YAML, Android XML, ARB, PHP,
  Apple .strings, Unity, RESX, Java .properties, subtitles, and more.
 
+Package: makebread
+Version: 0.1.0
+Architecture: all
+Maintainer: Daniel Nylander <daniel@danielnylander.se>
+Depends: python3 (>= 3.10), python3-pyside6
+Recommends: python3-pyside6
+Filename: pool/main/makebread_0.1.0_all.deb
+Size: 23550
+MD5sum: 513a6f4abf3730d9cb8f32963d6cda2f
+SHA1: 4b2a21c835a4ad07bdd265475ba9b5c136b69726
+SHA256: 22de51a0ec715f22a92ebc8850d3631c5bd4672643a13ec98cf37f4bfd67c8f3
+Section: utils
+Priority: optional
+Homepage: https://github.com/yeager/makebread
+Description: Bread machine recipe manager
+ A simple, clean recipe manager for bread machines built with PySide6/Qt6.
+ Store recipes, search by ingredient, get random suggestions, and print
+ beautiful recipe cards. Includes 103 starter recipes.
+
 Package: po-diff
 Version: 1.0.0
 Architecture: all
 Maintainer: Daniel Nylander <daniel@danielnylander.se>
 Depends: python3 (>= 3.8)
-Filename: ../../../../pool/main/po-diff_1.0.0_all.deb
+Filename: pool/main/po-diff_1.0.0_all.deb
 Size: 13816
 MD5sum: 5a6607e153ca1025b0c5eaf7c5efa7ba
 SHA1: 74ff93280d6b0591b61cf12a2f4bd7ec7d9cd205
@@ -69,7 +88,7 @@ Version: 1.4.0
 Architecture: all
 Maintainer: Daniel Nylander <daniel@danielnylander.se>
 Depends: python3
-Filename: ../../../../pool/main/po-translate_1.4.0_all.deb
+Filename: pool/main/po-translate_1.4.0_all.deb
 Size: 15420
 MD5sum: 85ff11d8ac9ff8f2eb798b3691e8df25
 SHA1: 8383ae70a21a71c400b00df52b0acaf4341e5815
@@ -84,7 +103,7 @@ Version: 1.8.0
 Architecture: all
 Maintainer: Daniel Nylander <daniel@danielnylander.se>
 Depends: python3, l10n-lint
-Filename: ../../../../pool/main/tp-lint_1.8.0_all.deb
+Filename: pool/main/tp-lint_1.8.0_all.deb
 Size: 23768
 MD5sum: cd011c4cbb51df6ea556e035b63f6e82
 SHA1: 8ec3ea533ebf68af61644580e6e387a3b4d09e0b
