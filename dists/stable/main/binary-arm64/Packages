@@ -48,23 +48,22 @@ Description: Professional Qt6 translation file editor
  Apple .strings, Unity, RESX, Java .properties, subtitles, and more.
 
 Package: makebread
-Version: 0.1.0
+Version: 0.2.0
 Architecture: all
 Maintainer: Daniel Nylander <daniel@danielnylander.se>
-Depends: python3 (>= 3.10), python3-pyside6
-Recommends: python3-pyside6
-Filename: pool/main/makebread_0.1.0_all.deb
-Size: 23550
-MD5sum: 513a6f4abf3730d9cb8f32963d6cda2f
-SHA1: 4b2a21c835a4ad07bdd265475ba9b5c136b69726
-SHA256: 22de51a0ec715f22a92ebc8850d3631c5bd4672643a13ec98cf37f4bfd67c8f3
-Section: utils
+Installed-Size: 73
+Depends: python3, python3-pyside6
+Filename: pool/main/makebread_0.2.0_all.deb
+Size: 42612
+MD5sum: 62144fc4c1ecda3b9990540a9265e475
+SHA1: 73777128cfbdfd32c271101f0c40a955aae085de
+SHA256: a5c78499745291360f2a8c973afa860fe794eefa32c27c5ce0fb44c39d7591c2
+Section: default
 Priority: optional
 Homepage: https://github.com/yeager/makebread
 Description: Bread machine recipe manager
- A simple, clean recipe manager for bread machines built with PySide6/Qt6.
- Store recipes, search by ingredient, get random suggestions, and print
- beautiful recipe cards. Includes 103 starter recipes.
+License: GPL-3.0-or-later
+Vendor: none
 
 Package: po-diff
 Version: 1.0.0
@@ -113,3 +112,6 @@ Priority: optional
 Description: Lint PO files from the Translation Project
  tp-lint fetches and lints PO files from translationproject.org.
 
+dpkg-scanpackages: warning: Packages in archive but missing from override file:
+dpkg-scanpackages: warning:   l10n-lint l10n-lint-gtk linguaedit makebread po-diff po-translate tp-lint
+dpkg-scanpackages: info: Wrote 7 entries to output Packages file.
