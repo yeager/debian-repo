@@ -2,32 +2,34 @@ Package: l10n-lint
 Version: 1.14.9
 Architecture: all
 Maintainer: Daniel Nylander <daniel@danielnylander.se>
-Depends: python3 (>= 3.8)
+Depends: python3 (>= 3.10), python3-polib
 Filename: pool/main/l10n-lint_1.14.9_all.deb
-Size: 43246
-MD5sum: 26818baf66ba88cfe802b538e11743d3
-SHA1: ed3d027824b614d14c58c06eb4991f6a80c39b0c
-SHA256: 4d8d709df0d21575262ab7966b91fd5bbc85944c8d71004ae3b0eab9934449f2
+Size: 45208
+MD5sum: 985b4393f74dca5760fa88493cc4db57
+SHA1: f0735d1e464e1635e22ba075dee4e6387a44b01d
+SHA256: 110dc3f32793c741e4147fe40991899d8687c05c9d6a6258babb67ca9cfea84d
 Section: devel
 Priority: optional
 Homepage: https://github.com/yeager/l10n-lint
-Description: Linter for localization files (.po, .ts)
- Check translation files for common issues.
+Description: Linter for localization files
+ A comprehensive linter for gettext .po and Qt .ts translation files.
+ Checks for common translation errors, formatting issues, and more.
 
 Package: l10n-lint-gtk
 Version: 1.2.9
 Architecture: all
 Maintainer: Daniel Nylander <daniel@danielnylander.se>
-Depends: python3 (>= 3.8), l10n-lint (>= 1.14.9), python3-gi, gir1.2-gtk-4.0, gir1.2-adw-1
+Depends: python3 (>= 3.10), python3-polib, python3-gi, gir1.2-gtk-4.0, l10n-lint (= 1.14.9)
 Filename: pool/main/l10n-lint-gtk_1.2.9_all.deb
-Size: 13010
-MD5sum: 57a387cfc6da91c9f313f4ef2abe0efc
-SHA1: 5c571a9370483ebd8452302d77224d8bcc18c5d0
-SHA256: d28cd3bdb8effe434210b89efddc6817d032272fa8f880f44c6d5b9412511c99
+Size: 14680
+MD5sum: 68d6c04f142041ae406bd36daf893c69
+SHA1: b94f6915122c69442471bc3f7ca82f7246000dc0
+SHA256: 61072ec425957ab3f2fb516b721883a0710e505ec634c1e179299863a817ccd5
 Section: devel
 Priority: optional
 Homepage: https://github.com/yeager/l10n-lint
-Description: GTK interface for l10n-lint
+Description: GTK GUI for l10n-lint localization linter
+ A GTK4 graphical interface for the l10n-lint localization linter.
 
 Package: linguaedit
 Version: 1.3.0
@@ -52,49 +54,54 @@ Package: makebread
 Version: 0.3.0
 Architecture: all
 Maintainer: Daniel Nylander <daniel@danielnylander.se>
-Depends: python3 (>= 3.10), python3-pyside6
+Depends: python3 (>= 3.10)
+Recommends: python3-pyside6
 Filename: pool/main/makebread_0.3.0_all.deb
-Size: 29024
-MD5sum: 92f8f6b8727eae8479329b3005c94f87
-SHA1: f677da29d45188c7452d6fc1ebdc842c53143b08
-SHA256: 0116a97a5c82ca4cb825d5247a28c824abef075e72fb298bbde9cadab417d063
+Size: 20548
+MD5sum: 0a48c1414d857e18249fda3d798575db
+SHA1: b96b35d3d9b91388fd9976906f7f10597dad7384
+SHA256: a57a96225e7070feb7f55cbf924987ab055cf2e8f9263fcd1a20958d3c6bc4f8
 Section: utils
 Priority: optional
 Homepage: https://github.com/yeager/makebread
-Description: Bread machine recipe manager
- A simple, clean recipe manager for bread machines built with PySide6/Qt6.
+Description: A simple bread machine recipe manager
+ A PySide6/Qt6 application for managing bread machine recipes with
+ import/export, timer presets, ingredient scaling, and recipe cards.
+ PySide6 must be installed via pip: pip install PySide6
 
 Package: po-diff
 Version: 1.0.0
 Architecture: all
 Maintainer: Daniel Nylander <daniel@danielnylander.se>
-Depends: python3 (>= 3.8)
+Depends: python3 (>= 3.10), python3-polib
 Filename: pool/main/po-diff_1.0.0_all.deb
-Size: 13816
-MD5sum: 5a6607e153ca1025b0c5eaf7c5efa7ba
-SHA1: 74ff93280d6b0591b61cf12a2f4bd7ec7d9cd205
-SHA256: 22d87bddcaf2fd66afb9179fbc5d9ae0e043157f06b2388d360132e1c7248918
+Size: 14848
+MD5sum: 0f0da9291fd0a9c7089e27d8023d5862
+SHA1: 5a11c4cd28a7418bcf6634a59911692128ca6428
+SHA256: 8a91d29b8af489fec847a4d4019d657691346a8cd9045ecd8489754b9e2eb0e8
 Section: devel
 Priority: optional
 Homepage: https://github.com/yeager/po-diff
-Description: Compare PO/TS translation files
- Shows differences between two versions of translation files.
- Supports gettext .po and Qt .ts formats.
+Description: Compare PO and TS translation files
+ A command-line tool for comparing gettext .po and Qt .ts translation
+ files. Shows added, removed, and modified translations.
 
 Package: po-translate
 Version: 1.4.0
 Architecture: all
 Maintainer: Daniel Nylander <daniel@danielnylander.se>
-Depends: python3
+Depends: python3 (>= 3.10), python3-polib
 Filename: pool/main/po-translate_1.4.0_all.deb
-Size: 15420
-MD5sum: 85ff11d8ac9ff8f2eb798b3691e8df25
-SHA1: 8383ae70a21a71c400b00df52b0acaf4341e5815
-SHA256: 3a5edb10a2f8c14d485afd0820532f0231d041b69d3f74563c2de2eacc140303
+Size: 15772
+MD5sum: b3729a237e9616d5b9b49ef8cb862d9c
+SHA1: abf9fd5eb3bc8c8910b94e7c2a58c741d40004ea
+SHA256: ab6e5d6287e7abf20a5d8b3dd20fd9d5877124c88721715c81d9167ef4696697
 Section: devel
 Priority: optional
-Description: Batch translate .po and .ts files
- po-translate translates PO and TS files using AI or free services.
+Homepage: https://github.com/yeager/po-translate
+Description: Batch translate PO and TS files
+ A command-line tool for batch translating gettext .po and Qt .ts
+ translation files using multiple translation backends.
 
 Package: tp-lint
 Version: 1.8.0
