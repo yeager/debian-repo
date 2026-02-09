@@ -5,44 +5,25 @@ Origin: Yeager
 Label: Yeager's Translation Tools
 Suite: stable
 Codename: stable
-Architectures: amd64 arm64 all
+Architectures: all amd64 arm64 i386 armhf
 Components: main
-Date: Mon, 09 Feb 2026 14:05:50 +0000
-MD5Sum:
- 31b20fa8561d2f596a7f9ce8eb045a7d 4439 main/binary-all/Packages
- 05ab2d5d869f18c57a204f35b84e3414 1660 main/binary-all/Packages.gz
- 31b20fa8561d2f596a7f9ce8eb045a7d 4439 main/binary-amd64/Packages
- 05ab2d5d869f18c57a204f35b84e3414 1660 main/binary-amd64/Packages.gz
- 31b20fa8561d2f596a7f9ce8eb045a7d 4439 main/binary-arm64/Packages
- 05ab2d5d869f18c57a204f35b84e3414 1660 main/binary-arm64/Packages.gz
- 31b20fa8561d2f596a7f9ce8eb045a7d 4439 main/binary-armhf/Packages
- 05ab2d5d869f18c57a204f35b84e3414 1660 main/binary-armhf/Packages.gz
- 31b20fa8561d2f596a7f9ce8eb045a7d 4439 main/binary-i386/Packages
- 05ab2d5d869f18c57a204f35b84e3414 1660 main/binary-i386/Packages.gz
+Description: Yeager's Translation Tools Repository
 SHA256:
- 1393ac2cab6ad999ed7b1cf98d95f9190948bb0e1175d04f16dc556f45a44b2e 4439 main/binary-all/Packages
- 2cb612cdcad548efbaf1274099abb0106b58919b8a3c26a759b6e7dafe5c7067 1660 main/binary-all/Packages.gz
- 1393ac2cab6ad999ed7b1cf98d95f9190948bb0e1175d04f16dc556f45a44b2e 4439 main/binary-amd64/Packages
- 2cb612cdcad548efbaf1274099abb0106b58919b8a3c26a759b6e7dafe5c7067 1660 main/binary-amd64/Packages.gz
- 1393ac2cab6ad999ed7b1cf98d95f9190948bb0e1175d04f16dc556f45a44b2e 4439 main/binary-arm64/Packages
- 2cb612cdcad548efbaf1274099abb0106b58919b8a3c26a759b6e7dafe5c7067 1660 main/binary-arm64/Packages.gz
- 1393ac2cab6ad999ed7b1cf98d95f9190948bb0e1175d04f16dc556f45a44b2e 4439 main/binary-armhf/Packages
- 2cb612cdcad548efbaf1274099abb0106b58919b8a3c26a759b6e7dafe5c7067 1660 main/binary-armhf/Packages.gz
- 1393ac2cab6ad999ed7b1cf98d95f9190948bb0e1175d04f16dc556f45a44b2e 4439 main/binary-i386/Packages
- 2cb612cdcad548efbaf1274099abb0106b58919b8a3c26a759b6e7dafe5c7067 1660 main/binary-i386/Packages.gz
+ 2ec797e20988174289e13c794ea97d244c720192fbc5af809485a95472638625 4689 main/binary-all/Packages
+ 31f5d70569e1b7326b832de34a77ec429a8ec1d64137b259ee2a884b112f782e 1764 main/binary-all/Packages.gz
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAEBCAAdFiEEN5hu++1i1inAzyaO4xjH3j2ofFsFAmmJ6cQACgkQ4xjH3j2o
-fFt+wg//SxBdxu6NgcehvYW6xU3pLLst19K0FBfPIJZvIDLiJD9ZC6qj0PLxWSSG
-YJpvDGELfE9IlceuvgsrV4KxvNMPyuV7PRg1T4xrRciNRinKI0ZQVJPoeHumiLDV
-C4QZ8zgvguvISiUzpMLVEoRlptlpNFyl9TbGeTwuhyfCfzgXV4hzk0hEiUSor7up
-OyDX8Kq12pQD7zShe3SMsBfiww8WeWfR3piv8aCC+w+vBQsTaELR4z9u8TB7yXHy
-wYpZ3noKU57zu1WbQ8wlajBUbNWPzPx/dzd2e3F19vtdZ7zuTUs+9ntaY+8UZS+m
-st7Z9j+uFrfjVOrcmgnL+O2hfWT13P/Srm7pUjVsmop6DlOG4JZrtn0Mup685q6N
-wF1yDNvbhf2mduiHI1zvsa1EtC++2rmR7EN0mYoi9h6ZBW1unN/0C3j8/kflGsLG
-0D5hQQxKLbA6O/QZIB1Wbw942GIDQmZtua0HGrTDJu5My7aQJSpcL5glkU/B1I1m
-AKuPvf7jpeCufnEYpwgCG6DT7iTnRPx79gChehgWiU2a5ZYvHH8qLeRnO3+LT9Oq
-A58l5syOlREZlNplMBKVL/e3gfxDD9cLDiHaRe+SVTx5W7+qdL5nl88s6xqw2ngj
-xoWTCrRgze3hjXjRvTTsx+pfVKWUbnEyNg83eofqRxokFxzaok8=
-=JpFC
+iQIzBAEBCAAdFiEEN5hu++1i1inAzyaO4xjH3j2ofFsFAmmKCusACgkQ4xjH3j2o
+fFu3Sg//engXdQsecxCvXFIg2QCVXokRLfEcuZrQUUnzkt5orEFV47ktE1TpGCTN
+NURG730TsKfxYftKQd9URUbPHUXxe5xBESJkD7rvPn3vNLc188HLb8A5VE3bzd/b
+0ntbvBz3kENwEgV9w5wwE8ZslF643M9YeoLUbu37o0MX6MWcw0DE0hVLAVxzfKHW
+/xpiAIUbmkbBWLiPHjHpKtT4v6OEwcxWKnQEdeeCQYuWO2356hSv7bqwyzqh89ZV
+N9Ai5BqVyOVC6iVQgOmuugTyNq4sOhQiTStuH4g3okn1k+r61qVszNguHNDrBliK
+9bEkCULINYC/4caKk+KmHKm/Wq2etfOmdrcCHEKXj9RgJgR237WOI24uFVXvi6zD
+POC2R0CWVEDmd8fVW9mjxpP4VBM3aocbNHtVIEJxurAKUcyXvmxHGmr26M09o5b0
+JKVuI8a+M0AvEG+wptcSis+0TNSz4QDxFiXVhXB4btPgi/6jdQRVI7ihBWFwAvip
+ROkeVx8j2yX0JQWATSnAFeI+ynyDDGKD56LiKxTPLRGB9/3RGSTDNIL2k6rrIbll
+5OfxWZAFX+sQAX/twBRHxhSnJlcSv4fK5OvmqmYaBbrTJoy4j3/K+Z4V2z/FEJjz
+F4EBEjCVVkVCH7ART0j9g1PTdwdhCz84iwv9SDrDQwx3ZnG3Vi0=
+=2jay
 -----END PGP SIGNATURE-----
