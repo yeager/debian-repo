@@ -30,22 +30,22 @@ Homepage: https://github.com/yeager/l10n-lint
 Description: GTK interface for l10n-lint
 
 Package: linguaedit
-Version: 1.0.0
+Version: 1.1.0
 Architecture: all
-Maintainer: Daniel Nylander <po@danielnylander.se>
-Depends: python3 (>= 3.10), python3-pip, python3-venv
-Filename: pool/main/linguaedit_1.0.0_all.deb
-Size: 158332
-MD5sum: 1863326007dccc3855797da845311116
-SHA1: 8ad7e89d7317d58c8d0fc4e977d46a25d2c680ca
-SHA256: ba715abacd8b6b5ac88a6e463af060d414b3f6d33cb42618cada7486426235f8
-Section: devel
+Maintainer: Daniel Nylander <daniel@danielnylander.se>
+Depends: python3 (>= 3.10), python3-pyside6
+Recommends: ffmpeg
+Filename: pool/main/linguaedit_1.1.0_all.deb
+Size: 181098
+MD5sum: 1ff04041d0cb57e635b611152baf280b
+SHA1: 2cb8a6210e0f5a23651b87465bda6adc5d0edef7
+SHA256: 6b209b0301d84ec2ff323c181c07e93b97810aa1e8c26e71cb2742d3f81cee58
+Section: editors
 Priority: optional
-Description: Professional Qt6 translation file editor
- The complete translation platform. 55+ features, 15+ file formats,
- translation memory, glossary, AI review, plugin system, and more.
- Supports PO, TS, XLIFF, JSON, YAML, Android XML, ARB, PHP,
- Apple .strings, Unity, RESX, Java .properties, subtitles, and more.
+Homepage: https://github.com/yeager/linguaedit
+Description: Professional translation editor
+ A PySide6/Qt6 translation editor supporting 15+ file formats with
+ translation memory, glossary, AI review, linting, and more.
 
 Package: makebread
 Version: 0.3.0
