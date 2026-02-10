@@ -1,13 +1,30 @@
 Origin: Yeager
 Label: Yeager's Translation Tools
 Suite: stable
+Version: 1.0
 Codename: stable
 Architectures: all amd64 arm64 i386 armhf
 Components: main
-Description: Yeager's Translation Tools Repository
-SHA256:
- 78323014f161b0a253307bd60f95ecad7c84d27bcaabb6e8c37c9c814080ef8c 4439 main/binary-all/Packages
- 93b76208a9f72011067e860b286fe01a4dc9095702a0fe875d834898f8dfcc75 1664 main/binary-all/Packages.gz
+Date: Tue, 10 Feb 2026 06:54:04 +0000
 MD5Sum:
- 4cad5ec4d13e060e6017ad00720ce1d1 4439 main/binary-all/Packages
- fadf40f6af70f737fdbf59e192a9b7e4 1664 main/binary-all/Packages.gz
+ f58a71d23b0b937446f48c0f47f310ec 1650 main/binary-arm64/Packages.gz
+ f04dcdbd47ccc31ddc5186ddc3e2c46b 4438 main/binary-arm64/Packages
+ f58a71d23b0b937446f48c0f47f310ec 1650 main/binary-i386/Packages.gz
+ f04dcdbd47ccc31ddc5186ddc3e2c46b 4438 main/binary-i386/Packages
+ f58a71d23b0b937446f48c0f47f310ec 1650 main/binary-armhf/Packages.gz
+ f04dcdbd47ccc31ddc5186ddc3e2c46b 4438 main/binary-armhf/Packages
+ f58a71d23b0b937446f48c0f47f310ec 1650 main/binary-all/Packages.gz
+ f04dcdbd47ccc31ddc5186ddc3e2c46b 4438 main/binary-all/Packages
+ f58a71d23b0b937446f48c0f47f310ec 1650 main/binary-amd64/Packages.gz
+ f04dcdbd47ccc31ddc5186ddc3e2c46b 4438 main/binary-amd64/Packages
+SHA256:
+ c770ff90fdd4c27b43114e1cc99b1b707155c9eb9212cea5ec11c68934fba07d 1650 main/binary-arm64/Packages.gz
+ defaab8a5cbd296c341b80a9baa771da0a542573059d6cd06c84ba74492b4fab 4438 main/binary-arm64/Packages
+ c770ff90fdd4c27b43114e1cc99b1b707155c9eb9212cea5ec11c68934fba07d 1650 main/binary-i386/Packages.gz
+ defaab8a5cbd296c341b80a9baa771da0a542573059d6cd06c84ba74492b4fab 4438 main/binary-i386/Packages
+ c770ff90fdd4c27b43114e1cc99b1b707155c9eb9212cea5ec11c68934fba07d 1650 main/binary-armhf/Packages.gz
+ defaab8a5cbd296c341b80a9baa771da0a542573059d6cd06c84ba74492b4fab 4438 main/binary-armhf/Packages
+ c770ff90fdd4c27b43114e1cc99b1b707155c9eb9212cea5ec11c68934fba07d 1650 main/binary-all/Packages.gz
+ defaab8a5cbd296c341b80a9baa771da0a542573059d6cd06c84ba74492b4fab 4438 main/binary-all/Packages
+ c770ff90fdd4c27b43114e1cc99b1b707155c9eb9212cea5ec11c68934fba07d 1650 main/binary-amd64/Packages.gz
+ defaab8a5cbd296c341b80a9baa771da0a542573059d6cd06c84ba74492b4fab 4438 main/binary-amd64/Packages
