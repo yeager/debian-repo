@@ -6,7 +6,7 @@ do_hash() {
     HASH_NAME=$1
     HASH_CMD=$2
     echo "${HASH_NAME}:"
-    for f in $(find -type f ! -name "Release*" ! -name "InRelease"); do
+    for f in $(find . -type f ! -name "Release*" ! -name "InRelease"); do
         f=$(echo $f | cut -c3-)
         SIZE=$(wc -c < "$f" | tr -d ' ')
         HASH=$($HASH_CMD "$f" | cut -d' ' -f1)
