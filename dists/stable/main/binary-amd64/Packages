@@ -32,25 +32,23 @@ Description: GTK GUI for l10n-lint localization linter
  A GTK4 graphical interface for the l10n-lint localization linter.
 
 Package: linguaedit
-Version: 1.8.4
+Version: 1.8.5
 Architecture: all
-Maintainer: Daniel Nylander <po@danielnylander.se>
-Depends: python3 (>= 3.10), python3-pip, python3-venv
-Recommends: python3-polib, python3-yaml
-Filename: pool/main/linguaedit_1.8.4_all.deb
-Size: 644280
-MD5sum: 2c93ed4a3e437d64f516719bc8559b4f
-SHA1: b2084f4106de8b6a48e8e5dbf6339c8bbefe2f1e
-SHA256: 807ae588fc4567c601203c7bfee767843321bf4fa4c85cf82100835e359a85b7
-Section: devel
+Maintainer: Daniel Nylander <daniel@danielnylander.se>
+Depends: python3 (>= 3.10)
+Recommends: ffmpeg, hunspell, python3-polib, python3-yaml
+Filename: pool/main/linguaedit_1.8.5_all.deb
+Size: 247852
+MD5sum: ce4c64cebe6b7969f14eb8e31ab7df06
+SHA1: 5f71f149d4be09be02cc169468cb9a569ee29676
+SHA256: 531bad92a545d63fa36f65207034d6d4bd2c5229bb32f1dbef8c7532ebb9247b
+Section: editors
 Priority: optional
-Description: Qt6 translation file editor
- A PySide6/Qt6 translation file editor for PO, TS, JSON, XLIFF,
- Android XML, ARB, PHP, and YAML i18n files with linting,
- pre-translation, and platform integration.
- .
- PySide6 is installed automatically via pip during package setup.
- If the automatic install fails, run: pip install PySide6
+Homepage: https://github.com/yeager/linguaedit
+Description: Professional translation editor
+ A PySide6/Qt6 translation editor supporting 17+ file formats with
+ translation memory, glossary, AI review, linting, Zen mode, and more.
+ PySide6 must be installed via pip: pip install PySide6
 
 Package: makebread
 Version: 0.3.0
