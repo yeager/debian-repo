@@ -32,16 +32,16 @@ Description: GTK GUI for l10n-lint localization linter
  A GTK4 graphical interface for the l10n-lint localization linter.
 
 Package: linguaedit
-Version: 1.7.0
+Version: 1.8.1
 Architecture: all
 Maintainer: Daniel Nylander <daniel@danielnylander.se>
 Depends: python3 (>= 3.10)
 Recommends: ffmpeg, hunspell, python3-polib, python3-yaml
-Filename: pool/main/linguaedit_1.7.0_all.deb
-Size: 235564
-MD5sum: 3545842ba05906751611113afccfa1d6
-SHA1: 7cff64f71656d355b57c32313faf546b31c8c138
-SHA256: dd21fcd67551a2c7e6236ed571ec3f87fb141dccc9f809b63436a64648e8b426
+Filename: pool/main/linguaedit_1.8.1_all.deb
+Size: 239804
+MD5sum: 42c01e3fe7271e13abecb86a8f00433b
+SHA1: 3a8c90c72f28ca05c03c5aaaa2c3d79dad83da84
+SHA256: c931805a04596d48d7153fecf6caf5d1f4c0df95543bffb284c000a5f16a9191
 Section: editors
 Priority: optional
 Homepage: https://github.com/yeager/linguaedit
