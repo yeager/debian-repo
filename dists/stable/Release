@@ -2,28 +2,11 @@ Origin: Yeager
 Label: Yeager's Translation Tools
 Suite: stable
 Codename: stable
-Architectures: all amd64 arm64 i386 armhf
+Version: 1.0
+Architectures: amd64 arm64
 Components: main
-Date: Wed, 11 Feb 2026 06:18:46 UTC
+Description: Yeager's Translation Tools APT Repository
+Date: Fri, 13 Feb 2026 02:07:23 +0000
 MD5Sum:
- c0ae378f163c7ce4e6fe524a42579a9c     4439 main/binary-all/Packages
- c0ae378f163c7ce4e6fe524a42579a9c     4439 main/binary-amd64/Packages
- c0ae378f163c7ce4e6fe524a42579a9c     4439 main/binary-arm64/Packages
- c0ae378f163c7ce4e6fe524a42579a9c     4439 main/binary-armhf/Packages
- c0ae378f163c7ce4e6fe524a42579a9c     4439 main/binary-i386/Packages
- 35aaef284674d8db67410bdb12a8ca45     1663 main/binary-all/Packages.gz
- 35aaef284674d8db67410bdb12a8ca45     1663 main/binary-amd64/Packages.gz
- 35aaef284674d8db67410bdb12a8ca45     1663 main/binary-arm64/Packages.gz
- 35aaef284674d8db67410bdb12a8ca45     1663 main/binary-armhf/Packages.gz
- 35aaef284674d8db67410bdb12a8ca45     1663 main/binary-i386/Packages.gz
+SHA1:
 SHA256:
- 7153c88b44c9861023d0a2cb316dcb4cd5ab94deba3456e86018dc3945f07e1a     4439 main/binary-all/Packages
- 7153c88b44c9861023d0a2cb316dcb4cd5ab94deba3456e86018dc3945f07e1a     4439 main/binary-amd64/Packages
- 7153c88b44c9861023d0a2cb316dcb4cd5ab94deba3456e86018dc3945f07e1a     4439 main/binary-arm64/Packages
- 7153c88b44c9861023d0a2cb316dcb4cd5ab94deba3456e86018dc3945f07e1a     4439 main/binary-armhf/Packages
- 7153c88b44c9861023d0a2cb316dcb4cd5ab94deba3456e86018dc3945f07e1a     4439 main/binary-i386/Packages
- 83895e43f93a74bcdedb111f9708634214626d127ecca9eed04d74235cea51a3     1663 main/binary-all/Packages.gz
- 83895e43f93a74bcdedb111f9708634214626d127ecca9eed04d74235cea51a3     1663 main/binary-amd64/Packages.gz
- 83895e43f93a74bcdedb111f9708634214626d127ecca9eed04d74235cea51a3     1663 main/binary-arm64/Packages.gz
- 83895e43f93a74bcdedb111f9708634214626d127ecca9eed04d74235cea51a3     1663 main/binary-armhf/Packages.gz
- 83895e43f93a74bcdedb111f9708634214626d127ecca9eed04d74235cea51a3     1663 main/binary-i386/Packages.gz
