@@ -209,6 +209,22 @@ Description: Batch translate PO and TS localization files
  A CLI tool for batch translating PO and TS files using
  various translation APIs (Google, DeepL, Claude, etc.).
 
+Package: snap-l10n
+Version: 0.1.0-1
+Architecture: all
+Maintainer: Daniel Nylander <daniel@danielnylander.se>
+Depends: python3 (>= 3.10), python3-gi, gir1.2-gtk-4.0, gir1.2-adw-1
+Filename: pool/main/snap-l10n_0.1.0-1_all.deb
+Size: 5252
+MD5sum: 8f86b3e0fffb2354190252f9ade212d6
+SHA1: fd95f2bbf0c4ea82136636460cf87dd43b4bbb03
+SHA256: df1382746ba7d09c0e7240bd6d0a10dc9a8df1a23da7ac7fdc88b8c8d49cc42a
+Section: devel
+Priority: optional
+Homepage: https://github.com/yeager/snap-l10n
+Description: View snap package translation status
+ GTK4/Adwaita app showing translation status of installed snap packages.
+
 Package: tp-lint
 Version: 1.8.0
 Architecture: all
