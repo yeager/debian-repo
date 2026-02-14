@@ -1,3 +1,6 @@
+dpkg-scanpackages: warning: package linguaedit (filename pool/main/linguaedit_1.8.5_all.deb) is repeat; ignored that one and using data from pool/main/linguaedit_1.8.14_all.deb!
+dpkg-scanpackages: warning: package linguaedit (filename pool/main/linguaedit_1.8.4_all.deb) is repeat; ignored that one and using data from pool/main/linguaedit_1.8.14_all.deb!
+dpkg-scanpackages: warning: package linguaedit (filename pool/main/linguaedit_1.8.6_all.deb) is repeat; ignored that one and using data from pool/main/linguaedit_1.8.14_all.deb!
 Package: desktop-editor
 Version: 0.1.0-1
 Architecture: all
@@ -225,6 +228,24 @@ Homepage: https://github.com/yeager/snap-l10n
 Description: View snap package translation status
  GTK4/Adwaita app showing translation status of installed snap packages.
 
+Package: tm-manager
+Version: 0.1.0
+Architecture: all
+Maintainer: Daniel Nylander <daniel@danielnylander.se>
+Depends: python3, python3-gi, gir1.2-gtk-4.0, gir1.2-adw-1
+Filename: pool/main/tm-manager_0.1.0_all.deb
+Size: 8224
+MD5sum: 003774cad17d64bc9399ffa56e973ff3
+SHA1: 5f8666181baeaebe95c63e380e17338b7506ad53
+SHA256: 2f72f8a3155b1cb052a7f2ea03bfbe9ffc9075c746f9b918e869a1ff8b054625
+Section: devel
+Priority: optional
+Homepage: https://github.com/yeager/tm-manager
+Description: Translation Memory Manager
+ GTK4/Adwaita application for managing local Translation Memory
+ files (TMX). Features fuzzy search, import/export, merge, and
+ segment editing.
+
 Package: tp-lint
 Version: 1.8.0
 Architecture: all
@@ -258,3 +279,11 @@ Description: Ubuntu/Launchpad translation statistics viewer
  for Ubuntu packages via Launchpad. Features color-coded progress
  bars, search/filter, language and distribution selectors.
 
+dpkg-scanpackages: warning: Packages with multiple instances but no --multiversion specified:
+dpkg-scanpackages: warning: pool/main/linguaedit_1.8.14_all.deb
+dpkg-scanpackages: warning: pool/main/linguaedit_1.8.4_all.deb
+dpkg-scanpackages: warning: pool/main/linguaedit_1.8.5_all.deb
+dpkg-scanpackages: warning: pool/main/linguaedit_1.8.6_all.deb
+dpkg-scanpackages: warning: Packages in archive but missing from override file:
+dpkg-scanpackages: warning:   desktop-editor elementary-l10n l10n-conv l10n-lint l10n-lint-gtk l10n-preview langpack-inspector linguaedit locale-tester makebread po-diff po-translate snap-l10n tm-manager tp-lint ubuntu-l10n
+dpkg-scanpackages: info: Wrote 16 entries to output Packages file.
