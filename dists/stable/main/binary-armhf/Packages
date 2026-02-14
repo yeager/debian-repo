@@ -32,6 +32,23 @@ Description: Monitor translation progress for elementary OS components
  A GTK4/Adwaita application that monitors and displays translation
  progress for elementary OS components via Weblate.
 
+Package: fedora-l10n
+Version: 0.1.0-1
+Architecture: all
+Maintainer: Daniel Nylander <daniel@danielnylander.se>
+Depends: python3, python3-gi, gir1.2-gtk-4.0, gir1.2-adw-1
+Filename: pool/main/fedora-l10n_0.1.0-1_all.deb
+Size: 6100
+MD5sum: c4f3ad8bb0d44a0c7e8c4a8757d4091d
+SHA1: ee0bf38696ce8a221e0ddf7b4683f28fa9913b16
+SHA256: 6d041f566a7a0164138f809d6cdf112c3b71f61da24cfb542b096507db912e01
+Section: devel
+Priority: optional
+Homepage: https://github.com/yeager/fedora-l10n
+Description: Fedora Translation Status
+ GTK4/Adwaita application showing translation progress
+ of Fedora projects via the Weblate API.
+
 Package: font-preview
 Version: 0.1.0
 Architecture: all
