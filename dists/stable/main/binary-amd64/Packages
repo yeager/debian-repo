@@ -66,6 +66,24 @@ Description: A better font viewer for Linux
  Preview text in all installed fonts, compare fonts side by side,
  and analyze Unicode coverage per language. Built with GTK4 and Adwaita.
 
+Package: github-l10n
+Version: 0.1.0-1
+Architecture: all
+Maintainer: Daniel Nylander <daniel@danielnylander.se>
+Depends: python3, python3-gi, gir1.2-gtk-4.0, gir1.2-adw-1
+Filename: pool/main/github-l10n_0.1.0-1_all.deb
+Size: 8280
+MD5sum: c464e601b1b38986ab4d7a86b543e408
+SHA1: 231525805ed75c8979beca45499cf5e676887562
+SHA256: c75ea096b640cd13096b95ece6cd395a9c2bbdd93d5b169510133f72fe7c3870
+Section: devel
+Priority: optional
+Homepage: https://github.com/yeager/github-l10n
+Description: GitHub Translation Stats
+ GTK4/Adwaita app to scan popular GitHub repos for missing
+ translations. Shows top repos by stars and their l10n status
+ for any language.
+
 Package: l10n-conv
 Version: 1.0.0
 Architecture: all
