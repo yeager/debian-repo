@@ -15,6 +15,24 @@ Description: Visualize Unicode CLDR locale data completeness
  GTK4/Adwaita application for browsing and comparing CLDR locale
  data. Find missing translations in dates, currencies, units, and more.
 
+Package: commonvoice-status
+Version: 0.1.0-1
+Architecture: all
+Maintainer: Daniel Nylander <daniel@danielnylander.se>
+Depends: python3 (>= 3.10), python3-gi, gir1.2-gtk-4.0, gir1.2-adw-1
+Filename: pool/main/commonvoice-status_0.1.0-1_all.deb
+Size: 5812
+MD5sum: e9548ea090fd5e0ae2606467ea467328
+SHA1: e0b4b27ef764cac2af65ccf885608cd7d2b548b5
+SHA256: 660c149d1e0df889253221ab0564a0d5e7015345d60675d5e6967075f8118448
+Section: utils
+Priority: optional
+Homepage: https://github.com/yeager/commonvoice-status
+Description: View Mozilla Common Voice recording statistics
+ GTK4/Adwaita application for viewing Mozilla Common Voice
+ recording statistics per language with Nordic comparison,
+ gap analysis, and sorting capabilities.
+
 Package: desktop-editor
 Version: 0.1.0-1
 Architecture: all
