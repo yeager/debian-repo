@@ -86,21 +86,21 @@ Description: Compare PO and TS translation files
  files. Shows added, removed, and modified translations.
 
 Package: po-translate
-Version: 1.4.0
+Version: 1.5.0
 Architecture: all
 Maintainer: Daniel Nylander <daniel@danielnylander.se>
 Depends: python3 (>= 3.10), python3-polib
-Filename: pool/main/po-translate_1.4.0_all.deb
-Size: 15772
-MD5sum: b3729a237e9616d5b9b49ef8cb862d9c
-SHA1: abf9fd5eb3bc8c8910b94e7c2a58c741d40004ea
-SHA256: ab6e5d6287e7abf20a5d8b3dd20fd9d5877124c88721715c81d9167ef4696697
+Filename: pool/main/po-translate_1.5.0_all.deb
+Size: 11180
+MD5sum: 17bd4951457c0a76d2097d39748c21a6
+SHA1: 8274a3ebc5b3253c5808f15cb08ad1631c1918e6
+SHA256: c2fe6f5f4ac693edfd6cfcf61e62e2cb6e8f99df2c61c0a30b0492d381397f3d
 Section: devel
 Priority: optional
 Homepage: https://github.com/yeager/po-translate
-Description: Batch translate PO and TS files
- A command-line tool for batch translating gettext .po and Qt .ts
- translation files using multiple translation backends.
+Description: Batch translate PO and TS localization files
+ A CLI tool for batch translating PO and TS files using
+ various translation APIs (Google, DeepL, Claude, etc.).
 
 Package: tp-lint
 Version: 1.8.0
