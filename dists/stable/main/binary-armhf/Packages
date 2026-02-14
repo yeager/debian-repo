@@ -1,3 +1,20 @@
+Package: desktop-editor
+Version: 0.1.0-1
+Architecture: all
+Maintainer: Daniel Nylander <daniel@danielnylander.se>
+Depends: python3 (>= 3.10), python3-gi, gir1.2-gtk-4.0, gir1.2-adw-1
+Filename: pool/main/desktop-editor_0.1.0-1_all.deb
+Size: 9012
+MD5sum: 87ee407858212dcf0e3aaae52ded3ad8
+SHA1: 5def455d461cf01d6025c80db71c6bd91e6688d3
+SHA256: 24393cb930cd4ed4c1d4e880297324abe54a76b434e1a502bd925d95f0258b6d
+Section: devel
+Priority: optional
+Homepage: https://github.com/yeager/desktop-editor
+Description: Visual editor for .desktop files
+ A GTK4/Adwaita application for editing .desktop files with
+ preview, validation, and translation management.
+
 Package: elementary-l10n
 Version: 0.1.0
 Architecture: all
