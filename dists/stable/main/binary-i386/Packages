@@ -170,6 +170,24 @@ Description: Inspect Ubuntu language packs and find missing translations
  packs, helps find missing or outdated translations, and provides direct
  links to Launchpad for translating.
 
+Package: libretranslate-gui
+Version: 0.1.0
+Architecture: all
+Maintainer: Daniel Nylander <daniel@danielnylander.se>
+Depends: python3 (>= 3.10), python3-gi, gir1.2-gtk-4.0, gir1.2-adw-1
+Filename: pool/main/libretranslate-gui_0.1.0_all.deb
+Size: 6916
+MD5sum: 946419533f15525b1376d7a6aa6406df
+SHA1: fa9561d36700f9963125d7630492438a655ac7ab
+SHA256: 2110a6fe1bb5e9ab9c91eb634e9e475d68691e2960cc1dd7b7a68f73de8f87ea
+Section: utils
+Priority: optional
+Homepage: https://github.com/yeager/libretranslate-gui
+Description: GTK4/Adwaita translation assistant using LibreTranslate API
+ A desktop application for translating text using the LibreTranslate API.
+ Supports live translation, batch mode, .po/.ts file translation suggestions,
+ configurable server URL, translation history, and clipboard integration.
+
 Package: linguaedit
 Version: 1.8.14
 Architecture: all
