@@ -1,6 +1,3 @@
-dpkg-scanpackages: warning: package linguaedit (filename pool/main/linguaedit_1.8.5_all.deb) is repeat; ignored that one and using data from pool/main/linguaedit_1.8.14_all.deb!
-dpkg-scanpackages: warning: package linguaedit (filename pool/main/linguaedit_1.8.4_all.deb) is repeat; ignored that one and using data from pool/main/linguaedit_1.8.14_all.deb!
-dpkg-scanpackages: warning: package linguaedit (filename pool/main/linguaedit_1.8.6_all.deb) is repeat; ignored that one and using data from pool/main/linguaedit_1.8.14_all.deb!
 Package: desktop-editor
 Version: 0.1.0-1
 Architecture: all
@@ -314,11 +311,3 @@ Description: Ubuntu/Launchpad translation statistics viewer
  for Ubuntu packages via Launchpad. Features color-coded progress
  bars, search/filter, language and distribution selectors.
 
-dpkg-scanpackages: warning: Packages with multiple instances but no --multiversion specified:
-dpkg-scanpackages: warning: pool/main/linguaedit_1.8.14_all.deb
-dpkg-scanpackages: warning: pool/main/linguaedit_1.8.4_all.deb
-dpkg-scanpackages: warning: pool/main/linguaedit_1.8.5_all.deb
-dpkg-scanpackages: warning: pool/main/linguaedit_1.8.6_all.deb
-dpkg-scanpackages: warning: Packages in archive but missing from override file:
-dpkg-scanpackages: warning:   desktop-editor elementary-l10n font-preview l10n-conv l10n-glossary l10n-lint l10n-lint-gtk l10n-preview langpack-inspector linguaedit locale-tester makebread po-diff po-translate snap-l10n tm-manager tp-lint ubuntu-l10n
-dpkg-scanpackages: info: Wrote 18 entries to output Packages file.
