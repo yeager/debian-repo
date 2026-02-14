@@ -153,3 +153,21 @@ Priority: optional
 Description: Lint PO files from the Translation Project
  tp-lint fetches and lints PO files from translationproject.org.
 
+Package: ubuntu-l10n
+Version: 0.1.0
+Architecture: all
+Maintainer: Daniel Nylander <daniel@danielnylander.se>
+Depends: python3 (>= 3.10), python3-gi, python3-gi-cairo, gir1.2-gtk-4.0, gir1.2-adw-1, python3-bs4, python3-requests, python3-lxml
+Filename: pool/main/ubuntu-l10n_0.1.0_all.deb
+Size: 9340
+MD5sum: 52cc6ed0f146dce08c13c92fcbc3d8ca
+SHA1: cfdc295bcae0243d148cf4975ea7dae168c7863b
+SHA256: 859a1300f67fd8c2625a00b21adadf9e2bf136be8ae74856dacde4a62e1af24a
+Section: devel
+Priority: optional
+Homepage: https://github.com/yeager/ubuntu-l10n
+Description: Ubuntu/Launchpad translation statistics viewer
+ GTK4/Libadwaita app that shows the current translation status
+ for Ubuntu packages via Launchpad. Features color-coded progress
+ bars, search/filter, language and distribution selectors.
+
