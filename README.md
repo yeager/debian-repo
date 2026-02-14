@@ -13,59 +13,49 @@ echo 'deb [signed-by=/usr/share/keyrings/yeager.gpg] https://yeager.github.io/de
 
 # Update and install
 sudo apt update
-sudo apt install l10n-lint l10n-lint-gtk po-translate po-diff tp-lint linguaedit
 ```
 
 ## Available Packages
 
+### Translation Status Dashboards
 | Package | Version | Description |
 |---------|---------|-------------|
+| **ubuntu-l10n** | 0.1.0 | Ubuntu translation status via Launchpad API |
+| **elementary-l10n** | 0.1.0 | elementary OS translation status via Weblate |
+| **langpack-inspector** | 0.1.0 | Inspect Ubuntu language packs, find missing translations |
+| **snap-l10n** | 0.1.0 | Snap package translation status |
+
+### Translation Tools
+| Package | Version | Description |
+|---------|---------|-------------|
+| **linguaedit** | 1.8.14 | Professional translation editor (PO, TS, XLIFF) |
+| **tm-manager** | 0.1.0 | Translation Memory manager (TMX) with fuzzy search |
+| **l10n-glossary** | 0.1.0 | Glossary/terminology editor with consistency checking |
+| **l10n-preview** | 0.1.0 | Preview PO/TS translations in simulated UI elements |
+| **desktop-editor** | 0.1.0 | Visual .desktop file editor with validation |
+
+### Quality & Testing
+| Package | Version | Description |
+|---------|---------|-------------|
+| **locale-tester** | 0.1.0 | Compare locale settings side by side |
 | **l10n-lint** | 1.14.9 | Linter for localization files (.po, .ts) |
 | **l10n-lint-gtk** | 1.2.9 | GTK4 graphical interface for l10n-lint |
-| **po-translate** | 1.4.0 | Batch translate PO and TS files |
+| **l10n-conv** | 1.0.0 | Universal l10n file converter (16 formats) |
+| **font-preview** | 0.1.0 | Font browser with Unicode coverage per language |
+
+### Utilities
+| Package | Version | Description |
+|---------|---------|-------------|
+| **po-translate** | 1.5.0 | Batch translate PO/XLIFF files with DeepL |
 | **po-diff** | 1.0.0 | Compare and diff PO files |
 | **tp-lint** | 1.8.0 | Translation Project linter and statistics |
-| **linguaedit** | 0.3.0 | GTK4 translation file editor for PO, TS, JSON, XLIFF, Android, ARB, PHP, YAML |
+| **makebread** | 0.3.0 | Bread machine recipe manager |
 
 ## GPG Signing
 
-Repository is signed with GPG key `CAED4975DAB053A8`.
+All packages are signed with GPG key `DAB053A8`.
 
-- Public key: [yeager.gpg](yeager.gpg)
-- Fingerprint: `7CEE 83C9 C621 B186 67DD 1BFE CAED 4975 DAB0 53A8`
+## Author
 
-## Manual Download
-
-Packages are also available in [pool/main/](pool/main/).
-
-## RPM Repository
-
-Fedora/RHEL packages available at [yeager/rpm-repo](https://github.com/yeager/rpm-repo).
-
-```bash
-sudo tee /etc/yum.repos.d/yeager.repo << 'EOF'
-[yeager]
-name=Yeager's Translation Tools
-baseurl=https://yeager.github.io/rpm-repo
-enabled=1
-gpgcheck=0
-EOF
-sudo dnf install l10n-lint po-translate
-```
-
-## Source Code
-
-| Project | Repository |
-|---------|------------|
-| l10n-lint | [github.com/yeager/l10n-lint](https://github.com/yeager/l10n-lint) |
-| po-translate | [github.com/yeager/po-translate](https://github.com/yeager/po-translate) |
-| po-diff | [github.com/yeager/po-diff](https://github.com/yeager/po-diff) |
-| tp-lint | [github.com/yeager/tp-lint](https://github.com/yeager/tp-lint) |
-| linguaedit | [github.com/yeager/linguaedit](https://github.com/yeager/linguaedit) |
-
-## License
-
-All packages are GPL-3.0-or-later.
-
----
-*Last updated: 2026-02-07*
+Daniel Nylander — [daniel@danielnylander.se](mailto:daniel@danielnylander.se)
+https://danielnylander.se
