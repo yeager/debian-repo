@@ -1,3 +1,6 @@
+dpkg-scanpackages: warning: package linguaedit (filename pool/main/linguaedit_1.8.5_all.deb) is repeat; ignored that one and using data from pool/main/linguaedit_1.8.14_all.deb!
+dpkg-scanpackages: warning: package linguaedit (filename pool/main/linguaedit_1.8.4_all.deb) is repeat; ignored that one and using data from pool/main/linguaedit_1.8.14_all.deb!
+dpkg-scanpackages: warning: package linguaedit (filename pool/main/linguaedit_1.8.6_all.deb) is repeat; ignored that one and using data from pool/main/linguaedit_1.8.14_all.deb!
 Package: elementary-l10n
 Version: 0.1.0
 Architecture: all
@@ -85,6 +88,25 @@ Description: Professional translation editor
  translation memory, glossary, AI review, linting, Zen mode, and more.
  PySide6 must be installed via pip: pip install PySide6
 
+Package: locale-tester
+Version: 0.1.0-1
+Architecture: all
+Maintainer: Daniel Nylander <daniel@danielnylander.se>
+Depends: python3, python3-gi, gir1.2-gtk-4.0, gir1.2-adw-1
+Filename: pool/main/locale-tester_0.1.0-1_all.deb
+Size: 17672
+MD5sum: d3aea98bd8a09c6e28b7c0d2d58e4bb7
+SHA1: ba05efc08ae3fe2a14c02d6318e7d1ca634a43e1
+SHA256: 6737896f5ee58bf5e95e83de773db837e8e2913295fee11b5300ff23c07341a6
+Section: utils
+Priority: optional
+Homepage: https://github.com/yeager/locale-tester
+Description: GTK4/Adwaita app for testing and comparing locale behavior
+ Locale Tester lets you inspect how dates, numbers, currency, sorting,
+ and other locale-dependent formatting looks across different system
+ locales. Useful for finding locale bugs and understanding i18n behavior.
+ Features side-by-side comparison, strftime testing, and LC_* overview.
+
 Package: makebread
 Version: 0.3.0
 Architecture: all
@@ -171,3 +193,11 @@ Description: Ubuntu/Launchpad translation statistics viewer
  for Ubuntu packages via Launchpad. Features color-coded progress
  bars, search/filter, language and distribution selectors.
 
+dpkg-scanpackages: warning: Packages with multiple instances but no --multiversion specified:
+dpkg-scanpackages: warning: pool/main/linguaedit_1.8.14_all.deb
+dpkg-scanpackages: warning: pool/main/linguaedit_1.8.4_all.deb
+dpkg-scanpackages: warning: pool/main/linguaedit_1.8.5_all.deb
+dpkg-scanpackages: warning: pool/main/linguaedit_1.8.6_all.deb
+dpkg-scanpackages: warning: Packages in archive but missing from override file:
+dpkg-scanpackages: warning:   elementary-l10n l10n-conv l10n-lint l10n-lint-gtk linguaedit locale-tester makebread po-diff po-translate tp-lint ubuntu-l10n
+dpkg-scanpackages: info: Wrote 11 entries to output Packages file.
