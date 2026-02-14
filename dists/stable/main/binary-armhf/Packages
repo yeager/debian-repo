@@ -83,6 +83,23 @@ Homepage: https://github.com/yeager/l10n-lint
 Description: GTK GUI for l10n-lint localization linter
  A GTK4 graphical interface for the l10n-lint localization linter.
 
+Package: l10n-preview
+Version: 0.1.0-1
+Architecture: all
+Maintainer: Daniel Nylander <daniel@danielnylander.se>
+Depends: python3 (>= 3.10), python3-gi, gir1.2-gtk-4.0, gir1.2-adw-1
+Filename: pool/main/l10n-preview_0.1.0-1_all.deb
+Size: 6180
+MD5sum: 487cbf154ce04e813682e6c791d1465f
+SHA1: 45e0d024ba568e7d56f1efdf65ab308ad7820a13
+SHA256: fdc07f84e576b5043c4385c70aea8c533ed15ec8ee308ddadf5e882cff88ac58
+Section: devel
+Priority: optional
+Homepage: https://github.com/yeager/l10n-preview
+Description: Preview PO/TS translations in simulated UI elements
+ A GTK4/Adwaita application for previewing translations as buttons,
+ menus, dialogs, and labels. Find truncated strings before release.
+
 Package: langpack-inspector
 Version: 0.1.0-1
 Architecture: all
