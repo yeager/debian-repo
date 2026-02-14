@@ -53,16 +53,16 @@ License: GPL-3.0-or-later
 Vendor: none
 
 Package: elementary-l10n
-Version: 0.2.1
+Version: 0.2.2
 Architecture: all
 Maintainer: Daniel Nylander <daniel@danielnylander.se>
-Installed-Size: 56
-Depends: python3, python3-gi, gir1.2-gtk-4.0, gir1.2-adw-1
-Filename: pool/main/elementary-l10n_0.2.1_all.deb
-Size: 23186
-MD5sum: c4683b52e2a2f2ba2e0e394b3a50e4cd
-SHA1: 27a3d45fa255f08934867d4bd3c54abf093bbcef
-SHA256: 444dbe81b97ca5959eae1582f0becd71a423402db38f73a3781c02a6cf219459
+Installed-Size: 59
+Depends: python3, python3-gi, gir1.2-gtk-4.0, gir1.2-adw-1, python3-requests
+Filename: pool/main/elementary-l10n_0.2.2_all.deb
+Size: 24334
+MD5sum: ee92391112989cc724605324288d728c
+SHA1: 3c9aff76979766172ac52c0476d23f19b2d2895f
+SHA256: b4b9158d798d9108692bb9fef69fd26f6e7919c76e4a0c9b460bdd8477768533
 Section: default
 Priority: optional
 Homepage: https://github.com/yeager/elementary-l10n
