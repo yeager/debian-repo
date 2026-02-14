@@ -6,29 +6,7 @@ Version: 1.0
 Architectures: amd64 arm64
 Components: main
 Description: Yeager's Translation Tools APT Repository
-Date: Sat, 14 Feb 2026 19:54:31 +0000
-MD5Sum:
- 0d5e5402cd53fc64eb25bf4837835e98 3816 main/binary-arm64/Packages.gz
- b7f29f89b9d702815d5c4e34f2b50ba0 13255 main/binary-arm64/Packages
- 0d5e5402cd53fc64eb25bf4837835e98 3816 main/binary-i386/Packages.gz
- b7f29f89b9d702815d5c4e34f2b50ba0 13255 main/binary-i386/Packages
- 0d5e5402cd53fc64eb25bf4837835e98 3816 main/binary-armhf/Packages.gz
- b7f29f89b9d702815d5c4e34f2b50ba0 13255 main/binary-armhf/Packages
- 0d5e5402cd53fc64eb25bf4837835e98 3816 main/binary-all/Packages.gz
- b7f29f89b9d702815d5c4e34f2b50ba0 13255 main/binary-all/Packages
- 0d5e5402cd53fc64eb25bf4837835e98 3816 main/binary-amd64/Packages.gz
- b7f29f89b9d702815d5c4e34f2b50ba0 13255 main/binary-amd64/Packages
-SHA1:
- 4a635dd51af6a8aa5e815679bed7c6866e50666d 3816 main/binary-arm64/Packages.gz
- 0fbff67735f6654cb775c9d0eba8c6f6a5f7b582 13255 main/binary-arm64/Packages
- 4a635dd51af6a8aa5e815679bed7c6866e50666d 3816 main/binary-i386/Packages.gz
- 0fbff67735f6654cb775c9d0eba8c6f6a5f7b582 13255 main/binary-i386/Packages
- 4a635dd51af6a8aa5e815679bed7c6866e50666d 3816 main/binary-armhf/Packages.gz
- 0fbff67735f6654cb775c9d0eba8c6f6a5f7b582 13255 main/binary-armhf/Packages
- 4a635dd51af6a8aa5e815679bed7c6866e50666d 3816 main/binary-all/Packages.gz
- 0fbff67735f6654cb775c9d0eba8c6f6a5f7b582 13255 main/binary-all/Packages
- 4a635dd51af6a8aa5e815679bed7c6866e50666d 3816 main/binary-amd64/Packages.gz
- 0fbff67735f6654cb775c9d0eba8c6f6a5f7b582 13255 main/binary-amd64/Packages
+Date: Sat, 14 Feb 2026 19:56:09 +0000
 SHA256:
  8000f1a34df27f1ca23d4314fa508630d0639f0c25aee3ed953a19720e7c6a41 3816 main/binary-arm64/Packages.gz
  1d9171272bce88ac00f58a62b585da55ffd9434fb891555da81187f8a4984511 13255 main/binary-arm64/Packages

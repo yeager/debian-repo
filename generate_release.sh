@@ -24,7 +24,5 @@ Architectures: amd64 arm64
 Components: main
 Description: Yeager's Translation Tools APT Repository
 Date: $(date -Ru)
-$(do_hash "MD5Sum" "openssl dgst -md5 -r")
-$(do_hash "SHA1" "openssl dgst -sha1 -r")
 $(do_hash "SHA256" "openssl dgst -sha256 -r")
 RELEASE
