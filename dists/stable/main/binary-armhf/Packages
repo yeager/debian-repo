@@ -50,22 +50,23 @@ Description: GTK GUI for l10n-lint localization linter
  A GTK4 graphical interface for the l10n-lint localization linter.
 
 Package: linguaedit
-Version: 1.8.6
+Version: 1.8.14
 Architecture: all
 Maintainer: Daniel Nylander <daniel@danielnylander.se>
 Depends: python3 (>= 3.10)
-Recommends: python3-pyside6, ffmpeg, hunspell, python3-polib, python3-yaml
-Filename: pool/main/linguaedit_1.8.6_all.deb
-Size: 260908
-MD5sum: 8cf0119ffe42339b994756b1a24d8654
-SHA1: 4cb10d555a59883142ad5a11706a5e3fa0c7d4f6
-SHA256: 109c10a1b97519e7d246ab29ef9b8cde372433edbef3ef60c8f3191f1d37e2c4
+Recommends: ffmpeg, hunspell, python3-polib, python3-yaml
+Filename: pool/main/linguaedit_1.8.14_all.deb
+Size: 342644
+MD5sum: 307f0c04df70f2ebd2b327df7b6073c7
+SHA1: b9babee87c56f17ff85c4b83fa9de48c225b04fe
+SHA256: 46c70b2268002a6c3856e309420b7edeb0f2593b30baee0cbfa1a4ccb87fbf56
 Section: editors
 Priority: optional
 Homepage: https://github.com/yeager/linguaedit
-Description: Professional translation file editor
+Description: Professional translation editor
  A PySide6/Qt6 translation editor supporting 17+ file formats with
  translation memory, glossary, AI review, linting, Zen mode, and more.
+ PySide6 must be installed via pip: pip install PySide6
 
 Package: makebread
 Version: 0.3.0
