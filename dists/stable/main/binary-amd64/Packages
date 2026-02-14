@@ -1,3 +1,20 @@
+Package: cldr-viewer
+Version: 0.1.0
+Architecture: all
+Maintainer: Daniel Nylander <daniel@danielnylander.se>
+Depends: python3 (>= 3.10), python3-gi, gir1.2-gtk-4.0, gir1.2-adw-1
+Filename: pool/main/cldr-viewer_0.1.0_all.deb
+Size: 6444
+MD5sum: 59523cbb2f9be9db17cf83b6eb307a7a
+SHA1: e5c4c6cf354ee797d1a3814a2bf8d5d7f11ab9a5
+SHA256: eb586a55c4828c36f3d7d6d24886825ad324d5f479cca094db577de6ef1cd52a
+Section: devel
+Priority: optional
+Homepage: https://github.com/yeager/cldr-viewer
+Description: Visualize Unicode CLDR locale data completeness
+ GTK4/Adwaita application for browsing and comparing CLDR locale
+ data. Find missing translations in dates, currencies, units, and more.
+
 Package: desktop-editor
 Version: 0.1.0-1
 Architecture: all
