@@ -53,6 +53,24 @@ Description: Universal localization file converter, validator, and compiler
  formats including Gettext PO/MO, Qt TS, XLIFF, Android XML, iOS Strings,
  JSON, YAML, CSV, TMX, TBX, PHP, ARB, Fluent, RESX, and Properties.
 
+Package: l10n-glossary
+Version: 0.1.0
+Architecture: all
+Maintainer: Daniel Nylander <daniel@danielnylander.se>
+Depends: python3 (>= 3.10), python3-gi, gir1.2-gtk-4.0, gir1.2-adw-1, python3-lxml
+Filename: pool/main/l10n-glossary_0.1.0_all.deb
+Size: 8760
+MD5sum: 8b25a85bda54b7500385908333df5222
+SHA1: 29bd3e4e1bc0816a1c17452663e78feccbe1c1cd
+SHA256: ae532844448431c442443ef51d843adac74b399709d24d8eef6aff70457f83b1
+Section: devel
+Priority: optional
+Homepage: https://github.com/yeager/l10n-glossary
+Description: Glossary editor for localization
+ GTK4/Adwaita application for managing localization glossaries.
+ Manage term lists per language/project, flag inconsistencies,
+ import from PO/TS files, and export to TBX/CSV/TSV.
+
 Package: l10n-lint
 Version: 1.14.9
 Architecture: all
@@ -285,5 +303,5 @@ dpkg-scanpackages: warning: pool/main/linguaedit_1.8.4_all.deb
 dpkg-scanpackages: warning: pool/main/linguaedit_1.8.5_all.deb
 dpkg-scanpackages: warning: pool/main/linguaedit_1.8.6_all.deb
 dpkg-scanpackages: warning: Packages in archive but missing from override file:
-dpkg-scanpackages: warning:   desktop-editor elementary-l10n l10n-conv l10n-lint l10n-lint-gtk l10n-preview langpack-inspector linguaedit locale-tester makebread po-diff po-translate snap-l10n tm-manager tp-lint ubuntu-l10n
-dpkg-scanpackages: info: Wrote 16 entries to output Packages file.
+dpkg-scanpackages: warning:   desktop-editor elementary-l10n l10n-conv l10n-glossary l10n-lint l10n-lint-gtk l10n-preview langpack-inspector linguaedit locale-tester makebread po-diff po-translate snap-l10n tm-manager tp-lint ubuntu-l10n
+dpkg-scanpackages: info: Wrote 17 entries to output Packages file.
