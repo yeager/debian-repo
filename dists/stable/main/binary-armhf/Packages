@@ -1,106 +1,98 @@
 Package: cldr-viewer
-Version: 0.1.0
-Architecture: all
-Maintainer: Daniel Nylander <daniel@danielnylander.se>
-Depends: python3 (>= 3.10), python3-gi, gir1.2-gtk-4.0, gir1.2-adw-1
-Filename: pool/main/cldr-viewer_0.1.0_all.deb
-Size: 6444
-MD5sum: 59523cbb2f9be9db17cf83b6eb307a7a
-SHA1: e5c4c6cf354ee797d1a3814a2bf8d5d7f11ab9a5
-SHA256: eb586a55c4828c36f3d7d6d24886825ad324d5f479cca094db577de6ef1cd52a
-Section: devel
-Priority: optional
-Homepage: https://github.com/yeager/cldr-viewer
-Description: Visualize Unicode CLDR locale data completeness
- GTK4/Adwaita application for browsing and comparing CLDR locale
- data. Find missing translations in dates, currencies, units, and more.
-
-Package: commonvoice-status
-Version: 0.1.0-1
-Architecture: all
-Maintainer: Daniel Nylander <daniel@danielnylander.se>
-Depends: python3 (>= 3.10), python3-gi, gir1.2-gtk-4.0, gir1.2-adw-1
-Filename: pool/main/commonvoice-status_0.1.0-1_all.deb
-Size: 5812
-MD5sum: e9548ea090fd5e0ae2606467ea467328
-SHA1: e0b4b27ef764cac2af65ccf885608cd7d2b548b5
-SHA256: 660c149d1e0df889253221ab0564a0d5e7015345d60675d5e6967075f8118448
-Section: utils
-Priority: optional
-Homepage: https://github.com/yeager/commonvoice-status
-Description: View Mozilla Common Voice recording statistics
- GTK4/Adwaita application for viewing Mozilla Common Voice
- recording statistics per language with Nordic comparison,
- gap analysis, and sorting capabilities.
-
-Package: desktop-editor
-Version: 0.1.0-1
-Architecture: all
-Maintainer: Daniel Nylander <daniel@danielnylander.se>
-Depends: python3 (>= 3.10), python3-gi, gir1.2-gtk-4.0, gir1.2-adw-1
-Filename: pool/main/desktop-editor_0.1.0-1_all.deb
-Size: 9012
-MD5sum: 87ee407858212dcf0e3aaae52ded3ad8
-SHA1: 5def455d461cf01d6025c80db71c6bd91e6688d3
-SHA256: 24393cb930cd4ed4c1d4e880297324abe54a76b434e1a502bd925d95f0258b6d
-Section: devel
-Priority: optional
-Homepage: https://github.com/yeager/desktop-editor
-Description: Visual editor for .desktop files
- A GTK4/Adwaita application for editing .desktop files with
- preview, validation, and translation management.
-
-Package: elementary-l10n
-Version: 0.1.0
-Architecture: all
-Maintainer: Daniel Nylander <daniel@danielnylander.se>
-Depends: python3, python3-gi, python3-requests, gir1.2-gtk-4.0, gir1.2-adw-1
-Filename: pool/main/elementary-l10n_0.1.0_all.deb
-Size: 7380
-MD5sum: 499e795f1cab10c5eebc4e79abf3fd36
-SHA1: 8ef8df4ae835b4834f2bb41ce579b82ea53438fc
-SHA256: e44ce656a6641c32234beed9a568a14b26b2c6b001023b68ea5393da6b709897
-Section: devel
-Priority: optional
-Homepage: https://github.com/yeager/elementary-l10n
-Description: Monitor translation progress for elementary OS components
- A GTK4/Adwaita application that monitors and displays translation
- progress for elementary OS components via Weblate.
-
-Package: font-preview
-Version: 0.1.0
-Architecture: all
-Maintainer: Daniel Nylander <daniel@danielnylander.se>
-Depends: python3, python3-gi, gir1.2-gtk-4.0, gir1.2-adw-1, python3-fonttools, fontconfig
-Filename: pool/main/font-preview_0.1.0_all.deb
-Size: 7716
-MD5sum: 256a40f0040adbe41e7c835dfc9f1fbd
-SHA1: 12bce211b2549ddee74599609f4ac91e3b2edf29
-SHA256: 3bd85607c54cd0b129663d4556daae65b4016a590e7cd23c088055483ba22b36
-Section: utils
-Priority: optional
-Homepage: https://github.com/yeager/font-preview
-Description: A better font viewer for Linux
- Preview text in all installed fonts, compare fonts side by side,
- and analyze Unicode coverage per language. Built with GTK4 and Adwaita.
-
-Package: github-l10n
-Version: 0.1.0-1
+Version: 0.2.1
 Architecture: all
 Maintainer: Daniel Nylander <daniel@danielnylander.se>
 Depends: python3, python3-gi, gir1.2-gtk-4.0, gir1.2-adw-1
-Filename: pool/main/github-l10n_0.1.0-1_all.deb
-Size: 8280
-MD5sum: c464e601b1b38986ab4d7a86b543e408
-SHA1: 231525805ed75c8979beca45499cf5e676887562
-SHA256: c75ea096b640cd13096b95ece6cd395a9c2bbdd93d5b169510133f72fe7c3870
-Section: devel
+Filename: pool/main/cldr-viewer_0.2.1_all.deb
+Size: 6584
+MD5sum: e9e5e04014a2805d0d71b564f8ee1fa1
+SHA1: 34114f53d4a34b942e24b211c31f3aa80dad8b10
+SHA256: d0976ee899c474dcbaa1df5a1ae701e7d7e45d2df633669ba202517fd90d14f1
+Section: utils
 Priority: optional
-Homepage: https://github.com/yeager/github-l10n
-Description: GitHub Translation Stats
- GTK4/Adwaita app to scan popular GitHub repos for missing
- translations. Shows top repos by stars and their l10n status
- for any language.
+Description: GTK4 translation and localization tool
+ Part of the GTK4 localization toolkit for managing translations
+ and language packs.
+
+Package: commonvoice-status
+Version: 0.2.1
+Architecture: all
+Maintainer: Daniel Nylander <daniel@danielnylander.se>
+Depends: python3, python3-gi, gir1.2-gtk-4.0, gir1.2-adw-1
+Filename: pool/main/commonvoice-status_0.2.1_all.deb
+Size: 5836
+MD5sum: 976d28a5346aac3fe87e639eb2ad4f13
+SHA1: edff2991622173242eaa7a4724819a0542eaa73c
+SHA256: 642d35c1802e7d9f0a774ec62df4b8f737b2caa6d5123fd613fce4aa063cfb76
+Section: utils
+Priority: optional
+Description: GTK4 translation and localization tool
+ Part of the GTK4 localization toolkit for managing translations
+ and language packs.
+
+Package: desktop-editor
+Version: 0.2.1
+Architecture: all
+Maintainer: Daniel Nylander <daniel@danielnylander.se>
+Depends: python3, python3-gi, gir1.2-gtk-4.0, gir1.2-adw-1
+Filename: pool/main/desktop-editor_0.2.1_all.deb
+Size: 9616
+MD5sum: 6f0a47ddb67cf17eb83c6733da200913
+SHA1: 726cbda42e66c9fd06457d89c5a0e7805dd643a8
+SHA256: 5a027504885a0e4f1c8760891bdc3faf0b3229832b7cd80293eb036462ae943f
+Section: utils
+Priority: optional
+Description: GTK4 translation and localization tool
+ Part of the GTK4 localization toolkit for managing translations
+ and language packs.
+
+Package: elementary-l10n
+Version: 0.2.1
+Architecture: all
+Maintainer: Daniel Nylander <daniel@danielnylander.se>
+Depends: python3, python3-gi, gir1.2-gtk-4.0, gir1.2-adw-1
+Filename: pool/main/elementary-l10n_0.2.1_all.deb
+Size: 19012
+MD5sum: 61eef370b9da9e544d9d6c17373907e3
+SHA1: 6be0e6d1d0ac88ec23ff2e6004c31fd82e1bddba
+SHA256: 389056f3f9788df109e73088bfc56ceb5a862344c15d5d085d7e22150d37d727
+Section: utils
+Priority: optional
+Description: GTK4 translation and localization tool
+ Part of the GTK4 localization toolkit for managing translations
+ and language packs.
+
+Package: font-preview
+Version: 0.2.1
+Architecture: all
+Maintainer: Daniel Nylander <daniel@danielnylander.se>
+Depends: python3, python3-gi, gir1.2-gtk-4.0, gir1.2-adw-1
+Filename: pool/main/font-preview_0.2.1_all.deb
+Size: 8628
+MD5sum: f3d8c4682f11a09455ef332e8eb6f6ee
+SHA1: bcfb1e2f2c8231c0752b462bf08c39cf6df4821f
+SHA256: 9eb1507ae6930875f5cea46694ee1da589e7f6546a301658117a6501fcb5d5f1
+Section: utils
+Priority: optional
+Description: GTK4 translation and localization tool
+ Part of the GTK4 localization toolkit for managing translations
+ and language packs.
+
+Package: github-l10n
+Version: 0.2.1
+Architecture: all
+Maintainer: Daniel Nylander <daniel@danielnylander.se>
+Depends: python3, python3-gi, gir1.2-gtk-4.0, gir1.2-adw-1
+Filename: pool/main/github-l10n_0.2.1_all.deb
+Size: 7588
+MD5sum: d2c68bccd294649389f156a7f60a2575
+SHA1: a7a78008e6df23607d8b60c4970a0de85c6d1e6a
+SHA256: 4385274f3c96a3d415312de7abf5c79bf9e0bfc9bc0362d4110c4df52ba30a80
+Section: utils
+Priority: optional
+Description: GTK4 translation and localization tool
+ Part of the GTK4 localization toolkit for managing translations
+ and language packs.
 
 Package: l10n-conv
 Version: 1.0.0
@@ -121,22 +113,20 @@ Description: Universal localization file converter, validator, and compiler
  JSON, YAML, CSV, TMX, TBX, PHP, ARB, Fluent, RESX, and Properties.
 
 Package: l10n-glossary
-Version: 0.1.0
+Version: 0.2.1
 Architecture: all
 Maintainer: Daniel Nylander <daniel@danielnylander.se>
-Depends: python3 (>= 3.10), python3-gi, gir1.2-gtk-4.0, gir1.2-adw-1, python3-lxml
-Filename: pool/main/l10n-glossary_0.1.0_all.deb
-Size: 8760
-MD5sum: 8b25a85bda54b7500385908333df5222
-SHA1: 29bd3e4e1bc0816a1c17452663e78feccbe1c1cd
-SHA256: ae532844448431c442443ef51d843adac74b399709d24d8eef6aff70457f83b1
-Section: devel
+Depends: python3, python3-gi, gir1.2-gtk-4.0, gir1.2-adw-1
+Filename: pool/main/l10n-glossary_0.2.1_all.deb
+Size: 8936
+MD5sum: ed6caa470cb994ba9d5597517c7e9018
+SHA1: 8e36f71b94c25a213677e164c2875262c47ee694
+SHA256: 94042d1bf97386e43a4ebddac31f6fc90e0082a1a3e79e86f833536c0c017d5b
+Section: utils
 Priority: optional
-Homepage: https://github.com/yeager/l10n-glossary
-Description: Glossary editor for localization
- GTK4/Adwaita application for managing localization glossaries.
- Manage term lists per language/project, flag inconsistencies,
- import from PO/TS files, and export to TBX/CSV/TSV.
+Description: GTK4 translation and localization tool
+ Part of the GTK4 localization toolkit for managing translations
+ and language packs.
 
 Package: l10n-lint
 Version: 1.14.9
@@ -172,57 +162,52 @@ Description: GTK GUI for l10n-lint localization linter
  A GTK4 graphical interface for the l10n-lint localization linter.
 
 Package: l10n-preview
-Version: 0.1.0-1
+Version: 0.2.1
 Architecture: all
 Maintainer: Daniel Nylander <daniel@danielnylander.se>
-Depends: python3 (>= 3.10), python3-gi, gir1.2-gtk-4.0, gir1.2-adw-1
-Filename: pool/main/l10n-preview_0.1.0-1_all.deb
-Size: 6180
-MD5sum: 487cbf154ce04e813682e6c791d1465f
-SHA1: 45e0d024ba568e7d56f1efdf65ab308ad7820a13
-SHA256: fdc07f84e576b5043c4385c70aea8c533ed15ec8ee308ddadf5e882cff88ac58
-Section: devel
+Depends: python3, python3-gi, gir1.2-gtk-4.0, gir1.2-adw-1
+Filename: pool/main/l10n-preview_0.2.1_all.deb
+Size: 7100
+MD5sum: c7a628bf4951d8743f8bde01959c57d1
+SHA1: ee1733e1ec1505b0ae7e01c6fb99b831e2665f68
+SHA256: 398b2f7d73e63fe227bc752189e9d1a56148c171e11c01483a380c7f9aac3799
+Section: utils
 Priority: optional
-Homepage: https://github.com/yeager/l10n-preview
-Description: Preview PO/TS translations in simulated UI elements
- A GTK4/Adwaita application for previewing translations as buttons,
- menus, dialogs, and labels. Find truncated strings before release.
+Description: GTK4 translation and localization tool
+ Part of the GTK4 localization toolkit for managing translations
+ and language packs.
 
 Package: langpack-inspector
-Version: 0.1.0-1
+Version: 0.2.1
 Architecture: all
 Maintainer: Daniel Nylander <daniel@danielnylander.se>
-Depends: python3-gi, gir1.2-gtk-4.0, gir1.2-adw-1, python3-gi-cairo, python3:any
-Filename: pool/main/langpack-inspector_0.1.0-1_all.deb
-Size: 7016
-MD5sum: c7078300db31cb2954bcfcf0e5f357e6
-SHA1: c3a844aa57e7a6f5def491a7e91229d8ab75137e
-SHA256: 397ce93751e762d075902eea73a4046b9a541eb4a62ffd6116c12f446a7049a1
+Depends: python3, python3-gi, gir1.2-gtk-4.0, gir1.2-adw-1
+Filename: pool/main/langpack-inspector_0.2.1_all.deb
+Size: 7208
+MD5sum: 434c1dee6ebd8340d32e2400935bf28a
+SHA1: ae765ac5cd05d4f40554b2f0d5ac1fde2fd635e3
+SHA256: 4d04d8d035b6df9b93cfd06bb91ad5117499d08c357723939d90029aae282155
 Section: utils
 Priority: optional
-Homepage: https://github.com/yeager/langpack-inspector
-Description: Inspect Ubuntu language packs and find missing translations
- A GTK4/Adwaita application that shows what is included in Ubuntu language
- packs, helps find missing or outdated translations, and provides direct
- links to Launchpad for translating.
+Description: GTK4 translation and localization tool
+ Part of the GTK4 localization toolkit for managing translations
+ and language packs.
 
 Package: libretranslate-gui
-Version: 0.1.0
+Version: 0.2.1
 Architecture: all
 Maintainer: Daniel Nylander <daniel@danielnylander.se>
-Depends: python3 (>= 3.10), python3-gi, gir1.2-gtk-4.0, gir1.2-adw-1
-Filename: pool/main/libretranslate-gui_0.1.0_all.deb
-Size: 6916
-MD5sum: 946419533f15525b1376d7a6aa6406df
-SHA1: fa9561d36700f9963125d7630492438a655ac7ab
-SHA256: 2110a6fe1bb5e9ab9c91eb634e9e475d68691e2960cc1dd7b7a68f73de8f87ea
+Depends: python3, python3-gi, gir1.2-gtk-4.0, gir1.2-adw-1
+Filename: pool/main/libretranslate-gui_0.2.1_all.deb
+Size: 7024
+MD5sum: 37937fd15c7492631dfee85ee1784544
+SHA1: 517164d621fcee7d7f77eb84d5b5eb05055d126e
+SHA256: ab3d8161ff8c95c11220dc90e0e33c756d4780031fcb7edf7b6dcb7d12767826
 Section: utils
 Priority: optional
-Homepage: https://github.com/yeager/libretranslate-gui
-Description: GTK4/Adwaita translation assistant using LibreTranslate API
- A desktop application for translating text using the LibreTranslate API.
- Supports live translation, batch mode, .po/.ts file translation suggestions,
- configurable server URL, translation history, and clipboard integration.
+Description: GTK4 translation and localization tool
+ Part of the GTK4 localization toolkit for managing translations
+ and language packs.
 
 Package: linguaedit
 Version: 1.8.14
@@ -244,23 +229,20 @@ Description: Professional translation editor
  PySide6 must be installed via pip: pip install PySide6
 
 Package: locale-tester
-Version: 0.1.0-1
+Version: 0.2.1
 Architecture: all
 Maintainer: Daniel Nylander <daniel@danielnylander.se>
 Depends: python3, python3-gi, gir1.2-gtk-4.0, gir1.2-adw-1
-Filename: pool/main/locale-tester_0.1.0-1_all.deb
-Size: 17672
-MD5sum: d3aea98bd8a09c6e28b7c0d2d58e4bb7
-SHA1: ba05efc08ae3fe2a14c02d6318e7d1ca634a43e1
-SHA256: 6737896f5ee58bf5e95e83de773db837e8e2913295fee11b5300ff23c07341a6
+Filename: pool/main/locale-tester_0.2.1_all.deb
+Size: 6612
+MD5sum: cd6be0d492f2cc9fa55c655a684d84a7
+SHA1: e7e54d53d17c37d2c40dd0fb21b17eae1946a819
+SHA256: 773eec49e4a0b89ca17b309f34e2c0ba7d38f40d0033018eeaa36decd48bcee4
 Section: utils
 Priority: optional
-Homepage: https://github.com/yeager/locale-tester
-Description: GTK4/Adwaita app for testing and comparing locale behavior
- Locale Tester lets you inspect how dates, numbers, currency, sorting,
- and other locale-dependent formatting looks across different system
- locales. Useful for finding locale bugs and understanding i18n behavior.
- Features side-by-side comparison, strftime testing, and LC_* overview.
+Description: GTK4 translation and localization tool
+ Part of the GTK4 localization toolkit for managing translations
+ and language packs.
 
 Package: makebread
 Version: 0.3.0
@@ -316,38 +298,36 @@ Description: Batch translate PO and TS localization files
  various translation APIs (Google, DeepL, Claude, etc.).
 
 Package: snap-l10n
-Version: 0.1.0-1
-Architecture: all
-Maintainer: Daniel Nylander <daniel@danielnylander.se>
-Depends: python3 (>= 3.10), python3-gi, gir1.2-gtk-4.0, gir1.2-adw-1
-Filename: pool/main/snap-l10n_0.1.0-1_all.deb
-Size: 5252
-MD5sum: 8f86b3e0fffb2354190252f9ade212d6
-SHA1: fd95f2bbf0c4ea82136636460cf87dd43b4bbb03
-SHA256: df1382746ba7d09c0e7240bd6d0a10dc9a8df1a23da7ac7fdc88b8c8d49cc42a
-Section: devel
-Priority: optional
-Homepage: https://github.com/yeager/snap-l10n
-Description: View snap package translation status
- GTK4/Adwaita app showing translation status of installed snap packages.
-
-Package: tm-manager
-Version: 0.1.0
+Version: 0.2.1
 Architecture: all
 Maintainer: Daniel Nylander <daniel@danielnylander.se>
 Depends: python3, python3-gi, gir1.2-gtk-4.0, gir1.2-adw-1
-Filename: pool/main/tm-manager_0.1.0_all.deb
-Size: 8224
-MD5sum: 003774cad17d64bc9399ffa56e973ff3
-SHA1: 5f8666181baeaebe95c63e380e17338b7506ad53
-SHA256: 2f72f8a3155b1cb052a7f2ea03bfbe9ffc9075c746f9b918e869a1ff8b054625
-Section: devel
+Filename: pool/main/snap-l10n_0.2.1_all.deb
+Size: 6256
+MD5sum: c00a1332c47ae43c77df46bbe5114f13
+SHA1: bdd851fc56624d0b6c4f02ea6961492fc8183f5c
+SHA256: 2f6b3b6fd1520d8e6fba5d97991353363e61e9a3a0717e56228d20d9f7d86dfd
+Section: utils
 Priority: optional
-Homepage: https://github.com/yeager/tm-manager
-Description: Translation Memory Manager
- GTK4/Adwaita application for managing local Translation Memory
- files (TMX). Features fuzzy search, import/export, merge, and
- segment editing.
+Description: GTK4 translation and localization tool
+ Part of the GTK4 localization toolkit for managing translations
+ and language packs.
+
+Package: tm-manager
+Version: 0.2.1
+Architecture: all
+Maintainer: Daniel Nylander <daniel@danielnylander.se>
+Depends: python3, python3-gi, gir1.2-gtk-4.0, gir1.2-adw-1
+Filename: pool/main/tm-manager_0.2.1_all.deb
+Size: 8760
+MD5sum: 5438ebcb87483f4a294e7e4026d0a709
+SHA1: 447b7669d7815751d638eb073e388b51c5bc8ae4
+SHA256: 342fb544eb8e1068120a8fb9adaa06f0622666bcdf1b8d770cfb856d3747c65f
+Section: utils
+Priority: optional
+Description: GTK4 translation and localization tool
+ Part of the GTK4 localization toolkit for managing translations
+ and language packs.
 
 Package: tp-lint
 Version: 1.8.0
@@ -365,20 +345,18 @@ Description: Lint PO files from the Translation Project
  tp-lint fetches and lints PO files from translationproject.org.
 
 Package: ubuntu-l10n
-Version: 0.1.0
+Version: 0.2.1
 Architecture: all
 Maintainer: Daniel Nylander <daniel@danielnylander.se>
-Depends: python3 (>= 3.10), python3-gi, python3-gi-cairo, gir1.2-gtk-4.0, gir1.2-adw-1, python3-bs4, python3-requests, python3-lxml
-Filename: pool/main/ubuntu-l10n_0.1.0_all.deb
-Size: 9340
-MD5sum: 52cc6ed0f146dce08c13c92fcbc3d8ca
-SHA1: cfdc295bcae0243d148cf4975ea7dae168c7863b
-SHA256: 859a1300f67fd8c2625a00b21adadf9e2bf136be8ae74856dacde4a62e1af24a
-Section: devel
+Depends: python3, python3-gi, gir1.2-gtk-4.0, gir1.2-adw-1
+Filename: pool/main/ubuntu-l10n_0.2.1_all.deb
+Size: 9664
+MD5sum: cd250f5593de002616f3caa605fdc630
+SHA1: 1df0a52416883525eba4e5d8f5f7894872d85360
+SHA256: 85b8a75c4351e43dc99a55681a8082c723b8f142678eaac09c45df35773426a4
+Section: utils
 Priority: optional
-Homepage: https://github.com/yeager/ubuntu-l10n
-Description: Ubuntu/Launchpad translation statistics viewer
- GTK4/Libadwaita app that shows the current translation status
- for Ubuntu packages via Launchpad. Features color-coded progress
- bars, search/filter, language and distribution selectors.
+Description: GTK4 translation and localization tool
+ Part of the GTK4 localization toolkit for managing translations
+ and language packs.
 
