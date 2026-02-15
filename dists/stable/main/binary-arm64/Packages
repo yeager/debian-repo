@@ -1,140 +1,128 @@
 Package: cldr-viewer
-Version: 0.1.4
+Version: 0.1.5
 Architecture: all
-Maintainer: Daniel Nylander <po@danielnylander.se>
-Depends: python3, python3-gi, gir1.2-adw-1, gir1.2-gtk-4.0
-Filename: pool/main/cldr-viewer_0.1.4_all.deb
-Size: 7816
-MD5sum: 154a565a57204f261f3fb520f984c596
-SHA1: 0ea03cbac4b0c0504481d87918f796317c6bd02a
-SHA256: c3b9bb18d9aa1aea3ae00d0110b4aca97bb98dc2da22f2a2c5b6c71f3e6ecb0a
+Maintainer: Daniel Nyström <dan.nystrom@gmail.com>
+Depends: python3, python3-gi, gir1.2-gtk-4.0, gir1.2-adw-1
+Filename: pool/main/cldr-viewer_0.1.5_all.deb
+Size: 9136
+MD5sum: fed2f4e152941483819b9623c4cc934b
+SHA1: 8af6f404a86a6336425d8bec5ce21e39a0119778
+SHA256: 34ca0be577eb22b74631ab85c72381212d1eb395a96db93acf210ad6d3c3b27f
 Section: utils
 Priority: optional
-Description: cldr-viewer - Swedish localization tool
- Part of the Swedish localization toolkit.
+Description: CLDR Locale Viewer
 
 Package: commonvoice-status
-Version: 0.1.3
+Version: 0.1.4
 Architecture: all
-Maintainer: Daniel Nylander <po@danielnylander.se>
-Depends: python3, python3-gi, gir1.2-adw-1, gir1.2-gtk-4.0
-Filename: pool/main/commonvoice-status_0.1.3_all.deb
-Size: 7632
-MD5sum: c454dca93eba64054d5f4376f8675aa6
-SHA1: 67c583611ff0c7587ebca81df22dc75904382a1d
-SHA256: 1f714ce84f2e857d10df21105e48cd9bf851e089f86a1a7ec00ed62271236eec
+Maintainer: Daniel Nyström <dan.nystrom@gmail.com>
+Depends: python3, python3-gi, gir1.2-gtk-4.0, gir1.2-adw-1
+Filename: pool/main/commonvoice-status_0.1.4_all.deb
+Size: 8762
+MD5sum: 5d9d0b09cf040472b9e016d693421e5e
+SHA1: 4c7dedb47cb162182a5f019243178a28a61064d7
+SHA256: 00fb055c9cf5adc4d16badcc32c5e6e56a85f67310d556ba0c725aac602cab8c
 Section: utils
 Priority: optional
-Description: commonvoice-status - Swedish localization tool
- Part of the Swedish localization toolkit.
+Description: Common Voice Status
 
 Package: ddtp-translate
-Version: 0.3.1
+Version: 0.3.2
 Architecture: all
-Maintainer: Daniel Nylander <daniel@danielnylander.se>
+Maintainer: Daniel Nyström <dan.nystrom@gmail.com>
 Depends: python3, python3-gi, gir1.2-gtk-4.0, gir1.2-adw-1
-Replaces: ddtp-translate (<< 0.3.1)
-Filename: pool/main/ddtp-translate_0.3.1_all.deb
-Size: 15574
-MD5sum: 1baba962ac89e359dc196141191712ec
-SHA1: a6a330a10c4cccfe54cb67cf5662fa9bdd2c8d73
-SHA256: 29e67362d766c6ded9886e8362df34d7c6d801001a6ee2e86da5903b703bb0cb
-Section: devel
+Filename: pool/main/ddtp-translate_0.3.2_all.deb
+Size: 14388
+MD5sum: 3487db15b7f00f98519b22f5f095820c
+SHA1: cd467f8a5f4373a24edbf627dd9d7cc97d072f45
+SHA256: 6de7a5bdc10395e5572a5abb0b979e4b49767b8e31a13ba7664854d3c0e70717
+Section: utils
 Priority: optional
-Homepage: https://github.com/yeager/ddtp-translate
-Description: Translate Debian package descriptions via DDTP
- GTK4/Adwaita application for translating Debian package
- descriptions using the Debian Description Translation Project.
+Description: DDTP Translate
 
 Package: desktop-editor
-Version: 0.2.3
+Version: 0.2.4
 Architecture: all
-Maintainer: Daniel Nylander <po@danielnylander.se>
-Depends: python3, python3-gi, gir1.2-adw-1, gir1.2-gtk-4.0
-Filename: pool/main/desktop-editor_0.2.3_all.deb
-Size: 10704
-MD5sum: 896503df8a37ca9cb9f30436282ff74d
-SHA1: f91536c836cf5618e2f097b5b7b1aa760d89b1ab
-SHA256: 88197c70457749b3e9867d9758522cea399061c3b0338b4011afe7fca61258d1
+Maintainer: Daniel Nyström <dan.nystrom@gmail.com>
+Depends: python3, python3-gi, gir1.2-gtk-4.0, gir1.2-adw-1
+Filename: pool/main/desktop-editor_0.2.4_all.deb
+Size: 11992
+MD5sum: bfa7fefbeeb949d4057ffe8cbd2427c4
+SHA1: 1edcc36eeb039d03254bc87b099a45391dc74640
+SHA256: 39117a6026b972feb9065ab8d80760a8b70bad928a5bc155637e093b13f3ec14
 Section: utils
 Priority: optional
-Description: desktop-editor - Swedish localization tool
- Part of the Swedish localization toolkit.
+Description: Desktop File Editor
 
 Package: elementary-l10n
-Version: 0.2.6
+Version: 0.2.7
 Architecture: all
-Maintainer: Daniel Nylander <po@danielnylander.se>
-Depends: python3, python3-gi, gir1.2-adw-1, gir1.2-gtk-4.0, gir1.2-secret-1
-Filename: pool/main/elementary-l10n_0.2.6_all.deb
-Size: 11708
-MD5sum: ce3b35e67dcbb9ee24fc51a774bf718c
-SHA1: 2607df409e7a682452cf210b772d9f9a3a194ecf
-SHA256: 298da11479a4221a28629b93cea995ce2a36c1ba605f4576e236313b49ae2692
+Maintainer: Daniel Nyström <dan.nystrom@gmail.com>
+Depends: python3, python3-gi, gir1.2-gtk-4.0, gir1.2-adw-1
+Filename: pool/main/elementary-l10n_0.2.7_all.deb
+Size: 13022
+MD5sum: 9172a62a0ccc383d1aae7b63f0f6f44e
+SHA1: c18f78a90602cbdeb4cf68b07d7fe5bc253d2d43
+SHA256: 0205e6bf60e7b2d408e3a95d193c4ec54d70cfd65f30e5a53f28066014e53753
 Section: utils
 Priority: optional
-Description: elementary-l10n - Swedish localization tool
- Part of the Swedish localization toolkit.
+Description: Translation Status
 
 Package: font-preview
-Version: 0.2.4
+Version: 0.2.5
 Architecture: all
-Maintainer: Daniel Nylander <po@danielnylander.se>
-Depends: python3, python3-gi, gir1.2-adw-1, gir1.2-gtk-4.0
-Filename: pool/main/font-preview_0.2.4_all.deb
-Size: 9180
-MD5sum: af97ec1728da6dd33902119a84628919
-SHA1: edccf304d3ac89bd28b2f054c50341e9c9da03fb
-SHA256: 3128db867579cb9fee0c9999cd524f61bbf14acba4aab28b554c28ab9e45c497
+Maintainer: Daniel Nyström <dan.nystrom@gmail.com>
+Depends: python3, python3-gi, gir1.2-gtk-4.0, gir1.2-adw-1
+Filename: pool/main/font-preview_0.2.5_all.deb
+Size: 10778
+MD5sum: d6d5868165bda198529d9933c6aee15c
+SHA1: ec531c4ceb44c12be12c5b90f1cbc92d7d57c628
+SHA256: 8e94e900f92c731e298b0d5bede5c838547bd097e7b9a4600ebbed445943f9b8
 Section: utils
 Priority: optional
-Description: font-preview - Swedish localization tool
- Part of the Swedish localization toolkit.
+Description: Font Preview
 
 Package: github-l10n
-Version: 0.2.4
+Version: 0.2.5
 Architecture: all
-Maintainer: Daniel Nylander <po@danielnylander.se>
-Depends: python3, python3-gi, gir1.2-adw-1, gir1.2-gtk-4.0
-Filename: pool/main/github-l10n_0.2.4_all.deb
-Size: 9164
-MD5sum: 8eea7b8b51ef87508c5177c71711b06c
-SHA1: 3b2b5d73a2d2ba4d450d0053c27c04b524627d0d
-SHA256: 08c6e257f65a8c001f775dda6c343c6ae7736da7cc5192d30fb645063fc266f8
+Maintainer: Daniel Nyström <dan.nystrom@gmail.com>
+Depends: python3, python3-gi, gir1.2-gtk-4.0, gir1.2-adw-1
+Filename: pool/main/github-l10n_0.2.5_all.deb
+Size: 10608
+MD5sum: a8024ae93ff58671c5c29c00da3613e1
+SHA1: 01be8c0c3f7b15201c47426adb16fded06e8869c
+SHA256: 506ec65f2e10ba52a11788599285e10f0d85d899a931e29c7a1d2c9582caceb9
 Section: utils
 Priority: optional
-Description: github-l10n - Swedish localization tool
- Part of the Swedish localization toolkit.
+Description: GitHub Translation Stats
 
 Package: l10n-conv
-Version: 1.0.3
+Version: 1.0.4
 Architecture: all
-Maintainer: Daniel Nylander <po@danielnylander.se>
+Maintainer: Daniel Nyström <dan.nystrom@gmail.com>
 Depends: python3
-Filename: pool/main/l10n-conv_1.0.3_all.deb
-Size: 7320
-MD5sum: 6c930c384ad2823c1692c66faab33d3c
-SHA1: 0b09f6e5592630078ee5a3caf9669aab08849bf6
-SHA256: 56557cfb1aa6005a27973d7b88fc74c123f1d2b9927c0d5138349116b1058b4a
+Filename: pool/main/l10n-conv_1.0.4_all.deb
+Size: 15326
+MD5sum: cb9bdf3d93ac29bcf9e5515aab2d1211
+SHA1: dfa0a52e4f0f8c8c2d4bb1cbd2d7c4d06804a4a8
+SHA256: fe304bdb47d32b4f30745e9e3378d7927721b13ff306951b59a2013bd92976ce
 Section: utils
 Priority: optional
-Description: l10n-conv - Swedish localization tool
- Part of the Swedish localization toolkit.
+Description: l10n-conv
 
 Package: l10n-glossary
-Version: 0.2.4
+Version: 0.2.5
 Architecture: all
-Maintainer: Daniel Nylander <po@danielnylander.se>
-Depends: python3, python3-gi, gir1.2-adw-1, gir1.2-gtk-4.0
-Filename: pool/main/l10n-glossary_0.2.4_all.deb
-Size: 10116
-MD5sum: c1d92d40a700dfc21121a496ef026982
-SHA1: 7d89387ed876734519dd06a88b0c5a2757b237b0
-SHA256: 597a69a67662f935a6b5a91a205824b7c88a6490676686549947764729b9bfa3
+Maintainer: Daniel Nyström <dan.nystrom@gmail.com>
+Depends: python3, python3-gi, gir1.2-gtk-4.0, gir1.2-adw-1
+Filename: pool/main/l10n-glossary_0.2.5_all.deb
+Size: 11306
+MD5sum: a395d44664711f16e3a4ad4ee42d82fe
+SHA1: 11d0a444188e9770a836ad2a0774dd962ab7bab1
+SHA256: ca7940050ecf07b2108ab5861e6e9e6dcfed404cca0a579db4f42c55338e7812
 Section: utils
 Priority: optional
-Description: l10n-glossary - Swedish localization tool
- Part of the Swedish localization toolkit.
+Description: Glossary Editor
 
 Package: l10n-lint
 Version: 1.15.4
@@ -155,170 +143,156 @@ Description: Linting tool for PO/gettext translation files
  Includes both CLI and GTK4 GUI versions.
 
 Package: l10n-preview
-Version: 0.2.4
+Version: 0.2.5
 Architecture: all
-Maintainer: Daniel Nylander <po@danielnylander.se>
-Depends: python3, python3-gi, gir1.2-adw-1, gir1.2-gtk-4.0
-Filename: pool/main/l10n-preview_0.2.4_all.deb
-Size: 7492
-MD5sum: ade9222fe30a58e3a93f224d25726e2d
-SHA1: 76e2754bcf07efaefb92b3f5620f2941bd6deeee
-SHA256: fbf76c277f84528ab5ce2b4cebe423abb3783ca09b24824b20be53e563ab4dfe
+Maintainer: Daniel Nyström <dan.nystrom@gmail.com>
+Depends: python3, python3-gi, gir1.2-gtk-4.0, gir1.2-adw-1
+Filename: pool/main/l10n-preview_0.2.5_all.deb
+Size: 8484
+MD5sum: cf7443bd1b166005fa8adfd02aafed60
+SHA1: e04a182df294f58b845526edacad94cac704fb1a
+SHA256: 3d9cb03fbb9e2a72c4566f495a533272f07d351d8e4f817c021f4cdb0dc5082e
 Section: utils
 Priority: optional
-Description: l10n-preview - Swedish localization tool
- Part of the Swedish localization toolkit.
+Description: L10n Preview
 
 Package: langpack-inspector
-Version: 0.2.3
+Version: 0.2.4
 Architecture: all
-Maintainer: Daniel Nylander <po@danielnylander.se>
-Depends: python3, python3-gi, gir1.2-adw-1, gir1.2-gtk-4.0
-Filename: pool/main/langpack-inspector_0.2.3_all.deb
-Size: 8344
-MD5sum: d972d27be27b97ab894d7e0406914dc7
-SHA1: 2f5bea84954fa156a6a1ced9a71a01da6b59508c
-SHA256: 8bcb570d65bc14c3cf619991b8297ab374b2f9ca7b3a2efdaa559dc03f7ff34f
+Maintainer: Daniel Nyström <dan.nystrom@gmail.com>
+Depends: python3, python3-gi, gir1.2-gtk-4.0, gir1.2-adw-1
+Filename: pool/main/langpack-inspector_0.2.4_all.deb
+Size: 9872
+MD5sum: f44d8c20734c112a61e0a5d86e8ff5b2
+SHA1: 125a2fcb5ab6ae1f484568519cbfac2c05ba97dd
+SHA256: 7807a98806874b2be36464416e5a8e9e9085aa4445061c23973c3c054f9c7676
 Section: utils
 Priority: optional
-Description: langpack-inspector - Swedish localization tool
- Part of the Swedish localization toolkit.
+Description: Language Pack Inspector
 
 Package: libretranslate-gui
-Version: 0.2.4
+Version: 0.2.5
 Architecture: all
-Maintainer: Daniel Nylander <po@danielnylander.se>
-Depends: python3, python3-gi, gir1.2-adw-1, gir1.2-gtk-4.0
-Filename: pool/main/libretranslate-gui_0.2.4_all.deb
-Size: 8284
-MD5sum: 07e77feb20e4adf4cc994119ac3c7746
-SHA1: 97fe6fda0e621b8931f5b83246ae1e1bb2f5d86f
-SHA256: d041ae2a24153dc1932e826854850b12f763541c9d3c71473fce526618f1b452
+Maintainer: Daniel Nyström <dan.nystrom@gmail.com>
+Depends: python3, python3-gi, gir1.2-gtk-4.0, gir1.2-adw-1
+Filename: pool/main/libretranslate-gui_0.2.5_all.deb
+Size: 8360
+MD5sum: 9dd0d96d95e7faa2f7c5d051241d92a8
+SHA1: 7bc8bb101b5c820cc5d80499ef9a8562ff28d409
+SHA256: e4d91aae408bfb26eec8af816078e3d55330f5cc14f40a2412198fff7d685362
 Section: utils
 Priority: optional
-Description: libretranslate-gui - Swedish localization tool
- Part of the Swedish localization toolkit.
+Description: LibreTranslate Assistant
 
 Package: locale-tester
-Version: 0.2.4
+Version: 0.2.5
 Architecture: all
-Maintainer: Daniel Nylander <po@danielnylander.se>
-Depends: python3, python3-gi, gir1.2-adw-1, gir1.2-gtk-4.0
-Filename: pool/main/locale-tester_0.2.4_all.deb
-Size: 7320
-MD5sum: 4f154e8e0acd4cfbb5551ce835b34803
-SHA1: c1822d00ab1a77b50cd8faf6b419efb020f5ab9f
-SHA256: 6d0f53b19f25aed194a24c58ead3684320ce7b91861307ab4272c5374920aa6a
+Maintainer: Daniel Nyström <dan.nystrom@gmail.com>
+Depends: python3, python3-gi, gir1.2-gtk-4.0, gir1.2-adw-1
+Filename: pool/main/locale-tester_0.2.5_all.deb
+Size: 8938
+MD5sum: 24816c0f4471ca0aa39c54d23d56e96e
+SHA1: 68b1b8cffe5eee6a3c341741b9b3d230835cd5cf
+SHA256: 5545b6b0ac90ddaa7998b76367f0af054d56dd297ff8c79b01c7cdc9c95e3c00
 Section: utils
 Priority: optional
-Description: locale-tester - Swedish localization tool
- Part of the Swedish localization toolkit.
+Description: Locale Tester
 
 Package: packetlens
 Version: 0.2.2
 Architecture: all
-Maintainer: Daniel Nylander <daniel@danielnylander.se>
-Depends: python3, python3-gi, python3-gi-cairo, gir1.2-gtk-4.0, gir1.2-adw-1, python3-scapy, python3-magic
-Conflicts: pcap-viewer (<< 0.2.0)
-Replaces: pcap-viewer (<< 0.2.0)
+Maintainer: Daniel Nyström <dan.nystrom@gmail.com>
+Depends: python3, python3-gi, gir1.2-gtk-4.0, gir1.2-adw-1
 Filename: pool/main/packetlens_0.2.2_all.deb
-Size: 28708
-MD5sum: 82c189594c9fba3c1f105106e9ff7318
-SHA1: 4c82596629e842d6d122eea686d1f2cf24abded0
-SHA256: 76b28cccf301b5dd5e39b0bb8d99ac24e91aa72bc69af307a648e9f1d10f8499
-Section: net
+Size: 29786
+MD5sum: 906e113546bc0c2fc77afcd0ecf22713
+SHA1: 680b7db76ba763e0a5bf9fa5cbcd8ea8f3c3c247
+SHA256: 2df372205c8522d2c54665b9bc9ab4adb88f2f2bdfc56b6c927bcd5d793b75e8
+Section: utils
 Priority: optional
-Homepage: https://github.com/yeager/pcap-viewer
-Description: PacketLens — GTK4 network capture analyzer
- Analyze PCAP/PCAPNG files with a modern GTK4/Adwaita interface.
+Description: PacketLens
 
 Package: po-translate
-Version: 1.5.2
+Version: 1.5.3
 Architecture: all
-Maintainer: Daniel Nylander <po@danielnylander.se>
+Maintainer: Daniel Nyström <dan.nystrom@gmail.com>
 Depends: python3
-Filename: pool/main/po-translate_1.5.2_all.deb
-Size: 3700
-MD5sum: 7f8aecfdefb42ef995d8e4384af96baf
-SHA1: 18d3daf1f1d71d552ff13dd308878918f52d67af
-SHA256: 9bc673abc333f698beb45b04c63339d2a54d6e2beaa9dec0159bb087bbbf9fb8
+Filename: pool/main/po-translate_1.5.3_all.deb
+Size: 2044
+MD5sum: 649d4bccda61e5fe02201107cad95d63
+SHA1: 4f6c1c19774ed350449fc01dd9e908051491d3d5
+SHA256: 6dd800bb2f7156146c73c295317da6b0b34df2476407bfb6dc638a8339b3e091
 Section: utils
 Priority: optional
-Description: po-translate - Swedish localization tool
- Part of the Swedish localization toolkit.
+Description: po-translate
 
 Package: snap-l10n
-Version: 0.2.3
-Architecture: all
-Maintainer: Daniel Nylander <po@danielnylander.se>
-Depends: python3, python3-gi, gir1.2-adw-1, gir1.2-gtk-4.0
-Filename: pool/main/snap-l10n_0.2.3_all.deb
-Size: 7556
-MD5sum: b0d91a5c239e67a2c756e5f5f5fde24c
-SHA1: 50e0774cd0bc77469dd195ff731062a11bb8f06f
-SHA256: 3b152a202ce78e2856abfc3126077c0e0eacc4cb843431bca9126c96d7e11eb1
-Section: utils
-Priority: optional
-Description: snap-l10n - Swedish localization tool
- Part of the Swedish localization toolkit.
-
-Package: svlang
-Version: 0.1.3
-Architecture: all
-Maintainer: Daniel Nylander <po@danielnylander.se>
-Depends: python3
-Filename: pool/main/svlang_0.1.3_all.deb
-Size: 3240
-MD5sum: b656082563da2693b950b4051b919d56
-SHA1: 66a58a41b7adb8ece229ec66934aebebeaf89306
-SHA256: 990d73c7157eef5320c49f5b96e3682e4b3db162ab39b54715defed92bd18dd1
-Section: utils
-Priority: optional
-Description: svlang - Swedish localization tool
- Part of the Swedish localization toolkit.
-
-Package: tm-manager
 Version: 0.2.4
 Architecture: all
-Maintainer: Daniel Nylander <po@danielnylander.se>
-Depends: python3, python3-gi, gir1.2-adw-1, gir1.2-gtk-4.0
-Filename: pool/main/tm-manager_0.2.4_all.deb
-Size: 9828
-MD5sum: 8e006f3134ceaa6c81c7ce77346f2d0c
-SHA1: b695a9b7ea826d70789dd078891e5c7a0a3da117
-SHA256: 5302ae3e4d603a3da9badf03263c8b7c0ee768287b1156c46474809c82c39977
+Maintainer: Daniel Nyström <dan.nystrom@gmail.com>
+Depends: python3, python3-gi, gir1.2-gtk-4.0, gir1.2-adw-1
+Filename: pool/main/snap-l10n_0.2.4_all.deb
+Size: 9150
+MD5sum: 78f81b1b1d524f2f25ba16dbc33fe8b7
+SHA1: f56aca97c87d78b0474b606a67ecfccc477c1e01
+SHA256: 55f4ba3b55df24ef0e3305a2640c65b6a12a6c56af0529c897aeb94b6e493a22
 Section: utils
 Priority: optional
-Description: tm-manager - Swedish localization tool
- Part of the Swedish localization toolkit.
+Description: Snap Translation Status
+
+Package: svlang
+Version: 0.1.4
+Architecture: all
+Maintainer: Daniel Nyström <dan.nystrom@gmail.com>
+Depends: python3
+Filename: pool/main/svlang_0.1.4_all.deb
+Size: 822142
+MD5sum: 177928f08537fe8aaac3819cf6ec728b
+SHA1: 41c5adae5052ec100e9e2c8815f313e34e0bf95a
+SHA256: 4cc8eb76e8d320f005788d53b860bb491285850ec23d7cec92fd7b805557ee2f
+Section: utils
+Priority: optional
+Description: 🇸🇪 svlang
+
+Package: tm-manager
+Version: 0.2.5
+Architecture: all
+Maintainer: Daniel Nyström <dan.nystrom@gmail.com>
+Depends: python3, python3-gi, gir1.2-gtk-4.0, gir1.2-adw-1
+Filename: pool/main/tm-manager_0.2.5_all.deb
+Size: 10962
+MD5sum: 116db896aa25f30931f7a2768a70986a
+SHA1: 6fe38b013273517f019eb40a9c8d20eb74620ba0
+SHA256: 9ba59a3154c0f9e7d54eccb63c3faed354608700cc88a15e4f2c7f3cdb6484e4
+Section: utils
+Priority: optional
+Description: Translation Memory Manager
 
 Package: tp-lint
-Version: 1.8.3
+Version: 1.8.2
 Architecture: all
-Maintainer: Daniel Nylander <po@danielnylander.se>
+Maintainer: Daniel Nyström <dan.nystrom@gmail.com>
 Depends: python3
-Filename: pool/main/tp-lint_1.8.3_all.deb
-Size: 4620
-MD5sum: acd46be3df9cfa1dafa7f4c7871deb28
-SHA1: 596b418525e3af69b765cd51ce33c475ac4af1cb
-SHA256: ea0a83676a28a831f1fc4120f5441859782ea44b54dc84657bcfd4e3e7d8b293
+Filename: pool/main/tp-lint_1.8.2_all.deb
+Size: 12644
+MD5sum: 4e6f29ce1c8b034fc358ca20f304f55b
+SHA1: 1da824c2bed4369ec27cf9f3caa34a17c92859f6
+SHA256: 9ed4aaed5587e9a5f3fecbbffd284c5c8d261f281f0ffd852cbb282f6ade5606
 Section: utils
 Priority: optional
-Description: tp-lint - Swedish localization tool
- Part of the Swedish localization toolkit.
+Description: Translation Project lint checker
 
 Package: ubuntu-l10n
-Version: 0.2.3
+Version: 0.2.5
 Architecture: all
-Maintainer: Daniel Nylander <po@danielnylander.se>
-Depends: python3, python3-gi, gir1.2-adw-1, gir1.2-gtk-4.0
-Filename: pool/main/ubuntu-l10n_0.2.3_all.deb
-Size: 11184
-MD5sum: b91223ed594511ca38fb79c810e2bbc1
-SHA1: 89faaaf67e1445d5fd9d04d288ed875a964fd110
-SHA256: 04b6a7bcddefbd4867be8d7f59176ad66b721b7045ec3b83b1895d6ee5a55e8a
+Maintainer: Daniel Nyström <dan.nystrom@gmail.com>
+Depends: python3, python3-gi, gir1.2-gtk-4.0, gir1.2-adw-1
+Filename: pool/main/ubuntu-l10n_0.2.5_all.deb
+Size: 12854
+MD5sum: ea01e0be9a3c9dca3cabd1c4749f2fb1
+SHA1: 320d70ab6568b60695cd6c1808df7b7398670019
+SHA256: 64e10ff61039ee732bac2c7aa1a9b9f147995518f78591446ce5674193d3602e
 Section: utils
 Priority: optional
-Description: ubuntu-l10n - Swedish localization tool
- Part of the Swedish localization toolkit.
+Description: Ubuntu L10n
 
