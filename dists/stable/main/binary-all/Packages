@@ -29,19 +29,18 @@ Description: commonvoice-status - Swedish localization tool
  Part of the Swedish localization toolkit.
 
 Package: ddtp-translate
-Version: 0.1.2
+Version: 0.1.3
 Architecture: all
-Maintainer: Daniel Nylander <po@danielnylander.se>
+Maintainer: Daniel Nylander <daniel@danielnylander.se>
 Depends: python3, python3-gi, gir1.2-adw-1, gir1.2-gtk-4.0
-Filename: pool/main/ddtp-translate_0.1.2_all.deb
-Size: 9788
-MD5sum: 2645544d571407666d80631f84dcbd8a
-SHA1: e539818c34f26acd6ebe8cb1ca2f97714e390e44
-SHA256: 8c8edf816fb6cd8a339ceef774177199ccd4300b4be6792d00958d64bfbac8cc
+Filename: pool/main/ddtp-translate_0.1.3_all.deb
+Size: 10492
+MD5sum: 9a0549c885e05f32f62b83cba61bb690
+SHA1: 31353fed090e8644bcfe404d86b908bda8f074b5
+SHA256: eb1bff4aed322787a683d67b23c5b1de39ebd226bd403f758eed14d2c0602f85
 Section: utils
 Priority: optional
-Description: ddtp-translate - Swedish localization tool
- Part of the Swedish localization toolkit.
+Description: Translate Debian package descriptions via DDTP
 
 Package: desktop-editor
 Version: 0.2.3
