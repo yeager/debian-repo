@@ -6,15 +6,15 @@ Version: 1.0
 Architectures: amd64 arm64
 Components: main
 Description: Yeager's Translation Tools APT Repository
-Date: Sun, 15 Feb 2026 13:44:56 +0000
+Date: Sun, 15 Feb 2026 13:49:38 +0000
 SHA256:
- 4c5de6de750c32a38ac8161e49ef3c9219519a38de2a4c80033aba2d145fc76e 3083 main/binary-arm64/Packages.gz
- 386588db7ececf9a341f28bbc3fe2b53439f4cbd3f06644fb9f554e51c997f0b 10946 main/binary-arm64/Packages
- 4c5de6de750c32a38ac8161e49ef3c9219519a38de2a4c80033aba2d145fc76e 3083 main/binary-i386/Packages.gz
- 386588db7ececf9a341f28bbc3fe2b53439f4cbd3f06644fb9f554e51c997f0b 10946 main/binary-i386/Packages
- 4c5de6de750c32a38ac8161e49ef3c9219519a38de2a4c80033aba2d145fc76e 3083 main/binary-armhf/Packages.gz
- 386588db7ececf9a341f28bbc3fe2b53439f4cbd3f06644fb9f554e51c997f0b 10946 main/binary-armhf/Packages
- 4c5de6de750c32a38ac8161e49ef3c9219519a38de2a4c80033aba2d145fc76e 3083 main/binary-all/Packages.gz
- 386588db7ececf9a341f28bbc3fe2b53439f4cbd3f06644fb9f554e51c997f0b 10946 main/binary-all/Packages
- 4c5de6de750c32a38ac8161e49ef3c9219519a38de2a4c80033aba2d145fc76e 3083 main/binary-amd64/Packages.gz
- 386588db7ececf9a341f28bbc3fe2b53439f4cbd3f06644fb9f554e51c997f0b 10946 main/binary-amd64/Packages
+ d7c2c257fc85f986d808ecdf8c45c11025efdce6c8ac0fbb156f2ece8e202e4d 3218 main/binary-arm64/Packages.gz
+ 40f7fd23c951a2ddea831d49884e65ab8476ae2bb3d70c30ab2d3b67f57e9ba9 11261 main/binary-arm64/Packages
+ d7c2c257fc85f986d808ecdf8c45c11025efdce6c8ac0fbb156f2ece8e202e4d 3218 main/binary-i386/Packages.gz
+ 40f7fd23c951a2ddea831d49884e65ab8476ae2bb3d70c30ab2d3b67f57e9ba9 11261 main/binary-i386/Packages
+ d7c2c257fc85f986d808ecdf8c45c11025efdce6c8ac0fbb156f2ece8e202e4d 3218 main/binary-armhf/Packages.gz
+ 40f7fd23c951a2ddea831d49884e65ab8476ae2bb3d70c30ab2d3b67f57e9ba9 11261 main/binary-armhf/Packages
+ d7c2c257fc85f986d808ecdf8c45c11025efdce6c8ac0fbb156f2ece8e202e4d 3218 main/binary-all/Packages.gz
+ 40f7fd23c951a2ddea831d49884e65ab8476ae2bb3d70c30ab2d3b67f57e9ba9 11261 main/binary-all/Packages
+ d7c2c257fc85f986d808ecdf8c45c11025efdce6c8ac0fbb156f2ece8e202e4d 3218 main/binary-amd64/Packages.gz
+ 40f7fd23c951a2ddea831d49884e65ab8476ae2bb3d70c30ab2d3b67f57e9ba9 11261 main/binary-amd64/Packages

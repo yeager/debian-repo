@@ -29,18 +29,23 @@ Description: commonvoice-status - Swedish localization tool
  Part of the Swedish localization toolkit.
 
 Package: ddtp-translate
-Version: 0.1.3
+Version: 0.2.0
 Architecture: all
 Maintainer: Daniel Nylander <daniel@danielnylander.se>
-Depends: python3, python3-gi, gir1.2-adw-1, gir1.2-gtk-4.0
-Filename: pool/main/ddtp-translate_0.1.3_all.deb
-Size: 10492
-MD5sum: 9a0549c885e05f32f62b83cba61bb690
-SHA1: 31353fed090e8644bcfe404d86b908bda8f074b5
-SHA256: eb1bff4aed322787a683d67b23c5b1de39ebd226bd403f758eed14d2c0602f85
-Section: utils
+Depends: python3, python3-gi, python3-gi-cairo, gir1.2-gtk-4.0, gir1.2-adw-1
+Filename: pool/main/ddtp-translate_0.2.0_all.deb
+Size: 12592
+MD5sum: c05ab3e6f041167bdb3ee8695fe84f0e
+SHA1: e07ee7339ad5e8d4e0a7fd8f655808cd2aa3d108
+SHA256: 8e7ac1b81a981c1fcb1fbdea95f6dcc2b4e4262008312032407e2dbd9e86329a
+Section: devel
 Priority: optional
-Description: Translate Debian package descriptions via DDTP
+Homepage: https://github.com/yeager/ddtp-translate
+Description: DDTP Translate — Translate Debian package descriptions
+ Translate Debian package descriptions through the Debian Description
+ Translation Project (DDTP). Features a GTK4/Adwaita interface with
+ side-by-side editor, progress bar, rate-limited email submission,
+ and support for 38 languages.
 
 Package: desktop-editor
 Version: 0.2.3
