@@ -56,19 +56,17 @@ Package: elementary-l10n
 Version: 0.2.2
 Architecture: all
 Maintainer: Daniel Nylander <daniel@danielnylander.se>
-Installed-Size: 59
 Depends: python3, python3-gi, gir1.2-gtk-4.0, gir1.2-adw-1, python3-requests
 Filename: pool/main/elementary-l10n_0.2.2_all.deb
-Size: 24334
-MD5sum: ee92391112989cc724605324288d728c
-SHA1: 3c9aff76979766172ac52c0476d23f19b2d2895f
-SHA256: b4b9158d798d9108692bb9fef69fd26f6e7919c76e4a0c9b460bdd8477768533
-Section: default
+Size: 9628
+MD5sum: 4d8207f9a9f3be5a353b904e4d8b25c6
+SHA1: b14b5870928694f408312c1dbc80c67e9a511855
+SHA256: 0522310de274b28d6d11c2f6d2ee7ef82fc3f52a5d4e1b69b7d11d07b8909118
+Section: utils
 Priority: optional
-Homepage: https://github.com/yeager/elementary-l10n
-Description: no description given
-License: GPL-3.0-or-later
-Vendor: none
+Description: Translation status viewer for elementary OS (Weblate)
+ Part of the GTK4 localization toolkit for managing translations
+ and language packs.
 
 Package: font-preview
 Version: 0.2.1
