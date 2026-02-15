@@ -207,20 +207,19 @@ Priority: optional
 Description: locale-tester - Swedish localization tool
  Part of the Swedish localization toolkit.
 
-Package: pcap-viewer
-Version: 0.1.2
+Package: packetlens
+Version: 0.2.0
 Architecture: all
-Maintainer: Daniel Nylander <po@danielnylander.se>
-Depends: python3, python3-gi, gir1.2-adw-1, gir1.2-gtk-4.0, python3-scapy
-Filename: pool/main/pcap-viewer_0.1.2_all.deb
-Size: 9396
-MD5sum: 5d95f4993f8b66e654141f8ddd396a36
-SHA1: 354ed8fd7eb5e71b00cab183a95f92c626e7ac4a
-SHA256: 37abacf1e5d08c947fdac3d699d918d6340f8dbf41a5a2830132af023d685d55
+Maintainer: Daniel Nylander <daniel@danielnylander.se>
+Depends: python3, python3-gi, gir1.2-adw-1, gir1.2-gtk-4.0, python3-scapy, python3-magic
+Filename: pool/main/packetlens_0.2.0_all.deb
+Size: 30768
+MD5sum: a6ed6a9c94d5ed203de5d7eadf6a2370
+SHA1: 34aa7f6aaf955b3867f5bbc88f3cf61bb714e8e2
+SHA256: 28b0d58c9d844cf76f771ecdfcfc2b5cfc8ade340adbebbaa23da8a0cff88c94
 Section: utils
 Priority: optional
-Description: pcap-viewer - Swedish localization tool
- Part of the Swedish localization toolkit.
+Description: PacketLens — GTK4 network capture analyzer
 
 Package: po-translate
 Version: 1.5.2
