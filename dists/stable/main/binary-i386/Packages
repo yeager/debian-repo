@@ -32,6 +32,24 @@ Description: no description given
 License: GPL-3.0-or-later
 Vendor: none
 
+Package: ddtp-translate
+Version: 0.1.0
+Architecture: all
+Maintainer: Daniel Nylander <daniel@danielnylander.se>
+Depends: python3, python3-gi, gir1.2-gtk-4.0, gir1.2-adw-1
+Filename: pool/main/ddtp-translate_0.1.0_all.deb
+Size: 7560
+MD5sum: 3d63629e1c4be12b9ab1dac7235f407d
+SHA1: 4f19162bed8883ae2738d93188bfa3f325821fbb
+SHA256: 5fbf9d79cb8d2ea455744671c59a42d8bef68ab439a4f46812bad22846e177fa
+Section: devel
+Priority: optional
+Homepage: https://github.com/yeager/ddtp-translate
+Description: Translate Debian package descriptions via DDTP
+ A GTK4/Adwaita desktop application for translating Debian
+ package descriptions via the Debian Description Translation
+ Project (DDTP).
+
 Package: desktop-editor
 Version: 0.2.1
 Architecture: all
