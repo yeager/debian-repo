@@ -51,15 +51,15 @@ License: GPL-3.0-or-later
 Vendor: none
 
 Package: elementary-l10n
-Version: 0.2.3
+Version: 0.2.4
 Architecture: all
 Maintainer: Daniel Nylander <daniel@danielnylander.se>
 Depends: python3, python3-gi, gir1.2-gtk-4.0, gir1.2-adw-1, python3-requests, gir1.2-secret-1
-Filename: pool/main/elementary-l10n_0.2.3_all.deb
-Size: 10212
-MD5sum: be5475e7fbc1bd888800f5bc47c50cd2
-SHA1: 34770b8020b2dfce1e8e0c7646b3855823c41718
-SHA256: 96d53905b0c57fe2d4f6ba0c80f9409c748c90a848c9a3086f2cc9f4f9f2914b
+Filename: pool/main/elementary-l10n_0.2.4_all.deb
+Size: 10204
+MD5sum: eef139fd00ea364d6040e0308aea9b07
+SHA1: d746fc97fa613042470a35d9bf3b27e76ae5b7f8
+SHA256: 128f8849ae524e94bad8216ce093770c909d4bf3c2946ce782ccfc29c8b91d5e
 Section: utils
 Priority: optional
 Description: Translation status viewer for elementary OS (Weblate)
@@ -67,15 +67,15 @@ Description: Translation status viewer for elementary OS (Weblate)
  and language packs.
 
 Package: font-preview
-Version: 0.2.1
+Version: 0.2.2
 Architecture: all
 Maintainer: Daniel Nylander <daniel@danielnylander.se>
 Depends: python3, python3-gi, gir1.2-gtk-4.0, gir1.2-adw-1
-Filename: pool/main/font-preview_0.2.1_all.deb
-Size: 8652
-MD5sum: c373429fb8a426b33e75daf1386be0b7
-SHA1: 4d6770ca12213fdc9d255564d21e88fd959588e8
-SHA256: 807ccabbd0969b339b8307acfb2767b8a026473218521566eddd71dd9ca9c7b5
+Filename: pool/main/font-preview_0.2.2_all.deb
+Size: 8640
+MD5sum: 971d2cf4656f882399553b628670b262
+SHA1: 5eff0e48a462b96527a3a55164d67e477809f5a8
+SHA256: d21756bdfacab3d92d61e406c33a82b9889014ec4598e5899239b30393aeb4f8
 Section: utils
 Priority: optional
 Description: GTK4 translation and localization tool
@@ -83,15 +83,15 @@ Description: GTK4 translation and localization tool
  and language packs.
 
 Package: github-l10n
-Version: 0.2.1
+Version: 0.2.2
 Architecture: all
 Maintainer: Daniel Nylander <daniel@danielnylander.se>
 Depends: python3, python3-gi, gir1.2-gtk-4.0, gir1.2-adw-1
-Filename: pool/main/github-l10n_0.2.1_all.deb
+Filename: pool/main/github-l10n_0.2.2_all.deb
 Size: 7620
-MD5sum: 4fbee62434b20076da627868a0bfea56
-SHA1: 8e21b970a79534b10f64b94be50f6e526f5e7f4f
-SHA256: 7ea74525bd650512a720d3c0de9bd8d9b417e4cb36afcac84672b73d0ce73d27
+MD5sum: 537e208f7bff835dd664a3ff1c63daad
+SHA1: 934763c006ddd4a246a85ce7bdf32d8fc6fe163c
+SHA256: c33dde381658600468670b848cf4d5f0681a097db12f42d31162d4e58245537e
 Section: utils
 Priority: optional
 Description: GTK4 translation and localization tool
@@ -117,15 +117,15 @@ Description: Universal localization file converter, validator, and compiler
  JSON, YAML, CSV, TMX, TBX, PHP, ARB, Fluent, RESX, and Properties.
 
 Package: l10n-glossary
-Version: 0.2.1
+Version: 0.2.2
 Architecture: all
 Maintainer: Daniel Nylander <daniel@danielnylander.se>
 Depends: python3, python3-gi, gir1.2-gtk-4.0, gir1.2-adw-1
-Filename: pool/main/l10n-glossary_0.2.1_all.deb
-Size: 9164
-MD5sum: c4ae64472f7032ac821f37e74dd51331
-SHA1: 94e084eaec77cfc2a3e8d8a85b23f40820395d09
-SHA256: ee88921eb89e3a708a75adf3aee5bdb17d780f2f2f7fedfe5454a367752054d6
+Filename: pool/main/l10n-glossary_0.2.2_all.deb
+Size: 9168
+MD5sum: 1a0c604cc2632c29c989f28a99df9ea4
+SHA1: 9b360cdf47d0331dec788207dc13ea1db74b4d98
+SHA256: b98b300a7b19de0f84ac8b771dc85c71fd57109b5267f33e2940001102177075
 Section: utils
 Priority: optional
 Description: GTK4 translation and localization tool
@@ -168,15 +168,15 @@ Description: GTK GUI for l10n-lint localization linter
  A GTK4 graphical interface for the l10n-lint localization linter.
 
 Package: l10n-preview
-Version: 0.2.1
+Version: 0.2.2
 Architecture: all
 Maintainer: Daniel Nylander <daniel@danielnylander.se>
 Depends: python3, python3-gi, gir1.2-gtk-4.0, gir1.2-adw-1
-Filename: pool/main/l10n-preview_0.2.1_all.deb
-Size: 7136
-MD5sum: 466baefe27cc7d89fc696350ccbbf2cc
-SHA1: fba6e323a94abc599482ff03b2d1c630df844e7c
-SHA256: 680040841e296d83acfb8ae9473e608b06889a91d91637ecce4cc92d60fa885c
+Filename: pool/main/l10n-preview_0.2.2_all.deb
+Size: 7128
+MD5sum: 20a33ec2dfaeb6d576ebbaa3265ffb2a
+SHA1: 2f4f890de47796a56637e69337f33c3ec154b3b6
+SHA256: 3e38bfbc83223177cb3e7735e7aed4d44a6d34b76a7c16d661ab1f5f5797cb7c
 Section: utils
 Priority: optional
 Description: GTK4 translation and localization tool
@@ -237,15 +237,15 @@ Description: Professional translation editor
  PySide6 must be installed via pip: pip install PySide6
 
 Package: locale-tester
-Version: 0.2.1
+Version: 0.2.2
 Architecture: all
 Maintainer: Daniel Nylander <daniel@danielnylander.se>
 Depends: python3, python3-gi, gir1.2-gtk-4.0, gir1.2-adw-1
-Filename: pool/main/locale-tester_0.2.1_all.deb
-Size: 6632
-MD5sum: dac266f9fc7d5293dfecea86cb2cc366
-SHA1: a1847f9d3c25042215e29e4fdd67c2a947c2cfb5
-SHA256: af0bc300419ff36e7f04c272fb4ea031e7d0eb70d334900d0933a02f52e9d770
+Filename: pool/main/locale-tester_0.2.2_all.deb
+Size: 6636
+MD5sum: b642eb896e66e8553d602b09c75f7c5e
+SHA1: 70cac1e1071efc563d26e27c1d75e2d9c2f87862
+SHA256: a25abaac24b3ee63f3e591fd757d2e7f18995c4d9c5e4ad9d303e0db30a3fe21
 Section: utils
 Priority: optional
 Description: GTK4 translation and localization tool
@@ -342,15 +342,15 @@ Description: Swedish language quality checker
  readability, consistency, and svengelska detection.
 
 Package: tm-manager
-Version: 0.2.1
+Version: 0.2.2
 Architecture: all
 Maintainer: Daniel Nylander <daniel@danielnylander.se>
 Depends: python3, python3-gi, gir1.2-gtk-4.0, gir1.2-adw-1
-Filename: pool/main/tm-manager_0.2.1_all.deb
-Size: 8792
-MD5sum: 5e3a80eff56418ba287f075bb1445df7
-SHA1: 1bd1b1984a791e38c2a8a7704187d24bd0ff0678
-SHA256: 153ed03edf4bff0e2ee9f10928a3aaf2a810a748307772559b361133552f9ef3
+Filename: pool/main/tm-manager_0.2.2_all.deb
+Size: 8776
+MD5sum: b74d05086029c5696de48be8f1372a07
+SHA1: 27f467c9892d7b9051c5dad0fa7237968d93d858
+SHA256: 1b7b7a1acf07043e6bbf773b5763bc491ca53a09438b4545e461dff4eb99476d
 Section: utils
 Priority: optional
 Description: GTK4 translation and localization tool
