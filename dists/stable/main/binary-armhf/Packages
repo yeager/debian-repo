@@ -34,18 +34,15 @@ Architecture: all
 Maintainer: Daniel Nylander <daniel@danielnylander.se>
 Depends: python3, python3-gi, python3-gi-cairo, gir1.2-gtk-4.0, gir1.2-adw-1
 Filename: pool/main/ddtp-translate_0.3.0_all.deb
-Size: 17372
-MD5sum: 73f41da58c1b0e2550193704c075e34b
-SHA1: ad892c60dd19eb2f6c7182ed1f2be11cb4d07cc6
-SHA256: 47786538b703051bf942451d5255037efe2059a66321fd7c0155c2c5097f4f2f
+Size: 18036
+MD5sum: 4bc419aa64773b08b430d5e5ab2680bd
+SHA1: 531dcac5e3835ec0e1394809d0edb7d890e43149
+SHA256: 28522cfcff273d4bee6ad01b80f6e38081f4bad2c6dd8336513af96a7e63ec3c
 Section: devel
 Priority: optional
 Homepage: https://github.com/yeager/ddtp-translate
 Description: DDTP Translate — Translate Debian package descriptions
- Translate Debian package descriptions through DDTP with a modern
- GTK4/Adwaita interface. Features translation queue with batch send,
- PO export/import, rate-limited email submission, progress tracking,
- and support for 38 languages.
+ Translate Debian package descriptions through DDTP with queue system.
 
 Package: desktop-editor
 Version: 0.2.3
@@ -220,18 +217,15 @@ Depends: python3, python3-gi, python3-gi-cairo, gir1.2-gtk-4.0, gir1.2-adw-1, py
 Conflicts: pcap-viewer (<< 0.2.0)
 Replaces: pcap-viewer (<< 0.2.0)
 Filename: pool/main/packetlens_0.2.2_all.deb
-Size: 34992
-MD5sum: e8104ef116b4e8a7845a6a193f7dc41a
-SHA1: acb94a83b14b129d1f059d2d289225fcb2805d0d
-SHA256: e737bb416fb1ec2b2479a89cf37f128dd2e7ebcc2dae9c123c47f497599bcfd9
+Size: 28708
+MD5sum: 82c189594c9fba3c1f105106e9ff7318
+SHA1: 4c82596629e842d6d122eea686d1f2cf24abded0
+SHA256: 76b28cccf301b5dd5e39b0bb8d99ac24e91aa72bc69af307a648e9f1d10f8499
 Section: net
 Priority: optional
 Homepage: https://github.com/yeager/pcap-viewer
 Description: PacketLens — GTK4 network capture analyzer
  Analyze PCAP/PCAPNG files with a modern GTK4/Adwaita interface.
- Features file extraction, conversation tracking, protocol statistics,
- DNS/TLS/HTTP analysis, timeline graphs, BPF display filters,
- preferences dialog, and man page.
 
 Package: po-translate
 Version: 1.5.2
