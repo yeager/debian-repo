@@ -28,14 +28,15 @@ Package: ddtp-translate
 Version: 0.1.0
 Architecture: all
 Maintainer: Daniel Nylander <daniel@danielnylander.se>
+Depends: python3, python3-gi, gir1.2-adw-1, gir1.2-gtk-4.0
 Filename: pool/main/ddtp-translate_0.1.0_all.deb
-Size: 7300
-MD5sum: bad161cfb6f80215cef5937303f5dda3
-SHA1: 8cde6f1cf8eab2ec1525a4c2a1d927fdcaf929e0
-SHA256: 545ea5b223624595b6d21949af827b1511401dd07c5d715e8dc1dd1f4d9584b1
+Size: 8244
+MD5sum: 760ecd3352533f4db9823cbd8cf2327b
+SHA1: c08018486323722c259972e24b5fb219dbfe81d7
+SHA256: 297414bec97368f8d4cff99d04a64365a575eed37d57afe2f267fc91173c702f
 Section: utils
 Priority: optional
-Description: ddtp-translate
+Description: Translate Debian package descriptions via DDTP
 
 Package: desktop-editor
 Version: 0.2.1
@@ -184,14 +185,15 @@ Package: pcap-viewer
 Version: 0.1.0
 Architecture: all
 Maintainer: Daniel Nylander <daniel@danielnylander.se>
+Depends: python3, python3-gi, gir1.2-adw-1, gir1.2-gtk-4.0, python3-scapy
 Filename: pool/main/pcap-viewer_0.1.0_all.deb
-Size: 8344
-MD5sum: cdb5ee07338f5c5d67ec8594eda825b8
-SHA1: d5a4709bbd8211e14579a017dd99e75597ac6093
-SHA256: c46ced7b6e9a2b89a3f4de705290c22cdaba78ea3238a28ec6d44117b43cfb60
+Size: 8620
+MD5sum: f573392ff4f06b924cd122123213ba37
+SHA1: f955eeb56364ed61262e2cb256b340ba03e86dda
+SHA256: 5a35de8c53178326e974cbe698d6eed9bb7c5579667b57620bba12497b86e8d2
 Section: utils
 Priority: optional
-Description: pcap-viewer
+Description: GTK4 network capture analyzer
 
 Package: po-translate
 Version: 1.5.0
