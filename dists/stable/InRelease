@@ -1,39 +1,20 @@
 -----BEGIN PGP SIGNED MESSAGE-----
 Hash: SHA256
 
-Origin: Yeager
-Label: Yeager's Translation Tools
-Suite: stable
-Codename: stable
-Version: 1.0
-Architectures: amd64 arm64
-Components: main
-Description: Yeager's Translation Tools APT Repository
-Date: Sun, 15 Feb 2026 15:26:56 +0000
-SHA256:
- 4d9995f9cf3fe73cc3f228b26b54519790ceeec8d9cd27ca4445389d7dcd9b06 3027 main/binary-arm64/Packages.gz
- 1df99076bef2f70e4a2626ede1d35c8a74df4f1b68653fc1f98b83c5e2098c2b 10959 main/binary-arm64/Packages
- 4d9995f9cf3fe73cc3f228b26b54519790ceeec8d9cd27ca4445389d7dcd9b06 3027 main/binary-i386/Packages.gz
- 1df99076bef2f70e4a2626ede1d35c8a74df4f1b68653fc1f98b83c5e2098c2b 10959 main/binary-i386/Packages
- 4d9995f9cf3fe73cc3f228b26b54519790ceeec8d9cd27ca4445389d7dcd9b06 3027 main/binary-armhf/Packages.gz
- 1df99076bef2f70e4a2626ede1d35c8a74df4f1b68653fc1f98b83c5e2098c2b 10959 main/binary-armhf/Packages
- 4d9995f9cf3fe73cc3f228b26b54519790ceeec8d9cd27ca4445389d7dcd9b06 3027 main/binary-all/Packages.gz
- 1df99076bef2f70e4a2626ede1d35c8a74df4f1b68653fc1f98b83c5e2098c2b 10959 main/binary-all/Packages
- 4d9995f9cf3fe73cc3f228b26b54519790ceeec8d9cd27ca4445389d7dcd9b06 3027 main/binary-amd64/Packages.gz
- 1df99076bef2f70e4a2626ede1d35c8a74df4f1b68653fc1f98b83c5e2098c2b 10959 main/binary-amd64/Packages
+
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAEBCAAdFiEEN5hu++1i1inAzyaO4xjH3j2ofFsFAmmR5cAACgkQ4xjH3j2o
-fFuMSQ/9EMDWVmEIn3Se8uCrzmh4tHKC/cfPEBSix6xrfNE/2ndkPg+ou7A/SK1J
-u/kXuOBxJ9k5IZIOIy9dddAGzlkZnZ7QKR0EJpg/OFU3sM8Qjq9bJFgpQSUOofbQ
-RGfZycfSOeiyCZsERcMg4c+DRqDGgaQdCxlOvIIbv+RJ0dKP4kI9+aU5XrOKV7iI
-Fq0cMCbVu4le6UFnjBfD0UyJZFH28KJBQA5P1HeIor8O5aUi1D/aF7Rpl2ixY0Fz
-+LgcIjrSFCjnWgbgP0uBvMBcTBNG2nBxoVDKeR9Ivy1JpPqQn8SpHzFnn79UKn9X
-iMtxX7XEUAqlpY0/qYfQAXmWaQXIaSYLrArac9XNMle6WkY8Sk7oY6IXXvRn5BwH
-uHzgyEnjlmSNPiquwFArUupyCN4wRgHTUYE6Nbd7SbQGoArm5ke+JLh7+obdv4os
-AEcCXb1tNw8nYZ7M3DfIfzVYGz/f/m+R5bo8pHgCe2AO2fDnPPIfue4y3GI48OHO
-IM7oq0Mjg9Y6hoqApHnFB6dEWj6Nc+RTzrGZ/njF7cczjaBoVBzZGec5+ZUGCx7k
-vQQGa0Jyhz+98pWz1AI/OH2WqeKoo6hI+4GkG4u51eqCZz1bXwsZPM7wlN91yaRS
-ZICtqXZxC5hyQY/t37MFA1ETNIIkHJP1OgxlnJxmWGTvVDm5GIQ=
-=6apC
+iQIzBAEBCAAdFiEEN5hu++1i1inAzyaO4xjH3j2ofFsFAmmR8f4ACgkQ4xjH3j2o
+fFs2gBAAm6RvolRsRx4iVEZQA254TpqJPy1PwkJ/RpOS32G8Ich03FMNl5aeD8M3
+MtIpKDTnloVtKKwOJjNLbAVf0QD/Mlr41UrHpszC6RNntzXMPrIg+HX4LuW3qLo/
+ycAeqwtgO5f/LBYYMu44F2P5Ax0ry8nzOF1I1+NYIxA6SaX2xTKBdCfydVs11mlY
+WNtlPbztXksQeTyR6U1hVtFH7kTCHNdwN3kBRR0IygUIryfFnbJhmMdEw2vpx94x
+uqn7QxVSjsYkp04fl3TxwxVWU4QQjOi23h0J+79b+hAyqRRsmxp+jWCzktesNa1K
+QVjOtVERU6Er3rc5pyb/WWjawmhnNvUP7FbBrJVIcVUzaEAoX/PsjD5DGb4gBuG9
+YIDV+tT58jZxsKeJ3gihny5Ky0Q6EoR2EhCNb16FoNvcSzFMGQhPNH20WoVpyDgx
+zwj+q6iQAaCCIIxRJNYT1eqAdt1o2rx4HnvXSr+4EZMO48FzhJYooY13Worea18g
+rUXOSUgFZ0q9o2SC4/OIc/Is22hVTRfw7ZnvItQ2C9GTdo7fW4B/geUASP2JksjX
+G9N9FBUDzQaEaAxJR6AtvffxSJ2eB934Vs8yFr1WZ6fusIFQKtVQFK/0ozD88+MJ
+mKLLhPbhMaJMtYOxoIsuDaqg1ihojUOZYx2h/CI9VU2xuCB3j9k=
+=LKr7
 -----END PGP SIGNATURE-----

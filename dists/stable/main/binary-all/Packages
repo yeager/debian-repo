@@ -135,19 +135,22 @@ Description: l10n-glossary - Swedish localization tool
  Part of the Swedish localization toolkit.
 
 Package: l10n-lint
-Version: 1.15.2
+Version: 1.15.4
 Architecture: all
-Maintainer: Daniel Nylander <po@danielnylander.se>
-Depends: python3
-Filename: pool/main/l10n-lint_1.15.2_all.deb
-Size: 6832
-MD5sum: 66302e6f6500a6d77b2cee24a22351dc
-SHA1: 379fdfe8d717eff2156d8419071fc088c23fb474
-SHA256: 77d0544a39c144a8a4b2fd41a75677dc14e3450031ced049d8668e61daf805ee
-Section: utils
+Maintainer: Daniel Nylander <daniel@danielnylander.se>
+Depends: python3, python3-gi, gir1.2-gtk-4.0, gir1.2-adw-1
+Filename: pool/main/l10n-lint_1.15.4_all.deb
+Size: 47054
+MD5sum: 5ea35a96e72037c98208e56a8e964a41
+SHA1: 9d95c8fac00f34b8676bba53444a767b45a0c5aa
+SHA256: e804cf97eef0704e65507199faad7a0016db2bea1bba25900390a9e65e5cce08
+Section: devel
 Priority: optional
-Description: l10n-lint - Swedish localization tool
- Part of the Swedish localization toolkit.
+Homepage: https://github.com/yeager/l10n-lint
+Description: Linting tool for PO/gettext translation files
+ Checks PO files for common translation errors including
+ formatting issues, trailing whitespace, and consistency problems.
+ Includes both CLI and GTK4 GUI versions.
 
 Package: l10n-preview
 Version: 0.2.4
