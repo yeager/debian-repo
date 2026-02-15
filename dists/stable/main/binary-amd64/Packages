@@ -289,6 +289,24 @@ Description: A simple bread machine recipe manager
  import/export, timer presets, ingredient scaling, and recipe cards.
  PySide6 must be installed via pip: pip install PySide6
 
+Package: pcap-viewer
+Version: 0.1.0
+Architecture: all
+Maintainer: Daniel Nylander <daniel@danielnylander.se>
+Installed-Size: 27
+Depends: python3, python3-scapy, python3-gi, gir1.2-adw-1
+Filename: pool/main/pcap-viewer_0.1.0_all.deb
+Size: 9656
+MD5sum: 8d89c928c46d820d840c83491ec3b819
+SHA1: 67972eb26054f582cd9e7884dc3bcfa6c81a7bb5
+SHA256: 9bbd582b147ad45a9ee912b5d1bd41d9c5702047a6892e4154c67aba666ca4bb
+Section: default
+Priority: optional
+Homepage: https://github.com/yeager/pcap-viewer
+Description: GTK4/Adwaita network packet capture viewer
+License: GPL-3.0
+Vendor: none
+
 Package: po-diff
 Version: 1.0.0
 Architecture: all
