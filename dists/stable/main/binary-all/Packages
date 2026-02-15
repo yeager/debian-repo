@@ -1,275 +1,294 @@
 Package: cldr-viewer
+Version: 0.1.3
+Architecture: all
+Maintainer: Daniel Nylander <daniel@danielnylander.se>
+Depends: python3, python3-gi, gir1.2-gtk-4.0, gir1.2-adw-1
+Filename: pool/main/cldr-viewer_0.1.3_all.deb
+Size: 7844
+MD5sum: 562639c335f250004d89d81749764ade
+SHA1: 84dbba54cc836e4f4693431b098b286d4a4c7ea8
+SHA256: 7c8615a0e2991c6d94b4d1b809a83df877616dcbb4c286cf53c2c4977d9a386f
+Section: utils
+Priority: optional
+Description: GTK4/Adwaita app to visualize Unicode CLDR locale data completeness
+
+Package: commonvoice-status
 Version: 0.1.2
 Architecture: all
 Maintainer: Daniel Nylander <daniel@danielnylander.se>
-Filename: pool/main/cldr-viewer_0.1.2_all.deb
-Size: 7372
-MD5sum: c0187bf828ed075cf6cf10127eb302bb
-SHA1: f8b8e52521aaa22acbaf803c31f8477b6cc56503
-SHA256: 51cbc44c8e8db336c15426fb6a324a130401642a58c2386fd56c159630934f9a
+Depends: python3, python3-gi, gir1.2-gtk-4.0, gir1.2-adw-1
+Filename: pool/main/commonvoice-status_0.1.2_all.deb
+Size: 7680
+MD5sum: d6fcf3c26c3db491c21da0b3147e528c
+SHA1: 240c247d89116cb3dadf2020fe2fffe17f52ed20
+SHA256: 48de39522322d514c30a11497a56c4f8b041735ee82a8fcf5810c46ab876cdf2
 Section: utils
 Priority: optional
-Description: cldr-viewer
+Description: View Mozilla Common Voice recording statistics per language
 
-Package: commonvoice-status
+Package: ddtp-translate
 Version: 0.1.1
 Architecture: all
 Maintainer: Daniel Nylander <daniel@danielnylander.se>
-Filename: pool/main/commonvoice-status_0.1.1_all.deb
-Size: 6768
-MD5sum: 63b3c42e4d63642e2c1010c686dc2f03
-SHA1: 53ed58920df3b8bab78132a7429379c29dda2e99
-SHA256: 5ada58245656e95212bbb23627fcb0f4ece88f9b9257269b9566f7814c9e1819
-Section: utils
-Priority: optional
-Description: commonvoice-status
-
-Package: ddtp-translate
-Version: 0.1.0
-Architecture: all
-Maintainer: Daniel Nylander <daniel@danielnylander.se>
-Depends: python3, python3-gi, gir1.2-adw-1, gir1.2-gtk-4.0
-Filename: pool/main/ddtp-translate_0.1.0_all.deb
-Size: 8244
-MD5sum: 760ecd3352533f4db9823cbd8cf2327b
-SHA1: c08018486323722c259972e24b5fb219dbfe81d7
-SHA256: 297414bec97368f8d4cff99d04a64365a575eed37d57afe2f267fc91173c702f
+Depends: python3, python3-gi, gir1.2-gtk-4.0, gir1.2-adw-1
+Filename: pool/main/ddtp-translate_0.1.1_all.deb
+Size: 9068
+MD5sum: b4ae4556b7dfa2cf02da3de93900f8cc
+SHA1: a75c5c7e947e1efe450c4575e186c214ab0a436c
+SHA256: 597a77e9c83c83c7344c991f4e544624fa4ba2035623f697f0d586695442b18b
 Section: utils
 Priority: optional
 Description: Translate Debian package descriptions via DDTP
 
 Package: desktop-editor
-Version: 0.2.1
+Version: 0.2.2
 Architecture: all
 Maintainer: Daniel Nylander <daniel@danielnylander.se>
-Filename: pool/main/desktop-editor_0.2.1_all.deb
-Size: 10668
-MD5sum: e13fe7d54426c360eb8ed88b841dac80
-SHA1: ed21cac3a97b7881cc4067569df21863b7a15647
-SHA256: 5fc60ec0a36d3c3f4e3d9969077b0f245c2d015b8f53d9538ab363f4ebc1280e
+Depends: python3, python3-gi, gir1.2-gtk-4.0, gir1.2-adw-1
+Filename: pool/main/desktop-editor_0.2.2_all.deb
+Size: 10728
+MD5sum: 7d0ea94bfae3d5dfc7127db50ced631b
+SHA1: 5dc6fb0a19e3d972dc2e4a86f74f3fa22959505e
+SHA256: a8ce5daa70c4b765ce9bb9fa0ba27eabf8577d5116d4e14d581a3b8e401c67a3
 Section: utils
 Priority: optional
-Description: desktop-editor
+Description: Visual editor for .desktop files with preview, validation, and translation management
 
 Package: elementary-l10n
-Version: 0.2.4
+Version: 0.2.5
 Architecture: all
 Maintainer: Daniel Nylander <daniel@danielnylander.se>
-Filename: pool/main/elementary-l10n_0.2.4_all.deb
-Size: 11308
-MD5sum: a73afde91bd8f149b398266203b08bca
-SHA1: 3724eecede5f7315540930cf9f6f80bb1e98e6db
-SHA256: a7bea1b5ea0a8d82f4d45b192d5934f5943c0716f499dbe20cec0cbb73c07eeb
+Depends: python3, python3-gi, gir1.2-gtk-4.0, gir1.2-adw-1
+Filename: pool/main/elementary-l10n_0.2.5_all.deb
+Size: 11704
+MD5sum: 545f847f32fe3abb9884c34e12fffa0c
+SHA1: 0909a1f8628242bb50bbee6bf0b82b6e427ccccd
+SHA256: ab51628ea72374e707742be0de70330c71d0ddc450869a36e33954638cb2178b
 Section: utils
 Priority: optional
-Description: elementary-l10n
+Description: Translation status viewer for Weblate-hosted projects
 
 Package: font-preview
-Version: 0.2.2
+Version: 0.2.3
 Architecture: all
 Maintainer: Daniel Nylander <daniel@danielnylander.se>
-Filename: pool/main/font-preview_0.2.2_all.deb
-Size: 9108
-MD5sum: 6966b8212bee38c1258e91ae89172d14
-SHA1: 54501052f4b468a6481e29a1ab6eac1f380de13b
-SHA256: 3e0c1e17f66eecb5cc6df92e2c8a73815c3250c8eb32d803cad8413d7a0d846e
+Depends: python3, python3-gi, gir1.2-gtk-4.0, gir1.2-adw-1
+Filename: pool/main/font-preview_0.2.3_all.deb
+Size: 9232
+MD5sum: a38cf4509353907405bda0d70b3274a8
+SHA1: 9c93004f8503d3774864e886124e862ea4ebfcb2
+SHA256: 43a4ab14bb7e3a320d337b71679a7370ed883418fab53070e13e7cb26a50ca26
 Section: utils
 Priority: optional
-Description: font-preview
+Description: A better font viewer for Linux — preview, compare, and analyze Unicode coverage
 
 Package: github-l10n
-Version: 0.2.2
+Version: 0.2.3
 Architecture: all
 Maintainer: Daniel Nylander <daniel@danielnylander.se>
-Filename: pool/main/github-l10n_0.2.2_all.deb
-Size: 8160
-MD5sum: 17595171a2aff849a7c02aa9844794f8
-SHA1: c0634f8bff580ad9edffea993b52c7554ec5f3bf
-SHA256: 0d6788e8b5db3510bda0762a8552799690ca8f9817212072625fe54ce706dc93
+Depends: python3, python3-gi, gir1.2-gtk-4.0, gir1.2-adw-1
+Filename: pool/main/github-l10n_0.2.3_all.deb
+Size: 9160
+MD5sum: 3a672f01d58bd2b205fbbd784dbc2159
+SHA1: 134ee1f87a9f6b4030ef8265e60142ce82ed1041
+SHA256: 4aec3aeacdd2ad86fcac27a6bca05b62fa59f143f3b1cda3b175b7d1ae3fe295
 Section: utils
 Priority: optional
-Description: github-l10n
+Description: Scan popular GitHub repos for missing translations
 
 Package: l10n-conv
-Version: 1.0.1
+Version: 1.0.2
 Architecture: all
 Maintainer: Daniel Nylander <daniel@danielnylander.se>
-Filename: pool/main/l10n-conv_1.0.1_all.deb
-Size: 7220
-MD5sum: a084c2fd43f5198cd3a9c1b9809e7806
-SHA1: ad925d57004a3419edddd90d326456cf8cd5e1e6
-SHA256: b4e23a33c7e0797ccf07377169fb21228bc3fe85a9c1682f25f6b0dc4037fa28
+Depends: python3
+Filename: pool/main/l10n-conv_1.0.2_all.deb
+Size: 47024
+MD5sum: eea26c52956206ac2901486dc62a8547
+SHA1: c18b95b663b33fd3c7778f62e09f337ee118b16f
+SHA256: 5c4ef4509f2311c50aa60f4746c7050d16a7d4582e8e74d4855e3fa40af28bf4
 Section: utils
 Priority: optional
-Description: l10n-conv
+Description: Universal localization file converter, validator, and compiler — lupdate + lrelease for all l10n formats
 
 Package: l10n-glossary
-Version: 0.2.2
+Version: 0.2.3
 Architecture: all
 Maintainer: Daniel Nylander <daniel@danielnylander.se>
-Filename: pool/main/l10n-glossary_0.2.2_all.deb
-Size: 10100
-MD5sum: 2431966c78c5851ea055894a6d25d878
-SHA1: b3f28b38b3001bcef030b21eec53e3c406d7680a
-SHA256: 09a2d9eafd55a28c4176eff65531dace0a181ed3b91fec1d0ffd83dafb499ef6
+Depends: python3, python3-gi, gir1.2-gtk-4.0, gir1.2-adw-1
+Filename: pool/main/l10n-glossary_0.2.3_all.deb
+Size: 10152
+MD5sum: e8bd589109b8d634b9636d3064792f16
+SHA1: 61f26a44f88a8bb21ea7a02775afd502346b8604
+SHA256: e801f220724975557d25f8a87da0328a6fbb9c14eeade0a1eda440bb91b4de30
 Section: utils
 Priority: optional
-Description: l10n-glossary
+Description: Glossary editor for localization — manage term lists, flag inconsistencies
 
 Package: l10n-lint
-Version: 1.15.0
+Version: 1.15.1
 Architecture: all
 Maintainer: Daniel Nylander <daniel@danielnylander.se>
-Filename: pool/main/l10n-lint_1.15.0_all.deb
-Size: 3900
-MD5sum: 0bd3f6d5348a62ca5860c1bb8db68dbf
-SHA1: c024d2ba8472c867a4cd00ab2f9c3e9604c25c78
-SHA256: 612dcd585ed0058ce21c6013cdeaa58e587d93d07e801060cdeaffbd808ea7eb
+Depends: python3, python3-gi, gir1.2-gtk-4.0, gir1.2-adw-1
+Filename: pool/main/l10n-lint_1.15.1_all.deb
+Size: 16908
+MD5sum: 3e3889bfa194115098fcfcb9abdc47ba
+SHA1: a3db2e08ff2ccfafca54a6005097e059975441a4
+SHA256: 7822ff3827649be5c2466ff86a017d7dca95183891511b6c3849118820f68a8c
 Section: utils
 Priority: optional
-Description: l10n-lint
+Description: Linter for localization files (.po, .ts)
 
 Package: l10n-preview
-Version: 0.2.2
+Version: 0.2.3
 Architecture: all
 Maintainer: Daniel Nylander <daniel@danielnylander.se>
-Filename: pool/main/l10n-preview_0.2.2_all.deb
-Size: 7420
-MD5sum: 39c6ec91677291c375e569e2f921494d
-SHA1: 7c29128b4fd3b1b9f1495aa53744b6a14d3a1a16
-SHA256: 5f87ad93cbbb012744eeafdc6a567982004939a66d3767c6b9717084bbea4ec9
+Depends: python3, python3-gi, gir1.2-gtk-4.0, gir1.2-adw-1
+Filename: pool/main/l10n-preview_0.2.3_all.deb
+Size: 7508
+MD5sum: b679b9ba7dc18fec9b5ef4595051c7f7
+SHA1: 3eeb8024dc53519e1bd571eef7e9a77f39014ea2
+SHA256: c99fac45c2f70039551df3c7338355c2bcb2a731ec3cdd9e6f2b50a68ae4ce5e
 Section: utils
 Priority: optional
-Description: l10n-preview
+Description: Preview PO/TS translations in simulated UI elements
 
 Package: langpack-inspector
-Version: 0.2.1
+Version: 0.2.2
 Architecture: all
 Maintainer: Daniel Nylander <daniel@danielnylander.se>
-Filename: pool/main/langpack-inspector_0.2.1_all.deb
-Size: 7520
-MD5sum: 5e03f41e7f7c665c87fd2017508f34f4
-SHA1: 8736b04051713bcf1c8986ae50354a6116e0fb85
-SHA256: 0a8e1b3c34e86d570ff0396d3b6276da10dc861c42109f00fd1403e8b68bf07a
+Depends: python3, python3-gi, gir1.2-gtk-4.0, gir1.2-adw-1
+Filename: pool/main/langpack-inspector_0.2.2_all.deb
+Size: 8356
+MD5sum: 8413d139d11f707e7a76d7abe8496af6
+SHA1: d09c81a7db3ce590258809102edd73abd1c64b0c
+SHA256: 8c346fc0bef34df513bb2a332de40c6a4f6f510d556337521e202ae8c6786478
 Section: utils
 Priority: optional
-Description: langpack-inspector
+Description: GTK4/Adwaita app to inspect Ubuntu language packs and find missing translations
 
 Package: libretranslate-gui
-Version: 0.2.2
+Version: 0.2.3
 Architecture: all
 Maintainer: Daniel Nylander <daniel@danielnylander.se>
-Filename: pool/main/libretranslate-gui_0.2.2_all.deb
-Size: 8192
-MD5sum: 61703e414c30f51c9c3b8e3edaa8000f
-SHA1: f625720ad99db1f97ec762146a171276e5b6f4cf
-SHA256: b618f89798ed6818450720528913cddce2a2c6063010cc336a66e31d227ac071
+Depends: python3, python3-gi, gir1.2-gtk-4.0, gir1.2-adw-1
+Filename: pool/main/libretranslate-gui_0.2.3_all.deb
+Size: 8304
+MD5sum: 5d231b99d52f6b342fc167cde79205fa
+SHA1: cb59e162b1ee196a68d49c1b4a8ff1b50887d8a6
+SHA256: 6758e779e955b99c0ed1f2d16c896d5a03d1e3c75f6e369457921d9a1ef1b1cb
 Section: utils
 Priority: optional
-Description: libretranslate-gui
+Description: GTK4/Adwaita translation assistant using LibreTranslate API
 
 Package: locale-tester
-Version: 0.2.2
+Version: 0.2.3
 Architecture: all
 Maintainer: Daniel Nylander <daniel@danielnylander.se>
-Filename: pool/main/locale-tester_0.2.2_all.deb
-Size: 7236
-MD5sum: 5bd0614d6d559d9c66371725e9f52234
-SHA1: ef7804ac3ed6c341b94ea93a37aae0c9eb1f05b5
-SHA256: 134f56eb7cad9504f44fb73cab47ee62a5cb6ecc52caa72a1243a6de619e80ec
+Depends: python3, python3-gi, gir1.2-gtk-4.0, gir1.2-adw-1
+Filename: pool/main/locale-tester_0.2.3_all.deb
+Size: 7332
+MD5sum: 39317ed7d04775a8aa6ab4252a1d0491
+SHA1: 3c41214db782a04420377f8631d1262d165b67da
+SHA256: c7d5fe4fd0ebd39506131f53f0ac9564c11cd9cd9efae850ca3d7fcc97740a5d
 Section: utils
 Priority: optional
-Description: locale-tester
+Description: GTK4/Adwaita app for testing and comparing locale behavior on Linux
 
 Package: pcap-viewer
-Version: 0.1.0
-Architecture: all
-Maintainer: Daniel Nylander <daniel@danielnylander.se>
-Depends: python3, python3-gi, gir1.2-adw-1, gir1.2-gtk-4.0, python3-scapy
-Filename: pool/main/pcap-viewer_0.1.0_all.deb
-Size: 8620
-MD5sum: f573392ff4f06b924cd122123213ba37
-SHA1: f955eeb56364ed61262e2cb256b340ba03e86dda
-SHA256: 5a35de8c53178326e974cbe698d6eed9bb7c5579667b57620bba12497b86e8d2
-Section: utils
-Priority: optional
-Description: GTK4 network capture analyzer
-
-Package: po-translate
-Version: 1.5.0
-Architecture: all
-Maintainer: Daniel Nylander <daniel@danielnylander.se>
-Filename: pool/main/po-translate_1.5.0_all.deb
-Size: 3596
-MD5sum: 1094cd80dbff71ac27661c50d2694e78
-SHA1: e52030c78ecf7de919417a6c206962991999102d
-SHA256: 51004d65d77b17e4f7345719db09ecc465e7250c7825017ac9a9d450dc7cef04
-Section: utils
-Priority: optional
-Description: po-translate
-
-Package: snap-l10n
-Version: 0.2.1
-Architecture: all
-Maintainer: Daniel Nylander <daniel@danielnylander.se>
-Filename: pool/main/snap-l10n_0.2.1_all.deb
-Size: 6648
-MD5sum: 8515c3f6687c54c118dce3902123d48b
-SHA1: 41c065f03cc172390a0a996a68a9d37c909415dc
-SHA256: 3781d21004d1c8e59951d3c9c5dc405528da3bdb966f772a91118d02c14efc2c
-Section: utils
-Priority: optional
-Description: snap-l10n
-
-Package: svlang
 Version: 0.1.1
 Architecture: all
 Maintainer: Daniel Nylander <daniel@danielnylander.se>
-Filename: pool/main/svlang_0.1.1_all.deb
-Size: 3132
-MD5sum: c003e57d1a2f22e6bba7d09b7b881b17
-SHA1: 3a61695e08dafc69c93e52becb63ed254e9a3c9c
-SHA256: 06347bc90ce03b28d0e4fa6ad219ab2ba69136d34dbeaa230da2526f36b7b6a6
+Depends: python3, python3-gi, gir1.2-gtk-4.0, gir1.2-adw-1, python3-scapy
+Filename: pool/main/pcap-viewer_0.1.1_all.deb
+Size: 9384
+MD5sum: fba670297747082bb3fd5f38ca650d4a
+SHA1: 3574296bf1d0b13f220fb730705f9eaaa2644ada
+SHA256: 27885c4ceaa69a86eccf4804da509b927f277012ea13091e70670b100f0dfb6d
 Section: utils
 Priority: optional
-Description: svlang
+Description: GTK4/Adwaita application for analyzing network packet captures
 
-Package: tm-manager
+Package: po-translate
+Version: 1.5.1
+Architecture: all
+Maintainer: Daniel Nylander <daniel@danielnylander.se>
+Depends: python3
+Filename: pool/main/po-translate_1.5.1_all.deb
+Size: 10988
+MD5sum: 4158aaa069d7c53064efdfe42dcd51dd
+SHA1: 78988044f3600c92edf70e0c5123b21f1834acf9
+SHA256: a72a441f04a6e9b3f3f31544f3c9018a80960a1df9d4e24c04d494ed210c87b5
+Section: utils
+Priority: optional
+Description: Batch translate .po and .ts files using AI
+
+Package: snap-l10n
 Version: 0.2.2
 Architecture: all
 Maintainer: Daniel Nylander <daniel@danielnylander.se>
-Filename: pool/main/tm-manager_0.2.2_all.deb
-Size: 9764
-MD5sum: f74d39d32d4e08e9d513dd3745a62a2f
-SHA1: f4aa83f8933bc225530a09fdb9c7eab408e98268
-SHA256: fa90eff9113bd5c5528dca83cb93a7cd801d3b88566c73c5203eb788da2e372a
+Depends: python3, python3-gi, gir1.2-gtk-4.0, gir1.2-adw-1
+Filename: pool/main/snap-l10n_0.2.2_all.deb
+Size: 7532
+MD5sum: 2212d54e8ccbe1cb91d1fb52cba58720
+SHA1: 87038664620671510a1727c82fe153606ba94fd1
+SHA256: 2552117b55983db7ce7b847d073651095c47740965fa0146627d62b2c93a4109
 Section: utils
 Priority: optional
-Description: tm-manager
+Description: View snap package translation status
 
-Package: tp-lint
-Version: 1.8.1
+Package: svlang
+Version: 0.1.2
 Architecture: all
 Maintainer: Daniel Nylander <daniel@danielnylander.se>
-Filename: pool/main/tp-lint_1.8.1_all.deb
-Size: 11492
-MD5sum: 3a0badbd1a09e39b695ea1b83830150b
-SHA1: fa0c5d4f2cc0b42804780dfe4c23c4dc64686091
-SHA256: 20fda97418facb7ff71c1f3bfe427e43c0e8a0a5a2900f0f5d9610e09039819d
+Depends: python3
+Filename: pool/main/svlang_0.1.2_all.deb
+Size: 812376
+MD5sum: 6e0a13865e06cd2f5c607fc291ab3c22
+SHA1: 095909665a4ff72ec7029edb283eb6ceb5156c33
+SHA256: d5201a46a16936514f41fa5a9824630794e2b05172a851025dd6b615a27d4699
+Section: utils
+Priority: optional
+Description: Swedish NLP toolkit for translators
+
+Package: tm-manager
+Version: 0.2.3
+Architecture: all
+Maintainer: Daniel Nylander <daniel@danielnylander.se>
+Depends: python3, python3-gi, gir1.2-gtk-4.0, gir1.2-adw-1
+Filename: pool/main/tm-manager_0.2.3_all.deb
+Size: 9844
+MD5sum: a3ea01462030b6c8669108a3bebdb73b
+SHA1: fbf13be90f5280c10c58be197483a1934790f682
+SHA256: 25815079d12bf4919e1081676865f8706a6d5238cb1ead5dd39b7fd5f639af14
+Section: utils
+Priority: optional
+Description: Manage local Translation Memory files (TMX)
+
+Package: tp-lint
+Version: 1.8.2
+Architecture: all
+Maintainer: Daniel Nylander <daniel@danielnylander.se>
+Depends: python3
+Filename: pool/main/tp-lint_1.8.2_all.deb
+Size: 14144
+MD5sum: 53518337ab11e96d700c9d915a851041
+SHA1: 8760c81d0236bd1d893aeb3672eb8c2ffc0f7fda
+SHA256: 8ed342a1dcc24fc1a81f9d8fe7a23f2dc8b04a0b920164c312400c6891a2e856
 Section: utils
 Priority: optional
 Description: tp-lint
 
 Package: ubuntu-l10n
-Version: 0.2.1
+Version: 0.2.2
 Architecture: all
 Maintainer: Daniel Nylander <daniel@danielnylander.se>
-Filename: pool/main/ubuntu-l10n_0.2.1_all.deb
-Size: 2776
-MD5sum: b86236a4ea242f0fc46f19c7fd2d3fc5
-SHA1: eba153c4ae728b65a1f4eee57f44b996833cb659
-SHA256: 5b60bf8d1840b08d0db249116a54260bdb1627fbaece05b087adfc984870edee
+Depends: python3, python3-gi, gir1.2-gtk-4.0, gir1.2-adw-1
+Filename: pool/main/ubuntu-l10n_0.2.2_all.deb
+Size: 11208
+MD5sum: 4586de5e58bdaebc921dd16a3b317a44
+SHA1: a21fe76a98aba4d8df60573e85d56dd7e8c94fa1
+SHA256: 22446b51a35154a7be7223d02055936c12b1688754fec7510f9eb2e663f865ed
 Section: utils
 Priority: optional
-Description: ubuntu-l10n
+Description: Ubuntu/Launchpad translation statistics viewer
 
