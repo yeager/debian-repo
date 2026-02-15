@@ -56,10 +56,10 @@ Architecture: all
 Maintainer: Daniel Nylander <daniel@danielnylander.se>
 Depends: python3, python3-gi, gir1.2-gtk-4.0, gir1.2-adw-1, python3-requests, gir1.2-secret-1
 Filename: pool/main/elementary-l10n_0.2.3_all.deb
-Size: 10196
-MD5sum: 8fb5a0234b8ad292c7e698d39e26e959
-SHA1: e824271521a713824d0716eab344281264dd5263
-SHA256: 97d48cb5bec6b21e4c52e6ae756791053adb5ba14b7570c3bd02bb09dc52c550
+Size: 10212
+MD5sum: be5475e7fbc1bd888800f5bc47c50cd2
+SHA1: 34770b8020b2dfce1e8e0c7646b3855823c41718
+SHA256: 96d53905b0c57fe2d4f6ba0c80f9409c748c90a848c9a3086f2cc9f4f9f2914b
 Section: utils
 Priority: optional
 Description: Translation status viewer for elementary OS (Weblate)
@@ -70,37 +70,33 @@ Package: font-preview
 Version: 0.2.1
 Architecture: all
 Maintainer: Daniel Nylander <daniel@danielnylander.se>
-Installed-Size: 30
 Depends: python3, python3-gi, gir1.2-gtk-4.0, gir1.2-adw-1
 Filename: pool/main/font-preview_0.2.1_all.deb
-Size: 10740
-MD5sum: 746c282f33c06548e17b135b0f7b2bc5
-SHA1: f10d0992f80ac3703329a315b5bd5420a0417ba9
-SHA256: 268b4f8320fe9fc703b0ac95244344fa791fab0f202ce1993dc9fae3624ae688
-Section: default
+Size: 8652
+MD5sum: c373429fb8a426b33e75daf1386be0b7
+SHA1: 4d6770ca12213fdc9d255564d21e88fd959588e8
+SHA256: 807ccabbd0969b339b8307acfb2767b8a026473218521566eddd71dd9ca9c7b5
+Section: utils
 Priority: optional
-Homepage: https://github.com/yeager/font-preview
-Description: no description given
-License: GPL-3.0-or-later
-Vendor: none
+Description: GTK4 translation and localization tool
+ Part of the GTK4 localization toolkit for managing translations
+ and language packs.
 
 Package: github-l10n
-Version: 0.1.1
+Version: 0.2.1
 Architecture: all
 Maintainer: Daniel Nylander <daniel@danielnylander.se>
-Installed-Size: 24
 Depends: python3, python3-gi, gir1.2-gtk-4.0, gir1.2-adw-1
-Filename: pool/main/github-l10n_0.1.1_all.deb
-Size: 8926
-MD5sum: 5a46520c8a5124210e54ae41d6510911
-SHA1: 67610ddc04de97d3f566014df9ae2a360f218d0b
-SHA256: b9baf7bb4aa79d539eb9ec8fcacc0783773f7e1ccbd95c367994ffcb9d0ca76e
-Section: default
+Filename: pool/main/github-l10n_0.2.1_all.deb
+Size: 7620
+MD5sum: 4fbee62434b20076da627868a0bfea56
+SHA1: 8e21b970a79534b10f64b94be50f6e526f5e7f4f
+SHA256: 7ea74525bd650512a720d3c0de9bd8d9b417e4cb36afcac84672b73d0ce73d27
+Section: utils
 Priority: optional
-Homepage: https://github.com/yeager/github-l10n
-Description: no description given
-License: GPL-3.0-or-later
-Vendor: none
+Description: GTK4 translation and localization tool
+ Part of the GTK4 localization toolkit for managing translations
+ and language packs.
 
 Package: l10n-conv
 Version: 1.0.1
@@ -124,19 +120,17 @@ Package: l10n-glossary
 Version: 0.2.1
 Architecture: all
 Maintainer: Daniel Nylander <daniel@danielnylander.se>
-Installed-Size: 37
 Depends: python3, python3-gi, gir1.2-gtk-4.0, gir1.2-adw-1
 Filename: pool/main/l10n-glossary_0.2.1_all.deb
-Size: 11398
-MD5sum: 4ac76e1ab6c587495d66262cf9d40f41
-SHA1: b3bb1d601c083705acc209994c998bf984da4f0d
-SHA256: 90cc15f97dcf1f1dc9419434f0e94843723af25cbadd7427d0b8f80f6bd2d1d6
-Section: default
+Size: 9164
+MD5sum: c4ae64472f7032ac821f37e74dd51331
+SHA1: 94e084eaec77cfc2a3e8d8a85b23f40820395d09
+SHA256: ee88921eb89e3a708a75adf3aee5bdb17d780f2f2f7fedfe5454a367752054d6
+Section: utils
 Priority: optional
-Homepage: https://github.com/yeager/l10n-glossary
-Description: no description given
-License: GPL-3.0-or-later
-Vendor: none
+Description: GTK4 translation and localization tool
+ Part of the GTK4 localization toolkit for managing translations
+ and language packs.
 
 Package: l10n-lint
 Version: 1.15.0
@@ -177,19 +171,17 @@ Package: l10n-preview
 Version: 0.2.1
 Architecture: all
 Maintainer: Daniel Nylander <daniel@danielnylander.se>
-Installed-Size: 23
 Depends: python3, python3-gi, gir1.2-gtk-4.0, gir1.2-adw-1
 Filename: pool/main/l10n-preview_0.2.1_all.deb
-Size: 8470
-MD5sum: b5c2937d545424ef3bb87bd4b95ce4aa
-SHA1: 2ffcd32b074f30c793bb1236ead9b55132d9f3a1
-SHA256: 0a9bb04fe0b97e3c1c9ad49ed2046887534c755d80bea45e352c9a0d1cbff2a1
-Section: default
+Size: 7136
+MD5sum: 466baefe27cc7d89fc696350ccbbf2cc
+SHA1: fba6e323a94abc599482ff03b2d1c630df844e7c
+SHA256: 680040841e296d83acfb8ae9473e608b06889a91d91637ecce4cc92d60fa885c
+Section: utils
 Priority: optional
-Homepage: https://github.com/yeager/l10n-preview
-Description: no description given
-License: GPL-3.0-or-later
-Vendor: none
+Description: GTK4 translation and localization tool
+ Part of the GTK4 localization toolkit for managing translations
+ and language packs.
 
 Package: langpack-inspector
 Version: 0.2.1
@@ -248,19 +240,17 @@ Package: locale-tester
 Version: 0.2.1
 Architecture: all
 Maintainer: Daniel Nylander <daniel@danielnylander.se>
-Installed-Size: 21
 Depends: python3, python3-gi, gir1.2-gtk-4.0, gir1.2-adw-1
 Filename: pool/main/locale-tester_0.2.1_all.deb
-Size: 8264
-MD5sum: ef093d67f0009f6a818f372a2df7a0a7
-SHA1: e5fc6850961b3fbc3aaad5d555a437a3356e02a8
-SHA256: 22bd516917653e02c9eb87db3a2b1717291413eea6b33e2f6c76b669c6c70e5b
-Section: default
+Size: 6632
+MD5sum: dac266f9fc7d5293dfecea86cb2cc366
+SHA1: a1847f9d3c25042215e29e4fdd67c2a947c2cfb5
+SHA256: af0bc300419ff36e7f04c272fb4ea031e7d0eb70d334900d0933a02f52e9d770
+Section: utils
 Priority: optional
-Homepage: https://github.com/yeager/locale-tester
-Description: no description given
-License: GPL-3.0-or-later
-Vendor: none
+Description: GTK4 translation and localization tool
+ Part of the GTK4 localization toolkit for managing translations
+ and language packs.
 
 Package: makebread
 Version: 0.3.0
@@ -355,19 +345,17 @@ Package: tm-manager
 Version: 0.2.1
 Architecture: all
 Maintainer: Daniel Nylander <daniel@danielnylander.se>
-Installed-Size: 35
 Depends: python3, python3-gi, gir1.2-gtk-4.0, gir1.2-adw-1
 Filename: pool/main/tm-manager_0.2.1_all.deb
-Size: 11186
-MD5sum: e51e76ce1dff93a9941c2298557dd239
-SHA1: 7bbf15d121f47c9162070711c10131b7bbd164f6
-SHA256: 2c3ab1584ae9d0ccc61d58e8e509b900f51cca0042af1c43e22e179f45f4e670
-Section: default
+Size: 8792
+MD5sum: 5e3a80eff56418ba287f075bb1445df7
+SHA1: 1bd1b1984a791e38c2a8a7704187d24bd0ff0678
+SHA256: 153ed03edf4bff0e2ee9f10928a3aaf2a810a748307772559b361133552f9ef3
+Section: utils
 Priority: optional
-Homepage: https://github.com/yeager/tm-manager
-Description: no description given
-License: GPL-3.0-or-later
-Vendor: none
+Description: GTK4 translation and localization tool
+ Part of the GTK4 localization toolkit for managing translations
+ and language packs.
 
 Package: tp-lint
 Version: 1.8.1
