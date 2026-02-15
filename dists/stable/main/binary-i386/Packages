@@ -215,10 +215,10 @@ Depends: python3, python3-gi, python3-gi-cairo, gir1.2-gtk-4.0, gir1.2-adw-1, py
 Conflicts: pcap-viewer (<< 0.2.0)
 Replaces: pcap-viewer (<< 0.2.0)
 Filename: pool/main/packetlens_0.2.1_all.deb
-Size: 34056
-MD5sum: cd6973d94f36beaeb26bfe167bbbdb9c
-SHA1: fe8536d5a50ffc55becd8ac29a7859c4447d53f0
-SHA256: 259545463508c39111ce0fe519267e872304abc997e1e8db4526e82a548cba7a
+Size: 34072
+MD5sum: dcbe255e32304e9a84b7a7f7f38c2ab0
+SHA1: 39dd4903f078e0060d4c239c96667a0c5da10530
+SHA256: c1df3be22c4934effb51152215f1a6a697b0bc44855d21eddadb03b997d94543
 Section: net
 Priority: optional
 Homepage: https://github.com/yeager/pcap-viewer
