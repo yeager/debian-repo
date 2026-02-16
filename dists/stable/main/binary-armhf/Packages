@@ -427,15 +427,15 @@ Homepage: https://github.com/yeager/tts-tester
 Description: Text-to-speech engine comparison tool
 
 Package: ubuntu-l10n
-Version: 0.3.3-1
+Version: 0.3.4-1
 Architecture: all
 Maintainer: Daniel Nylander <daniel@danielnylander.se>
 Depends: python3 (>= 3.10), python3-gi, gir1.2-gtk-4.0, gir1.2-adw-1
-Filename: pool/ubuntu-l10n_0.3.3-1_all.deb
-Size: 13256
-MD5sum: c26fac0946bb8a064ba355cfd48b2865
-SHA1: bb801af55c1ca28cefd8032f833787eee9004efd
-SHA256: 4b14c5e5a255a25a844587827ed3b4905235084d0b16d96d33cf757a38e2286f
+Filename: pool/ubuntu-l10n_0.3.4-1_all.deb
+Size: 13284
+MD5sum: b40be1f8111e2636aeb39f5cdc2ede54
+SHA1: 02fc87c59d5838530b8178534234606322c5a763
+SHA256: cd67beba3e28a039dfffb38fbcebb980e2ac4a2e6fd46b1848b6ffbb87d1c078
 Section: devel
 Priority: optional
 Homepage: https://github.com/yeager/ubuntu-l10n
