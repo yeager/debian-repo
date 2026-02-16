@@ -319,15 +319,15 @@ Description: Translation Platform Linter
  translation projects.
 
 Package: ubuntu-l10n
-Version: 0.2.8-1
+Version: 0.2.9-1
 Architecture: all
 Maintainer: Daniel Nylander <daniel@danielnylander.se>
 Depends: python3 (>= 3.10), python3-gi, gir1.2-gtk-4.0, gir1.2-adw-1
-Filename: pool/ubuntu-l10n_0.2.8-1_all.deb
-Size: 13244
-MD5sum: f3a943ef9560b2cf342de1887a84fb3c
-SHA1: 306126b3cba42467255c7c2f1fede8f75c7bf6f3
-SHA256: 90c1e47c80ba19e031e3b50c25c353a7dd3ef425430461f22cca4a09233c595c
+Filename: pool/ubuntu-l10n_0.2.9-1_all.deb
+Size: 13252
+MD5sum: fe98d5555fcbde52e0c5cc01a5e1e52b
+SHA1: 8f8b6937afeaf62e0d26c198339d9fc9e5ec0570
+SHA256: 2a4fba364cb0e7722c37a1e73018d7b8c616511f156d16a9e15688193fb96108
 Section: devel
 Priority: optional
 Homepage: https://github.com/yeager/ubuntu-l10n
