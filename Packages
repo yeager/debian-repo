@@ -188,15 +188,15 @@ Homepage: https://github.com/yeager/l10n-glossary
 Description: Glossary editor for localization — manage term lists, flag inconsistencies
 
 Package: l10n-lint
-Version: 1.15.7-1
+Version: 1.15.8-1
 Architecture: all
 Maintainer: Daniel Nylander <daniel@danielnylander.se>
 Depends: python3 (>= 3.9)
-Filename: pool/l10n-lint_1.15.7-1_all.deb
-Size: 49496
-MD5sum: 5959f7085ebe1a6bbcac8c0e98edfa24
-SHA1: bc0a82eb42f795757a8f6356f0024f2147be97b9
-SHA256: 953c6dd4e01b182c46196737cae9a7e3623f089027b0d99d390c6539cf227965
+Filename: pool/l10n-lint_1.15.8-1_all.deb
+Size: 49798
+MD5sum: 2354c977bb2f57b6672a90c510086947
+SHA1: 9e523f35fd2b5cdd68f96c6c6fe6185cb1396d4e
+SHA256: f5909b651df0c86c1e7e0ad21069610e58f5f021db9a1b7fb0dbed658f60a94c
 Section: devel
 Priority: optional
 Homepage: https://github.com/yeager/l10n-lint
@@ -427,15 +427,15 @@ Homepage: https://github.com/yeager/tts-tester
 Description: Text-to-speech engine comparison tool
 
 Package: ubuntu-l10n
-Version: 0.3.1-1
+Version: 0.3.2-1
 Architecture: all
 Maintainer: Daniel Nylander <daniel@danielnylander.se>
 Depends: python3 (>= 3.10), python3-gi, gir1.2-gtk-4.0, gir1.2-adw-1
-Filename: pool/ubuntu-l10n_0.3.1-1_all.deb
-Size: 13258
-MD5sum: 6c3611322c86baf85909935ba1925af8
-SHA1: 95bf4374da19ccdd22f440c278e77f49b4e805ba
-SHA256: 10ecb4132f7a7684f9d4a674e103bd50f9231fd6c0d136a5fe02946ccdcd9df4
+Filename: pool/ubuntu-l10n_0.3.2-1_all.deb
+Size: 13262
+MD5sum: cf5c2b397e1285e3d9d635024c83175a
+SHA1: 1772b48c107adf983ba34f089f76a741c9402e36
+SHA256: a6907ff3b213515338c878559eeb805efc4ac8cb48304652062c2479d5db887e
 Section: devel
 Priority: optional
 Homepage: https://github.com/yeager/ubuntu-l10n
