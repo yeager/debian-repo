@@ -148,10 +148,10 @@ Architecture: all
 Maintainer: Daniel Nylander <daniel@danielnylander.se>
 Depends: python3 (>= 3.9)
 Filename: pool/l10n-lint_1.15.7-1_all.deb
-Size: 83896
-MD5sum: 05c20d5bb5eb9bb84eea38106b7e638a
-SHA1: 1b5a4ec489c59f7c4482a3abd1c93aaba9d5f8bc
-SHA256: bd58dc54e9db738ff771d7d271523d9327616811e6f24add93e02f14a6004ae2
+Size: 49496
+MD5sum: 5959f7085ebe1a6bbcac8c0e98edfa24
+SHA1: bc0a82eb42f795757a8f6356f0024f2147be97b9
+SHA256: 953c6dd4e01b182c46196737cae9a7e3623f089027b0d99d390c6539cf227965
 Section: devel
 Priority: optional
 Homepage: https://github.com/yeager/l10n-lint
