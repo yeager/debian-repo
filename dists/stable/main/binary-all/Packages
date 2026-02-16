@@ -1,3 +1,18 @@
+Package: bildstod
+Version: 0.1.0
+Architecture: all
+Maintainer: Daniel Nylander <daniel@danielnylander.se>
+Depends: python3 (>= 3.10), python3-gi, gir1.2-gtk-4.0, gir1.2-adw-1
+Filename: pool/bildstod_0.1.0_all.deb
+Size: 2756
+MD5sum: 12528ef393df4625d4037e779b151803
+SHA1: 8714c9b2400f7d1033d04b2529c642aee21a2975
+SHA256: f56c7e1f295c7c9f649ff4bb9d9efe338426fa669a89ebd6dddf3da6a519a2e3
+Section: utils
+Priority: optional
+Homepage: https://github.com/yeager/bildstod
+Description: Visual schedule and picture support tool
+
 Package: cldr-viewer
 Version: 0.1.8
 Architecture: all
@@ -31,6 +46,21 @@ Homepage: https://github.com/yeager/commonvoice-status
 Description: Mozilla Common Voice translation status viewer
  A GTK4/Adwaita application for viewing Mozilla Common Voice
  translation and recording statistics.
+
+Package: cve-monitor
+Version: 0.1.0
+Architecture: all
+Maintainer: Daniel Nylander <daniel@danielnylander.se>
+Depends: python3 (>= 3.10), python3-gi, gir1.2-gtk-4.0, gir1.2-adw-1, python3-requests
+Filename: pool/cve-monitor_0.1.0_all.deb
+Size: 4840
+MD5sum: 7ed814fd483df5f677e8f2d3efe6ea9a
+SHA1: 6225f5b0389ec766f907935999f70ac03a753ff4
+SHA256: 8fda8c49e88bd5a80388949622e186f5b823c7a035a11af077b986df883b9749
+Section: utils
+Priority: optional
+Homepage: https://github.com/yeager/cve-monitor
+Description: Monitor CVE vulnerabilities for installed system packages
 
 Package: ddtp-translate
 Version: 0.7.0-1
@@ -109,6 +139,21 @@ Priority: optional
 Homepage: https://github.com/yeager/github-l10n
 Description: Browse GitHub project translation status
  GTK4/Adwaita app to view and compare translation coverage of GitHub projects.
+
+Package: ha-l10n
+Version: 0.1.0
+Architecture: all
+Maintainer: Daniel Nylander <daniel@danielnylander.se>
+Depends: python3 (>= 3.10), python3-gi, gir1.2-gtk-4.0, gir1.2-adw-1
+Filename: pool/ha-l10n_0.1.0_all.deb
+Size: 2780
+MD5sum: ce3239bdf0a4bcfbb54ec6061798b56b
+SHA1: 743f6ebafc084052d30c17c5785c65eed4c97acf
+SHA256: 7e7c4e87f62278f4f14df94f278f15c2748afb1090723b186d79ed05f17a0279
+Section: utils
+Priority: optional
+Homepage: https://github.com/yeager/ha-l10n
+Description: Home Assistant translation status dashboard
 
 Package: l10n-conv
 Version: 1.0.4-1
@@ -220,6 +265,36 @@ Section: devel
 Priority: optional
 Homepage: https://github.com/yeager/locale-tester
 Description: GTK4/Adwaita app for testing and comparing locale behavior on Linux
+
+Package: mqtt-inspector
+Version: 0.1.0
+Architecture: all
+Maintainer: Daniel Nylander <daniel@danielnylander.se>
+Depends: python3 (>= 3.10), python3-gi, gir1.2-gtk-4.0, gir1.2-adw-1
+Filename: pool/mqtt-inspector_0.1.0_all.deb
+Size: 2762
+MD5sum: a02d01b49cb61569a7b8f53f6ac8e5fb
+SHA1: cae6fcb0462c7b5c1e28604b10bdf1fc630a34da
+SHA256: 97d6b0f78b7da2f57e7c2523975c04dd0c307257ab52ce7c80bdcdd2f9953812
+Section: utils
+Priority: optional
+Homepage: https://github.com/yeager/mqtt-inspector
+Description: MQTT message inspector for IoT
+
+Package: obd2-viewer
+Version: 0.1.0
+Architecture: all
+Maintainer: Daniel Nylander <daniel@danielnylander.se>
+Depends: python3 (>= 3.10), python3-gi, gir1.2-gtk-4.0, gir1.2-adw-1
+Filename: pool/obd2-viewer_0.1.0_all.deb
+Size: 2764
+MD5sum: e7ab52befdeac0c226085a1276e577e0
+SHA1: 60d7f3de43f0bc76e8935a56e8d9ff4e3097f696
+SHA256: d9a0eb5f167c2616490612b32283cf79e10d723108938bd99483e9d3558dd502
+Section: utils
+Priority: optional
+Homepage: https://github.com/yeager/obd2-viewer
+Description: OBD2 diagnostic data viewer and logger
 
 Package: packetlens
 Version: 0.2.5-1
@@ -335,6 +410,21 @@ Homepage: https://github.com/yeager/tp-lint
 Description: Lint PO files from the Translation Project
  tp-lint fetches and lints PO files from the Translation Project
  (translationproject.org), checking for common translation issues.
+
+Package: tts-tester
+Version: 0.1.0
+Architecture: all
+Maintainer: Daniel Nylander <daniel@danielnylander.se>
+Depends: python3 (>= 3.10), python3-gi, gir1.2-gtk-4.0, gir1.2-adw-1
+Filename: pool/tts-tester_0.1.0_all.deb
+Size: 2758
+MD5sum: 56a9e3db66be3c30bbbc14c26237289a
+SHA1: c964bedcad300816b344b9903efc1fe17ae7e913
+SHA256: 10d445c706c2ab1e39e4967a7fc4d06d8559b29d29d6155b6302530e92eb5978
+Section: utils
+Priority: optional
+Homepage: https://github.com/yeager/tts-tester
+Description: Text-to-speech engine comparison tool
 
 Package: ubuntu-l10n
 Version: 0.3.1-1
