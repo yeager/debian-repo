@@ -1,48 +1,32 @@
 -----BEGIN PGP SIGNED MESSAGE-----
 Hash: SHA256
 
-Origin: Yeager
-Label: Yeager Debian Repository
+Origin: yeager
+Label: Yeager L10n Tools
 Suite: stable
 Codename: stable
-Architectures: all amd64 arm64 armhf i386
+Architectures: all
 Components: main
-Date: Sun, 15 Feb 2026 18:32:20 UTC
+Date: Mon, 16 Feb 2026 08:00:14 UTC
 MD5Sum:
- 30a986e23186165407157ce890799cc7     9405 main/binary-all/Packages
- f2a64d2f6355ffa0645c87a2db117491     2931 main/binary-all/Packages.gz
- 30a986e23186165407157ce890799cc7     9405 main/binary-amd64/Packages
- f2a64d2f6355ffa0645c87a2db117491     2931 main/binary-amd64/Packages.gz
- 30a986e23186165407157ce890799cc7     9405 main/binary-arm64/Packages
- f2a64d2f6355ffa0645c87a2db117491     2931 main/binary-arm64/Packages.gz
- 30a986e23186165407157ce890799cc7     9405 main/binary-armhf/Packages
- 733838cd210a374cd7f6376b195636c9     2931 main/binary-armhf/Packages.gz
- 30a986e23186165407157ce890799cc7     9405 main/binary-i386/Packages
- 733838cd210a374cd7f6376b195636c9     2931 main/binary-i386/Packages.gz
+ 55c3972ba5007bff394b5949d1253f0b     9626 main/binary-all/Packages
+ 9f208431251e9ccc31f08f5bd4d658d5     3032 main/binary-all/Packages.gz
 SHA256:
- ba3e122e20cad3eabeb743c38be1d8696f1e470790f958730805b5993a7d6b06     9405 main/binary-all/Packages
- 3c823453ccdb35cf23b484a869dad31bb7bc651a9979689932cfd60e711acf12     2931 main/binary-all/Packages.gz
- ba3e122e20cad3eabeb743c38be1d8696f1e470790f958730805b5993a7d6b06     9405 main/binary-amd64/Packages
- 3c823453ccdb35cf23b484a869dad31bb7bc651a9979689932cfd60e711acf12     2931 main/binary-amd64/Packages.gz
- ba3e122e20cad3eabeb743c38be1d8696f1e470790f958730805b5993a7d6b06     9405 main/binary-arm64/Packages
- 3c823453ccdb35cf23b484a869dad31bb7bc651a9979689932cfd60e711acf12     2931 main/binary-arm64/Packages.gz
- ba3e122e20cad3eabeb743c38be1d8696f1e470790f958730805b5993a7d6b06     9405 main/binary-armhf/Packages
- c255b342109ab34070ed79badf909b235c1a9cedd1a939813a665032871f06e4     2931 main/binary-armhf/Packages.gz
- ba3e122e20cad3eabeb743c38be1d8696f1e470790f958730805b5993a7d6b06     9405 main/binary-i386/Packages
- c255b342109ab34070ed79badf909b235c1a9cedd1a939813a665032871f06e4     2931 main/binary-i386/Packages.gz
+ 8832553a10a00a5493f8e0826d7e2851b5980632b15052a20e2bc1da6c84ed8e     9626 main/binary-all/Packages
+ 6e61fa36f906446e969d7ece8a37704456b79fef1961f5578f3c6923ade3ce79     3032 main/binary-all/Packages.gz
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAEBCAAdFiEEN5hu++1i1inAzyaO4xjH3j2ofFsFAmmSETQACgkQ4xjH3j2o
-fFsizxAAlOl0vUW8eSgshvyzcGWMh29Nwjl0qJfVHu9+mSI/2+tD66vREQXysQpR
-xq0TobD9vHlSkvNSArPlxhFiKUHxGl5KeL3LzYzAbJ7Ct93Rt0r00LoWzQAAYZzo
-QbZrEhhcbpRO4WcyI4qP4bOYPiGIOZagpDYn8R2GdjvBV/2GuWHFN8qE3zc95F0D
-OEQ0/1QY5BmqhvBEa3125nJ6g0bJpMMh6gLOW5Vob6VdI1kRuztgvbd842oxXU47
-2w6eJFV2MVYhHghm8rvvRCHopXYP35hU9FC+Qi5mLcA1rLm8kdebXF6H1q0fnkRL
-WPUFHUH9mpmj/bHR0MJm5pkXkvRDRrTEQ5l7dmCJbmKyHsr3ZAI71H58NxlOprax
-qp9wK2BTnkhcmd0BBH6BN03+p2ns9EVW1FUvj7liE8nQpG7b2p5MFqVeWgPqzJJU
-6QxOWaf+ykMGdY44830u3LRH2Ov7174uTc2kdxWybreD1sza9hP3dLVLU5WXwai2
-ZWeRnnrs+je1Jk93wLZvM9EG7IRQfJw34WjK2aa4qymAYtbWtY7rAazOomDh1JbC
-Ijq7Omelr8JG7az5C9LSg15D2wOyZFAQHseQSwlOcXe3WHbTLV92gjQZ8OE9H+kg
-Jq2lqYfEFmOM14xOFHn9Wq6BOPkL4DIrVIs8j4Rn6sQdXxJz2j8=
-=IJSM
+iQIzBAEBCAAdFiEEN5hu++1i1inAzyaO4xjH3j2ofFsFAmmSzpYACgkQ4xjH3j2o
+fFvDVg/+Mxg6GcuYKsc5KjyzMZrTeD5kpTGeesAZNL92Cq6wDp/dGlqW+Fph8+iU
+sSJe1IzCPED2pRPauS8fUoOMsiR232GKKkcF7FGUjdyKHm3DJ+2MUUdgmYzTPK7p
+z35+AS8BIgrYwaY6QvqbV08UDfGAt3lPVUs8xyNYkqdAq5iJldrIEpA4Uv+0AGxK
+hCjbRABZ/g5hQ80L/jcbqUN5NMpKrmgi68QHHLvrVeCNAPcoMXfxxjqmWAHFapGX
+TdH7I8gwNWd5EUBQ4xVkxku64mKlew5e5hQoE47SYF1wcHFO14nyEhBl5VezT2gK
+t5fjV59GNpeYqoSokTufiiWNS+RRAidG4oC6yeTM/g413ijq4VwWmZOZCcV4Xc1/
+Y6aqFzvRAnp5fVOtxmyBl3XkTt8egeritlX7mX2nkXIvrqTJpwb7KL/ooCwRGXpo
+BbZRXpgkGBkyqgkvaRl26PZ6/toYyl6J2JbmPp3miNJomSdRUSEQe3LUHFvO5kZi
+aDZgfCD5uOHYl+MJUWwZx5LagS9+CIdMBPkJ8t7Phy3RIT0FehU8n7YcekBmDpIQ
+s+Yt5d4gb8by+JBuawQVBQquEEhCS92hgRe9zm8W+6PemsQVyYFFj/h5BVNGdS9S
+LrxlF6fHmovN1UwFDvDpxCmPdeV4AgY5Qno/olIRiO9it1f/h4Q=
+=+5fQ
 -----END PGP SIGNATURE-----
