@@ -1,0 +1,33 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA256
+
+Origin: Yeager
+Label: Yeager Debian Repository
+Suite: stable
+Codename: stable
+Architectures: all
+Components: main
+Description: Yeager L10n App Suite Debian Repository
+Date: Mon, 16 Feb 2026 12:03:23 UTC
+MD5Sum:
+ 9ed51260be321b4210ea46973b9f4486 13176 Packages
+ f385755f6c730c80d36797ddbe1cc973 4166 Packages.gz
+SHA256:
+ 262747012d4a69b62f22a7b1db1ed6e048b23f37425b9f8cad9f5961575a0cd0 13176 Packages
+ 7b7be3e896da0a46f926130052921f0349c1d34c16e90071f5e3418b03b2c8e6 4166 Packages.gz
+-----BEGIN PGP SIGNATURE-----
+
+iQIzBAEBCAAdFiEEN5hu++1i1inAzyaO4xjH3j2ofFsFAmmTB4sACgkQ4xjH3j2o
+fFtGqg/+O/KpsMr48XmDObxA/17wEbvuc5wJkH/KqvziOLGsigbUmFvcoUxBsUJC
+JRBR0saflqeUosXxYE4ohuRq31zNinSPfzjjTq7jKDOKeTtJs1Ex7RoHls2XAl2U
+ddLC2+OhEeHm45ueswqrtUSwAPtwiCtqEoMJ3wi/8JTRqBeAg3B/l5KrnpMRi24N
+btsdTdD8yIwk9S2m7/cIa1o3YBd4zrNam/lODyXNa1Zxrq8+nFg24FJ8F0XT+TFz
+jgUg144K3BL2fvxJl/6KIU1sgnTEkH5T122lwo6GNssvkY5lgxSUlyVr1HHjZgkd
+Eqmkjz/bMyZTc3UKqlFBKYosEaeZKahWjSQU31htuQksfK2bHcXZ6H/myK+XJ+0d
+ncrF1VsakLEOSj1W1o29VapvxS/bqBrgTzsHJGWRjRRAXP9kpJEPPnV80ZIq+AVT
+XbLDY1mGenVzWzSMM2+GRRpCxjMW+V+86mzBBDtO6wMnRocekDk9xDYx/wMQtFIy
+nN/T8GRW5vB0JdqMP205VX6NmB9q1AAlvKlGP5K2H14NLLGNZ9Ji1WnpK2Ai4hwT
+KfXv7RkJeJIxUebudjTqxoUvkg8oDV9VlzQDHaxOgoaqJe202AAP58GwgmzFFsRn
+GGsMJbZNcWnE9zXIi3PloLo5HFtmnOGYQocXYV2hE4Y9fd6v2tM=
+=jw98
+-----END PGP SIGNATURE-----

@@ -1,0 +1,354 @@
+Package: cldr-viewer
+Version: 0.1.7
+Architecture: all
+Maintainer: Daniel Nylander <daniel@danielnylander.se>
+Depends: python3 (>= 3.10), python3-gi, gir1.2-gtk-4.0, gir1.2-adw-1
+Filename: pool/cldr-viewer_0.1.7_all.deb
+Size: 9888
+MD5sum: 4ffea793feac6bcd20d2f2bce3a42f34
+SHA1: 139f8883f6032b2c9cb853800deb3fcf086cfe2d
+SHA256: e4211189b5ff32123e2844f5b40226069c9f3e22e552817cf441ed1a7c3c4bb4
+Section: devel
+Priority: optional
+Homepage: https://github.com/yeager/cldr-viewer
+Description: Visualize Unicode CLDR locale data completeness
+ GTK4/Adwaita application for browsing and comparing CLDR locale
+ data. Find missing translations in dates, currencies, units, and more.
+
+Package: commonvoice-status
+Version: 0.1.7-1
+Architecture: all
+Maintainer: Daniel Nylander <daniel@danielnylander.se>
+Depends: python3 (>= 3.10), python3-gi, gir1.2-gtk-4.0, gir1.2-adw-1
+Filename: pool/commonvoice-status_0.1.7-1_all.deb
+Size: 9572
+MD5sum: ac32e2789f0cbc3c20d1746d0f06d020
+SHA1: c8e1b4af31da0a9729c377d1687ae01a70c7c262
+SHA256: 61aeed5b8684f7128807526b77d17011812a470534f3675aa74ef9af44f53308
+Section: devel
+Priority: optional
+Homepage: https://github.com/yeager/commonvoice-status
+Description: Mozilla Common Voice translation status viewer
+ A GTK4/Adwaita application for viewing Mozilla Common Voice
+ translation and recording statistics.
+
+Package: ddtp-translate
+Version: 0.5.1-1
+Architecture: all
+Maintainer: Daniel Nylander <daniel@danielnylander.se>
+Depends: python3 (>= 3.10), python3-gi, gir1.2-gtk-4.0, gir1.2-adw-1
+Filename: pool/ddtp-translate_0.5.1-1_all.deb
+Size: 28022
+MD5sum: bc26d300a47655434b2c9925674828fa
+SHA1: d0354d8204ae51392cd9fcec7beea8021ee4c472
+SHA256: e3e93dbd42006d585421ae3fc663e40155e13e60d5d37846b39be47a23908277
+Section: devel
+Priority: optional
+Homepage: https://github.com/yeager/ddtp-translate
+Description: Translate Debian package descriptions via DDTP
+ A GTK4/Adwaita application for translating Debian package
+ descriptions via the Debian Description Translation Project.
+
+Package: desktop-editor
+Version: 0.2.6-1
+Architecture: all
+Maintainer: Daniel Nylander <daniel@danielnylander.se>
+Depends: python3 (>= 3.10), python3-gi, gir1.2-gtk-4.0, gir1.2-adw-1
+Filename: pool/desktop-editor_0.2.6-1_all.deb
+Size: 12108
+MD5sum: 3a2d194aeb739e7a006e095cd94e4666
+SHA1: a24c857e3b9675c27d5eead9805534ecb054ea39
+SHA256: ade844daca459b019096114a15f5fe7ae5fd6355304f69ae13c1ea4e3ee24ebe
+Section: devel
+Priority: optional
+Homepage: https://github.com/yeager/desktop-editor
+Description: Visual editor for .desktop files with preview, validation, and translation management
+
+Package: elementary-l10n
+Version: 0.3.0-1
+Architecture: all
+Maintainer: Daniel Nylander <daniel@danielnylander.se>
+Depends: python3 (>= 3.10), python3-gi, gir1.2-gtk-4.0, gir1.2-adw-1
+Filename: pool/elementary-l10n_0.3.0-1_all.deb
+Size: 13748
+MD5sum: c2910385ca5a719affae45891dda114a
+SHA1: a480839a3dda6e23f859273fc2018bc01e7b03a9
+SHA256: d42952e9ce2e63b08defa4c6495c24cc51f986ff79fc30cc00acea8c3f4a0f9f
+Section: devel
+Priority: optional
+Homepage: https://github.com/yeager/elementary-l10n
+Description: Translation status viewer for elementary OS components
+
+Package: font-preview
+Version: 0.2.7-1
+Architecture: all
+Maintainer: Daniel Nylander <daniel@danielnylander.se>
+Depends: python3 (>= 3.10), python3-gi, gir1.2-gtk-4.0, gir1.2-adw-1
+Filename: pool/font-preview_0.2.7-1_all.deb
+Size: 11004
+MD5sum: 2164a7c117f37a999899301926466930
+SHA1: 9a41fbfea367c65a113b1c292ffc2d77c680003d
+SHA256: bf7022ab23e5735cb5806d221c175be75997dad0c87c0d089051b017c14b60ed
+Section: devel
+Priority: optional
+Homepage: https://github.com/yeager/font-preview
+Description: A better font viewer for Linux — preview, compare, and analyze Unicode coverage
+
+Package: github-l10n
+Version: 0.2.5-1
+Architecture: all
+Maintainer: Daniel Nylander <yeager@ubuntu.com>
+Depends: python3, python3-gi, gir1.2-gtk-4.0, gir1.2-adw-1, python3-requests
+Filename: pool/github-l10n_0.2.5-1_all.deb
+Size: 30620
+MD5sum: 38cf373f038c1be5ccf7d07848a0e8c5
+SHA1: 3edf5239fbfe507ac923e54c0ae6c9bde6387ded
+SHA256: 92b5b1973d8c86d58a3131e1f15cad6201a4c522e02f65ab3085caf0b3dd8d92
+Section: utils
+Priority: optional
+Description: GitHub Localization Tool
+ A GTK4 application for managing GitHub project translations and localization.
+ Provides tools for translators to work with GitHub-hosted projects using the GitHub API.
+
+Package: l10n-conv
+Version: 1.0.4-1
+Architecture: all
+Maintainer: Daniel Nylander <daniel@danielnylander.se>
+Depends: python3 (>= 3.9)
+Filename: pool/l10n-conv_1.0.4-1_all.deb
+Size: 16608
+MD5sum: bedfc86272821895b6d616ad868bb2c5
+SHA1: 3d78c7cf2f0745ebf098ab0a4dc7f63c647db7db
+SHA256: 7208bf0bc31126f47bee90e0d243850025ae24b835e10ffd4d04a3066816e36f
+Section: devel
+Priority: optional
+Homepage: https://github.com/yeager/l10n-conv
+Description: Convert between localization file formats
+ l10n-conv converts between gettext PO, Qt TS, XLIFF, JSON,
+ Android XML, iOS Strings, and other localization formats.
+
+Package: l10n-glossary
+Version: 0.2.5-1
+Architecture: all
+Maintainer: Daniel Nylander <daniel@danielnylander.se>
+Depends: python3 (>= 3.10), python3-gi, gir1.2-gtk-4.0, gir1.2-adw-1
+Filename: pool/l10n-glossary_0.2.5-1_all.deb
+Size: 11448
+MD5sum: 078a1dc67cd251bb4b5e7efd6dc4e67b
+SHA1: d2a68d5d77ffcb785fcf40ae9fa48a70f56f95f3
+SHA256: 15a659c53960fc7eedaafe641c87c7006cf7bcf2c7cdad3f1b98e3d9e0d69665
+Section: devel
+Priority: optional
+Homepage: https://github.com/yeager/l10n-glossary
+Description: Glossary editor for localization — manage term lists, flag inconsistencies
+
+Package: l10n-lint
+Version: 1.15.7-1
+Architecture: all
+Maintainer: Daniel Nylander <daniel@danielnylander.se>
+Depends: python3 (>= 3.9)
+Filename: pool/l10n-lint_1.15.7-1_all.deb
+Size: 83896
+MD5sum: 05c20d5bb5eb9bb84eea38106b7e638a
+SHA1: 1b5a4ec489c59f7c4482a3abd1c93aaba9d5f8bc
+SHA256: bd58dc54e9db738ff771d7d271523d9327616811e6f24add93e02f14a6004ae2
+Section: devel
+Priority: optional
+Homepage: https://github.com/yeager/l10n-lint
+Description: Linter for localization files (.po, .ts)
+ l10n-lint checks gettext .po and Qt .ts localization files for
+ common issues: missing translations, fuzzy entries, placeholder
+ mismatches, and more.
+
+Package: l10n-preview
+Version: 0.2.5-1
+Architecture: all
+Maintainer: Daniel Nylander <daniel@danielnylander.se>
+Depends: python3 (>= 3.10), python3-gi, gir1.2-gtk-4.0, gir1.2-adw-1
+Filename: pool/l10n-preview_0.2.5-1_all.deb
+Size: 8792
+MD5sum: 5ff4f7ff96b3735dc6bcf8ebfea6132f
+SHA1: b976e2297b02f658e312c4c9dd70314cec48dd5c
+SHA256: bbc81ae53976a6854c5827f06111a41aa6e5ac8f057c168d3c5b9821605efc99
+Section: devel
+Priority: optional
+Homepage: https://github.com/yeager/l10n-preview
+Description: Preview PO/TS translations in simulated UI elements
+
+Package: langpack-inspector
+Version: 0.2.4-1
+Architecture: all
+Maintainer: Daniel Nylander <daniel@danielnylander.se>
+Depends: python3 (>= 3.10), python3-gi, gir1.2-gtk-4.0, gir1.2-adw-1
+Filename: pool/langpack-inspector_0.2.4-1_all.deb
+Size: 10278
+MD5sum: 7697d7a1505baf6a4835348cd1f67e8d
+SHA1: d8d522730b41c164abedc5e992c2eab11c526582
+SHA256: a580f70d4dd367b9483e619264a924bb1c84b0179d21f7ffe12e90be54279331
+Section: devel
+Priority: optional
+Homepage: https://github.com/yeager/langpack-inspector
+Description: GTK4/Adwaita app to inspect Ubuntu language packs and find missing translations
+
+Package: libretranslate-gui
+Version: 0.2.5-1
+Architecture: all
+Maintainer: Daniel Nylander <yeager@ubuntu.com>
+Depends: python3, python3-gi, gir1.2-gtk-4.0, gir1.2-adw-1, python3-requests
+Filename: pool/libretranslate-gui_0.2.5-1_all.deb
+Size: 8652
+MD5sum: 73ceca8f0b0b12be0c2a33b421bc7858
+SHA1: 3efb634cce39ca151e2d2cf36aa712b5438c8c77
+SHA256: b80cac8e68315c31f21dc3be476acc9948c378af03e669e2d7ab32867f04e6ed
+Section: utils
+Priority: optional
+Description: LibreTranslate GUI Client
+ A GTK4 application for using LibreTranslate translation services.
+ Provides a user-friendly graphical interface to translate text using
+ the LibreTranslate API.
+
+Package: locale-tester
+Version: 0.2.5-1
+Architecture: all
+Maintainer: Daniel Nylander <daniel@danielnylander.se>
+Depends: python3 (>= 3.10), python3-gi, gir1.2-gtk-4.0, gir1.2-adw-1
+Filename: pool/locale-tester_0.2.5-1_all.deb
+Size: 9136
+MD5sum: 7f81efe90be9fb5028d2c9e1b32f248c
+SHA1: 939c105fcbb00f68a0e6aecb18544f65f8fde48d
+SHA256: 7777fb92ac1b9dc9608b124f1ff8e6dc57b63573da334627d62b50cccca4e25c
+Section: devel
+Priority: optional
+Homepage: https://github.com/yeager/locale-tester
+Description: GTK4/Adwaita app for testing and comparing locale behavior on Linux
+
+Package: packetlens
+Version: 0.2.4-1
+Architecture: all
+Maintainer: Daniel Nylander <daniel@danielnylander.se>
+Depends: python3 (>= 3.10), python3-gi, gir1.2-gtk-4.0, gir1.2-adw-1
+Filename: pool/packetlens_0.2.4-1_all.deb
+Size: 36478
+MD5sum: a12457ddd5782accfef5e2d6c50d8e35
+SHA1: d6cf24877b41328d2625649d1b45d71710612cd6
+SHA256: 897fa28d8f355f3d93349399c6edc86558a6cdd9bdffa668f1e7f9e67efe84b7
+Section: net
+Priority: optional
+Homepage: https://github.com/yeager/pcap-viewer
+Description: GTK4 network capture analyzer
+ PacketLens is a GTK4/Adwaita application for analyzing network
+ captures with protocol stats, DNS/TLS/HTTP analysis, and file extraction.
+
+Package: po-diff
+Version: 1.0.0-1
+Architecture: all
+Maintainer: Daniel Nylander <daniel@danielnylander.se>
+Depends: python3 (>= 3.9)
+Filename: pool/po-diff_1.0.0-1_all.deb
+Size: 12392
+MD5sum: 0cd78627fd514b98ead2c3d144f465dc
+SHA1: d2559f9e9e00ff6d53f5b63be8e1704aab882086
+SHA256: be52a76fbcff8725826b87473e7650e43da8541c4775af43e8d71c9867fa9d2d
+Section: devel
+Priority: optional
+Homepage: https://github.com/yeager/po-diff
+Description: Compare PO/TS translation files
+ po-diff compares two PO or TS translation files and shows
+ added, removed, and changed translations.
+
+Package: po-translate
+Version: 1.5.4-1
+Architecture: all
+Maintainer: Daniel Nylander <daniel@danielnylander.se>
+Depends: python3 (>= 3.9)
+Filename: pool/po-translate_1.5.4-1_all.deb
+Size: 12632
+MD5sum: ea510a10768943e84d0e506803b34d77
+SHA1: 40077d33b434465146e5f15642a10b77d08d7436
+SHA256: 80233b84afe86789d260e186a591b969b801565e56d3848cd586bf02b0e50a93
+Section: devel
+Priority: optional
+Homepage: https://github.com/yeager/po-translate
+Description: Translate PO files using multiple translation services
+ po-translate translates gettext PO files using various services
+ including DeepL, Google, OpenAI, Anthropic, and more.
+
+Package: snap-l10n
+Version: 0.2.6-1
+Architecture: all
+Maintainer: Daniel Nylander <daniel@danielnylander.se>
+Depends: python3 (>= 3.10), python3-gi, gir1.2-gtk-4.0, gir1.2-adw-1
+Filename: pool/snap-l10n_0.2.6-1_all.deb
+Size: 9584
+MD5sum: 3ac43b53fc8b228a5bb60438cd3a1ab9
+SHA1: 7c548d8e45c5765ef88b6f86b564403f05669241
+SHA256: d3b72da269af3cbbcc2567dd0647adabd0aba32d897e42220f4271e2b599c7a2
+Section: devel
+Priority: optional
+Homepage: https://github.com/yeager/snap-l10n
+Description: View snap package translation status
+
+Package: svlang
+Version: 0.1.5-1
+Architecture: all
+Maintainer: Daniel Nylander <daniel@danielnylander.se>
+Depends: python3 (>= 3.9)
+Filename: pool/svlang_0.1.5-1_all.deb
+Size: 824678
+MD5sum: 4e4ff3422b807d40e849964861582882
+SHA1: 618e35abf9836c27b0e27ecfc5f100f73a0e7b24
+SHA256: bcbae42d14bb5ab244566fb1df87d4ed2a3a2aa524f053e748d4656dd5f8908d
+Section: text
+Priority: optional
+Homepage: https://github.com/yeager/svlang
+Description: Swedish NLP toolkit for translators
+ svlang checks Swedish text for svengelska, consistency issues,
+ compound word errors, and readability (LIX score).
+
+Package: tm-manager
+Version: 0.2.7-1
+Architecture: all
+Maintainer: Daniel Nylander <daniel@danielnylander.se>
+Depends: python3 (>= 3.10), python3-gi, gir1.2-gtk-4.0, gir1.2-adw-1
+Filename: pool/tm-manager_0.2.7-1_all.deb
+Size: 11344
+MD5sum: b7ebed9bcff5cb3474b1a8cb113f547b
+SHA1: 4aff4963ef1b2fda59f7bb8aeb52f0cac3135720
+SHA256: 315641c59a5808f77eadf9509d28b164de0ff76f66e031707f66d954a6f00ff7
+Section: devel
+Priority: optional
+Homepage: https://github.com/yeager/tm-manager
+Description: Manage local Translation Memory files (TMX)
+
+Package: tp-lint
+Version: 1.8.3-1
+Architecture: all
+Maintainer: Daniel Nylander <daniel@danielnylander.se>
+Depends: python3 (>= 3.9)
+Filename: pool/tp-lint_1.8.3-1_all.deb
+Size: 48428
+MD5sum: eb9b2e70a3dbd5718d25bf3a29e4f76f
+SHA1: ad17ca3464bc71136dd72fb38739be34429273c8
+SHA256: eeb10f522bf1bd9dfd94e6b1f066a3ecb81240bd2ba7dd8f6f169429aebc1974
+Section: devel
+Priority: optional
+Homepage: https://github.com/yeager/tp-lint
+Description: Lint PO files from the Translation Project
+ tp-lint fetches and lints PO files from the Translation Project
+ (translationproject.org), checking for common translation issues.
+
+Package: ubuntu-l10n
+Version: 0.3.0-1
+Architecture: all
+Maintainer: Daniel Nylander <daniel@danielnylander.se>
+Depends: python3 (>= 3.10), python3-gi, gir1.2-gtk-4.0, gir1.2-adw-1
+Filename: pool/ubuntu-l10n_0.3.0-1_all.deb
+Size: 13260
+MD5sum: 80417fc9e9463d5c359d068071dca759
+SHA1: 744efcece41d96d0797582458c9e388092a956ca
+SHA256: 07e4929d2f173880b3712d88c56dff012db562d6dbcea8d4b7446ab85d85a82a
+Section: devel
+Priority: optional
+Homepage: https://github.com/yeager/ubuntu-l10n
+Description: Ubuntu/Launchpad translation statistics viewer
+

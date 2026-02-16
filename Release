@@ -1,0 +1,14 @@
+Origin: Yeager
+Label: Yeager Debian Repository
+Suite: stable
+Codename: stable
+Architectures: all
+Components: main
+Description: Yeager L10n App Suite Debian Repository
+Date: Mon, 16 Feb 2026 12:03:23 UTC
+MD5Sum:
+ 9ed51260be321b4210ea46973b9f4486 13176 Packages
+ f385755f6c730c80d36797ddbe1cc973 4166 Packages.gz
+SHA256:
+ 262747012d4a69b62f22a7b1db1ed6e048b23f37425b9f8cad9f5961575a0cd0 13176 Packages
+ 7b7be3e896da0a46f926130052921f0349c1d34c16e90071f5e3418b03b2c8e6 4166 Packages.gz
