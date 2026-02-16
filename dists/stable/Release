@@ -1,8 +1,8 @@
-Origin: yeager
-Label: Yeager L10n Tools
+Origin: Yeager
+Label: Yeager Debian Repository
 Suite: stable
 Codename: stable
-Architectures: all
+Architectures: all amd64 arm64 armhf i386
 Components: main
 Date: Mon, 16 Feb 2026 08:41:32 UTC
 MD5Sum:

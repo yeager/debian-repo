@@ -1,11 +1,11 @@
 -----BEGIN PGP SIGNED MESSAGE-----
 Hash: SHA256
 
-Origin: yeager
-Label: Yeager L10n Tools
+Origin: Yeager
+Label: Yeager Debian Repository
 Suite: stable
 Codename: stable
-Architectures: all
+Architectures: all amd64 arm64 armhf i386
 Components: main
 Date: Mon, 16 Feb 2026 08:41:32 UTC
 MD5Sum:
@@ -16,17 +16,17 @@ SHA256:
  7f47769cbb7d6211b3d4cd3d29229bf75303df30acca8e42a55f49e02353b690     3688 main/binary-all/Packages.gz
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAEBCAAdFiEEN5hu++1i1inAzyaO4xjH3j2ofFsFAmmS2DwACgkQ4xjH3j2o
-fFuOTQ//d+4XPHqcOWFoFZvCrAipyKq++VlYo94NSbKSvKU6z3G+Jk1EJs1iTy52
-JgIDNbmwwB8BeRjWOjLF76uGa+Hxm/RerbTe2IYnXZ2y+t06OXqS/e3QkKJbprp2
-Y6peTYhCqEGXAJrXvLV73v5XUP1CrDw1befg2s/tT0e21fzmPdkC5MdcbQ+/r/pk
-vGxRMRTjToqQ5ZxGCPjoHyH1VuJtfGiV6amx1XvKJrIHEK91fabaMWVXutP/W8Uz
-c42UsUIuH1rDiQ1jl7J2v4ai+SVTDJI/F7+mThWBVDc0JFRbrEMkVfkX5RHEd+Qa
-Fion8LEb+n5O/LKxzmwXuQWPDOlBvNH7vmHUCnmt5beZMarMU4TFggX3zJGQARYh
-01WlfFhZ5EjZquBVjSBjCXurQEpw67UttZydXD2i8Q1hIrB8aVoDxj68KkpbfR/L
-hkltbUkWdNGygHUptNBgB6sYxwBuSXrNcm8cGWLg3fP4p4wvP8H1V8oquf6KuyXR
-dAp9alLEIJjjy7y3+ol0FDBHwnOvx/zPNWfEdnyXaYQHyDpPU90r7gmHQ6x+vagL
-wMo7p55XyyXu0wth9s4yQyEHcdfOsE5PRb0rKsmIsMJS0Z2xPyOC60nEA+l7naqC
-3GpblABPooArXW9ifsXWRuph8NlhzWLJHZM6nLL073+c7flyFYw=
-=tn8W
+iQIzBAEBCAAdFiEEN5hu++1i1inAzyaO4xjH3j2ofFsFAmmS3U4ACgkQ4xjH3j2o
+fFvjmg/+O+hjOZOJKOayhpqQN+sisLCv+OGB/0lFjFpmfLTWVevhUtL5SqUcuy07
+z7UBEKoXvE+M0SCR9TYU+efJeTeI+z0QZiQtZHXs/QiNn4yUKKfyOThw13PxIECT
+dJ+ajB5pOdmF6OIL+o8Q9f2QkIfXOAKJ8lgekEo5T1CXZIPkDrbf2FRHnVfEL0C5
+HNTaEnyTLkHYSI2Zo9EiKFLaIcyiAKqndynFeS2x2gCMOjbUN+u637AhO39Z2hup
+3PEPJIc8cyhepSLMn4DxdrkIA98LFyQfuwuW/kOmHkm8czrD0RSgm5aVpi1Ntbta
+rc1ifibvnpKDdglTVLwaiw5L2Kjy3rKEQTUJRvRtbnUIFfQH1KPIqOs3m9O/bTw7
+jOhusH4BBnQ2oTD0h6OeJpiiEFGGdPjLz4GoZhtd+8qLxJYFUEy7QlStFBKqHAbT
+dLHTlOhRQk24/32KqksB1TiDi1X0KaLXPNKjmUS0abRj6bPFddKk6ZVXECC8mogp
+G8equDuM2MELK0IXfnlXaNLf2WV7EbUnDiNBWZZj9KwwK1/66inYGYX7ccBaU5yo
+qsNJ9Qo8U8bmrYHI+2/vNFFs0Wpr1ieAMk1v7SSZ/vraOxywHBXLVSa5z3YcPtGN
+7PL5b6k7hWD51MUaaMAWDvyu5qbtfMg2TLJfuD70yBQscOOM9n4=
+=5UV1
 -----END PGP SIGNATURE-----
