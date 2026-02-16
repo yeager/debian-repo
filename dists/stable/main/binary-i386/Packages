@@ -33,15 +33,15 @@ Description: Mozilla Common Voice translation status viewer
  translation and recording statistics.
 
 Package: ddtp-translate
-Version: 0.5.1-1
+Version: 0.5.3-1
 Architecture: all
 Maintainer: Daniel Nylander <daniel@danielnylander.se>
 Depends: python3 (>= 3.10), python3-gi, gir1.2-gtk-4.0, gir1.2-adw-1
-Filename: pool/ddtp-translate_0.5.1-1_all.deb
-Size: 28022
-MD5sum: bc26d300a47655434b2c9925674828fa
-SHA1: d0354d8204ae51392cd9fcec7beea8021ee4c472
-SHA256: e3e93dbd42006d585421ae3fc663e40155e13e60d5d37846b39be47a23908277
+Filename: pool/ddtp-translate_0.5.3-1_all.deb
+Size: 28128
+MD5sum: 8bbc72387ade22f17caad62d89d84a4b
+SHA1: 7642ad88745029c0ca734d6c57bcdf32ab1b43f7
+SHA256: d3cb593bbe8f1ebf6f0995440c7e37458535419ea4d6db409032c738b1fbc477
 Section: devel
 Priority: optional
 Homepage: https://github.com/yeager/ddtp-translate
@@ -113,19 +113,19 @@ Description: GitHub Localization Tool
 Package: l10n-conv
 Version: 1.0.4-1
 Architecture: all
-Maintainer: Daniel Nylander <yeager@ubuntu.com>
-Depends: python3, python3-click, python3-rich
+Maintainer: Daniel Nylander <daniel@danielnylander.se>
+Depends: python3 (>= 3.9)
 Filename: pool/l10n-conv_1.0.4-1_all.deb
-Size: 48704
-MD5sum: 9a1af73e385209059d1e58f015a9847e
-SHA1: 709a5bb5dc797b1ac87f4a6732a0a182b2ee2d01
-SHA256: 1ccdb3f1417951c5d742cb23b9a4ce2d64e81ad6d8afc11740a28aec341583e2
-Section: utils
+Size: 16608
+MD5sum: bedfc86272821895b6d616ad868bb2c5
+SHA1: 3d78c7cf2f0745ebf098ab0a4dc7f63c647db7db
+SHA256: 7208bf0bc31126f47bee90e0d243850025ae24b835e10ffd4d04a3066816e36f
+Section: devel
 Priority: optional
-Description: Localization Format Converter
- A command-line tool for converting between different localization file formats.
- Supports various translation file formats and provides conversion utilities
- for localization workflows.
+Homepage: https://github.com/yeager/l10n-conv
+Description: Convert between localization file formats
+ l10n-conv converts between gettext PO, Qt TS, XLIFF, JSON,
+ Android XML, iOS Strings, and other localization formats.
 
 Package: l10n-glossary
 Version: 0.2.5-1
@@ -143,21 +143,22 @@ Homepage: https://github.com/yeager/l10n-glossary
 Description: Glossary editor for localization — manage term lists, flag inconsistencies
 
 Package: l10n-lint
-Version: 1.15.6-1
+Version: 1.15.7-1
 Architecture: all
-Maintainer: Daniel Nylander <yeager@ubuntu.com>
-Depends: python3
-Filename: pool/l10n-lint_1.15.6-1_all.deb
-Size: 15852
-MD5sum: 8f0caf777577e726c89f4daa7bc2f476
-SHA1: 6e229635b3d08b03158d3c8f2b9d9d1a9ea2b058
-SHA256: 0b3c3f8ac71b279cc622a1fca85c2fef47aa083f325a39b5cd71fa1acf007f28
-Section: utils
+Maintainer: Daniel Nylander <daniel@danielnylander.se>
+Depends: python3 (>= 3.9)
+Filename: pool/l10n-lint_1.15.7-1_all.deb
+Size: 49496
+MD5sum: 5959f7085ebe1a6bbcac8c0e98edfa24
+SHA1: bc0a82eb42f795757a8f6356f0024f2147be97b9
+SHA256: 953c6dd4e01b182c46196737cae9a7e3623f089027b0d99d390c6539cf227965
+Section: devel
 Priority: optional
-Description: Localization File Linter
- A CLI and GTK hybrid tool for linting and validating localization files.
- Provides both command-line and graphical interfaces for checking
- translation file quality and consistency.
+Homepage: https://github.com/yeager/l10n-lint
+Description: Linter for localization files (.po, .ts)
+ l10n-lint checks gettext .po and Qt .ts localization files for
+ common issues: missing translations, fuzzy entries, placeholder
+ mismatches, and more.
 
 Package: l10n-preview
 Version: 0.2.5-1
@@ -238,22 +239,39 @@ Description: GTK4 network capture analyzer
  PacketLens is a GTK4/Adwaita application for analyzing network
  captures with protocol stats, DNS/TLS/HTTP analysis, and file extraction.
 
+Package: po-diff
+Version: 1.0.0-1
+Architecture: all
+Maintainer: Daniel Nylander <daniel@danielnylander.se>
+Depends: python3 (>= 3.9)
+Filename: pool/po-diff_1.0.0-1_all.deb
+Size: 12392
+MD5sum: 0cd78627fd514b98ead2c3d144f465dc
+SHA1: d2559f9e9e00ff6d53f5b63be8e1704aab882086
+SHA256: be52a76fbcff8725826b87473e7650e43da8541c4775af43e8d71c9867fa9d2d
+Section: devel
+Priority: optional
+Homepage: https://github.com/yeager/po-diff
+Description: Compare PO/TS translation files
+ po-diff compares two PO or TS translation files and shows
+ added, removed, and changed translations.
+
 Package: po-translate
 Version: 1.5.4-1
 Architecture: all
-Maintainer: Daniel Nylander <yeager@ubuntu.com>
-Depends: python3, python3-requests
+Maintainer: Daniel Nylander <daniel@danielnylander.se>
+Depends: python3 (>= 3.9)
 Filename: pool/po-translate_1.5.4-1_all.deb
-Size: 10676
-MD5sum: f77488707bcf3415855b2c898d2c5393
-SHA1: 3b4f5560f322f5eb76f53c2672ad55a517c0dbe6
-SHA256: fae3d19aaddbd61782f16832bb09dc9b6268fdc20fb2fddea677fda77fa29821
-Section: utils
+Size: 12632
+MD5sum: ea510a10768943e84d0e506803b34d77
+SHA1: 40077d33b434465146e5f15642a10b77d08d7436
+SHA256: 80233b84afe86789d260e186a591b969b801565e56d3848cd586bf02b0e50a93
+Section: devel
 Priority: optional
-Description: PO File Translator
- A command-line tool for translating PO (gettext) files using various
- translation services. Supports automatic translation workflows for
- localization projects.
+Homepage: https://github.com/yeager/po-translate
+Description: Translate PO files using multiple translation services
+ po-translate translates gettext PO files using various services
+ including DeepL, Google, OpenAI, Anthropic, and more.
 
 Package: snap-l10n
 Version: 0.2.6-1
@@ -273,18 +291,19 @@ Description: View snap package translation status
 Package: svlang
 Version: 0.1.5-1
 Architecture: all
-Maintainer: Daniel Nylander <yeager@ubuntu.com>
-Depends: python3
+Maintainer: Daniel Nylander <daniel@danielnylander.se>
+Depends: python3 (>= 3.9)
 Filename: pool/svlang_0.1.5-1_all.deb
-Size: 816528
-MD5sum: 2518a380fd2a9eef3892f2bc7732b10d
-SHA1: 560c03473e1a6e697a26b0eaba7ce3a746fa2df1
-SHA256: 3e969f2b49313578130e09df04bbac11b64e4ddf12771dd024849ff561e7a3b9
-Section: utils
+Size: 824678
+MD5sum: 4e4ff3422b807d40e849964861582882
+SHA1: 618e35abf9836c27b0e27ecfc5f100f73a0e7b24
+SHA256: bcbae42d14bb5ab244566fb1df87d4ed2a3a2aa524f053e748d4656dd5f8908d
+Section: text
 Priority: optional
-Description: Swedish Language Processing Tool
- A command-line tool for processing Swedish language text and translations.
- Provides utilities for Swedish language-specific text processing tasks.
+Homepage: https://github.com/yeager/svlang
+Description: Swedish NLP toolkit for translators
+ svlang checks Swedish text for svengelska, consistency issues,
+ compound word errors, and readability (LIX score).
 
 Package: tm-manager
 Version: 0.2.7-1
@@ -304,30 +323,30 @@ Description: Manage local Translation Memory files (TMX)
 Package: tp-lint
 Version: 1.8.3-1
 Architecture: all
-Maintainer: Daniel Nylander <yeager@ubuntu.com>
-Depends: python3, python3-requests
+Maintainer: Daniel Nylander <daniel@danielnylander.se>
+Depends: python3 (>= 3.9)
 Filename: pool/tp-lint_1.8.3-1_all.deb
-Size: 11896
-MD5sum: 8fd2525b4f2c0a708fa284c180f5f3d7
-SHA1: c09ff338d1e5d5b50c6e95cb531c3d562487525b
-SHA256: 34ad5e8a714007de28e4fadee3ed8cd35bbfdd5c19d4ef924cc8065fbbbe3fea
-Section: utils
+Size: 48428
+MD5sum: eb9b2e70a3dbd5718d25bf3a29e4f76f
+SHA1: ad17ca3464bc71136dd72fb38739be34429273c8
+SHA256: eeb10f522bf1bd9dfd94e6b1f066a3ecb81240bd2ba7dd8f6f169429aebc1974
+Section: devel
 Priority: optional
-Description: Translation Platform Linter
- A command-line tool for linting and validating translation platform files.
- Supports various translation platforms and provides quality checks for
- translation projects.
+Homepage: https://github.com/yeager/tp-lint
+Description: Lint PO files from the Translation Project
+ tp-lint fetches and lints PO files from the Translation Project
+ (translationproject.org), checking for common translation issues.
 
 Package: ubuntu-l10n
-Version: 0.2.9-1
+Version: 0.3.0-1
 Architecture: all
 Maintainer: Daniel Nylander <daniel@danielnylander.se>
 Depends: python3 (>= 3.10), python3-gi, gir1.2-gtk-4.0, gir1.2-adw-1
-Filename: pool/ubuntu-l10n_0.2.9-1_all.deb
-Size: 13252
-MD5sum: fe98d5555fcbde52e0c5cc01a5e1e52b
-SHA1: 8f8b6937afeaf62e0d26c198339d9fc9e5ec0570
-SHA256: 2a4fba364cb0e7722c37a1e73018d7b8c616511f156d16a9e15688193fb96108
+Filename: pool/ubuntu-l10n_0.3.0-1_all.deb
+Size: 13260
+MD5sum: 80417fc9e9463d5c359d068071dca759
+SHA1: 744efcece41d96d0797582458c9e388092a956ca
+SHA256: 07e4929d2f173880b3712d88c56dff012db562d6dbcea8d4b7446ab85d85a82a
 Section: devel
 Priority: optional
 Homepage: https://github.com/yeager/ubuntu-l10n
