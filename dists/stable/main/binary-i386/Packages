@@ -38,10 +38,10 @@ Architecture: all
 Maintainer: Daniel Nylander <daniel@danielnylander.se>
 Depends: python3 (>= 3.10), python3-gi, gir1.2-gtk-4.0, gir1.2-adw-1
 Filename: pool/ddtp-translate_0.7.0-1_all.deb
-Size: 32996
-MD5sum: 8dc83ac9e847db4351c18911ce2cd15f
-SHA1: ade49fe22401d80d97200ddfea5f0fb0611d0d1b
-SHA256: e03d0b983a1eb3e474a4f2b51e9d66af76a24940382450e6ac73b0352fa7b5ed
+Size: 32988
+MD5sum: f37b9d7faa045de242268f8bfb96c430
+SHA1: 25e5be546d02f5d6d0faa54121a7716f6e16f623
+SHA256: 276898bad20435e44848f3c0a910b61c3be5d6f1a11f098e15cacfba860ec63b
 Section: devel
 Priority: optional
 Homepage: https://github.com/yeager/ddtp-translate
