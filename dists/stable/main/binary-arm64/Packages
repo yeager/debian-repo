@@ -33,15 +33,15 @@ Description: Mozilla Common Voice translation status viewer
  translation and recording statistics.
 
 Package: ddtp-translate
-Version: 0.6.2-1
+Version: 0.7.0-1
 Architecture: all
 Maintainer: Daniel Nylander <daniel@danielnylander.se>
 Depends: python3 (>= 3.10), python3-gi, gir1.2-gtk-4.0, gir1.2-adw-1
-Filename: pool/ddtp-translate_0.6.2-1_all.deb
-Size: 32448
-MD5sum: 8fa19525a530f735b5e52aa90315bb05
-SHA1: f31d75072288db8ecc7dc5079e0f2ffc2623964e
-SHA256: 330331d662da2923bdb515e49f4a02b1bfb0ea7648f743bc421815ff04026551
+Filename: pool/ddtp-translate_0.7.0-1_all.deb
+Size: 32996
+MD5sum: 8dc83ac9e847db4351c18911ce2cd15f
+SHA1: ade49fe22401d80d97200ddfea5f0fb0611d0d1b
+SHA256: e03d0b983a1eb3e474a4f2b51e9d66af76a24940382450e6ac73b0352fa7b5ed
 Section: devel
 Priority: optional
 Homepage: https://github.com/yeager/ddtp-translate
