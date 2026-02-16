@@ -3,7 +3,7 @@ Version: 0.1.7
 Architecture: all
 Maintainer: Daniel Nylander <daniel@danielnylander.se>
 Depends: python3 (>= 3.10), python3-gi, gir1.2-gtk-4.0, gir1.2-adw-1
-Filename: cldr-viewer_0.1.7_all.deb
+Filename: pool/cldr-viewer_0.1.7_all.deb
 Size: 9888
 MD5sum: 4ffea793feac6bcd20d2f2bce3a42f34
 SHA1: 139f8883f6032b2c9cb853800deb3fcf086cfe2d
@@ -20,7 +20,7 @@ Version: 0.1.7-1
 Architecture: all
 Maintainer: Daniel Nylander <daniel@danielnylander.se>
 Depends: python3 (>= 3.10), python3-gi, gir1.2-gtk-4.0, gir1.2-adw-1
-Filename: commonvoice-status_0.1.7-1_all.deb
+Filename: pool/commonvoice-status_0.1.7-1_all.deb
 Size: 9572
 MD5sum: ac32e2789f0cbc3c20d1746d0f06d020
 SHA1: c8e1b4af31da0a9729c377d1687ae01a70c7c262
@@ -33,15 +33,15 @@ Description: Mozilla Common Voice translation status viewer
  translation and recording statistics.
 
 Package: ddtp-translate
-Version: 0.5.4-1
+Version: 0.5.5-1
 Architecture: all
 Maintainer: Daniel Nylander <daniel@danielnylander.se>
 Depends: python3 (>= 3.10), python3-gi, gir1.2-gtk-4.0, gir1.2-adw-1
-Filename: ddtp-translate_0.5.4-1_all.deb
-Size: 28564
-MD5sum: af1a826a05573f05bfb788974e7e6785
-SHA1: 01b21cd69f427158a9a39e5b7ee9a0c50b05a1ea
-SHA256: 6571df55c6f4557ffc5aa497375a82f968e353fc5e932eeba23704b3e19b19da
+Filename: pool/ddtp-translate_0.5.5-1_all.deb
+Size: 28794
+MD5sum: 8835503ef0f7749ad1a7230355325218
+SHA1: db99760f48d701101ba2549445062dd6e1964883
+SHA256: 1283ecdb5259f2c5c4a62c470f9201339406f4b76e9ef216d27a956f09e407d1
 Section: devel
 Priority: optional
 Homepage: https://github.com/yeager/ddtp-translate
@@ -54,7 +54,7 @@ Version: 0.2.6-1
 Architecture: all
 Maintainer: Daniel Nylander <daniel@danielnylander.se>
 Depends: python3 (>= 3.10), python3-gi, gir1.2-gtk-4.0, gir1.2-adw-1
-Filename: desktop-editor_0.2.6-1_all.deb
+Filename: pool/desktop-editor_0.2.6-1_all.deb
 Size: 12108
 MD5sum: 3a2d194aeb739e7a006e095cd94e4666
 SHA1: a24c857e3b9675c27d5eead9805534ecb054ea39
@@ -69,7 +69,7 @@ Version: 0.3.0-1
 Architecture: all
 Maintainer: Daniel Nylander <daniel@danielnylander.se>
 Depends: python3 (>= 3.10), python3-gi, gir1.2-gtk-4.0, gir1.2-adw-1
-Filename: elementary-l10n_0.3.0-1_all.deb
+Filename: pool/elementary-l10n_0.3.0-1_all.deb
 Size: 13748
 MD5sum: c2910385ca5a719affae45891dda114a
 SHA1: a480839a3dda6e23f859273fc2018bc01e7b03a9
@@ -84,7 +84,7 @@ Version: 0.2.7-1
 Architecture: all
 Maintainer: Daniel Nylander <daniel@danielnylander.se>
 Depends: python3 (>= 3.10), python3-gi, gir1.2-gtk-4.0, gir1.2-adw-1
-Filename: font-preview_0.2.7-1_all.deb
+Filename: pool/font-preview_0.2.7-1_all.deb
 Size: 11004
 MD5sum: 2164a7c117f37a999899301926466930
 SHA1: 9a41fbfea367c65a113b1c292ffc2d77c680003d
@@ -99,7 +99,7 @@ Version: 0.2.5-1
 Architecture: all
 Maintainer: Daniel Nylander <yeager@ubuntu.com>
 Depends: python3, python3-gi, gir1.2-gtk-4.0, gir1.2-adw-1, python3-requests
-Filename: github-l10n_0.2.5-1_all.deb
+Filename: pool/github-l10n_0.2.5-1_all.deb
 Size: 30620
 MD5sum: 38cf373f038c1be5ccf7d07848a0e8c5
 SHA1: 3edf5239fbfe507ac923e54c0ae6c9bde6387ded
@@ -115,7 +115,7 @@ Version: 1.0.4-1
 Architecture: all
 Maintainer: Daniel Nylander <daniel@danielnylander.se>
 Depends: python3 (>= 3.9)
-Filename: l10n-conv_1.0.4-1_all.deb
+Filename: pool/l10n-conv_1.0.4-1_all.deb
 Size: 16608
 MD5sum: bedfc86272821895b6d616ad868bb2c5
 SHA1: 3d78c7cf2f0745ebf098ab0a4dc7f63c647db7db
@@ -132,7 +132,7 @@ Version: 0.2.5-1
 Architecture: all
 Maintainer: Daniel Nylander <daniel@danielnylander.se>
 Depends: python3 (>= 3.10), python3-gi, gir1.2-gtk-4.0, gir1.2-adw-1
-Filename: l10n-glossary_0.2.5-1_all.deb
+Filename: pool/l10n-glossary_0.2.5-1_all.deb
 Size: 11448
 MD5sum: 078a1dc67cd251bb4b5e7efd6dc4e67b
 SHA1: d2a68d5d77ffcb785fcf40ae9fa48a70f56f95f3
@@ -147,7 +147,7 @@ Version: 1.15.7-1
 Architecture: all
 Maintainer: Daniel Nylander <daniel@danielnylander.se>
 Depends: python3 (>= 3.9)
-Filename: l10n-lint_1.15.7-1_all.deb
+Filename: pool/l10n-lint_1.15.7-1_all.deb
 Size: 49496
 MD5sum: 5959f7085ebe1a6bbcac8c0e98edfa24
 SHA1: bc0a82eb42f795757a8f6356f0024f2147be97b9
@@ -165,7 +165,7 @@ Version: 0.2.5-1
 Architecture: all
 Maintainer: Daniel Nylander <daniel@danielnylander.se>
 Depends: python3 (>= 3.10), python3-gi, gir1.2-gtk-4.0, gir1.2-adw-1
-Filename: l10n-preview_0.2.5-1_all.deb
+Filename: pool/l10n-preview_0.2.5-1_all.deb
 Size: 8792
 MD5sum: 5ff4f7ff96b3735dc6bcf8ebfea6132f
 SHA1: b976e2297b02f658e312c4c9dd70314cec48dd5c
@@ -180,7 +180,7 @@ Version: 0.2.4-1
 Architecture: all
 Maintainer: Daniel Nylander <daniel@danielnylander.se>
 Depends: python3 (>= 3.10), python3-gi, gir1.2-gtk-4.0, gir1.2-adw-1
-Filename: langpack-inspector_0.2.4-1_all.deb
+Filename: pool/langpack-inspector_0.2.4-1_all.deb
 Size: 10278
 MD5sum: 7697d7a1505baf6a4835348cd1f67e8d
 SHA1: d8d522730b41c164abedc5e992c2eab11c526582
@@ -195,7 +195,7 @@ Version: 0.2.5-1
 Architecture: all
 Maintainer: Daniel Nylander <yeager@ubuntu.com>
 Depends: python3, python3-gi, gir1.2-gtk-4.0, gir1.2-adw-1, python3-requests
-Filename: libretranslate-gui_0.2.5-1_all.deb
+Filename: pool/libretranslate-gui_0.2.5-1_all.deb
 Size: 8652
 MD5sum: 73ceca8f0b0b12be0c2a33b421bc7858
 SHA1: 3efb634cce39ca151e2d2cf36aa712b5438c8c77
@@ -212,7 +212,7 @@ Version: 0.2.5-1
 Architecture: all
 Maintainer: Daniel Nylander <daniel@danielnylander.se>
 Depends: python3 (>= 3.10), python3-gi, gir1.2-gtk-4.0, gir1.2-adw-1
-Filename: locale-tester_0.2.5-1_all.deb
+Filename: pool/locale-tester_0.2.5-1_all.deb
 Size: 9136
 MD5sum: 7f81efe90be9fb5028d2c9e1b32f248c
 SHA1: 939c105fcbb00f68a0e6aecb18544f65f8fde48d
@@ -227,7 +227,7 @@ Version: 0.2.4-1
 Architecture: all
 Maintainer: Daniel Nylander <daniel@danielnylander.se>
 Depends: python3 (>= 3.10), python3-gi, gir1.2-gtk-4.0, gir1.2-adw-1
-Filename: packetlens_0.2.4-1_all.deb
+Filename: pool/packetlens_0.2.4-1_all.deb
 Size: 36478
 MD5sum: a12457ddd5782accfef5e2d6c50d8e35
 SHA1: d6cf24877b41328d2625649d1b45d71710612cd6
@@ -244,7 +244,7 @@ Version: 1.0.0-1
 Architecture: all
 Maintainer: Daniel Nylander <daniel@danielnylander.se>
 Depends: python3 (>= 3.9)
-Filename: po-diff_1.0.0-1_all.deb
+Filename: pool/po-diff_1.0.0-1_all.deb
 Size: 12392
 MD5sum: 0cd78627fd514b98ead2c3d144f465dc
 SHA1: d2559f9e9e00ff6d53f5b63be8e1704aab882086
@@ -261,7 +261,7 @@ Version: 1.5.4-1
 Architecture: all
 Maintainer: Daniel Nylander <daniel@danielnylander.se>
 Depends: python3 (>= 3.9)
-Filename: po-translate_1.5.4-1_all.deb
+Filename: pool/po-translate_1.5.4-1_all.deb
 Size: 12632
 MD5sum: ea510a10768943e84d0e506803b34d77
 SHA1: 40077d33b434465146e5f15642a10b77d08d7436
@@ -278,7 +278,7 @@ Version: 0.2.6-1
 Architecture: all
 Maintainer: Daniel Nylander <daniel@danielnylander.se>
 Depends: python3 (>= 3.10), python3-gi, gir1.2-gtk-4.0, gir1.2-adw-1
-Filename: snap-l10n_0.2.6-1_all.deb
+Filename: pool/snap-l10n_0.2.6-1_all.deb
 Size: 9584
 MD5sum: 3ac43b53fc8b228a5bb60438cd3a1ab9
 SHA1: 7c548d8e45c5765ef88b6f86b564403f05669241
@@ -293,7 +293,7 @@ Version: 0.1.5-1
 Architecture: all
 Maintainer: Daniel Nylander <daniel@danielnylander.se>
 Depends: python3 (>= 3.9)
-Filename: svlang_0.1.5-1_all.deb
+Filename: pool/svlang_0.1.5-1_all.deb
 Size: 824678
 MD5sum: 4e4ff3422b807d40e849964861582882
 SHA1: 618e35abf9836c27b0e27ecfc5f100f73a0e7b24
@@ -310,7 +310,7 @@ Version: 0.2.7-1
 Architecture: all
 Maintainer: Daniel Nylander <daniel@danielnylander.se>
 Depends: python3 (>= 3.10), python3-gi, gir1.2-gtk-4.0, gir1.2-adw-1
-Filename: tm-manager_0.2.7-1_all.deb
+Filename: pool/tm-manager_0.2.7-1_all.deb
 Size: 11344
 MD5sum: b7ebed9bcff5cb3474b1a8cb113f547b
 SHA1: 4aff4963ef1b2fda59f7bb8aeb52f0cac3135720
@@ -325,7 +325,7 @@ Version: 1.8.3-1
 Architecture: all
 Maintainer: Daniel Nylander <daniel@danielnylander.se>
 Depends: python3 (>= 3.9)
-Filename: tp-lint_1.8.3-1_all.deb
+Filename: pool/tp-lint_1.8.3-1_all.deb
 Size: 48428
 MD5sum: eb9b2e70a3dbd5718d25bf3a29e4f76f
 SHA1: ad17ca3464bc71136dd72fb38739be34429273c8
@@ -342,7 +342,7 @@ Version: 0.3.0-1
 Architecture: all
 Maintainer: Daniel Nylander <daniel@danielnylander.se>
 Depends: python3 (>= 3.10), python3-gi, gir1.2-gtk-4.0, gir1.2-adw-1
-Filename: ubuntu-l10n_0.3.0-1_all.deb
+Filename: pool/ubuntu-l10n_0.3.0-1_all.deb
 Size: 13260
 MD5sum: 80417fc9e9463d5c359d068071dca759
 SHA1: 744efcece41d96d0797582458c9e388092a956ca
