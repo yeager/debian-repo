@@ -13,18 +13,21 @@ Priority: optional
 Description: CLDR Locale Viewer
 
 Package: commonvoice-status
-Version: 0.1.4
+Version: 0.1.6-1
 Architecture: all
-Maintainer: Daniel Nyström <dan.nystrom@gmail.com>
+Maintainer: Daniel Nylander <yeager@ubuntu.com>
 Depends: python3, python3-gi, gir1.2-gtk-4.0, gir1.2-adw-1
-Filename: pool/main/commonvoice-status_0.1.4_all.deb
-Size: 8762
-MD5sum: 5d9d0b09cf040472b9e016d693421e5e
-SHA1: 4c7dedb47cb162182a5f019243178a28a61064d7
-SHA256: 00fb055c9cf5adc4d16badcc32c5e6e56a85f67310d556ba0c725aac602cab8c
+Filename: pool/main/commonvoice-status_0.1.6-1_all.deb
+Size: 25808
+MD5sum: e951f756072204a1a968536e71ac95df
+SHA1: 46dabc3630f6e598e496536f94eb4cdf36c671cc
+SHA256: 779fb8559d7ad2bd0ad47f77b64ec210d08b199fcdaa33e4a37c305f607fa2a7
 Section: utils
 Priority: optional
-Description: Common Voice Status
+Description: CommonVoice Status Checker
+ A GTK4 application to check CommonVoice project statistics and status.
+ Provides an easy-to-use interface for monitoring language contributions
+ and project progress.
 
 Package: ddtp-translate
 Version: 0.4.0-1
@@ -58,18 +61,20 @@ Priority: optional
 Description: Desktop File Editor
 
 Package: elementary-l10n
-Version: 0.2.7
+Version: 0.2.8-1
 Architecture: all
-Maintainer: Daniel Nyström <dan.nystrom@gmail.com>
+Maintainer: Daniel Nylander <yeager@ubuntu.com>
 Depends: python3, python3-gi, gir1.2-gtk-4.0, gir1.2-adw-1
-Filename: pool/main/elementary-l10n_0.2.7_all.deb
-Size: 13022
-MD5sum: 9172a62a0ccc383d1aae7b63f0f6f44e
-SHA1: c18f78a90602cbdeb4cf68b07d7fe5bc253d2d43
-SHA256: 0205e6bf60e7b2d408e3a95d193c4ec54d70cfd65f30e5a53f28066014e53753
+Filename: pool/main/elementary-l10n_0.2.8-1_all.deb
+Size: 33396
+MD5sum: 9a717c70af843ef7deb97dcd92650a00
+SHA1: 7afc55a0abfa3e3b0ed74731f1038b8c4b9f3508
+SHA256: 7033107bc6fb8376882509af0d160540aa05e0d30dd242a14bda1e6b0071c09a
 Section: utils
 Priority: optional
-Description: Translation Status
+Description: Elementary OS Localization Tool
+ A GTK4 application for managing Elementary OS translations and localization.
+ Provides tools for translators to work with Elementary OS projects.
 
 Package: font-preview
 Version: 0.2.5
@@ -86,32 +91,37 @@ Priority: optional
 Description: Font Preview
 
 Package: github-l10n
-Version: 0.2.5
+Version: 0.2.5-1
 Architecture: all
-Maintainer: Daniel Nyström <dan.nystrom@gmail.com>
-Depends: python3, python3-gi, gir1.2-gtk-4.0, gir1.2-adw-1
-Filename: pool/main/github-l10n_0.2.5_all.deb
-Size: 10608
-MD5sum: a8024ae93ff58671c5c29c00da3613e1
-SHA1: 01be8c0c3f7b15201c47426adb16fded06e8869c
-SHA256: 506ec65f2e10ba52a11788599285e10f0d85d899a931e29c7a1d2c9582caceb9
+Maintainer: Daniel Nylander <yeager@ubuntu.com>
+Depends: python3, python3-gi, gir1.2-gtk-4.0, gir1.2-adw-1, python3-requests
+Filename: pool/main/github-l10n_0.2.5-1_all.deb
+Size: 30620
+MD5sum: 38cf373f038c1be5ccf7d07848a0e8c5
+SHA1: 3edf5239fbfe507ac923e54c0ae6c9bde6387ded
+SHA256: 92b5b1973d8c86d58a3131e1f15cad6201a4c522e02f65ab3085caf0b3dd8d92
 Section: utils
 Priority: optional
-Description: GitHub Translation Stats
+Description: GitHub Localization Tool
+ A GTK4 application for managing GitHub project translations and localization.
+ Provides tools for translators to work with GitHub-hosted projects using the GitHub API.
 
 Package: l10n-conv
-Version: 1.0.4
+Version: 1.0.4-1
 Architecture: all
-Maintainer: Daniel Nyström <dan.nystrom@gmail.com>
-Depends: python3
-Filename: pool/main/l10n-conv_1.0.4_all.deb
-Size: 15326
-MD5sum: cb9bdf3d93ac29bcf9e5515aab2d1211
-SHA1: dfa0a52e4f0f8c8c2d4bb1cbd2d7c4d06804a4a8
-SHA256: fe304bdb47d32b4f30745e9e3378d7927721b13ff306951b59a2013bd92976ce
+Maintainer: Daniel Nylander <yeager@ubuntu.com>
+Depends: python3, python3-click, python3-rich
+Filename: pool/main/l10n-conv_1.0.4-1_all.deb
+Size: 48704
+MD5sum: 9a1af73e385209059d1e58f015a9847e
+SHA1: 709a5bb5dc797b1ac87f4a6732a0a182b2ee2d01
+SHA256: 1ccdb3f1417951c5d742cb23b9a4ce2d64e81ad6d8afc11740a28aec341583e2
 Section: utils
 Priority: optional
-Description: l10n-conv
+Description: Localization Format Converter
+ A command-line tool for converting between different localization file formats.
+ Supports various translation file formats and provides conversion utilities
+ for localization workflows.
 
 Package: l10n-glossary
 Version: 0.2.5
@@ -128,19 +138,21 @@ Priority: optional
 Description: Glossary Editor
 
 Package: l10n-lint
-Version: 1.15.6
+Version: 1.15.6-1
 Architecture: all
-Maintainer: Daniel Nylander <daniel@danielnylander.se>
-Depends: python3, python3-gi, gir1.2-gtk-4.0, gir1.2-adw-1
-Filename: pool/main/l10n-lint_1.15.6_all.deb
-Size: 46672
-MD5sum: f298aab1a3aad898adabc32e0d987ec1
-SHA1: 8bb4795840786c8c7283818468e5e0b7e716dcb5
-SHA256: c38a595c49f0c827f4685f8b775433be9d8cec3b90b05b8f2cb93ffbc8345c4f
-Section: devel
+Maintainer: Daniel Nylander <yeager@ubuntu.com>
+Depends: python3
+Filename: pool/main/l10n-lint_1.15.6-1_all.deb
+Size: 15852
+MD5sum: 8f0caf777577e726c89f4daa7bc2f476
+SHA1: 6e229635b3d08b03158d3c8f2b9d9d1a9ea2b058
+SHA256: 0b3c3f8ac71b279cc622a1fca85c2fef47aa083f325a39b5cd71fa1acf007f28
+Section: utils
 Priority: optional
-Homepage: https://github.com/yeager/l10n-lint
-Description: Linting tool for PO/gettext translation files
+Description: Localization File Linter
+ A CLI and GTK hybrid tool for linting and validating localization files.
+ Provides both command-line and graphical interfaces for checking
+ translation file quality and consistency.
 
 Package: l10n-preview
 Version: 0.2.5
@@ -171,18 +183,21 @@ Priority: optional
 Description: Language Pack Inspector
 
 Package: libretranslate-gui
-Version: 0.2.5
+Version: 0.2.5-1
 Architecture: all
-Maintainer: Daniel Nyström <dan.nystrom@gmail.com>
-Depends: python3, python3-gi, gir1.2-gtk-4.0, gir1.2-adw-1
-Filename: pool/main/libretranslate-gui_0.2.5_all.deb
-Size: 8360
-MD5sum: 9dd0d96d95e7faa2f7c5d051241d92a8
-SHA1: 7bc8bb101b5c820cc5d80499ef9a8562ff28d409
-SHA256: e4d91aae408bfb26eec8af816078e3d55330f5cc14f40a2412198fff7d685362
+Maintainer: Daniel Nylander <yeager@ubuntu.com>
+Depends: python3, python3-gi, gir1.2-gtk-4.0, gir1.2-adw-1, python3-requests
+Filename: pool/main/libretranslate-gui_0.2.5-1_all.deb
+Size: 8652
+MD5sum: 73ceca8f0b0b12be0c2a33b421bc7858
+SHA1: 3efb634cce39ca151e2d2cf36aa712b5438c8c77
+SHA256: b80cac8e68315c31f21dc3be476acc9948c378af03e669e2d7ab32867f04e6ed
 Section: utils
 Priority: optional
-Description: LibreTranslate Assistant
+Description: LibreTranslate GUI Client
+ A GTK4 application for using LibreTranslate translation services.
+ Provides a user-friendly graphical interface to translate text using
+ the LibreTranslate API.
 
 Package: locale-tester
 Version: 0.2.5
@@ -199,32 +214,38 @@ Priority: optional
 Description: Locale Tester
 
 Package: packetlens
-Version: 0.2.2
+Version: 0.2.3-1
 Architecture: all
-Maintainer: Daniel Nyström <dan.nystrom@gmail.com>
+Maintainer: Daniel Nylander <yeager@ubuntu.com>
 Depends: python3, python3-gi, gir1.2-gtk-4.0, gir1.2-adw-1
-Filename: pool/main/packetlens_0.2.2_all.deb
-Size: 29786
-MD5sum: 906e113546bc0c2fc77afcd0ecf22713
-SHA1: 680b7db76ba763e0a5bf9fa5cbcd8ea8f3c3c247
-SHA256: 2df372205c8522d2c54665b9bc9ab4adb88f2f2bdfc56b6c927bcd5d793b75e8
+Filename: pool/main/packetlens_0.2.3-1_all.deb
+Size: 45660
+MD5sum: 136be50f92ec1bd7994d3f8b3d4da04d
+SHA1: 3cf466cad83de82db3cfe5f48a452707f9f23bba
+SHA256: 4456d6d970407a5d2417cded10a8b23bf6f4b9c644095225c328fe01a5414f90
 Section: utils
 Priority: optional
-Description: PacketLens
+Description: PCAP File Viewer
+ A GTK4 application for viewing and analyzing PCAP network capture files.
+ PacketLens provides an intuitive interface for examining network traffic
+ and packet details.
 
 Package: po-translate
-Version: 1.5.3
+Version: 1.5.4-1
 Architecture: all
-Maintainer: Daniel Nyström <dan.nystrom@gmail.com>
-Depends: python3
-Filename: pool/main/po-translate_1.5.3_all.deb
-Size: 2044
-MD5sum: 649d4bccda61e5fe02201107cad95d63
-SHA1: 4f6c1c19774ed350449fc01dd9e908051491d3d5
-SHA256: 6dd800bb2f7156146c73c295317da6b0b34df2476407bfb6dc638a8339b3e091
+Maintainer: Daniel Nylander <yeager@ubuntu.com>
+Depends: python3, python3-requests
+Filename: pool/main/po-translate_1.5.4-1_all.deb
+Size: 10676
+MD5sum: f77488707bcf3415855b2c898d2c5393
+SHA1: 3b4f5560f322f5eb76f53c2672ad55a517c0dbe6
+SHA256: fae3d19aaddbd61782f16832bb09dc9b6268fdc20fb2fddea677fda77fa29821
 Section: utils
 Priority: optional
-Description: po-translate
+Description: PO File Translator
+ A command-line tool for translating PO (gettext) files using various
+ translation services. Supports automatic translation workflows for
+ localization projects.
 
 Package: snap-l10n
 Version: 0.2.4
@@ -241,18 +262,20 @@ Priority: optional
 Description: Snap Translation Status
 
 Package: svlang
-Version: 0.1.4
+Version: 0.1.5-1
 Architecture: all
-Maintainer: Daniel Nyström <dan.nystrom@gmail.com>
+Maintainer: Daniel Nylander <yeager@ubuntu.com>
 Depends: python3
-Filename: pool/main/svlang_0.1.4_all.deb
-Size: 822142
-MD5sum: 177928f08537fe8aaac3819cf6ec728b
-SHA1: 41c5adae5052ec100e9e2c8815f313e34e0bf95a
-SHA256: 4cc8eb76e8d320f005788d53b860bb491285850ec23d7cec92fd7b805557ee2f
+Filename: pool/main/svlang_0.1.5-1_all.deb
+Size: 816528
+MD5sum: 2518a380fd2a9eef3892f2bc7732b10d
+SHA1: 560c03473e1a6e697a26b0eaba7ce3a746fa2df1
+SHA256: 3e969f2b49313578130e09df04bbac11b64e4ddf12771dd024849ff561e7a3b9
 Section: utils
 Priority: optional
-Description: 🇸🇪 svlang
+Description: Swedish Language Processing Tool
+ A command-line tool for processing Swedish language text and translations.
+ Provides utilities for Swedish language-specific text processing tasks.
 
 Package: tm-manager
 Version: 0.2.5
@@ -269,18 +292,21 @@ Priority: optional
 Description: Translation Memory Manager
 
 Package: tp-lint
-Version: 1.8.2
+Version: 1.8.3-1
 Architecture: all
-Maintainer: Daniel Nyström <dan.nystrom@gmail.com>
-Depends: python3
-Filename: pool/main/tp-lint_1.8.2_all.deb
-Size: 12644
-MD5sum: 4e6f29ce1c8b034fc358ca20f304f55b
-SHA1: 1da824c2bed4369ec27cf9f3caa34a17c92859f6
-SHA256: 9ed4aaed5587e9a5f3fecbbffd284c5c8d261f281f0ffd852cbb282f6ade5606
+Maintainer: Daniel Nylander <yeager@ubuntu.com>
+Depends: python3, python3-requests
+Filename: pool/main/tp-lint_1.8.3-1_all.deb
+Size: 11896
+MD5sum: 8fd2525b4f2c0a708fa284c180f5f3d7
+SHA1: c09ff338d1e5d5b50c6e95cb531c3d562487525b
+SHA256: 34ad5e8a714007de28e4fadee3ed8cd35bbfdd5c19d4ef924cc8065fbbbe3fea
 Section: utils
 Priority: optional
-Description: Translation Project lint checker
+Description: Translation Platform Linter
+ A command-line tool for linting and validating translation platform files.
+ Supports various translation platforms and provides quality checks for
+ translation projects.
 
 Package: ubuntu-l10n
 Version: 0.2.5
