@@ -5,10 +5,10 @@ Codename: stable
 Architectures: all
 Components: main
 Description: Yeager L10n App Suite Debian Repository
-Date: Mon, 16 Feb 2026 12:25:34 UTC
+Date: Mon, 16 Feb 2026 12:37:00 UTC
 MD5Sum:
- c0c98b459a89945ea94471b14ed9fc54 13176 Packages
- e607bb9b4249c10c8bfa8f290caf3ef7 4171 Packages.gz
+ 71e674fc8898c703f5f6baf3191a18fe 13176 Packages
+ 14196599e50c4dcb00c9a6a7b4b0923a 4165 Packages.gz
 SHA256:
- fe9c6afbb753e8e454916955674713899456b058d71c7a87bb59de1d16eb6c4c 13176 Packages
- 4b07e493691503ed3dd0c95442c35c27343da9f7bceed4b66ad710518e60dd1e 4171 Packages.gz
+ 91dd00164f8784803e9b787310f624771934e6cff6f605fcaf917d103000ffb4 13176 Packages
+ 457225d6d56e41b531d028ef9bb4b7671506852022549b415385594e2cd4a0b3 4165 Packages.gz
