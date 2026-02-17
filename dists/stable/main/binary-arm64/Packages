@@ -442,16 +442,16 @@ Homepage: https://github.com/yeager/ubuntu-l10n
 Description: Ubuntu/Launchpad translation statistics viewer
 
 Package: vsdview
-Version: 0.3.0-1
+Version: 0.3.1-1
 Architecture: all
 Maintainer: Daniel Nylander <daniel@danielnylander.se>
 Depends: python3 (>= 3.10), python3-gi, gir1.2-gtk-4.0, gir1.2-adw-1, gir1.2-rsvg-2.0
 Recommends: libvisio-tools
-Filename: pool/vsdview_0.3.0-1_all.deb
-Size: 20374
-MD5sum: e98b10b0110aaeb7ff99da27aaa83fbf
-SHA1: d64cb323a5a459a2cff0969d3b7caadd2d5f9522
-SHA256: 4446dede6f6241b631d705a3cd3a88c88628afed9e42338660ccf9c74f30c588
+Filename: pool/vsdview_0.3.1-1_all.deb
+Size: 23492
+MD5sum: 0f5bc4af6e046e2279b1f71da3747bb4
+SHA1: 6d0b1152fc39d8e82f9acc9c7a2a901625819ac2
+SHA256: 05ba406b8471517a8ee8016e2069ddbcca63f6beed7bac28789b23cef7c152ea
 Section: graphics
 Priority: optional
 Homepage: https://github.com/yeager/vsdview
