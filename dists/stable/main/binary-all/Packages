@@ -363,15 +363,15 @@ Homepage: https://github.com/yeager/snap-l10n
 Description: View snap package translation status
 
 Package: svlang
-Version: 0.1.5-1
+Version: 0.1.6-1
 Architecture: all
 Maintainer: Daniel Nylander <daniel@danielnylander.se>
 Depends: python3 (>= 3.9)
-Filename: pool/svlang_0.1.5-1_all.deb
-Size: 824678
-MD5sum: 4e4ff3422b807d40e849964861582882
-SHA1: 618e35abf9836c27b0e27ecfc5f100f73a0e7b24
-SHA256: bcbae42d14bb5ab244566fb1df87d4ed2a3a2aa524f053e748d4656dd5f8908d
+Filename: pool/svlang_0.1.6-1_all.deb
+Size: 824702
+MD5sum: a1c0dc8ac6871ff58daee274d1d27122
+SHA1: a02b4bc58a87d0ae285651941ec033d6f4162a73
+SHA256: 338d38a4ee6cfe1e485935b72c7e54523060ba3c188efb9d9df03460f3608259
 Section: text
 Priority: optional
 Homepage: https://github.com/yeager/svlang
