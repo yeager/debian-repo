@@ -188,15 +188,15 @@ Homepage: https://github.com/yeager/l10n-glossary
 Description: Glossary editor for localization — manage term lists, flag inconsistencies
 
 Package: l10n-lint
-Version: 1.15.8-1
+Version: 1.15.9-1
 Architecture: all
 Maintainer: Daniel Nylander <daniel@danielnylander.se>
 Depends: python3 (>= 3.9)
-Filename: pool/l10n-lint_1.15.8-1_all.deb
-Size: 49798
-MD5sum: 2354c977bb2f57b6672a90c510086947
-SHA1: 9e523f35fd2b5cdd68f96c6c6fe6185cb1396d4e
-SHA256: f5909b651df0c86c1e7e0ad21069610e58f5f021db9a1b7fb0dbed658f60a94c
+Filename: pool/l10n-lint_1.15.9-1_all.deb
+Size: 47438
+MD5sum: b47127081164ccb86f78f5b040b6ca2d
+SHA1: 8974aab5f13d4018b4b096c78b009b8a7a9912db
+SHA256: 7a6c4a1500dc3ee1ba32d47bb9b8933edb17a172f92ca1495884512a18e13909
 Section: devel
 Priority: optional
 Homepage: https://github.com/yeager/l10n-lint
