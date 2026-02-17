@@ -4,10 +4,10 @@ Architecture: all
 Maintainer: Daniel Nylander <daniel@danielnylander.se>
 Depends: python3 (>= 3.10), python3-gi, gir1.2-gtk-4.0, gir1.2-adw-1
 Filename: pool/bildstod_0.1.0_all.deb
-Size: 2756
-MD5sum: 12528ef393df4625d4037e779b151803
-SHA1: 8714c9b2400f7d1033d04b2529c642aee21a2975
-SHA256: f56c7e1f295c7c9f649ff4bb9d9efe338426fa669a89ebd6dddf3da6a519a2e3
+Size: 2908
+MD5sum: c2cb3592e0f67a2ab9197dab51a99dd4
+SHA1: 412bf5f9a3181683da77d9340a32445a6135fedf
+SHA256: d62e2c7bbe71e8f1590e7d41314fbe3105f35798ae4b87ddc83b22799d6b52f6
 Section: utils
 Priority: optional
 Homepage: https://github.com/yeager/bildstod
@@ -53,10 +53,10 @@ Architecture: all
 Maintainer: Daniel Nylander <daniel@danielnylander.se>
 Depends: python3 (>= 3.10), python3-gi, gir1.2-gtk-4.0, gir1.2-adw-1, python3-requests
 Filename: pool/cve-monitor_0.1.0_all.deb
-Size: 4840
-MD5sum: 7ed814fd483df5f677e8f2d3efe6ea9a
-SHA1: 6225f5b0389ec766f907935999f70ac03a753ff4
-SHA256: 8fda8c49e88bd5a80388949622e186f5b823c7a035a11af077b986df883b9749
+Size: 4952
+MD5sum: 8411c34923ee7945b010e9e1a0e34364
+SHA1: 81620a2373cf172d2d43632fe5f1fea9506c90f9
+SHA256: d098b9f3ced8fd1c67c5ef23bfbad755b3b0e81ca01999df6f53c32a546cb6fa
 Section: utils
 Priority: optional
 Homepage: https://github.com/yeager/cve-monitor
@@ -146,10 +146,10 @@ Architecture: all
 Maintainer: Daniel Nylander <daniel@danielnylander.se>
 Depends: python3 (>= 3.10), python3-gi, gir1.2-gtk-4.0, gir1.2-adw-1
 Filename: pool/ha-l10n_0.1.0_all.deb
-Size: 2780
-MD5sum: ce3239bdf0a4bcfbb54ec6061798b56b
-SHA1: 743f6ebafc084052d30c17c5785c65eed4c97acf
-SHA256: 7e7c4e87f62278f4f14df94f278f15c2748afb1090723b186d79ed05f17a0279
+Size: 2948
+MD5sum: 0fa547fc1dcc4e53de322b83c5289d11
+SHA1: 0d39fe232c11bfb3512113c470497a1a566ca668
+SHA256: 1ef17161e9906385245cc4d5d48b68dda3e699910f17238c15688af19fd4883c
 Section: utils
 Priority: optional
 Homepage: https://github.com/yeager/ha-l10n
@@ -272,10 +272,10 @@ Architecture: all
 Maintainer: Daniel Nylander <daniel@danielnylander.se>
 Depends: python3 (>= 3.10), python3-gi, gir1.2-gtk-4.0, gir1.2-adw-1
 Filename: pool/mqtt-inspector_0.1.0_all.deb
-Size: 2762
-MD5sum: a02d01b49cb61569a7b8f53f6ac8e5fb
-SHA1: cae6fcb0462c7b5c1e28604b10bdf1fc630a34da
-SHA256: 97d6b0f78b7da2f57e7c2523975c04dd0c307257ab52ce7c80bdcdd2f9953812
+Size: 2908
+MD5sum: de7e48ec9fe3d0e5acf64a8d16be3a30
+SHA1: 392d06fa610ba9ed85d8a7633670d12e99de1488
+SHA256: c7f3e0e0fb7827a53715c6084bb6ac5309a3e051083f36215f32b8ec8af7119b
 Section: utils
 Priority: optional
 Homepage: https://github.com/yeager/mqtt-inspector
@@ -287,10 +287,10 @@ Architecture: all
 Maintainer: Daniel Nylander <daniel@danielnylander.se>
 Depends: python3 (>= 3.10), python3-gi, gir1.2-gtk-4.0, gir1.2-adw-1
 Filename: pool/obd2-viewer_0.1.0_all.deb
-Size: 2764
-MD5sum: e7ab52befdeac0c226085a1276e577e0
-SHA1: 60d7f3de43f0bc76e8935a56e8d9ff4e3097f696
-SHA256: d9a0eb5f167c2616490612b32283cf79e10d723108938bd99483e9d3558dd502
+Size: 2916
+MD5sum: f9557f4bda75fcce2982a7746b15e2da
+SHA1: c874708c9a99dd1b5300f9533a2a2ab6e0967054
+SHA256: 244d5223610c7428d838383fc8baaf700ebbeabd49c53047ecdffaf8c26ef717
 Section: utils
 Priority: optional
 Homepage: https://github.com/yeager/obd2-viewer
@@ -417,10 +417,10 @@ Architecture: all
 Maintainer: Daniel Nylander <daniel@danielnylander.se>
 Depends: python3 (>= 3.10), python3-gi, gir1.2-gtk-4.0, gir1.2-adw-1
 Filename: pool/tts-tester_0.1.0_all.deb
-Size: 2758
-MD5sum: 56a9e3db66be3c30bbbc14c26237289a
-SHA1: c964bedcad300816b344b9903efc1fe17ae7e913
-SHA256: 10d445c706c2ab1e39e4967a7fc4d06d8559b29d29d6155b6302530e92eb5978
+Size: 2912
+MD5sum: bf5a9e94b10ce504c919217fec3dbf9d
+SHA1: feeb9acff6cf575df834e9072918b1cb2a864c99
+SHA256: 0ce6b8d85b52e92cc2bb8799b34230a440f4dc4983c74b2716809a23fce021e5
 Section: utils
 Priority: optional
 Homepage: https://github.com/yeager/tts-tester

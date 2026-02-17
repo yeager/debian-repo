@@ -26,7 +26,7 @@ echo "deb [signed-by=/usr/share/keyrings/yeager-archive-keyring.gpg] https://yea
 sudo apt update
 ```
 
-## Available Packages (28)
+## Available Packages (29)
 
 ### GUI Applications — Localization (GTK4/Adwaita)
 
