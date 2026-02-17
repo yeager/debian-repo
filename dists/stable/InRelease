@@ -1,39 +1,48 @@
 -----BEGIN PGP SIGNED MESSAGE-----
 Hash: SHA256
 
-Origin: Yeager
-Label: Yeager's Translation Tools
+Origin: Danne L10n Suite
+Label: Danne L10n Suite
 Suite: stable
 Codename: stable
-Version: 1.0
-Architectures: amd64 arm64
 Components: main
-Description: Yeager's Translation Tools APT Repository
-Date: Tue, 17 Feb 2026 07:57:33 +0000
+Architectures: all amd64 arm64 armhf i386
+Date: Tue, 17 Feb 2026 08:08:47 UTC
+MD5Sum:
+ 161ba90e2ec98fa01db7ee1a17719c38 17036 main/binary-all/Packages
+ d2849ceeb146377d20f9610a912af2b3 5221 main/binary-all/Packages.gz
+ 161ba90e2ec98fa01db7ee1a17719c38 17036 main/binary-amd64/Packages
+ 665df14efaa58fd7824da7ee1a82633e 5221 main/binary-amd64/Packages.gz
+ 161ba90e2ec98fa01db7ee1a17719c38 17036 main/binary-arm64/Packages
+ 665df14efaa58fd7824da7ee1a82633e 5221 main/binary-arm64/Packages.gz
+ 161ba90e2ec98fa01db7ee1a17719c38 17036 main/binary-armhf/Packages
+ dff670181ddf7cbaa87b32a4b5d78636 5221 main/binary-armhf/Packages.gz
+ 161ba90e2ec98fa01db7ee1a17719c38 17036 main/binary-i386/Packages
+ dff670181ddf7cbaa87b32a4b5d78636 5221 main/binary-i386/Packages.gz
 SHA256:
- 31b434dd40c2c337d2660323fcbf259dde66040cd98e2dd2b9b0b6ba9ea2f832 5223 main/binary-arm64/Packages.gz
- d72a79e4db04ada7ce6f4849c0323a444a11661fb685518e255ac90306d5ff92 17010 main/binary-arm64/Packages
- 31b434dd40c2c337d2660323fcbf259dde66040cd98e2dd2b9b0b6ba9ea2f832 5223 main/binary-i386/Packages.gz
- d72a79e4db04ada7ce6f4849c0323a444a11661fb685518e255ac90306d5ff92 17010 main/binary-i386/Packages
- 31b434dd40c2c337d2660323fcbf259dde66040cd98e2dd2b9b0b6ba9ea2f832 5223 main/binary-armhf/Packages.gz
- d72a79e4db04ada7ce6f4849c0323a444a11661fb685518e255ac90306d5ff92 17010 main/binary-armhf/Packages
- 31b434dd40c2c337d2660323fcbf259dde66040cd98e2dd2b9b0b6ba9ea2f832 5223 main/binary-all/Packages.gz
- d72a79e4db04ada7ce6f4849c0323a444a11661fb685518e255ac90306d5ff92 17010 main/binary-all/Packages
- 31b434dd40c2c337d2660323fcbf259dde66040cd98e2dd2b9b0b6ba9ea2f832 5223 main/binary-amd64/Packages.gz
- d72a79e4db04ada7ce6f4849c0323a444a11661fb685518e255ac90306d5ff92 17010 main/binary-amd64/Packages
+ a7a21a3ef761a990140eaa7e668f066fa20e4df72cd522ed6e97a2078bacd84e 17036 main/binary-all/Packages
+ 5066dae9b8ab5aae7f6f3ff53ad61c052f09bda96cfc3a0bcd7e820ed5ccaf1b 5221 main/binary-all/Packages.gz
+ a7a21a3ef761a990140eaa7e668f066fa20e4df72cd522ed6e97a2078bacd84e 17036 main/binary-amd64/Packages
+ 8ef34bea4d74fd915fc32429a147ba8d9933a619fdbb2a49961039ad6b0e5555 5221 main/binary-amd64/Packages.gz
+ a7a21a3ef761a990140eaa7e668f066fa20e4df72cd522ed6e97a2078bacd84e 17036 main/binary-arm64/Packages
+ 8ef34bea4d74fd915fc32429a147ba8d9933a619fdbb2a49961039ad6b0e5555 5221 main/binary-arm64/Packages.gz
+ a7a21a3ef761a990140eaa7e668f066fa20e4df72cd522ed6e97a2078bacd84e 17036 main/binary-armhf/Packages
+ 572a510d00bd786fd10e509a3f5250ff96daf2ca15b6f7b85c46ce3d4ad8a426 5221 main/binary-armhf/Packages.gz
+ a7a21a3ef761a990140eaa7e668f066fa20e4df72cd522ed6e97a2078bacd84e 17036 main/binary-i386/Packages
+ 572a510d00bd786fd10e509a3f5250ff96daf2ca15b6f7b85c46ce3d4ad8a426 5221 main/binary-i386/Packages.gz
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAEBCAAdFiEEN5hu++1i1inAzyaO4xjH3j2ofFsFAmmUH20ACgkQ4xjH3j2o
-fFvolQ/8Cm2Euu57h1OC7ydwoD44omnKRizxdOPfdcsR2VX1L8N1otsOKWY4Z+yo
-TeAXTOfWh9FP/sD2NsZajIUTN/vvP+yAA03hZmt+JGAVNXZ6C4I6X0nYv9dVLGKD
-H2eGfmWnwlV2nU5UKSqb/DHrc9bl7BynpCHYbLIWywLPFsMrLQSFLOK3qAE+ykqZ
-1KqwM6pWP7+BS5b3juVSNyVB65YuQZqtWzk0WC9usTih1h92sja3wi98ceHhYy0y
-1QQTxICcJWmiZ2Tn3cpswattYXgu8hoX77wEKt/I3SUx+Kqtqhi7J5W5YWRsP7R7
-i9UkK+ZvEpnne7zS18VxZZf7A2QZYwZqXO+69QagiqptWz/eKCBOiSHq5l6H1NjS
-ApwdQEESo6E4dQggT4XAIeAKYGD43ALXaBNJ03sUY2b/DIDzqDrjQ9QrsIRCpW/C
-4zhrbl/kc0OvXknMZ/q9E6fsfBzMgv7UKPKKXeiLezEUBd/0tQ32nppJF7Sc4bsc
-tojRdMfM00ioyjiGsNrrZBAo6LcXQ/72hl9qeeIl2kSD2zLV43amygndF0bjm/te
-OEVOSlWJ1dRYn+QVN9HAtpZspGohZkagljO+2X0Kaa/rCaji0MWx9NldG6vN09vG
-Zrntz1OZuh2Umv3bKLxH24bV26h3ZhTCHlC1r6QxNa/lGvprMgs=
-=QzvQ
+iQIzBAEBCAAdFiEEN5hu++1i1inAzyaO4xjH3j2ofFsFAmmUIhQACgkQ4xjH3j2o
+fFsYug//ZbMfQ+QZLwtdBzVTtAfj1fn9j4hUyPMgLtbVsrQCXbB4MGOscX7Ez59N
+AxnKgWESXt/DJDVzRgwK2gJf0EtRjRxoTP+U50cJcnaUlWTLERwtcTC8FqlYBG+Y
+BfNCdyu5QyMYWEn9uJdYlzj7ZN3JHTMr1P0q7bBOVKYSMlNaLK1i8NrlXi842RM4
+7u6Z9vyBuvA9C8npuza2HaFmQU9VA55ilbd6Tz49LCdNU0Fu8Aw5ehP7NxIRobut
+4c7cGx/XhwcN6U+LNi09sXFc4lAb1xNZ85sFYOCn6C2CgJR1b/7AStOmmRJtwN6d
+FtWu+WCcrqWWnZgrw9E4wffUyNjCg5RR4/+zDWHpjrBa/j88rHybpd1PfZrHrC8J
+dwjgM0jxvLxhnON1wqIQBZ2QBKM7OKX8YZoe8I++NchQ0tnnd1iUFKO8ZYJ5Nb8k
+1qtbMMj7e1AJsnIU+ee5v1H1z6PBDX1KRHH2qqFP9o1JMbj0bXVklDlk/kivuImi
+XKSqsa8XSP9H6fjtlkKJBkEWJks+ztMr/6QoUlciy5EXvaEiOYc4b9Hr8z/hOcZu
+y70fWcrObYdDxlGvMK2oFNQjjYXUu0eBJxTdZM/NwqKXhwq9DaoRHyonx37rhfD4
+CsGfnEqzW6SWoZu+NXiHBNjJum8qfrq5Q3GOl9e2XFHJK7K2+Ss=
+=bqIP
 -----END PGP SIGNATURE-----

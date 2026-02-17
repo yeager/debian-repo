@@ -442,20 +442,21 @@ Homepage: https://github.com/yeager/ubuntu-l10n
 Description: Ubuntu/Launchpad translation statistics viewer
 
 Package: vsdview
-Version: 0.1.0-1
+Version: 0.1.2-1
 Architecture: all
 Maintainer: Daniel Nylander <daniel@danielnylander.se>
-Depends: python3 (>= 3.10), python3-gi, gir1.2-gtk-4.0, gir1.2-adw-1, gir1.2-rsvg-2.0, libreoffice-draw
-Recommends: librsvg2-bin
-Filename: pool/vsdview_0.1.0-1_all.deb
-Size: 7586
-MD5sum: ae3e265fe5b0fd8ee2f62534a5a34600
-SHA1: 5a5ad36cfe3ca8883d1902ed50f515701e5a593e
-SHA256: b9126e3b1557280825c646b5e295c358e01b847670099bf18fd5b36d6091daf8
+Depends: python3 (>= 3.10), python3-gi, gir1.2-gtk-4.0, gir1.2-adw-1, gir1.2-rsvg-2.0
+Recommends: libvisio-tools
+Filename: pool/vsdview_0.1.2-1_all.deb
+Size: 9414
+MD5sum: 444ccfcf951cf7900d79a8431c56fa3e
+SHA1: 71ca934da605c39d061229aadfc993551c6944c4
+SHA256: e5de51dd3565b0aebd0aa36740cb402f18c79419d10a555e48efb4d932c9d57c
 Section: graphics
 Priority: optional
 Homepage: https://github.com/yeager/vsdview
 Description: Read-only viewer for Microsoft Visio files
  VSDView is a minimal viewer for .vsdx and .vsd files, built with
- GTK4 and libadwaita. Uses LibreOffice for headless conversion.
+ GTK4 and libadwaita. Uses a built-in .vsdx parser with optional
+ libvisio support for legacy .vsd files.
 
