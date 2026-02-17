@@ -31,7 +31,7 @@ sudo apt update
 | [snap-l10n](https://github.com/yeager/snap-l10n) | 0.2.7 | Snap Store translation coverage dashboard |
 | [tm-manager](https://github.com/yeager/tm-manager) | 0.2.8 | Translation memory manager (TMX/TBX) |
 | [ubuntu-l10n](https://github.com/yeager/ubuntu-l10n) | 0.3.4 | Ubuntu/Launchpad translation statistics |
-| vsdview 0.1.2 | Read-only viewer for Microsoft Visio files |
+| vsdview 0.1.7 | Read-only viewer for Microsoft Visio files |
 
 ### GUI Applications — System & Network (GTK4/Adwaita)
 
