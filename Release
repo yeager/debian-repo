@@ -1,7 +1,29 @@
-Date: Tue, 17 Feb 2026 08:50:50 UTC
+Origin: Yeager
+Label: Yeager Debian Repository
+Suite: stable
+Codename: stable
+Architectures: all amd64 arm64 armhf i386
+Components: main
+Date: Tue, 17 Feb 2026 14:52:08 +0000
 MD5Sum:
- effaae1dbf842c126a0981dc81edd496 17037 Packages
- 199f20df341e0ff7a2f08013f0350d14 5217 Packages.gz
+ a4f0e954b6ebe23ed1d3793444b73140 5231 main/binary-arm64/Packages.gz
+ edf1efdf2060af9cd09bb18bbebc8496 17037 main/binary-arm64/Packages
+ f2f358eca202e3b09c8a040192f7a527 5231 main/binary-i386/Packages.gz
+ edf1efdf2060af9cd09bb18bbebc8496 17037 main/binary-i386/Packages
+ f2f358eca202e3b09c8a040192f7a527 5231 main/binary-armhf/Packages.gz
+ edf1efdf2060af9cd09bb18bbebc8496 17037 main/binary-armhf/Packages
+ a4f0e954b6ebe23ed1d3793444b73140 5231 main/binary-all/Packages.gz
+ edf1efdf2060af9cd09bb18bbebc8496 17037 main/binary-all/Packages
+ a4f0e954b6ebe23ed1d3793444b73140 5231 main/binary-amd64/Packages.gz
+ edf1efdf2060af9cd09bb18bbebc8496 17037 main/binary-amd64/Packages
 SHA256:
- 31dc14afaa5954a74aa90bc7b3472d61d9213b0f285f47d6c3dd26e289957546 17037 Packages
- 5474a96f6d716e044a4d8f2bc012a1899bc04ad2189ee408b246a658684ad85f 5217 Packages.gz
+ db3972111f0a2368a66221f191bb79015ccd900b58e8f1c5e9f32c3f577e5444 5231 main/binary-arm64/Packages.gz
+ c5c30f65dff6a70478119ce4d9c7be17b9dd2df338bba38a6033696f8d0dea9b 17037 main/binary-arm64/Packages
+ cecb6421a04688b111ba6b0629a05cf360d72694d4e5e2d0ae8c51e17a2e6564 5231 main/binary-i386/Packages.gz
+ c5c30f65dff6a70478119ce4d9c7be17b9dd2df338bba38a6033696f8d0dea9b 17037 main/binary-i386/Packages
+ cecb6421a04688b111ba6b0629a05cf360d72694d4e5e2d0ae8c51e17a2e6564 5231 main/binary-armhf/Packages.gz
+ c5c30f65dff6a70478119ce4d9c7be17b9dd2df338bba38a6033696f8d0dea9b 17037 main/binary-armhf/Packages
+ db3972111f0a2368a66221f191bb79015ccd900b58e8f1c5e9f32c3f577e5444 5231 main/binary-all/Packages.gz
+ c5c30f65dff6a70478119ce4d9c7be17b9dd2df338bba38a6033696f8d0dea9b 17037 main/binary-all/Packages
+ db3972111f0a2368a66221f191bb79015ccd900b58e8f1c5e9f32c3f577e5444 5231 main/binary-amd64/Packages.gz
+ c5c30f65dff6a70478119ce4d9c7be17b9dd2df338bba38a6033696f8d0dea9b 17037 main/binary-amd64/Packages

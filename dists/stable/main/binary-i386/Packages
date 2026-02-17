@@ -63,15 +63,15 @@ Homepage: https://github.com/yeager/cve-monitor
 Description: Monitor CVE vulnerabilities for installed system packages
 
 Package: ddtp-translate
-Version: 0.7.0-1
+Version: 0.8.0-1
 Architecture: all
 Maintainer: Daniel Nylander <daniel@danielnylander.se>
 Depends: python3 (>= 3.10), python3-gi, gir1.2-gtk-4.0, gir1.2-adw-1
-Filename: pool/ddtp-translate_0.7.0-1_all.deb
-Size: 32988
-MD5sum: f37b9d7faa045de242268f8bfb96c430
-SHA1: 25e5be546d02f5d6d0faa54121a7716f6e16f623
-SHA256: 276898bad20435e44848f3c0a910b61c3be5d6f1a11f098e15cacfba860ec63b
+Filename: pool/ddtp-translate_0.8.0-1_all.deb
+Size: 32708
+MD5sum: 6e2b498360100cb35d1ada0569519e89
+SHA1: d011f67b2649a9df2d11ca291cfb906e939c54c8
+SHA256: bd723d9ed5e801e5a3d40933ac0d6a174a12d115a3e69dc24432cef802e530d2
 Section: devel
 Priority: optional
 Homepage: https://github.com/yeager/ddtp-translate
