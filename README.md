@@ -4,6 +4,22 @@ APT repository for Daniel Nylander's localization, development, and system tools
 
 ## Quick Setup
 
+### Option 1: DEB822 format (Ubuntu 24.04+ / Debian 12+, recommended)
+
+```bash
+curl -fsSL https://yeager.github.io/debian-repo/yeager-archive-keyring.gpg | sudo tee /usr/share/keyrings/yeager-archive-keyring.gpg > /dev/null
+sudo tee /etc/apt/sources.list.d/yeager.sources << 'EOF'
+Types: deb
+URIs: https://yeager.github.io/debian-repo
+Suites: stable
+Components: main
+Signed-By: /usr/share/keyrings/yeager-archive-keyring.gpg
+EOF
+sudo apt update
+```
+
+### Option 2: One-line format (legacy)
+
 ```bash
 curl -fsSL https://yeager.github.io/debian-repo/yeager-archive-keyring.gpg | sudo tee /usr/share/keyrings/yeager-archive-keyring.gpg > /dev/null
 echo "deb [signed-by=/usr/share/keyrings/yeager-archive-keyring.gpg] https://yeager.github.io/debian-repo stable main" | sudo tee /etc/apt/sources.list.d/yeager.list
@@ -31,7 +47,7 @@ sudo apt update
 | [snap-l10n](https://github.com/yeager/snap-l10n) | 0.2.7 | Snap Store translation coverage dashboard |
 | [tm-manager](https://github.com/yeager/tm-manager) | 0.2.8 | Translation memory manager (TMX/TBX) |
 | [ubuntu-l10n](https://github.com/yeager/ubuntu-l10n) | 0.3.4 | Ubuntu/Launchpad translation statistics |
-| vsdview 0.2.0 | Read-only viewer for Microsoft Visio files |
+| [vsdview](https://github.com/yeager/vsdview) | 0.2.3 | Read-only viewer for Microsoft Visio files |
 
 ### GUI Applications — System & Network (GTK4/Adwaita)
 
@@ -50,10 +66,10 @@ sudo apt update
 | Package | Version | Description |
 |---------|---------|-------------|
 | [l10n-conv](https://github.com/yeager/l10n-conv) | 1.0.4 | Convert between translation formats (PO↔XLIFF↔TS↔JSON) |
-| [l10n-lint](https://github.com/yeager/l10n-lint) | 1.15.8 | Linter for .po and .ts translation files (CLI + GTK GUI) |
+| [l10n-lint](https://github.com/yeager/l10n-lint) | 1.15.9 | Linter for .po and .ts translation files (CLI + GTK GUI) |
 | [po-diff](https://github.com/yeager/po-diff) | 1.0.0 | Compare PO/XLIFF files and show translation differences |
 | [po-translate](https://github.com/yeager/po-translate) | 1.5.4 | Machine-translate PO files via multiple backends |
-| [svlang](https://github.com/yeager/svlang) | 0.1.5 | Swedish language quality checker for translations |
+| [svlang](https://github.com/yeager/svlang) | 0.1.6 | Swedish language quality checker for translations |
 | [tp-lint](https://github.com/yeager/tp-lint) | 1.8.3 | Translation Project metadata validator |
 
 ## GPG Key
