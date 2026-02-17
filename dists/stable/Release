@@ -1,5 +1,5 @@
-Origin: Yeager
-Label: Yeager Debian Repository
+Origin: Danne L10n Suite
+Label: Danne L10n Suite
 Suite: stable
 Codename: stable
 Architectures: all amd64 arm64 armhf i386
