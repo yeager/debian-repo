@@ -30,7 +30,7 @@ sudo apt update
 | [locale-tester](https://github.com/yeager/locale-tester) | 0.2.6 | Test locale formatting (dates, numbers, currency) |
 | [snap-l10n](https://github.com/yeager/snap-l10n) | 0.2.7 | Snap Store translation coverage dashboard |
 | [tm-manager](https://github.com/yeager/tm-manager) | 0.2.8 | Translation memory manager (TMX/TBX) |
-| [ubuntu-l10n](https://github.com/yeager/ubuntu-l10n) | 0.3.3 | Ubuntu/Launchpad translation statistics |
+| [ubuntu-l10n](https://github.com/yeager/ubuntu-l10n) | 0.3.4 | Ubuntu/Launchpad translation statistics |
 
 ### GUI Applications — System & Network (GTK4/Adwaita)
 
