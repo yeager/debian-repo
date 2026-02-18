@@ -1,13 +1,13 @@
 Package: bildstod
-Version: 0.1.0
+Version: 0.2.0-1
 Architecture: all
 Maintainer: Daniel Nylander <daniel@danielnylander.se>
 Depends: python3 (>= 3.10), python3-gi, gir1.2-gtk-4.0, gir1.2-adw-1
-Filename: pool/bildstod_0.1.0_all.deb
-Size: 2908
-MD5sum: c2cb3592e0f67a2ab9197dab51a99dd4
-SHA1: 412bf5f9a3181683da77d9340a32445a6135fedf
-SHA256: d62e2c7bbe71e8f1590e7d41314fbe3105f35798ae4b87ddc83b22799d6b52f6
+Filename: pool/bildstod_0.2.0-1_all.deb
+Size: 13682
+MD5sum: e4e649312121ee35fa4c8ae8b7719e2a
+SHA1: f39c7392376ec812e1e15012d147bf563556d565
+SHA256: afe1277ad3d57809754c1d84a0d6d0a34a12876717d3c8a46b3e57ec7099b2fa
 Section: utils
 Priority: optional
 Homepage: https://github.com/yeager/bildstod
@@ -48,19 +48,19 @@ Description: Mozilla Common Voice translation status viewer
  translation and recording statistics.
 
 Package: cve-monitor
-Version: 0.1.0
+Version: 0.2.0-1
 Architecture: all
 Maintainer: Daniel Nylander <daniel@danielnylander.se>
 Depends: python3 (>= 3.10), python3-gi, gir1.2-gtk-4.0, gir1.2-adw-1, python3-requests
-Filename: pool/cve-monitor_0.1.0_all.deb
-Size: 4952
-MD5sum: 8411c34923ee7945b010e9e1a0e34364
-SHA1: 81620a2373cf172d2d43632fe5f1fea9506c90f9
-SHA256: d098b9f3ced8fd1c67c5ef23bfbad755b3b0e81ca01999df6f53c32a546cb6fa
+Filename: pool/cve-monitor_0.2.0-1_all.deb
+Size: 10578
+MD5sum: 5411fb3b510ea1edc13e96733e66d3ed
+SHA1: 93fc18a27a4df749db76be3b7d04cbccdbc32433
+SHA256: c9db210a7c78b39993151de98ccf66c04740e8f2dde646d351e72b93f4cd3ef5
 Section: utils
 Priority: optional
 Homepage: https://github.com/yeager/cve-monitor
-Description: Monitor CVE vulnerabilities for installed system packages
+Description: Monitor CVE vulnerabilities for installed packages
 
 Package: ddtp-translate
 Version: 0.8.0-1
@@ -141,30 +141,30 @@ Description: Browse GitHub project translation status
  GTK4/Adwaita app to view and compare translation coverage of GitHub projects.
 
 Package: ha-l10n
-Version: 0.1.0
+Version: 0.2.0
 Architecture: all
 Maintainer: Daniel Nylander <daniel@danielnylander.se>
 Depends: python3 (>= 3.10), python3-gi, gir1.2-gtk-4.0, gir1.2-adw-1
-Filename: pool/ha-l10n_0.1.0_all.deb
-Size: 2948
-MD5sum: 0fa547fc1dcc4e53de322b83c5289d11
-SHA1: 0d39fe232c11bfb3512113c470497a1a566ca668
-SHA256: 1ef17161e9906385245cc4d5d48b68dda3e699910f17238c15688af19fd4883c
+Filename: pool/ha-l10n_0.2.0_all.deb
+Size: 13932
+MD5sum: 025bce9355363cdbc9c300925187906e
+SHA1: 09184037e41e52682c532c3d6a463b30369cbcba
+SHA256: d01c979fd5d36bb2eb87444081bb1e27114eb8d288a335ce2e45c515b277c550
 Section: utils
 Priority: optional
 Homepage: https://github.com/yeager/ha-l10n
 Description: Home Assistant translation status dashboard
 
 Package: l10n-conv
-Version: 1.0.4-1
+Version: 1.0.5-1
 Architecture: all
 Maintainer: Daniel Nylander <daniel@danielnylander.se>
 Depends: python3 (>= 3.9)
-Filename: pool/l10n-conv_1.0.4-1_all.deb
+Filename: pool/l10n-conv_1.0.5-1_all.deb
 Size: 16608
-MD5sum: bedfc86272821895b6d616ad868bb2c5
-SHA1: 3d78c7cf2f0745ebf098ab0a4dc7f63c647db7db
-SHA256: 7208bf0bc31126f47bee90e0d243850025ae24b835e10ffd4d04a3066816e36f
+MD5sum: 0ced48741e25c2a393f6c1803d81b2c4
+SHA1: a4e3477001d7061a4f53f251dcba726e5057fe12
+SHA256: c6b52fa22121ec49458cc9304d3381dfd8ed84eee647dc9f33440701b3c64b97
 Section: devel
 Priority: optional
 Homepage: https://github.com/yeager/l10n-conv
@@ -267,30 +267,30 @@ Homepage: https://github.com/yeager/locale-tester
 Description: GTK4/Adwaita app for testing and comparing locale behavior on Linux
 
 Package: mqtt-inspector
-Version: 0.1.0
+Version: 0.2.0-1
 Architecture: all
 Maintainer: Daniel Nylander <daniel@danielnylander.se>
 Depends: python3 (>= 3.10), python3-gi, gir1.2-gtk-4.0, gir1.2-adw-1
-Filename: pool/mqtt-inspector_0.1.0_all.deb
-Size: 2908
-MD5sum: de7e48ec9fe3d0e5acf64a8d16be3a30
-SHA1: 392d06fa610ba9ed85d8a7633670d12e99de1488
-SHA256: c7f3e0e0fb7827a53715c6084bb6ac5309a3e051083f36215f32b8ec8af7119b
+Filename: pool/mqtt-inspector_0.2.0-1_all.deb
+Size: 9064
+MD5sum: 6c88acba71e71af574d813ac301b5014
+SHA1: 5fe0fcad4199c25003cd9a390f066f0a5f123124
+SHA256: 8496b19a6704ead73703c4bf7b21f7cb4c3c81397e123a0aae29c40d6a7087e7
 Section: utils
 Priority: optional
 Homepage: https://github.com/yeager/mqtt-inspector
 Description: MQTT message inspector for IoT
 
 Package: obd2-viewer
-Version: 0.1.0
+Version: 0.2.0-1
 Architecture: all
 Maintainer: Daniel Nylander <daniel@danielnylander.se>
 Depends: python3 (>= 3.10), python3-gi, gir1.2-gtk-4.0, gir1.2-adw-1
-Filename: pool/obd2-viewer_0.1.0_all.deb
-Size: 2916
-MD5sum: f9557f4bda75fcce2982a7746b15e2da
-SHA1: c874708c9a99dd1b5300f9533a2a2ab6e0967054
-SHA256: 244d5223610c7428d838383fc8baaf700ebbeabd49c53047ecdffaf8c26ef717
+Filename: pool/obd2-viewer_0.2.0-1_all.deb
+Size: 16894
+MD5sum: 42927bca25135648275b5f2fe0dff3fe
+SHA1: e3c07685c9356032e975b625cf6ffa0c336909f1
+SHA256: 2fb98956c447a9e60e8c104ce79ad3690623b149ab70d8cf809c23779f648b27
 Section: utils
 Priority: optional
 Homepage: https://github.com/yeager/obd2-viewer
@@ -314,15 +314,15 @@ Description: GTK4 network capture analyzer
  captures with protocol stats, DNS/TLS/HTTP analysis, and file extraction.
 
 Package: po-diff
-Version: 1.0.0-1
+Version: 1.0.1-1
 Architecture: all
 Maintainer: Daniel Nylander <daniel@danielnylander.se>
 Depends: python3 (>= 3.9)
-Filename: pool/po-diff_1.0.0-1_all.deb
+Filename: pool/po-diff_1.0.1-1_all.deb
 Size: 12396
-MD5sum: cf782ec5f28281ab1af7b9f123f0c48f
-SHA1: 3a7b7b66fa4b91639fff35395b1f1d97086e4ed8
-SHA256: 4a576eec2b8f223a005ab252591025be33ca80fddc71059ff39fd1a4bff80c88
+MD5sum: a95b1e1fe0d796f6890bda7ce6ec4d90
+SHA1: b0ad7eb892b06b3a1c62a50f91336cf36e781a18
+SHA256: afed02662eba62373ad908281c2ba623733f50bcaba3d411e6154de35a5a822c
 Section: devel
 Priority: optional
 Homepage: https://github.com/yeager/po-diff
@@ -348,15 +348,15 @@ Description: Translate PO files using multiple translation services
  including DeepL, Google, OpenAI, Anthropic, and more.
 
 Package: snap-l10n
-Version: 0.2.7-1
+Version: 0.2.8-1
 Architecture: all
 Maintainer: Daniel Nylander <daniel@danielnylander.se>
 Depends: python3 (>= 3.10), python3-gi, gir1.2-gtk-4.0, gir1.2-adw-1
-Filename: pool/snap-l10n_0.2.7-1_all.deb
-Size: 9594
-MD5sum: 5141e8912683c1c8d31560bc296f999b
-SHA1: 86039ed0e9dcf0d171e905034a68e734be4d14b6
-SHA256: 952e8dbff47635090416835e7511cb664118ee07f03f355627a46a2cf7ab3ee0
+Filename: pool/snap-l10n_0.2.8-1_all.deb
+Size: 9920
+MD5sum: 0b63c96e5127a963058340347d8ab876
+SHA1: 66a852957d35796dac9080b9f3422359f0f6e301
+SHA256: 30747d65d735cbeeccc67743599d6e8a862295d098e5adce6f301b89253de716
 Section: devel
 Priority: optional
 Homepage: https://github.com/yeager/snap-l10n
@@ -395,15 +395,15 @@ Homepage: https://github.com/yeager/tm-manager
 Description: Manage local Translation Memory files (TMX)
 
 Package: tp-lint
-Version: 1.8.3-1
+Version: 1.8.4-1
 Architecture: all
 Maintainer: Daniel Nylander <daniel@danielnylander.se>
 Depends: python3 (>= 3.9)
-Filename: pool/tp-lint_1.8.3-1_all.deb
-Size: 48446
-MD5sum: 21c96d9ac8977675972d2506ffa3c120
-SHA1: 2ffe279762c44d2859cb7cb165eb612106c6440e
-SHA256: a1aca201d501ba85080dfe52e34bff6719e1c2eeef10df3084431671aebe0b2d
+Filename: pool/tp-lint_1.8.4-1_all.deb
+Size: 48416
+MD5sum: e0e0d66c7b7d852668342a8f5611d64c
+SHA1: 7b0689fe6d8ed2c0239d1cad97ea595c4218c0d8
+SHA256: 433de627d4f7ee1dffb4c90e33440947d00c4961ffeaceb064deb0ec213d83e3
 Section: devel
 Priority: optional
 Homepage: https://github.com/yeager/tp-lint
@@ -412,15 +412,15 @@ Description: Lint PO files from the Translation Project
  (translationproject.org), checking for common translation issues.
 
 Package: tts-tester
-Version: 0.1.0
+Version: 0.2.0-1
 Architecture: all
 Maintainer: Daniel Nylander <daniel@danielnylander.se>
 Depends: python3 (>= 3.10), python3-gi, gir1.2-gtk-4.0, gir1.2-adw-1
-Filename: pool/tts-tester_0.1.0_all.deb
-Size: 2912
-MD5sum: bf5a9e94b10ce504c919217fec3dbf9d
-SHA1: feeb9acff6cf575df834e9072918b1cb2a864c99
-SHA256: 0ce6b8d85b52e92cc2bb8799b34230a440f4dc4983c74b2716809a23fce021e5
+Filename: pool/tts-tester_0.2.0-1_all.deb
+Size: 11316
+MD5sum: 820810b6b4ec64827facfb32ff561f3d
+SHA1: da24afbadb3d010ea17305c4fa7d822fa323e420
+SHA256: 1dd499e7828b5c7f7e40b09117c505bf4bd418a990be91de83b4f947cef5af5b
 Section: utils
 Priority: optional
 Homepage: https://github.com/yeager/tts-tester
