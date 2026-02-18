@@ -1,13 +1,13 @@
 Package: bildstod
-Version: 0.1.0
+Version: 0.2.0-1
 Architecture: all
 Maintainer: Daniel Nylander <daniel@danielnylander.se>
 Depends: python3 (>= 3.10), python3-gi, gir1.2-gtk-4.0, gir1.2-adw-1
-Filename: pool/bildstod_0.1.0_all.deb
-Size: 2908
-MD5sum: c2cb3592e0f67a2ab9197dab51a99dd4
-SHA1: 412bf5f9a3181683da77d9340a32445a6135fedf
-SHA256: d62e2c7bbe71e8f1590e7d41314fbe3105f35798ae4b87ddc83b22799d6b52f6
+Filename: pool/bildstod_0.2.0-1_all.deb
+Size: 13682
+MD5sum: e4e649312121ee35fa4c8ae8b7719e2a
+SHA1: f39c7392376ec812e1e15012d147bf563556d565
+SHA256: afe1277ad3d57809754c1d84a0d6d0a34a12876717d3c8a46b3e57ec7099b2fa
 Section: utils
 Priority: optional
 Homepage: https://github.com/yeager/bildstod
@@ -48,19 +48,19 @@ Description: Mozilla Common Voice translation status viewer
  translation and recording statistics.
 
 Package: cve-monitor
-Version: 0.1.0
+Version: 0.2.0-1
 Architecture: all
 Maintainer: Daniel Nylander <daniel@danielnylander.se>
 Depends: python3 (>= 3.10), python3-gi, gir1.2-gtk-4.0, gir1.2-adw-1, python3-requests
-Filename: pool/cve-monitor_0.1.0_all.deb
-Size: 4952
-MD5sum: 8411c34923ee7945b010e9e1a0e34364
-SHA1: 81620a2373cf172d2d43632fe5f1fea9506c90f9
-SHA256: d098b9f3ced8fd1c67c5ef23bfbad755b3b0e81ca01999df6f53c32a546cb6fa
+Filename: pool/cve-monitor_0.2.0-1_all.deb
+Size: 10578
+MD5sum: 5411fb3b510ea1edc13e96733e66d3ed
+SHA1: 93fc18a27a4df749db76be3b7d04cbccdbc32433
+SHA256: c9db210a7c78b39993151de98ccf66c04740e8f2dde646d351e72b93f4cd3ef5
 Section: utils
 Priority: optional
 Homepage: https://github.com/yeager/cve-monitor
-Description: Monitor CVE vulnerabilities for installed system packages
+Description: Monitor CVE vulnerabilities for installed packages
 
 Package: ddtp-translate
 Version: 0.8.0-1
@@ -141,15 +141,15 @@ Description: Browse GitHub project translation status
  GTK4/Adwaita app to view and compare translation coverage of GitHub projects.
 
 Package: ha-l10n
-Version: 0.1.0
+Version: 0.2.0
 Architecture: all
 Maintainer: Daniel Nylander <daniel@danielnylander.se>
 Depends: python3 (>= 3.10), python3-gi, gir1.2-gtk-4.0, gir1.2-adw-1
-Filename: pool/ha-l10n_0.1.0_all.deb
-Size: 2948
-MD5sum: 0fa547fc1dcc4e53de322b83c5289d11
-SHA1: 0d39fe232c11bfb3512113c470497a1a566ca668
-SHA256: 1ef17161e9906385245cc4d5d48b68dda3e699910f17238c15688af19fd4883c
+Filename: pool/ha-l10n_0.2.0_all.deb
+Size: 13932
+MD5sum: 025bce9355363cdbc9c300925187906e
+SHA1: 09184037e41e52682c532c3d6a463b30369cbcba
+SHA256: d01c979fd5d36bb2eb87444081bb1e27114eb8d288a335ce2e45c515b277c550
 Section: utils
 Priority: optional
 Homepage: https://github.com/yeager/ha-l10n
@@ -267,30 +267,30 @@ Homepage: https://github.com/yeager/locale-tester
 Description: GTK4/Adwaita app for testing and comparing locale behavior on Linux
 
 Package: mqtt-inspector
-Version: 0.1.0
+Version: 0.2.0-1
 Architecture: all
 Maintainer: Daniel Nylander <daniel@danielnylander.se>
 Depends: python3 (>= 3.10), python3-gi, gir1.2-gtk-4.0, gir1.2-adw-1
-Filename: pool/mqtt-inspector_0.1.0_all.deb
-Size: 2908
-MD5sum: de7e48ec9fe3d0e5acf64a8d16be3a30
-SHA1: 392d06fa610ba9ed85d8a7633670d12e99de1488
-SHA256: c7f3e0e0fb7827a53715c6084bb6ac5309a3e051083f36215f32b8ec8af7119b
+Filename: pool/mqtt-inspector_0.2.0-1_all.deb
+Size: 9064
+MD5sum: 6c88acba71e71af574d813ac301b5014
+SHA1: 5fe0fcad4199c25003cd9a390f066f0a5f123124
+SHA256: 8496b19a6704ead73703c4bf7b21f7cb4c3c81397e123a0aae29c40d6a7087e7
 Section: utils
 Priority: optional
 Homepage: https://github.com/yeager/mqtt-inspector
 Description: MQTT message inspector for IoT
 
 Package: obd2-viewer
-Version: 0.1.0
+Version: 0.2.0-1
 Architecture: all
 Maintainer: Daniel Nylander <daniel@danielnylander.se>
 Depends: python3 (>= 3.10), python3-gi, gir1.2-gtk-4.0, gir1.2-adw-1
-Filename: pool/obd2-viewer_0.1.0_all.deb
-Size: 2916
-MD5sum: f9557f4bda75fcce2982a7746b15e2da
-SHA1: c874708c9a99dd1b5300f9533a2a2ab6e0967054
-SHA256: 244d5223610c7428d838383fc8baaf700ebbeabd49c53047ecdffaf8c26ef717
+Filename: pool/obd2-viewer_0.2.0-1_all.deb
+Size: 16894
+MD5sum: 42927bca25135648275b5f2fe0dff3fe
+SHA1: e3c07685c9356032e975b625cf6ffa0c336909f1
+SHA256: 2fb98956c447a9e60e8c104ce79ad3690623b149ab70d8cf809c23779f648b27
 Section: utils
 Priority: optional
 Homepage: https://github.com/yeager/obd2-viewer
@@ -412,15 +412,15 @@ Description: Lint PO files from the Translation Project
  (translationproject.org), checking for common translation issues.
 
 Package: tts-tester
-Version: 0.1.0
+Version: 0.2.0-1
 Architecture: all
 Maintainer: Daniel Nylander <daniel@danielnylander.se>
 Depends: python3 (>= 3.10), python3-gi, gir1.2-gtk-4.0, gir1.2-adw-1
-Filename: pool/tts-tester_0.1.0_all.deb
-Size: 2912
-MD5sum: bf5a9e94b10ce504c919217fec3dbf9d
-SHA1: feeb9acff6cf575df834e9072918b1cb2a864c99
-SHA256: 0ce6b8d85b52e92cc2bb8799b34230a440f4dc4983c74b2716809a23fce021e5
+Filename: pool/tts-tester_0.2.0-1_all.deb
+Size: 11316
+MD5sum: 820810b6b4ec64827facfb32ff561f3d
+SHA1: da24afbadb3d010ea17305c4fa7d822fa323e420
+SHA256: 1dd499e7828b5c7f7e40b09117c505bf4bd418a990be91de83b4f947cef5af5b
 Section: utils
 Priority: optional
 Homepage: https://github.com/yeager/tts-tester
