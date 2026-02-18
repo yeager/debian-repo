@@ -5,7 +5,7 @@ Codename: stable
 Architectures: all amd64 arm64 armhf i386
 Components: main
 Description: Danne L10n Suite APT Repository
-Date: ons, 18 feb. 2026 07:00:12 +0000
+Date: Wed, 18 Feb 2026 07:19:49 +0000
 MD5Sum:
  4009c4ee5eedae7baf864566a3c2f4ea 3784 main/binary-i386/Packages.gz
  8b8ced9e3261d20f2f251d069373e0bf 12787 main/binary-i386/Packages
