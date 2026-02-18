@@ -155,6 +155,23 @@ Priority: optional
 Homepage: https://github.com/yeager/ha-l10n
 Description: Home Assistant translation status dashboard
 
+Package: l10n-conv
+Version: 1.0.5-1
+Architecture: all
+Maintainer: Daniel Nylander <daniel@danielnylander.se>
+Depends: python3 (>= 3.9)
+Filename: pool/l10n-conv_1.0.5-1_all.deb
+Size: 16608
+MD5sum: 0ced48741e25c2a393f6c1803d81b2c4
+SHA1: a4e3477001d7061a4f53f251dcba726e5057fe12
+SHA256: c6b52fa22121ec49458cc9304d3381dfd8ed84eee647dc9f33440701b3c64b97
+Section: devel
+Priority: optional
+Homepage: https://github.com/yeager/l10n-conv
+Description: Convert between localization file formats
+ l10n-conv converts between gettext PO, Qt TS, XLIFF, JSON,
+ Android XML, iOS Strings, and other localization formats.
+
 Package: l10n-glossary
 Version: 0.2.7-1
 Architecture: all
@@ -169,6 +186,24 @@ Section: devel
 Priority: optional
 Homepage: https://github.com/yeager/l10n-glossary
 Description: Glossary editor for localization — manage term lists, flag inconsistencies
+
+Package: l10n-lint
+Version: 1.15.9-1
+Architecture: all
+Maintainer: Daniel Nylander <daniel@danielnylander.se>
+Depends: python3 (>= 3.9)
+Filename: pool/l10n-lint_1.15.9-1_all.deb
+Size: 47438
+MD5sum: b47127081164ccb86f78f5b040b6ca2d
+SHA1: 8974aab5f13d4018b4b096c78b009b8a7a9912db
+SHA256: 7a6c4a1500dc3ee1ba32d47bb9b8933edb17a172f92ca1495884512a18e13909
+Section: devel
+Priority: optional
+Homepage: https://github.com/yeager/l10n-lint
+Description: Linter for localization files (.po, .ts)
+ l10n-lint checks gettext .po and Qt .ts localization files for
+ common issues: missing translations, fuzzy entries, placeholder
+ mismatches, and more.
 
 Package: l10n-preview
 Version: 0.2.7-1
@@ -278,6 +313,40 @@ Description: GTK4 network capture analyzer
  PacketLens is a GTK4/Adwaita application for analyzing network
  captures with protocol stats, DNS/TLS/HTTP analysis, and file extraction.
 
+Package: po-diff
+Version: 1.0.1-1
+Architecture: all
+Maintainer: Daniel Nylander <daniel@danielnylander.se>
+Depends: python3 (>= 3.9)
+Filename: pool/po-diff_1.0.1-1_all.deb
+Size: 12396
+MD5sum: a95b1e1fe0d796f6890bda7ce6ec4d90
+SHA1: b0ad7eb892b06b3a1c62a50f91336cf36e781a18
+SHA256: afed02662eba62373ad908281c2ba623733f50bcaba3d411e6154de35a5a822c
+Section: devel
+Priority: optional
+Homepage: https://github.com/yeager/po-diff
+Description: Compare PO/TS translation files
+ po-diff compares two PO or TS translation files and shows
+ added, removed, and changed translations.
+
+Package: po-translate
+Version: 1.5.4-1
+Architecture: all
+Maintainer: Daniel Nylander <daniel@danielnylander.se>
+Depends: python3 (>= 3.9)
+Filename: pool/po-translate_1.5.4-1_all.deb
+Size: 12632
+MD5sum: ea510a10768943e84d0e506803b34d77
+SHA1: 40077d33b434465146e5f15642a10b77d08d7436
+SHA256: 80233b84afe86789d260e186a591b969b801565e56d3848cd586bf02b0e50a93
+Section: devel
+Priority: optional
+Homepage: https://github.com/yeager/po-translate
+Description: Translate PO files using multiple translation services
+ po-translate translates gettext PO files using various services
+ including DeepL, Google, OpenAI, Anthropic, and more.
+
 Package: snap-l10n
 Version: 0.2.9-1
 Architecture: all
@@ -293,6 +362,23 @@ Priority: optional
 Homepage: https://github.com/yeager/snap-l10n
 Description: View snap package translation status
 
+Package: svlang
+Version: 0.1.6-1
+Architecture: all
+Maintainer: Daniel Nylander <daniel@danielnylander.se>
+Depends: python3 (>= 3.9)
+Filename: pool/svlang_0.1.6-1_all.deb
+Size: 824702
+MD5sum: a1c0dc8ac6871ff58daee274d1d27122
+SHA1: a02b4bc58a87d0ae285651941ec033d6f4162a73
+SHA256: 338d38a4ee6cfe1e485935b72c7e54523060ba3c188efb9d9df03460f3608259
+Section: text
+Priority: optional
+Homepage: https://github.com/yeager/svlang
+Description: Swedish NLP toolkit for translators
+ svlang checks Swedish text for svengelska, consistency issues,
+ compound word errors, and readability (LIX score).
+
 Package: tm-manager
 Version: 0.2.9-1
 Architecture: all
@@ -307,6 +393,23 @@ Section: devel
 Priority: optional
 Homepage: https://github.com/yeager/tm-manager
 Description: Manage local Translation Memory files (TMX)
+
+Package: tp-lint
+Version: 1.8.4-1
+Architecture: all
+Maintainer: Daniel Nylander <daniel@danielnylander.se>
+Depends: python3 (>= 3.9)
+Filename: pool/tp-lint_1.8.4-1_all.deb
+Size: 48416
+MD5sum: e0e0d66c7b7d852668342a8f5611d64c
+SHA1: 7b0689fe6d8ed2c0239d1cad97ea595c4218c0d8
+SHA256: 433de627d4f7ee1dffb4c90e33440947d00c4961ffeaceb064deb0ec213d83e3
+Section: devel
+Priority: optional
+Homepage: https://github.com/yeager/tp-lint
+Description: Lint PO files from the Translation Project
+ tp-lint fetches and lints PO files from the Translation Project
+ (translationproject.org), checking for common translation issues.
 
 Package: tts-tester
 Version: 0.2.1-1
@@ -337,4 +440,23 @@ Section: devel
 Priority: optional
 Homepage: https://github.com/yeager/ubuntu-l10n
 Description: Ubuntu/Launchpad translation statistics viewer
+
+Package: vsdview
+Version: 0.3.5-1
+Architecture: all
+Maintainer: Daniel Nylander <daniel@danielnylander.se>
+Depends: python3 (>= 3.10), python3-gi, gir1.2-gtk-4.0, gir1.2-adw-1, gir1.2-rsvg-2.0
+Recommends: libvisio-tools
+Filename: pool/vsdview_0.3.5-1_all.deb
+Size: 33934
+MD5sum: 1b8f2707de4db09cbc3c8d00141cdbe7
+SHA1: fdbf0db88cdb3fb6421179c98249bb97f1bf92dc
+SHA256: 55930668e92c7f5a2d1889a0cbd971671bb539c8b4e8d6de7ba8f00afff259ed
+Section: graphics
+Priority: optional
+Homepage: https://github.com/yeager/vsdview
+Description: Read-only viewer for Microsoft Visio files
+ VSDView is a minimal viewer for .vsdx and .vsd files, built with
+ GTK4 and libadwaita. Uses a built-in .vsdx parser with optional
+ libvisio support for legacy .vsd files.
 
