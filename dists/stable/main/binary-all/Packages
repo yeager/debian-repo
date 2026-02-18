@@ -156,15 +156,15 @@ Homepage: https://github.com/yeager/ha-l10n
 Description: Home Assistant translation status dashboard
 
 Package: l10n-conv
-Version: 1.0.4-1
+Version: 1.0.5-1
 Architecture: all
 Maintainer: Daniel Nylander <daniel@danielnylander.se>
 Depends: python3 (>= 3.9)
-Filename: pool/l10n-conv_1.0.4-1_all.deb
+Filename: pool/l10n-conv_1.0.5-1_all.deb
 Size: 16608
-MD5sum: bedfc86272821895b6d616ad868bb2c5
-SHA1: 3d78c7cf2f0745ebf098ab0a4dc7f63c647db7db
-SHA256: 7208bf0bc31126f47bee90e0d243850025ae24b835e10ffd4d04a3066816e36f
+MD5sum: 0ced48741e25c2a393f6c1803d81b2c4
+SHA1: a4e3477001d7061a4f53f251dcba726e5057fe12
+SHA256: c6b52fa22121ec49458cc9304d3381dfd8ed84eee647dc9f33440701b3c64b97
 Section: devel
 Priority: optional
 Homepage: https://github.com/yeager/l10n-conv
@@ -314,15 +314,15 @@ Description: GTK4 network capture analyzer
  captures with protocol stats, DNS/TLS/HTTP analysis, and file extraction.
 
 Package: po-diff
-Version: 1.0.0-1
+Version: 1.0.1-1
 Architecture: all
 Maintainer: Daniel Nylander <daniel@danielnylander.se>
 Depends: python3 (>= 3.9)
-Filename: pool/po-diff_1.0.0-1_all.deb
+Filename: pool/po-diff_1.0.1-1_all.deb
 Size: 12396
-MD5sum: cf782ec5f28281ab1af7b9f123f0c48f
-SHA1: 3a7b7b66fa4b91639fff35395b1f1d97086e4ed8
-SHA256: 4a576eec2b8f223a005ab252591025be33ca80fddc71059ff39fd1a4bff80c88
+MD5sum: a95b1e1fe0d796f6890bda7ce6ec4d90
+SHA1: b0ad7eb892b06b3a1c62a50f91336cf36e781a18
+SHA256: afed02662eba62373ad908281c2ba623733f50bcaba3d411e6154de35a5a822c
 Section: devel
 Priority: optional
 Homepage: https://github.com/yeager/po-diff
@@ -348,15 +348,15 @@ Description: Translate PO files using multiple translation services
  including DeepL, Google, OpenAI, Anthropic, and more.
 
 Package: snap-l10n
-Version: 0.2.7-1
+Version: 0.2.8-1
 Architecture: all
 Maintainer: Daniel Nylander <daniel@danielnylander.se>
 Depends: python3 (>= 3.10), python3-gi, gir1.2-gtk-4.0, gir1.2-adw-1
-Filename: pool/snap-l10n_0.2.7-1_all.deb
-Size: 9594
-MD5sum: 5141e8912683c1c8d31560bc296f999b
-SHA1: 86039ed0e9dcf0d171e905034a68e734be4d14b6
-SHA256: 952e8dbff47635090416835e7511cb664118ee07f03f355627a46a2cf7ab3ee0
+Filename: pool/snap-l10n_0.2.8-1_all.deb
+Size: 9920
+MD5sum: 0b63c96e5127a963058340347d8ab876
+SHA1: 66a852957d35796dac9080b9f3422359f0f6e301
+SHA256: 30747d65d735cbeeccc67743599d6e8a862295d098e5adce6f301b89253de716
 Section: devel
 Priority: optional
 Homepage: https://github.com/yeager/snap-l10n
@@ -395,15 +395,15 @@ Homepage: https://github.com/yeager/tm-manager
 Description: Manage local Translation Memory files (TMX)
 
 Package: tp-lint
-Version: 1.8.3-1
+Version: 1.8.4-1
 Architecture: all
 Maintainer: Daniel Nylander <daniel@danielnylander.se>
 Depends: python3 (>= 3.9)
-Filename: pool/tp-lint_1.8.3-1_all.deb
-Size: 48446
-MD5sum: 21c96d9ac8977675972d2506ffa3c120
-SHA1: 2ffe279762c44d2859cb7cb165eb612106c6440e
-SHA256: a1aca201d501ba85080dfe52e34bff6719e1c2eeef10df3084431671aebe0b2d
+Filename: pool/tp-lint_1.8.4-1_all.deb
+Size: 48416
+MD5sum: e0e0d66c7b7d852668342a8f5611d64c
+SHA1: 7b0689fe6d8ed2c0239d1cad97ea595c4218c0d8
+SHA256: 433de627d4f7ee1dffb4c90e33440947d00c4961ffeaceb064deb0ec213d83e3
 Section: devel
 Priority: optional
 Homepage: https://github.com/yeager/tp-lint
