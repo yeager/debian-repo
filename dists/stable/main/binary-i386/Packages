@@ -325,6 +325,22 @@ Homepage: https://github.com/yeager/libretranslate-gui
 Description: LibreTranslate assistant with GTK4 interface
  GTK4/Adwaita frontend for LibreTranslate machine translation API.
 
+Package: linguaedit
+Version: 1.8.14-1
+Architecture: all
+Maintainer: Daniel Nylander <daniel@danielnylander.se>
+Depends: python3, python3-pyside6.qtwidgets, python3-polib, python3-yaml, python3-requests
+Filename: pool/linguaedit_1.8.14-1_all.deb
+Size: 50194
+MD5sum: 9775d474aa315657c7390bb13d1cc454
+SHA1: d1bf3e1dbf076695b5e3e821c936f07b0c3b3edb
+SHA256: e9795dae408a18d91abd04e1bfe6e8d6e34a766db82eb52d8e29512e1bd6947f
+Section: devel
+Priority: optional
+Description: Qt6/PySide6 translation file editor
+ A powerful translation file editor supporting PO, TS, JSON, XLIFF,
+ Android, ARB, PHP, and YAML formats.
+
 Package: locale-tester
 Version: 0.2.7-1
 Architecture: all
@@ -354,6 +370,21 @@ Section: utils
 Priority: optional
 Homepage: https://github.com/yeager/log-viewer
 Description: GTK4 journalctl log viewer
+
+Package: makebread
+Version: 0.4.0-1
+Architecture: all
+Maintainer: Daniel Nylander <daniel@danielnylander.se>
+Depends: python3 (>= 3.9), python3-gi, gir1.2-gtk-4.0, gir1.2-adw-1
+Filename: pool/makebread_0.4.0-1_all.deb
+Size: 18478
+MD5sum: a39d0bfac81bcc30bd4bb82667822b70
+SHA1: 9ad45a1622dcceaf33944b1c965b84af5a527b2d
+SHA256: 9e98a9ed4317b2740fad5c7dd6fb3fd64e0b054512ed0aa41cc4e246c426a6db
+Section: utils
+Priority: optional
+Homepage: https://github.com/yeager/makebread
+Description: Bread recipe manager
 
 Package: mqtt-dashboard
 Version: 0.1.1-1
