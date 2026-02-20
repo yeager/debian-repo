@@ -1,17 +1,62 @@
-Package: bildstod
-Version: 0.2.1-1
+Package: bildordbok
+Version: 0.1.1-1
 Architecture: all
 Maintainer: Daniel Nylander <daniel@danielnylander.se>
-Depends: python3 (>= 3.10), python3-gi, gir1.2-gtk-4.0, gir1.2-adw-1
-Filename: pool/main/bildstod_0.2.1-1_all.deb
-Size: 16276
-MD5sum: fc4f29e5298b2c9a2338391c01b3e192
-SHA1: 64189e90fbedc468d15a1d8403a3d1ea4fc34c91
-SHA256: 3e5e99bac1e4838b795352e5f303275343a90a4b2bc831590ae0578c978a753a
+Depends: python3, python3-gi, gir1.2-gtk-4.0, gir1.2-adw-1
+Filename: pool/bildordbok_0.1.1-1_all.deb
+Size: 9324
+MD5sum: 45b8e977ef6f78b853aebf2d505ea312
+SHA1: bc4fa83a25a269428cebb6c615812960018b9322
+SHA256: 4e278e9c5046c959a630b956b8bb07d3c8329b1ccf50c95f1dab6d1bdde4953f
+Section: utils
+Priority: optional
+Homepage: https://github.com/yeager/bildordbok
+Description: Bilingual picture dictionary with TTS
+
+Package: bildschema
+Version: 0.1.1-1
+Architecture: all
+Maintainer: Daniel Nylander <daniel@danielnylander.se>
+Depends: python3, python3-gi, gir1.2-gtk-4.0, gir1.2-adw-1
+Filename: pool/bildschema_0.1.1-1_all.deb
+Size: 6268
+MD5sum: 82b8012a2b6f6bf30a84831496e334a6
+SHA1: b94d54fb8ad2a8e8426187f65c341ffa60481b10
+SHA256: ba73ef575cbe9fa5a1a8f6302c0ba4e6dab2f99e91df5c8e1e12ab279aeca70a
+Section: utils
+Priority: optional
+Homepage: https://github.com/yeager/bildschema
+Description: Visual daily schedule with picture support
+
+Package: bildstod
+Version: 0.3.0-1
+Architecture: all
+Maintainer: Daniel Nylander <daniel@danielnylander.se>
+Depends: python3, python3-gi, gir1.2-gtk-4.0, gir1.2-adw-1
+Filename: pool/bildstod_0.3.0-1_all.deb
+Size: 16844
+MD5sum: 96ec649f76a7228e46a623f1705ca2ef
+SHA1: 7dda3a71f93ff7b15315560e776db933e3cca2b3
+SHA256: 2566057d38dedf8942d8dbd78e58db5eaec79c74ab069224c41018123c1f6708
 Section: utils
 Priority: optional
 Homepage: https://github.com/yeager/bildstod
-Description: Visual schedule and picture support tool
+Description: Visual schedule with ARASAAC pictograms
+
+Package: cert-watch
+Version: 0.1.1-1
+Architecture: all
+Maintainer: Daniel Nylander <daniel@danielnylander.se>
+Depends: python3, python3-gi, gir1.2-gtk-4.0, gir1.2-adw-1
+Filename: pool/cert-watch_0.1.1-1_all.deb
+Size: 6120
+MD5sum: de688d26ee0e011a07888e6908182a74
+SHA1: ee015bcc201a4c1620c09fa2e0382fbe457a0eb3
+SHA256: ef78b638d5c3819fd7e05b91bbd8bf1af866ee2e9a3af97156f5e94d7e3b9b8d
+Section: utils
+Priority: optional
+Homepage: https://github.com/yeager/cert-watch
+Description: TLS certificate monitoring tool
 
 Package: cldr-viewer
 Version: 0.1.9
@@ -109,6 +154,21 @@ Priority: optional
 Homepage: https://github.com/yeager/elementary-l10n
 Description: Translation status viewer for elementary OS components
 
+Package: firewall-manager
+Version: 0.1.1-1
+Architecture: all
+Maintainer: Daniel Nylander <daniel@danielnylander.se>
+Depends: python3, python3-gi, gir1.2-gtk-4.0, gir1.2-adw-1
+Filename: pool/firewall-manager_0.1.1-1_all.deb
+Size: 6148
+MD5sum: 4bb60a720bc884245f6e7f2f19da8c90
+SHA1: d39da28ef5f220454617fab12364394f2ea0fdf3
+SHA256: 8de7dae7d916f07880c8d9f1e7baaa5d5ed227a54599d2496c5b3dea8be72430
+Section: utils
+Priority: optional
+Homepage: https://github.com/yeager/firewall-manager
+Description: GTK4 frontend for ufw/nftables
+
 Package: font-preview
 Version: 0.2.9-1
 Architecture: all
@@ -139,6 +199,21 @@ Priority: optional
 Homepage: https://github.com/yeager/github-l10n
 Description: Browse GitHub project translation status
  GTK4/Adwaita app to view and compare translation coverage of GitHub projects.
+
+Package: gnome-l10n
+Version: 0.1.0-1
+Architecture: all
+Maintainer: Daniel Nylander <daniel@danielnylander.se>
+Depends: python3, python3-gi, gir1.2-gtk-4.0, gir1.2-adw-1
+Filename: pool/gnome-l10n_0.1.0-1_all.deb
+Size: 6956
+MD5sum: 8f005387860c4316919006edd1aaf4d7
+SHA1: c27015046b72301cff1f480b8547af0ede7b98f6
+SHA256: 37103d274e39f323fa7883663c4ace0263acdedf86aced4afac4c19ae97f0439
+Section: utils
+Priority: optional
+Homepage: https://github.com/yeager/gnome-l10n
+Description: Translation statistics viewer for GNOME
 
 Package: ha-l10n
 Version: 0.2.1
@@ -266,6 +341,36 @@ Priority: optional
 Homepage: https://github.com/yeager/locale-tester
 Description: GTK4/Adwaita app for testing and comparing locale behavior on Linux
 
+Package: log-viewer
+Version: 0.1.1-1
+Architecture: all
+Maintainer: Daniel Nylander <daniel@danielnylander.se>
+Depends: python3, python3-gi, gir1.2-gtk-4.0, gir1.2-adw-1
+Filename: pool/log-viewer_0.1.1-1_all.deb
+Size: 4824
+MD5sum: 995b3257baebf00bb8f8d5c1941edd98
+SHA1: 1db6863ba04eeadc1c20fa7be771761ceca79092
+SHA256: 216a716483d9c0da01a761c985552374a43d237859ccc2452b124ffa86ffd65f
+Section: utils
+Priority: optional
+Homepage: https://github.com/yeager/log-viewer
+Description: GTK4 journalctl log viewer
+
+Package: mqtt-dashboard
+Version: 0.1.1-1
+Architecture: all
+Maintainer: Daniel Nylander <daniel@danielnylander.se>
+Depends: python3, python3-gi, gir1.2-gtk-4.0, gir1.2-adw-1
+Filename: pool/mqtt-dashboard_0.1.1-1_all.deb
+Size: 5744
+MD5sum: 647bd74bb6eaab988667627a10b21ff0
+SHA1: 57bd654401e199b1ede9e5e3a8b5a3ef70a1c295
+SHA256: 02187101b5d285fdc27f78f7bb34595ac58bc12b86ba912d6527353cc4026e21
+Section: utils
+Priority: optional
+Homepage: https://github.com/yeager/mqtt-dashboard
+Description: MQTT dashboard with widgets
+
 Package: mqtt-inspector
 Version: 0.2.1-1
 Architecture: all
@@ -296,6 +401,21 @@ Priority: optional
 Homepage: https://github.com/yeager/obd2-viewer
 Description: OBD2 diagnostic data viewer and logger
 
+Package: ordbyggaren
+Version: 0.1.1-1
+Architecture: all
+Maintainer: Daniel Nylander <daniel@danielnylander.se>
+Depends: python3, python3-gi, gir1.2-gtk-4.0, gir1.2-adw-1
+Filename: pool/ordbyggaren_0.1.1-1_all.deb
+Size: 4884
+MD5sum: a8ee09a2743080d226872aae8f405553
+SHA1: d327937d34da5087a5c04b9eecf32e01880551ce
+SHA256: ddd9d01e10ac7bddf0ca0f048e93b7435aabe23b5e7b3b83fb6e0ea1bcd86d81
+Section: utils
+Priority: optional
+Homepage: https://github.com/yeager/ordbyggaren
+Description: Phonological training for children
+
 Package: packetlens
 Version: 0.2.6-1
 Architecture: all
@@ -312,6 +432,21 @@ Homepage: https://github.com/yeager/pcap-viewer
 Description: GTK4 network capture analyzer
  PacketLens is a GTK4/Adwaita application for analyzing network
  captures with protocol stats, DNS/TLS/HTTP analysis, and file extraction.
+
+Package: pecsbrada
+Version: 0.1.1-1
+Architecture: all
+Maintainer: Daniel Nylander <daniel@danielnylander.se>
+Depends: python3, python3-gi, gir1.2-gtk-4.0, gir1.2-adw-1
+Filename: pool/pecsbrada_0.1.1-1_all.deb
+Size: 6608
+MD5sum: 5a7d0ae9eb698898e30de6dcb20ba0b6
+SHA1: e789337fec333a3f22c9ecc48d7504e43ee04e9c
+SHA256: 30c7c343b441a5596ef4eb0308d4e1dda4dbc4922fe0b709b36c373c4e4be7a3
+Section: utils
+Priority: optional
+Homepage: https://github.com/yeager/pecsbrada
+Description: Digital PECS communication board
 
 Package: po-diff
 Version: 1.0.1-1
@@ -347,6 +482,66 @@ Description: Translate PO files using multiple translation services
  po-translate translates gettext PO files using various services
  including DeepL, Google, OpenAI, Anthropic, and more.
 
+Package: process-explorer
+Version: 0.1.1-1
+Architecture: all
+Maintainer: Daniel Nylander <daniel@danielnylander.se>
+Depends: python3, python3-gi, gir1.2-gtk-4.0, gir1.2-adw-1
+Filename: pool/process-explorer_0.1.1-1_all.deb
+Size: 4644
+MD5sum: f86fcb7b0bdb3c9721b3a69c4255e84e
+SHA1: 4ffe4877b563d82c1a72dec7f02fd1ac9ded0011
+SHA256: 4a04e44878a4446d11cf88a66f3839ac32b733e767c8ac2c3ad34b5f99f1e2db
+Section: utils
+Priority: optional
+Homepage: https://github.com/yeager/process-explorer
+Description: GTK4 process explorer
+
+Package: regex-tester
+Version: 0.1.1-1
+Architecture: all
+Maintainer: Daniel Nylander <daniel@danielnylander.se>
+Depends: python3, python3-gi, gir1.2-gtk-4.0, gir1.2-adw-1
+Filename: pool/regex-tester_0.1.1-1_all.deb
+Size: 5352
+MD5sum: 516cc837e3e3897c9422658f133e8f9d
+SHA1: b1d6b00576e093dc53617c96b8af21a4f28c1b5e
+SHA256: e28cf8a768dbc6b0fac7d7aa2e9d2abbd28f8713bc8e4c3e5dd1b673a112ddab
+Section: utils
+Priority: optional
+Homepage: https://github.com/yeager/regex-tester
+Description: Visual regex tester with live matching
+
+Package: rutinkompis
+Version: 0.1.1-1
+Architecture: all
+Maintainer: Daniel Nylander <daniel@danielnylander.se>
+Depends: python3, python3-gi, gir1.2-gtk-4.0, gir1.2-adw-1
+Filename: pool/rutinkompis_0.1.1-1_all.deb
+Size: 4668
+MD5sum: 29bc5634709752a2ba60c28f8602ea3a
+SHA1: 40c903ad7831d4f2cfabf94ae5224b96f95ab2ee
+SHA256: ec27ad414440ffdfdb47d04cd1aaacd143f0a9ccbed1e5ca896fb477846b9dd9
+Section: utils
+Priority: optional
+Homepage: https://github.com/yeager/rutinkompis
+Description: Step-by-step routine guides for children
+
+Package: scummvm-gtk
+Version: 0.1.0-1
+Architecture: all
+Maintainer: Daniel Nylander <daniel@danielnylander.se>
+Depends: python3, python3-gi, gir1.2-gtk-4.0, gir1.2-adw-1
+Filename: pool/scummvm-gtk_0.1.0-1_all.deb
+Size: 7688
+MD5sum: c240d09d847bf1fff7815ce1c65d3191
+SHA1: 041758f2d757f14105d83bc6203197377b17c8d8
+SHA256: 44a21ee1f9ad777856694b033a57b74e388f7d2f5e41efaee118900e5984e702
+Section: utils
+Priority: optional
+Homepage: https://github.com/yeager/scummvm-gtk
+Description: GTK4/Adwaita frontend for ScummVM
+
 Package: snap-l10n
 Version: 0.2.9-1
 Architecture: all
@@ -378,6 +573,21 @@ Homepage: https://github.com/yeager/svlang
 Description: Swedish NLP toolkit for translators
  svlang checks Swedish text for svengelska, consistency issues,
  compound word errors, and readability (LIX score).
+
+Package: tidskollen
+Version: 0.1.1-1
+Architecture: all
+Maintainer: Daniel Nylander <daniel@danielnylander.se>
+Depends: python3, python3-gi, gir1.2-gtk-4.0, gir1.2-adw-1
+Filename: pool/tidskollen_0.1.1-1_all.deb
+Size: 4544
+MD5sum: 9c9ea2b2ec38a9a862cd3d9c5c486167
+SHA1: 685becc88cf9caedf3791866cca4f734d4eed81d
+SHA256: 43d2b4311791fc47fa7314ef5f1b8dbdb3307ad70aa26318ecbc464b8056f2bf
+Section: utils
+Priority: optional
+Homepage: https://github.com/yeager/tidskollen
+Description: Visual time timer for children
 
 Package: tm-manager
 Version: 0.2.9-1
@@ -442,21 +652,47 @@ Homepage: https://github.com/yeager/ubuntu-l10n
 Description: Ubuntu/Launchpad translation statistics viewer
 
 Package: vsdview
-Version: 0.3.6-1
+Version: 0.4.0-1
 Architecture: all
 Maintainer: Daniel Nylander <daniel@danielnylander.se>
-Depends: python3 (>= 3.10), python3-gi, gir1.2-gtk-4.0, gir1.2-adw-1, gir1.2-rsvg-2.0
-Recommends: libvisio-tools
-Filename: pool/vsdview_0.3.6-1_all.deb
-Size: 39896
-MD5sum: 63d755fed57c1349b1ae9c45f4048c99
-SHA1: 08c1a1f4c42d75da115447458f99b5461da8f8bc
-SHA256: 0116e211ace7f85bd178ce9300eeddcac0047a14cf3c3b9e6b1c7141b8504264
-Section: graphics
+Depends: python3, python3-gi, gir1.2-gtk-4.0, gir1.2-adw-1
+Filename: pool/vsdview_0.4.0-1_all.deb
+Size: 42588
+MD5sum: 6d8594e0e37726d659b032cf5b9a8a1a
+SHA1: 130fe0e8abbc146721f0e0b1780682edc4ed9eee
+SHA256: e1b6705fc860441284e7e472c03fac96e307b73f1012774aeaa180bcfad8567a
+Section: utils
 Priority: optional
 Homepage: https://github.com/yeager/vsdview
-Description: Read-only viewer for Microsoft Visio files
- VSDView is a minimal viewer for .vsdx and .vsd files, built with
- GTK4 and libadwaita. Uses a built-in .vsdx parser with optional
- libvisio support for legacy .vsd files.
+Description: Visio file viewer for Linux and macOS
+
+Package: wifi-analyzer
+Version: 0.1.1-1
+Architecture: all
+Maintainer: Daniel Nylander <daniel@danielnylander.se>
+Depends: python3, python3-gi, gir1.2-gtk-4.0, gir1.2-adw-1
+Filename: pool/wifi-analyzer_0.1.1-1_all.deb
+Size: 5860
+MD5sum: d4fd79dda7ce899bf416f8aa947505ea
+SHA1: 092107f86d6ff9db241da1ceb872ac264852868d
+SHA256: 82ac86a5c9f94ba64b918e7e391726d2c65bc8b7dbfd94a08ea05031dea4f65d
+Section: utils
+Priority: optional
+Homepage: https://github.com/yeager/wifi-analyzer
+Description: WiFi channel analyzer
+
+Package: zigbee-manager
+Version: 0.1.1-1
+Architecture: all
+Maintainer: Daniel Nylander <daniel@danielnylander.se>
+Depends: python3, python3-gi, gir1.2-gtk-4.0, gir1.2-adw-1
+Filename: pool/zigbee-manager_0.1.1-1_all.deb
+Size: 5864
+MD5sum: c6a02b502e5332a0b0d976e9e8dee935
+SHA1: 3d841e32219df3c81e6a36f91cc9a4977fd121ac
+SHA256: 368a8951aec9ffe66e3ed60d3708031fbeba3255427ccd1b35b6bbaf9f5e966c
+Section: utils
+Priority: optional
+Homepage: https://github.com/yeager/zigbee-manager
+Description: Zigbee device manager
 
