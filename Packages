@@ -231,21 +231,19 @@ Homepage: https://github.com/yeager/ha-l10n
 Description: Home Assistant translation status dashboard
 
 Package: l10n-conv
-Version: 1.0.5-1
+Version: 1.0.9-1
 Architecture: all
 Maintainer: Daniel Nylander <daniel@danielnylander.se>
-Depends: python3 (>= 3.9)
-Filename: pool/l10n-conv_1.0.5-1_all.deb
-Size: 16608
-MD5sum: 0ced48741e25c2a393f6c1803d81b2c4
-SHA1: a4e3477001d7061a4f53f251dcba726e5057fe12
-SHA256: c6b52fa22121ec49458cc9304d3381dfd8ed84eee647dc9f33440701b3c64b97
-Section: devel
+Depends: python3
+Filename: pool/l10n-conv_1.0.9-1_all.deb
+Size: 10600
+MD5sum: f74d004334526c99ff6c8fdb0b7e09be
+SHA1: 20917451ae73d6ac156000dc2fb35420f69d884c
+SHA256: e6b554fb3010008e6d60cebe0be1eb2c497405022bee4fb43a1ce64eb43d081d
+Section: utils
 Priority: optional
 Homepage: https://github.com/yeager/l10n-conv
-Description: Convert between localization file formats
- l10n-conv converts between gettext PO, Qt TS, XLIFF, JSON,
- Android XML, iOS Strings, and other localization formats.
+Description: l10n-conv CLI tool
 
 Package: l10n-glossary
 Version: 0.2.7-1
@@ -263,22 +261,19 @@ Homepage: https://github.com/yeager/l10n-glossary
 Description: Glossary editor for localization — manage term lists, flag inconsistencies
 
 Package: l10n-lint
-Version: 1.15.9-1
+Version: 1.16.0-1
 Architecture: all
 Maintainer: Daniel Nylander <daniel@danielnylander.se>
-Depends: python3 (>= 3.9)
-Filename: pool/l10n-lint_1.15.9-1_all.deb
-Size: 47438
-MD5sum: b47127081164ccb86f78f5b040b6ca2d
-SHA1: 8974aab5f13d4018b4b096c78b009b8a7a9912db
-SHA256: 7a6c4a1500dc3ee1ba32d47bb9b8933edb17a172f92ca1495884512a18e13909
-Section: devel
+Depends: python3
+Filename: pool/l10n-lint_1.16.0-1_all.deb
+Size: 32064
+MD5sum: 389a080869ff7a105119bafe3e5594d4
+SHA1: f38ff22d7fbb1709887555fcd1c0b0eedad68114
+SHA256: e85374d4b045003a275ceb0f1ebc8117d59ebbdd6b22ff35ec2cf70ebf64e541
+Section: utils
 Priority: optional
 Homepage: https://github.com/yeager/l10n-lint
-Description: Linter for localization files (.po, .ts)
- l10n-lint checks gettext .po and Qt .ts localization files for
- common issues: missing translations, fuzzy entries, placeholder
- mismatches, and more.
+Description: Linter for translation files
 
 Package: l10n-preview
 Version: 0.2.7-1
@@ -558,21 +553,19 @@ Homepage: https://github.com/yeager/snap-l10n
 Description: View snap package translation status
 
 Package: svlang
-Version: 0.1.6-1
+Version: 0.1.7-1
 Architecture: all
 Maintainer: Daniel Nylander <daniel@danielnylander.se>
-Depends: python3 (>= 3.9)
-Filename: pool/svlang_0.1.6-1_all.deb
-Size: 824702
-MD5sum: a1c0dc8ac6871ff58daee274d1d27122
-SHA1: a02b4bc58a87d0ae285651941ec033d6f4162a73
-SHA256: 338d38a4ee6cfe1e485935b72c7e54523060ba3c188efb9d9df03460f3608259
-Section: text
+Depends: python3
+Filename: pool/svlang_0.1.7-1_all.deb
+Size: 3784
+MD5sum: b578e3b1df2a32312e96e7904ce32d5b
+SHA1: 30d5c2db6aa426df87ee33c4ae49d2aae72f5687
+SHA256: 6f328d1bbb120622b3d20d4a261c93bba0fafa890f42cffe0a360c2c3c765ada
+Section: utils
 Priority: optional
 Homepage: https://github.com/yeager/svlang
-Description: Swedish NLP toolkit for translators
- svlang checks Swedish text for svengelska, consistency issues,
- compound word errors, and readability (LIX score).
+Description: svlang CLI tool
 
 Package: tidskollen
 Version: 0.1.1-1
