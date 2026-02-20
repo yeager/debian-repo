@@ -63,7 +63,7 @@ Version: 0.1.9
 Architecture: all
 Maintainer: Daniel Nylander <daniel@danielnylander.se>
 Depends: python3 (>= 3.10), python3-gi, gir1.2-gtk-4.0, gir1.2-adw-1
-Filename: pool/main/cldr-viewer_0.1.9_all.deb
+Filename: pool/cldr-viewer_0.1.9_all.deb
 Size: 10052
 MD5sum: 269aba6dc4ca87522cb30a842cfcc168
 SHA1: de0cc3ea6c8b78d2896ccae7755b54dc586d0c8e
@@ -80,7 +80,7 @@ Version: 0.1.9-1
 Architecture: all
 Maintainer: Daniel Nylander <daniel@danielnylander.se>
 Depends: python3 (>= 3.10), python3-gi, gir1.2-gtk-4.0, gir1.2-adw-1
-Filename: pool/main/commonvoice-status_0.1.9-1_all.deb
+Filename: pool/commonvoice-status_0.1.9-1_all.deb
 Size: 9696
 MD5sum: e4de223cd5597ea0b7f98bc8a0608a09
 SHA1: cfad4943651c086cd0de320716af40379d2ebff4
@@ -97,7 +97,7 @@ Version: 0.3.0-1
 Architecture: all
 Maintainer: Daniel Nylander <daniel@danielnylander.se>
 Depends: python3 (>= 3.10), python3-gi, gir1.2-gtk-4.0, gir1.2-adw-1, python3-requests
-Filename: pool/main/cve-monitor_0.3.0-1_all.deb
+Filename: pool/cve-monitor_0.3.0-1_all.deb
 Size: 16258
 MD5sum: 58a879cc95ceb9bb793c9f6a4b590b54
 SHA1: 8c58111b28d3f959aeceffd7233825935c139e51
@@ -108,15 +108,16 @@ Homepage: https://github.com/yeager/cve-monitor
 Description: Monitor CVE vulnerabilities for installed packages
 
 Package: ddtp-translate
-Version: 0.8.1-1
+Version: 0.9.0-1
 Architecture: all
 Maintainer: Daniel Nylander <daniel@danielnylander.se>
 Depends: python3 (>= 3.10), python3-gi, gir1.2-gtk-4.0, gir1.2-adw-1
-Filename: pool/main/ddtp-translate_0.8.1-1_all.deb
-Size: 34442
-MD5sum: 5bfcd0773bf25541586ad51191516fba
-SHA1: a57ba73cd8d44a11fb586c63658c1ed8e070f42f
-SHA256: 217c082d184fe5d6ea31f188744bd57ce546efbf08c4d15fd9b2eaf325eb7a20
+Suggests: po-translate
+Filename: pool/ddtp-translate_0.9.0-1_all.deb
+Size: 37738
+MD5sum: 950e66e7c815858dfdb23e3f71b774fb
+SHA1: 7573891062f4661ea4bf96076d84fc5a826dee45
+SHA256: 35343cc32e6e84baff78fe469c0b6e685222e27557aec74ca24d49a4faabcc25
 Section: devel
 Priority: optional
 Homepage: https://github.com/yeager/ddtp-translate
@@ -129,7 +130,7 @@ Version: 0.2.8-1
 Architecture: all
 Maintainer: Daniel Nylander <daniel@danielnylander.se>
 Depends: python3 (>= 3.10), python3-gi, gir1.2-gtk-4.0, gir1.2-adw-1
-Filename: pool/main/desktop-editor_0.2.8-1_all.deb
+Filename: pool/desktop-editor_0.2.8-1_all.deb
 Size: 12188
 MD5sum: 3fae5e696a8fae6ce1d15ffa9815ddd0
 SHA1: bda289a80acbda779bf53fad97fa5a436b3cb9d5
@@ -144,7 +145,7 @@ Version: 0.3.2-1
 Architecture: all
 Maintainer: Daniel Nylander <daniel@danielnylander.se>
 Depends: python3 (>= 3.10), python3-gi, gir1.2-gtk-4.0, gir1.2-adw-1
-Filename: pool/main/elementary-l10n_0.3.2-1_all.deb
+Filename: pool/elementary-l10n_0.3.2-1_all.deb
 Size: 13884
 MD5sum: bacf77e33019392250be503ffffdc7fc
 SHA1: 3ebfb087aeff8a4000e56135a0640c88c90f78dc
@@ -174,7 +175,7 @@ Version: 0.2.9-1
 Architecture: all
 Maintainer: Daniel Nylander <daniel@danielnylander.se>
 Depends: python3 (>= 3.10), python3-gi, gir1.2-gtk-4.0, gir1.2-adw-1
-Filename: pool/main/font-preview_0.2.9-1_all.deb
+Filename: pool/font-preview_0.2.9-1_all.deb
 Size: 11090
 MD5sum: 70a626ab99d81ed662af5bc3a87d12d5
 SHA1: 44e43499749ff4beb443b12e8b7ea60acc3c1e7c
@@ -189,7 +190,7 @@ Version: 0.2.7
 Architecture: all
 Maintainer: Daniel Nylander <daniel@danielnylander.se>
 Depends: python3 (>= 3.10), python3-gi, gir1.2-gtk-4.0, gir1.2-adw-1
-Filename: pool/main/github-l10n_0.2.7_all.deb
+Filename: pool/github-l10n_0.2.7_all.deb
 Size: 11608
 MD5sum: 37e6e391c13e218c99c004882af67c25
 SHA1: edc896247001b3d0a2a143921e151c0e76f0c11f
@@ -201,26 +202,29 @@ Description: Browse GitHub project translation status
  GTK4/Adwaita app to view and compare translation coverage of GitHub projects.
 
 Package: gnome-l10n
-Version: 0.1.0-1
+Version: 0.2.0-1
 Architecture: all
 Maintainer: Daniel Nylander <daniel@danielnylander.se>
 Depends: python3, python3-gi, gir1.2-gtk-4.0, gir1.2-adw-1
-Filename: pool/gnome-l10n_0.1.0-1_all.deb
-Size: 6956
-MD5sum: 8f005387860c4316919006edd1aaf4d7
-SHA1: c27015046b72301cff1f480b8547af0ede7b98f6
-SHA256: 37103d274e39f323fa7883663c4ace0263acdedf86aced4afac4c19ae97f0439
+Recommends: scummvm
+Filename: pool/gnome-l10n_0.2.0-1_all.deb
+Size: 9122
+MD5sum: b8a7805b5490fb1de9aa8d1b109371cd
+SHA1: b43ffd352446cfca255afed736a11ff7e599b942
+SHA256: ddddafc5ad9673563fd6c76e3226f63dbc3198da0aacc20b32e7851e300069c9
 Section: utils
 Priority: optional
 Homepage: https://github.com/yeager/gnome-l10n
-Description: Translation statistics viewer for GNOME
+Description: GTK4/Adwaita frontend for ScummVM
+ Browse, search and launch ScummVM utils with a modern
+ Linux desktop interface.
 
 Package: ha-l10n
 Version: 0.2.1
 Architecture: all
 Maintainer: Daniel Nylander <daniel@danielnylander.se>
 Depends: python3 (>= 3.10), python3-gi, gir1.2-gtk-4.0, gir1.2-adw-1
-Filename: pool/main/ha-l10n_0.2.1_all.deb
+Filename: pool/ha-l10n_0.2.1_all.deb
 Size: 15848
 MD5sum: b178205ecdb01a87c182df408020c6a8
 SHA1: accfa70c8561a65112933ab5cc2a490ddb70d3e4
@@ -250,7 +254,7 @@ Version: 0.2.7-1
 Architecture: all
 Maintainer: Daniel Nylander <daniel@danielnylander.se>
 Depends: python3 (>= 3.10), python3-gi, gir1.2-gtk-4.0, gir1.2-adw-1
-Filename: pool/main/l10n-glossary_0.2.7-1_all.deb
+Filename: pool/l10n-glossary_0.2.7-1_all.deb
 Size: 11532
 MD5sum: 0266c167d4e652ce4a630e83d6213acf
 SHA1: 5a22476fe599fe843d3a627d6353fa41e0247d5c
@@ -280,7 +284,7 @@ Version: 0.2.7-1
 Architecture: all
 Maintainer: Daniel Nylander <daniel@danielnylander.se>
 Depends: python3 (>= 3.10), python3-gi, gir1.2-gtk-4.0, gir1.2-adw-1
-Filename: pool/main/l10n-preview_0.2.7-1_all.deb
+Filename: pool/l10n-preview_0.2.7-1_all.deb
 Size: 8936
 MD5sum: 5a3d0757a19390e8603b90c3b4aa17e1
 SHA1: 721215c26f1a0e84e2c2c2f0beb4210874900b2b
@@ -295,7 +299,7 @@ Version: 0.2.6-1
 Architecture: all
 Maintainer: Daniel Nylander <daniel@danielnylander.se>
 Depends: python3 (>= 3.10), python3-gi, gir1.2-gtk-4.0, gir1.2-adw-1
-Filename: pool/main/langpack-inspector_0.2.6-1_all.deb
+Filename: pool/langpack-inspector_0.2.6-1_all.deb
 Size: 10368
 MD5sum: 92daa1e9f59cd09b7e2193035d8ed0f3
 SHA1: 99bbc803cca45c4bce61e05692a4b5ac90f3ba18
@@ -310,7 +314,7 @@ Version: 0.2.7
 Architecture: all
 Maintainer: Daniel Nylander <daniel@danielnylander.se>
 Depends: python3 (>= 3.10), python3-gi, gir1.2-gtk-4.0, gir1.2-adw-1
-Filename: pool/main/libretranslate-gui_0.2.7_all.deb
+Filename: pool/libretranslate-gui_0.2.7_all.deb
 Size: 9486
 MD5sum: 4cee7568782c91b24e395017c9ef9473
 SHA1: 7f527435cda73f9008754849884551c00512c4b1
@@ -326,7 +330,7 @@ Version: 0.2.7-1
 Architecture: all
 Maintainer: Daniel Nylander <daniel@danielnylander.se>
 Depends: python3 (>= 3.10), python3-gi, gir1.2-gtk-4.0, gir1.2-adw-1
-Filename: pool/main/locale-tester_0.2.7-1_all.deb
+Filename: pool/locale-tester_0.2.7-1_all.deb
 Size: 9218
 MD5sum: 67c0478f97ef9bebcca6fc3a7f6f5dd0
 SHA1: d323b9411acd982f260b149bf280f84524464120
@@ -371,7 +375,7 @@ Version: 0.2.1-1
 Architecture: all
 Maintainer: Daniel Nylander <daniel@danielnylander.se>
 Depends: python3 (>= 3.10), python3-gi, gir1.2-gtk-4.0, gir1.2-adw-1
-Filename: pool/main/mqtt-inspector_0.2.1-1_all.deb
+Filename: pool/mqtt-inspector_0.2.1-1_all.deb
 Size: 10206
 MD5sum: 8310df41f536d138cb4841e38b53aced
 SHA1: 540630a4fccf530368891afbce8ac6f3307f9a40
@@ -386,7 +390,7 @@ Version: 0.2.1-1
 Architecture: all
 Maintainer: Daniel Nylander <daniel@danielnylander.se>
 Depends: python3 (>= 3.10), python3-gi, gir1.2-gtk-4.0, gir1.2-adw-1
-Filename: pool/main/obd2-viewer_0.2.1-1_all.deb
+Filename: pool/obd2-viewer_0.2.1-1_all.deb
 Size: 18518
 MD5sum: 7cf5ad23df848ddad10779ec0315e99b
 SHA1: 4141aef2d28a078843b537a46a29c00bfc36e194
@@ -416,7 +420,7 @@ Version: 0.2.6-1
 Architecture: all
 Maintainer: Daniel Nylander <daniel@danielnylander.se>
 Depends: python3 (>= 3.10), python3-gi, gir1.2-gtk-4.0, gir1.2-adw-1
-Filename: pool/main/packetlens_0.2.6-1_all.deb
+Filename: pool/packetlens_0.2.6-1_all.deb
 Size: 36408
 MD5sum: 080963dec6475482ef2ddc134139d663
 SHA1: f4ea6df8477aa750d754418bfbe2cc23c291074b
@@ -527,22 +531,25 @@ Version: 0.1.0-1
 Architecture: all
 Maintainer: Daniel Nylander <daniel@danielnylander.se>
 Depends: python3, python3-gi, gir1.2-gtk-4.0, gir1.2-adw-1
+Recommends: scummvm
 Filename: pool/scummvm-gtk_0.1.0-1_all.deb
-Size: 7688
-MD5sum: c240d09d847bf1fff7815ce1c65d3191
-SHA1: 041758f2d757f14105d83bc6203197377b17c8d8
-SHA256: 44a21ee1f9ad777856694b033a57b74e388f7d2f5e41efaee118900e5984e702
-Section: utils
+Size: 7794
+MD5sum: f3773a4157d1ca870ec5decf083747d9
+SHA1: c4158665c19d672bc3a594e733240db8e82d641b
+SHA256: 94a9a160f2c255be9b862b28499c3a45e1d629d724b94e331f05f9f07cb5dafb
+Section: games
 Priority: optional
 Homepage: https://github.com/yeager/scummvm-gtk
 Description: GTK4/Adwaita frontend for ScummVM
+ Browse, search and launch ScummVM games with a modern
+ Linux desktop interface.
 
 Package: snap-l10n
 Version: 0.2.9-1
 Architecture: all
 Maintainer: Daniel Nylander <daniel@danielnylander.se>
 Depends: python3 (>= 3.10), python3-gi, gir1.2-gtk-4.0, gir1.2-adw-1
-Filename: pool/main/snap-l10n_0.2.9-1_all.deb
+Filename: pool/snap-l10n_0.2.9-1_all.deb
 Size: 9944
 MD5sum: a60d6d90d985173a78bc5fa7dc691a8c
 SHA1: d1193a358d05e29e24b4074a0fa9f49166f28daa
@@ -587,7 +594,7 @@ Version: 0.2.9-1
 Architecture: all
 Maintainer: Daniel Nylander <daniel@danielnylander.se>
 Depends: python3 (>= 3.10), python3-gi, gir1.2-gtk-4.0, gir1.2-adw-1
-Filename: pool/main/tm-manager_0.2.9-1_all.deb
+Filename: pool/tm-manager_0.2.9-1_all.deb
 Size: 11426
 MD5sum: 21fe14f6f12ca76fc6c74ff98f26c352
 SHA1: 6bd7acc7844ef0a0cedac3df51c63822b2b0489e
@@ -619,7 +626,7 @@ Version: 0.2.1-1
 Architecture: all
 Maintainer: Daniel Nylander <daniel@danielnylander.se>
 Depends: python3 (>= 3.10), python3-gi, gir1.2-gtk-4.0, gir1.2-adw-1
-Filename: pool/main/tts-tester_0.2.1-1_all.deb
+Filename: pool/tts-tester_0.2.1-1_all.deb
 Size: 13198
 MD5sum: 21f47730ab09275e5b52533cee0d70b8
 SHA1: 8fee504b733f4a2ec76522411edd0db1d638270e
@@ -634,7 +641,7 @@ Version: 0.3.5-1
 Architecture: all
 Maintainer: Daniel Nylander <daniel@danielnylander.se>
 Depends: python3 (>= 3.10), python3-gi, gir1.2-gtk-4.0, gir1.2-adw-1
-Filename: pool/main/ubuntu-l10n_0.3.5-1_all.deb
+Filename: pool/ubuntu-l10n_0.3.5-1_all.deb
 Size: 13436
 MD5sum: 963f5341138b47efa95ae864ae6d46dc
 SHA1: 1f07bef1abfdce6aa9e6cafc01daf247d9040e99
@@ -648,16 +655,16 @@ Package: vsdview
 Version: 0.4.0-1
 Architecture: all
 Maintainer: Daniel Nylander <daniel@danielnylander.se>
-Depends: python3, python3-gi, gir1.2-gtk-4.0, gir1.2-adw-1
+Depends: python3 (>= 3.9), python3-gi, gir1.2-gtk-4.0, gir1.2-adw-1
 Filename: pool/vsdview_0.4.0-1_all.deb
-Size: 42588
-MD5sum: 6d8594e0e37726d659b032cf5b9a8a1a
-SHA1: 130fe0e8abbc146721f0e0b1780682edc4ed9eee
-SHA256: e1b6705fc860441284e7e472c03fac96e307b73f1012774aeaa180bcfad8567a
+Size: 44512
+MD5sum: abd67ca083a2c55993834df309d5f35c
+SHA1: fe6bf59ff7780b559932313b3b576bb710170f90
+SHA256: 715026eff2e409d1070ddb9f708f56eac4e4a444f789d399ced092b2a77c7894
 Section: utils
 Priority: optional
 Homepage: https://github.com/yeager/vsdview
-Description: Visio file viewer for Linux and macOS
+Description: Visio file viewer for Linux
 
 Package: wifi-analyzer
 Version: 0.1.1-1
