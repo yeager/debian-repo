@@ -1,32 +1,32 @@
 Package: bildordbok
-Version: 0.1.1-1
+Version: 0.2.0-1
 Architecture: all
 Maintainer: Daniel Nylander <daniel@danielnylander.se>
-Depends: python3, python3-gi, gir1.2-gtk-4.0, gir1.2-adw-1
-Filename: pool/bildordbok_0.1.1-1_all.deb
-Size: 9324
-MD5sum: 45b8e977ef6f78b853aebf2d505ea312
-SHA1: bc4fa83a25a269428cebb6c615812960018b9322
-SHA256: 4e278e9c5046c959a630b956b8bb07d3c8329b1ccf50c95f1dab6d1bdde4953f
+Depends: python3 (>= 3.9), python3-gi, gir1.2-gtk-4.0, gir1.2-adw-1
+Filename: pool/bildordbok_0.2.0-1_all.deb
+Size: 28650
+MD5sum: 17ab526c37265ee18f056a7ba16a1ade
+SHA1: 07df4c8f46e374cd2ba8e9a829a3115e3a1099a0
+SHA256: 6f7013ff3614e21240723fd619b694cfffbc412c0c1445d7e14904865c209581
 Section: utils
 Priority: optional
 Homepage: https://github.com/yeager/bildordbok
-Description: Bilingual picture dictionary with TTS
+Description: Picture dictionary with ARASAAC images
 
 Package: bildschema
-Version: 0.1.1-1
+Version: 0.2.0-1
 Architecture: all
 Maintainer: Daniel Nylander <daniel@danielnylander.se>
-Depends: python3, python3-gi, gir1.2-gtk-4.0, gir1.2-adw-1
-Filename: pool/bildschema_0.1.1-1_all.deb
-Size: 6268
-MD5sum: 82b8012a2b6f6bf30a84831496e334a6
-SHA1: b94d54fb8ad2a8e8426187f65c341ffa60481b10
-SHA256: ba73ef575cbe9fa5a1a8f6302c0ba4e6dab2f99e91df5c8e1e12ab279aeca70a
+Depends: python3 (>= 3.9), python3-gi, gir1.2-gtk-4.0, gir1.2-adw-1
+Filename: pool/bildschema_0.2.0-1_all.deb
+Size: 6860
+MD5sum: f08d1742abe0f5f9d2a3a22c5297e4ef
+SHA1: 78511afda0fa41a5e2c6c86d854f5b40eafa750a
+SHA256: ff314f8684fc34670154a17fc380fc49cb370808ac405ebbc0b59405a17476a2
 Section: utils
 Priority: optional
 Homepage: https://github.com/yeager/bildschema
-Description: Visual daily schedule with picture support
+Description: Visual schedule with PECS/ARASAAC images
 
 Package: bildstod
 Version: 0.3.0-1
@@ -464,19 +464,19 @@ Description: GTK4 network capture analyzer
  captures with protocol stats, DNS/TLS/HTTP analysis, and file extraction.
 
 Package: pecsbrada
-Version: 0.1.1-1
+Version: 0.2.0-1
 Architecture: all
 Maintainer: Daniel Nylander <daniel@danielnylander.se>
-Depends: python3, python3-gi, gir1.2-gtk-4.0, gir1.2-adw-1
-Filename: pool/pecsbrada_0.1.1-1_all.deb
-Size: 6608
-MD5sum: 5a7d0ae9eb698898e30de6dcb20ba0b6
-SHA1: e789337fec333a3f22c9ecc48d7504e43ee04e9c
-SHA256: 30c7c343b441a5596ef4eb0308d4e1dda4dbc4922fe0b709b36c373c4e4be7a3
+Depends: python3 (>= 3.9), python3-gi, gir1.2-gtk-4.0, gir1.2-adw-1
+Filename: pool/pecsbrada_0.2.0-1_all.deb
+Size: 7374
+MD5sum: d59635f2c72681453d8e60033e1e6235
+SHA1: 4f168b65cd8aa68ae1151572e581af3f40e294a2
+SHA256: 44911b331aee1064fc54f29235266c7df00ad8178163273da8053cd4a329d283
 Section: utils
 Priority: optional
 Homepage: https://github.com/yeager/pecsbrada
-Description: Digital PECS communication board
+Description: PECS communication board
 
 Package: po-diff
 Version: 1.0.1-1
@@ -543,19 +543,19 @@ Homepage: https://github.com/yeager/regex-tester
 Description: Visual regex tester with live matching
 
 Package: rutinkompis
-Version: 0.1.1-1
+Version: 0.2.0-1
 Architecture: all
 Maintainer: Daniel Nylander <daniel@danielnylander.se>
-Depends: python3, python3-gi, gir1.2-gtk-4.0, gir1.2-adw-1
-Filename: pool/rutinkompis_0.1.1-1_all.deb
-Size: 4668
-MD5sum: 29bc5634709752a2ba60c28f8602ea3a
-SHA1: 40c903ad7831d4f2cfabf94ae5224b96f95ab2ee
-SHA256: ec27ad414440ffdfdb47d04cd1aaacd143f0a9ccbed1e5ca896fb477846b9dd9
+Depends: python3 (>= 3.9), python3-gi, gir1.2-gtk-4.0, gir1.2-adw-1
+Filename: pool/rutinkompis_0.2.0-1_all.deb
+Size: 6956
+MD5sum: bb44beb98ecf4b2ec1b0db4aef2bac1a
+SHA1: cd19986baefd10c3c2cd3ae53b21a8073d0a87f1
+SHA256: 2f99d9b39f1b6ba3d7c09fb9c5ad3d883cdd9e8ffe52ac318f468e29e630d0c8
 Section: utils
 Priority: optional
 Homepage: https://github.com/yeager/rutinkompis
-Description: Step-by-step routine guides for children
+Description: Daily routine companion for children
 
 Package: scummvm-gtk
 Version: 0.1.0-1
