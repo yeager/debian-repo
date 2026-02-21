@@ -111,19 +111,16 @@ Package: ddtp-translate
 Version: 0.11.0-1
 Architecture: all
 Maintainer: Daniel Nylander <daniel@danielnylander.se>
-Depends: python3 (>= 3.10), python3-gi, gir1.2-gtk-4.0, gir1.2-adw-1
-Suggests: po-translate
+Depends: python3 (>= 3.9), python3-gi, gir1.2-gtk-4.0, gir1.2-adw-1
 Filename: ./ddtp-translate_0.11.0-1_all.deb
-Size: 40748
-MD5sum: 63f52ad504ee9cb28adc9265e8d0daaa
-SHA1: 22e4750d224ed343a1a1a7a669ff4a41b5e9a64a
-SHA256: 3d5dbcf99b35c06b88863ec6541080dc344ad7067e04033204220e8dc63b533c
-Section: devel
+Size: 41410
+MD5sum: a17ae812b50aed1a539a8a9e33122ec4
+SHA1: c9611207732aca35b6f9e7760e7b1514f5a6477e
+SHA256: 64fed4b6dd9fec1e0570435048414e0aa884a4ed1cbc003ff9a0a74a08e0a121
+Section: utils
 Priority: optional
 Homepage: https://github.com/yeager/ddtp-translate
-Description: Translate Debian package descriptions via DDTP
- A GTK4/Adwaita application for translating Debian package
- descriptions via the Debian Description Translation Project.
+Description: Debian package description translator
 
 Package: desktop-editor
 Version: 0.2.8-1
@@ -497,10 +494,10 @@ Architecture: all
 Maintainer: Daniel Nylander <daniel@danielnylander.se>
 Depends: python3 (>= 3.9)
 Filename: ./po-translate_1.5.6-1_all.deb
-Size: 11524
-MD5sum: ad24c6ba02c67aae7ec168c3aff1a5f1
-SHA1: 86f6bbd4955f43c90924dfc7f682c8315a6272f0
-SHA256: 22bdde9aeaa76194e21db7c721f3b0cde91645c64c7ee96e1408ec0bb41055d3
+Size: 11476
+MD5sum: ae78b8a7214d5363472ca1bad87a8006
+SHA1: 02206b81109e042cc2756aba7b15203ab9545511
+SHA256: 895dd7cdea7aacf5e3f40b454577c94c67fc40993f545ff3a992a10b5953b230
 Section: utils
 Priority: optional
 Homepage: https://github.com/yeager/po-translate
