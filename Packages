@@ -383,6 +383,21 @@ Priority: optional
 Homepage: https://github.com/yeager/log-viewer
 Description: GTK4 journalctl log viewer
 
+Package: lugnarummet
+Version: 0.1.0-1
+Architecture: all
+Maintainer: Daniel Nylander <daniel@danielnylander.se>
+Depends: python3 (>= 3.10), python3-gi, gir1.2-gtk-4.0, gir1.2-adw-1
+Filename: ./lugnarummet_0.1.0-1_all.deb
+Size: 6382
+MD5sum: aaeb6deaf5e4f8650ee8df56087046d9
+SHA1: c39c05ebbc600475ab2939202115ff8048b393d1
+SHA256: 31504f86333b7be4cec6e99e48a4a7f53c26c20987689051a52cda9f6bafbaa8
+Section: utils
+Priority: optional
+Homepage: https://github.com/yeager/lugnarummet
+Description: Sensory regulation and calming strategies
+
 Package: makebread
 Version: 0.4.0-1
 Architecture: all
