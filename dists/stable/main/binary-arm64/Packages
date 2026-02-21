@@ -29,15 +29,15 @@ Homepage: https://github.com/yeager/bildschema
 Description: Visual schedule with PECS/ARASAAC images
 
 Package: bildstod
-Version: 0.4.0-1
+Version: 0.4.1
 Architecture: all
 Maintainer: Daniel Nylander <daniel@danielnylander.se>
 Depends: python3 (>= 3.10), python3-gi, gir1.2-gtk-4.0, gir1.2-adw-1
-Filename: ./bildstod_0.4.0-1_all.deb
-Size: 24032
-MD5sum: b683c16158ad94eecea787c94618f145
-SHA1: a0be252fa2d3b1a82a1cb05210045be6c2757703
-SHA256: 2dfdaa3d78704692d6f84cb0927e4a76fc4128a7de8ba16c5a40375c3e275359
+Filename: ./bildstod_0.4.1_all.deb
+Size: 24810
+MD5sum: ef904af53911c7a3cfc7861d99ae397d
+SHA1: 7c53b4623d8c67c8ac11501d3113ee84ceefeb3a
+SHA256: f877164fada04a3bcdd860c262618b1663981b847012ef1a5cd7a8cb45b2d6d6
 Section: utils
 Priority: optional
 Homepage: https://github.com/yeager/bildstod
