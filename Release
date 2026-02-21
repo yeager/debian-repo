@@ -1,29 +1,9 @@
 Origin: Danne L10n Suite
 Label: Danne L10n Suite
-Suite: stable
-Codename: stable
-Architectures: all amd64 arm64 armhf i386
-Components: main
-Description: Danne L10n Suite repository
+Date: Sat, 21 Feb 2026 12:33:05 UTC
 MD5Sum:
- 816162e53cd6f19c5bdd381ed63789ec 7445 main/binary-arm64/Packages.gz
- 31960605890a3c5c10691ea5279c9168 26027 main/binary-arm64/Packages
- 816162e53cd6f19c5bdd381ed63789ec 7445 main/binary-i386/Packages.gz
- 31960605890a3c5c10691ea5279c9168 26027 main/binary-i386/Packages
- 816162e53cd6f19c5bdd381ed63789ec 7445 main/binary-armhf/Packages.gz
- 31960605890a3c5c10691ea5279c9168 26027 main/binary-armhf/Packages
- 816162e53cd6f19c5bdd381ed63789ec 7445 main/binary-all/Packages.gz
- 31960605890a3c5c10691ea5279c9168 26027 main/binary-all/Packages
- 816162e53cd6f19c5bdd381ed63789ec 7445 main/binary-amd64/Packages.gz
- 31960605890a3c5c10691ea5279c9168 26027 main/binary-amd64/Packages
+ 2c03ee8efa9ef6c16c35b1bc60ca654e 25870 Packages
+ 38c20d5a01da5d2477209284d90a1356 7383 Packages.gz
 SHA256:
- a6910d3ba47f92a9e2e8c60ec396dcf951c3635933a3a913df8197f7bc23bf2c 7445 main/binary-arm64/Packages.gz
- 0e68d5403d6e4ed61b0d8082dbb097da1ccac48ca7af12e3be3cc02a99aaf4a9 26027 main/binary-arm64/Packages
- a6910d3ba47f92a9e2e8c60ec396dcf951c3635933a3a913df8197f7bc23bf2c 7445 main/binary-i386/Packages.gz
- 0e68d5403d6e4ed61b0d8082dbb097da1ccac48ca7af12e3be3cc02a99aaf4a9 26027 main/binary-i386/Packages
- a6910d3ba47f92a9e2e8c60ec396dcf951c3635933a3a913df8197f7bc23bf2c 7445 main/binary-armhf/Packages.gz
- 0e68d5403d6e4ed61b0d8082dbb097da1ccac48ca7af12e3be3cc02a99aaf4a9 26027 main/binary-armhf/Packages
- a6910d3ba47f92a9e2e8c60ec396dcf951c3635933a3a913df8197f7bc23bf2c 7445 main/binary-all/Packages.gz
- 0e68d5403d6e4ed61b0d8082dbb097da1ccac48ca7af12e3be3cc02a99aaf4a9 26027 main/binary-all/Packages
- a6910d3ba47f92a9e2e8c60ec396dcf951c3635933a3a913df8197f7bc23bf2c 7445 main/binary-amd64/Packages.gz
- 0e68d5403d6e4ed61b0d8082dbb097da1ccac48ca7af12e3be3cc02a99aaf4a9 26027 main/binary-amd64/Packages
+ 3c35d4364d41bbad30d8e33548ff615a461d2253cee2bcf0ff45ead04ee37c60 25870 Packages
+ a1815b0fb049dd02b12fc036cc302717f53b68d8947a36865f226d6053468af9 7383 Packages.gz

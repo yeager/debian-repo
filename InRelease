@@ -3,46 +3,26 @@ Hash: SHA256
 
 Origin: Danne L10n Suite
 Label: Danne L10n Suite
-Suite: stable
-Codename: stable
-Architectures: all amd64 arm64 armhf i386
-Components: main
-Description: Danne L10n Suite repository
+Date: Sat, 21 Feb 2026 12:33:05 UTC
 MD5Sum:
- 816162e53cd6f19c5bdd381ed63789ec 7445 main/binary-arm64/Packages.gz
- 31960605890a3c5c10691ea5279c9168 26027 main/binary-arm64/Packages
- 816162e53cd6f19c5bdd381ed63789ec 7445 main/binary-i386/Packages.gz
- 31960605890a3c5c10691ea5279c9168 26027 main/binary-i386/Packages
- 816162e53cd6f19c5bdd381ed63789ec 7445 main/binary-armhf/Packages.gz
- 31960605890a3c5c10691ea5279c9168 26027 main/binary-armhf/Packages
- 816162e53cd6f19c5bdd381ed63789ec 7445 main/binary-all/Packages.gz
- 31960605890a3c5c10691ea5279c9168 26027 main/binary-all/Packages
- 816162e53cd6f19c5bdd381ed63789ec 7445 main/binary-amd64/Packages.gz
- 31960605890a3c5c10691ea5279c9168 26027 main/binary-amd64/Packages
+ 2c03ee8efa9ef6c16c35b1bc60ca654e 25870 Packages
+ 38c20d5a01da5d2477209284d90a1356 7383 Packages.gz
 SHA256:
- a6910d3ba47f92a9e2e8c60ec396dcf951c3635933a3a913df8197f7bc23bf2c 7445 main/binary-arm64/Packages.gz
- 0e68d5403d6e4ed61b0d8082dbb097da1ccac48ca7af12e3be3cc02a99aaf4a9 26027 main/binary-arm64/Packages
- a6910d3ba47f92a9e2e8c60ec396dcf951c3635933a3a913df8197f7bc23bf2c 7445 main/binary-i386/Packages.gz
- 0e68d5403d6e4ed61b0d8082dbb097da1ccac48ca7af12e3be3cc02a99aaf4a9 26027 main/binary-i386/Packages
- a6910d3ba47f92a9e2e8c60ec396dcf951c3635933a3a913df8197f7bc23bf2c 7445 main/binary-armhf/Packages.gz
- 0e68d5403d6e4ed61b0d8082dbb097da1ccac48ca7af12e3be3cc02a99aaf4a9 26027 main/binary-armhf/Packages
- a6910d3ba47f92a9e2e8c60ec396dcf951c3635933a3a913df8197f7bc23bf2c 7445 main/binary-all/Packages.gz
- 0e68d5403d6e4ed61b0d8082dbb097da1ccac48ca7af12e3be3cc02a99aaf4a9 26027 main/binary-all/Packages
- a6910d3ba47f92a9e2e8c60ec396dcf951c3635933a3a913df8197f7bc23bf2c 7445 main/binary-amd64/Packages.gz
- 0e68d5403d6e4ed61b0d8082dbb097da1ccac48ca7af12e3be3cc02a99aaf4a9 26027 main/binary-amd64/Packages
+ 3c35d4364d41bbad30d8e33548ff615a461d2253cee2bcf0ff45ead04ee37c60 25870 Packages
+ a1815b0fb049dd02b12fc036cc302717f53b68d8947a36865f226d6053468af9 7383 Packages.gz
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAEBCAAdFiEEN5hu++1i1inAzyaO4xjH3j2ofFsFAmmZlEgACgkQ4xjH3j2o
-fFu7ug/9FK4YIKImoLZY1d68qv1JkihYbG1PFRfx0KXuT0dEECFqz53e03/qifYU
-yihSrBj5wlAu9WOTsnkklM/FjriMfrObt4D/iykNlr0fD8TLUAoYPAHIez5B/5OF
-bH9EQn3nQxlJYOOhYT+TFJDJmWnG1N+IYs3P7JPjZLhuvDZ9u3oNEfv6Q3Am8nTb
-1L1GxvvaODDyTzQzRFZIjW1FcsKY3PcdjtVm1JpS8av3l12pP3YTs2tB3iGiJU+C
-oN7nAkCbE1jkyQ2PX64LNtb0VTwW3RVNRbptGgny0NoaGpzFeItfErCfrnMdz2HC
-/fXsrUpwno2oqE64HsMYUPJy5IusXx3RI2EczI+JPIRaWOf5VgPbENd/kuJ6bzRy
-Vl90hhAsBYc30iJaj//kjMs7Y58dh7TriHQq4x3UJEEUOsVOS7+d5ARR7n77Vg3u
-CHC7hZej9V5bDLhPfeSyG80hl/SBAgJlvFyW0ivqureI2nKM8DCHABBi4c9slJgB
-LIgtqH6hYDdqvKLphsQr/AHWocGWOu5L3M+DW9UUR1NsqghskS52/PkCC4P1JKBC
-7+hW6sp0fCIrasyEIiRl0+SeGWPOg4thdEWtRfPu7VDevB1T9ILmpNf7vCQzkdyc
-+C9e9U8qvbuUGiKNIOnUoxeCwNFxXEqS8Ka8Ozwo/Bq+nMcuj14=
-=3JvR
+iQIzBAEBCAAdFiEEN5hu++1i1inAzyaO4xjH3j2ofFsFAmmZpgEACgkQ4xjH3j2o
+fFtcIw/8C7jILh99GeyJ1pTtGQbIkDVO4sHmo75zWJ7r70zald203YkQxnqbP3dN
+1RS40jqXQmtH9nA27NyXchYuE1lXYV/ioCcjeyEaXq+tmgk6eer5G6G0elzcmpFu
+0xHNcFF489OCr97QO3CO1HYop7K0aZVD6mc6j94jgxyKyPrhwtUfCg7lECK51wL+
+aLe50ktFCHV4o1pqfK94zMxgH7EF716k/+qo+U+YZCYGqrHcKhZVFPJmS+dwr2Mm
+UCR23hkiaDTn1651UDfhSbAEQEAtS07azkB5uWp2KgDL546OO/XCdSP+a1p2b8PU
+fl/95caaFv2t9lGoJeo/zM17qY7APIkOM/irFJ61k6VbdSYYfYjqafhRGx7zEjBG
+iKAM/b/bGZFjZYrrxqppzi4kQNCQrVJuL10Gi5c8VkJlkPHfCG8brUUf2IATHSOF
+0lWfwQwgMRlZLKTDyZ4R3tKJrA4k/NqY2MJ/J3YMOR2SMFqlsMZFU6OYmdAVlHQW
+BduStHE6vISBo2+06L53TvkNW0LnseXl70GQOVOKdoJv0U47rCvBmXO8XEWorsmA
+VNsXpQWoJXw/AWyJkJcASPe1UgYqZgwVI17Kt/tMPun2ydcLECEGueZrkXPGthf8
+anj3G/R++7O/1dSycgz9Zs2QXO3QgLX9lg5f4z3bau8N0NCx2ak=
+=O+Lr
 -----END PGP SIGNATURE-----
