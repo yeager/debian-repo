@@ -199,16 +199,16 @@ Description: Browse GitHub project translation status
  GTK4/Adwaita app to view and compare translation coverage of GitHub projects.
 
 Package: gnome-l10n
-Version: 0.2.0-1
+Version: 0.2.1-1
 Architecture: all
 Maintainer: Daniel Nylander <daniel@danielnylander.se>
 Depends: python3, python3-gi, gir1.2-gtk-4.0, gir1.2-adw-1
 Recommends: scummvm
-Filename: ./pool/gnome-l10n_0.2.0-1_all.deb
-Size: 9122
-MD5sum: b8a7805b5490fb1de9aa8d1b109371cd
-SHA1: b43ffd352446cfca255afed736a11ff7e599b942
-SHA256: ddddafc5ad9673563fd6c76e3226f63dbc3198da0aacc20b32e7851e300069c9
+Filename: ./gnome-l10n_0.2.1-1_all.deb
+Size: 9988
+MD5sum: 9d3d5b2785eb76ac1fe486c503913107
+SHA1: b057f34654fc1d6bc3997e9e605e19399f503d3e
+SHA256: d37edc5c91838011540c0d32345bbcf3af379838ecdd233ed06d3ba660e46ede
 Section: utils
 Priority: optional
 Homepage: https://github.com/yeager/gnome-l10n
@@ -674,15 +674,15 @@ Homepage: https://github.com/yeager/ubuntu-l10n
 Description: Ubuntu/Launchpad translation statistics viewer
 
 Package: vsdview
-Version: 0.4.0-1
+Version: 0.4.2-1
 Architecture: all
 Maintainer: Daniel Nylander <daniel@danielnylander.se>
 Depends: python3 (>= 3.9), python3-gi, gir1.2-gtk-4.0, gir1.2-adw-1
-Filename: ./pool/vsdview_0.4.0-1_all.deb
-Size: 44512
-MD5sum: abd67ca083a2c55993834df309d5f35c
-SHA1: fe6bf59ff7780b559932313b3b576bb710170f90
-SHA256: 715026eff2e409d1070ddb9f708f56eac4e4a444f789d399ced092b2a77c7894
+Filename: ./vsdview_0.4.2-1_all.deb
+Size: 46278
+MD5sum: 9e93d189b63883a18d03ac9be1848437
+SHA1: 039b582d170c2633340706eecb177f8c979ff982
+SHA256: 8911b4606e7aa2a6c4bc488a3647502ff5b3827b8e629e8ea542bc3ef78d31b5
 Section: utils
 Priority: optional
 Homepage: https://github.com/yeager/vsdview
