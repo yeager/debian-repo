@@ -493,21 +493,19 @@ Description: Compare PO/TS translation files
  added, removed, and changed translations.
 
 Package: po-translate
-Version: 1.5.4-1
+Version: 1.5.6-1
 Architecture: all
 Maintainer: Daniel Nylander <daniel@danielnylander.se>
 Depends: python3 (>= 3.9)
-Filename: ./pool/po-translate_1.5.4-1_all.deb
-Size: 12632
-MD5sum: ea510a10768943e84d0e506803b34d77
-SHA1: 40077d33b434465146e5f15642a10b77d08d7436
-SHA256: 80233b84afe86789d260e186a591b969b801565e56d3848cd586bf02b0e50a93
-Section: devel
+Filename: ./po-translate_1.5.6-1_all.deb
+Size: 11524
+MD5sum: ad24c6ba02c67aae7ec168c3aff1a5f1
+SHA1: 86f6bbd4955f43c90924dfc7f682c8315a6272f0
+SHA256: 22bdde9aeaa76194e21db7c721f3b0cde91645c64c7ee96e1408ec0bb41055d3
+Section: utils
 Priority: optional
 Homepage: https://github.com/yeager/po-translate
-Description: Translate PO files using multiple translation services
- po-translate translates gettext PO files using various services
- including DeepL, Google, OpenAI, Anthropic, and more.
+Description: Batch translate PO/TS files using AI
 
 Package: process-explorer
 Version: 0.1.1-1
