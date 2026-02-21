@@ -6,24 +6,24 @@ Architectures: all amd64 arm64 armhf i386
 Components: main
 Description: Danne L10n Suite repository
 MD5Sum:
- d6312d75c43c5e9d32a98836eb773ec9 7451 main/binary-arm64/Packages.gz
- 668d75bf7e7f5a42e5ee38cddae33d3e 26022 main/binary-arm64/Packages
- d6312d75c43c5e9d32a98836eb773ec9 7451 main/binary-i386/Packages.gz
- 668d75bf7e7f5a42e5ee38cddae33d3e 26022 main/binary-i386/Packages
- d6312d75c43c5e9d32a98836eb773ec9 7451 main/binary-armhf/Packages.gz
- 668d75bf7e7f5a42e5ee38cddae33d3e 26022 main/binary-armhf/Packages
- d6312d75c43c5e9d32a98836eb773ec9 7451 main/binary-all/Packages.gz
- 668d75bf7e7f5a42e5ee38cddae33d3e 26022 main/binary-all/Packages
- d6312d75c43c5e9d32a98836eb773ec9 7451 main/binary-amd64/Packages.gz
- 668d75bf7e7f5a42e5ee38cddae33d3e 26022 main/binary-amd64/Packages
+ 816162e53cd6f19c5bdd381ed63789ec 7445 main/binary-arm64/Packages.gz
+ 31960605890a3c5c10691ea5279c9168 26027 main/binary-arm64/Packages
+ 816162e53cd6f19c5bdd381ed63789ec 7445 main/binary-i386/Packages.gz
+ 31960605890a3c5c10691ea5279c9168 26027 main/binary-i386/Packages
+ 816162e53cd6f19c5bdd381ed63789ec 7445 main/binary-armhf/Packages.gz
+ 31960605890a3c5c10691ea5279c9168 26027 main/binary-armhf/Packages
+ 816162e53cd6f19c5bdd381ed63789ec 7445 main/binary-all/Packages.gz
+ 31960605890a3c5c10691ea5279c9168 26027 main/binary-all/Packages
+ 816162e53cd6f19c5bdd381ed63789ec 7445 main/binary-amd64/Packages.gz
+ 31960605890a3c5c10691ea5279c9168 26027 main/binary-amd64/Packages
 SHA256:
- bcf8ca200c43f65d63953a021890efc4738a8badcc872638abeb291e7c8c421a 7451 main/binary-arm64/Packages.gz
- fd105b00bdb193ef64e1a57daa7d24e82a8562ba7d113e76cccc7ea2151e0ff6 26022 main/binary-arm64/Packages
- bcf8ca200c43f65d63953a021890efc4738a8badcc872638abeb291e7c8c421a 7451 main/binary-i386/Packages.gz
- fd105b00bdb193ef64e1a57daa7d24e82a8562ba7d113e76cccc7ea2151e0ff6 26022 main/binary-i386/Packages
- bcf8ca200c43f65d63953a021890efc4738a8badcc872638abeb291e7c8c421a 7451 main/binary-armhf/Packages.gz
- fd105b00bdb193ef64e1a57daa7d24e82a8562ba7d113e76cccc7ea2151e0ff6 26022 main/binary-armhf/Packages
- bcf8ca200c43f65d63953a021890efc4738a8badcc872638abeb291e7c8c421a 7451 main/binary-all/Packages.gz
- fd105b00bdb193ef64e1a57daa7d24e82a8562ba7d113e76cccc7ea2151e0ff6 26022 main/binary-all/Packages
- bcf8ca200c43f65d63953a021890efc4738a8badcc872638abeb291e7c8c421a 7451 main/binary-amd64/Packages.gz
- fd105b00bdb193ef64e1a57daa7d24e82a8562ba7d113e76cccc7ea2151e0ff6 26022 main/binary-amd64/Packages
+ a6910d3ba47f92a9e2e8c60ec396dcf951c3635933a3a913df8197f7bc23bf2c 7445 main/binary-arm64/Packages.gz
+ 0e68d5403d6e4ed61b0d8082dbb097da1ccac48ca7af12e3be3cc02a99aaf4a9 26027 main/binary-arm64/Packages
+ a6910d3ba47f92a9e2e8c60ec396dcf951c3635933a3a913df8197f7bc23bf2c 7445 main/binary-i386/Packages.gz
+ 0e68d5403d6e4ed61b0d8082dbb097da1ccac48ca7af12e3be3cc02a99aaf4a9 26027 main/binary-i386/Packages
+ a6910d3ba47f92a9e2e8c60ec396dcf951c3635933a3a913df8197f7bc23bf2c 7445 main/binary-armhf/Packages.gz
+ 0e68d5403d6e4ed61b0d8082dbb097da1ccac48ca7af12e3be3cc02a99aaf4a9 26027 main/binary-armhf/Packages
+ a6910d3ba47f92a9e2e8c60ec396dcf951c3635933a3a913df8197f7bc23bf2c 7445 main/binary-all/Packages.gz
+ 0e68d5403d6e4ed61b0d8082dbb097da1ccac48ca7af12e3be3cc02a99aaf4a9 26027 main/binary-all/Packages
+ a6910d3ba47f92a9e2e8c60ec396dcf951c3635933a3a913df8197f7bc23bf2c 7445 main/binary-amd64/Packages.gz
+ 0e68d5403d6e4ed61b0d8082dbb097da1ccac48ca7af12e3be3cc02a99aaf4a9 26027 main/binary-amd64/Packages
