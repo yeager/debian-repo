@@ -480,17 +480,15 @@ Version: 1.0.1-1
 Architecture: all
 Maintainer: Daniel Nylander <daniel@danielnylander.se>
 Depends: python3 (>= 3.9)
-Filename: ./pool/po-diff_1.0.1-1_all.deb
-Size: 12396
-MD5sum: a95b1e1fe0d796f6890bda7ce6ec4d90
-SHA1: b0ad7eb892b06b3a1c62a50f91336cf36e781a18
-SHA256: afed02662eba62373ad908281c2ba623733f50bcaba3d411e6154de35a5a822c
-Section: devel
+Filename: ./po-diff_1.0.1-1_all.deb
+Size: 6236
+MD5sum: 7dc9688a87eaeec925055722d329af5e
+SHA1: efe09a33abe6b9a56faae4a30b74715535953eb7
+SHA256: 77592ec4f4402885274d0452a75cd9a115a877ca95e81ab94ec055857177a284
+Section: utils
 Priority: optional
 Homepage: https://github.com/yeager/po-diff
 Description: Compare PO/TS translation files
- po-diff compares two PO or TS translation files and shows
- added, removed, and changed translations.
 
 Package: po-translate
 Version: 1.5.6-1
@@ -635,17 +633,15 @@ Version: 1.8.4-1
 Architecture: all
 Maintainer: Daniel Nylander <daniel@danielnylander.se>
 Depends: python3 (>= 3.9)
-Filename: ./pool/tp-lint_1.8.4-1_all.deb
-Size: 48416
-MD5sum: e0e0d66c7b7d852668342a8f5611d64c
-SHA1: 7b0689fe6d8ed2c0239d1cad97ea595c4218c0d8
-SHA256: 433de627d4f7ee1dffb4c90e33440947d00c4961ffeaceb064deb0ec213d83e3
-Section: devel
+Filename: ./tp-lint_1.8.4-1_all.deb
+Size: 14360
+MD5sum: 96c64731f5ecb64e778c6787fcb2533a
+SHA1: 841172bc344699ee2d6a6cbd1113d6a25de168e2
+SHA256: 3672cdd0881b540457553c223ff3be39affd16c90fdfefeca0b449d37f97e703
+Section: utils
 Priority: optional
 Homepage: https://github.com/yeager/tp-lint
-Description: Lint PO files from the Translation Project
- tp-lint fetches and lints PO files from the Translation Project
- (translationproject.org), checking for common translation issues.
+Description: Translation project linter
 
 Package: tts-tester
 Version: 0.2.1-1
