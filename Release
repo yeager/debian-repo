@@ -6,10 +6,10 @@ Architectures: all amd64 arm64 armhf i386
 Components: main
 Description: Danne L10n Suite - Swedish localization tools
 MD5Sum:
- 8e37a3ed2eb89d59e3dadeb7617f9a5d 37422 Packages
+ 763d533351bdda9e49615b769f11492e 29432 Packages
 SHA256:
- 48b546a1b9b4d0af77749c274a66d09bf3f0ea5f9c63f260fb8faba8b2107276 37422 Packages
+ 85437f10e616ea4b2b46ed451abef5f6901f1d08f60ad76fea5ec6b0fa10534b 29432 Packages
 MD5Sum:
- 0fb815c4f19380370f0af72c96b0de71 10077 Packages.gz
+ 87bbeda9beaf4d5aa680258a67c33b34 8094 Packages.gz
 SHA256:
- a900f181bae4e4cb097ca4ae1fcd1c1f3e5c0bccbb9af8631b488298baf8c10e 10077 Packages.gz
+ f50b7048916af805d8684148813c54e764ab210f6ae81c6e5dd646f3cf20eeee 8094 Packages.gz
