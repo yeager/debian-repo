@@ -450,18 +450,16 @@ Package: packetlens
 Version: 0.2.6-1
 Architecture: all
 Maintainer: Daniel Nylander <daniel@danielnylander.se>
-Depends: python3 (>= 3.10), python3-gi, gir1.2-gtk-4.0, gir1.2-adw-1
-Filename: ./pool/packetlens_0.2.6-1_all.deb
-Size: 36408
-MD5sum: 080963dec6475482ef2ddc134139d663
-SHA1: f4ea6df8477aa750d754418bfbe2cc23c291074b
-SHA256: 25c4f9e5d067ddbd881c42a9d3274b809c75a77e5f47ac8c9f2a1c2b910aba13
-Section: net
+Depends: python3 (>= 3.10), python3-gi, gir1.2-gtk-4.0, gir1.2-adw-1, python3-scapy
+Filename: ./packetlens.deb
+Size: 36350
+MD5sum: 62216343e9091a57a27e5ca633b94afb
+SHA1: 371fd71e4311cc125310b2352a76a1ebbf35445a
+SHA256: 07a478e1a0eb14e49f4c8524447e4b9ff410a19dc550cd701383b7f0f71a38f0
+Section: utils
 Priority: optional
 Homepage: https://github.com/yeager/pcap-viewer
-Description: GTK4 network capture analyzer
- PacketLens is a GTK4/Adwaita application for analyzing network
- captures with protocol stats, DNS/TLS/HTTP analysis, and file extraction.
+Description: Network packet capture viewer
 
 Package: pecsbrada
 Version: 0.3.0-1
