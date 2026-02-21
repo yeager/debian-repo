@@ -173,10 +173,10 @@ Architecture: all
 Maintainer: Daniel Nylander <daniel@danielnylander.se>
 Depends: python3 (>= 3.10), python3-gi, gir1.2-gtk-4.0, gir1.2-adw-1
 Filename: ./fokuskompis_0.1.0-1_all.deb
-Size: 7288
-MD5sum: f1fd3c16b70b81b20fa73e4caf58212c
-SHA1: d74f579b99ffbc21709cd09eed8928c5756c3830
-SHA256: 27915b4d46820329f567359235dabdfdf9184a637d90e059a394677ee0e9223f
+Size: 8512
+MD5sum: 2c77b3ec8abc0745d81b32468faca8f7
+SHA1: a3a924657ff24b248324e0af3fc64b94d0789663
+SHA256: 798dc67d42e6b6b855aba4f8e1a29df05d6f25c9ebac97c5a51db69b256ee187
 Section: utils
 Priority: optional
 Homepage: https://github.com/yeager/fokuskompis
