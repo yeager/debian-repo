@@ -4,30 +4,26 @@ Suite: stable
 Codename: stable
 Architectures: all amd64 arm64 armhf i386
 Components: main
-Date: Fri, 20 Feb 2026 08:13:29 +0000
+Description: Danne L10n Suite repository
 MD5Sum:
- 542fd5815b71c1dfdfd6ceb46b607411 6997 Packages.gz
- 1fbee7fee140bc9eef43c148a017d060 24694 Packages
- 542fd5815b71c1dfdfd6ceb46b607411 6997 dists/stable/main/binary-arm64/Packages.gz
- 1fbee7fee140bc9eef43c148a017d060 24694 dists/stable/main/binary-arm64/Packages
- 542fd5815b71c1dfdfd6ceb46b607411 6997 dists/stable/main/binary-i386/Packages.gz
- 1fbee7fee140bc9eef43c148a017d060 24694 dists/stable/main/binary-i386/Packages
- 542fd5815b71c1dfdfd6ceb46b607411 6997 dists/stable/main/binary-armhf/Packages.gz
- 1fbee7fee140bc9eef43c148a017d060 24694 dists/stable/main/binary-armhf/Packages
- 542fd5815b71c1dfdfd6ceb46b607411 6997 dists/stable/main/binary-all/Packages.gz
- 1fbee7fee140bc9eef43c148a017d060 24694 dists/stable/main/binary-all/Packages
- 542fd5815b71c1dfdfd6ceb46b607411 6997 dists/stable/main/binary-amd64/Packages.gz
- 1fbee7fee140bc9eef43c148a017d060 24694 dists/stable/main/binary-amd64/Packages
+ 89271a5418d35171ffb8134a9ac5e3bd 7451 main/binary-arm64/Packages.gz
+ 668d75bf7e7f5a42e5ee38cddae33d3e 26022 main/binary-arm64/Packages
+ 89271a5418d35171ffb8134a9ac5e3bd 7451 main/binary-i386/Packages.gz
+ 668d75bf7e7f5a42e5ee38cddae33d3e 26022 main/binary-i386/Packages
+ 89271a5418d35171ffb8134a9ac5e3bd 7451 main/binary-armhf/Packages.gz
+ 668d75bf7e7f5a42e5ee38cddae33d3e 26022 main/binary-armhf/Packages
+ 89271a5418d35171ffb8134a9ac5e3bd 7451 main/binary-all/Packages.gz
+ 668d75bf7e7f5a42e5ee38cddae33d3e 26022 main/binary-all/Packages
+ 89271a5418d35171ffb8134a9ac5e3bd 7451 main/binary-amd64/Packages.gz
+ 668d75bf7e7f5a42e5ee38cddae33d3e 26022 main/binary-amd64/Packages
 SHA256:
- 5dfaf901cc9e239cefc9e7f5443fa610087ef0a009212bbf3b28916228fbcf95 6997 Packages.gz
- 094de3bf39bca861f0493d2849341473bdd6116f02a1cf4afabef18598a30789 24694 Packages
- 5dfaf901cc9e239cefc9e7f5443fa610087ef0a009212bbf3b28916228fbcf95 6997 dists/stable/main/binary-arm64/Packages.gz
- 094de3bf39bca861f0493d2849341473bdd6116f02a1cf4afabef18598a30789 24694 dists/stable/main/binary-arm64/Packages
- 5dfaf901cc9e239cefc9e7f5443fa610087ef0a009212bbf3b28916228fbcf95 6997 dists/stable/main/binary-i386/Packages.gz
- 094de3bf39bca861f0493d2849341473bdd6116f02a1cf4afabef18598a30789 24694 dists/stable/main/binary-i386/Packages
- 5dfaf901cc9e239cefc9e7f5443fa610087ef0a009212bbf3b28916228fbcf95 6997 dists/stable/main/binary-armhf/Packages.gz
- 094de3bf39bca861f0493d2849341473bdd6116f02a1cf4afabef18598a30789 24694 dists/stable/main/binary-armhf/Packages
- 5dfaf901cc9e239cefc9e7f5443fa610087ef0a009212bbf3b28916228fbcf95 6997 dists/stable/main/binary-all/Packages.gz
- 094de3bf39bca861f0493d2849341473bdd6116f02a1cf4afabef18598a30789 24694 dists/stable/main/binary-all/Packages
- 5dfaf901cc9e239cefc9e7f5443fa610087ef0a009212bbf3b28916228fbcf95 6997 dists/stable/main/binary-amd64/Packages.gz
- 094de3bf39bca861f0493d2849341473bdd6116f02a1cf4afabef18598a30789 24694 dists/stable/main/binary-amd64/Packages
+ 4558c3ab940f261acbe232c2c03e857b53c9da5580342f600a88cb44bfeb1810 7451 main/binary-arm64/Packages.gz
+ fd105b00bdb193ef64e1a57daa7d24e82a8562ba7d113e76cccc7ea2151e0ff6 26022 main/binary-arm64/Packages
+ 4558c3ab940f261acbe232c2c03e857b53c9da5580342f600a88cb44bfeb1810 7451 main/binary-i386/Packages.gz
+ fd105b00bdb193ef64e1a57daa7d24e82a8562ba7d113e76cccc7ea2151e0ff6 26022 main/binary-i386/Packages
+ 4558c3ab940f261acbe232c2c03e857b53c9da5580342f600a88cb44bfeb1810 7451 main/binary-armhf/Packages.gz
+ fd105b00bdb193ef64e1a57daa7d24e82a8562ba7d113e76cccc7ea2151e0ff6 26022 main/binary-armhf/Packages
+ 4558c3ab940f261acbe232c2c03e857b53c9da5580342f600a88cb44bfeb1810 7451 main/binary-all/Packages.gz
+ fd105b00bdb193ef64e1a57daa7d24e82a8562ba7d113e76cccc7ea2151e0ff6 26022 main/binary-all/Packages
+ 4558c3ab940f261acbe232c2c03e857b53c9da5580342f600a88cb44bfeb1810 7451 main/binary-amd64/Packages.gz
+ fd105b00bdb193ef64e1a57daa7d24e82a8562ba7d113e76cccc7ea2151e0ff6 26022 main/binary-amd64/Packages
