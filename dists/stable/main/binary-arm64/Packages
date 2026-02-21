@@ -29,19 +29,19 @@ Homepage: https://github.com/yeager/bildordbok
 Description: Picture dictionary with ARASAAC images
 
 Package: bildordbok
-Version: 0.3.0-1
+Version: 0.3.2-1
 Architecture: all
 Maintainer: Daniel Nylander <daniel@danielnylander.se>
-Depends: python3 (>= 3.9), python3-gi, gir1.2-gtk-4.0, gir1.2-adw-1
-Filename: ./bildordbok_0.3.0-1_all.deb
-Size: 224396
-MD5sum: 802a1fc36da6fe4741cde0e62dca55c2
-SHA1: 839673b3ea8aead7f71950378545e564ebb9c274
-SHA256: 9af7e1649878a0c508fa796139c0f12759956201fea3905a66479110656a77f7
+Depends: python3 (>= 3.10), python3-gi, gir1.2-gtk-4.0, gir1.2-adw-1
+Filename: ./bildordbok_0.3.2_all.deb
+Size: 223236
+MD5sum: 753297ac9650a048987577859c189273
+SHA1: 0bf1303c8d6e7438a14269b447aea02146c39410
+SHA256: a4db0bce6be37a9bd8d4355fbcbcde2440cef102c6066de1d34a1d3d70ba50e1
 Section: utils
 Priority: optional
 Homepage: https://github.com/yeager/bildordbok
-Description: Picture dictionary with ARASAAC images
+Description: bildordbok - L10n App Suite
 
 Package: bildschema
 Version: 0.2.0-1
@@ -59,19 +59,19 @@ Homepage: https://github.com/yeager/bildschema
 Description: Visual schedule with PECS/ARASAAC images
 
 Package: bildschema
-Version: 0.3.0-1
+Version: 0.3.2-1
 Architecture: all
 Maintainer: Daniel Nylander <daniel@danielnylander.se>
-Depends: python3 (>= 3.9), python3-gi, gir1.2-gtk-4.0, gir1.2-adw-1
-Filename: ./bildschema_0.3.0-1_all.deb
-Size: 220846
-MD5sum: ff28db0d6a1bf640a075cdae83d71953
-SHA1: d2e424c1a7f3ffee563a19d38822cc0092d316fc
-SHA256: 57aa5656da56f2b70c5986770a61c1d8ec9157c4e0d0877ee54ad85667f236e3
+Depends: python3 (>= 3.10), python3-gi, gir1.2-gtk-4.0, gir1.2-adw-1
+Filename: ./bildschema_0.3.2_all.deb
+Size: 219938
+MD5sum: 5f47a5e8e595643e30f939860f4adc4b
+SHA1: 6bb175b9d0639188b500ab18fa16ebcc00c145c8
+SHA256: c3f1f14b4a3932cd0c9c3d7d6a482074ee0f09907ba825007cd1ed0bf93d8967
 Section: utils
 Priority: optional
 Homepage: https://github.com/yeager/bildschema
-Description: Visual schedule with PECS/ARASAAC images
+Description: bildschema - L10n App Suite
 
 Package: bildstod
 Version: 0.3.0-1
@@ -186,16 +186,16 @@ Package: ddtp-translate
 Version: 0.11.0-1
 Architecture: all
 Maintainer: Daniel Nylander <daniel@danielnylander.se>
-Depends: python3 (>= 3.9), python3-gi, gir1.2-gtk-4.0, gir1.2-adw-1
-Filename: ./ddtp-translate_0.11.0-1_all.deb
-Size: 41410
-MD5sum: a17ae812b50aed1a539a8a9e33122ec4
-SHA1: c9611207732aca35b6f9e7760e7b1514f5a6477e
-SHA256: 64fed4b6dd9fec1e0570435048414e0aa884a4ed1cbc003ff9a0a74a08e0a121
+Depends: python3 (>= 3.10), python3-gi, gir1.2-gtk-4.0, gir1.2-adw-1
+Filename: ./ddtp-translate_0.11.0_all.deb
+Size: 41388
+MD5sum: 7ca7e70b6ebfd34e6f030c49b07a4958
+SHA1: 8248c2fad38c62e0766147fa7c638cf55289a8c2
+SHA256: 3e7f854be84c07f7e80540e144692bd08acb9ec76434136521ac42f5f250928f
 Section: utils
 Priority: optional
 Homepage: https://github.com/yeager/ddtp-translate
-Description: Debian package description translator
+Description: ddtp-translate - L10n App Suite
 
 Package: ddtp-translate
 Version: 0.9.0-1
@@ -525,19 +525,19 @@ Homepage: https://github.com/yeager/log-viewer
 Description: GTK4 journalctl log viewer
 
 Package: lugnarummet
-Version: 0.1.0-1
+Version: 0.3.1-1
 Architecture: all
 Maintainer: Daniel Nylander <daniel@danielnylander.se>
 Depends: python3 (>= 3.10), python3-gi, gir1.2-gtk-4.0, gir1.2-adw-1
-Filename: ./lugnarummet_0.1.0-1_all.deb
-Size: 6382
-MD5sum: aaeb6deaf5e4f8650ee8df56087046d9
-SHA1: c39c05ebbc600475ab2939202115ff8048b393d1
-SHA256: 31504f86333b7be4cec6e99e48a4a7f53c26c20987689051a52cda9f6bafbaa8
+Filename: ./lugnarummet_0.3.1_all.deb
+Size: 11036
+MD5sum: 53955102a381472bd14d901206ebcfb7
+SHA1: eae82960c863c211dec6cb445f0ae16831c645be
+SHA256: d2dddbadbbd8a719be7b20396fd1f330e116e4d3dbcdc8d914f9669279c458fd
 Section: utils
 Priority: optional
 Homepage: https://github.com/yeager/lugnarummet
-Description: Sensory regulation and calming strategies
+Description: lugnarummet - L10n App Suite
 
 Package: makebread
 Version: 0.4.0-1
@@ -644,6 +644,21 @@ Priority: optional
 Homepage: https://github.com/yeager/ordbyggaren
 Description: Phonological training for children
 
+Package: ordbyggaren
+Version: 0.2.1-1
+Architecture: all
+Maintainer: Daniel Nylander <daniel@danielnylander.se>
+Depends: python3 (>= 3.10), python3-gi, gir1.2-gtk-4.0, gir1.2-adw-1
+Filename: ./ordbyggaren_0.2.1_all.deb
+Size: 7672
+MD5sum: 7c3d3e802a0d89f9f10b9d3834219ca0
+SHA1: f15be3567fb66dbc7b6499cdbc9fa306712afcd3
+SHA256: f3b00bfc150b905b9f8c821a86bd8af9742425e27959b36862e0d9933e66232b
+Section: utils
+Priority: optional
+Homepage: https://github.com/yeager/ordbyggaren
+Description: ordbyggaren - L10n App Suite
+
 Package: packetlens
 Version: 0.2.6-1
 Architecture: all
@@ -692,19 +707,19 @@ Homepage: https://github.com/yeager/pecsbrada
 Description: PECS communication board
 
 Package: pecsbrada
-Version: 0.3.0-1
+Version: 0.3.2-1
 Architecture: all
 Maintainer: Daniel Nylander <daniel@danielnylander.se>
-Depends: python3 (>= 3.9), python3-gi, gir1.2-gtk-4.0, gir1.2-adw-1
-Filename: ./pecsbrada_0.3.0-1_all.deb
-Size: 221316
-MD5sum: f386494b5468e47985ff0821607a40c4
-SHA1: 16334462acac67f47ac2866c273d3a4b23aec8b9
-SHA256: 1d493b576a5bc2ef838c0f77bb7af6c3c6e453f5f5e1fa6bcfadad16713a23d1
+Depends: python3 (>= 3.10), python3-gi, gir1.2-gtk-4.0, gir1.2-adw-1
+Filename: ./pecsbrada_0.3.2_all.deb
+Size: 220300
+MD5sum: 019a37acdabbd28e9b024dd09420bbb3
+SHA1: 12a64e5b7d9df240160ef5c8f0f0a0512b0b0246
+SHA256: eb8f2690bf74cd8dd872c5fcb6d876ff5d8057f1742561f206b9e58531120d7a
 Section: utils
 Priority: optional
 Homepage: https://github.com/yeager/pecsbrada
-Description: PECS communication board
+Description: pecsbrada - L10n App Suite
 
 Package: po-diff
 Version: 1.0.1-1
@@ -816,19 +831,19 @@ Homepage: https://github.com/yeager/rutinkompis
 Description: Daily routine companion for children
 
 Package: rutinkompis
-Version: 0.3.0-1
+Version: 0.3.2-1
 Architecture: all
 Maintainer: Daniel Nylander <daniel@danielnylander.se>
-Depends: python3 (>= 3.9), python3-gi, gir1.2-gtk-4.0, gir1.2-adw-1
-Filename: ./rutinkompis_0.3.0-1_all.deb
-Size: 221222
-MD5sum: 8d1892ccc4a0ea0927484b99a14b3064
-SHA1: 97af827444978bb96fb3329ee459943060695004
-SHA256: 41ef957e9f47e217c746bf25280cfa5fd415fa21ec691180e6e8447646be6296
+Depends: python3 (>= 3.10), python3-gi, gir1.2-gtk-4.0, gir1.2-adw-1
+Filename: ./rutinkompis_0.3.2_all.deb
+Size: 220222
+MD5sum: 4b3ec99347cf02189f3fcb55740ab358
+SHA1: 06b120c39c8c76935192061b1598e61abe53ace3
+SHA256: 925a489a67d8c96bc63c5fd98504fd5e0a39a03c4a2664d9600b8e0b36c63e74
 Section: utils
 Priority: optional
 Homepage: https://github.com/yeager/rutinkompis
-Description: Daily routine companion for children
+Description: rutinkompis - L10n App Suite
 
 Package: scummvm-gtk
 Version: 0.1.0-1
@@ -907,6 +922,21 @@ Section: utils
 Priority: optional
 Homepage: https://github.com/yeager/tidskollen
 Description: Visual time timer for children
+
+Package: tidskollen
+Version: 0.2.1-1
+Architecture: all
+Maintainer: Daniel Nylander <daniel@danielnylander.se>
+Depends: python3 (>= 3.10), python3-gi, gir1.2-gtk-4.0, gir1.2-adw-1
+Filename: ./tidskollen_0.2.1_all.deb
+Size: 7174
+MD5sum: 050211f043eba0653fb2d0645b80713d
+SHA1: c13e7161df92ebeb0013895ddf19171ba7ffa2c9
+SHA256: 0ec6c420419b28fbbdb660e929be69ef45bd152354823a7fc6357017b2129530
+Section: utils
+Priority: optional
+Homepage: https://github.com/yeager/tidskollen
+Description: tidskollen - L10n App Suite
 
 Package: tm-manager
 Version: 0.2.9-1
