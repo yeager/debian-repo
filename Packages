@@ -122,6 +122,21 @@ Homepage: https://github.com/yeager/github-l10n
 Description: Browse GitHub project translation status
  GTK4/Adwaita app to view and compare translation coverage of GitHub projects.
 
+Package: gnome-l10n
+Version: 0.2.2
+Architecture: all
+Maintainer: Daniel Nylander <daniel@danielnylander.se>
+Depends: python3, python3-gi, gir1.2-gtk-4.0, gir1.2-adw-1
+Filename: pool/gnome-l10n_0.2.2_all.deb
+Size: 10832
+MD5sum: fa5084e856650411756045bab8ef19ba
+SHA1: 8ef0a82c7562aa62d5204fd4e49630a2fb4878d5
+SHA256: 47b9165a55ff5221ed15e7a5682751d89792da7f8cce17cac25e615869c9c975
+Section: utils
+Priority: optional
+Description: GNOME translation status viewer
+ GTK4/Adwaita viewer for GNOME translation statistics.
+
 Package: l10n-preview
 Version: 0.2.7-1
 Architecture: all
