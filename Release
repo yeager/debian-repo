@@ -4,26 +4,10 @@ Suite: stable
 Codename: stable
 Architectures: all amd64 arm64 armhf i386
 Components: main
-Description: Danne L10n App Suite - Swedish localization tools
+Description: Danne L10n Suite - Swedish localization tools
 MD5Sum:
- c8440838053cfdc6569a868c458f5a03 32628 main/binary-all/Packages
- 19c5fa5ef1bca52ff06b6fd784837f29 9687 main/binary-all/Packages.gz
- c8440838053cfdc6569a868c458f5a03 32628 main/binary-amd64/Packages
- 19c5fa5ef1bca52ff06b6fd784837f29 9687 main/binary-amd64/Packages.gz
- c8440838053cfdc6569a868c458f5a03 32628 main/binary-arm64/Packages
- 19c5fa5ef1bca52ff06b6fd784837f29 9687 main/binary-arm64/Packages.gz
- c8440838053cfdc6569a868c458f5a03 32628 main/binary-armhf/Packages
- 19c5fa5ef1bca52ff06b6fd784837f29 9687 main/binary-armhf/Packages.gz
- c8440838053cfdc6569a868c458f5a03 32628 main/binary-i386/Packages
- 19c5fa5ef1bca52ff06b6fd784837f29 9687 main/binary-i386/Packages.gz
+ c8ce88663a12f2afe8838d076b8a9e49 34148 Packages
+ fb1b419dfb7fca4b93813e45bf7d8a75 10320 Packages.gz
 SHA256:
- a2dac9204327c428fc8f63f56fe834a77b3872251f2444524c8cced725834393 32628 main/binary-all/Packages
- 3fb62aaed3b12c6deab6585d3ea6cd5e9619556092cf4512c8b867d4e7e7411e 9687 main/binary-all/Packages.gz
- a2dac9204327c428fc8f63f56fe834a77b3872251f2444524c8cced725834393 32628 main/binary-amd64/Packages
- 3fb62aaed3b12c6deab6585d3ea6cd5e9619556092cf4512c8b867d4e7e7411e 9687 main/binary-amd64/Packages.gz
- a2dac9204327c428fc8f63f56fe834a77b3872251f2444524c8cced725834393 32628 main/binary-arm64/Packages
- 3fb62aaed3b12c6deab6585d3ea6cd5e9619556092cf4512c8b867d4e7e7411e 9687 main/binary-arm64/Packages.gz
- a2dac9204327c428fc8f63f56fe834a77b3872251f2444524c8cced725834393 32628 main/binary-armhf/Packages
- 3fb62aaed3b12c6deab6585d3ea6cd5e9619556092cf4512c8b867d4e7e7411e 9687 main/binary-armhf/Packages.gz
- a2dac9204327c428fc8f63f56fe834a77b3872251f2444524c8cced725834393 32628 main/binary-i386/Packages
- 3fb62aaed3b12c6deab6585d3ea6cd5e9619556092cf4512c8b867d4e7e7411e 9687 main/binary-i386/Packages.gz
+ 6e0d1fbdd139bae2af64a8f54fa85a51ce57d63848e49354fab13a81a8f53a1c 34148 Packages
+ c155d1750d6b3fea0dd359db9eeac9ccd4bf2d438da84cba60895bb9e1e53a79 10320 Packages.gz

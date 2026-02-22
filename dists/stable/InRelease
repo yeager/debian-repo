@@ -7,39 +7,42 @@ Suite: stable
 Codename: stable
 Architectures: all amd64 arm64 armhf i386
 Components: main
+Description: Danne L10n Suite - Swedish localization tools
 MD5Sum:
- 6bd261f75940e2e7ebc473d8162e8dd2 18847 main/binary-all/Packages
+ fb1b419dfb7fca4b93813e45bf7d8a75 10320 main/binary-arm64/Packages.gz
+ c8ce88663a12f2afe8838d076b8a9e49 34148 main/binary-arm64/Packages
+ fb1b419dfb7fca4b93813e45bf7d8a75 10320 main/binary-i386/Packages.gz
+ c8ce88663a12f2afe8838d076b8a9e49 34148 main/binary-i386/Packages
+ fb1b419dfb7fca4b93813e45bf7d8a75 10320 main/binary-armhf/Packages.gz
+ c8ce88663a12f2afe8838d076b8a9e49 34148 main/binary-armhf/Packages
+ fb1b419dfb7fca4b93813e45bf7d8a75 10320 main/binary-all/Packages.gz
+ c8ce88663a12f2afe8838d076b8a9e49 34148 main/binary-all/Packages
+ fb1b419dfb7fca4b93813e45bf7d8a75 10320 main/binary-amd64/Packages.gz
+ c8ce88663a12f2afe8838d076b8a9e49 34148 main/binary-amd64/Packages
 SHA256:
- 16fabe14d1408f82c9862f074883e4c40d4d9b670048313ac3baef2e9fccad23 18847 main/binary-all/Packages
-MD5Sum:
- 6bd261f75940e2e7ebc473d8162e8dd2 18847 main/binary-amd64/Packages
-SHA256:
- 16fabe14d1408f82c9862f074883e4c40d4d9b670048313ac3baef2e9fccad23 18847 main/binary-amd64/Packages
-MD5Sum:
- 6bd261f75940e2e7ebc473d8162e8dd2 18847 main/binary-arm64/Packages
-SHA256:
- 16fabe14d1408f82c9862f074883e4c40d4d9b670048313ac3baef2e9fccad23 18847 main/binary-arm64/Packages
-MD5Sum:
- 6bd261f75940e2e7ebc473d8162e8dd2 18847 main/binary-armhf/Packages
-SHA256:
- 16fabe14d1408f82c9862f074883e4c40d4d9b670048313ac3baef2e9fccad23 18847 main/binary-armhf/Packages
-MD5Sum:
- 6bd261f75940e2e7ebc473d8162e8dd2 18847 main/binary-i386/Packages
-SHA256:
- 16fabe14d1408f82c9862f074883e4c40d4d9b670048313ac3baef2e9fccad23 18847 main/binary-i386/Packages
+ c155d1750d6b3fea0dd359db9eeac9ccd4bf2d438da84cba60895bb9e1e53a79 10320 main/binary-arm64/Packages.gz
+ 6e0d1fbdd139bae2af64a8f54fa85a51ce57d63848e49354fab13a81a8f53a1c 34148 main/binary-arm64/Packages
+ c155d1750d6b3fea0dd359db9eeac9ccd4bf2d438da84cba60895bb9e1e53a79 10320 main/binary-i386/Packages.gz
+ 6e0d1fbdd139bae2af64a8f54fa85a51ce57d63848e49354fab13a81a8f53a1c 34148 main/binary-i386/Packages
+ c155d1750d6b3fea0dd359db9eeac9ccd4bf2d438da84cba60895bb9e1e53a79 10320 main/binary-armhf/Packages.gz
+ 6e0d1fbdd139bae2af64a8f54fa85a51ce57d63848e49354fab13a81a8f53a1c 34148 main/binary-armhf/Packages
+ c155d1750d6b3fea0dd359db9eeac9ccd4bf2d438da84cba60895bb9e1e53a79 10320 main/binary-all/Packages.gz
+ 6e0d1fbdd139bae2af64a8f54fa85a51ce57d63848e49354fab13a81a8f53a1c 34148 main/binary-all/Packages
+ c155d1750d6b3fea0dd359db9eeac9ccd4bf2d438da84cba60895bb9e1e53a79 10320 main/binary-amd64/Packages.gz
+ 6e0d1fbdd139bae2af64a8f54fa85a51ce57d63848e49354fab13a81a8f53a1c 34148 main/binary-amd64/Packages
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAEBCAAdFiEEN5hu++1i1inAzyaO4xjH3j2ofFsFAmma6kkACgkQ4xjH3j2o
-fFvWJg/8CEUZ5vaXcHl41RwWSM5mBzcnoppRAb88GpTG5gH3+QCfxPd+pOo5UY8C
-+dCdMesybBpBG4tOg2gBsR6gUpeRvSrnFuVjVC3z1rxfewU3VYU33/Pq1s7QZnTE
-ewfy9xmHWxw4KZmlGJYnz8CVlo2pjS+cu2gN0EOj0mVA2z0hyDThA7s3022L2XD3
-AhaTjPNWGF8L0jCG08w4+yvZxHtP2lEhYklCp2IpKSqL8Muao7VIHySvt39gpbKz
-NgfLgJmQi5eoTcaA15YyeT51Zjs4Y5g86zeGsvLEbiG9O2B2NQjTfYqea5j6dVgB
-VlytxWPifHPma7tQ/QsVQQsxLUwBYkvzl7TMOaVJL1D/+2TIEeo1BEt2i+ritm5r
-92e3goBaNaK3cVGbl+fND2NhoqKGbGlD8PbB9eLhi6wS4rZLBmUQtb/52+zCnETy
-+JTCLqs9HBtFPudbfir5Q8oxKhJlyxO+KLaKQdQR3u9EoAUUyoyHdQ7XEJkfTPkC
-koQUedtMGNBdP+nCc/+fCuNcHU2BzthMe5EO0/+YneptvusuXZRtxghCL4L+IU2v
-Z7Ii22YIY8n1HzZXEKn2psTguttquDMFqdqmAchYi3bvCORgiubFEciSBRWZf15X
-OYPpuw37ft9xCIvE/uzo1EaYQ0FucYRCV1f8mnc/z73Gbrhx3eY=
-=OoI/
+iQIzBAEBCAAdFiEEN5hu++1i1inAzyaO4xjH3j2ofFsFAmma+jkACgkQ4xjH3j2o
+fFubsg//WJIafEy6hsUKV24FwjQ4E9FfxVGoAXfxT7RfGgOC58HwkCbXPIiSHKet
+LB8bfPQ/qzCdnwpWhDeHkBY7swvhPfP6M7FBA3GLDAJ54D8F6PKOCmfDERNJE2vK
+yu7UFcnjvixbpVNWv23xx7t+SEavKfIb3iQUljwQSLMm3Rc/6NCw/uVhh+BG51rV
+Kwq/55E2O4TVTpkMoNB4xNT17rSJgeBwlxCgS8L3HDpcae4J0bYZXr00b06vWMlj
+mKPYbV0tCsArtLFLiRSPTCLuDL05SSZldpJTWYrVJlmONHaTD3CWlAdFvM11XJL0
+riTPqBd282h+J4iZ6ryMOgcvl6JNpYawOd3SHvIBP4Q5K19L66UbtRLvNhrzxOir
+O7i9emwHicuCRhvtejlkoZimUcysFk/Bs8L5gZijRG+Sa4v8Wg82R6pZeOgr1U+p
+Rpuv0LUloewSlu0/bxu1585E6WHskK3xTNTQhCAdtUBxJuKKWCBAdBRkjU+Hz3s2
+Smib02HYkHpM0fxPfwJv0G3gYnfgaI0vEB5wmNZQ++3a18/2/rGNqGJRLgwLMrfw
+o46enpfLrwVWNb2CvW7NCSdURyzsZnA73NC+lzeh1NkIin+vA5nP3FEG6yYRHduL
+S5vdVd0/9eaRSw96AS/7dkmRwvNvBIJwQBdPwV6qHkyor7VMoRU=
+=k1Ad
 -----END PGP SIGNATURE-----
