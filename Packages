@@ -50,49 +50,37 @@ Package: beloningskartan
 Version: 0.1.5
 Architecture: all
 Maintainer: Daniel Nylander <daniel@danielnylander.se>
-Installed-Size: 40
-Depends: python3, python3-gi, gir1.2-gtk-4.0, gir1.2-adw-1
+Depends: python3
 Filename: ./beloningskartan_0.1.5_all.deb
-Size: 6850
-MD5sum: ac70c269f8499ded5ee5fc0e7dbf6fd9
-SHA1: 2917f2917073a964d37fb635055172bcd0260d7c
-SHA256: 4704f6d8bff3181870967cd3cc8d0083fdb8570e9f4ef555ce060eb6b3ece13f
-Section: utils
-Priority: optional
-Description: beloningskartan
- GTK4/Adwaita application.
+Size: 6152
+MD5sum: c59c26dc4cd8bd1ae89fff4aef7a9fb5
+SHA1: 6e32a976217764e0df53c314f7146e81444c7c01
+SHA256: ebe345cfb871751688563f84fd5a170798eea38e4c12dcede1dc9f3a2fefc6c4
+Description: beloningskartan - Swedish localization tool
 
 Package: bildordbok
 Version: 0.3.4
 Architecture: all
 Maintainer: Daniel Nylander <daniel@danielnylander.se>
-Installed-Size: 94
-Depends: python3, python3-gi, gir1.2-gtk-4.0, gir1.2-adw-1
+Depends: python3
 Filename: ./bildordbok_0.3.4_all.deb
-Size: 19784
-MD5sum: 702d1c72035c4e8a9e03a9106854d9b2
-SHA1: 02d52155a141407f9199b452ac88a09a565b3207
-SHA256: 67a7f7a6043d0e1be7920e83b5c04a79bae8d54dad8e2f9007cb096e19ed0462
-Section: utils
-Priority: optional
-Description: bildordbok
- GTK4/Adwaita application.
+Size: 224764
+MD5sum: 875277f48817dcba097b6efec01fcdbf
+SHA1: 14764326d354ef824cd21048dff95239825c3165
+SHA256: 6e04c3437e27d04533dfbeff6faf03c9d8234a57b9c4b744c5d022bc28750d98
+Description: bildordbok - Swedish localization tool
 
 Package: bildschema
 Version: 0.3.3
 Architecture: all
 Maintainer: Daniel Nylander <daniel@danielnylander.se>
-Installed-Size: 76
-Depends: python3, python3-gi, gir1.2-gtk-4.0, gir1.2-adw-1
+Depends: python3
 Filename: ./bildschema_0.3.3_all.deb
-Size: 15846
-MD5sum: f9b3f0c774bcfbc3b08dae385ea0afe8
-SHA1: 5e7837ec39b1ed0ec4757990a92d38785bcfe0a4
-SHA256: b7e7802a623d942d2c6b340551b9c65160db6004570cb99da9129e7f2807f8e8
-Section: utils
-Priority: optional
-Description: bildschema
- GTK4/Adwaita application.
+Size: 220560
+MD5sum: 9d636a1151214ecb7060c7a23ff2c729
+SHA1: 205236ebd126374ffa2797731580c2eb1817ec2f
+SHA256: 52b693998f8c33f4cd236bb3ec8eb02f5257fa7f25c76591c7bf0004519340a4
+Description: bildschema - Swedish localization tool
 
 Package: bildstod
 Version: 0.4.5
@@ -127,19 +115,16 @@ Description: build-log-analyzer
  GTK4/Adwaita application.
 
 Package: cert-watch
-Version: 0.1.1-1
+Version: 0.1.2
 Architecture: all
 Maintainer: Daniel Nylander <daniel@danielnylander.se>
-Depends: python3, python3-gi, gir1.2-gtk-4.0, gir1.2-adw-1
-Filename: ./pool/cert-watch_0.1.1-1_all.deb
-Size: 6120
-MD5sum: de688d26ee0e011a07888e6908182a74
-SHA1: ee015bcc201a4c1620c09fa2e0382fbe457a0eb3
-SHA256: ef78b638d5c3819fd7e05b91bbd8bf1af866ee2e9a3af97156f5e94d7e3b9b8d
-Section: utils
-Priority: optional
-Homepage: https://github.com/yeager/cert-watch
-Description: TLS certificate monitoring tool
+Depends: python3
+Filename: ./cert-watch_0.1.2_all.deb
+Size: 7612
+MD5sum: af2f58fba0dc372417c0a5aae659e81b
+SHA1: 99739c1b29c198ba4c7add46a92d7d213e505345
+SHA256: 9a5d087c171b93264f800d61483d02d0bc5b18fc30decfb4cf8a36a1e81c2bbf
+Description: cert-watch - Swedish localization tool
 
 Package: cldr-viewer
 Version: 0.1.9
@@ -176,35 +161,28 @@ Description: Mozilla Common Voice translation status viewer
  translation and recording statistics.
 
 Package: cve-monitor
-Version: 0.3.3-1
+Version: 0.1.0
 Architecture: all
 Maintainer: Daniel Nylander <daniel@danielnylander.se>
-Depends: python3 (>= 3.10), python3-gi, gir1.2-gtk-4.0, gir1.2-adw-1
-Filename: ./cve-monitor_0.3.3-1_all.deb
-Size: 19610
-MD5sum: f44cfff01d293e75083517547d11ffc2
-SHA1: b533e4c625b0d64647a909d9d31dbe70c91906d8
-SHA256: 4a662e91bad3aa3eee25949f2f2f73c094e5ea508e3e760e2b3871e6b449a533
-Section: utils
-Priority: optional
-Homepage: https://github.com/yeager/cve-monitor
-Description: CVE vulnerability monitor for system packages
+Depends: python3
+Filename: ./cve-monitor_0.1.0_all.deb
+Size: 20794
+MD5sum: db3755f660d1b152dcc15d3a4947cb8e
+SHA1: 1c9a115928bd31f41154131e996991deb8ade62a
+SHA256: 42d9ea5ff2dc5246056d246d4af61934057cb2ebd3167a87afb3c45620b567df
+Description: cve-monitor - Swedish localization tool
 
 Package: ddtp-translate
 Version: 0.14.0
 Architecture: all
 Maintainer: Daniel Nylander <daniel@danielnylander.se>
-Installed-Size: 276
-Depends: python3, python3-gi, gir1.2-gtk-4.0, gir1.2-adw-1
+Depends: python3
 Filename: ./ddtp-translate_0.14.0_all.deb
-Size: 42734
-MD5sum: 83371aa1d932b37b24c2fef4cd8481fe
-SHA1: 83e5d8275c4c4ab3c48cee94bd1926b423b953a1
-SHA256: a42d73aced8b78dee0573d9bdd90d2ed73b51f6ce2aafb1e9beffe3e80a1e5af
-Section: utils
-Priority: optional
-Description: ddtp-translate
- GTK4/Adwaita application.
+Size: 41320
+MD5sum: 46af6e579baebde44c34a788724253d0
+SHA1: de691e9bfcb028abd7b0e059a7262c5bea535bae
+SHA256: 7b2581aef22b2af4c441f0691caedc87d4101b792362dedc3a06d2ae455e819d
+Description: ddtp-translate - Swedish localization tool
 
 Package: debian-installer-companion
 Version: 0.1.1
@@ -255,19 +233,16 @@ Description: dep-graph-viewer
  GTK4/Adwaita application.
 
 Package: desktop-editor
-Version: 0.2.8-1
+Version: 0.2.9
 Architecture: all
 Maintainer: Daniel Nylander <daniel@danielnylander.se>
-Depends: python3 (>= 3.10), python3-gi, gir1.2-gtk-4.0, gir1.2-adw-1
-Filename: ./pool/desktop-editor_0.2.8-1_all.deb
-Size: 12188
-MD5sum: 3fae5e696a8fae6ce1d15ffa9815ddd0
-SHA1: bda289a80acbda779bf53fad97fa5a436b3cb9d5
-SHA256: e2c52425721640e2c15ca26d5db1324cdbdc702715e15052cc98c2280132450c
-Section: devel
-Priority: optional
-Homepage: https://github.com/yeager/desktop-editor
-Description: Visual editor for .desktop files with preview, validation, and translation management
+Depends: python3
+Filename: ./desktop-editor_0.2.9_all.deb
+Size: 12210
+MD5sum: ae92d3046e32bbb2a2564a1c71505e32
+SHA1: 2411ea3b3a086eb81b793aa7ca673367b318721a
+SHA256: 0b31d6f1a8c62a78d21c3969c47dcd2cc7a7d45e0ba839b0a3116f4fbb53db79
+Description: desktop-editor - Swedish localization tool
 
 Package: elementary-l10n
 Version: 0.3.2-1
@@ -285,35 +260,28 @@ Homepage: https://github.com/yeager/elementary-l10n
 Description: Translation status viewer for elementary OS components
 
 Package: firewall-manager
-Version: 0.1.1-1
+Version: 0.1.2
 Architecture: all
 Maintainer: Daniel Nylander <daniel@danielnylander.se>
-Depends: python3, python3-gi, gir1.2-gtk-4.0, gir1.2-adw-1
-Filename: ./pool/firewall-manager_0.1.1-1_all.deb
-Size: 6148
-MD5sum: 4bb60a720bc884245f6e7f2f19da8c90
-SHA1: d39da28ef5f220454617fab12364394f2ea0fdf3
-SHA256: 8de7dae7d916f07880c8d9f1e7baaa5d5ed227a54599d2496c5b3dea8be72430
-Section: utils
-Priority: optional
-Homepage: https://github.com/yeager/firewall-manager
-Description: GTK4 frontend for ufw/nftables
+Depends: python3
+Filename: ./firewall-manager_0.1.2_all.deb
+Size: 7628
+MD5sum: d878236365b277deeaa0131be9070f39
+SHA1: 2353862c78fbba1af1548d1110ad03d4dd3436d0
+SHA256: 329e3facc8dab2befdb252c293ab273cd495a1df5cf1b9f1f9554e685ffb516a
+Description: firewall-manager - Swedish localization tool
 
 Package: fokuskompis
 Version: 0.2.4
 Architecture: all
 Maintainer: Daniel Nylander <daniel@danielnylander.se>
-Installed-Size: 70
-Depends: python3, python3-gi, gir1.2-gtk-4.0, gir1.2-adw-1
+Depends: python3
 Filename: ./fokuskompis_0.2.4_all.deb
-Size: 12424
-MD5sum: 9937e75f1d6c32a093363b28399a6205
-SHA1: 0827d54379c2f168352821c3cd0330dc0301f5d3
-SHA256: 9fbb2eec81d085e7e37bf1b87b4c9d1738d4b8f92c41ac8b2ce197fb1e1ee53e
-Section: utils
-Priority: optional
-Description: fokuskompis
- GTK4/Adwaita application.
+Size: 13298
+MD5sum: 2a403b5fb365174b2a65277a5f736bef
+SHA1: c96d1fc957e0e18397118daf8404fc7f603db28c
+SHA256: d6814beaada669c95f6822578f558a12b78553ec48402baee221ab358a65347f
+Description: fokuskompis - Swedish localization tool
 
 Package: font-preview
 Version: 0.2.9-1
@@ -363,98 +331,76 @@ Description: Browse GitHub project translation status
  GTK4/Adwaita app to view and compare translation coverage of GitHub projects.
 
 Package: gnome-l10n
-Version: 0.2.1-1
+Version: 0.1.0
 Architecture: all
 Maintainer: Daniel Nylander <daniel@danielnylander.se>
-Depends: python3, python3-gi, gir1.2-gtk-4.0, gir1.2-adw-1
-Recommends: scummvm
-Filename: ./gnome-l10n_0.2.1-1_all.deb
-Size: 9988
-MD5sum: 9d3d5b2785eb76ac1fe486c503913107
-SHA1: b057f34654fc1d6bc3997e9e605e19399f503d3e
-SHA256: d37edc5c91838011540c0d32345bbcf3af379838ecdd233ed06d3ba660e46ede
-Section: utils
-Priority: optional
-Homepage: https://github.com/yeager/gnome-l10n
-Description: GTK4/Adwaita frontend for ScummVM
- Browse, search and launch ScummVM utils with a modern
- Linux desktop interface.
+Depends: python3
+Filename: ./gnome-l10n_0.1.0_all.deb
+Size: 11002
+MD5sum: 40fb4691c5d7285c4b30d480385ea1b1
+SHA1: 44be38219f97cc6a04b916b8d5eee97d489fa7ed
+SHA256: 0232a7adf2dadc7161bf7ae489f3e999acbf4355d2d35df9173e534d69f64296
+Description: gnome-l10n - Swedish localization tool
 
 Package: ha-l10n
-Version: 0.2.1
+Version: 0.2.2
 Architecture: all
 Maintainer: Daniel Nylander <daniel@danielnylander.se>
-Depends: python3 (>= 3.10), python3-gi, gir1.2-gtk-4.0, gir1.2-adw-1
-Filename: ./pool/ha-l10n_0.2.1_all.deb
-Size: 15848
-MD5sum: b178205ecdb01a87c182df408020c6a8
-SHA1: accfa70c8561a65112933ab5cc2a490ddb70d3e4
-SHA256: 89a028563d78953e032a1aa4d3e06768d571d5bfafdadb3f51074e8771cd966f
-Section: utils
-Priority: optional
-Homepage: https://github.com/yeager/ha-l10n
-Description: Home Assistant translation status dashboard
+Depends: python3
+Filename: ./ha-l10n_0.2.2_all.deb
+Size: 16034
+MD5sum: 574ddf532dfa3562bfb8bbcf20733f58
+SHA1: bd2e6c214a19f0afc812c2eb499e989ee7c867e4
+SHA256: ae8d5f86f8ebbe4023bcbce1892e8e6ac0c0341b46b5e5a88c55be6c5bfdabd4
+Description: ha-l10n - Swedish localization tool
 
 Package: kanslokartan
 Version: 0.1.5
 Architecture: all
 Maintainer: Daniel Nylander <daniel@danielnylander.se>
-Installed-Size: 40
-Depends: python3, python3-gi, gir1.2-gtk-4.0, gir1.2-adw-1
+Depends: python3
 Filename: ./kanslokartan_0.1.5_all.deb
-Size: 6988
-MD5sum: 439df0c47f71fc7e1302333a26e7039d
-SHA1: f84a0e6ccbe2b54af08a08efc694fe8721021bc8
-SHA256: 725b81610647e51ea114578b4df552c4664cfd83f4e9545cecc625874681e26e
-Section: utils
-Priority: optional
-Description: kanslokartan
- GTK4/Adwaita application.
+Size: 6372
+MD5sum: 2907ac9b3abcd01fcbe2e24def1048dc
+SHA1: 0ce8f4c163c260c6811e343dca714f3e8a947488
+SHA256: 81f1dfb1e4387ff8abdd830b850ed101680f8bdf737f2ae08398107a52f9d6db
+Description: kanslokartan - Swedish localization tool
 
 Package: l10n-conv
-Version: 1.0.9-1
+Version: 1.0.9
 Architecture: all
 Maintainer: Daniel Nylander <daniel@danielnylander.se>
 Depends: python3
-Filename: ./pool/l10n-conv_1.0.9-1_all.deb
-Size: 10600
-MD5sum: f74d004334526c99ff6c8fdb0b7e09be
-SHA1: 20917451ae73d6ac156000dc2fb35420f69d884c
-SHA256: e6b554fb3010008e6d60cebe0be1eb2c497405022bee4fb43a1ce64eb43d081d
-Section: utils
-Priority: optional
-Homepage: https://github.com/yeager/l10n-conv
-Description: l10n-conv CLI tool
+Filename: ./l10n-conv_1.0.9_all.deb
+Size: 20280
+MD5sum: b06b55653ae13be43c8daa1d7632574e
+SHA1: 3706db63697017cb478dc34d0f00748b02ef0424
+SHA256: 77981f4aff90fd411b10012811769dd9222e45fe078705136fe4f158b4781525
+Description: l10n-conv - Swedish localization tool
 
 Package: l10n-glossary
-Version: 0.2.7-1
-Architecture: all
-Maintainer: Daniel Nylander <daniel@danielnylander.se>
-Depends: python3 (>= 3.10), python3-gi, gir1.2-gtk-4.0, gir1.2-adw-1
-Filename: ./pool/l10n-glossary_0.2.7-1_all.deb
-Size: 11532
-MD5sum: 0266c167d4e652ce4a630e83d6213acf
-SHA1: 5a22476fe599fe843d3a627d6353fa41e0247d5c
-SHA256: 193ef97f092b176ff65b99f3f380fa1b2be1738647505e97aa1eca3dbe896a5b
-Section: devel
-Priority: optional
-Homepage: https://github.com/yeager/l10n-glossary
-Description: Glossary editor for localization — manage term lists, flag inconsistencies
-
-Package: l10n-lint
-Version: 1.16.0-1
+Version: 0.2.8
 Architecture: all
 Maintainer: Daniel Nylander <daniel@danielnylander.se>
 Depends: python3
-Filename: ./pool/l10n-lint_1.16.0-1_all.deb
-Size: 32064
-MD5sum: 389a080869ff7a105119bafe3e5594d4
-SHA1: f38ff22d7fbb1709887555fcd1c0b0eedad68114
-SHA256: e85374d4b045003a275ceb0f1ebc8117d59ebbdd6b22ff35ec2cf70ebf64e541
-Section: utils
-Priority: optional
-Homepage: https://github.com/yeager/l10n-lint
-Description: Linter for translation files
+Filename: ./l10n-glossary_0.2.8_all.deb
+Size: 11732
+MD5sum: 651385d136187ad09aee5ffb7b2fa9be
+SHA1: 8b40dba89cf56c23aee294b6915fe1bfc3b9ed69
+SHA256: 1c58a999fab772407ffc5c6acc3981a0aca27980265094bac186af105296bfad
+Description: l10n-glossary - Swedish localization tool
+
+Package: l10n-lint
+Version: 1.16.0
+Architecture: all
+Maintainer: Daniel Nylander <daniel@danielnylander.se>
+Depends: python3
+Filename: ./l10n-lint_1.16.0_all.deb
+Size: 28504
+MD5sum: 574a13eb6188d70bcdd4a153c8a35368
+SHA1: 1b3246061ea51097ea66f4b256c0aa1393a0842c
+SHA256: fc835e82d86bc4ab0ec61c81dd691b8e3b596e2e2aaad5a90b354ce55c349680
+Description: Linter for localization files
 
 Package: l10n-preview
 Version: 0.2.7-1
@@ -472,19 +418,16 @@ Homepage: https://github.com/yeager/l10n-preview
 Description: Preview PO/TS translations in simulated UI elements
 
 Package: langpack-inspector
-Version: 0.2.6-1
+Version: 0.2.7
 Architecture: all
 Maintainer: Daniel Nylander <daniel@danielnylander.se>
-Depends: python3 (>= 3.10), python3-gi, gir1.2-gtk-4.0, gir1.2-adw-1
-Filename: ./pool/langpack-inspector_0.2.6-1_all.deb
-Size: 10368
-MD5sum: 92daa1e9f59cd09b7e2193035d8ed0f3
-SHA1: 99bbc803cca45c4bce61e05692a4b5ac90f3ba18
-SHA256: 4b551a445f86ee8b6ae1582b417b6e6cce6c2f7bf6d7d1ee32caa7229233b4b5
-Section: devel
-Priority: optional
-Homepage: https://github.com/yeager/langpack-inspector
-Description: GTK4/Adwaita app to inspect Ubuntu language packs and find missing translations
+Depends: python3
+Filename: ./langpack-inspector_0.2.7_all.deb
+Size: 10358
+MD5sum: 85f63d8641828517c38c8d4a774648e6
+SHA1: bcacea20edc93bd12a292164d3330a9bda493d04
+SHA256: 71d04ad8c81a113c1b915108eea688be402ceeae356551544aff24908ff483a5
+Description: langpack-inspector - Swedish localization tool
 
 Package: libretranslate-gui
 Version: 0.2.7
@@ -550,19 +493,16 @@ Homepage: https://github.com/yeager/locale-tester
 Description: GTK4/Adwaita app for testing and comparing locale behavior on Linux
 
 Package: log-viewer
-Version: 0.1.1-1
+Version: 0.1.2
 Architecture: all
 Maintainer: Daniel Nylander <daniel@danielnylander.se>
-Depends: python3, python3-gi, gir1.2-gtk-4.0, gir1.2-adw-1
-Filename: ./pool/log-viewer_0.1.1-1_all.deb
-Size: 4824
-MD5sum: 995b3257baebf00bb8f8d5c1941edd98
-SHA1: 1db6863ba04eeadc1c20fa7be771761ceca79092
-SHA256: 216a716483d9c0da01a761c985552374a43d237859ccc2452b124ffa86ffd65f
-Section: utils
-Priority: optional
-Homepage: https://github.com/yeager/log-viewer
-Description: GTK4 journalctl log viewer
+Depends: python3
+Filename: ./log-viewer_0.1.2_all.deb
+Size: 5670
+MD5sum: 680c48a54b5f03dfdb0622cbb4178446
+SHA1: 07e49863b6d62d95de3d8501fc02dd081d079c88
+SHA256: 2a57e9ec9bb5216f9d47cfd9d49781f18fb715ff2c49158cd1f68a7f98334c43
+Description: log-viewer - Swedish localization tool
 
 Package: lp-bug-triager
 Version: 0.1.1
@@ -584,17 +524,13 @@ Package: lugnarummet
 Version: 0.3.2
 Architecture: all
 Maintainer: Daniel Nylander <daniel@danielnylander.se>
-Installed-Size: 64
-Depends: python3, python3-gi, gir1.2-gtk-4.0, gir1.2-adw-1
+Depends: python3
 Filename: ./lugnarummet_0.3.2_all.deb
-Size: 12044
-MD5sum: dd4fe63755665f0f03fa4f0455146f7e
-SHA1: a617236ce8f90236eae9233abbaecb98644794f1
-SHA256: bd74a00560d4ec5cd3d401eaf51b67208182686b6bae25e2b8bea11c0fddeff8
-Section: utils
-Priority: optional
-Description: lugnarummet
- GTK4/Adwaita application.
+Size: 11312
+MD5sum: 0570ac30dcf9ed2a8dcb553487ddf33c
+SHA1: 33d3a3b4464244d08d15cba7c7db850f5c8002d1
+SHA256: f652b32d081c47eb63cb04817091bb1880deb639ac57ccded4eac94e0c910615
+Description: lugnarummet - Swedish localization tool
 
 Package: makebread
 Version: 0.4.1
@@ -648,17 +584,13 @@ Package: minnet
 Version: 0.1.5
 Architecture: all
 Maintainer: Daniel Nylander <daniel@danielnylander.se>
-Installed-Size: 40
-Depends: python3, python3-gi, gir1.2-gtk-4.0, gir1.2-adw-1
+Depends: python3
 Filename: ./minnet_0.1.5_all.deb
-Size: 6722
-MD5sum: 9b10392c8aab66d575d8860b52c5a362
-SHA1: a8db191f38ff31e5ee5642cb24dc98e2a5382c37
-SHA256: 584ca75826964ade4238514b2e9779f997f18c8dda1fafdd879b59148b4e6731
-Section: utils
-Priority: optional
-Description: minnet
- GTK4/Adwaita application.
+Size: 6080
+MD5sum: e397a344f8e0170fdcf0a4ebc54d77e9
+SHA1: a472a92abd9de054a0c6fcbba8e162fba0c8c377
+SHA256: 5e479196bf339b6b7b59b2e6adf37b1df183564a27b33ffce7a669ff4180566e
+Description: minnet - Swedish localization tool
 
 Package: mittschema
 Version: 0.1.5
@@ -677,34 +609,28 @@ Description: mittschema
  GTK4/Adwaita application.
 
 Package: mqtt-dashboard
-Version: 0.1.1-1
+Version: 0.1.2
 Architecture: all
 Maintainer: Daniel Nylander <daniel@danielnylander.se>
-Depends: python3, python3-gi, gir1.2-gtk-4.0, gir1.2-adw-1
-Filename: ./pool/mqtt-dashboard_0.1.1-1_all.deb
-Size: 5744
-MD5sum: 647bd74bb6eaab988667627a10b21ff0
-SHA1: 57bd654401e199b1ede9e5e3a8b5a3ef70a1c295
-SHA256: 02187101b5d285fdc27f78f7bb34595ac58bc12b86ba912d6527353cc4026e21
-Section: utils
-Priority: optional
-Homepage: https://github.com/yeager/mqtt-dashboard
-Description: MQTT dashboard with widgets
+Depends: python3
+Filename: ./mqtt-dashboard_0.1.2_all.deb
+Size: 6422
+MD5sum: 487c8824e26de121750706b377179f2a
+SHA1: ee9fe8ce17d0265c0f421ed5ba74cc018f08efee
+SHA256: 2ba10ef0e45bed4eb573cf3bb5d28ebe334c9c83919be054750606ebb19a528f
+Description: mqtt-dashboard - Swedish localization tool
 
 Package: mqtt-inspector
-Version: 0.2.1-1
+Version: 0.2.2
 Architecture: all
 Maintainer: Daniel Nylander <daniel@danielnylander.se>
-Depends: python3 (>= 3.10), python3-gi, gir1.2-gtk-4.0, gir1.2-adw-1
-Filename: ./pool/mqtt-inspector_0.2.1-1_all.deb
-Size: 10206
-MD5sum: 8310df41f536d138cb4841e38b53aced
-SHA1: 540630a4fccf530368891afbce8ac6f3307f9a40
-SHA256: 354746072c7540d64e03059d8e7800cfe0752f78fdbfd0dd668f25395bfda63b
-Section: utils
-Priority: optional
-Homepage: https://github.com/yeager/mqtt-inspector
-Description: MQTT message inspector for IoT
+Depends: python3
+Filename: ./mqtt-inspector_0.2.2_all.deb
+Size: 10062
+MD5sum: e1e1e9550c58da6c4d558b872444003c
+SHA1: 5c4ed13f687681bfb832ea01e4ce56a43f25f25d
+SHA256: 9e0bd674b2eae8f14af20b763dab1982afde935f6b91e028c7894f25f4e95960
+Description: mqtt-inspector - Swedish localization tool
 
 Package: new-queue-monitor
 Version: 0.1.1
@@ -723,66 +649,54 @@ Description: new-queue-monitor
  GTK4/Adwaita application.
 
 Package: obd2-viewer
-Version: 0.2.1-1
+Version: 0.2.2
 Architecture: all
 Maintainer: Daniel Nylander <daniel@danielnylander.se>
-Depends: python3 (>= 3.10), python3-gi, gir1.2-gtk-4.0, gir1.2-adw-1
-Filename: ./pool/obd2-viewer_0.2.1-1_all.deb
-Size: 18518
-MD5sum: 7cf5ad23df848ddad10779ec0315e99b
-SHA1: 4141aef2d28a078843b537a46a29c00bfc36e194
-SHA256: bbaa32764d63b9aade326b4f1f2a5d1ee76b005be84efb61c8948bcd84a5ffa0
-Section: utils
-Priority: optional
-Homepage: https://github.com/yeager/obd2-viewer
-Description: OBD2 diagnostic data viewer and logger
+Depends: python3
+Filename: ./obd2-viewer_0.2.2_all.deb
+Size: 18372
+MD5sum: c6b1ce4e9de3416a895b3fb3b0165404
+SHA1: 7218e6ee150758c692588e299a5d4d2dfc6b00fb
+SHA256: 185db688fbba90613069ae2360bb5f1395c6b431a7010c62635549eaf2e3192c
+Description: obd2-viewer - Swedish localization tool
 
 Package: ordbyggaren
 Version: 0.2.3
 Architecture: all
 Maintainer: Daniel Nylander <daniel@danielnylander.se>
-Installed-Size: 50
-Depends: python3, python3-gi, gir1.2-gtk-4.0, gir1.2-adw-1
+Depends: python3
 Filename: ./ordbyggaren_0.2.3_all.deb
-Size: 8900
-MD5sum: d903b5a2a4fbe61e63b9ca65d523acd7
-SHA1: b18debe819c23e07fa6f511250dbfe80b244fb64
-SHA256: 620f0c8e3fcdbaaea77567097efaba2b8fdf7b922cb87d5a3dc20a2220bcdee9
-Section: utils
-Priority: optional
-Description: ordbyggaren
- GTK4/Adwaita application.
+Size: 8492
+MD5sum: d735adf0d4451360b17092a45a121a69
+SHA1: bbb87970e3aa8702054305325a9c623c7f31a741
+SHA256: 3632cb29b3a984394069f6e2f02a94e303b07d727abe455b353216e7fc52e9b4
+Description: ordbyggaren - Swedish localization tool
 
 Package: packetlens
-Version: 0.2.6-1
+Version: 0.2.7
 Architecture: all
 Maintainer: Daniel Nylander <daniel@danielnylander.se>
-Depends: python3 (>= 3.10), python3-gi, gir1.2-gtk-4.0, gir1.2-adw-1, python3-scapy
-Filename: ./packetlens.deb
-Size: 36350
-MD5sum: 62216343e9091a57a27e5ca633b94afb
-SHA1: 371fd71e4311cc125310b2352a76a1ebbf35445a
-SHA256: 07a478e1a0eb14e49f4c8524447e4b9ff410a19dc550cd701383b7f0f71a38f0
-Section: utils
-Priority: optional
-Homepage: https://github.com/yeager/pcap-viewer
-Description: Network packet capture viewer
+Depends: python3
+Conflicts: pcap-viewer
+Replaces: pcap-viewer
+Filename: ./packetlens_0.2.7_all.deb
+Size: 36090
+MD5sum: 9be98f04bf1243a2d0a1a06295a4668d
+SHA1: 00203af9043f5b05c13a28e8f895d3eaeffc91ec
+SHA256: 377ffe2452e6b1f0ef540c2709e2d7b91723929f2256802bd8f0d024265b5371
+Description: PacketLens - PCAP network capture analyzer
 
 Package: pecsbrada
 Version: 0.3.3
 Architecture: all
 Maintainer: Daniel Nylander <daniel@danielnylander.se>
-Installed-Size: 77
-Depends: python3, python3-gi, gir1.2-gtk-4.0, gir1.2-adw-1
+Depends: python3
 Filename: ./pecsbrada_0.3.3_all.deb
-Size: 16134
-MD5sum: 7419b4d9e70f99ece03c3218acb4e2ed
-SHA1: 2015a3b69f062b2ecddc156962259067b8d40711
-SHA256: 5f1732422df5b126b6fadc4bd9d7aa57239187c7686e120dbc9ec3096d90ff50
-Section: utils
-Priority: optional
-Description: pecsbrada
- GTK4/Adwaita application.
+Size: 221446
+MD5sum: 9aaa3ae24b4fb128499f00bd0cdd2d96
+SHA1: c38e5ef96f5cfd9dca3e18e5e35f7d564a9587d0
+SHA256: 47280104f6725d7af43c5c4a0c258cba101fa739ff9e7460186a52670d69d75b
+Description: pecsbrada - Swedish localization tool
 
 Package: po-diff
 Version: 1.0.1-1
@@ -816,49 +730,40 @@ Description: po-review-board
  GTK4/Adwaita application.
 
 Package: po-translate
-Version: 1.5.6-1
+Version: 1.5.7
 Architecture: all
 Maintainer: Daniel Nylander <daniel@danielnylander.se>
-Depends: python3 (>= 3.9)
-Filename: ./po-translate_1.5.6-1_all.deb
-Size: 11476
-MD5sum: ae78b8a7214d5363472ca1bad87a8006
-SHA1: 02206b81109e042cc2756aba7b15203ab9545511
-SHA256: 895dd7cdea7aacf5e3f40b454577c94c67fc40993f545ff3a992a10b5953b230
-Section: utils
-Priority: optional
-Homepage: https://github.com/yeager/po-translate
-Description: Batch translate PO/TS files using AI
+Depends: python3
+Filename: ./po-translate_1.5.7_all.deb
+Size: 14084
+MD5sum: eafa84ef5f196f18ce3f08736fd38f57
+SHA1: 3e572a6381735d1b03b0ae5617fdfc539dfe269a
+SHA256: 77df17708059369259c7238fe536189ce764e5c3e9131c9e419babc81ee9df5e
+Description: Batch translate PO/TS files using AI or free services
 
 Package: process-explorer
-Version: 0.1.1-1
+Version: 0.1.2
 Architecture: all
 Maintainer: Daniel Nylander <daniel@danielnylander.se>
-Depends: python3, python3-gi, gir1.2-gtk-4.0, gir1.2-adw-1
-Filename: ./pool/process-explorer_0.1.1-1_all.deb
-Size: 4644
-MD5sum: f86fcb7b0bdb3c9721b3a69c4255e84e
-SHA1: 4ffe4877b563d82c1a72dec7f02fd1ac9ded0011
-SHA256: 4a04e44878a4446d11cf88a66f3839ac32b733e767c8ac2c3ad34b5f99f1e2db
-Section: utils
-Priority: optional
-Homepage: https://github.com/yeager/process-explorer
-Description: GTK4 process explorer
+Depends: python3
+Filename: ./process-explorer_0.1.2_all.deb
+Size: 5510
+MD5sum: 21c21a9539859b8e685ec43629dff74d
+SHA1: a011e9c58d883c805b258d74de34b22304b2c22b
+SHA256: 815dafd6fd53c9103958074658688018dc89b4c922b316c1673c18a20329bcc2
+Description: process-explorer - Swedish localization tool
 
 Package: regex-tester
-Version: 0.1.1-1
+Version: 0.1.2
 Architecture: all
 Maintainer: Daniel Nylander <daniel@danielnylander.se>
-Depends: python3, python3-gi, gir1.2-gtk-4.0, gir1.2-adw-1
-Filename: ./pool/regex-tester_0.1.1-1_all.deb
-Size: 5352
-MD5sum: 516cc837e3e3897c9422658f133e8f9d
-SHA1: b1d6b00576e093dc53617c96b8af21a4f28c1b5e
-SHA256: e28cf8a768dbc6b0fac7d7aa2e9d2abbd28f8713bc8e4c3e5dd1b673a112ddab
-Section: utils
-Priority: optional
-Homepage: https://github.com/yeager/regex-tester
-Description: Visual regex tester with live matching
+Depends: python3
+Filename: ./regex-tester_0.1.2_all.deb
+Size: 6280
+MD5sum: a0011cae54a8b61aea933eeea62436fe
+SHA1: 0084cfb8f2e121647955cf54066f8d63d106eb5d
+SHA256: 3c83f1ea20cc49c24f5f4eb0d822b9680d0b295a5dfccad78bea403804e0e840
+Description: regex-tester - Swedish localization tool
 
 Package: release-notes-editor
 Version: 0.1.1
@@ -880,81 +785,61 @@ Package: rutinkompis
 Version: 0.3.3
 Architecture: all
 Maintainer: Daniel Nylander <daniel@danielnylander.se>
-Installed-Size: 77
-Depends: python3, python3-gi, gir1.2-gtk-4.0, gir1.2-adw-1
+Depends: python3
 Filename: ./rutinkompis_0.3.3_all.deb
-Size: 15982
-MD5sum: ce3649bb2016d81f7a580b099e74e067
-SHA1: a3c1fae9b36a54af9d25e69cf97619299916dc8d
-SHA256: eec13aa4059d55b828cdd6f76b1b5a5548a1ebb58d796be714128c995d7c0404
-Section: utils
-Priority: optional
-Description: rutinkompis
- GTK4/Adwaita application.
+Size: 220656
+MD5sum: 97484e91f61229167ce00d9213bbe0e8
+SHA1: 8d929ccc2985b0257d6a3687c1228d5bde822f8a
+SHA256: 9d8f58a1a8d6b26ecbbeb9a7e5e0a43ab38a0762d000e17115bb3ef4c97970b4
+Description: rutinkompis - Swedish localization tool
 
 Package: scummvm-gtk
-Version: 0.1.0-1
+Version: 0.1.1
 Architecture: all
 Maintainer: Daniel Nylander <daniel@danielnylander.se>
-Depends: python3, python3-gi, gir1.2-gtk-4.0, gir1.2-adw-1
-Recommends: scummvm
-Filename: ./pool/scummvm-gtk_0.1.0-1_all.deb
-Size: 7794
-MD5sum: f3773a4157d1ca870ec5decf083747d9
-SHA1: c4158665c19d672bc3a594e733240db8e82d641b
-SHA256: 94a9a160f2c255be9b862b28499c3a45e1d629d724b94e331f05f9f07cb5dafb
-Section: games
-Priority: optional
-Homepage: https://github.com/yeager/scummvm-gtk
-Description: GTK4/Adwaita frontend for ScummVM
- Browse, search and launch ScummVM games with a modern
- Linux desktop interface.
+Depends: python3
+Filename: ./scummvm-gtk_0.1.1_all.deb
+Size: 9094
+MD5sum: 909edb9e719fc4f2d4211acd28f50d52
+SHA1: 487793442e254ddce0143cb73455dff1087de0ae
+SHA256: 4a6592dbdc8424231dfa8c6ec456126ccd62292d4060ef4838ca3238dfab557e
+Description: scummvm-gtk - Swedish localization tool
 
 Package: snap-l10n
-Version: 0.2.9-1
+Version: 0.2.10
 Architecture: all
 Maintainer: Daniel Nylander <daniel@danielnylander.se>
-Depends: python3 (>= 3.10), python3-gi, gir1.2-gtk-4.0, gir1.2-adw-1
-Filename: ./pool/snap-l10n_0.2.9-1_all.deb
-Size: 9944
-MD5sum: a60d6d90d985173a78bc5fa7dc691a8c
-SHA1: d1193a358d05e29e24b4074a0fa9f49166f28daa
-SHA256: 511be182751966388df1370b005206f333f0172a81f1ce544d5d71ff0f779758
-Section: devel
-Priority: optional
-Homepage: https://github.com/yeager/snap-l10n
-Description: View snap package translation status
+Depends: python3
+Filename: ./snap-l10n_0.2.10_all.deb
+Size: 9868
+MD5sum: b71a46e98cba4173dbb8e277ccf58873
+SHA1: 0573b29b5d946935fa15eea01bf55f65b35d01b4
+SHA256: 50a58ff2e4321552fbc8cadd363ee0b538aab89413705a18dce554a3fdba3775
+Description: snap-l10n - Swedish localization tool
 
 Package: socialaberattelser
 Version: 0.1.5
 Architecture: all
 Maintainer: Daniel Nylander <daniel@danielnylander.se>
-Installed-Size: 42
-Depends: python3, python3-gi, gir1.2-gtk-4.0, gir1.2-adw-1
+Depends: python3
 Filename: ./socialaberattelser_0.1.5_all.deb
-Size: 7724
-MD5sum: 64655873f1f62206ac6f9bd5afa4d84a
-SHA1: 6df99a057aad6c3167a4e5cd75b31bc05c7c094f
-SHA256: f8951ec6d9fc1899b52e1352325f0feee46379fb59ae7cc687f57f67546a1b38
-Section: utils
-Priority: optional
-Description: socialaberattelser
- GTK4/Adwaita application.
+Size: 7052
+MD5sum: db9b21a4efafb6a541b5fb1bc0fda838
+SHA1: 52b3db191d39afb33b289f748ba53dfa43bdbd87
+SHA256: 8fddf8dbf9820550510d5d9d8723a28d8a4caac40a696285f7a5131deda97ac8
+Description: socialaberattelser - Swedish localization tool
 
 Package: svlang
-Version: 0.1.7-1
+Version: 0.1.7
 Architecture: all
 Maintainer: Daniel Nylander <daniel@danielnylander.se>
 Depends: python3
-Filename: ./pool/svlang_0.1.7-1_all.deb
-Size: 3784
-MD5sum: b578e3b1df2a32312e96e7904ce32d5b
-SHA1: 30d5c2db6aa426df87ee33c4ae49d2aae72f5687
-SHA256: 6f328d1bbb120622b3d20d4a261c93bba0fafa890f42cffe0a360c2c3c765ada
-Section: utils
-Priority: optional
-Homepage: https://github.com/yeager/svlang
-Description: svlang CLI tool
+Filename: ./svlang_0.1.7_all.deb
+Size: 823336
+MD5sum: e53c3736cecf46483af491a594046d3f
+SHA1: f09459a3571398f82c5f0c6f1578afdbd91bfa1f
+SHA256: 90a08ced0aa91157ccb312a2434e5c91c116fb4d9eae070e46d38c854ae023de
+Description: svlang - Swedish localization tool
 
 Package: sysinfo-gtk
 Version: 0.1.2
@@ -976,47 +861,37 @@ Package: tidskollen
 Version: 0.2.3
 Architecture: all
 Maintainer: Daniel Nylander <daniel@danielnylander.se>
-Installed-Size: 49
-Depends: python3, python3-gi, gir1.2-gtk-4.0, gir1.2-adw-1
+Depends: python3
 Filename: ./tidskollen_0.2.3_all.deb
-Size: 8410
-MD5sum: 6461e6e4ed47068fa63d9e5ef0890eba
-SHA1: 975145fdaa0dbc37d913a074d08eb8b03433cbdd
-SHA256: c90e908dd54605615300ed65f004139170bfd07fe33b68e20a76872d58bd1517
-Section: utils
-Priority: optional
-Description: tidskollen
- GTK4/Adwaita application.
+Size: 7888
+MD5sum: f4bd385e88eccaf4fc30215ce6393394
+SHA1: 5a90e67f58db6ee5f38ac1e72f173cf22d96fdeb
+SHA256: e239926ae6fe6c0c14a10021e400e52df34fa5bca2c6e7d7ab480270968a69f5
+Description: tidskollen - Swedish localization tool
 
 Package: tm-manager
-Version: 0.2.9-1
+Version: 0.2.10
 Architecture: all
 Maintainer: Daniel Nylander <daniel@danielnylander.se>
-Depends: python3 (>= 3.10), python3-gi, gir1.2-gtk-4.0, gir1.2-adw-1
-Filename: ./pool/tm-manager_0.2.9-1_all.deb
-Size: 11426
-MD5sum: 21fe14f6f12ca76fc6c74ff98f26c352
-SHA1: 6bd7acc7844ef0a0cedac3df51c63822b2b0489e
-SHA256: 559334ff829b3073b930924cf328e07746d2959eb64aff8534d65f8815976c85
-Section: devel
-Priority: optional
-Homepage: https://github.com/yeager/tm-manager
-Description: Manage local Translation Memory files (TMX)
+Depends: python3
+Filename: ./tm-manager_0.2.10_all.deb
+Size: 11332
+MD5sum: 9fd082be99ae09a93f48a578d617d6d9
+SHA1: d6cd10d3707a2faefad27b29c7f51e8202d448ef
+SHA256: 589732185a327b23f1d4888a434b30436f31fd22c500041a7fcb2eb22304f231
+Description: tm-manager - Swedish localization tool
 
 Package: tp-lint
-Version: 1.8.4-1
+Version: 1.8.4
 Architecture: all
 Maintainer: Daniel Nylander <daniel@danielnylander.se>
-Depends: python3, python3-requests
-Filename: ./tp-lint_1.8.4-1_all.deb
-Size: 17746
-MD5sum: 8803790d927024a9e6d8ba1d5a0d26fc
-SHA1: 51cad6c5024ed611057b0c6cea0ae6c9a5a10e60
-SHA256: 8c1a45e4ee10d664d04eefb0ad1300cc45768fcf7c20d53024da40b220c5106a
-Section: utils
-Priority: optional
-Homepage: https://github.com/yeager/tp-lint
-Description: Translation Project lint tool
+Depends: python3
+Filename: ./tp-lint_1.8.4_all.deb
+Size: 14790
+MD5sum: 0766ff1a774c790e966a768be0d45698
+SHA1: 4abaabf6775f63b1be0584f03db1966dbfc1afcf
+SHA256: cefe4cc2808007c095a9e73781d976bccbdeabff620ac821da10cb4460a8c154
+Description: Lint PO files from the Translation Project
 
 Package: transition-tracker
 Version: 0.1.1
@@ -1035,19 +910,16 @@ Description: transition-tracker
  GTK4/Adwaita application.
 
 Package: tts-tester
-Version: 0.2.1-1
+Version: 0.2.2
 Architecture: all
 Maintainer: Daniel Nylander <daniel@danielnylander.se>
-Depends: python3 (>= 3.10), python3-gi, gir1.2-gtk-4.0, gir1.2-adw-1
-Filename: ./pool/tts-tester_0.2.1-1_all.deb
-Size: 13198
-MD5sum: 21f47730ab09275e5b52533cee0d70b8
-SHA1: 8fee504b733f4a2ec76522411edd0db1d638270e
-SHA256: 84a6842e8b6406b19092ca60dce4023045c7cc1599dcc7bcd31bfd5702b0cf55
-Section: utils
-Priority: optional
-Homepage: https://github.com/yeager/tts-tester
-Description: Text-to-speech engine comparison tool
+Depends: python3
+Filename: ./tts-tester_0.2.2_all.deb
+Size: 12974
+MD5sum: 13d482e1f428415433b4dddfc1e4cd20
+SHA1: 552023f1e972fb86cc7c81ff759825f72c733ef2
+SHA256: 4fef1fd89faec461a194e90c0458c273e38f959b9dfc918ecba4f7bd1857446c
+Description: tts-tester - Swedish localization tool
 
 Package: ubuntu-l10n
 Version: 0.3.5-1
@@ -1065,47 +937,38 @@ Homepage: https://github.com/yeager/ubuntu-l10n
 Description: Ubuntu/Launchpad translation statistics viewer
 
 Package: vsdview
-Version: 0.4.2-1
+Version: 0.4.3
 Architecture: all
 Maintainer: Daniel Nylander <daniel@danielnylander.se>
-Depends: python3 (>= 3.9), python3-gi, gir1.2-gtk-4.0, gir1.2-adw-1
-Filename: ./vsdview_0.4.2-1_all.deb
-Size: 46278
-MD5sum: 9e93d189b63883a18d03ac9be1848437
-SHA1: 039b582d170c2633340706eecb177f8c979ff982
-SHA256: 8911b4606e7aa2a6c4bc488a3647502ff5b3827b8e629e8ea542bc3ef78d31b5
-Section: utils
-Priority: optional
-Homepage: https://github.com/yeager/vsdview
-Description: Visio file viewer for Linux
+Depends: python3
+Filename: ./vsdview_0.4.3_all.deb
+Size: 45606
+MD5sum: 3074e65220d645ec9062f2849605ec44
+SHA1: 293e21623c92bc65d7e2dd4f7e4c5f2b9eb02cb9
+SHA256: df06764c4a5c27e7eb9e0995b5ef38414150bcbbbcc5d84d26ba4e3a633b77ae
+Description: vsdview - Swedish localization tool
 
 Package: wifi-analyzer
-Version: 0.1.1-1
+Version: 0.1.2
 Architecture: all
 Maintainer: Daniel Nylander <daniel@danielnylander.se>
-Depends: python3, python3-gi, gir1.2-gtk-4.0, gir1.2-adw-1
-Filename: ./pool/wifi-analyzer_0.1.1-1_all.deb
-Size: 5860
-MD5sum: d4fd79dda7ce899bf416f8aa947505ea
-SHA1: 092107f86d6ff9db241da1ceb872ac264852868d
-SHA256: 82ac86a5c9f94ba64b918e7e391726d2c65bc8b7dbfd94a08ea05031dea4f65d
-Section: utils
-Priority: optional
-Homepage: https://github.com/yeager/wifi-analyzer
-Description: WiFi channel analyzer
+Depends: python3
+Filename: ./wifi-analyzer_0.1.2_all.deb
+Size: 7216
+MD5sum: 160e93b13dc5ba445a7702430f863e80
+SHA1: 871cd10ba428b57a330394ed698305697a5b143f
+SHA256: f48d811e2f503a5e777fc09c9f1004065a3d8a35bbbada6d556c8a6a3fffb14c
+Description: wifi-analyzer - Swedish localization tool
 
 Package: zigbee-manager
-Version: 0.1.1-1
+Version: 0.1.2
 Architecture: all
 Maintainer: Daniel Nylander <daniel@danielnylander.se>
-Depends: python3, python3-gi, gir1.2-gtk-4.0, gir1.2-adw-1
-Filename: ./pool/zigbee-manager_0.1.1-1_all.deb
-Size: 5864
-MD5sum: c6a02b502e5332a0b0d976e9e8dee935
-SHA1: 3d841e32219df3c81e6a36f91cc9a4977fd121ac
-SHA256: 368a8951aec9ffe66e3ed60d3708031fbeba3255427ccd1b35b6bbaf9f5e966c
-Section: utils
-Priority: optional
-Homepage: https://github.com/yeager/zigbee-manager
-Description: Zigbee device manager
+Depends: python3
+Filename: ./zigbee-manager_0.1.2_all.deb
+Size: 6836
+MD5sum: 2b13060a2db850036d02716447ecb743
+SHA1: 8de35382ca849efb7a1a2fd6174dea166dafe406
+SHA256: e1ce6d6ae1e989c4dd56d88703ba70754ff72a6f5801cfe1b18223f3e6acf854
+Description: zigbee-manager - Swedish localization tool
 

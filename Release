@@ -6,8 +6,24 @@ Architectures: all amd64 arm64 armhf i386
 Components: main
 Description: Danne L10n App Suite - Swedish localization tools
 MD5Sum:
- 0b0edbb2cb1acb25400b5a545717513e 36969 Packages
- 02336c02e64cc99c149f622ce36aac57 10075 Packages.gz
+ 55151d1d4b597118c0178cd4e6bc99d5 32197 main/binary-all/Packages
+ 18f24ba608e06df42938fef3ea27451b 9556 main/binary-all/Packages.gz
+ 55151d1d4b597118c0178cd4e6bc99d5 32197 main/binary-amd64/Packages
+ 18f24ba608e06df42938fef3ea27451b 9556 main/binary-amd64/Packages.gz
+ 55151d1d4b597118c0178cd4e6bc99d5 32197 main/binary-arm64/Packages
+ 18f24ba608e06df42938fef3ea27451b 9556 main/binary-arm64/Packages.gz
+ 55151d1d4b597118c0178cd4e6bc99d5 32197 main/binary-armhf/Packages
+ 18f24ba608e06df42938fef3ea27451b 9556 main/binary-armhf/Packages.gz
+ 55151d1d4b597118c0178cd4e6bc99d5 32197 main/binary-i386/Packages
+ 18f24ba608e06df42938fef3ea27451b 9556 main/binary-i386/Packages.gz
 SHA256:
- a5bba4300403ff5e32ec13535f57c456367bf221f0d444c6fd522cfc593857a2 36969 Packages
- 1cf8310219b8408659d6c68870a15b59e8c375b4e7e25172ca3a80587da3fd1f 10075 Packages.gz
+ e921bacfdeeca5d57773f83cd268fe6d872489c52f2faeef1a27ab4326e11523 32197 main/binary-all/Packages
+ e29f9783c42082b91f29d2d7562014ba4cad80eef154589d54dacc06e6c128bd 9556 main/binary-all/Packages.gz
+ e921bacfdeeca5d57773f83cd268fe6d872489c52f2faeef1a27ab4326e11523 32197 main/binary-amd64/Packages
+ e29f9783c42082b91f29d2d7562014ba4cad80eef154589d54dacc06e6c128bd 9556 main/binary-amd64/Packages.gz
+ e921bacfdeeca5d57773f83cd268fe6d872489c52f2faeef1a27ab4326e11523 32197 main/binary-arm64/Packages
+ e29f9783c42082b91f29d2d7562014ba4cad80eef154589d54dacc06e6c128bd 9556 main/binary-arm64/Packages.gz
+ e921bacfdeeca5d57773f83cd268fe6d872489c52f2faeef1a27ab4326e11523 32197 main/binary-armhf/Packages
+ e29f9783c42082b91f29d2d7562014ba4cad80eef154589d54dacc06e6c128bd 9556 main/binary-armhf/Packages.gz
+ e921bacfdeeca5d57773f83cd268fe6d872489c52f2faeef1a27ab4326e11523 32197 main/binary-i386/Packages
+ e29f9783c42082b91f29d2d7562014ba4cad80eef154589d54dacc06e6c128bd 9556 main/binary-i386/Packages.gz
