@@ -4,26 +4,23 @@ Suite: stable
 Codename: stable
 Architectures: all amd64 arm64 armhf i386
 Components: main
-Description: Danne L10n App Suite - Swedish localization tools
 MD5Sum:
- c8440838053cfdc6569a868c458f5a03 32628 main/binary-all/Packages
- 19c5fa5ef1bca52ff06b6fd784837f29 9687 main/binary-all/Packages.gz
- c8440838053cfdc6569a868c458f5a03 32628 main/binary-amd64/Packages
- 19c5fa5ef1bca52ff06b6fd784837f29 9687 main/binary-amd64/Packages.gz
- c8440838053cfdc6569a868c458f5a03 32628 main/binary-arm64/Packages
- 19c5fa5ef1bca52ff06b6fd784837f29 9687 main/binary-arm64/Packages.gz
- c8440838053cfdc6569a868c458f5a03 32628 main/binary-armhf/Packages
- 19c5fa5ef1bca52ff06b6fd784837f29 9687 main/binary-armhf/Packages.gz
- c8440838053cfdc6569a868c458f5a03 32628 main/binary-i386/Packages
- 19c5fa5ef1bca52ff06b6fd784837f29 9687 main/binary-i386/Packages.gz
+ 06543a605b66e063423747bc9ffd7885 8555 main/binary-all/Packages
 SHA256:
- a2dac9204327c428fc8f63f56fe834a77b3872251f2444524c8cced725834393 32628 main/binary-all/Packages
- 3fb62aaed3b12c6deab6585d3ea6cd5e9619556092cf4512c8b867d4e7e7411e 9687 main/binary-all/Packages.gz
- a2dac9204327c428fc8f63f56fe834a77b3872251f2444524c8cced725834393 32628 main/binary-amd64/Packages
- 3fb62aaed3b12c6deab6585d3ea6cd5e9619556092cf4512c8b867d4e7e7411e 9687 main/binary-amd64/Packages.gz
- a2dac9204327c428fc8f63f56fe834a77b3872251f2444524c8cced725834393 32628 main/binary-arm64/Packages
- 3fb62aaed3b12c6deab6585d3ea6cd5e9619556092cf4512c8b867d4e7e7411e 9687 main/binary-arm64/Packages.gz
- a2dac9204327c428fc8f63f56fe834a77b3872251f2444524c8cced725834393 32628 main/binary-armhf/Packages
- 3fb62aaed3b12c6deab6585d3ea6cd5e9619556092cf4512c8b867d4e7e7411e 9687 main/binary-armhf/Packages.gz
- a2dac9204327c428fc8f63f56fe834a77b3872251f2444524c8cced725834393 32628 main/binary-i386/Packages
- 3fb62aaed3b12c6deab6585d3ea6cd5e9619556092cf4512c8b867d4e7e7411e 9687 main/binary-i386/Packages.gz
+ 6876f2b4d56a0084dd99213fbc3f4ef94a0b46656478fb97efe4ec22e3c25045 8555 main/binary-all/Packages
+MD5Sum:
+ 06543a605b66e063423747bc9ffd7885 8555 main/binary-amd64/Packages
+SHA256:
+ 6876f2b4d56a0084dd99213fbc3f4ef94a0b46656478fb97efe4ec22e3c25045 8555 main/binary-amd64/Packages
+MD5Sum:
+ 06543a605b66e063423747bc9ffd7885 8555 main/binary-arm64/Packages
+SHA256:
+ 6876f2b4d56a0084dd99213fbc3f4ef94a0b46656478fb97efe4ec22e3c25045 8555 main/binary-arm64/Packages
+MD5Sum:
+ 06543a605b66e063423747bc9ffd7885 8555 main/binary-armhf/Packages
+SHA256:
+ 6876f2b4d56a0084dd99213fbc3f4ef94a0b46656478fb97efe4ec22e3c25045 8555 main/binary-armhf/Packages
+MD5Sum:
+ 06543a605b66e063423747bc9ffd7885 8555 main/binary-i386/Packages
+SHA256:
+ 6876f2b4d56a0084dd99213fbc3f4ef94a0b46656478fb97efe4ec22e3c25045 8555 main/binary-i386/Packages
