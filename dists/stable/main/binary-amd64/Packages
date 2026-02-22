@@ -573,19 +573,20 @@ Homepage: https://github.com/yeager/lugnarummet
 Description: lugnarummet - L10n App Suite
 
 Package: makebread
-Version: 0.4.0-1
+Version: 0.4.1
 Architecture: all
 Maintainer: Daniel Nylander <daniel@danielnylander.se>
-Depends: python3 (>= 3.9), python3-gi, gir1.2-gtk-4.0, gir1.2-adw-1
-Filename: ./pool/makebread_0.4.0-1_all.deb
-Size: 18478
-MD5sum: a39d0bfac81bcc30bd4bb82667822b70
-SHA1: 9ad45a1622dcceaf33944b1c965b84af5a527b2d
-SHA256: 9e98a9ed4317b2740fad5c7dd6fb3fd64e0b054512ed0aa41cc4e246c426a6db
+Installed-Size: 259
+Depends: python3, python3-gi, gir1.2-gtk-4.0, gir1.2-adw-1
+Filename: ./makebread_0.4.1_all.deb
+Size: 28066
+MD5sum: 61292863f40eec05257d6db5becb283a
+SHA1: 617bec166b2a86f9fa90c7eeca4f6a67e8030df3
+SHA256: 316e2e7dcf065d5385ea8c1065fd9f12b42a899b765deddc163364a522c88226
 Section: utils
 Priority: optional
-Homepage: https://github.com/yeager/makebread
-Description: Bread recipe manager
+Description: Bread machine recipe manager
+ GTK4/Adwaita bread machine recipe manager with timer and unit conversion.
 
 Package: mentor-dashboard
 Version: 0.1.0
