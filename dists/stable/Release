@@ -2,28 +2,10 @@ Origin: Danne L10n Suite
 Label: Danne L10n Suite
 Suite: stable
 Codename: stable
-Components: main
 Architectures: all amd64 arm64 armhf i386
-Date: Sun, 22 Feb 2026 05:52:35 UTC
+Components: main
+Description: Danne L10n App Suite Debian Repository
 MD5Sum:
- 0e09594e75e6542c8eda47d0baaeef4f 7476 main/binary-arm64/Packages.gz
- 9b8c117ececc99e3a6473b098e90879d 25927 main/binary-arm64/Packages
- 0e09594e75e6542c8eda47d0baaeef4f 7476 main/binary-i386/Packages.gz
- 9b8c117ececc99e3a6473b098e90879d 25927 main/binary-i386/Packages
- 0e09594e75e6542c8eda47d0baaeef4f 7476 main/binary-armhf/Packages.gz
- 9b8c117ececc99e3a6473b098e90879d 25927 main/binary-armhf/Packages
- 0e09594e75e6542c8eda47d0baaeef4f 7476 main/binary-all/Packages.gz
- 9b8c117ececc99e3a6473b098e90879d 25927 main/binary-all/Packages
- 0e09594e75e6542c8eda47d0baaeef4f 7476 main/binary-amd64/Packages.gz
- 9b8c117ececc99e3a6473b098e90879d 25927 main/binary-amd64/Packages
+ 12df3a916779be5bb0036576b8a47680 36358 main/binary-all/Packages
 SHA256:
- 479695d0b493adb7129fa7abb1821ba5cc7f358a74bd5292d53e4824e55def20 7476 main/binary-arm64/Packages.gz
- 19d8cada2b0c6e3812913584e315e8da79eae379dfc515646833a36770290d28 25927 main/binary-arm64/Packages
- 479695d0b493adb7129fa7abb1821ba5cc7f358a74bd5292d53e4824e55def20 7476 main/binary-i386/Packages.gz
- 19d8cada2b0c6e3812913584e315e8da79eae379dfc515646833a36770290d28 25927 main/binary-i386/Packages
- 479695d0b493adb7129fa7abb1821ba5cc7f358a74bd5292d53e4824e55def20 7476 main/binary-armhf/Packages.gz
- 19d8cada2b0c6e3812913584e315e8da79eae379dfc515646833a36770290d28 25927 main/binary-armhf/Packages
- 479695d0b493adb7129fa7abb1821ba5cc7f358a74bd5292d53e4824e55def20 7476 main/binary-all/Packages.gz
- 19d8cada2b0c6e3812913584e315e8da79eae379dfc515646833a36770290d28 25927 main/binary-all/Packages
- 479695d0b493adb7129fa7abb1821ba5cc7f358a74bd5292d53e4824e55def20 7476 main/binary-amd64/Packages.gz
- 19d8cada2b0c6e3812913584e315e8da79eae379dfc515646833a36770290d28 25927 main/binary-amd64/Packages
+ 7874801db4791f7ee4b5d1a7e8e1b7599439667ddf66589f5f865d104bff766c 36358 main/binary-all/Packages
