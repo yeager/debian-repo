@@ -504,10 +504,10 @@ Architecture: all
 Maintainer: Daniel Nylander <daniel@danielnylander.se>
 Depends: python3 (>= 3.9), python3-gi, gir1.2-gtk-4.0, gir1.2-adw-1
 Filename: pool/makebread_0.4.0-1_all.deb
-Size: 18478
-MD5sum: a39d0bfac81bcc30bd4bb82667822b70
-SHA1: 9ad45a1622dcceaf33944b1c965b84af5a527b2d
-SHA256: 9e98a9ed4317b2740fad5c7dd6fb3fd64e0b054512ed0aa41cc4e246c426a6db
+Size: 18156
+MD5sum: 4ca679e51013e10742901f2b0c06fe9c
+SHA1: bc1270dcae410d233c2e5540eb7ae6443dd26d14
+SHA256: 10fa86bf2658406af3fdc0bd61c3d10653919f071a7ce52fa60f8a1407483f84
 Section: utils
 Priority: optional
 Homepage: https://github.com/yeager/makebread
