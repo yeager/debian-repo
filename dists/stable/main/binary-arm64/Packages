@@ -48,10 +48,10 @@ Architecture: all
 Maintainer: Daniel Nylander <daniel@danielnylander.se>
 Depends: python3, python3-gi, gir1.2-gtk-4.0, gir1.2-adw-1
 Filename: ./beloningskartan_0.1.5-1_all.deb
-Size: 6486
-MD5sum: 3230e6d4440d8357665dbf67f0b4dddc
-SHA1: b859f2045e88abc7fb67268f86a00b7647138ec6
-SHA256: cb9218ef48ddf8848b4b4e6f9042e71f38c90209cff7a9143419b1efedceec9a
+Size: 6556
+MD5sum: 5c84bf5004931811961e2c73647394b8
+SHA1: ca983cc715134ba27e79b427324a500c63b5d96d
+SHA256: ad4a3d0c5c98119b8c85abe626c2e81732f39f9ce9e3d1ffcaabd9d1b319d009
 Description: Visual reward system with stars and goals for children with autism and ADHD.
 
 Package: bildordbok
@@ -344,10 +344,10 @@ Architecture: all
 Maintainer: Daniel Nylander <daniel@danielnylander.se>
 Depends: python3, python3-gi, gir1.2-gtk-4.0, gir1.2-adw-1
 Filename: ./ha-l10n_0.2.2-1_all.deb
-Size: 16454
-MD5sum: 8be68bce5275471ecffacdbd9e1fbdf0
-SHA1: eb7a4822c62050fbd09d225354266189c7459791
-SHA256: 68f216e95b96b42952e66618ef7312c01702c587390e72b5e522d7ee9561fcad
+Size: 16490
+MD5sum: b85c7fe064931979dd33cd9d83f87e4b
+SHA1: f7e106d2076370669922ff5f4130093c9a73ea79
+SHA256: 3bb372fc649b70e415f66cffc7d6c7e45c33eeaf6de28331e1a06a0b9275118d
 Description: Home Assistant translation status dashboard.
 
 Package: kanslokartan
@@ -356,10 +356,10 @@ Architecture: all
 Maintainer: Daniel Nylander <daniel@danielnylander.se>
 Depends: python3, python3-gi, gir1.2-gtk-4.0, gir1.2-adw-1
 Filename: ./kanslokartan_0.1.5-1_all.deb
-Size: 6696
-MD5sum: 71ff8ec783869d8ca9be26f769fd305a
-SHA1: 7bddfa036b7a1a224c771a159947b091612c8afe
-SHA256: 19312f2a52591b15c2ee666138b29abd6dbaedb8d2740e5f7261077200495202
+Size: 6762
+MD5sum: 35247f7c5810a8272d0adf807c8c2a98
+SHA1: b7761b2dbe7a92b2186dee9b6b900e10dc4075ff
+SHA256: 2a375c21330f1eef5178da0b3e6ad03cb1866dfe913fce606dc8a4f78e28afe5
 Description: Emotion recognition and journal for autism and ADHD.
 
 Package: l10n-conv
@@ -582,10 +582,10 @@ Architecture: all
 Maintainer: Daniel Nylander <daniel@danielnylander.se>
 Depends: python3, python3-gi, gir1.2-gtk-4.0, gir1.2-adw-1
 Filename: ./minnet_0.1.5-1_all.deb
-Size: 6454
-MD5sum: 86ee14b33ae84e9bd6f3a432459093d3
-SHA1: 1894ce70336750ef9040b1c73de4b7951d2f894c
-SHA256: 814b9e18268dc946e26a7c46dab5da232ab2d8d86706b00a327c0d08c25ecbab
+Size: 6522
+MD5sum: f49590bfa07f901724a76e02141f81ea
+SHA1: 5b87a4f34c55bb1f9e70b09dc650deb77c46b570
+SHA256: 8d8e48cf5d9fe2c5d1c1e24b36a896f2443fc038f4f69f765d8592cadb92475c
 Description: Working memory training games for autism and ADHD.
 
 Package: mittschema
@@ -817,10 +817,10 @@ Architecture: all
 Maintainer: Daniel Nylander <daniel@danielnylander.se>
 Depends: python3, python3-gi, gir1.2-gtk-4.0, gir1.2-adw-1
 Filename: ./socialaberattelser_0.1.5-1_all.deb
-Size: 7352
-MD5sum: e0ff64af2ddae555fa3c9b786acdea14
-SHA1: 0d5aab62a8d534e3c08e96f8d38e7305bca87979
-SHA256: 980cfebd1f3e0e1b57318a6db932cc46ea287130ee8b39da5112448b457a5217
+Size: 7414
+MD5sum: 7fdd6fa1a5ffd3e99a2866ac45ea157a
+SHA1: 3a2f3ba5f46f7976e8ece74ab714a8403f3bb6d6
+SHA256: 977867dfcbc0086d591aff5aa2e5da7bcf22a969b02177470f83f024b3322e28
 Description: Create and view social stories with images for autism support.
 
 Package: svlang

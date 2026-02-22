@@ -6,24 +6,24 @@ Architectures: all amd64 arm64 armhf i386
 Components: main
 Description: Danne L10n Suite - Swedish localization tools
 MD5Sum:
- fb1b419dfb7fca4b93813e45bf7d8a75 10320 main/binary-arm64/Packages.gz
- c8ce88663a12f2afe8838d076b8a9e49 34148 main/binary-arm64/Packages
- fb1b419dfb7fca4b93813e45bf7d8a75 10320 main/binary-i386/Packages.gz
- c8ce88663a12f2afe8838d076b8a9e49 34148 main/binary-i386/Packages
- fb1b419dfb7fca4b93813e45bf7d8a75 10320 main/binary-armhf/Packages.gz
- c8ce88663a12f2afe8838d076b8a9e49 34148 main/binary-armhf/Packages
- fb1b419dfb7fca4b93813e45bf7d8a75 10320 main/binary-all/Packages.gz
- c8ce88663a12f2afe8838d076b8a9e49 34148 main/binary-all/Packages
- fb1b419dfb7fca4b93813e45bf7d8a75 10320 main/binary-amd64/Packages.gz
- c8ce88663a12f2afe8838d076b8a9e49 34148 main/binary-amd64/Packages
+ 2e3682a8eb4b4b89a260c53752a9f33f 10318 main/binary-arm64/Packages.gz
+ 88436a20c12fd4d9d8d8e0c77629f354 34148 main/binary-arm64/Packages
+ 2e3682a8eb4b4b89a260c53752a9f33f 10318 main/binary-i386/Packages.gz
+ 88436a20c12fd4d9d8d8e0c77629f354 34148 main/binary-i386/Packages
+ 2e3682a8eb4b4b89a260c53752a9f33f 10318 main/binary-armhf/Packages.gz
+ 88436a20c12fd4d9d8d8e0c77629f354 34148 main/binary-armhf/Packages
+ 2e3682a8eb4b4b89a260c53752a9f33f 10318 main/binary-all/Packages.gz
+ 88436a20c12fd4d9d8d8e0c77629f354 34148 main/binary-all/Packages
+ 2e3682a8eb4b4b89a260c53752a9f33f 10318 main/binary-amd64/Packages.gz
+ 88436a20c12fd4d9d8d8e0c77629f354 34148 main/binary-amd64/Packages
 SHA256:
- c155d1750d6b3fea0dd359db9eeac9ccd4bf2d438da84cba60895bb9e1e53a79 10320 main/binary-arm64/Packages.gz
- 6e0d1fbdd139bae2af64a8f54fa85a51ce57d63848e49354fab13a81a8f53a1c 34148 main/binary-arm64/Packages
- c155d1750d6b3fea0dd359db9eeac9ccd4bf2d438da84cba60895bb9e1e53a79 10320 main/binary-i386/Packages.gz
- 6e0d1fbdd139bae2af64a8f54fa85a51ce57d63848e49354fab13a81a8f53a1c 34148 main/binary-i386/Packages
- c155d1750d6b3fea0dd359db9eeac9ccd4bf2d438da84cba60895bb9e1e53a79 10320 main/binary-armhf/Packages.gz
- 6e0d1fbdd139bae2af64a8f54fa85a51ce57d63848e49354fab13a81a8f53a1c 34148 main/binary-armhf/Packages
- c155d1750d6b3fea0dd359db9eeac9ccd4bf2d438da84cba60895bb9e1e53a79 10320 main/binary-all/Packages.gz
- 6e0d1fbdd139bae2af64a8f54fa85a51ce57d63848e49354fab13a81a8f53a1c 34148 main/binary-all/Packages
- c155d1750d6b3fea0dd359db9eeac9ccd4bf2d438da84cba60895bb9e1e53a79 10320 main/binary-amd64/Packages.gz
- 6e0d1fbdd139bae2af64a8f54fa85a51ce57d63848e49354fab13a81a8f53a1c 34148 main/binary-amd64/Packages
+ 6779487c1dcc7693cf7b1a1b6279573d87d1426f5b611a5de7f758ae7d7bd614 10318 main/binary-arm64/Packages.gz
+ d707417a9e6756573fe86147e8f6be7c3f6f7b7021f6df492c854147d27f414f 34148 main/binary-arm64/Packages
+ 6779487c1dcc7693cf7b1a1b6279573d87d1426f5b611a5de7f758ae7d7bd614 10318 main/binary-i386/Packages.gz
+ d707417a9e6756573fe86147e8f6be7c3f6f7b7021f6df492c854147d27f414f 34148 main/binary-i386/Packages
+ 6779487c1dcc7693cf7b1a1b6279573d87d1426f5b611a5de7f758ae7d7bd614 10318 main/binary-armhf/Packages.gz
+ d707417a9e6756573fe86147e8f6be7c3f6f7b7021f6df492c854147d27f414f 34148 main/binary-armhf/Packages
+ 6779487c1dcc7693cf7b1a1b6279573d87d1426f5b611a5de7f758ae7d7bd614 10318 main/binary-all/Packages.gz
+ d707417a9e6756573fe86147e8f6be7c3f6f7b7021f6df492c854147d27f414f 34148 main/binary-all/Packages
+ 6779487c1dcc7693cf7b1a1b6279573d87d1426f5b611a5de7f758ae7d7bd614 10318 main/binary-amd64/Packages.gz
+ d707417a9e6756573fe86147e8f6be7c3f6f7b7021f6df492c854147d27f414f 34148 main/binary-amd64/Packages
