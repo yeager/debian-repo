@@ -793,11 +793,11 @@ Architecture: all
 Maintainer: Daniel Nylander <daniel@danielnylander.se>
 Depends: python3, python3-gi, gir1.2-gtk-4.0, gir1.2-adw-1
 Filename: ./scummvm-gtk_0.2.0-1_all.deb
-Size: 15636
-MD5sum: c72e349b5f1f69ceaff04096a080b526
-SHA1: 3dd994953f2afcfcdf96498215b356df3b456900
-SHA256: b6034e67f61511769060d044d5f57682b413a868a7368f6f89585b3d993c8e9c
-Description: ScummVM game launcher with grid view and game details.
+Size: 16610
+MD5sum: c05836da8a40f7f973ad4ed18663326c
+SHA1: c34bd7463f1ed6823d730c9c0ca1f06aeed4ae9f
+SHA256: 113e77223853359914db49e5ecd5fabafcdb976f55061d35ca4dbb3053427564
+Description: GTK4/Adwaita frontend for ScummVM game launcher
 
 Package: snap-l10n
 Version: 0.2.10-1
