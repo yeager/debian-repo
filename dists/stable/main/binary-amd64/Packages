@@ -1,69 +1,68 @@
-Package: beloningskartan
-Version: 0.1.2-1
+Package: anpr-viewer
+Version: 0.2.0
 Architecture: all
 Maintainer: Daniel Nylander <daniel@danielnylander.se>
-Depends: python3 (>= 3.10), python3-gi, gir1.2-gtk-4.0, gir1.2-adw-1
-Filename: ./beloningskartan_0.1.2_all.deb
-Size: 5498
-MD5sum: f0e39ca4bb12a73d11cd782babd394cb
-SHA1: 96f2999c9cacd3ffb37e36deda497545b4717792
-SHA256: 302db496cce76800ad4363493a37e9092432da0bab254bc7d5734e52e6d1e434
+Depends: python3, python3-gi, gir1.2-gtk-4.0, gir1.2-adw-1, tesseract-ocr, ffmpeg
+Filename: pool/anpr-viewer_0.2.0_all.deb
+Size: 9320
+MD5sum: 9d1d56ce7796105ae33ada7f25e7bd84
+SHA1: a35af2fd2cdc0dea9c5d7037bf27bba2cd4822e1
+SHA256: 146f1974deb0c5dd91f8a99fccebf33b24c07b3780b24947cae55029c60ab77a
 Section: utils
 Priority: optional
-Homepage: https://github.com/yeager/beloningskartan
-Description: beloningskartan - part of the L10n App Suite
+Description: License plate recognition from video
 
 Package: bildordbok
-Version: 0.3.2-1
+Version: 0.2.0-1
 Architecture: all
 Maintainer: Daniel Nylander <daniel@danielnylander.se>
-Depends: python3 (>= 3.10), python3-gi, gir1.2-gtk-4.0, gir1.2-adw-1
-Filename: ./bildordbok_0.3.2_all.deb
-Size: 223236
-MD5sum: 753297ac9650a048987577859c189273
-SHA1: 0bf1303c8d6e7438a14269b447aea02146c39410
-SHA256: a4db0bce6be37a9bd8d4355fbcbcde2440cef102c6066de1d34a1d3d70ba50e1
+Depends: python3 (>= 3.9), python3-gi, gir1.2-gtk-4.0, gir1.2-adw-1
+Filename: pool/bildordbok_0.2.0-1_all.deb
+Size: 28650
+MD5sum: 17ab526c37265ee18f056a7ba16a1ade
+SHA1: 07df4c8f46e374cd2ba8e9a829a3115e3a1099a0
+SHA256: 6f7013ff3614e21240723fd619b694cfffbc412c0c1445d7e14904865c209581
 Section: utils
 Priority: optional
 Homepage: https://github.com/yeager/bildordbok
-Description: bildordbok - L10n App Suite
+Description: Picture dictionary with ARASAAC images
 
 Package: bildschema
-Version: 0.3.2-1
+Version: 0.2.0-1
 Architecture: all
 Maintainer: Daniel Nylander <daniel@danielnylander.se>
-Depends: python3 (>= 3.10), python3-gi, gir1.2-gtk-4.0, gir1.2-adw-1
-Filename: ./bildschema_0.3.2_all.deb
-Size: 219938
-MD5sum: 5f47a5e8e595643e30f939860f4adc4b
-SHA1: 6bb175b9d0639188b500ab18fa16ebcc00c145c8
-SHA256: c3f1f14b4a3932cd0c9c3d7d6a482074ee0f09907ba825007cd1ed0bf93d8967
+Depends: python3 (>= 3.9), python3-gi, gir1.2-gtk-4.0, gir1.2-adw-1
+Filename: pool/bildschema_0.2.0-1_all.deb
+Size: 6860
+MD5sum: f08d1742abe0f5f9d2a3a22c5297e4ef
+SHA1: 78511afda0fa41a5e2c6c86d854f5b40eafa750a
+SHA256: ff314f8684fc34670154a17fc380fc49cb370808ac405ebbc0b59405a17476a2
 Section: utils
 Priority: optional
 Homepage: https://github.com/yeager/bildschema
-Description: bildschema - L10n App Suite
+Description: Visual schedule with PECS/ARASAAC images
 
 Package: bildstod
-Version: 0.4.4-1
+Version: 0.3.0-1
 Architecture: all
 Maintainer: Daniel Nylander <daniel@danielnylander.se>
-Depends: python3 (>= 3.10), python3-gi, gir1.2-gtk-4.0, gir1.2-adw-1
-Filename: ./bildstod_0.4.4_all.deb
-Size: 24578
-MD5sum: f36e8049511be7f7b68c899efa94f5e9
-SHA1: 345b797ae06e603e7e81d7e55f27e9b31c4cfe00
-SHA256: 0bf00931cf0c4571ed9f689130f45ee6afc73131f08ae624d15069d127412588
+Depends: python3, python3-gi, gir1.2-gtk-4.0, gir1.2-adw-1
+Filename: pool/bildstod_0.3.0-1_all.deb
+Size: 16844
+MD5sum: 96ec649f76a7228e46a623f1705ca2ef
+SHA1: 7dda3a71f93ff7b15315560e776db933e3cca2b3
+SHA256: 2566057d38dedf8942d8dbd78e58db5eaec79c74ab069224c41018123c1f6708
 Section: utils
 Priority: optional
 Homepage: https://github.com/yeager/bildstod
-Description: bildstod
+Description: Visual schedule with ARASAAC pictograms
 
 Package: cert-watch
 Version: 0.1.1-1
 Architecture: all
 Maintainer: Daniel Nylander <daniel@danielnylander.se>
 Depends: python3, python3-gi, gir1.2-gtk-4.0, gir1.2-adw-1
-Filename: ./pool/cert-watch_0.1.1-1_all.deb
+Filename: pool/cert-watch_0.1.1-1_all.deb
 Size: 6120
 MD5sum: de688d26ee0e011a07888e6908182a74
 SHA1: ee015bcc201a4c1620c09fa2e0382fbe457a0eb3
@@ -78,7 +77,7 @@ Version: 0.1.9
 Architecture: all
 Maintainer: Daniel Nylander <daniel@danielnylander.se>
 Depends: python3 (>= 3.10), python3-gi, gir1.2-gtk-4.0, gir1.2-adw-1
-Filename: ./pool/cldr-viewer_0.1.9_all.deb
+Filename: pool/cldr-viewer_0.1.9_all.deb
 Size: 10052
 MD5sum: 269aba6dc4ca87522cb30a842cfcc168
 SHA1: de0cc3ea6c8b78d2896ccae7755b54dc586d0c8e
@@ -95,7 +94,7 @@ Version: 0.1.9-1
 Architecture: all
 Maintainer: Daniel Nylander <daniel@danielnylander.se>
 Depends: python3 (>= 3.10), python3-gi, gir1.2-gtk-4.0, gir1.2-adw-1
-Filename: ./pool/commonvoice-status_0.1.9-1_all.deb
+Filename: pool/commonvoice-status_0.1.9-1_all.deb
 Size: 9696
 MD5sum: e4de223cd5597ea0b7f98bc8a0608a09
 SHA1: cfad4943651c086cd0de320716af40379d2ebff4
@@ -108,41 +107,44 @@ Description: Mozilla Common Voice translation status viewer
  translation and recording statistics.
 
 Package: cve-monitor
-Version: 0.3.3-1
+Version: 0.3.0-1
 Architecture: all
 Maintainer: Daniel Nylander <daniel@danielnylander.se>
 Depends: python3 (>= 3.10), python3-gi, gir1.2-gtk-4.0, gir1.2-adw-1, python3-requests
-Filename: ./cve-monitor_0.3.3-1_all.deb
-Size: 20008
-MD5sum: ca6cf23f4d2cb46263abccbebd0c008e
-SHA1: 39254a3e8cbd55c0c78f4aafa086e60b9dcbcabf
-SHA256: 3e85911d325c84bd50e369db2211f61a0a961b0cb1dd5894d07abdfd6cafe29c
+Filename: pool/cve-monitor_0.3.0-1_all.deb
+Size: 16258
+MD5sum: 58a879cc95ceb9bb793c9f6a4b590b54
+SHA1: 8c58111b28d3f959aeceffd7233825935c139e51
+SHA256: 67e212936e47e38e5408d105e26161b41d1bdf8e00d905ee656470a66444f508
 Section: utils
 Priority: optional
 Homepage: https://github.com/yeager/cve-monitor
 Description: Monitor CVE vulnerabilities for installed packages
 
 Package: ddtp-translate
-Version: 0.11.0-1
+Version: 0.9.0-1
 Architecture: all
 Maintainer: Daniel Nylander <daniel@danielnylander.se>
 Depends: python3 (>= 3.10), python3-gi, gir1.2-gtk-4.0, gir1.2-adw-1
-Filename: ./ddtp-translate_0.11.0_all.deb
-Size: 41388
-MD5sum: 7ca7e70b6ebfd34e6f030c49b07a4958
-SHA1: 8248c2fad38c62e0766147fa7c638cf55289a8c2
-SHA256: 3e7f854be84c07f7e80540e144692bd08acb9ec76434136521ac42f5f250928f
-Section: utils
+Suggests: po-translate
+Filename: pool/ddtp-translate_0.9.0-1_all.deb
+Size: 37738
+MD5sum: 950e66e7c815858dfdb23e3f71b774fb
+SHA1: 7573891062f4661ea4bf96076d84fc5a826dee45
+SHA256: 35343cc32e6e84baff78fe469c0b6e685222e27557aec74ca24d49a4faabcc25
+Section: devel
 Priority: optional
 Homepage: https://github.com/yeager/ddtp-translate
-Description: ddtp-translate - L10n App Suite
+Description: Translate Debian package descriptions via DDTP
+ A GTK4/Adwaita application for translating Debian package
+ descriptions via the Debian Description Translation Project.
 
 Package: desktop-editor
 Version: 0.2.8-1
 Architecture: all
 Maintainer: Daniel Nylander <daniel@danielnylander.se>
 Depends: python3 (>= 3.10), python3-gi, gir1.2-gtk-4.0, gir1.2-adw-1
-Filename: ./pool/desktop-editor_0.2.8-1_all.deb
+Filename: pool/desktop-editor_0.2.8-1_all.deb
 Size: 12188
 MD5sum: 3fae5e696a8fae6ce1d15ffa9815ddd0
 SHA1: bda289a80acbda779bf53fad97fa5a436b3cb9d5
@@ -157,7 +159,7 @@ Version: 0.3.2-1
 Architecture: all
 Maintainer: Daniel Nylander <daniel@danielnylander.se>
 Depends: python3 (>= 3.10), python3-gi, gir1.2-gtk-4.0, gir1.2-adw-1
-Filename: ./pool/elementary-l10n_0.3.2-1_all.deb
+Filename: pool/elementary-l10n_0.3.2-1_all.deb
 Size: 13884
 MD5sum: bacf77e33019392250be503ffffdc7fc
 SHA1: 3ebfb087aeff8a4000e56135a0640c88c90f78dc
@@ -172,7 +174,7 @@ Version: 0.1.1-1
 Architecture: all
 Maintainer: Daniel Nylander <daniel@danielnylander.se>
 Depends: python3, python3-gi, gir1.2-gtk-4.0, gir1.2-adw-1
-Filename: ./pool/firewall-manager_0.1.1-1_all.deb
+Filename: pool/firewall-manager_0.1.1-1_all.deb
 Size: 6148
 MD5sum: 4bb60a720bc884245f6e7f2f19da8c90
 SHA1: d39da28ef5f220454617fab12364394f2ea0fdf3
@@ -182,27 +184,12 @@ Priority: optional
 Homepage: https://github.com/yeager/firewall-manager
 Description: GTK4 frontend for ufw/nftables
 
-Package: fokuskompis
-Version: 0.2.2-1
-Architecture: all
-Maintainer: Daniel Nylander <daniel@danielnylander.se>
-Depends: python3 (>= 3.10), python3-gi, gir1.2-gtk-4.0, gir1.2-adw-1
-Filename: ./fokuskompis_0.2.2_all.deb
-Size: 11068
-MD5sum: e6bd83dafc7e27c23139dbf29133ab16
-SHA1: 4dad10e219db278e0ae7ac8c44e7e63401c4abf2
-SHA256: 59997c6c1c4c8c2ebdb084f902cee89bd4d75a3f63dc429401aca5962045c029
-Section: utils
-Priority: optional
-Homepage: https://github.com/yeager/fokuskompis
-Description: fokuskompis
-
 Package: font-preview
 Version: 0.2.9-1
 Architecture: all
 Maintainer: Daniel Nylander <daniel@danielnylander.se>
 Depends: python3 (>= 3.10), python3-gi, gir1.2-gtk-4.0, gir1.2-adw-1
-Filename: ./pool/font-preview_0.2.9-1_all.deb
+Filename: pool/font-preview_0.2.9-1_all.deb
 Size: 11090
 MD5sum: 70a626ab99d81ed662af5bc3a87d12d5
 SHA1: 44e43499749ff4beb443b12e8b7ea60acc3c1e7c
@@ -217,7 +204,7 @@ Version: 0.2.7
 Architecture: all
 Maintainer: Daniel Nylander <daniel@danielnylander.se>
 Depends: python3 (>= 3.10), python3-gi, gir1.2-gtk-4.0, gir1.2-adw-1
-Filename: ./pool/github-l10n_0.2.7_all.deb
+Filename: pool/github-l10n_0.2.7_all.deb
 Size: 11608
 MD5sum: 37e6e391c13e218c99c004882af67c25
 SHA1: edc896247001b3d0a2a143921e151c0e76f0c11f
@@ -229,16 +216,16 @@ Description: Browse GitHub project translation status
  GTK4/Adwaita app to view and compare translation coverage of GitHub projects.
 
 Package: gnome-l10n
-Version: 0.2.1-1
+Version: 0.2.0-1
 Architecture: all
 Maintainer: Daniel Nylander <daniel@danielnylander.se>
 Depends: python3, python3-gi, gir1.2-gtk-4.0, gir1.2-adw-1
 Recommends: scummvm
-Filename: ./gnome-l10n_0.2.1-1_all.deb
-Size: 9988
-MD5sum: 9d3d5b2785eb76ac1fe486c503913107
-SHA1: b057f34654fc1d6bc3997e9e605e19399f503d3e
-SHA256: d37edc5c91838011540c0d32345bbcf3af379838ecdd233ed06d3ba660e46ede
+Filename: pool/gnome-l10n_0.2.0-1_all.deb
+Size: 9122
+MD5sum: b8a7805b5490fb1de9aa8d1b109371cd
+SHA1: b43ffd352446cfca255afed736a11ff7e599b942
+SHA256: ddddafc5ad9673563fd6c76e3226f63dbc3198da0aacc20b32e7851e300069c9
 Section: utils
 Priority: optional
 Homepage: https://github.com/yeager/gnome-l10n
@@ -251,7 +238,7 @@ Version: 0.2.1
 Architecture: all
 Maintainer: Daniel Nylander <daniel@danielnylander.se>
 Depends: python3 (>= 3.10), python3-gi, gir1.2-gtk-4.0, gir1.2-adw-1
-Filename: ./pool/ha-l10n_0.2.1_all.deb
+Filename: pool/ha-l10n_0.2.1_all.deb
 Size: 15848
 MD5sum: b178205ecdb01a87c182df408020c6a8
 SHA1: accfa70c8561a65112933ab5cc2a490ddb70d3e4
@@ -261,27 +248,12 @@ Priority: optional
 Homepage: https://github.com/yeager/ha-l10n
 Description: Home Assistant translation status dashboard
 
-Package: kanslokartan
-Version: 0.1.2-1
-Architecture: all
-Maintainer: Daniel Nylander <daniel@danielnylander.se>
-Depends: python3 (>= 3.10), python3-gi, gir1.2-gtk-4.0, gir1.2-adw-1
-Filename: ./kanslokartan_0.1.2_all.deb
-Size: 5638
-MD5sum: efffece23b869add2a2850f24c3449a3
-SHA1: a2bfcb390d5e3a31f94bf3819448c70432045815
-SHA256: f3185d1cd32d7cc23b7f36e88eba95f57d2c650df79d729415dd12680a643a10
-Section: utils
-Priority: optional
-Homepage: https://github.com/yeager/kanslokartan
-Description: kanslokartan - part of the L10n App Suite
-
 Package: l10n-conv
 Version: 1.0.9-1
 Architecture: all
 Maintainer: Daniel Nylander <daniel@danielnylander.se>
 Depends: python3
-Filename: ./pool/l10n-conv_1.0.9-1_all.deb
+Filename: pool/l10n-conv_1.0.9-1_all.deb
 Size: 10600
 MD5sum: f74d004334526c99ff6c8fdb0b7e09be
 SHA1: 20917451ae73d6ac156000dc2fb35420f69d884c
@@ -296,7 +268,7 @@ Version: 0.2.7-1
 Architecture: all
 Maintainer: Daniel Nylander <daniel@danielnylander.se>
 Depends: python3 (>= 3.10), python3-gi, gir1.2-gtk-4.0, gir1.2-adw-1
-Filename: ./pool/l10n-glossary_0.2.7-1_all.deb
+Filename: pool/l10n-glossary_0.2.7-1_all.deb
 Size: 11532
 MD5sum: 0266c167d4e652ce4a630e83d6213acf
 SHA1: 5a22476fe599fe843d3a627d6353fa41e0247d5c
@@ -311,7 +283,7 @@ Version: 1.16.0-1
 Architecture: all
 Maintainer: Daniel Nylander <daniel@danielnylander.se>
 Depends: python3
-Filename: ./pool/l10n-lint_1.16.0-1_all.deb
+Filename: pool/l10n-lint_1.16.0-1_all.deb
 Size: 32064
 MD5sum: 389a080869ff7a105119bafe3e5594d4
 SHA1: f38ff22d7fbb1709887555fcd1c0b0eedad68114
@@ -326,7 +298,7 @@ Version: 0.2.7-1
 Architecture: all
 Maintainer: Daniel Nylander <daniel@danielnylander.se>
 Depends: python3 (>= 3.10), python3-gi, gir1.2-gtk-4.0, gir1.2-adw-1
-Filename: ./pool/l10n-preview_0.2.7-1_all.deb
+Filename: pool/l10n-preview_0.2.7-1_all.deb
 Size: 8936
 MD5sum: 5a3d0757a19390e8603b90c3b4aa17e1
 SHA1: 721215c26f1a0e84e2c2c2f0beb4210874900b2b
@@ -341,7 +313,7 @@ Version: 0.2.6-1
 Architecture: all
 Maintainer: Daniel Nylander <daniel@danielnylander.se>
 Depends: python3 (>= 3.10), python3-gi, gir1.2-gtk-4.0, gir1.2-adw-1
-Filename: ./pool/langpack-inspector_0.2.6-1_all.deb
+Filename: pool/langpack-inspector_0.2.6-1_all.deb
 Size: 10368
 MD5sum: 92daa1e9f59cd09b7e2193035d8ed0f3
 SHA1: 99bbc803cca45c4bce61e05692a4b5ac90f3ba18
@@ -356,7 +328,7 @@ Version: 0.2.7
 Architecture: all
 Maintainer: Daniel Nylander <daniel@danielnylander.se>
 Depends: python3 (>= 3.10), python3-gi, gir1.2-gtk-4.0, gir1.2-adw-1
-Filename: ./pool/libretranslate-gui_0.2.7_all.deb
+Filename: pool/libretranslate-gui_0.2.7_all.deb
 Size: 9486
 MD5sum: 4cee7568782c91b24e395017c9ef9473
 SHA1: 7f527435cda73f9008754849884551c00512c4b1
@@ -372,7 +344,7 @@ Version: 1.8.14-1
 Architecture: all
 Maintainer: Daniel Nylander <daniel@danielnylander.se>
 Depends: python3, python3-pyside6.qtwidgets, python3-polib, python3-yaml, python3-requests
-Filename: ./pool/linguaedit_1.8.14-1_all.deb
+Filename: pool/linguaedit_1.8.14-1_all.deb
 Size: 50194
 MD5sum: 9775d474aa315657c7390bb13d1cc454
 SHA1: d1bf3e1dbf076695b5e3e821c936f07b0c3b3edb
@@ -383,27 +355,12 @@ Description: Qt6/PySide6 translation file editor
  A powerful translation file editor supporting PO, TS, JSON, XLIFF,
  Android, ARB, PHP, and YAML formats.
 
-Package: ljudladan
-Version: 0.1.2-1
-Architecture: all
-Maintainer: Daniel Nylander <daniel@danielnylander.se>
-Depends: python3 (>= 3.10), python3-gi, gir1.2-gtk-4.0, gir1.2-adw-1
-Filename: ./ljudladan_0.1.2_all.deb
-Size: 5884
-MD5sum: d2666e8e8c09ca27cac397c0b46190ff
-SHA1: 548b1b45a1ec16180df8f8f73434060ab16bc72a
-SHA256: 72c73015e728f6e1b5da97d643ba19bba0587c2181697abae4056e19c4bf472c
-Section: utils
-Priority: optional
-Homepage: https://github.com/yeager/ljudladan
-Description: ljudladan - part of the L10n App Suite
-
 Package: locale-tester
 Version: 0.2.7-1
 Architecture: all
 Maintainer: Daniel Nylander <daniel@danielnylander.se>
 Depends: python3 (>= 3.10), python3-gi, gir1.2-gtk-4.0, gir1.2-adw-1
-Filename: ./pool/locale-tester_0.2.7-1_all.deb
+Filename: pool/locale-tester_0.2.7-1_all.deb
 Size: 9218
 MD5sum: 67c0478f97ef9bebcca6fc3a7f6f5dd0
 SHA1: d323b9411acd982f260b149bf280f84524464120
@@ -418,7 +375,7 @@ Version: 0.1.1-1
 Architecture: all
 Maintainer: Daniel Nylander <daniel@danielnylander.se>
 Depends: python3, python3-gi, gir1.2-gtk-4.0, gir1.2-adw-1
-Filename: ./pool/log-viewer_0.1.1-1_all.deb
+Filename: pool/log-viewer_0.1.1-1_all.deb
 Size: 4824
 MD5sum: 995b3257baebf00bb8f8d5c1941edd98
 SHA1: 1db6863ba04eeadc1c20fa7be771761ceca79092
@@ -428,27 +385,12 @@ Priority: optional
 Homepage: https://github.com/yeager/log-viewer
 Description: GTK4 journalctl log viewer
 
-Package: lugnarummet
-Version: 0.3.1-1
-Architecture: all
-Maintainer: Daniel Nylander <daniel@danielnylander.se>
-Depends: python3 (>= 3.10), python3-gi, gir1.2-gtk-4.0, gir1.2-adw-1
-Filename: ./lugnarummet_0.3.1_all.deb
-Size: 11036
-MD5sum: 53955102a381472bd14d901206ebcfb7
-SHA1: eae82960c863c211dec6cb445f0ae16831c645be
-SHA256: d2dddbadbbd8a719be7b20396fd1f330e116e4d3dbcdc8d914f9669279c458fd
-Section: utils
-Priority: optional
-Homepage: https://github.com/yeager/lugnarummet
-Description: lugnarummet - L10n App Suite
-
 Package: makebread
 Version: 0.4.0-1
 Architecture: all
 Maintainer: Daniel Nylander <daniel@danielnylander.se>
 Depends: python3 (>= 3.9), python3-gi, gir1.2-gtk-4.0, gir1.2-adw-1
-Filename: ./pool/makebread_0.4.0-1_all.deb
+Filename: pool/makebread_0.4.0-1_all.deb
 Size: 18478
 MD5sum: a39d0bfac81bcc30bd4bb82667822b70
 SHA1: 9ad45a1622dcceaf33944b1c965b84af5a527b2d
@@ -458,42 +400,12 @@ Priority: optional
 Homepage: https://github.com/yeager/makebread
 Description: Bread recipe manager
 
-Package: minnet
-Version: 0.1.2-1
-Architecture: all
-Maintainer: Daniel Nylander <daniel@danielnylander.se>
-Depends: python3 (>= 3.10), python3-gi, gir1.2-gtk-4.0, gir1.2-adw-1
-Filename: ./minnet_0.1.2_all.deb
-Size: 5424
-MD5sum: 5be7bb292caa286b44b5abf90102eedf
-SHA1: 223e697118b31a94d52a891a4649f771f75c5889
-SHA256: aa7d83756d7bd42b1f48cf3030d8cf2d2d4fc1246fa118eabc495d686bdaa586
-Section: utils
-Priority: optional
-Homepage: https://github.com/yeager/minnet
-Description: minnet - part of the L10n App Suite
-
-Package: mittschema
-Version: 0.1.2-1
-Architecture: all
-Maintainer: Daniel Nylander <daniel@danielnylander.se>
-Depends: python3 (>= 3.10), python3-gi, gir1.2-gtk-4.0, gir1.2-adw-1
-Filename: ./mittschema_0.1.2_all.deb
-Size: 5624
-MD5sum: 7fb817c106e7e39d07f2d99084b5bb34
-SHA1: c39df2a72400151500db9e5ce077c60d2c267f76
-SHA256: 98a7ef69e699b3e71ee580952b966033ab01cb3d78d413c6a0f5accb8ddb2db9
-Section: utils
-Priority: optional
-Homepage: https://github.com/yeager/mittschema
-Description: mittschema - part of the L10n App Suite
-
 Package: mqtt-dashboard
 Version: 0.1.1-1
 Architecture: all
 Maintainer: Daniel Nylander <daniel@danielnylander.se>
 Depends: python3, python3-gi, gir1.2-gtk-4.0, gir1.2-adw-1
-Filename: ./pool/mqtt-dashboard_0.1.1-1_all.deb
+Filename: pool/mqtt-dashboard_0.1.1-1_all.deb
 Size: 5744
 MD5sum: 647bd74bb6eaab988667627a10b21ff0
 SHA1: 57bd654401e199b1ede9e5e3a8b5a3ef70a1c295
@@ -508,7 +420,7 @@ Version: 0.2.1-1
 Architecture: all
 Maintainer: Daniel Nylander <daniel@danielnylander.se>
 Depends: python3 (>= 3.10), python3-gi, gir1.2-gtk-4.0, gir1.2-adw-1
-Filename: ./pool/mqtt-inspector_0.2.1-1_all.deb
+Filename: pool/mqtt-inspector_0.2.1-1_all.deb
 Size: 10206
 MD5sum: 8310df41f536d138cb4841e38b53aced
 SHA1: 540630a4fccf530368891afbce8ac6f3307f9a40
@@ -523,7 +435,7 @@ Version: 0.2.1-1
 Architecture: all
 Maintainer: Daniel Nylander <daniel@danielnylander.se>
 Depends: python3 (>= 3.10), python3-gi, gir1.2-gtk-4.0, gir1.2-adw-1
-Filename: ./pool/obd2-viewer_0.2.1-1_all.deb
+Filename: pool/obd2-viewer_0.2.1-1_all.deb
 Size: 18518
 MD5sum: 7cf5ad23df848ddad10779ec0315e99b
 SHA1: 4141aef2d28a078843b537a46a29c00bfc36e194
@@ -534,86 +446,92 @@ Homepage: https://github.com/yeager/obd2-viewer
 Description: OBD2 diagnostic data viewer and logger
 
 Package: ordbyggaren
-Version: 0.2.1-1
+Version: 0.1.1-1
 Architecture: all
 Maintainer: Daniel Nylander <daniel@danielnylander.se>
-Depends: python3 (>= 3.10), python3-gi, gir1.2-gtk-4.0, gir1.2-adw-1
-Filename: ./ordbyggaren_0.2.1_all.deb
-Size: 7672
-MD5sum: 7c3d3e802a0d89f9f10b9d3834219ca0
-SHA1: f15be3567fb66dbc7b6499cdbc9fa306712afcd3
-SHA256: f3b00bfc150b905b9f8c821a86bd8af9742425e27959b36862e0d9933e66232b
+Depends: python3, python3-gi, gir1.2-gtk-4.0, gir1.2-adw-1
+Filename: pool/ordbyggaren_0.1.1-1_all.deb
+Size: 4884
+MD5sum: a8ee09a2743080d226872aae8f405553
+SHA1: d327937d34da5087a5c04b9eecf32e01880551ce
+SHA256: ddd9d01e10ac7bddf0ca0f048e93b7435aabe23b5e7b3b83fb6e0ea1bcd86d81
 Section: utils
 Priority: optional
 Homepage: https://github.com/yeager/ordbyggaren
-Description: ordbyggaren - L10n App Suite
+Description: Phonological training for children
 
 Package: packetlens
 Version: 0.2.6-1
 Architecture: all
 Maintainer: Daniel Nylander <daniel@danielnylander.se>
-Depends: python3 (>= 3.10), python3-gi, gir1.2-gtk-4.0, gir1.2-adw-1, python3-scapy
-Filename: ./packetlens.deb
-Size: 36350
-MD5sum: 62216343e9091a57a27e5ca633b94afb
-SHA1: 371fd71e4311cc125310b2352a76a1ebbf35445a
-SHA256: 07a478e1a0eb14e49f4c8524447e4b9ff410a19dc550cd701383b7f0f71a38f0
-Section: utils
+Depends: python3 (>= 3.10), python3-gi, gir1.2-gtk-4.0, gir1.2-adw-1
+Filename: pool/packetlens_0.2.6-1_all.deb
+Size: 36408
+MD5sum: 080963dec6475482ef2ddc134139d663
+SHA1: f4ea6df8477aa750d754418bfbe2cc23c291074b
+SHA256: 25c4f9e5d067ddbd881c42a9d3274b809c75a77e5f47ac8c9f2a1c2b910aba13
+Section: net
 Priority: optional
 Homepage: https://github.com/yeager/pcap-viewer
-Description: Network packet capture viewer
+Description: GTK4 network capture analyzer
+ PacketLens is a GTK4/Adwaita application for analyzing network
+ captures with protocol stats, DNS/TLS/HTTP analysis, and file extraction.
 
 Package: pecsbrada
-Version: 0.3.2-1
+Version: 0.2.0-1
 Architecture: all
 Maintainer: Daniel Nylander <daniel@danielnylander.se>
-Depends: python3 (>= 3.10), python3-gi, gir1.2-gtk-4.0, gir1.2-adw-1
-Filename: ./pecsbrada_0.3.2_all.deb
-Size: 220300
-MD5sum: 019a37acdabbd28e9b024dd09420bbb3
-SHA1: 12a64e5b7d9df240160ef5c8f0f0a0512b0b0246
-SHA256: eb8f2690bf74cd8dd872c5fcb6d876ff5d8057f1742561f206b9e58531120d7a
+Depends: python3 (>= 3.9), python3-gi, gir1.2-gtk-4.0, gir1.2-adw-1
+Filename: pool/pecsbrada_0.2.0-1_all.deb
+Size: 7374
+MD5sum: d59635f2c72681453d8e60033e1e6235
+SHA1: 4f168b65cd8aa68ae1151572e581af3f40e294a2
+SHA256: 44911b331aee1064fc54f29235266c7df00ad8178163273da8053cd4a329d283
 Section: utils
 Priority: optional
 Homepage: https://github.com/yeager/pecsbrada
-Description: pecsbrada - L10n App Suite
+Description: PECS communication board
 
 Package: po-diff
 Version: 1.0.1-1
 Architecture: all
 Maintainer: Daniel Nylander <daniel@danielnylander.se>
 Depends: python3 (>= 3.9)
-Filename: ./po-diff_1.0.1-1_all.deb
-Size: 6236
-MD5sum: 7dc9688a87eaeec925055722d329af5e
-SHA1: efe09a33abe6b9a56faae4a30b74715535953eb7
-SHA256: 77592ec4f4402885274d0452a75cd9a115a877ca95e81ab94ec055857177a284
-Section: utils
+Filename: pool/po-diff_1.0.1-1_all.deb
+Size: 12396
+MD5sum: a95b1e1fe0d796f6890bda7ce6ec4d90
+SHA1: b0ad7eb892b06b3a1c62a50f91336cf36e781a18
+SHA256: afed02662eba62373ad908281c2ba623733f50bcaba3d411e6154de35a5a822c
+Section: devel
 Priority: optional
 Homepage: https://github.com/yeager/po-diff
 Description: Compare PO/TS translation files
+ po-diff compares two PO or TS translation files and shows
+ added, removed, and changed translations.
 
 Package: po-translate
-Version: 1.5.6-1
+Version: 1.5.4-1
 Architecture: all
 Maintainer: Daniel Nylander <daniel@danielnylander.se>
 Depends: python3 (>= 3.9)
-Filename: ./po-translate_1.5.6-1_all.deb
-Size: 11476
-MD5sum: ae78b8a7214d5363472ca1bad87a8006
-SHA1: 02206b81109e042cc2756aba7b15203ab9545511
-SHA256: 895dd7cdea7aacf5e3f40b454577c94c67fc40993f545ff3a992a10b5953b230
-Section: utils
+Filename: pool/po-translate_1.5.4-1_all.deb
+Size: 12632
+MD5sum: ea510a10768943e84d0e506803b34d77
+SHA1: 40077d33b434465146e5f15642a10b77d08d7436
+SHA256: 80233b84afe86789d260e186a591b969b801565e56d3848cd586bf02b0e50a93
+Section: devel
 Priority: optional
 Homepage: https://github.com/yeager/po-translate
-Description: Batch translate PO/TS files using AI
+Description: Translate PO files using multiple translation services
+ po-translate translates gettext PO files using various services
+ including DeepL, Google, OpenAI, Anthropic, and more.
 
 Package: process-explorer
 Version: 0.1.1-1
 Architecture: all
 Maintainer: Daniel Nylander <daniel@danielnylander.se>
 Depends: python3, python3-gi, gir1.2-gtk-4.0, gir1.2-adw-1
-Filename: ./pool/process-explorer_0.1.1-1_all.deb
+Filename: pool/process-explorer_0.1.1-1_all.deb
 Size: 4644
 MD5sum: f86fcb7b0bdb3c9721b3a69c4255e84e
 SHA1: 4ffe4877b563d82c1a72dec7f02fd1ac9ded0011
@@ -628,7 +546,7 @@ Version: 0.1.1-1
 Architecture: all
 Maintainer: Daniel Nylander <daniel@danielnylander.se>
 Depends: python3, python3-gi, gir1.2-gtk-4.0, gir1.2-adw-1
-Filename: ./pool/regex-tester_0.1.1-1_all.deb
+Filename: pool/regex-tester_0.1.1-1_all.deb
 Size: 5352
 MD5sum: 516cc837e3e3897c9422658f133e8f9d
 SHA1: b1d6b00576e093dc53617c96b8af21a4f28c1b5e
@@ -639,19 +557,19 @@ Homepage: https://github.com/yeager/regex-tester
 Description: Visual regex tester with live matching
 
 Package: rutinkompis
-Version: 0.3.2-1
+Version: 0.2.0-1
 Architecture: all
 Maintainer: Daniel Nylander <daniel@danielnylander.se>
-Depends: python3 (>= 3.10), python3-gi, gir1.2-gtk-4.0, gir1.2-adw-1
-Filename: ./rutinkompis_0.3.2_all.deb
-Size: 220222
-MD5sum: 4b3ec99347cf02189f3fcb55740ab358
-SHA1: 06b120c39c8c76935192061b1598e61abe53ace3
-SHA256: 925a489a67d8c96bc63c5fd98504fd5e0a39a03c4a2664d9600b8e0b36c63e74
+Depends: python3 (>= 3.9), python3-gi, gir1.2-gtk-4.0, gir1.2-adw-1
+Filename: pool/rutinkompis_0.2.0-1_all.deb
+Size: 6956
+MD5sum: bb44beb98ecf4b2ec1b0db4aef2bac1a
+SHA1: cd19986baefd10c3c2cd3ae53b21a8073d0a87f1
+SHA256: 2f99d9b39f1b6ba3d7c09fb9c5ad3d883cdd9e8ffe52ac318f468e29e630d0c8
 Section: utils
 Priority: optional
 Homepage: https://github.com/yeager/rutinkompis
-Description: rutinkompis - L10n App Suite
+Description: Daily routine companion for children
 
 Package: scummvm-gtk
 Version: 0.1.0-1
@@ -659,7 +577,7 @@ Architecture: all
 Maintainer: Daniel Nylander <daniel@danielnylander.se>
 Depends: python3, python3-gi, gir1.2-gtk-4.0, gir1.2-adw-1
 Recommends: scummvm
-Filename: ./pool/scummvm-gtk_0.1.0-1_all.deb
+Filename: pool/scummvm-gtk_0.1.0-1_all.deb
 Size: 7794
 MD5sum: f3773a4157d1ca870ec5decf083747d9
 SHA1: c4158665c19d672bc3a594e733240db8e82d641b
@@ -676,7 +594,7 @@ Version: 0.2.9-1
 Architecture: all
 Maintainer: Daniel Nylander <daniel@danielnylander.se>
 Depends: python3 (>= 3.10), python3-gi, gir1.2-gtk-4.0, gir1.2-adw-1
-Filename: ./pool/snap-l10n_0.2.9-1_all.deb
+Filename: pool/snap-l10n_0.2.9-1_all.deb
 Size: 9944
 MD5sum: a60d6d90d985173a78bc5fa7dc691a8c
 SHA1: d1193a358d05e29e24b4074a0fa9f49166f28daa
@@ -686,27 +604,12 @@ Priority: optional
 Homepage: https://github.com/yeager/snap-l10n
 Description: View snap package translation status
 
-Package: socialaberattelser
-Version: 0.1.2-1
-Architecture: all
-Maintainer: Daniel Nylander <daniel@danielnylander.se>
-Depends: python3 (>= 3.10), python3-gi, gir1.2-gtk-4.0, gir1.2-adw-1
-Filename: ./socialaberattelser_0.1.2_all.deb
-Size: 6332
-MD5sum: d76a1dd194a2899314a3f7a67a925af9
-SHA1: c1829d4b97681924b96ddab318009243cb2b06ee
-SHA256: 5579371983cade911cbfba5d949a536c829263cc2b69cf53c283b6f8aeffa17d
-Section: utils
-Priority: optional
-Homepage: https://github.com/yeager/socialaberattelser
-Description: socialaberattelser - part of the L10n App Suite
-
 Package: svlang
 Version: 0.1.7-1
 Architecture: all
 Maintainer: Daniel Nylander <daniel@danielnylander.se>
 Depends: python3
-Filename: ./pool/svlang_0.1.7-1_all.deb
+Filename: pool/svlang_0.1.7-1_all.deb
 Size: 3784
 MD5sum: b578e3b1df2a32312e96e7904ce32d5b
 SHA1: 30d5c2db6aa426df87ee33c4ae49d2aae72f5687
@@ -717,26 +620,26 @@ Homepage: https://github.com/yeager/svlang
 Description: svlang CLI tool
 
 Package: tidskollen
-Version: 0.2.1-1
+Version: 0.1.1-1
 Architecture: all
 Maintainer: Daniel Nylander <daniel@danielnylander.se>
-Depends: python3 (>= 3.10), python3-gi, gir1.2-gtk-4.0, gir1.2-adw-1
-Filename: ./tidskollen_0.2.1_all.deb
-Size: 7174
-MD5sum: 050211f043eba0653fb2d0645b80713d
-SHA1: c13e7161df92ebeb0013895ddf19171ba7ffa2c9
-SHA256: 0ec6c420419b28fbbdb660e929be69ef45bd152354823a7fc6357017b2129530
+Depends: python3, python3-gi, gir1.2-gtk-4.0, gir1.2-adw-1
+Filename: pool/tidskollen_0.1.1-1_all.deb
+Size: 4544
+MD5sum: 9c9ea2b2ec38a9a862cd3d9c5c486167
+SHA1: 685becc88cf9caedf3791866cca4f734d4eed81d
+SHA256: 43d2b4311791fc47fa7314ef5f1b8dbdb3307ad70aa26318ecbc464b8056f2bf
 Section: utils
 Priority: optional
 Homepage: https://github.com/yeager/tidskollen
-Description: tidskollen - L10n App Suite
+Description: Visual time timer for children
 
 Package: tm-manager
 Version: 0.2.9-1
 Architecture: all
 Maintainer: Daniel Nylander <daniel@danielnylander.se>
 Depends: python3 (>= 3.10), python3-gi, gir1.2-gtk-4.0, gir1.2-adw-1
-Filename: ./pool/tm-manager_0.2.9-1_all.deb
+Filename: pool/tm-manager_0.2.9-1_all.deb
 Size: 11426
 MD5sum: 21fe14f6f12ca76fc6c74ff98f26c352
 SHA1: 6bd7acc7844ef0a0cedac3df51c63822b2b0489e
@@ -751,22 +654,24 @@ Version: 1.8.4-1
 Architecture: all
 Maintainer: Daniel Nylander <daniel@danielnylander.se>
 Depends: python3 (>= 3.9)
-Filename: ./tp-lint_1.8.4-1_all.deb
-Size: 14360
-MD5sum: 96c64731f5ecb64e778c6787fcb2533a
-SHA1: 841172bc344699ee2d6a6cbd1113d6a25de168e2
-SHA256: 3672cdd0881b540457553c223ff3be39affd16c90fdfefeca0b449d37f97e703
-Section: utils
+Filename: pool/tp-lint_1.8.4-1_all.deb
+Size: 48416
+MD5sum: e0e0d66c7b7d852668342a8f5611d64c
+SHA1: 7b0689fe6d8ed2c0239d1cad97ea595c4218c0d8
+SHA256: 433de627d4f7ee1dffb4c90e33440947d00c4961ffeaceb064deb0ec213d83e3
+Section: devel
 Priority: optional
 Homepage: https://github.com/yeager/tp-lint
-Description: Translation project linter
+Description: Lint PO files from the Translation Project
+ tp-lint fetches and lints PO files from the Translation Project
+ (translationproject.org), checking for common translation issues.
 
 Package: tts-tester
 Version: 0.2.1-1
 Architecture: all
 Maintainer: Daniel Nylander <daniel@danielnylander.se>
 Depends: python3 (>= 3.10), python3-gi, gir1.2-gtk-4.0, gir1.2-adw-1
-Filename: ./pool/tts-tester_0.2.1-1_all.deb
+Filename: pool/tts-tester_0.2.1-1_all.deb
 Size: 13198
 MD5sum: 21f47730ab09275e5b52533cee0d70b8
 SHA1: 8fee504b733f4a2ec76522411edd0db1d638270e
@@ -781,7 +686,7 @@ Version: 0.3.5-1
 Architecture: all
 Maintainer: Daniel Nylander <daniel@danielnylander.se>
 Depends: python3 (>= 3.10), python3-gi, gir1.2-gtk-4.0, gir1.2-adw-1
-Filename: ./pool/ubuntu-l10n_0.3.5-1_all.deb
+Filename: pool/ubuntu-l10n_0.3.5-1_all.deb
 Size: 13436
 MD5sum: 963f5341138b47efa95ae864ae6d46dc
 SHA1: 1f07bef1abfdce6aa9e6cafc01daf247d9040e99
@@ -791,27 +696,12 @@ Priority: optional
 Homepage: https://github.com/yeager/ubuntu-l10n
 Description: Ubuntu/Launchpad translation statistics viewer
 
-Package: vsdview
-Version: 0.4.2-1
-Architecture: all
-Maintainer: Daniel Nylander <daniel@danielnylander.se>
-Depends: python3 (>= 3.9), python3-gi, gir1.2-gtk-4.0, gir1.2-adw-1
-Filename: ./vsdview_0.4.2-1_all.deb
-Size: 46278
-MD5sum: 9e93d189b63883a18d03ac9be1848437
-SHA1: 039b582d170c2633340706eecb177f8c979ff982
-SHA256: 8911b4606e7aa2a6c4bc488a3647502ff5b3827b8e629e8ea542bc3ef78d31b5
-Section: utils
-Priority: optional
-Homepage: https://github.com/yeager/vsdview
-Description: Visio file viewer for Linux
-
 Package: wifi-analyzer
 Version: 0.1.1-1
 Architecture: all
 Maintainer: Daniel Nylander <daniel@danielnylander.se>
 Depends: python3, python3-gi, gir1.2-gtk-4.0, gir1.2-adw-1
-Filename: ./pool/wifi-analyzer_0.1.1-1_all.deb
+Filename: pool/wifi-analyzer_0.1.1-1_all.deb
 Size: 5860
 MD5sum: d4fd79dda7ce899bf416f8aa947505ea
 SHA1: 092107f86d6ff9db241da1ceb872ac264852868d
@@ -826,7 +716,7 @@ Version: 0.1.1-1
 Architecture: all
 Maintainer: Daniel Nylander <daniel@danielnylander.se>
 Depends: python3, python3-gi, gir1.2-gtk-4.0, gir1.2-adw-1
-Filename: ./pool/zigbee-manager_0.1.1-1_all.deb
+Filename: pool/zigbee-manager_0.1.1-1_all.deb
 Size: 5864
 MD5sum: c6a02b502e5332a0b0d976e9e8dee935
 SHA1: 3d841e32219df3c81e6a36f91cc9a4977fd121ac

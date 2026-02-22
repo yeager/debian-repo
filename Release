@@ -1,15 +1,4 @@
 Origin: Danne L10n Suite
 Label: Danne L10n Suite
 Suite: stable
-Codename: stable
-Architectures: all amd64 arm64 armhf i386
-Components: main
-Description: Danne L10n Suite - Swedish localization tools
-MD5Sum:
- 763d533351bdda9e49615b769f11492e 29432 Packages
-SHA256:
- 85437f10e616ea4b2b46ed451abef5f6901f1d08f60ad76fea5ec6b0fa10534b 29432 Packages
-MD5Sum:
- 87bbeda9beaf4d5aa680258a67c33b34 8094 Packages.gz
-SHA256:
- f50b7048916af805d8684148813c54e764ab210f6ae81c6e5dd646f3cf20eeee 8094 Packages.gz
+Date: Sun, 22 Feb 2026 05:52:35 UTC

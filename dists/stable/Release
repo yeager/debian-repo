@@ -2,28 +2,28 @@ Origin: Danne L10n Suite
 Label: Danne L10n Suite
 Suite: stable
 Codename: stable
-Architectures: all amd64 arm64 armhf i386
 Components: main
-Description: Danne L10n Suite - Swedish localization tools
+Architectures: all amd64 arm64 armhf i386
+Date: Sun, 22 Feb 2026 05:52:35 UTC
 MD5Sum:
- 763d533351bdda9e49615b769f11492e    29432 main/binary-all/Packages
- 763d533351bdda9e49615b769f11492e    29432 main/binary-amd64/Packages
- 763d533351bdda9e49615b769f11492e    29432 main/binary-arm64/Packages
- 763d533351bdda9e49615b769f11492e    29432 main/binary-armhf/Packages
- 763d533351bdda9e49615b769f11492e    29432 main/binary-i386/Packages
- a9789db6b9ae4a1b7cab998da72b0494     8094 main/binary-all/Packages.gz
- a9789db6b9ae4a1b7cab998da72b0494     8094 main/binary-amd64/Packages.gz
- e2bf170aec04528e628d957a0ca85337     8094 main/binary-arm64/Packages.gz
- 0975420bbcb593e6f3a91a33dbd761bb     8094 main/binary-armhf/Packages.gz
- 83c6df0d27e297f3f6c9de2afd66dfe0     8094 main/binary-i386/Packages.gz
+ 0e09594e75e6542c8eda47d0baaeef4f 7476 main/binary-arm64/Packages.gz
+ 9b8c117ececc99e3a6473b098e90879d 25927 main/binary-arm64/Packages
+ 0e09594e75e6542c8eda47d0baaeef4f 7476 main/binary-i386/Packages.gz
+ 9b8c117ececc99e3a6473b098e90879d 25927 main/binary-i386/Packages
+ 0e09594e75e6542c8eda47d0baaeef4f 7476 main/binary-armhf/Packages.gz
+ 9b8c117ececc99e3a6473b098e90879d 25927 main/binary-armhf/Packages
+ 0e09594e75e6542c8eda47d0baaeef4f 7476 main/binary-all/Packages.gz
+ 9b8c117ececc99e3a6473b098e90879d 25927 main/binary-all/Packages
+ 0e09594e75e6542c8eda47d0baaeef4f 7476 main/binary-amd64/Packages.gz
+ 9b8c117ececc99e3a6473b098e90879d 25927 main/binary-amd64/Packages
 SHA256:
- 85437f10e616ea4b2b46ed451abef5f6901f1d08f60ad76fea5ec6b0fa10534b    29432 main/binary-all/Packages
- 85437f10e616ea4b2b46ed451abef5f6901f1d08f60ad76fea5ec6b0fa10534b    29432 main/binary-amd64/Packages
- 85437f10e616ea4b2b46ed451abef5f6901f1d08f60ad76fea5ec6b0fa10534b    29432 main/binary-arm64/Packages
- 85437f10e616ea4b2b46ed451abef5f6901f1d08f60ad76fea5ec6b0fa10534b    29432 main/binary-armhf/Packages
- 85437f10e616ea4b2b46ed451abef5f6901f1d08f60ad76fea5ec6b0fa10534b    29432 main/binary-i386/Packages
- fe939f3c02eb27c99d81ab27402e063b16a4d8e479161c219f09e9612350f2a4     8094 main/binary-all/Packages.gz
- fe939f3c02eb27c99d81ab27402e063b16a4d8e479161c219f09e9612350f2a4     8094 main/binary-amd64/Packages.gz
- 182092e97cb6a78ad7f7e5eecd0314292eeed81306cbfc1f9d26297cdd0e2b74     8094 main/binary-arm64/Packages.gz
- 6eca70301510a806cadbd3aceec81095fcf36ae73151ad3b26df6d1a02a771ce     8094 main/binary-armhf/Packages.gz
- 5cdbc381a5015efb199e386dfbe261fb570fc050f3f1dda3870e6fc3fa0ac510     8094 main/binary-i386/Packages.gz
+ 479695d0b493adb7129fa7abb1821ba5cc7f358a74bd5292d53e4824e55def20 7476 main/binary-arm64/Packages.gz
+ 19d8cada2b0c6e3812913584e315e8da79eae379dfc515646833a36770290d28 25927 main/binary-arm64/Packages
+ 479695d0b493adb7129fa7abb1821ba5cc7f358a74bd5292d53e4824e55def20 7476 main/binary-i386/Packages.gz
+ 19d8cada2b0c6e3812913584e315e8da79eae379dfc515646833a36770290d28 25927 main/binary-i386/Packages
+ 479695d0b493adb7129fa7abb1821ba5cc7f358a74bd5292d53e4824e55def20 7476 main/binary-armhf/Packages.gz
+ 19d8cada2b0c6e3812913584e315e8da79eae379dfc515646833a36770290d28 25927 main/binary-armhf/Packages
+ 479695d0b493adb7129fa7abb1821ba5cc7f358a74bd5292d53e4824e55def20 7476 main/binary-all/Packages.gz
+ 19d8cada2b0c6e3812913584e315e8da79eae379dfc515646833a36770290d28 25927 main/binary-all/Packages
+ 479695d0b493adb7129fa7abb1821ba5cc7f358a74bd5292d53e4824e55def20 7476 main/binary-amd64/Packages.gz
+ 19d8cada2b0c6e3812913584e315e8da79eae379dfc515646833a36770290d28 25927 main/binary-amd64/Packages
