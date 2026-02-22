@@ -894,16 +894,16 @@ SHA256: cefe4cc2808007c095a9e73781d976bccbdeabff620ac821da10cb4460a8c154
 Description: Lint PO files from the Translation Project
 
 Package: tp-status
-Version: 0.1.0
+Version: 0.2.0
 Architecture: all
 Maintainer: Daniel Nylander <daniel@danielnylander.se>
 Depends: python3, python3-gi, gir1.2-adw-1
-Filename: ./tp-status_0.1.0_all.deb
-Size: 9402
-MD5sum: f539b56592e76e8a407e9f71f9d283ce
-SHA1: e0eb1adf352497f54720571993aed7e52da55a72
-SHA256: 6fe64b2b7d96779a66da428782e86daa10fb40cdf1ce1bd74f43d8222c2bb5dd
-Description: Translation Project status viewer — GTK4/Adwaita
+Filename: ./tp-status_0.2.0_all.deb
+Size: 11968
+MD5sum: bc266daba5ff3d5bb95bbd5b1448a20f
+SHA1: 4c2a81b9c52dd6f11a04db95c65ec41e6fefe744
+SHA256: 0765f098296d159284491af0a8b8878bcc18aad41331c414c16a68fad8590596
+Description: Translation Project domain status viewer — GTK4/Adwaita
 
 Package: transition-tracker
 Version: 0.1.1
