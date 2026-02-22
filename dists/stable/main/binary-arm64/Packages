@@ -18,13 +18,13 @@ Package: apt-changelog-viewer
 Version: 0.1.1
 Architecture: all
 Maintainer: Daniel Nylander <daniel@danielnylander.se>
-Installed-Size: 30
+Installed-Size: 33
 Depends: python3, python3-gi, gir1.2-gtk-4.0, gir1.2-adw-1
 Filename: ./apt-changelog-viewer_0.1.1_all.deb
-Size: 4970
-MD5sum: 46075421ca0452cc0ad16a960255ce57
-SHA1: 786eb8410a9643bd093d9b96fbc9af8288c48d92
-SHA256: 305c094271140434ff269f3b47457420d8d0930c7c5211fe7472774afd8aef00
+Size: 5956
+MD5sum: 27930ff192dbfea91c0b1f85ab26f835
+SHA1: 4b5a572aeeb18fcb7127152d185080de2b13479d
+SHA256: 2a733f9fb456afcb284a858a7ebd30b7adfdf6da840f1b8b34974858be88cdce
 Section: utils
 Priority: optional
 Description: apt-changelog-viewer
@@ -34,13 +34,13 @@ Package: autopkgtest-runner
 Version: 0.1.1
 Architecture: all
 Maintainer: Daniel Nylander <daniel@danielnylander.se>
-Installed-Size: 31
+Installed-Size: 34
 Depends: python3, python3-gi, gir1.2-gtk-4.0, gir1.2-adw-1
 Filename: ./autopkgtest-runner_0.1.1_all.deb
-Size: 5008
-MD5sum: d155c9bd439b93c99a23ebf8edc1bb78
-SHA1: 35f4cb164e87e659a8abd7bbd5f98af0867909a4
-SHA256: b69470c89d410f2924294f4a831e2844f8f2c9cbdefc17058c16292cf86b68a0
+Size: 6204
+MD5sum: 3b4c3863446040347ed42dbe471bc8ed
+SHA1: 9115ddb554ee9597729140b0165903a902b2b51e
+SHA256: 79478fa893a0d0947cea4d8a63ddc6382d7d8c8d3de1fceb9be43e10afea77f8
 Section: utils
 Priority: optional
 Description: autopkgtest-runner
@@ -114,13 +114,13 @@ Package: build-log-analyzer
 Version: 0.1.1
 Architecture: all
 Maintainer: Daniel Nylander <daniel@danielnylander.se>
-Installed-Size: 31
+Installed-Size: 34
 Depends: python3, python3-gi, gir1.2-gtk-4.0, gir1.2-adw-1
 Filename: ./build-log-analyzer_0.1.1_all.deb
-Size: 4976
-MD5sum: 453f7a8674ea4a2f9992aee43b8ba5c3
-SHA1: 011e9d0e346fcd4613e99b530d21cece36a2033c
-SHA256: cd3e9eb7f7d704e35bc16f0f280a52e5e68a776c1073e78659ae56e6f9d4b234
+Size: 6036
+MD5sum: 07282d4893c3d2479234578275d44ef0
+SHA1: 3ce7754c88dcb087ea0d6abec1549e5ebf6c9e62
+SHA256: aabc3eea9567602552f02ad87ea2f86d289cf5afdfb30da53918cbc51d8c9a67
 Section: utils
 Priority: optional
 Description: build-log-analyzer
@@ -210,13 +210,13 @@ Package: debian-installer-companion
 Version: 0.1.1
 Architecture: all
 Maintainer: Daniel Nylander <daniel@danielnylander.se>
-Installed-Size: 30
+Installed-Size: 33
 Depends: python3, python3-gi, gir1.2-gtk-4.0, gir1.2-adw-1
 Filename: ./debian-installer-companion_0.1.1_all.deb
-Size: 4730
-MD5sum: c7fa57cebec21e7fb6b1209984c5aba4
-SHA1: e0e19e24752d09f6d857de57d27fb7b99c4bec1e
-SHA256: ff8120b74f2ae7318c4f1d2b38c5fabcffb2b5e22c247de68cd9172b12c92b61
+Size: 5870
+MD5sum: dec3c79df412907d43f206ba0268e8ea
+SHA1: 04f244d32093fe39c145b0a14ee5026c329dd6d2
+SHA256: 985c1f85d004b1ddb3626b612fc233bc3156b409ff451bd6b04c396e01b814a3
 Section: utils
 Priority: optional
 Description: debian-installer-companion
@@ -226,13 +226,13 @@ Package: debian-policy-checker
 Version: 0.1.1
 Architecture: all
 Maintainer: Daniel Nylander <daniel@danielnylander.se>
-Installed-Size: 30
+Installed-Size: 33
 Depends: python3, python3-gi, gir1.2-gtk-4.0, gir1.2-adw-1
 Filename: ./debian-policy-checker_0.1.1_all.deb
-Size: 4888
-MD5sum: 15c773e0804c4bea0cd72eb2b327190e
-SHA1: 91ba8b9c8e37f68ef9ccb4d69e8a3068c57e8978
-SHA256: 3840d872d7fefaae6588174519f4d34b605ff374029c9c3e9dd17c799bbd047b
+Size: 6066
+MD5sum: 299e78c198f62139b5a076aaa16125da
+SHA1: 241fa312cc3790d854893e5c3812f1be029191b4
+SHA256: 764c4a52cd50b5e42352964b643558f59d68b5bcbec1bb36d770c12f7f990c7b
 Section: utils
 Priority: optional
 Description: debian-policy-checker
@@ -242,13 +242,13 @@ Package: dep-graph-viewer
 Version: 0.1.1
 Architecture: all
 Maintainer: Daniel Nylander <daniel@danielnylander.se>
-Installed-Size: 32
+Installed-Size: 36
 Depends: python3, python3-gi, gir1.2-gtk-4.0, gir1.2-adw-1
 Filename: ./dep-graph-viewer_0.1.1_all.deb
-Size: 4978
-MD5sum: 226528fb5096bb3026c48305e592fa8d
-SHA1: ed4de2b5a6f200a3695f721f8856e361520a4efc
-SHA256: 04830e5542c076716f87158a5b8697b40ce1f55d64d01b52a47f94c95bccdb24
+Size: 6238
+MD5sum: 799e353fa8543151727dd23ec6291710
+SHA1: 3ba8c9bff9cca7c23cc28887f6c85876628d0ae4
+SHA256: 36f13b8099bdaf70c6b62a4471821f3e668ed1bc0d348c6c9eaf98d6163aa3ea
 Section: utils
 Priority: optional
 Description: dep-graph-viewer
@@ -334,13 +334,13 @@ Package: gettext-coverage
 Version: 0.1.1
 Architecture: all
 Maintainer: Daniel Nylander <daniel@danielnylander.se>
-Installed-Size: 30
+Installed-Size: 33
 Depends: python3, python3-gi, gir1.2-gtk-4.0, gir1.2-adw-1
 Filename: ./gettext-coverage_0.1.1_all.deb
-Size: 4980
-MD5sum: 73450c88ff0bb6d57f60fbdbb7ce9052
-SHA1: 23bc20b172f0d7b016b26bd6c483f20d6522d805
-SHA256: 04f54706d9b5778f97b79b7cbaad929be952a946247fb3e15a80822993b85964
+Size: 6080
+MD5sum: 6a82df6c30cac0f29739174c169743ef
+SHA1: 80e26775d76c8a758f4ce3d60499bd497173ca6f
+SHA256: f1bae64012d89873cd0633152f5aa19830a59cce7279b7cd9dcb2c99453edefd
 Section: utils
 Priority: optional
 Description: gettext-coverage
@@ -568,13 +568,13 @@ Package: lp-bug-triager
 Version: 0.1.1
 Architecture: all
 Maintainer: Daniel Nylander <daniel@danielnylander.se>
-Installed-Size: 29
+Installed-Size: 32
 Depends: python3, python3-gi, gir1.2-gtk-4.0, gir1.2-adw-1
 Filename: ./lp-bug-triager_0.1.1_all.deb
-Size: 4740
-MD5sum: 18000de02226beaa14d61761de370a13
-SHA1: 5dba87f3b51a18198eef6e83876212864887a38d
-SHA256: eea960795ce96c4258b4eec617b226b71f8b092a622ddb7c4af69f7d14cff782
+Size: 5836
+MD5sum: cf2d3e11799f89949deb27183d1353cc
+SHA1: ea96100cce4beb34e357a9cf0e9660dc9bca8dfa
+SHA256: e1570b6972c5be6acabd1f4893f43d90b38b66c127f0e8cde37c00d0fde3f88b
 Section: utils
 Priority: optional
 Description: lp-bug-triager
@@ -616,13 +616,13 @@ Package: mentor-dashboard
 Version: 0.1.1
 Architecture: all
 Maintainer: Daniel Nylander <daniel@danielnylander.se>
-Installed-Size: 29
+Installed-Size: 32
 Depends: python3, python3-gi, gir1.2-gtk-4.0, gir1.2-adw-1
 Filename: ./mentor-dashboard_0.1.1_all.deb
-Size: 4520
-MD5sum: b79d10692049e63936521f621f981ef2
-SHA1: 98d04d8bd83f8b963d883d7cb23b514ad1fb7259
-SHA256: 964b2904bf7364b806a4f7af4975b52ee2eebcf5149a682981c245c8986a415f
+Size: 5550
+MD5sum: 971a7e2fd630936fcf928729f9712dac
+SHA1: d53ce3ed0809ba9e065b1e801173d8f44bed8714
+SHA256: 32a1afc69aca927b5456c0402436a634b528068dfec7d135f3b77d7bbfcf31b9
 Section: utils
 Priority: optional
 Description: mentor-dashboard
@@ -632,13 +632,13 @@ Package: merge-o-matic-viewer
 Version: 0.1.1
 Architecture: all
 Maintainer: Daniel Nylander <daniel@danielnylander.se>
-Installed-Size: 29
+Installed-Size: 32
 Depends: python3, python3-gi, gir1.2-gtk-4.0, gir1.2-adw-1
 Filename: ./merge-o-matic-viewer_0.1.1_all.deb
-Size: 4596
-MD5sum: 7d5d51aeb7fad18d7ea4cbc77d138b69
-SHA1: b2aea1bd3df9f99d3708b1a25bdb89e0950e8c78
-SHA256: f989943c73a5e8c668eb4d1b222016584f8a0f7357558b35ad383c1efd5edb6b
+Size: 5570
+MD5sum: 79a4ca1081f990263a31b60b4ff36317
+SHA1: 039575be1787d723d3c9b31793167dea4871b8f5
+SHA256: 6bc6bf3b200222625e774f074f5c88243a792e481d568764df6cd8025447ff73
 Section: utils
 Priority: optional
 Description: merge-o-matic-viewer
@@ -710,13 +710,13 @@ Package: new-queue-monitor
 Version: 0.1.1
 Architecture: all
 Maintainer: Daniel Nylander <daniel@danielnylander.se>
-Installed-Size: 29
+Installed-Size: 32
 Depends: python3, python3-gi, gir1.2-gtk-4.0, gir1.2-adw-1
 Filename: ./new-queue-monitor_0.1.1_all.deb
-Size: 4600
-MD5sum: 7d5890ed296a9875866f26eba1ec5b9e
-SHA1: d76f3cb199caee7f240918f69a3ef91951b4ac5b
-SHA256: 6f5c4999330b1605f9201c90f07f398e2b5d2a8b6e3492384cd6ca613686bd9e
+Size: 5656
+MD5sum: eb1e4a411eb33f17d86fb8181cba4c73
+SHA1: 10147c898d444bc6258ad2bb59c273dace2bd60f
+SHA256: 181575bc738c5b05ee0ae52249b06c9bd2af0bd343ee00553afff83e4418b915
 Section: utils
 Priority: optional
 Description: new-queue-monitor
@@ -803,13 +803,13 @@ Package: po-review-board
 Version: 0.1.1
 Architecture: all
 Maintainer: Daniel Nylander <daniel@danielnylander.se>
-Installed-Size: 46
+Installed-Size: 50
 Depends: python3, python3-gi, gir1.2-gtk-4.0, gir1.2-adw-1
 Filename: ./po-review-board_0.1.1_all.deb
-Size: 7614
-MD5sum: 32b0f6ba2a96f307e74ad2b35d6ce782
-SHA1: 655a29a5fb2b19c8f7ed405ed372235deca1c5eb
-SHA256: 8659e852630305b32694df781d0a70f8d4f0211eecd12d838e7a51e09baa2fd7
+Size: 9246
+MD5sum: c4f09ecc6aab966cd911cef773421c8f
+SHA1: 6229939360abbef138ccde84c7dae74e7a68d24f
+SHA256: 2b4e99db08ed4f38e001143aefd0bafe1b48fb22ff8ea8e71c77b90401322b7e
 Section: utils
 Priority: optional
 Description: po-review-board
@@ -864,13 +864,13 @@ Package: release-notes-editor
 Version: 0.1.1
 Architecture: all
 Maintainer: Daniel Nylander <daniel@danielnylander.se>
-Installed-Size: 31
+Installed-Size: 34
 Depends: python3, python3-gi, gir1.2-gtk-4.0, gir1.2-adw-1
 Filename: ./release-notes-editor_0.1.1_all.deb
-Size: 4862
-MD5sum: 48bd71ede23ede5b23f3fe4f88d81df8
-SHA1: d8b51661891ea5cc38eaafb385dcbfb0c71278a9
-SHA256: 13ddd16f671ed8d54ef2f95fbc98762a5c68773a9e89976227b40285a12fe080
+Size: 5996
+MD5sum: e2f7ddb4724c40ac75ff827d7b7d59fd
+SHA1: 4907792e46a21ca46582fa5d1889916cc07ed6d6
+SHA256: eeb20d894e2caaa1f226b1f3870655dbd842bd5d87b4e1a1e389fe4b84cd2581
 Section: utils
 Priority: optional
 Description: release-notes-editor
@@ -1022,13 +1022,13 @@ Package: transition-tracker
 Version: 0.1.1
 Architecture: all
 Maintainer: Daniel Nylander <daniel@danielnylander.se>
-Installed-Size: 29
+Installed-Size: 32
 Depends: python3, python3-gi, gir1.2-gtk-4.0, gir1.2-adw-1
 Filename: ./transition-tracker_0.1.1_all.deb
-Size: 4508
-MD5sum: b190047fa22b52f1e4af13fb1f04e356
-SHA1: 0366c10af070e6bf0cbcafd8de964f392932bee6
-SHA256: dbd59d76de13d8c29a6a491aa68bea45c4ae7a8bb91b343f34704754112caef7
+Size: 5574
+MD5sum: 558024dcec4bb691f58ccd5c35abecff
+SHA1: f8ee386f894f9fba82b51a590c1b7c17d294e145
+SHA256: 847b785d23bb43eec2f853c8c249f1044e07a10778631c81ca1f84cf9ab52fcd
 Section: utils
 Priority: optional
 Description: transition-tracker
