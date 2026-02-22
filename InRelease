@@ -7,42 +7,26 @@ Suite: stable
 Codename: stable
 Architectures: all amd64 arm64 armhf i386
 Components: main
-Date: Sun, 22 Feb 2026 08:50:53 UTC
+Description: Danne L10n App Suite - Swedish localization tools
 MD5Sum:
- 0b0edbb2cb1acb25400b5a545717513e    36969 main/binary-all/Packages
- 4805dbd5e21dd27dfe23163747da8e38    10075 main/binary-all/Packages.gz
- 0b0edbb2cb1acb25400b5a545717513e    36969 main/binary-amd64/Packages
- 4805dbd5e21dd27dfe23163747da8e38    10075 main/binary-amd64/Packages.gz
- 0b0edbb2cb1acb25400b5a545717513e    36969 main/binary-arm64/Packages
- 4805dbd5e21dd27dfe23163747da8e38    10075 main/binary-arm64/Packages.gz
- 0b0edbb2cb1acb25400b5a545717513e    36969 main/binary-armhf/Packages
- 4805dbd5e21dd27dfe23163747da8e38    10075 main/binary-armhf/Packages.gz
- 0b0edbb2cb1acb25400b5a545717513e    36969 main/binary-i386/Packages
- 4805dbd5e21dd27dfe23163747da8e38    10075 main/binary-i386/Packages.gz
+ 0b0edbb2cb1acb25400b5a545717513e 36969 Packages
+ 02336c02e64cc99c149f622ce36aac57 10075 Packages.gz
 SHA256:
- a5bba4300403ff5e32ec13535f57c456367bf221f0d444c6fd522cfc593857a2    36969 main/binary-all/Packages
- 25cd47b913c6861bb84fdbaa184313f95293f0dd50081223dd07ed5f858f5c8b    10075 main/binary-all/Packages.gz
- a5bba4300403ff5e32ec13535f57c456367bf221f0d444c6fd522cfc593857a2    36969 main/binary-amd64/Packages
- 25cd47b913c6861bb84fdbaa184313f95293f0dd50081223dd07ed5f858f5c8b    10075 main/binary-amd64/Packages.gz
- a5bba4300403ff5e32ec13535f57c456367bf221f0d444c6fd522cfc593857a2    36969 main/binary-arm64/Packages
- 25cd47b913c6861bb84fdbaa184313f95293f0dd50081223dd07ed5f858f5c8b    10075 main/binary-arm64/Packages.gz
- a5bba4300403ff5e32ec13535f57c456367bf221f0d444c6fd522cfc593857a2    36969 main/binary-armhf/Packages
- 25cd47b913c6861bb84fdbaa184313f95293f0dd50081223dd07ed5f858f5c8b    10075 main/binary-armhf/Packages.gz
- a5bba4300403ff5e32ec13535f57c456367bf221f0d444c6fd522cfc593857a2    36969 main/binary-i386/Packages
- 25cd47b913c6861bb84fdbaa184313f95293f0dd50081223dd07ed5f858f5c8b    10075 main/binary-i386/Packages.gz
+ a5bba4300403ff5e32ec13535f57c456367bf221f0d444c6fd522cfc593857a2 36969 Packages
+ 1cf8310219b8408659d6c68870a15b59e8c375b4e7e25172ca3a80587da3fd1f 10075 Packages.gz
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAEBCAAdFiEEN5hu++1i1inAzyaO4xjH3j2ofFsFAmmaw20ACgkQ4xjH3j2o
-fFv4Nw/+IdUKorrp1Bjo8lnyDL2n0oqnxpyTTMtq7k1n2ZzU4MVHmJZQdDiY90x+
-felx6+dobsVf2zX7ho8SI1VMs5Ux7S1H9OFZWBmHEXCy6IUKqGSUFsYHVeS+PAzA
-0qaRyNH9AQEifdaKj0vkWvPD5d7VNUOb7htOr1Rr383ohPTAgzEEiBzbAIUKUQ9B
-vc+q2pgxhLLDGOt4TyGfSA23QlPAtPMV6wYI369vdiypivTuEulZyrUMYApUlMul
-Mr0uKh8NDqlu8SQKST+gF4/hcPHToVunvxQmD0EzUDoiRwZKKi11Gd3FgNeHafUM
-xHAs7fWsDFgAvAI66WJQwmwVOXZap+q+Pbg9NpHuyRtYH3wMGV76IQZLTClVE+NW
-7cihMO3wBADMqB2qVR4s7uDpmA5GghD2YgT05PpLPZFHmV03ELnz160yRNY4ONmP
-wAu8HS24g+F6GOoOB0TMg6SdVGTqxlewlA0isDhByp1kpeYN4kS/3ckgTz/EVLQK
-35x7UD2YCg4VxRB4uuglFHJ8eEyKMpOc7GliJ+lL1huiNkPo/AMfqPGCHrOnpLzZ
-baOrGmVRdH7OMs6QIvqKH3DbaujUj3MAcbv3b99dyXuYPSnVT8Lt6fH6EfDHeO2g
-VFHZvJi31t8N/lQ8WbjRy2h0RICYD22UudqymA+SBYUHJjnsfTM=
-=fosa
+iQIzBAEBCAAdFiEEN5hu++1i1inAzyaO4xjH3j2ofFsFAmmax+kACgkQ4xjH3j2o
+fFucxg/6AyzUl9w6iTuEpC/F4KNGk7AoYrgfmektBD9pKjdPj7+IE/DNBEmWu/qT
+PelSY7HX5dfifPDSJmwaUWnTSHCPsi4+k4yHpbKmDK7mJOLZjQ/P6kxQheOu7XnY
+XHUWAnHS0otZURKlcOH8iDoz7HHQTckPvy3Tfri8miXklR0cUXtoAQCOjLyhyL9c
+ajeb7ORgwtYVnMnXmZd+i2+PKp9m/REA4pnZnywxQWLXRpBTnC3p89R8AABejcsc
+/yyvCqQpst53NA6pdESGr9U/n3kpzUnvaRm04RjyAWuSr0v3g/+iGvRw/bErk2Fi
+3kNd2Ly/Sge0An6mrI1iP89mPZNF3xlx3ZDn+IuncOeOrIAiPvy/EhKxn122dPSe
+4cNVYiSg5wURgzWQWAkHNGq7ynUViMJLWDn5GzH9ysniyyivzFQpV5n4SjmRFgXw
+gBTDG41X0zXkuCnzyLOmx11nvsPUDzy0oawHIfqpuXlsODKYP+z2XTsksPIv0/+H
+O2TVeYJLmjb57/Z1JMwapGi+ZucbKOZIl2NbNIa4iWzLwmbnMHBbaLdDub8h29YQ
+0AkraFsiY3wMY/6UURGDMD9/JhMeSmXTRsO+Z4V7orBykoecT5FWfa09Z1VrEIex
+pAqFrouzESPxQssHK73SB9c4ZnzfHYCZB4fO0HGfY6VD/p+WftQ=
+=l1kT
 -----END PGP SIGNATURE-----

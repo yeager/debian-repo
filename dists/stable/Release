@@ -6,8 +6,24 @@ Architectures: all amd64 arm64 armhf i386
 Components: main
 Description: Danne L10n App Suite - Swedish localization tools
 MD5Sum:
- 0b0edbb2cb1acb25400b5a545717513e 36969 Packages
- 02336c02e64cc99c149f622ce36aac57 10075 Packages.gz
+ 0b0edbb2cb1acb25400b5a545717513e 36969 main/binary-all/Packages
+ 02336c02e64cc99c149f622ce36aac57 10075 main/binary-all/Packages.gz
+ 0b0edbb2cb1acb25400b5a545717513e 36969 main/binary-amd64/Packages
+ 02336c02e64cc99c149f622ce36aac57 10075 main/binary-amd64/Packages.gz
+ 0b0edbb2cb1acb25400b5a545717513e 36969 main/binary-arm64/Packages
+ 02336c02e64cc99c149f622ce36aac57 10075 main/binary-arm64/Packages.gz
+ 0b0edbb2cb1acb25400b5a545717513e 36969 main/binary-armhf/Packages
+ 02336c02e64cc99c149f622ce36aac57 10075 main/binary-armhf/Packages.gz
+ 0b0edbb2cb1acb25400b5a545717513e 36969 main/binary-i386/Packages
+ 02336c02e64cc99c149f622ce36aac57 10075 main/binary-i386/Packages.gz
 SHA256:
- a5bba4300403ff5e32ec13535f57c456367bf221f0d444c6fd522cfc593857a2 36969 Packages
- 1cf8310219b8408659d6c68870a15b59e8c375b4e7e25172ca3a80587da3fd1f 10075 Packages.gz
+ a5bba4300403ff5e32ec13535f57c456367bf221f0d444c6fd522cfc593857a2 36969 main/binary-all/Packages
+ 1cf8310219b8408659d6c68870a15b59e8c375b4e7e25172ca3a80587da3fd1f 10075 main/binary-all/Packages.gz
+ a5bba4300403ff5e32ec13535f57c456367bf221f0d444c6fd522cfc593857a2 36969 main/binary-amd64/Packages
+ 1cf8310219b8408659d6c68870a15b59e8c375b4e7e25172ca3a80587da3fd1f 10075 main/binary-amd64/Packages.gz
+ a5bba4300403ff5e32ec13535f57c456367bf221f0d444c6fd522cfc593857a2 36969 main/binary-arm64/Packages
+ 1cf8310219b8408659d6c68870a15b59e8c375b4e7e25172ca3a80587da3fd1f 10075 main/binary-arm64/Packages.gz
+ a5bba4300403ff5e32ec13535f57c456367bf221f0d444c6fd522cfc593857a2 36969 main/binary-armhf/Packages
+ 1cf8310219b8408659d6c68870a15b59e8c375b4e7e25172ca3a80587da3fd1f 10075 main/binary-armhf/Packages.gz
+ a5bba4300403ff5e32ec13535f57c456367bf221f0d444c6fd522cfc593857a2 36969 main/binary-i386/Packages
+ 1cf8310219b8408659d6c68870a15b59e8c375b4e7e25172ca3a80587da3fd1f 10075 main/binary-i386/Packages.gz
