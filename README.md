@@ -17,7 +17,7 @@ sudo apt update
 
 ## Packages
 
-71 packages across these categories:
+72 packages across these categories:
 
 ### Accessibility / Children (15 apps)
 Apps for children with autism, ADHD, and language disorders.
@@ -69,6 +69,7 @@ Apps for children with autism, ADHD, and language disorders.
 | svlang | Swedish NLP toolkit (CLI) |
 | tm-manager | Translation Memory (TMX) manager |
 | tp-lint | Translation Project linter (CLI) |
+| tp-status | Translation Project status viewer |
 | ubuntu-l10n | Ubuntu/Launchpad translation statistics |
 
 ### Debian/Ubuntu Development (14 tools)
