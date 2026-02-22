@@ -6,24 +6,24 @@ Architectures: all amd64 arm64 armhf i386
 Components: main
 Description: Danne L10n App Suite - Swedish localization tools
 MD5Sum:
- 3a109b7ebecdc03f7efe15dd1d5ecaeb 32620 main/binary-all/Packages
- 5e8b4e2893848fb37d0ffd485c7e488a 9686 main/binary-all/Packages.gz
- 3a109b7ebecdc03f7efe15dd1d5ecaeb 32620 main/binary-amd64/Packages
- 5e8b4e2893848fb37d0ffd485c7e488a 9686 main/binary-amd64/Packages.gz
- 3a109b7ebecdc03f7efe15dd1d5ecaeb 32620 main/binary-arm64/Packages
- 5e8b4e2893848fb37d0ffd485c7e488a 9686 main/binary-arm64/Packages.gz
- 3a109b7ebecdc03f7efe15dd1d5ecaeb 32620 main/binary-armhf/Packages
- 5e8b4e2893848fb37d0ffd485c7e488a 9686 main/binary-armhf/Packages.gz
- 3a109b7ebecdc03f7efe15dd1d5ecaeb 32620 main/binary-i386/Packages
- 5e8b4e2893848fb37d0ffd485c7e488a 9686 main/binary-i386/Packages.gz
+ ccf5b163627cd20db369cde5cb50cf56 32620 main/binary-all/Packages
+ eda6d915a8ffd6d8c34757939ce4a995 9683 main/binary-all/Packages.gz
+ ccf5b163627cd20db369cde5cb50cf56 32620 main/binary-amd64/Packages
+ eda6d915a8ffd6d8c34757939ce4a995 9683 main/binary-amd64/Packages.gz
+ ccf5b163627cd20db369cde5cb50cf56 32620 main/binary-arm64/Packages
+ eda6d915a8ffd6d8c34757939ce4a995 9683 main/binary-arm64/Packages.gz
+ ccf5b163627cd20db369cde5cb50cf56 32620 main/binary-armhf/Packages
+ eda6d915a8ffd6d8c34757939ce4a995 9683 main/binary-armhf/Packages.gz
+ ccf5b163627cd20db369cde5cb50cf56 32620 main/binary-i386/Packages
+ eda6d915a8ffd6d8c34757939ce4a995 9683 main/binary-i386/Packages.gz
 SHA256:
- afbff6cdf3e2e3b05ac228e96f887c54e181cd72e3eaad316197828995a4456b 32620 main/binary-all/Packages
- 396acaf810514676f0f5f9cb9b8766baebcf31711a12f4dbff7279785e72b80a 9686 main/binary-all/Packages.gz
- afbff6cdf3e2e3b05ac228e96f887c54e181cd72e3eaad316197828995a4456b 32620 main/binary-amd64/Packages
- 396acaf810514676f0f5f9cb9b8766baebcf31711a12f4dbff7279785e72b80a 9686 main/binary-amd64/Packages.gz
- afbff6cdf3e2e3b05ac228e96f887c54e181cd72e3eaad316197828995a4456b 32620 main/binary-arm64/Packages
- 396acaf810514676f0f5f9cb9b8766baebcf31711a12f4dbff7279785e72b80a 9686 main/binary-arm64/Packages.gz
- afbff6cdf3e2e3b05ac228e96f887c54e181cd72e3eaad316197828995a4456b 32620 main/binary-armhf/Packages
- 396acaf810514676f0f5f9cb9b8766baebcf31711a12f4dbff7279785e72b80a 9686 main/binary-armhf/Packages.gz
- afbff6cdf3e2e3b05ac228e96f887c54e181cd72e3eaad316197828995a4456b 32620 main/binary-i386/Packages
- 396acaf810514676f0f5f9cb9b8766baebcf31711a12f4dbff7279785e72b80a 9686 main/binary-i386/Packages.gz
+ f8b1e20705272fe3b176b62e477950a5bfc02c82a1b21865043b9a2d0152a16f 32620 main/binary-all/Packages
+ 577aa401ff80def1d330eebed6d8ae41fa8be62d4e1e363dd4178e2682c0e225 9683 main/binary-all/Packages.gz
+ f8b1e20705272fe3b176b62e477950a5bfc02c82a1b21865043b9a2d0152a16f 32620 main/binary-amd64/Packages
+ 577aa401ff80def1d330eebed6d8ae41fa8be62d4e1e363dd4178e2682c0e225 9683 main/binary-amd64/Packages.gz
+ f8b1e20705272fe3b176b62e477950a5bfc02c82a1b21865043b9a2d0152a16f 32620 main/binary-arm64/Packages
+ 577aa401ff80def1d330eebed6d8ae41fa8be62d4e1e363dd4178e2682c0e225 9683 main/binary-arm64/Packages.gz
+ f8b1e20705272fe3b176b62e477950a5bfc02c82a1b21865043b9a2d0152a16f 32620 main/binary-armhf/Packages
+ 577aa401ff80def1d330eebed6d8ae41fa8be62d4e1e363dd4178e2682c0e225 9683 main/binary-armhf/Packages.gz
+ f8b1e20705272fe3b176b62e477950a5bfc02c82a1b21865043b9a2d0152a16f 32620 main/binary-i386/Packages
+ 577aa401ff80def1d330eebed6d8ae41fa8be62d4e1e363dd4178e2682c0e225 9683 main/binary-i386/Packages.gz

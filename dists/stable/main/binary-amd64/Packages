@@ -899,10 +899,10 @@ Architecture: all
 Maintainer: Daniel Nylander <daniel@danielnylander.se>
 Depends: python3, python3-gi, gir1.2-adw-1
 Filename: ./tp-status_0.1.0_all.deb
-Size: 8120
-MD5sum: 06dfb3aad6f79c9f9284c829db929089
-SHA1: 57d1b652043519cf5faee9ccc6a55050c835c260
-SHA256: bbefc6713bf0da9c6a64d7a7d110ff8b0fdb3c267008f451058764ad28dd0c25
+Size: 9402
+MD5sum: f539b56592e76e8a407e9f71f9d283ce
+SHA1: e0eb1adf352497f54720571993aed7e52da55a72
+SHA256: 6fe64b2b7d96779a66da428782e86daa10fb40cdf1ce1bd74f43d8222c2bb5dd
 Description: Translation Project status viewer — GTK4/Adwaita
 
 Package: transition-tracker
