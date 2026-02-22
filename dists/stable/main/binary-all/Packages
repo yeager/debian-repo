@@ -1,16 +1,18 @@
 Package: anpr-viewer
-Version: 0.2.0
+Version: 0.3.0
 Architecture: all
 Maintainer: Daniel Nylander <daniel@danielnylander.se>
-Depends: python3, python3-gi, gir1.2-gtk-4.0, gir1.2-adw-1, tesseract-ocr, ffmpeg
-Filename: ./pool/anpr-viewer_0.2.0_all.deb
-Size: 9320
-MD5sum: 9d1d56ce7796105ae33ada7f25e7bd84
-SHA1: a35af2fd2cdc0dea9c5d7037bf27bba2cd4822e1
-SHA256: 146f1974deb0c5dd91f8a99fccebf33b24c07b3780b24947cae55029c60ab77a
+Installed-Size: 61
+Depends: python3, python3-gi, gir1.2-gtk-4.0, gir1.2-adw-1, python3-pil, tesseract-ocr, ffmpeg
+Filename: ./anpr-viewer_0.3.0_all.deb
+Size: 11142
+MD5sum: cb4905d4799db782d84ac0467733dc81
+SHA1: 23daec2cb4a54499b199a511ec3d58926a715dc0
+SHA256: 401d85e777d6b0ee5c2bc48b9da00056b42bdd8c7cfe45d845db6c0851fc7da0
 Section: utils
 Priority: optional
-Description: License plate recognition from video
+Description: ANPR license plate recognition viewer
+ GTK4/Adwaita app for automatic number plate recognition from video.
 
 Package: apt-changelog-viewer
 Version: 0.1.0
@@ -179,19 +181,20 @@ Homepage: https://github.com/yeager/cve-monitor
 Description: Monitor CVE vulnerabilities for installed packages
 
 Package: ddtp-translate
-Version: 0.11.0-1
+Version: 0.13.0
 Architecture: all
 Maintainer: Daniel Nylander <daniel@danielnylander.se>
-Depends: python3 (>= 3.10), python3-gi, gir1.2-gtk-4.0, gir1.2-adw-1
-Filename: ./ddtp-translate_0.11.0_all.deb
-Size: 41388
-MD5sum: 7ca7e70b6ebfd34e6f030c49b07a4958
-SHA1: 8248c2fad38c62e0766147fa7c638cf55289a8c2
-SHA256: 3e7f854be84c07f7e80540e144692bd08acb9ec76434136521ac42f5f250928f
+Installed-Size: 285
+Depends: python3, python3-gi, gir1.2-gtk-4.0, gir1.2-adw-1
+Filename: ./ddtp-translate_0.13.0_all.deb
+Size: 43940
+MD5sum: 6e2a5c2804b1e8c857c70008979b1d4b
+SHA1: c944849b39234e87fa8fdb3e903e9b95f712b4c2
+SHA256: 5a667155425d3dfc4dd857699f37793e855023bf64701c30abfd647a96e7f866
 Section: utils
 Priority: optional
-Homepage: https://github.com/yeager/ddtp-translate
-Description: ddtp-translate - L10n App Suite
+Description: DDTP/DDTSS translation tool
+ GTK4/Adwaita tool for translating Debian package descriptions via DDTP/DDTSS.
 
 Package: debian-installer-companion
 Version: 0.1.0

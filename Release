@@ -1,6 +1,13 @@
 Origin: Danne L10n Suite
 Label: Danne L10n Suite
 Suite: stable
+Codename: stable
 Architectures: all amd64 arm64 armhf i386
 Components: main
-Description: Danne L10n App Suite Debian Repository
+Date: Sun, 22 Feb 2026 06:43:40 UTC
+MD5Sum:
+ 1ec30996210a84b23bf105ba2f28f222    36957 Packages
+ 439ec834dfefc35bcf1190243a6fc024    10198 Packages.gz
+SHA256:
+ 7a0e764a01590b486506b2b6424707f69abe5f7c7b4c72c500ce6fa2b9456e07    36957 Packages
+ 035e40b086885b6f31f63ba006d2af7cbbbe08f2bb407f0c74e2c3e82d833863    10198 Packages.gz
