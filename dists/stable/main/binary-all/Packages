@@ -912,6 +912,20 @@ Priority: optional
 Homepage: https://github.com/yeager/svlang
 Description: svlang CLI tool
 
+Package: sysinfo-gtk
+Version: 0.1.0
+Architecture: all
+Maintainer: Daniel Nylander <daniel@danielnylander.se>
+Depends: python3, python3-gi, gir1.2-gtk-4.0, gir1.2-adw-1
+Filename: ./sysinfo-gtk_0.1.0_all.deb
+Size: 9244
+MD5sum: 9c44bd791ebc4b049b9534c66a5e616d
+SHA1: a676727c2590e102f0df87009e17c0cf5f722c47
+SHA256: 61bd8cae45d0241c47725f9d771507da226247a4fcc9b45c9ae2d19b4ceb7827
+Section: admin
+Priority: optional
+Description: GTK4 system information and benchmark tool
+
 Package: tidskollen
 Version: 0.2.1-1
 Architecture: all
