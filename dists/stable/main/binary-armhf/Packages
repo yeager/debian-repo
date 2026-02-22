@@ -61,6 +61,21 @@ Description: Mozilla Common Voice translation status viewer
  A GTK4/Adwaita application for viewing Mozilla Common Voice
  translation and recording statistics.
 
+Package: ddtp-translate
+Version: 0.14.0
+Architecture: all
+Maintainer: Daniel Nylander <daniel@danielnylander.se>
+Depends: python3, python3-gi, gir1.2-gtk-4.0, gir1.2-adw-1
+Filename: pool/ddtp-translate_0.14.0_all.deb
+Size: 38976
+MD5sum: 80d4430d49f979c637e5c672412de5fd
+SHA1: 87f8bf150ebe3a13cd8ab5f5b633e4d90c066d80
+SHA256: df5c00a3f9ba8ae5b48ebb9fe42b0917b14c2bf86612f3d24fabaeba464e686a
+Section: utils
+Priority: optional
+Description: DDTP/DDTSS translation tool
+ GTK4/Adwaita tool for translating Debian package descriptions via DDTP/DDTSS.
+
 Package: elementary-l10n
 Version: 0.3.2-1
 Architecture: all
