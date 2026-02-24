@@ -1,5 +1,5 @@
 -----BEGIN PGP SIGNED MESSAGE-----
-Hash: SHA256
+Hash: SHA512
 
 Origin: Danne L10n Suite
 Label: Danne L10n Suite
@@ -7,21 +7,54 @@ Suite: stable
 Codename: stable
 Architectures: all amd64 arm64 armhf i386
 Components: main
-Description: Danne L10n Suite Debian Repository
-Date: Tue, 24 Feb 2026 09:47:57 +0000
+Description: Danne L10n Suite APT Repository
+Date: Tue Feb 24 11:49:00 UTC 2026
+MD5Sum:
+ 4ce8ef467fd30de6b6fff14124000812 11812 main/binary-i386/Packages.gz
+ 9e82879ee46d756375ddc58dd51f6fed 42814 main/binary-i386/Packages
+ 4ce8ef467fd30de6b6fff14124000812 11812 main/binary-armhf/Packages.gz
+ 9e82879ee46d756375ddc58dd51f6fed 42814 main/binary-armhf/Packages
+ 4ce8ef467fd30de6b6fff14124000812 11812 main/binary-arm64/Packages.gz
+ 9e82879ee46d756375ddc58dd51f6fed 42814 main/binary-arm64/Packages
+ 4ce8ef467fd30de6b6fff14124000812 11812 main/binary-all/Packages.gz
+ 9e82879ee46d756375ddc58dd51f6fed 42814 main/binary-all/Packages
+ 4ce8ef467fd30de6b6fff14124000812 11812 main/binary-amd64/Packages.gz
+ 9e82879ee46d756375ddc58dd51f6fed 42814 main/binary-amd64/Packages
+SHA1:
+ c50534495a2a91bd9b4c7608568136d83891b5ba 11812 main/binary-i386/Packages.gz
+ be30cbe20b966b3ab0e241f1d5f58405049b396c 42814 main/binary-i386/Packages
+ c50534495a2a91bd9b4c7608568136d83891b5ba 11812 main/binary-armhf/Packages.gz
+ be30cbe20b966b3ab0e241f1d5f58405049b396c 42814 main/binary-armhf/Packages
+ c50534495a2a91bd9b4c7608568136d83891b5ba 11812 main/binary-arm64/Packages.gz
+ be30cbe20b966b3ab0e241f1d5f58405049b396c 42814 main/binary-arm64/Packages
+ c50534495a2a91bd9b4c7608568136d83891b5ba 11812 main/binary-all/Packages.gz
+ be30cbe20b966b3ab0e241f1d5f58405049b396c 42814 main/binary-all/Packages
+ c50534495a2a91bd9b4c7608568136d83891b5ba 11812 main/binary-amd64/Packages.gz
+ be30cbe20b966b3ab0e241f1d5f58405049b396c 42814 main/binary-amd64/Packages
+SHA256:
+ 360c6524a17ade1595e9778abbd4346e10e1ed0e0bc4f33fb83d07b8c6887576 11812 main/binary-i386/Packages.gz
+ e732485ddeb6a5c0f25f17919cb8a76c2f711654f4e5029540cd59d55d598d70 42814 main/binary-i386/Packages
+ 360c6524a17ade1595e9778abbd4346e10e1ed0e0bc4f33fb83d07b8c6887576 11812 main/binary-armhf/Packages.gz
+ e732485ddeb6a5c0f25f17919cb8a76c2f711654f4e5029540cd59d55d598d70 42814 main/binary-armhf/Packages
+ 360c6524a17ade1595e9778abbd4346e10e1ed0e0bc4f33fb83d07b8c6887576 11812 main/binary-arm64/Packages.gz
+ e732485ddeb6a5c0f25f17919cb8a76c2f711654f4e5029540cd59d55d598d70 42814 main/binary-arm64/Packages
+ 360c6524a17ade1595e9778abbd4346e10e1ed0e0bc4f33fb83d07b8c6887576 11812 main/binary-all/Packages.gz
+ e732485ddeb6a5c0f25f17919cb8a76c2f711654f4e5029540cd59d55d598d70 42814 main/binary-all/Packages
+ 360c6524a17ade1595e9778abbd4346e10e1ed0e0bc4f33fb83d07b8c6887576 11812 main/binary-amd64/Packages.gz
+ e732485ddeb6a5c0f25f17919cb8a76c2f711654f4e5029540cd59d55d598d70 42814 main/binary-amd64/Packages
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAEBCAAdFiEEN5hu++1i1inAzyaO4xjH3j2ofFsFAmmdc94ACgkQ4xjH3j2o
-fFuaTg/+MPzLiE676oDKdJEQjowe6/DnnSf15MoV7BvrFgifDF1957TrSR1qllMP
-710z0AkhHjUMr0nHwb/phphUhqQtFwzecNHQ1blxJbgk8PQuJ/VxXLYR3gLbmu/d
-oUgwAMzSkNXi9aKsLitVSMMw+m4SQU3bl8Xuj37CbXJGuM694kAjex0Q31BGbOYo
-35tzhDDMNrFL8YFezVYjqcM87ukP/wzyYyoHdNSh3WSZjuPn1hKj7vyzSTroN8pt
-opIR3q8rVZ9pIe5Nzr/uaK19Hhdy4Gndn672qedsHol1EbuWkQbXucySNX4zqSUE
-FPiIenFlpVMtd3iq9OZNisF2Sz2hlLmpaRiJNkoNVUsJ/+2NtTiVRKU/5oVUTfGt
-b7dmLRcDiRuCo3cUsdQ+xzqscfokaBzzQgkKBmwfxpUOaNDTWjvrEdOYGZaX9pWN
-xkN0eCJkszEqEyQsl8nt3cjpIfhNeEE0GaDHIL6Jm2oZ2+UCJFfi5GebTlsdELIk
-8oUx27JLTeZcSU+FB9Go01jE/J1JaZkZUv1tUc2qbhnO3eCK44ikiAgl1rnXGDmd
-agDm3yyPIXDm39Ra+MwSRmnkyGPed5gLkzzKshgWaNxYlyVUmEzM785qESC4Su8Z
-0KjAjxyNaF4EgVIfilL5mBOxhuE4pf2AgvUxUy+RIa1bWtZy+Ww=
-=cWJB
+iQIzBAEBCgAdFiEEN5hu++1i1inAzyaO4xjH3j2ofFsFAmmdkC0ACgkQ4xjH3j2o
+fFu7qRAAhWJi1CE3rWh3YYUxqOYzdIivrBBR1LC3RyXyS5FNXpcGlOylhSX7jOUz
+MsZFZkTm+5GrGx5n9HWbghHoRwvaaaXTcxipdwKE0t4NusWFINLDzai4l762h0no
+joQlisq8IFyqpVzv0psULIgJP57ft2jg7nKa6NLDWG1kLkXIIjXb9KyBCyNJ3gxr
+RqymY0/9jJ7dG06jWI1xNTvI8JrcRj2mA6r4Ak/CmVHQS9aF7zNnqGcimrExiU5X
+UqWbLm6YiVdEFdrelqNoPwAXgLTaT6/BjSqFLifj4D22piFKSz2B4umwa3mdQ7ZR
+OdEGC5dmfZhoiKvXzt7vBvOGeU2/MCDGPDZJaisKB6dTamTnqOM+g0bvyfguvnx5
+gy1BCzA2EEZctniSJm1VZCmMcugbgRi0aKXMVcplgaC3lStUwNYYEiw/bAJGUnPL
+1PQHVzApQFbKAvy5SLzFXHsBn0mdxZWykYkLWzgfH5595NR2l4FReyGdu4n+MuT0
+jOT6hy0Hy2Po5CI1x2bmW2Q5hDVAsL2wpDKH+eb3UxpvyCUyNCMpU6zZCQDyu6rg
+B4ECrr65QJSH3m1BT+132lZoIR2+e0BtHZnjo9P6gqrEmncFVcmiYMb7oA9WW9b0
+p7zdSHFXex2sUmVKK8UN+66TPs5JBUJAQMncTR4TsJK3kDyQaSM=
+=3vno
 -----END PGP SIGNATURE-----

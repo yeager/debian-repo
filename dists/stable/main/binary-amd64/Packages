@@ -28,6 +28,21 @@ Priority: optional
 Homepage: https://github.com/yeager/apt-changelog-viewer
 Description: View changelogs for installed Debian/Ubuntu packages with security alert highlighting.
 
+Package: asterics-board-editor
+Version: 0.1.0-1
+Architecture: all
+Maintainer: Daniel Nylander <daniel@danielnylander.se>
+Depends: python3 (>= 3.9), python3-gi, gir1.2-gtk-4.0, gir1.2-adw-1
+Filename: pool/asterics-board-editor_0.1.0-1_all.deb
+Size: 12028
+MD5sum: 25bb3b8aea790e3591758db001d7c9e9
+SHA1: 8caeea6f69954e3da152a9fd2e70e845fee6de6d
+SHA256: 62eb561513d03bf553023943700b73039440aa10898796a5d0270d15f5af7579
+Section: utils
+Priority: optional
+Homepage: https://github.com/yeager/asterics-board-editor
+Description: GTK4/Adwaita visual editor for AAC communication boards
+
 Package: autopkgtest-runner
 Version: 0.1.3
 Architecture: all
@@ -88,6 +103,21 @@ Priority: optional
 Homepage: https://github.com/yeager/bildschema
 Description: Visual daily schedule with ARASAAC pictograms for children with autism.
 
+Package: bildschema
+Version: 0.3.6-1
+Architecture: all
+Maintainer: Daniel Nylander <daniel@danielnylander.se>
+Depends: python3 (>= 3.9), python3-gi, gir1.2-gtk-4.0, gir1.2-adw-1
+Filename: pool/bildschema_0.3.6-1_all.deb
+Size: 156518
+MD5sum: ffe2c19b12fbcb05cc760ebc4187683d
+SHA1: fb89c6bf7c8e9e820cbcd25845e2c4f09480d722
+SHA256: ee93e240a05a6d897beef2a2bdd5fab97fce9a15a4f3cd18e664b449b7dee252
+Section: utils
+Priority: optional
+Homepage: https://github.com/yeager/bildschema
+Description: Visual schedule with PECS/ARASAAC images
+
 Package: bildstod
 Version: 0.4.7
 Architecture: all
@@ -102,6 +132,21 @@ Section: utils
 Priority: optional
 Homepage: https://github.com/yeager/bildstod
 Description: Visual communication tool with ARASAAC pictogram search and boards.
+
+Package: bokstavsresan
+Version: 0.1.2-1
+Architecture: all
+Maintainer: Daniel Nylander <daniel@danielnylander.se>
+Depends: python3 (>= 3.9), python3-gi, gir1.2-gtk-4.0, gir1.2-adw-1
+Filename: pool/bokstavsresan_0.1.2-1_all.deb
+Size: 9438
+MD5sum: 6e4b1e86f42adf6b6c753deb436ae84a
+SHA1: 5959a09e070e7ba1f65626fe14d3b2aa1ccf3454
+SHA256: 4c92e2779180c5e8f17a19150356d178e3848a1a48a2e64a5948004d09613a90
+Section: utils
+Priority: optional
+Homepage: https://github.com/yeager/bokstavsresan
+Description: Phonetics and letter learning game for children with dyspraxia
 
 Package: build-log-analyzer
 Version: 0.1.3
@@ -297,6 +342,22 @@ Section: utils
 Priority: optional
 Homepage: https://github.com/yeager/fokuskompis
 Description: Focus and task manager for people with ADHD and autism.
+
+Package: fokuskompis
+Version: 0.2.5
+Architecture: all
+Maintainer: Daniel Nylander <daniel@danielnylander.se>
+Depends: python3, python3-gi, gir1.2-gtk-4.0, gir1.2-adw-1
+Filename: pool/fokuskompis_0.2.5_all.deb
+Size: 14952
+MD5sum: 358f87c007af97ad14e54131eeb7b993
+SHA1: 7b9802020f2bb68867756baf726f4850c6849e7f
+SHA256: 4ca806ee156a2a5de3fdfd6dc8950ed37981a8f3ce0c215fe31a61f1a1332ca3
+Section: utils
+Priority: optional
+Homepage: https://www.autismappar.se
+Description: Focus & task manager for ADHD and autism
+ GTK4/Adwaita focus manager with Pomodoro timer, step breakdown and thought parking.
 
 Package: font-preview
 Version: 0.2.9
@@ -733,6 +794,21 @@ Priority: optional
 Homepage: https://github.com/yeager/pecsbrada
 Description: Digital PECS communication board with ARASAAC pictograms and text-to-speech.
 
+Package: pecsbrada
+Version: 0.3.6-1
+Architecture: all
+Maintainer: Daniel Nylander <daniel@danielnylander.se>
+Depends: python3 (>= 3.9), python3-gi, gir1.2-gtk-4.0, gir1.2-adw-1
+Filename: pool/pecsbrada_0.3.6-1_all.deb
+Size: 157482
+MD5sum: c3054a2f6dad5a003262bd8b9db4aabe
+SHA1: cf643148c6972bab2b889b21db3bc29c674412a5
+SHA256: b30d74008564bebf478c56adebe10f950ddc5df17f3f98da2826840fda806aec
+Section: utils
+Priority: optional
+Homepage: https://github.com/yeager/pecsbrada
+Description: PECS communication board
+
 Package: po-diff
 Version: 1.0.1
 Architecture: all
@@ -823,6 +899,21 @@ Priority: optional
 Homepage: https://github.com/yeager/release-notes-editor
 Description: Release notes editor with templates and translation support.
 
+Package: rpm-policy-checker
+Version: 0.1.0-1
+Architecture: all
+Maintainer: Daniel Nylander <daniel@danielnylander.se>
+Depends: python3 (>= 3.9), python3-gi, gir1.2-gtk-4.0, gir1.2-adw-1
+Filename: pool/rpm-policy-checker_0.1.0-1_all.deb
+Size: 10644
+MD5sum: 154808ba5ff7e9ac3984fa646edab010
+SHA1: f494b40a58108c0988a094de911249a575603a4d
+SHA256: 94e912d79f7f373c874227ebc53caaa40a20ae2cbcf5f561f00bbd58f8263abf
+Section: utils
+Priority: optional
+Homepage: https://github.com/yeager/rpm-policy-checker
+Description: GTK4 RPM Policy Checker
+
 Package: rutinkompis
 Version: 0.3.5
 Architecture: all
@@ -837,6 +928,21 @@ Section: utils
 Priority: optional
 Homepage: https://github.com/yeager/rutinkompis
 Description: Step-by-step visual routine guides with ARASAAC pictograms for children with autism.
+
+Package: rutinkompis
+Version: 0.3.6-1
+Architecture: all
+Maintainer: Daniel Nylander <daniel@danielnylander.se>
+Depends: python3 (>= 3.9), python3-gi, gir1.2-gtk-4.0, gir1.2-adw-1
+Filename: pool/rutinkompis_0.3.6-1_all.deb
+Size: 156636
+MD5sum: 05899366708df7c795c9e39e6bd010dc
+SHA1: ad6bb5780556c9b2aaf351d4bf1ade80414f7d09
+SHA256: baebe68304971f1cd9281e002b5782f03c9b63df882fa99c693c353637d37089
+Section: utils
+Priority: optional
+Homepage: https://github.com/yeager/rutinkompis
+Description: Daily routine companion for children
 
 Package: scummvm-gtk
 Version: 0.2.3
