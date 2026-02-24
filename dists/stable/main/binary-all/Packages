@@ -59,49 +59,34 @@ Homepage: https://github.com/yeager/autopkgtest-runner
 Description: Frontend for the autopkgtest Debian test framework.
 
 Package: beloningskartan
-Version: 0.1.7
+Version: 0.1.7-1
 Architecture: all
 Maintainer: Daniel Nylander <daniel@danielnylander.se>
-Depends: python3 (>= 3.10), python3-gi, gir1.2-gtk-4.0, gir1.2-adw-1
-Filename: pool/beloningskartan_0.1.7_all.deb
-Size: 8534
-MD5sum: 92f6afbdd982d297e310601c2ccca6ea
-SHA1: 872a8b82ed44ab63717a82f50a11e65c8fc1546a
-SHA256: 569c36d940d0fabef2fbb7e22e114e984abd0c3fd21a7204f3f235142ba1a6d6
+Depends: python3 (>= 3.9), python3-gi, gir1.2-gtk-4.0, gir1.2-adw-1
+Filename: pool/beloningskartan_0.1.7-1_all.deb
+Size: 8272
+MD5sum: c6b88cd9ca13774eee76d42c27bc4006
+SHA1: dbde0bd8878a36d9e8b157f34993ca0f5b2c40bb
+SHA256: 855e36fc16bd4b9c0a29a7beb6e5ab37ab2201440fe2fbdaf5658c024c04f807
 Section: utils
 Priority: optional
 Homepage: https://github.com/yeager/beloningskartan
-Description: Visual reward system with stars and goals for children with autism and ADHD.
+Description: L10n App Suite - beloningskartan
 
 Package: bildordbok
-Version: 0.3.6
+Version: 0.3.6-1
 Architecture: all
 Maintainer: Daniel Nylander <daniel@danielnylander.se>
-Depends: python3 (>= 3.10), python3-gi, gir1.2-gtk-4.0, gir1.2-adw-1
-Filename: pool/bildordbok_0.3.6_all.deb
-Size: 160666
-MD5sum: 2a2ee71a27fb91de313a8c59b5815a91
-SHA1: a74123ee508bd72fb9d1acd606232b4bb4f1e01d
-SHA256: 563789981ea27889f3d38713f9e564e5c4322d8b79ab45b8847ad041566621ec
+Depends: python3 (>= 3.9), python3-gi, gir1.2-gtk-4.0, gir1.2-adw-1
+Filename: pool/bildordbok_0.3.6-1_all.deb
+Size: 162170
+MD5sum: 63b0128e6773f8c8cfdde59d4688795e
+SHA1: 00fe209bfbb651fc80a2284e9fbefaf24041354c
+SHA256: 01af47da8503e3e6b1f576fcd682dc5d5e71253248ce98202e2bf8fd48f9ed34
 Section: utils
 Priority: optional
 Homepage: https://github.com/yeager/bildordbok
-Description: Visual picture dictionary with ARASAAC pictograms for language development.
-
-Package: bildschema
-Version: 0.3.5
-Architecture: all
-Maintainer: Daniel Nylander <daniel@danielnylander.se>
-Depends: python3 (>= 3.10), python3-gi, gir1.2-gtk-4.0, gir1.2-adw-1
-Filename: pool/bildschema_0.3.5_all.deb
-Size: 156296
-MD5sum: 724c463fa69706ac807289a152af4bdf
-SHA1: 2b1863407e79e77510ad26bbc8e85b1d3959761f
-SHA256: 5a4342c32d3fd759504de3aaf3191530e59bab0a8dbf98a56df4092db8087bac
-Section: utils
-Priority: optional
-Homepage: https://github.com/yeager/bildschema
-Description: Visual daily schedule with ARASAAC pictograms for children with autism.
+Description: L10n App Suite - bildordbok
 
 Package: bildschema
 Version: 0.3.6-1
@@ -119,19 +104,19 @@ Homepage: https://github.com/yeager/bildschema
 Description: Visual schedule with PECS/ARASAAC images
 
 Package: bildstod
-Version: 0.4.7
+Version: 0.4.7-1
 Architecture: all
 Maintainer: Daniel Nylander <daniel@danielnylander.se>
-Depends: python3 (>= 3.10), python3-gi, gir1.2-gtk-4.0, gir1.2-adw-1
-Filename: pool/bildstod_0.4.7_all.deb
-Size: 166856
-MD5sum: 54617c24bdeba8323bb1a73ff082e8fe
-SHA1: 93dbff0fe3ff5bd5bd872fe71f6d6918a370d2d7
-SHA256: 44bdad6208f53df13967a790f6ffdd94babda4b14cfd64a40718fa0caff5a0f9
+Depends: python3 (>= 3.9), python3-gi, gir1.2-gtk-4.0, gir1.2-adw-1
+Filename: pool/bildstod_0.4.7-1_all.deb
+Size: 169248
+MD5sum: 16fd1936c1c37cf9adfef6d44be1b844
+SHA1: e1f34f32c960d5173bb3168b6f3635102f766ff9
+SHA256: 1ad80a548a10ba5f9be9ded15c851846f4bd8991fe8be9b56bfa841b3e7c6259
 Section: utils
 Priority: optional
 Homepage: https://github.com/yeager/bildstod
-Description: Visual communication tool with ARASAAC pictogram search and boards.
+Description: L10n App Suite - bildstod
 
 Package: bokstavsresan
 Version: 0.1.2-1
@@ -223,6 +208,21 @@ Priority: optional
 Homepage: https://github.com/yeager/cve-monitor
 Description: CVE Monitor - track security vulnerabilities
 
+Package: dagboken
+Version: 0.1.0-1
+Architecture: all
+Maintainer: Daniel Nylander <daniel@danielnylander.se>
+Depends: python3 (>= 3.9), python3-gi, gir1.2-gtk-4.0, gir1.2-adw-1
+Filename: pool/dagboken_0.1.0-1_all.deb
+Size: 11098
+MD5sum: e8ac341980f1b9ec2a3c4aa1b37cf1d9
+SHA1: 6e19928ff6977f237dda31e3254830d5856284ba
+SHA256: afbdf03074fa146b617f42ba3c836c6ade4a78e7f61f6d9d527fb33379824da9
+Section: utils
+Priority: optional
+Homepage: https://github.com/yeager/dagboken
+Description: L10n App Suite - dagboken
+
 Package: ddtp-translate
 Version: 0.14.2
 Architecture: all
@@ -313,6 +313,21 @@ Priority: optional
 Homepage: https://github.com/yeager/elementary-l10n
 Description: Translation status viewer for elementary OS components.
 
+Package: energimataren
+Version: 0.1.0-1
+Architecture: all
+Maintainer: Daniel Nylander <daniel@danielnylander.se>
+Depends: python3 (>= 3.9), python3-gi, gir1.2-gtk-4.0, gir1.2-adw-1
+Filename: pool/energimataren_0.1.0-1_all.deb
+Size: 5780
+MD5sum: 792d9de3fb3baf0b58285f957a43a90a
+SHA1: d5e8f72ab5fdf93ed9d80af3782090dd298cd322
+SHA256: adee2c9e4874429b0ca33069294ab56245c30f654fd0bc1cdde737e4d2cb55e5
+Section: utils
+Priority: optional
+Homepage: https://github.com/yeager/energimataren
+Description: L10n App Suite - energimataren
+
 Package: firewall-manager
 Version: 0.1.4
 Architecture: all
@@ -327,21 +342,6 @@ Section: utils
 Priority: optional
 Homepage: https://github.com/yeager/firewall-manager
 Description: UFW/nftables firewall rule manager with a graphical interface.
-
-Package: fokuskompis
-Version: 0.2.4
-Architecture: all
-Maintainer: Daniel Nylander <daniel@danielnylander.se>
-Depends: python3 (>= 3.10), python3-gi, gir1.2-gtk-4.0, gir1.2-adw-1
-Filename: pool/fokuskompis_0.2.4_all.deb
-Size: 14356
-MD5sum: bbef0c4c1ddf186a47b29b4839fd19d6
-SHA1: aaed36a8a573c44ec03d2fb09a22007d829f6bb3
-SHA256: 1e2d79735ac1d2e220e503ce79e90b76df685451b9af2bccde02adb98072cead
-Section: utils
-Priority: optional
-Homepage: https://github.com/yeager/fokuskompis
-Description: Focus and task manager for people with ADHD and autism.
 
 Package: fokuskompis
 Version: 0.2.5
@@ -434,20 +434,65 @@ Priority: optional
 Homepage: https://github.com/yeager/ha-l10n
 Description: Home Assistant translation status dashboard.
 
-Package: kanslokartan
-Version: 0.1.7
+Package: ilskehanteraren
+Version: 0.1.0-1
 Architecture: all
 Maintainer: Daniel Nylander <daniel@danielnylander.se>
-Depends: python3 (>= 3.10), python3-gi, gir1.2-gtk-4.0, gir1.2-adw-1
-Filename: pool/kanslokartan_0.1.7_all.deb
-Size: 8552
-MD5sum: 9cf4b5be9dbad4d51d386986ef738cb4
-SHA1: 63ae93720c0a69974a37dcdac3b66e6831d335a7
-SHA256: e20c46fed04ded5279b0325ac1d9ccb3c2d8faa706ee115902deb2f0fb34baa9
+Depends: python3 (>= 3.9), python3-gi, gir1.2-gtk-4.0, gir1.2-adw-1
+Filename: pool/ilskehanteraren_0.1.0-1_all.deb
+Size: 6852
+MD5sum: 5c75da0ed7f726465657e4a7b4bceb23
+SHA1: 31d1da2f70e205b98d539ad93c81e2f80d979de6
+SHA256: 4bfa6865f83d51aca94c01fea58cba6fcfad4dca5b2d86ab97f09b6ba09dcd69
+Section: utils
+Priority: optional
+Homepage: https://github.com/yeager/ilskehanteraren
+Description: L10n App Suite - ilskehanteraren
+
+Package: kanslokartan
+Version: 0.1.7-1
+Architecture: all
+Maintainer: Daniel Nylander <daniel@danielnylander.se>
+Depends: python3 (>= 3.9), python3-gi, gir1.2-gtk-4.0, gir1.2-adw-1
+Filename: pool/kanslokartan_0.1.7-1_all.deb
+Size: 8508
+MD5sum: 94f0f1c7623deff185dd4d0d27ae37b1
+SHA1: 1e56688806966aec291ebfcb6d32bc088bfab265
+SHA256: d4764d9fe2e06bfd3381fce20571fa32b0bafe2c7f1a48ec012d6ad80993731b
 Section: utils
 Priority: optional
 Homepage: https://github.com/yeager/kanslokartan
-Description: Emotion recognition and journal for autism and ADHD.
+Description: L10n App Suite - kanslokartan
+
+Package: kladvaljaren
+Version: 0.1.0-1
+Architecture: all
+Maintainer: Daniel Nylander <daniel@danielnylander.se>
+Depends: python3 (>= 3.9), python3-gi, gir1.2-gtk-4.0, gir1.2-adw-1
+Filename: pool/kladvaljaren_0.1.0-1_all.deb
+Size: 9490
+MD5sum: 90125caccc339fe200d1a20bd185654d
+SHA1: 624a07ebea9831530d176accfdda38ce6ac5af5b
+SHA256: cae0a996045fc7cb434118ce4a1a3289b5b37c074956de61cb21d2181ab6e0cc
+Section: utils
+Priority: optional
+Homepage: https://github.com/yeager/kladvaljaren
+Description: L10n App Suite - kladvaljaren
+
+Package: klocklararen
+Version: 0.1.0-1
+Architecture: all
+Maintainer: Daniel Nylander <daniel@danielnylander.se>
+Depends: python3 (>= 3.9), python3-gi, gir1.2-gtk-4.0, gir1.2-adw-1
+Filename: pool/klocklararen_0.1.0-1_all.deb
+Size: 4510
+MD5sum: e7398e23bbd1a5dadb1f91d26c81bc4e
+SHA1: b0d2a47ce2fbd20d72bbd72af78873e124c32997
+SHA256: d48109c60845d63d7a4d781d8eb6e922e1e1177fcb4a4910d29fb4b93b19fc47
+Section: utils
+Priority: optional
+Homepage: https://github.com/yeager/klocklararen
+Description: L10n App Suite - klocklararen
 
 Package: l10n-conv
 Version: 1.0.9-1
@@ -540,19 +585,19 @@ Homepage: https://github.com/yeager/libretranslate-gui
 Description: Translation assistant using the LibreTranslate API.
 
 Package: ljudladan
-Version: 0.1.6
+Version: 0.1.6-1
 Architecture: all
 Maintainer: Daniel Nylander <daniel@danielnylander.se>
-Depends: python3 (>= 3.10), python3-gi, gir1.2-gtk-4.0, gir1.2-adw-1
-Filename: pool/ljudladan_0.1.6_all.deb
-Size: 8108
-MD5sum: 534d9e0fb41e0ff30b22a3bcc7ff5890
-SHA1: 6e44ab94b948b1f1313e3eb4a3d2fbfeac83a069
-SHA256: fb31b364c62f1ce34b4509bca736440faa83cb1fdfd3daaac7eb94803332c8a1
+Depends: python3 (>= 3.9), python3-gi, gir1.2-gtk-4.0, gir1.2-adw-1
+Filename: pool/ljudladan_0.1.6-1_all.deb
+Size: 8004
+MD5sum: 11b05787809c68c2a9b71a6533c052ca
+SHA1: e396e4e6d464f849683e9066cf58d0e9cb58acd1
+SHA256: 8712e71652177d3c9f905914179b65e879a871f1f959f9dd9301b606414007f9
 Section: utils
 Priority: optional
 Homepage: https://github.com/yeager/ljudladan
-Description: Sound sensitivity tool with custom sound profiles for sensory regulation.
+Description: L10n App Suite - ljudladan
 
 Package: locale-tester
 Version: 0.2.7
@@ -600,19 +645,19 @@ Homepage: https://github.com/yeager/lp-bug-triager
 Description: Launchpad bug triage tool with NLP-based classification.
 
 Package: lugnarummet
-Version: 0.3.2
+Version: 0.3.2-1
 Architecture: all
 Maintainer: Daniel Nylander <daniel@danielnylander.se>
-Depends: python3 (>= 3.10), python3-gi, gir1.2-gtk-4.0, gir1.2-adw-1
-Filename: pool/lugnarummet_0.3.2_all.deb
-Size: 13976
-MD5sum: 6a3ccb6575f87804f7bab96256e44009
-SHA1: 14359d2318c2eebc8db42f72cdda6d6ea87c4f8e
-SHA256: 4c1f36abd9468387e08228617ef3789251246bb95cf22f8359c7294087016bc4
+Depends: python3 (>= 3.9), python3-gi, gir1.2-gtk-4.0, gir1.2-adw-1
+Filename: pool/lugnarummet_0.3.2-1_all.deb
+Size: 14586
+MD5sum: fd3976fc1fcd0324df6680e4e1e3b516
+SHA1: 546a8d31a06a0ac7ef092a754a917401143503ff
+SHA256: 7ac9c141440f95991435bb74f6e260ecb9dc6a93be01856b5f9327413230499b
 Section: utils
 Priority: optional
 Homepage: https://github.com/yeager/lugnarummet
-Description: Sensory regulation and calming strategies for autism and ADHD.
+Description: L10n App Suite - lugnarummet
 
 Package: makebread
 Version: 0.4.3
@@ -628,6 +673,36 @@ Section: utils
 Priority: optional
 Homepage: https://github.com/yeager/makebread
 Description: Bread machine recipe manager with timer calculations.
+
+Package: matlagaren
+Version: 0.1.0-1
+Architecture: all
+Maintainer: Daniel Nylander <daniel@danielnylander.se>
+Depends: python3 (>= 3.9), python3-gi, gir1.2-gtk-4.0, gir1.2-adw-1
+Filename: pool/matlagaren_0.1.0-1_all.deb
+Size: 4304
+MD5sum: 5f83d296867730ef1ac1b335e3bf7bcc
+SHA1: ce7413178bf98d1e67105347beaa73e763bff85f
+SHA256: 5e9b4d6132dffb8e5df7891e6ec90087ac7f66332da744865630aeb5bcaf6ca0
+Section: utils
+Priority: optional
+Homepage: https://github.com/yeager/matlagaren
+Description: L10n App Suite - matlagaren
+
+Package: meningsbyggaren
+Version: 0.1.0-1
+Architecture: all
+Maintainer: Daniel Nylander <daniel@danielnylander.se>
+Depends: python3 (>= 3.9), python3-gi, gir1.2-gtk-4.0, gir1.2-adw-1
+Filename: pool/meningsbyggaren_0.1.0-1_all.deb
+Size: 4766
+MD5sum: 994b8b0384bb64a487a3709e29a07d8d
+SHA1: df5338d3d477d95c08d04cd6bf82d46eab34de35
+SHA256: de50aa14c44caffa865deab91fb584cf6d0b654d21c9980ae60dfd016af4469f
+Section: utils
+Priority: optional
+Homepage: https://github.com/yeager/meningsbyggaren
+Description: L10n App Suite - meningsbyggaren
 
 Package: mentor-dashboard
 Version: 0.1.3
@@ -660,34 +735,34 @@ Homepage: https://github.com/yeager/merge-o-matic-viewer
 Description: Merge helper for Ubuntu-Debian package synchronization.
 
 Package: minnet
-Version: 0.1.7
+Version: 0.1.7-1
 Architecture: all
 Maintainer: Daniel Nylander <daniel@danielnylander.se>
-Depends: python3 (>= 3.10), python3-gi, gir1.2-gtk-4.0, gir1.2-adw-1
-Filename: pool/minnet_0.1.7_all.deb
-Size: 8196
-MD5sum: 552fa756fd8ecd0f8f0ee413d09cb87c
-SHA1: c3718e339173662688c55f9fae86ab40e70697a6
-SHA256: 69c3629baff07546e2a712a0ab6c50f368b7bf025638ffa4bc27fbef03aee674
+Depends: python3 (>= 3.9), python3-gi, gir1.2-gtk-4.0, gir1.2-adw-1
+Filename: pool/minnet_0.1.7-1_all.deb
+Size: 8308
+MD5sum: fb0ac2e7a3deee72a538c7d2514ed2ab
+SHA1: dda256a24a15eb8594c7b6daf73c218ec80b6732
+SHA256: cb6e3dac67568614b3c7e1df4c445fa907d83a6995797f8304f3383b39fa9cb6
 Section: utils
 Priority: optional
 Homepage: https://github.com/yeager/minnet
-Description: Working memory training games for autism and ADHD.
+Description: L10n App Suite - minnet
 
 Package: mittschema
-Version: 0.1.5
+Version: 0.1.5-1
 Architecture: all
 Maintainer: Daniel Nylander <daniel@danielnylander.se>
-Depends: python3 (>= 3.10), python3-gi, gir1.2-gtk-4.0, gir1.2-adw-1
-Filename: pool/mittschema_0.1.5_all.deb
-Size: 8514
-MD5sum: f3292aefcde4403aa7922347926605fa
-SHA1: c362bd9cdb8152c3c976ea365f30be7e77baf7d1
-SHA256: 18660a36c8b55fdf35ee1c3dd280d03b26b9952dd641f39667cc70ec733ea7cf
+Depends: python3 (>= 3.9), python3-gi, gir1.2-gtk-4.0, gir1.2-adw-1
+Filename: pool/mittschema_0.1.5-1_all.deb
+Size: 8348
+MD5sum: dc3568d075863e6fcb3b106cc5aeb31f
+SHA1: 4aef6329a68731065d0c7848de610cd57bc741d4
+SHA256: 4882411773d9276e6ae05c0a1d52fb3a436e6ffc54af1294f08b3c182d31d3f1
 Section: utils
 Priority: optional
 Homepage: https://github.com/yeager/mittschema
-Description: Weekly visual schedule with school integration for children with autism.
+Description: L10n App Suite - mittschema
 
 Package: mqtt-dashboard
 Version: 0.1.4
@@ -750,19 +825,34 @@ Homepage: https://github.com/yeager/obd2-viewer
 Description: OBD2 diagnostic data viewer and logger for vehicles.
 
 Package: ordbyggaren
-Version: 0.2.5
+Version: 0.2.5-1
 Architecture: all
 Maintainer: Daniel Nylander <daniel@danielnylander.se>
-Depends: python3 (>= 3.10), python3-gi, gir1.2-gtk-4.0, gir1.2-adw-1
-Filename: pool/ordbyggaren_0.2.5_all.deb
-Size: 12118
-MD5sum: 5b4c0f7fec42d51f4d7470c9f75e5032
-SHA1: 0f14a18258a906aef1f55c01eada388ee1bde22d
-SHA256: e967673361eef4daf485610851bd3b3392939fd5f962b1ac2ac4cbe53447845d
+Depends: python3 (>= 3.9), python3-gi, gir1.2-gtk-4.0, gir1.2-adw-1
+Filename: pool/ordbyggaren_0.2.5-1_all.deb
+Size: 12262
+MD5sum: 292f932ddc5a5768e5acd2002f1e69c1
+SHA1: aae248af5651d8b300b8b2face1c061b01e0d923
+SHA256: d2a4c6e5d40b1b795babe97861bb045f829bce2b2963f18b3ff0f85f6b5f95ed
 Section: utils
 Priority: optional
 Homepage: https://github.com/yeager/ordbyggaren
-Description: Phonological training app — build words from sounds and letters.
+Description: L10n App Suite - ordbyggaren
+
+Package: ovningstavlan
+Version: 0.1.0-1
+Architecture: all
+Maintainer: Daniel Nylander <daniel@danielnylander.se>
+Depends: python3 (>= 3.9), python3-gi, gir1.2-gtk-4.0, gir1.2-adw-1
+Filename: pool/ovningstavlan_0.1.0-1_all.deb
+Size: 4760
+MD5sum: 48f5c4d7a974a80db730475e958df268
+SHA1: c588f4c7deb473192fb9433c5773a79b1e5226eb
+SHA256: 8b914cddf482f5d5142e619f92165eace86eabdc8ff9a0df31c7f82a83c0e0d0
+Section: utils
+Priority: optional
+Homepage: https://github.com/yeager/ovningstavlan
+Description: L10n App Suite - ovningstavlan
 
 Package: packetlens
 Version: 0.2.7
@@ -779,20 +869,20 @@ Priority: optional
 Homepage: https://github.com/yeager/pcap-viewer
 Description: PacketLens - network packet capture viewer
 
-Package: pecsbrada
-Version: 0.3.5
+Package: pauskollen
+Version: 0.1.0-1
 Architecture: all
 Maintainer: Daniel Nylander <daniel@danielnylander.se>
-Depends: python3 (>= 3.10), python3-gi, gir1.2-gtk-4.0, gir1.2-adw-1
-Filename: pool/pecsbrada_0.3.5_all.deb
-Size: 157314
-MD5sum: 67bd5eab81e22926947ba3f38243aec7
-SHA1: 15109f677c56555b4e44438d451502eee1bd18ac
-SHA256: 02f13db1c182b08ed045767940352263544e04b43d1bdc7655c62d54f7bcc680
+Depends: python3 (>= 3.9), python3-gi, gir1.2-gtk-4.0, gir1.2-adw-1
+Filename: pool/pauskollen_0.1.0-1_all.deb
+Size: 6948
+MD5sum: c73b459090e8e94db76c5e9af35d841b
+SHA1: b28b62f463898e50006a32afd61b942b650388e0
+SHA256: 9776bfc8ae762f5f6b86dce65400280e2a89761a2c028fc9e4ed0988102bda32
 Section: utils
 Priority: optional
-Homepage: https://github.com/yeager/pecsbrada
-Description: Digital PECS communication board with ARASAAC pictograms and text-to-speech.
+Homepage: https://github.com/yeager/pauskollen
+Description: L10n App Suite - pauskollen
 
 Package: pecsbrada
 Version: 0.3.6-1
@@ -808,6 +898,21 @@ Section: utils
 Priority: optional
 Homepage: https://github.com/yeager/pecsbrada
 Description: PECS communication board
+
+Package: pengakollen
+Version: 0.1.0-1
+Architecture: all
+Maintainer: Daniel Nylander <daniel@danielnylander.se>
+Depends: python3 (>= 3.9), python3-gi, gir1.2-gtk-4.0, gir1.2-adw-1
+Filename: pool/pengakollen_0.1.0-1_all.deb
+Size: 4266
+MD5sum: 248f30a150fc1088a5b43517eeb6bcd6
+SHA1: 03a461984e2c0c40679e0fa297d750bdba39b490
+SHA256: 476951b33072b726743cc72dcc093a84d8b35db738cd8f1834b2943306dca81c
+Section: utils
+Priority: optional
+Homepage: https://github.com/yeager/pengakollen
+Description: L10n App Suite - pengakollen
 
 Package: po-diff
 Version: 1.0.1
@@ -869,6 +974,21 @@ Priority: optional
 Homepage: https://github.com/yeager/process-explorer
 Description: System process explorer with resource usage graphs.
 
+Package: raknestod
+Version: 0.1.0-1
+Architecture: all
+Maintainer: Daniel Nylander <daniel@danielnylander.se>
+Depends: python3 (>= 3.9), python3-gi, gir1.2-gtk-4.0, gir1.2-adw-1
+Filename: pool/raknestod_0.1.0-1_all.deb
+Size: 4020
+MD5sum: a4568540ccae2e13e1c4d8ceea3a0168
+SHA1: 73ca65c7913f698ec07800e043bbb483f8002b7b
+SHA256: 548de3b6f0433032d34a294f3e75f23117acb28abd9a2060bba3afb778d3c791
+Section: utils
+Priority: optional
+Homepage: https://github.com/yeager/raknestod
+Description: L10n App Suite - raknestod
+
 Package: regex-tester
 Version: 0.1.4
 Architecture: all
@@ -915,21 +1035,6 @@ Homepage: https://github.com/yeager/rpm-policy-checker
 Description: GTK4 RPM Policy Checker
 
 Package: rutinkompis
-Version: 0.3.5
-Architecture: all
-Maintainer: Daniel Nylander <daniel@danielnylander.se>
-Depends: python3 (>= 3.10), python3-gi, gir1.2-gtk-4.0, gir1.2-adw-1
-Filename: pool/rutinkompis_0.3.5_all.deb
-Size: 156506
-MD5sum: 3bef3c65c806a634fbf083dfa3a2c225
-SHA1: 2d053f2f2bac4c346d9fa040cbcd258b1d15250a
-SHA256: fb0e6fa8829f3727848424ecd9e092a5c1c4ca4b614978029e26e1fdf7e197da
-Section: utils
-Priority: optional
-Homepage: https://github.com/yeager/rutinkompis
-Description: Step-by-step visual routine guides with ARASAAC pictograms for children with autism.
-
-Package: rutinkompis
 Version: 0.3.6-1
 Architecture: all
 Maintainer: Daniel Nylander <daniel@danielnylander.se>
@@ -943,6 +1048,21 @@ Section: utils
 Priority: optional
 Homepage: https://github.com/yeager/rutinkompis
 Description: Daily routine companion for children
+
+Package: samtalsstod
+Version: 0.1.0-1
+Architecture: all
+Maintainer: Daniel Nylander <daniel@danielnylander.se>
+Depends: python3 (>= 3.9), python3-gi, gir1.2-gtk-4.0, gir1.2-adw-1
+Filename: pool/samtalsstod_0.1.0-1_all.deb
+Size: 9660
+MD5sum: c128f3f3c47449ce3713baaa782d630d
+SHA1: 09635d25c9223da67fc616f384fd218d0a7c6e68
+SHA256: 9a137eca94270a564624e620d7d63ac743416ebea3a6a34077a14469c2a8d398
+Section: utils
+Priority: optional
+Homepage: https://github.com/yeager/samtalsstod
+Description: L10n App Suite - samtalsstod
 
 Package: scummvm-gtk
 Version: 0.2.3
@@ -975,19 +1095,34 @@ Homepage: https://github.com/yeager/snap-l10n
 Description: Snap package translation status viewer.
 
 Package: socialaberattelser
-Version: 0.1.7
+Version: 0.1.7-1
 Architecture: all
 Maintainer: Daniel Nylander <daniel@danielnylander.se>
-Depends: python3 (>= 3.10), python3-gi, gir1.2-gtk-4.0, gir1.2-adw-1
-Filename: pool/socialaberattelser_0.1.7_all.deb
-Size: 11084
-MD5sum: 43764f2532ca4f4eb92b01eed85600b5
-SHA1: fc2eee476f73b8b3e079b225668f660c01ff2527
-SHA256: cdb729b9c6c4d9f05d8a7db14b033aca92c0f60d12d00777a1b328b8dd15d8f9
+Depends: python3 (>= 3.9), python3-gi, gir1.2-gtk-4.0, gir1.2-adw-1
+Filename: pool/socialaberattelser_0.1.7-1_all.deb
+Size: 10044
+MD5sum: 14d5e050e005b0d58956abb5bd19da32
+SHA1: 362fb41b3a99f61e0dc64c9540637d3f09640e3d
+SHA256: edbdecbe1f0f74b348e0196ee8917ab1c3bc2b4fccfb1470aa0a4f0ac2c77a7b
 Section: utils
 Priority: optional
 Homepage: https://github.com/yeager/socialaberattelser
-Description: Create and view social stories with images for autism support.
+Description: L10n App Suite - socialaberattelser
+
+Package: stegvisaren
+Version: 0.1.0-1
+Architecture: all
+Maintainer: Daniel Nylander <daniel@danielnylander.se>
+Depends: python3 (>= 3.9), python3-gi, gir1.2-gtk-4.0, gir1.2-adw-1
+Filename: pool/stegvisaren_0.1.0-1_all.deb
+Size: 5428
+MD5sum: 21b725926186fdc4e940293a02b6fc0a
+SHA1: 3ba00d36b4f84f1b2dd9bbe720bf70b88d8458f0
+SHA256: fcf9af65c2caa0d68b05e94b1ddfbc7d9e718dcdaa7f4f83d94b3c7874e5bed1
+Section: utils
+Priority: optional
+Homepage: https://github.com/yeager/stegvisaren
+Description: L10n App Suite - stegvisaren
 
 Package: svlang
 Version: 0.1.7-1
@@ -1020,19 +1155,19 @@ Homepage: https://github.com/yeager/sysinfo-gtk
 Description: System information viewer — a modern hardinfo2 alternative.
 
 Package: tidskollen
-Version: 0.2.5
+Version: 0.2.5-1
 Architecture: all
 Maintainer: Daniel Nylander <daniel@danielnylander.se>
-Depends: python3 (>= 3.10), python3-gi, gir1.2-gtk-4.0, gir1.2-adw-1
-Filename: pool/tidskollen_0.2.5_all.deb
-Size: 10750
-MD5sum: 16d75e1e372015363595fdf8eb95c173
-SHA1: 5a67a995fa393ada7d12ef1e2299f3d61c9b3e2e
-SHA256: 8636db1f90f53441f857d0c22bb6418bdec9b43eb3833f81a6bdd53f12b71bb5
+Depends: python3 (>= 3.9), python3-gi, gir1.2-gtk-4.0, gir1.2-adw-1
+Filename: pool/tidskollen_0.2.5-1_all.deb
+Size: 10962
+MD5sum: 96d2e1aaf7ef36c15b52b7bf5e047a50
+SHA1: bce3d769b53fa9a1a04e35a864b201ffdb7031b9
+SHA256: 1607bf5a5db903878d5ec2e971161bfbb1e0b75fc2cbf1177c46525dea77fd86
 Section: utils
 Priority: optional
 Homepage: https://github.com/yeager/tidskollen
-Description: Visual time timer for classrooms and children with autism.
+Description: L10n App Suite - tidskollen
 
 Package: tm-manager
 Version: 0.2.12
@@ -1123,6 +1258,21 @@ Section: utils
 Priority: optional
 Homepage: https://github.com/yeager/ubuntu-l10n
 Description: Ubuntu/Launchpad translation statistics viewer.
+
+Package: valjaren
+Version: 0.1.0-1
+Architecture: all
+Maintainer: Daniel Nylander <daniel@danielnylander.se>
+Depends: python3 (>= 3.9), python3-gi, gir1.2-gtk-4.0, gir1.2-adw-1
+Filename: pool/valjaren_0.1.0-1_all.deb
+Size: 5462
+MD5sum: f5b0e4c45ea6152acc1869c9ae111b09
+SHA1: 881ed8923bb6400db964a48bc47a0ebf088772f8
+SHA256: f6c9d4e8f3aa8b3e53c786ce7f316a9dcdf08a6887f00ea77203dd7fd0db23f8
+Section: utils
+Priority: optional
+Homepage: https://github.com/yeager/valjaren
+Description: L10n App Suite - valjaren
 
 Package: vsdview
 Version: 0.4.6
