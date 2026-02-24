@@ -4,10 +4,5 @@ Suite: stable
 Codename: stable
 Architectures: all amd64 arm64 armhf i386
 Components: main
-Description: Danne L10n Suite - Swedish localization tools
-MD5Sum:
- 6b576f376ecfd7810f9702e45ef721da 34141 Packages
- fbc92cc77d0fd61c872fcd182163aec9 10309 Packages.gz
-SHA256:
- efd89121e62377a71c46145c09f238aee94e0ee6e0a6819c5f8ecbc23853fc5a 34141 Packages
- bfb4b31eef786223c516b69bdbad8c40261afb027df70422715a7d04e7ca48a0 10309 Packages.gz
+Description: Danne L10n Suite Debian Repository
+Date: tis, 24 feb. 2026 09:14:54 +0000
