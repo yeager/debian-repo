@@ -945,19 +945,21 @@ Homepage: https://github.com/yeager/po-review-board
 Description: Review .po translations with diff view, comments, and approval workflow.
 
 Package: po-translate
-Version: 1.5.7
+Version: 1.5.8-1
 Architecture: all
 Maintainer: Daniel Nylander <daniel@danielnylander.se>
-Depends: python3 (>= 3.10), python3-gi, gir1.2-gtk-4.0, gir1.2-adw-1
-Filename: pool/po-translate_1.5.7_all.deb
-Size: 15870
-MD5sum: 6af1254732f09833bc2b3c013d814480
-SHA1: 028644a16f475a0db90e048f86897fb69381af6c
-SHA256: 31e27ba150473455f022cb6f537571885002d20de8d5f8eb963351992172ae88
-Section: devel
+Depends: python3 (>= 3.9)
+Filename: pool/po-translate_1.5.8-1_all.deb
+Size: 15902
+MD5sum: 06399def9733a5cc8f6b66b436949699
+SHA1: db39da2dcb24b8f168919387b14f060a4122de0d
+SHA256: 9d2007812545e2c7a671f71b207005e7ca1be76b854b8d7711d612472fde74b6
+Section: utils
 Priority: optional
 Homepage: https://github.com/yeager/po-translate
-Description: AI-powered PO file translator with GTK4 UI
+Description: Batch translate PO/TS files using AI
+ CLI tool for translating .po and .ts localization files using
+ various AI services (OpenAI, Anthropic, DeepL, Google, etc).
 
 Package: process-explorer
 Version: 0.1.4
