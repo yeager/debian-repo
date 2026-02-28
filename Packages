@@ -4,14 +4,21 @@ Architecture: all
 Maintainer: Daniel Nylander <daniel@danielnylander.se>
 Depends: python3 (>= 3.10), python3-gi, gir1.2-gtk-4.0, gir1.2-adw-1
 Filename: ./anpr-viewer_0.4.0_all.deb
-Size: 14710
-MD5sum: 9db772691645b8e491c5616a795e0dd9
-SHA1: 86425898f0ebcc0da1d9a39a8d6d5efbf3dc833b
-SHA256: 93534bb63f8929a5164dfd52daa0156704b33be687dc7a62020d5e25b7a0db52
+Size: 15518
+MD5sum: 7d55287eed04190b2d3aa2ddaac51a44
+SHA1: b4e724ba9945d4d215d57603248f3efe9e7798f7
+SHA256: c7ac612af458900c26c37a3118753db0378f5985404d5cb1ae6df0f77227a0e3
 Section: utils
 Priority: optional
 Homepage: https://github.com/yeager/anpr-viewer
-Description: License plate recognition from video streams and files using Tesseract OCR and ffmpeg.
+Description: GTK4 license plate recognition from video streams and files
+ License plate recognition from video streams and files using Tesseract OCR
+ and ffmpeg.
+ Built with GTK4/Adwaita. Part of the [Danne L10n
+ Suite](https://github.com/yeager/debian-repo).
+ ```bash
+ sudo apt install anpr-viewer
+ ```
 
 Package: apt-changelog-viewer
 Version: 0.1.3
@@ -19,29 +26,40 @@ Architecture: all
 Maintainer: Daniel Nylander <daniel@danielnylander.se>
 Depends: python3 (>= 3.10), python3-gi, gir1.2-gtk-4.0, gir1.2-adw-1
 Filename: ./apt-changelog-viewer_0.1.3_all.deb
-Size: 6968
-MD5sum: feb0c1bf475599bc0c30319b7ffdfdaa
-SHA1: 4758f49e3a99f3e5c8caebb832ed399d5f122d68
-SHA256: 9d481099484466df8f7c3a0b8053f76eb3c044685d8930dd94bc5eec22118caa
+Size: 7798
+MD5sum: 6542d807a2ca338f070d9b1948f6268d
+SHA1: d442c2f94770760e7dc8c5e8deeb97e20ab624fe
+SHA256: 5da8ece25f4022e6fbd93543783a3751ea129d869e744a8a994a25b79340b060
 Section: utils
 Priority: optional
 Homepage: https://github.com/yeager/apt-changelog-viewer
-Description: View changelogs for installed Debian/Ubuntu packages with security alert highlighting.
+Description: GTK4 changelog viewer for installed packages with security alerts
+ View changelogs for installed Debian/Ubuntu packages with security alert
+ highlighting.
+ Built with GTK4/Adwaita. Part of the [Danne L10n
+ Suite](https://github.com/yeager/debian-repo).
+ ```bash
+ sudo apt install apt-changelog-viewer
+ ```
 
 Package: asterics-board-editor
 Version: 0.1.0-1
 Architecture: all
 Maintainer: Daniel Nylander <daniel@danielnylander.se>
 Depends: python3 (>= 3.9), python3-gi, gir1.2-gtk-4.0, gir1.2-adw-1
-Filename: ./pool/asterics-board-editor_0.1.0-1_all.deb
-Size: 12028
-MD5sum: 25bb3b8aea790e3591758db001d7c9e9
-SHA1: 8caeea6f69954e3da152a9fd2e70e845fee6de6d
-SHA256: 62eb561513d03bf553023943700b73039440aa10898796a5d0270d15f5af7579
+Filename: ./asterics-board-editor_0.1.0-1_all.deb
+Size: 12886
+MD5sum: 77cc3053fde107fa0c15f8128a4fdbc8
+SHA1: 55a53036ea5590907c392fc52b0e23f53e0efe5b
+SHA256: dafadfd9fb62929f1d5f81fea00029874a791599d3171fc8498511099604d97a
 Section: utils
 Priority: optional
 Homepage: https://github.com/yeager/asterics-board-editor
 Description: GTK4/Adwaita visual editor for AAC communication boards
+ This package is part of the Danne L10n Suite, a collection of
+ localization and accessibility tools for Linux.
+ .
+ GTK4/Adwaita visual editor for AAC communication boards
 
 Package: autopkgtest-runner
 Version: 0.1.3
@@ -49,89 +67,121 @@ Architecture: all
 Maintainer: Daniel Nylander <daniel@danielnylander.se>
 Depends: python3 (>= 3.10), python3-gi, gir1.2-gtk-4.0, gir1.2-adw-1
 Filename: ./autopkgtest-runner_0.1.3_all.deb
-Size: 7176
-MD5sum: f17b2c7ea3bf7b8746d5b58a587daae0
-SHA1: 84ff1ff568fa6b96e14a6020a2d81f6a92f6b903
-SHA256: 90bdd98bd0cb63fa8bdab3b6f687f90c68cc32fa028a863e169dc09f95b3d7d6
+Size: 8010
+MD5sum: 0a9e1eba620aa8937891f1cf3ecc9092
+SHA1: ea8609601e6f0b8e27fbc9088f4f5483a1c338df
+SHA256: bfc6eb7d246a2f6a547ca2058fca8b3288f2462defc76f6f3de54eed8344668d
 Section: utils
 Priority: optional
 Homepage: https://github.com/yeager/autopkgtest-runner
-Description: Frontend for the autopkgtest Debian test framework.
+Description: GTK4 frontend for autopkgtest Debian test framework
+ Frontend for the autopkgtest Debian test framework.
+ Built with GTK4/Adwaita. Part of the [Danne L10n
+ Suite](https://github.com/yeager/debian-repo).
+ ```bash
+ sudo apt install autopkgtest-runner
+ ```
 
 Package: beloningskartan
-Version: 0.1.7-1
+Version: 0.1.7
 Architecture: all
 Maintainer: Daniel Nylander <daniel@danielnylander.se>
-Depends: python3 (>= 3.9), python3-gi, gir1.2-gtk-4.0, gir1.2-adw-1
-Filename: ./pool/beloningskartan_0.1.7-1_all.deb
-Size: 8272
-MD5sum: c6b88cd9ca13774eee76d42c27bc4006
-SHA1: dbde0bd8878a36d9e8b157f34993ca0f5b2c40bb
-SHA256: 855e36fc16bd4b9c0a29a7beb6e5ab37ab2201440fe2fbdaf5658c024c04f807
-Section: utils
+Depends: python3 (>= 3.10), python3-gi, gir1.2-gtk-4.0, gir1.2-adw-1
+Filename: ./beloningskartan_0.1.7_all.deb
+Size: 9306
+MD5sum: 846d5731a8790828fad8312304b539de
+SHA1: 5b037d89eef276967a5a82a57aa4797e0f11d067
+SHA256: 7997b6c3286620c548ecf038e0ddff8b2204d37e8beb3050ffcb51005b505aa9
+Section: education
 Priority: optional
 Homepage: https://github.com/yeager/beloningskartan
-Description: L10n App Suite - beloningskartan
+Description: Visual reward system with stars and goals
+ This package is part of the Danne L10n Suite, a collection of
+ localization and accessibility tools for Linux.
+ .
+ Visual reward system with stars and goals
 
 Package: bildordbok
-Version: 0.3.6-1
+Version: 0.3.6
 Architecture: all
 Maintainer: Daniel Nylander <daniel@danielnylander.se>
-Depends: python3 (>= 3.9), python3-gi, gir1.2-gtk-4.0, gir1.2-adw-1
-Filename: ./pool/bildordbok_0.3.6-1_all.deb
-Size: 162170
-MD5sum: 63b0128e6773f8c8cfdde59d4688795e
-SHA1: 00fe209bfbb651fc80a2284e9fbefaf24041354c
-SHA256: 01af47da8503e3e6b1f576fcd682dc5d5e71253248ce98202e2bf8fd48f9ed34
-Section: utils
+Depends: python3 (>= 3.10), python3-gi, gir1.2-gtk-4.0, gir1.2-adw-1
+Filename: ./bildordbok_0.3.6_all.deb
+Size: 161590
+MD5sum: 0d3fd7c6a2d11b0ac2d5f14d205991a1
+SHA1: 925cfee034efbf09837d6644a2e64ef1f3e2ee03
+SHA256: 66d8e58cb453e4faa75cc73d36d6d1fa292f442ee7f8bcdc5ab1f39bc8994f4e
+Section: education
 Priority: optional
 Homepage: https://github.com/yeager/bildordbok
-Description: L10n App Suite - bildordbok
+Description: Tvåspråkig bildordbok med TTS – för barn med språkstörning och nyanlända
+ Visual picture dictionary with ARASAAC pictograms for language development.
+ Built with GTK4/Adwaita. Part of the [Danne L10n
+ Suite](https://github.com/yeager/debian-repo).
+ ```bash
+ sudo apt install bildordbok
+ ```
 
 Package: bildschema
 Version: 0.3.6-1
 Architecture: all
 Maintainer: Daniel Nylander <daniel@danielnylander.se>
 Depends: python3 (>= 3.9), python3-gi, gir1.2-gtk-4.0, gir1.2-adw-1
-Filename: ./pool/bildschema_0.3.6-1_all.deb
-Size: 156518
-MD5sum: ffe2c19b12fbcb05cc760ebc4187683d
-SHA1: fb89c6bf7c8e9e820cbcd25845e2c4f09480d722
-SHA256: ee93e240a05a6d897beef2a2bdd5fab97fce9a15a4f3cd18e664b449b7dee252
-Section: utils
+Filename: ./bildschema_0.3.6-1_all.deb
+Size: 157284
+MD5sum: 03dd790db83e462a256ef1befebfec36
+SHA1: 3c26db6b0500a1595ba1008df0e1b9543a6ce475
+SHA256: 83a9aff2b27378fdfb28f9886e0f2819f0d2aeefd3d0498dbde453203f7d243f
+Section: education
 Priority: optional
 Homepage: https://github.com/yeager/bildschema
-Description: Visual schedule with PECS/ARASAAC images
+Description: Visual daily schedule with image support for children with autism
+ Visual daily schedule with ARASAAC pictograms for children with autism.
+ Built with GTK4/Adwaita. Part of the [Danne L10n
+ Suite](https://github.com/yeager/debian-repo).
+ ```bash
+ sudo apt install bildschema
+ ```
 
 Package: bildstod
-Version: 0.4.7-1
+Version: 0.4.7
 Architecture: all
 Maintainer: Daniel Nylander <daniel@danielnylander.se>
-Depends: python3 (>= 3.9), python3-gi, gir1.2-gtk-4.0, gir1.2-adw-1
-Filename: ./pool/bildstod_0.4.7-1_all.deb
-Size: 169248
-MD5sum: 16fd1936c1c37cf9adfef6d44be1b844
-SHA1: e1f34f32c960d5173bb3168b6f3635102f766ff9
-SHA256: 1ad80a548a10ba5f9be9ded15c851846f4bd8991fe8be9b56bfa841b3e7c6259
-Section: utils
+Depends: python3 (>= 3.10), python3-gi, gir1.2-gtk-4.0, gir1.2-adw-1
+Filename: ./bildstod_0.4.7_all.deb
+Size: 167624
+MD5sum: 589dd009435b3487d91309040807bab9
+SHA1: f899ecb9280a80ceac2ed4594ebdd4e13721dbc1
+SHA256: 0b208eaace5945f6037a4b8c06cf108e196c295977bbcbeb82925606ebb67615
+Section: education
 Priority: optional
 Homepage: https://github.com/yeager/bildstod
-Description: L10n App Suite - bildstod
+Description: Visual schedule and picture support tool with ARASAAC integration
+ Visual communication tool with ARASAAC pictogram search and boards.
+ Built with GTK4/Adwaita. Part of the [Danne L10n
+ Suite](https://github.com/yeager/debian-repo).
+ ```bash
+ sudo apt install bildstod
+ ```
 
 Package: bokstavsresan
 Version: 0.1.2-1
 Architecture: all
 Maintainer: Daniel Nylander <daniel@danielnylander.se>
 Depends: python3 (>= 3.9), python3-gi, gir1.2-gtk-4.0, gir1.2-adw-1
-Filename: ./pool/bokstavsresan_0.1.2-1_all.deb
-Size: 9438
-MD5sum: 6e4b1e86f42adf6b6c753deb436ae84a
-SHA1: 5959a09e070e7ba1f65626fe14d3b2aa1ccf3454
-SHA256: 4c92e2779180c5e8f17a19150356d178e3848a1a48a2e64a5948004d09613a90
-Section: utils
+Filename: ./bokstavsresan_0.1.2-1_all.deb
+Size: 10238
+MD5sum: 17f063db394cc10652d3873ada2caf40
+SHA1: 1ae7280a882d36cb00308a10b7c8e65f75ce035b
+SHA256: 517741d03fbd10473f67947b1f58ca383656460d3e787fd9a0cd2e78e6bb2a6f
+Section: education
 Priority: optional
 Homepage: https://github.com/yeager/bokstavsresan
 Description: Phonetics and letter learning game for children with dyspraxia
+ This package is part of the Danne L10n Suite, a collection of
+ localization and accessibility tools for Linux.
+ .
+ Phonetics and letter learning game for children with dyspraxia
 
 Package: build-log-analyzer
 Version: 0.1.3
@@ -139,14 +189,20 @@ Architecture: all
 Maintainer: Daniel Nylander <daniel@danielnylander.se>
 Depends: python3 (>= 3.10), python3-gi, gir1.2-gtk-4.0, gir1.2-adw-1
 Filename: ./build-log-analyzer_0.1.3_all.deb
-Size: 7022
-MD5sum: ca72f0bb262fb5642f54fb3def2c89e3
-SHA1: ba7f1a3f996f5591fe43f438c0b48bfce3bbd644
-SHA256: e084d6c1c86cf84d6c6b29892949d04b3faad80de0e69d3ff34c5a0e0a996e90
+Size: 7852
+MD5sum: ff7bc66c6bcc7e84b471f280e214d2e1
+SHA1: 30c691bf52f648af5a4f4d704a9d7d1a76114903
+SHA256: f2e05ca4a0c1accaa29c5bfd037cf019b7f04a6a58dacc0f7674b83bf2606921
 Section: utils
 Priority: optional
 Homepage: https://github.com/yeager/build-log-analyzer
-Description: Analyze sbuild and pbuilder build logs with error highlighting.
+Description: GTK4 sbuild and pbuilder log analyzer with error highlighting
+ Analyze sbuild and pbuilder build logs with error highlighting.
+ Built with GTK4/Adwaita. Part of the [Danne L10n
+ Suite](https://github.com/yeager/debian-repo).
+ ```bash
+ sudo apt install build-log-analyzer
+ ```
 
 Package: cert-watch
 Version: 0.1.4
@@ -154,14 +210,20 @@ Architecture: all
 Maintainer: Daniel Nylander <daniel@danielnylander.se>
 Depends: python3 (>= 3.10), python3-gi, gir1.2-gtk-4.0, gir1.2-adw-1
 Filename: ./cert-watch_0.1.4_all.deb
-Size: 9420
-MD5sum: 68be6588256b02d41fe42044f5a6764a
-SHA1: 23efc03e92a1572799f2222f39d3aa72f86e553c
-SHA256: d4e604391eb4fb488dab53dc2865d767105ed2d7edefda812845a9be166627bb
-Section: utils
+Size: 10264
+MD5sum: 5129a8499c71dba8a2b9d998ab024e3f
+SHA1: 127c5ed6c85ead392076f3fcb2e4a8673a1e86a5
+SHA256: ed627328dddd4179258b9c570799426be9a2565e6981ae2116c4ba868e7008d8
+Section: net
 Priority: optional
 Homepage: https://github.com/yeager/cert-watch
-Description: TLS/SSL certificate expiry monitor with notifications.
+Description: TLS Certificate Monitor — GTK4/Adwaita app for monitoring SSL/TLS certificates
+ TLS/SSL certificate expiry monitor with notifications.
+ Built with GTK4/Adwaita. Part of the [Danne L10n
+ Suite](https://github.com/yeager/debian-repo).
+ ```bash
+ sudo apt install cert-watch
+ ```
 
 Package: cldr-viewer
 Version: 0.1.9
@@ -169,31 +231,39 @@ Architecture: all
 Maintainer: Daniel Nylander <daniel@danielnylander.se>
 Depends: python3 (>= 3.10), python3-gi, gir1.2-gtk-4.0, gir1.2-adw-1
 Filename: ./cldr-viewer_0.1.9_all.deb
-Size: 10132
-MD5sum: 6bfbbf7850f941c5a2d4c7780990f10b
-SHA1: a5ef2ecb9e3c237d09872a3ae993cb0924b2c591
-SHA256: b995a00470fa348d9c928e10962cb5f2a31cd1d3b6c5ff5e97b16dde99d738a4
+Size: 10942
+MD5sum: a3690f35cf6dfe04bdcf482a70a7a495
+SHA1: 79f8ce12ac4fea163e07481568b068c3b656ed96
+SHA256: ea3f5d5caa5a1ae6c95f09d11a7eb3753ef4a2928b581df4124689feb8ba6b09
 Section: utils
 Priority: optional
 Homepage: https://github.com/yeager/cldr-viewer
-Description: Visualize Unicode CLDR locale data completeness per language.
+Description: GTK4/Adwaita app to visualize Unicode CLDR locale data completeness
+ Visualize Unicode CLDR locale data completeness per language.
+ Built with GTK4/Adwaita. Part of the [Danne L10n
+ Suite](https://github.com/yeager/debian-repo).
+ ```bash
+ sudo apt install cldr-viewer
+ ```
 
 Package: commonvoice-status
-Version: 0.2.0-1
+Version: 0.1.9
 Architecture: all
 Maintainer: Daniel Nylander <daniel@danielnylander.se>
 Depends: python3 (>= 3.10), python3-gi, gir1.2-gtk-4.0, gir1.2-adw-1
-Filename: ./commonvoice-status_0.2.0-1_all.deb
-Size: 10336
-MD5sum: 1e4ef9ba2695a84c4c29efec20331753
-SHA1: 7c55c34dee21eb937d3af3373333b5d30f204523
-SHA256: cc49bed57b59a9b77ded6f393b7143b291bc8b93d8da94e231de2fd5106e40a1
-Section: devel
+Filename: ./commonvoice-status_0.1.9_all.deb
+Size: 10624
+MD5sum: 723840dc4fe7643f90404b30ecaa5510
+SHA1: 568f06779d67e3cc733f44842e39f27f0f281069
+SHA256: c92fb9f0c83fa57b6a28f109cf6ed662a883062c42883390ec831eb53c92d80d
+Section: utils
 Priority: optional
 Homepage: https://github.com/yeager/commonvoice-status
-Description: Mozilla Common Voice translation status viewer
- A GTK4/Adwaita application for viewing Mozilla Common Voice
- translation and recording statistics.
+Description: View Mozilla Common Voice recording statistics per language
+ This package is part of the Danne L10n Suite, a collection of
+ localization and accessibility tools for Linux.
+ .
+ View Mozilla Common Voice recording statistics per language
 
 Package: cve-monitor
 Version: 0.3.5
@@ -201,29 +271,37 @@ Architecture: all
 Maintainer: Daniel Nylander <daniel@danielnylander.se>
 Depends: python3 (>= 3.10), python3-gi, gir1.2-gtk-4.0, gir1.2-adw-1
 Filename: ./cve-monitor_0.3.5_all.deb
-Size: 22530
-MD5sum: e97b38e7641cb3cd80101f8d1d5d1426
-SHA1: 2478ae3a923381f1b769526fea3c108be75234f1
-SHA256: 7131465b6ccc5637b33771ed1228c27daf68c7dc173ebcb412e9fd34c0de9e36
-Section: utils
+Size: 23312
+MD5sum: 68d526c505abb308b57376a0f21a38ed
+SHA1: a4f565c5a7fe8f49d85b317bce15ffab5ace1b0a
+SHA256: 6f29a075c02346151978073db2d133c4a2a4d8b317a9e05140c734feb82eff3f
+Section: net
 Priority: optional
 Homepage: https://github.com/yeager/cve-monitor
-Description: CVE Monitor - track security vulnerabilities
+Description: Monitor CVE vulnerabilities for installed system packages
+ This package is part of the Danne L10n Suite, a collection of
+ localization and accessibility tools for Linux.
+ .
+ Monitor CVE vulnerabilities for installed system packages
 
 Package: dagboken
 Version: 0.1.0-1
 Architecture: all
 Maintainer: Daniel Nylander <daniel@danielnylander.se>
 Depends: python3 (>= 3.9), python3-gi, gir1.2-gtk-4.0, gir1.2-adw-1
-Filename: ./pool/dagboken_0.1.0-1_all.deb
-Size: 11098
-MD5sum: e8ac341980f1b9ec2a3c4aa1b37cf1d9
-SHA1: 6e19928ff6977f237dda31e3254830d5856284ba
-SHA256: afbdf03074fa146b617f42ba3c836c6ade4a78e7f61f6d9d527fb33379824da9
-Section: utils
+Filename: ./dagboken_0.1.0-1_all.deb
+Size: 5306
+MD5sum: 20375f38e13970a6c0c8a74d1c6f8955
+SHA1: f241499bf3179f0face6eeeab7306ffabfb3ceb1
+SHA256: fe7459da6b3a9d2ac9a982627fef6172557918cc8213ba07ad209459bff46c72
+Section: education
 Priority: optional
 Homepage: https://github.com/yeager/dagboken
-Description: L10n App Suite - dagboken
+Description: Picture diary for children with autism
+ This package is part of the Danne L10n Suite, a collection of
+ localization and accessibility tools for Linux.
+ .
+ Picture diary for children with autism
 
 Package: ddtp-translate
 Version: 0.14.2
@@ -231,14 +309,20 @@ Architecture: all
 Maintainer: Daniel Nylander <daniel@danielnylander.se>
 Depends: python3 (>= 3.10), python3-gi, gir1.2-gtk-4.0, gir1.2-adw-1
 Filename: ./ddtp-translate_0.14.2_all.deb
-Size: 42368
-MD5sum: a6a1c74c903bfc42bf9bc8a084c7eeba
-SHA1: 58462a392e8c7e29109bc175bbc60c2bddc88fcd
-SHA256: ab521859db86bf1848e78bbfd4638a3af5b4a12e08d9fb8a4297bd78062ac47c
+Size: 43128
+MD5sum: c9e312c16b37767a58d54fecc29b837c
+SHA1: 8b9cbcfe425bba0fb071d0c3133ed2b02048c65d
+SHA256: f188cdfaed44d7439e062c13413403f8041af890b284cbc9df0b83b67f498df4
 Section: utils
 Priority: optional
 Homepage: https://github.com/yeager/ddtp-translate
-Description: Debian Description Translation Project tool with DDTSS-style review UI.
+Description: Translate Debian package descriptions via DDTP
+ Debian Description Translation Project tool with DDTSS-style review UI.
+ Built with GTK4/Adwaita. Part of the [Danne L10n
+ Suite](https://github.com/yeager/debian-repo).
+ ```bash
+ sudo apt install ddtp-translate
+ ```
 
 Package: debian-installer-companion
 Version: 0.1.3
@@ -246,14 +330,20 @@ Architecture: all
 Maintainer: Daniel Nylander <daniel@danielnylander.se>
 Depends: python3 (>= 3.10), python3-gi, gir1.2-gtk-4.0, gir1.2-adw-1
 Filename: ./debian-installer-companion_0.1.3_all.deb
-Size: 6862
-MD5sum: 6c16cad3a871565e19909ac93ee0f9f6
-SHA1: c87aeb19fea17df5955c8cef87238da0c2dd20d9
-SHA256: fab88ab0405181dbe1e56f682914b8740083fff7218eaa427d1d8fee00360de7
+Size: 7680
+MD5sum: 5da9ddcc73dbf5c0ff425ce259f5fdee
+SHA1: a465ff24f0ba38ba57056074e1aaee3c1bef2c75
+SHA256: 80a04cfe14986c97141b1a6f3be0856ca1f2d2cef72b0afd3174dd9d80f8f42e
 Section: utils
 Priority: optional
 Homepage: https://github.com/yeager/debian-installer-companion
-Description: Debian installation companion with hardware compatibility checks.
+Description: GTK4 Debian installation companion with hardware checks
+ Debian installation companion with hardware compatibility checks.
+ Built with GTK4/Adwaita. Part of the [Danne L10n
+ Suite](https://github.com/yeager/debian-repo).
+ ```bash
+ sudo apt install debian-installer-companion
+ ```
 
 Package: debian-policy-checker
 Version: 0.1.3
@@ -261,14 +351,20 @@ Architecture: all
 Maintainer: Daniel Nylander <daniel@danielnylander.se>
 Depends: python3 (>= 3.10), python3-gi, gir1.2-gtk-4.0, gir1.2-adw-1
 Filename: ./debian-policy-checker_0.1.3_all.deb
-Size: 10306
-MD5sum: d850e82789d3df21337c3739457dc11d
-SHA1: 233587efdf03480fb11fd196d3f91d3affb4f7bd
-SHA256: 34caca79dbd8898f7a306ef8b69a294b946d6518b9ea0e61273c1cdd54543752
+Size: 11120
+MD5sum: a1fb92095f0a03c8f438d17fc312f296
+SHA1: 59a90fb0739ae46d9fb788bdcefb96b4b6cf2d4e
+SHA256: d813e85ea2c7030c17e4efb6c02d0768ca34579a9d4762e374b5c2d657827bdf
 Section: utils
 Priority: optional
 Homepage: https://github.com/yeager/debian-policy-checker
-Description: Validate packages against the Debian Policy Manual with fix suggestions.
+Description: GTK4 Debian Policy Manual validator with fix suggestions
+ Validate packages against the Debian Policy Manual with fix suggestions.
+ Built with GTK4/Adwaita. Part of the [Danne L10n
+ Suite](https://github.com/yeager/debian-repo).
+ ```bash
+ sudo apt install debian-policy-checker
+ ```
 
 Package: dep-graph-viewer
 Version: 0.1.3
@@ -276,14 +372,20 @@ Architecture: all
 Maintainer: Daniel Nylander <daniel@danielnylander.se>
 Depends: python3 (>= 3.10), python3-gi, gir1.2-gtk-4.0, gir1.2-adw-1
 Filename: ./dep-graph-viewer_0.1.3_all.deb
-Size: 7216
-MD5sum: d7d8af3f74d4f502c4d0e51970bf2fa1
-SHA1: 2dc27590691f3e63099eefd043fe795bd1e7b3a4
-SHA256: 905b586c1f7f2f7cf1b94ced1c18bf690216da7037abbe1a3b0acf23a43a41d3
+Size: 8048
+MD5sum: 6b81c9869f8bf1d0d7faf0f39b2e6828
+SHA1: 4ab1b6bbb1fc7875a409a8da5927ed6379a89a45
+SHA256: a5995a4746eac75682ee3e6be98744052b1fc47089d06cf6ad6f17513802eccb
 Section: utils
 Priority: optional
 Homepage: https://github.com/yeager/dep-graph-viewer
-Description: Visualize dependency graphs for .deb packages.
+Description: GTK4 dependency graph viewer for .deb packages
+ Visualize dependency graphs for .deb packages.
+ Built with GTK4/Adwaita. Part of the [Danne L10n
+ Suite](https://github.com/yeager/debian-repo).
+ ```bash
+ sudo apt install dep-graph-viewer
+ ```
 
 Package: desktop-editor
 Version: 0.2.9
@@ -291,14 +393,20 @@ Architecture: all
 Maintainer: Daniel Nylander <daniel@danielnylander.se>
 Depends: python3 (>= 3.10), python3-gi, gir1.2-gtk-4.0, gir1.2-adw-1
 Filename: ./desktop-editor_0.2.9_all.deb
-Size: 13286
-MD5sum: 6933fc52a9e011a208b66300b89e3fbb
-SHA1: 6569fba6ea17f1313961c6b0afd562ee543c4cc6
-SHA256: 209fb47fd60b2ccc728b5bf464203a91be017ffc0a588c4b6b28b08f73a6545f
+Size: 14126
+MD5sum: e4e84a30a4bcdcaa79545b80869cf328
+SHA1: b6fa6595fee6ed765306d17ce98723ec498a73bb
+SHA256: 69e65a5d7122af35dc5fb7f04ae676027b31443434ac21fa715fab2527d81859
 Section: utils
 Priority: optional
 Homepage: https://github.com/yeager/desktop-editor
-Description: Visual editor for .desktop entry files.
+Description: Visual editor for .desktop files with preview, validation, and translation management
+ Visual editor for .desktop entry files.
+ Built with GTK4/Adwaita. Part of the [Danne L10n
+ Suite](https://github.com/yeager/debian-repo).
+ ```bash
+ sudo apt install desktop-editor
+ ```
 
 Package: elementary-l10n
 Version: 0.4.0
@@ -306,29 +414,39 @@ Architecture: all
 Maintainer: Daniel Nylander <daniel@danielnylander.se>
 Depends: python3 (>= 3.10), python3-gi, gir1.2-gtk-4.0, gir1.2-adw-1
 Filename: ./elementary-l10n_0.4.0_all.deb
-Size: 15442
-MD5sum: fde8a130d44a21dd3435f7eb4598c6b5
-SHA1: 03a7ba6da44565a6d9c8515f3218aa945cf83286
-SHA256: 38ee13f7f0daad3636e59260fac0ac8aacca3e1a2359da96f0728a457dcb348b
+Size: 16258
+MD5sum: 782397071fd63a737c321154f720f346
+SHA1: 1341d64e81f1930831246a63d52cef4fa46f7de9
+SHA256: 7622a0ddc0e2a8811543508d4fb5fa1148a1623b9c010009ead82273e8c1196d
 Section: utils
 Priority: optional
 Homepage: https://github.com/yeager/elementary-l10n
-Description: Translation status viewer for elementary OS components.
+Description: Translation status viewer for Weblate-hosted projects
+ Translation status viewer for elementary OS components.
+ Built with GTK4/Adwaita. Part of the [Danne L10n
+ Suite](https://github.com/yeager/debian-repo).
+ ```bash
+ sudo apt install elementary-l10n
+ ```
 
 Package: energimataren
 Version: 0.1.0-1
 Architecture: all
 Maintainer: Daniel Nylander <daniel@danielnylander.se>
 Depends: python3 (>= 3.9), python3-gi, gir1.2-gtk-4.0, gir1.2-adw-1
-Filename: ./pool/energimataren_0.1.0-1_all.deb
-Size: 5780
-MD5sum: 792d9de3fb3baf0b58285f957a43a90a
-SHA1: d5e8f72ab5fdf93ed9d80af3782090dd298cd322
-SHA256: adee2c9e4874429b0ca33069294ab56245c30f654fd0bc1cdde737e4d2cb55e5
-Section: utils
+Filename: ./energimataren_0.1.0-1_all.deb
+Size: 6604
+MD5sum: 015c5a6b3ccf0792d182303e73382754
+SHA1: 962ae364616f2fa97cec73f15df98cec5fdaffab
+SHA256: d830646f8d7d4e79d68b84d7145bcef6cc2eacf5fc48f1496be47a567285ab1b
+Section: education
 Priority: optional
 Homepage: https://github.com/yeager/energimataren
-Description: L10n App Suite - energimataren
+Description: Visual energy level tracker for children with NPF
+ This package is part of the Danne L10n Suite, a collection of
+ localization and accessibility tools for Linux.
+ .
+ Visual energy level tracker for children with NPF
 
 Package: firewall-manager
 Version: 0.1.4
@@ -336,30 +454,41 @@ Architecture: all
 Maintainer: Daniel Nylander <daniel@danielnylander.se>
 Depends: python3 (>= 3.10), python3-gi, gir1.2-gtk-4.0, gir1.2-adw-1
 Filename: ./firewall-manager_0.1.4_all.deb
-Size: 10048
-MD5sum: abd54a314d93524f008f5ea4f03f153b
-SHA1: d39884847a1a790a6e122cafe5649d5308a3d9a0
-SHA256: 9361a6f80679bff279796df67e9ba374eaee6292927254a0356b96a264afca11
-Section: utils
+Size: 10892
+MD5sum: 52da2519a3969d44773deba39b01f65c
+SHA1: a41a1adc1b56ed11e757a0df912ce4046b9aba66
+SHA256: c370daa5f44b95f5bdaca2001af88b472023bc26e2e81bd296c953a07a3f099d
+Section: net
 Priority: optional
 Homepage: https://github.com/yeager/firewall-manager
-Description: UFW/nftables firewall rule manager with a graphical interface.
+Description: Firewall Manager — GTK4/Adwaita frontend for UFW
+ UFW/nftables firewall rule manager with a graphical interface.
+ Built with GTK4/Adwaita. Part of the [Danne L10n
+ Suite](https://github.com/yeager/debian-repo).
+ ```bash
+ sudo apt install firewall-manager
+ ```
 
 Package: fokuskompis
 Version: 0.2.5
 Architecture: all
 Maintainer: Daniel Nylander <daniel@danielnylander.se>
 Depends: python3, python3-gi, gir1.2-gtk-4.0, gir1.2-adw-1
-Filename: ./pool/fokuskompis_0.2.5_all.deb
-Size: 14952
-MD5sum: 358f87c007af97ad14e54131eeb7b993
-SHA1: 7b9802020f2bb68867756baf726f4850c6849e7f
-SHA256: 4ca806ee156a2a5de3fdfd6dc8950ed37981a8f3ce0c215fe31a61f1a1332ca3
-Section: utils
+Filename: ./fokuskompis_0.2.5_all.deb
+Size: 15718
+MD5sum: 293b6eb3c16a73e745492bb24c105282
+SHA1: 305b0b741457ea288569a312454d980755255f55
+SHA256: 8bbee07848a487fd09dbd61cdd38cdbcdab8adc98e9fa477669f1fd52c71eba1
+Section: education
 Priority: optional
-Homepage: https://www.autismappar.se
-Description: Focus & task manager for ADHD and autism
- GTK4/Adwaita focus manager with Pomodoro timer, step breakdown and thought parking.
+Homepage: https://github.com/yeager/fokuskompis
+Description: Focus & task manager for people with ADHD and autism
+ Focus and task manager for people with ADHD and autism.
+ Built with GTK4/Adwaita. Part of the [Danne L10n
+ Suite](https://github.com/yeager/debian-repo).
+ ```bash
+ sudo apt install fokuskompis
+ ```
 
 Package: font-preview
 Version: 0.2.9
@@ -367,14 +496,20 @@ Architecture: all
 Maintainer: Daniel Nylander <daniel@danielnylander.se>
 Depends: python3 (>= 3.10), python3-gi, gir1.2-gtk-4.0, gir1.2-adw-1
 Filename: ./font-preview_0.2.9_all.deb
-Size: 11386
-MD5sum: 3d6cf53eb384da0f3923ee8c2561c1a3
-SHA1: 54f270f04d893c2ca9850137e9764546ab18be46
-SHA256: 6ab51318f817e30b26e9d4c796cc59430dedb30fd02946c959d578f92519d01c
+Size: 12240
+MD5sum: c869a7e7979988c2d14d7b079b778e63
+SHA1: 62ab47f66da9aaff619d7b76d3906e25aa53d433
+SHA256: 05b8ddbf394910d0dd97af903582a7cc31a655e4156015b2864a49bf9ca06eed
 Section: utils
 Priority: optional
 Homepage: https://github.com/yeager/font-preview
-Description: Font browser with Unicode coverage analysis per language.
+Description: A better font viewer for Linux — preview, compare, and analyze Unicode coverage
+ Font browser with Unicode coverage analysis per language.
+ Built with GTK4/Adwaita. Part of the [Danne L10n
+ Suite](https://github.com/yeager/debian-repo).
+ ```bash
+ sudo apt install font-preview
+ ```
 
 Package: gettext-coverage
 Version: 0.1.3
@@ -382,14 +517,20 @@ Architecture: all
 Maintainer: Daniel Nylander <daniel@danielnylander.se>
 Depends: python3 (>= 3.10), python3-gi, gir1.2-gtk-4.0, gir1.2-adw-1
 Filename: ./gettext-coverage_0.1.3_all.deb
-Size: 7052
-MD5sum: db6d552054874e9cdf82ba75e6564514
-SHA1: 14200982dbfa98b227db0139faeb820e03650229
-SHA256: d844d90cabb7ec0a3419dcf25429bcb5e1272f500d24c6d20574b568b0e2ebfa
+Size: 7884
+MD5sum: fbf71234883e68924b2e0153022838b1
+SHA1: 784ea10565bb3de72e25e8fe55854749bd2bcdeb
+SHA256: cfb898032846498375432dc9bce0aa53ed1a6085eba87e05fbe69c60328ec118
 Section: utils
 Priority: optional
 Homepage: https://github.com/yeager/gettext-coverage
-Description: Show translation coverage per package in a distribution.
+Description: GTK4 app showing translation coverage per package in a distribution
+ Show translation coverage per package in a distribution.
+ Built with GTK4/Adwaita. Part of the [Danne L10n
+ Suite](https://github.com/yeager/debian-repo).
+ ```bash
+ sudo apt install gettext-coverage
+ ```
 
 Package: github-l10n
 Version: 0.2.7
@@ -397,14 +538,20 @@ Architecture: all
 Maintainer: Daniel Nylander <daniel@danielnylander.se>
 Depends: python3 (>= 3.10), python3-gi, gir1.2-gtk-4.0, gir1.2-adw-1
 Filename: ./github-l10n_0.2.7_all.deb
-Size: 11764
-MD5sum: a475dd58398dfdd32aebe82252a43497
-SHA1: 90a4ab453d2488aaed735bd404f992fd51008665
-SHA256: 25581201d558cfafb4e02e9a25a8371db6fcb6b10a2935268d67f3c153293811
+Size: 12556
+MD5sum: f9f36b0aa9dc271a011b7c1270619b30
+SHA1: d4416d9fee4017ceb58f6e362ddca825ee5d42c1
+SHA256: eb5bc794b23adba7bb8a6cc94b459a63a44a252c9de71c27eecb1ac6bf480a8b
 Section: utils
 Priority: optional
 Homepage: https://github.com/yeager/github-l10n
-Description: Scan popular GitHub repositories for missing translations.
+Description: Scan popular GitHub repos for missing translations
+ Scan popular GitHub repositories for missing translations.
+ Built with GTK4/Adwaita. Part of the [Danne L10n
+ Suite](https://github.com/yeager/debian-repo).
+ ```bash
+ sudo apt install github-l10n
+ ```
 
 Package: gnome-l10n
 Version: 0.2.4
@@ -412,14 +559,20 @@ Architecture: all
 Maintainer: Daniel Nylander <daniel@danielnylander.se>
 Depends: python3 (>= 3.10), python3-gi, gir1.2-gtk-4.0, gir1.2-adw-1
 Filename: ./gnome-l10n_0.2.4_all.deb
-Size: 13626
-MD5sum: 41013b9d7c01cc0b2ecdb42711f148fc
-SHA1: 53297aa9926fe475a19018112f73d42c6f1bc371
-SHA256: e32f45c10a1088d0599106a00fbce36d5d63949e29f9384ab6e2aaf43f1eb674
+Size: 14448
+MD5sum: 8e481a6d8dfb6d21216db5778d24b188
+SHA1: 9d53f68d42033e2e07da759b6d787a0821c0d6b8
+SHA256: 65dc89598bb767f34b7eef8129a04226b890cfbc56636ab70799380253a3972e
 Section: utils
 Priority: optional
 Homepage: https://github.com/yeager/gnome-l10n
-Description: GNOME translation statistics viewer with Vertimus links.
+Description: GTK4/Adwaita translation statistics viewer for GNOME
+ GNOME translation statistics viewer with Vertimus links.
+ Built with GTK4/Adwaita. Part of the [Danne L10n
+ Suite](https://github.com/yeager/debian-repo).
+ ```bash
+ sudo apt install gnome-l10n
+ ```
 
 Package: ha-l10n
 Version: 0.2.4
@@ -427,74 +580,94 @@ Architecture: all
 Maintainer: Daniel Nylander <daniel@danielnylander.se>
 Depends: python3 (>= 3.10), python3-gi, gir1.2-gtk-4.0, gir1.2-adw-1
 Filename: ./ha-l10n_0.2.4_all.deb
-Size: 18316
-MD5sum: 1b97cb41eba27e1850a710e2ffb32af1
-SHA1: ac8ec709748644f0ab5cbf2d628126c431b84802
-SHA256: 67e6c86508a1e1d026728040b8993a724c96b369eb47f8ac31a78430b66ac393
+Size: 19100
+MD5sum: e3686e11841aa2bc93f6d7ebc9429a65
+SHA1: 093dcbc02c45aea9e3c2fb24d651b884b720d340
+SHA256: 6a2ae022204ae5616675671f6bbbd72a03350a5a513b715e0371ae331df2a141
 Section: utils
 Priority: optional
 Homepage: https://github.com/yeager/ha-l10n
-Description: Home Assistant translation status dashboard.
+Description: Home Assistant translation status dashboard
+ This package is part of the Danne L10n Suite, a collection of
+ localization and accessibility tools for Linux.
+ .
+ Home Assistant translation status dashboard
 
 Package: ilskehanteraren
 Version: 0.1.0-1
 Architecture: all
 Maintainer: Daniel Nylander <daniel@danielnylander.se>
 Depends: python3 (>= 3.9), python3-gi, gir1.2-gtk-4.0, gir1.2-adw-1
-Filename: ./pool/ilskehanteraren_0.1.0-1_all.deb
-Size: 6852
-MD5sum: 5c75da0ed7f726465657e4a7b4bceb23
-SHA1: 31d1da2f70e205b98d539ad93c81e2f80d979de6
-SHA256: 4bfa6865f83d51aca94c01fea58cba6fcfad4dca5b2d86ab97f09b6ba09dcd69
-Section: utils
+Filename: ./ilskehanteraren_0.1.0-1_all.deb
+Size: 7660
+MD5sum: 9496d1977f6ed4e4e984872dbbcb82a4
+SHA1: e72e311bc53be8540292e5bd20e1a9f77b6597f5
+SHA256: 64f35ebac2397e23eba91d1b44318609536aaf4784009dac7ab081f531cd8afd
+Section: education
 Priority: optional
 Homepage: https://github.com/yeager/ilskehanteraren
-Description: L10n App Suite - ilskehanteraren
+Description: Step-by-step anger management for children with NPF
+ This package is part of the Danne L10n Suite, a collection of
+ localization and accessibility tools for Linux.
+ .
+ Step-by-step anger management for children with NPF
 
 Package: kanslokartan
-Version: 0.1.7-1
+Version: 0.1.7
 Architecture: all
 Maintainer: Daniel Nylander <daniel@danielnylander.se>
-Depends: python3 (>= 3.9), python3-gi, gir1.2-gtk-4.0, gir1.2-adw-1
-Filename: ./pool/kanslokartan_0.1.7-1_all.deb
-Size: 8508
-MD5sum: 94f0f1c7623deff185dd4d0d27ae37b1
-SHA1: 1e56688806966aec291ebfcb6d32bc088bfab265
-SHA256: d4764d9fe2e06bfd3381fce20571fa32b0bafe2c7f1a48ec012d6ad80993731b
-Section: utils
+Depends: python3 (>= 3.10), python3-gi, gir1.2-gtk-4.0, gir1.2-adw-1
+Filename: ./kanslokartan_0.1.7_all.deb
+Size: 9328
+MD5sum: d8ccfbc9e2553c05b7b14b1c2cd0da99
+SHA1: d7ad1ddcc96ec8c4f5e2bf6a7aa0402fbbaba8bd
+SHA256: 5c40ad75d883fd5f3fdc89c0e3994efed4a6f2b8d4bbaacc43bcf4d03bb36941
+Section: education
 Priority: optional
 Homepage: https://github.com/yeager/kanslokartan
-Description: L10n App Suite - kanslokartan
+Description: Emotion recognition and journal for autism and ADHD
+ This package is part of the Danne L10n Suite, a collection of
+ localization and accessibility tools for Linux.
+ .
+ Emotion recognition and journal for autism and ADHD
 
 Package: kladvaljaren
 Version: 0.1.0-1
 Architecture: all
 Maintainer: Daniel Nylander <daniel@danielnylander.se>
 Depends: python3 (>= 3.9), python3-gi, gir1.2-gtk-4.0, gir1.2-adw-1
-Filename: ./pool/kladvaljaren_0.1.0-1_all.deb
-Size: 9490
-MD5sum: 90125caccc339fe200d1a20bd185654d
-SHA1: 624a07ebea9831530d176accfdda38ce6ac5af5b
-SHA256: cae0a996045fc7cb434118ce4a1a3289b5b37c074956de61cb21d2181ab6e0cc
-Section: utils
+Filename: ./kladvaljaren_0.1.0-1_all.deb
+Size: 4838
+MD5sum: 5b712fa0cd9dbcff4b8171e6116b6cbc
+SHA1: 242cd17f0189939946d8dba5c8dab414bbd0d29e
+SHA256: 37e5bbbd74e112b82763d90f5fd278bd571e3f11ea38f85803c963dab3ca8c2a
+Section: education
 Priority: optional
 Homepage: https://github.com/yeager/kladvaljaren
-Description: L10n App Suite - kladvaljaren
+Description: Choose clothes by weather for children
+ This package is part of the Danne L10n Suite, a collection of
+ localization and accessibility tools for Linux.
+ .
+ Choose clothes by weather for children
 
 Package: klocklararen
 Version: 0.1.0-1
 Architecture: all
 Maintainer: Daniel Nylander <daniel@danielnylander.se>
 Depends: python3 (>= 3.9), python3-gi, gir1.2-gtk-4.0, gir1.2-adw-1
-Filename: ./pool/klocklararen_0.1.0-1_all.deb
-Size: 4510
-MD5sum: e7398e23bbd1a5dadb1f91d26c81bc4e
-SHA1: b0d2a47ce2fbd20d72bbd72af78873e124c32997
-SHA256: d48109c60845d63d7a4d781d8eb6e922e1e1177fcb4a4910d29fb4b93b19fc47
-Section: utils
+Filename: ./klocklararen_0.1.0-1_all.deb
+Size: 5322
+MD5sum: b4f5d0516f2a674827b1c6abb0f06747
+SHA1: 4b435cd6a1500c1ac0cd5fae26808dc791fedc73
+SHA256: 28f597a5c7eb92f1a491fafcb6ad363f8432d2aa8fa1e1704ba427cbef783a51
+Section: education
 Priority: optional
 Homepage: https://github.com/yeager/klocklararen
-Description: L10n App Suite - klocklararen
+Description: Learn to read the clock for children with IF
+ This package is part of the Danne L10n Suite, a collection of
+ localization and accessibility tools for Linux.
+ .
+ Learn to read the clock for children with IF
 
 Package: l10n-conv
 Version: 1.0.9-1
@@ -502,14 +675,21 @@ Architecture: all
 Maintainer: Daniel Nylander <daniel@danielnylander.se>
 Depends: python3
 Filename: ./l10n-conv_1.0.9-1_all.deb
-Size: 12534
-MD5sum: b53e3cfe6f5b464217969b44a173d91b
-SHA1: b54b664029ed9cc306714a719e8cfcf9e1805756
-SHA256: d74bb46bfa57baa9413fbadc37671813db94635a928e981ef3a67640450ebbf2
-Section: utils
+Size: 14212
+MD5sum: 231d3913f183d856a16603ca28a92dfc
+SHA1: 4c215f5c90545c3355312c381287e9a02ce2eb6d
+SHA256: bb89c61c24cf08d5453288127fe2ab82324da321907016d00479a1bf488955a0
+Section: devel
 Priority: optional
 Homepage: https://github.com/yeager/l10n-conv
-Description: l10n-conv
+Description: Universal localization file converter, validator, and compiler — lupdate + lrelease for all l10n formats
+ Universal localization file converter, validator, and compiler. Supports
+ PO, TS, XLIFF, JSON, YAML, ARB, and more.
+ Built with Python CLI. Part of the [Danne L10n
+ Suite](https://github.com/yeager/debian-repo).
+ ```bash
+ sudo apt install l10n-conv
+ ```
 
 Package: l10n-glossary
 Version: 0.2.10
@@ -517,14 +697,20 @@ Architecture: all
 Maintainer: Daniel Nylander <daniel@danielnylander.se>
 Depends: python3 (>= 3.10), python3-gi, gir1.2-gtk-4.0, gir1.2-adw-1
 Filename: ./l10n-glossary_0.2.10_all.deb
-Size: 14106
-MD5sum: 111cf408274d8a221847454ee824db37
-SHA1: 257c1e26f5dd17580aa6268d79bf47d70b2b9561
-SHA256: 77f9c79c5ed3c2ef7540d401ef97be860ea008cf43ba8de11d491ea55e3f3c5d
+Size: 14954
+MD5sum: c359de796ba48a2a3950ec1c9a183b0e
+SHA1: 68c76075213e1f82de25defbc7b491afcac4071d
+SHA256: ddcbf4d625a26a1bad35303cb95fbf515247822f57d13a7f1ef5a65addd6bb18
 Section: utils
 Priority: optional
 Homepage: https://github.com/yeager/l10n-glossary
-Description: Terminology editor with consistency checking across translation files.
+Description: Glossary editor for localization — manage term lists, flag inconsistencies
+ Terminology editor with consistency checking across translation files.
+ Built with GTK4/Adwaita. Part of the [Danne L10n
+ Suite](https://github.com/yeager/debian-repo).
+ ```bash
+ sudo apt install l10n-glossary
+ ```
 
 Package: l10n-lint
 Version: 1.16.0
@@ -532,14 +718,18 @@ Architecture: all
 Maintainer: Daniel Nylander <daniel@danielnylander.se>
 Depends: python3 (>= 3.10)
 Filename: ./l10n-lint_1.16.0_all.deb
-Size: 31774
-MD5sum: ab6ad6e7e13dc2e9e59cae575878e2a4
-SHA1: c1ab2c60052bd60d6d1d4aa9bb7af1590c800fc2
-SHA256: bd080a215477c5996c5df8a1e128f4273f61d3660b2f0393fcc0321eef541dfb
+Size: 32622
+MD5sum: 124ced12e794a2120ad91e8a9c11f668
+SHA1: 485b5d9fa15d7b6b5930e722992f07962eaf07c8
+SHA256: 4d4543b1199e3a02d509863807d07000e18e77c65a90203e29eb70f494475281
 Section: devel
 Priority: optional
 Homepage: https://github.com/yeager/l10n-lint
-Description: Lint tool for localization files
+Description: Linter for localization files (.po, .ts)
+ This package is part of the Danne L10n Suite, a collection of
+ localization and accessibility tools for Linux.
+ .
+ Linter for localization files (.po, .ts)
 
 Package: l10n-preview
 Version: 0.2.7
@@ -547,14 +737,20 @@ Architecture: all
 Maintainer: Daniel Nylander <daniel@danielnylander.se>
 Depends: python3 (>= 3.10), python3-gi, gir1.2-gtk-4.0, gir1.2-adw-1
 Filename: ./l10n-preview_0.2.7_all.deb
-Size: 9128
-MD5sum: a393826f122a1fe6fa35fdb014eee3cc
-SHA1: 716a560ab502eeab36c755a774e72056932c60cb
-SHA256: 021967798ec73b11f3bb9ebb6a6f55cabd5ba201eb5c85c3a0fd08add04bf1de
+Size: 9936
+MD5sum: 253b5d4f9103638b58d2e53db25554c7
+SHA1: bae0063671133b456e06343a877eddce81fecc32
+SHA256: 424e0accb096047ae6b7634bf2a0b78369cfdbd9b88c19337b4fd59f9bd8a199
 Section: utils
 Priority: optional
 Homepage: https://github.com/yeager/l10n-preview
-Description: Preview PO/TS translations in a simulated UI layout.
+Description: Preview PO/TS translations in simulated UI elements
+ Preview PO/TS translations in a simulated UI layout.
+ Built with GTK4/Adwaita. Part of the [Danne L10n
+ Suite](https://github.com/yeager/debian-repo).
+ ```bash
+ sudo apt install l10n-preview
+ ```
 
 Package: langpack-inspector
 Version: 0.2.9
@@ -562,14 +758,20 @@ Architecture: all
 Maintainer: Daniel Nylander <daniel@danielnylander.se>
 Depends: python3 (>= 3.10), python3-gi, gir1.2-gtk-4.0, gir1.2-adw-1
 Filename: ./langpack-inspector_0.2.9_all.deb
-Size: 12310
-MD5sum: 5de41bc227fcbace05141694fc77f1c2
-SHA1: d33981f3776381b74f7166fc31db71106de84319
-SHA256: 71eaee7ce99c1edc417c1a5cee200301afbd69340f9a201068de36e40b30b420
+Size: 13124
+MD5sum: 59ae2298f825502921d4a89bd06e0628
+SHA1: 23cee9a31614b7e7beea25692530b7593d56e017
+SHA256: b36d5f472af41f65049216241faa09138d75b91905ac5eea5f37022a3b34322d
 Section: utils
 Priority: optional
 Homepage: https://github.com/yeager/langpack-inspector
-Description: Inspect Ubuntu language packs and find missing translations.
+Description: GTK4/Adwaita app to inspect Ubuntu language packs and find missing translations
+ Inspect Ubuntu language packs and find missing translations.
+ Built with GTK4/Adwaita. Part of the [Danne L10n
+ Suite](https://github.com/yeager/debian-repo).
+ ```bash
+ sudo apt install langpack-inspector
+ ```
 
 Package: libretranslate-gui
 Version: 0.2.7
@@ -577,50 +779,56 @@ Architecture: all
 Maintainer: Daniel Nylander <daniel@danielnylander.se>
 Depends: python3 (>= 3.10), python3-gi, gir1.2-gtk-4.0, gir1.2-adw-1
 Filename: ./libretranslate-gui_0.2.7_all.deb
-Size: 8826
-MD5sum: 2851e851b8dd7f4aa4796b0ff86a940a
-SHA1: b320fc1c4117e2656f229adf559ef48ea2369e1e
-SHA256: 6e969e94d5e12b5e60ed08c9538385a87b7a234e89e71f7346e31ad19ab82064
+Size: 9642
+MD5sum: d95862ae66083beb518e01df4e7ebb37
+SHA1: e85e1963479aca7ccc0262c6859eaa763d5a0a37
+SHA256: 4324c7f8f1a0a78385e9687c5be2528d06e0f5de8690ebdcb6db927ce4d2216e
 Section: utils
 Priority: optional
 Homepage: https://github.com/yeager/libretranslate-gui
-Description: Translation assistant using the LibreTranslate API.
+Description: GTK4/Adwaita translation assistant using LibreTranslate API
+ Translation assistant using the LibreTranslate API.
+ Built with GTK4/Adwaita. Part of the [Danne L10n
+ Suite](https://github.com/yeager/debian-repo).
+ ```bash
+ sudo apt install libretranslate-gui
+ ```
 
 Package: linguaedit
 Version: 1.8.15
 Architecture: all
-Maintainer: Daniel Nylander <po@danielnylander.se>
+Maintainer: Daniel Nylander <daniel@danielnylander.se>
 Depends: python3 (>= 3.10), python3-pip, python3-venv
-Recommends: python3-polib, python3-yaml
 Filename: ./linguaedit_1.8.15_all.deb
-Size: 290754
-MD5sum: e1845a0e2ec9b466eb6561ae29115626
-SHA1: cd95e089fbcfa0875dd3c50fa5b95014ce87e27e
-SHA256: 67bf351ade52fae364fb2ee1791badcd52f9c65bc2bfe60b2af9597ef8de0573
+Size: 291034
+MD5sum: f326de2ceed2b8a34ab0b63732c48e70
+SHA1: a23e02272932bc2f03f331b953eeb77d0ed2df11
+SHA256: 096a6aac927b6031b5dbb949a996cc4903a64e71e6bd57977cf70c045fc62145
 Section: devel
 Priority: optional
-Description: Qt6 translation file editor
- A PySide6/Qt6 translation file editor for PO, TS, JSON, XLIFF,
- Android XML, ARB, PHP, and YAML i18n files with linting,
- pre-translation, and platform integration.
- .
- PySide6 is installed automatically via pip during package setup.
- If the automatic install fails, run: pip install PySide6
+Homepage: https://github.com/yeager/linguaedit
+Description: Qt6/PySide6 translation file editor
+ LinguaEdit is a translation file editor supporting PO, TS, JSON,
+ XLIFF, Android, ARB, PHP, and YAML files. Built with Qt6/PySide6.
 
 Package: ljudladan
-Version: 0.1.6-1
+Version: 0.1.6
 Architecture: all
 Maintainer: Daniel Nylander <daniel@danielnylander.se>
-Depends: python3 (>= 3.9), python3-gi, gir1.2-gtk-4.0, gir1.2-adw-1
-Filename: ./pool/ljudladan_0.1.6-1_all.deb
-Size: 8004
-MD5sum: 11b05787809c68c2a9b71a6533c052ca
-SHA1: e396e4e6d464f849683e9066cf58d0e9cb58acd1
-SHA256: 8712e71652177d3c9f905914179b65e879a871f1f959f9dd9301b606414007f9
-Section: utils
+Depends: python3 (>= 3.10), python3-gi, gir1.2-gtk-4.0, gir1.2-adw-1
+Filename: ./ljudladan_0.1.6_all.deb
+Size: 8896
+MD5sum: 015bb06629d10959bf9bdfa7fe1e2244
+SHA1: 25d0592d6cbc0f8aebef39bc13803e9186661991
+SHA256: 3d24b5d719f970c62a64a22abfe5e8d1eafa46b47ea3f97ec17d8f152b048a21
+Section: education
 Priority: optional
 Homepage: https://github.com/yeager/ljudladan
-Description: L10n App Suite - ljudladan
+Description: Sound sensitivity tool with custom sound profiles
+ This package is part of the Danne L10n Suite, a collection of
+ localization and accessibility tools for Linux.
+ .
+ Sound sensitivity tool with custom sound profiles
 
 Package: locale-tester
 Version: 0.2.7
@@ -628,14 +836,20 @@ Architecture: all
 Maintainer: Daniel Nylander <daniel@danielnylander.se>
 Depends: python3 (>= 3.10), python3-gi, gir1.2-gtk-4.0, gir1.2-adw-1
 Filename: ./locale-tester_0.2.7_all.deb
-Size: 9426
-MD5sum: 70b83288be9db08fe8f633b4d867e241
-SHA1: a8005cfa46fc8794ed0a93b762ded6c193689a6e
-SHA256: 26d32a157f97008630918a81aaa5320cd753f85d8178b906a8bc73ee81dd39e5
+Size: 10228
+MD5sum: f69699492a0c4ad870320ff72e68780a
+SHA1: 1d92d995e03760a38051ca9735b39e16d51523a7
+SHA256: fd5f106947e25cf852d51f274b27bb156cf4b83315bea451e4b8a0c18324b16f
 Section: utils
 Priority: optional
 Homepage: https://github.com/yeager/locale-tester
-Description: Test and compare locale behavior on Linux systems.
+Description: GTK4/Adwaita app for testing and comparing locale behavior on Linux
+ Test and compare locale behavior on Linux systems.
+ Built with GTK4/Adwaita. Part of the [Danne L10n
+ Suite](https://github.com/yeager/debian-repo).
+ ```bash
+ sudo apt install locale-tester
+ ```
 
 Package: log-viewer
 Version: 0.1.4
@@ -643,14 +857,20 @@ Architecture: all
 Maintainer: Daniel Nylander <daniel@danielnylander.se>
 Depends: python3 (>= 3.10), python3-gi, gir1.2-gtk-4.0, gir1.2-adw-1
 Filename: ./log-viewer_0.1.4_all.deb
-Size: 8516
-MD5sum: 6eff29ab6f337dec1fd290fdb34c6a01
-SHA1: 37abce2092a2c96788791d4b4feea3fc9f600d4f
-SHA256: f4ed6240329c59ecd5ca084567d76d6afdfc23233ff60cb15054bddada3a2ceb
+Size: 9330
+MD5sum: 2f73b201eaf2b6463ebf3eceb71ef8d6
+SHA1: eded58d9ba4eb68504216c75d1f278e0ac50b479
+SHA256: 183d318ebbf726fca19b04f725ed26e2630729300f07c0e5796fb1be95d63774
 Section: utils
 Priority: optional
 Homepage: https://github.com/yeager/log-viewer
-Description: Structured log viewer with filtering and syntax highlighting.
+Description: GTK4 journalctl frontend
+ Structured log viewer with filtering and syntax highlighting.
+ Built with GTK4/Adwaita. Part of the [Danne L10n
+ Suite](https://github.com/yeager/debian-repo).
+ ```bash
+ sudo apt install log-viewer
+ ```
 
 Package: lp-bug-triager
 Version: 0.1.3
@@ -658,29 +878,39 @@ Architecture: all
 Maintainer: Daniel Nylander <daniel@danielnylander.se>
 Depends: python3 (>= 3.10), python3-gi, gir1.2-gtk-4.0, gir1.2-adw-1
 Filename: ./lp-bug-triager_0.1.3_all.deb
-Size: 6830
-MD5sum: 5d8ab11d4c9dbff174b1f5a78d7e4eb2
-SHA1: c9c826d3c7f5d4dfcfbcacc413eb5879d049d825
-SHA256: 02c3efd0e4b7fa83438832a73aa1b2ade5ff42ea70c913b068f3d0b62ff75a11
+Size: 7644
+MD5sum: a7bdc13a08f2524c647105a18deefe3c
+SHA1: 53b1c91afb1092a6a791dfb833db3e5da99ad262
+SHA256: 95a320ae96f0092bcdde0cff2affa64e2efec9982e4bc54f1e32ee5792141b77
 Section: utils
 Priority: optional
 Homepage: https://github.com/yeager/lp-bug-triager
-Description: Launchpad bug triage tool with NLP-based classification.
+Description: GTK4 Launchpad bug triage tool with NLP classification
+ Launchpad bug triage tool with NLP-based classification.
+ Built with GTK4/Adwaita. Part of the [Danne L10n
+ Suite](https://github.com/yeager/debian-repo).
+ ```bash
+ sudo apt install lp-bug-triager
+ ```
 
 Package: lugnarummet
-Version: 0.3.2-1
+Version: 0.3.2
 Architecture: all
 Maintainer: Daniel Nylander <daniel@danielnylander.se>
-Depends: python3 (>= 3.9), python3-gi, gir1.2-gtk-4.0, gir1.2-adw-1
-Filename: ./pool/lugnarummet_0.3.2-1_all.deb
-Size: 14586
-MD5sum: fd3976fc1fcd0324df6680e4e1e3b516
-SHA1: 546a8d31a06a0ac7ef092a754a917401143503ff
-SHA256: 7ac9c141440f95991435bb74f6e260ecb9dc6a93be01856b5f9327413230499b
-Section: utils
+Depends: python3 (>= 3.10), python3-gi, gir1.2-gtk-4.0, gir1.2-adw-1
+Filename: ./lugnarummet_0.3.2_all.deb
+Size: 14760
+MD5sum: 830b8f35e88e2926d389fcdde5e9ea57
+SHA1: c4a7dcc02f330271a6e912044ac68ce8b552a28b
+SHA256: de79388affa3ef732916bd4e454ad0af0e2f5a5dc90e92edc9d3e6d0936f8015
+Section: education
 Priority: optional
 Homepage: https://github.com/yeager/lugnarummet
-Description: L10n App Suite - lugnarummet
+Description: Sensory regulation and calming strategies for autism and ADHD
+ This package is part of the Danne L10n Suite, a collection of
+ localization and accessibility tools for Linux.
+ .
+ Sensory regulation and calming strategies for autism and ADHD
 
 Package: makebread
 Version: 0.4.3
@@ -688,44 +918,58 @@ Architecture: all
 Maintainer: Daniel Nylander <daniel@danielnylander.se>
 Depends: python3 (>= 3.10), python3-gi, gir1.2-gtk-4.0, gir1.2-adw-1
 Filename: ./makebread_0.4.3_all.deb
-Size: 17894
-MD5sum: efb10190a26d8f681f48501be49a6d9a
-SHA1: e9d9b6c791e74e40c1fe4f3ce495ad20371194fd
-SHA256: 1b5fa1ef4db8ad280f51e7f2e25878d057672f44902026c3eb6828a8dd2e2dbb
+Size: 18904
+MD5sum: df2338758f1ad39a8ba9735a64edc31c
+SHA1: 3d289c758df06793728dd74c9cde31759c99cfca
+SHA256: c235eec919fd0d9074c835a66d6cfefa6256c9a0da590f29e3e3b3673600e3bb
 Section: utils
 Priority: optional
 Homepage: https://github.com/yeager/makebread
-Description: Bread machine recipe manager with timer calculations.
+Description: A simple bread machine recipe manager
+ Bread machine recipe manager with timer calculations.
+ Built with GTK4/Adwaita. Part of the [Danne L10n
+ Suite](https://github.com/yeager/debian-repo).
+ ```bash
+ sudo apt install makebread
+ ```
 
 Package: matlagaren
 Version: 0.1.0-1
 Architecture: all
 Maintainer: Daniel Nylander <daniel@danielnylander.se>
 Depends: python3 (>= 3.9), python3-gi, gir1.2-gtk-4.0, gir1.2-adw-1
-Filename: ./pool/matlagaren_0.1.0-1_all.deb
-Size: 4304
-MD5sum: 5f83d296867730ef1ac1b335e3bf7bcc
-SHA1: ce7413178bf98d1e67105347beaa73e763bff85f
-SHA256: 5e9b4d6132dffb8e5df7891e6ec90087ac7f66332da744865630aeb5bcaf6ca0
-Section: utils
+Filename: ./matlagaren_0.1.0-1_all.deb
+Size: 5104
+MD5sum: cd4c79cb9edb27c34872e2514dad3e1b
+SHA1: d6a880da97cacb609e86fc26ce5989289dd7a60d
+SHA256: 584a51d8beacc83ee3c1f409b7255ec024eda3c255e373fc7777d3da830b07f6
+Section: education
 Priority: optional
 Homepage: https://github.com/yeager/matlagaren
-Description: L10n App Suite - matlagaren
+Description: Step-by-step cooking recipes for children
+ This package is part of the Danne L10n Suite, a collection of
+ localization and accessibility tools for Linux.
+ .
+ Step-by-step cooking recipes for children
 
 Package: meningsbyggaren
 Version: 0.1.0-1
 Architecture: all
 Maintainer: Daniel Nylander <daniel@danielnylander.se>
 Depends: python3 (>= 3.9), python3-gi, gir1.2-gtk-4.0, gir1.2-adw-1
-Filename: ./pool/meningsbyggaren_0.1.0-1_all.deb
-Size: 4766
-MD5sum: 994b8b0384bb64a487a3709e29a07d8d
-SHA1: df5338d3d477d95c08d04cd6bf82d46eab34de35
-SHA256: de50aa14c44caffa865deab91fb584cf6d0b654d21c9980ae60dfd016af4469f
-Section: utils
+Filename: ./meningsbyggaren_0.1.0-1_all.deb
+Size: 5590
+MD5sum: 174d167433808e9e58a5c2f848cec940
+SHA1: a2a83ab91f3bce35bd9d357a4050b24733fa2a57
+SHA256: c3409c0630316ec7d5148c26ed00123acb8d4d438ecbe0725399fe50e4c268c8
+Section: education
 Priority: optional
 Homepage: https://github.com/yeager/meningsbyggaren
-Description: L10n App Suite - meningsbyggaren
+Description: Build sentences with symbols for children with language disorders
+ This package is part of the Danne L10n Suite, a collection of
+ localization and accessibility tools for Linux.
+ .
+ Build sentences with symbols for children with language disorders
 
 Package: mentor-dashboard
 Version: 0.1.3
@@ -733,14 +977,20 @@ Architecture: all
 Maintainer: Daniel Nylander <daniel@danielnylander.se>
 Depends: python3 (>= 3.10), python3-gi, gir1.2-gtk-4.0, gir1.2-adw-1
 Filename: ./mentor-dashboard_0.1.3_all.deb
-Size: 6548
-MD5sum: bb61643358d5a7c4d1ae93c70abf2062
-SHA1: 0adc068d268f5526b0b3af7970ae1a499dc039d7
-SHA256: 5353fec3954ed4c8f2af2fd03aa90676382919abce011d818fcbfc8b2d572f8f
+Size: 7370
+MD5sum: 08b521dd0f09a41e7a61974f98d5d6ee
+SHA1: 56c3fc9d8288423cc83ea547f04af6778fac8017
+SHA256: e5ef70a5c2693b8a8c79fcfc7d1dde5f4dee25490053f69781b90c4ce1cefa85
 Section: utils
 Priority: optional
 Homepage: https://github.com/yeager/mentor-dashboard
-Description: Debian Mentors dashboard for package review and sponsorship tracking.
+Description: GTK4 Debian Mentors dashboard for package review and sponsorship
+ Debian Mentors dashboard for package review and sponsorship tracking.
+ Built with GTK4/Adwaita. Part of the [Danne L10n
+ Suite](https://github.com/yeager/debian-repo).
+ ```bash
+ sudo apt install mentor-dashboard
+ ```
 
 Package: merge-o-matic-viewer
 Version: 0.1.3
@@ -748,44 +998,58 @@ Architecture: all
 Maintainer: Daniel Nylander <daniel@danielnylander.se>
 Depends: python3 (>= 3.10), python3-gi, gir1.2-gtk-4.0, gir1.2-adw-1
 Filename: ./merge-o-matic-viewer_0.1.3_all.deb
-Size: 6570
-MD5sum: a4269ca9c4dc26deadde580a91bfec5c
-SHA1: 7f18761b2cd53ee000d872b5949a36879c4c7e96
-SHA256: 50d187613b857721e70821c0a415b4676fafba4214495f910588b1931e27e3ae
+Size: 7400
+MD5sum: 1c434b6f1b34efa3b9efc9d75f416889
+SHA1: f3ecdcf7600836c984469a7da50f1ffc91fb6b80
+SHA256: fa63cbb40a73cb55e0e871f3d55f67554da6f29af792ba4e97257ef5647a9b80
 Section: utils
 Priority: optional
 Homepage: https://github.com/yeager/merge-o-matic-viewer
-Description: Merge helper for Ubuntu-Debian package synchronization.
+Description: GTK4 merge helper for Ubuntu-Debian synchronization
+ Merge helper for Ubuntu-Debian package synchronization.
+ Built with GTK4/Adwaita. Part of the [Danne L10n
+ Suite](https://github.com/yeager/debian-repo).
+ ```bash
+ sudo apt install merge-o-matic-viewer
+ ```
 
 Package: minnet
-Version: 0.1.7-1
+Version: 0.1.7
 Architecture: all
 Maintainer: Daniel Nylander <daniel@danielnylander.se>
-Depends: python3 (>= 3.9), python3-gi, gir1.2-gtk-4.0, gir1.2-adw-1
-Filename: ./pool/minnet_0.1.7-1_all.deb
-Size: 8308
-MD5sum: fb0ac2e7a3deee72a538c7d2514ed2ab
-SHA1: dda256a24a15eb8594c7b6daf73c218ec80b6732
-SHA256: cb6e3dac67568614b3c7e1df4c445fa907d83a6995797f8304f3383b39fa9cb6
-Section: utils
+Depends: python3 (>= 3.10), python3-gi, gir1.2-gtk-4.0, gir1.2-adw-1
+Filename: ./minnet_0.1.7_all.deb
+Size: 8988
+MD5sum: 4514c017e35b14b1f3abc95439f6a34a
+SHA1: 8a3d1d024a23daa702fae999cba0d9b5724b0206
+SHA256: d537a2d6b024edfefca68ae4310f98f5240ff309103795e51a14038af37e2d92
+Section: education
 Priority: optional
 Homepage: https://github.com/yeager/minnet
-Description: L10n App Suite - minnet
+Description: Working memory training games for autism and ADHD
+ This package is part of the Danne L10n Suite, a collection of
+ localization and accessibility tools for Linux.
+ .
+ Working memory training games for autism and ADHD
 
 Package: mittschema
-Version: 0.1.5-1
+Version: 0.1.5
 Architecture: all
 Maintainer: Daniel Nylander <daniel@danielnylander.se>
-Depends: python3 (>= 3.9), python3-gi, gir1.2-gtk-4.0, gir1.2-adw-1
-Filename: ./pool/mittschema_0.1.5-1_all.deb
-Size: 8348
-MD5sum: dc3568d075863e6fcb3b106cc5aeb31f
-SHA1: 4aef6329a68731065d0c7848de610cd57bc741d4
-SHA256: 4882411773d9276e6ae05c0a1d52fb3a436e6ffc54af1294f08b3c182d31d3f1
-Section: utils
+Depends: python3 (>= 3.10), python3-gi, gir1.2-gtk-4.0, gir1.2-adw-1
+Filename: ./mittschema_0.1.5_all.deb
+Size: 9292
+MD5sum: 41ae656c67387b635eee97613724242e
+SHA1: a02dacc7c0cbba434b9108164607f60480b9fdbd
+SHA256: 06e28eb70ca5b335e20041b518976305fcbdb7983f8f01ba3e6ee9bb12c83fe7
+Section: education
 Priority: optional
 Homepage: https://github.com/yeager/mittschema
-Description: L10n App Suite - mittschema
+Description: Weekly visual schedule with school integration
+ This package is part of the Danne L10n Suite, a collection of
+ localization and accessibility tools for Linux.
+ .
+ Weekly visual schedule with school integration
 
 Package: mqtt-dashboard
 Version: 0.1.4
@@ -793,14 +1057,20 @@ Architecture: all
 Maintainer: Daniel Nylander <daniel@danielnylander.se>
 Depends: python3 (>= 3.10), python3-gi, gir1.2-gtk-4.0, gir1.2-adw-1
 Filename: ./mqtt-dashboard_0.1.4_all.deb
-Size: 9336
-MD5sum: ce1df52720fce6935759fb1fbf24c32c
-SHA1: 15c6756086d9e22412676b9d95b1bbdf594c2fea
-SHA256: 59d0e5f8237fdb9a38341a238bd7a0c2146432d0b4c4c2e4770e7fcec6c9abf4
+Size: 10138
+MD5sum: e4c61950e0feb9601f111324e82b824f
+SHA1: 2eb762071e12f5127ba4469cc9aee377a3c6e39f
+SHA256: c3bac204a74b22e2242b289c3e02b8b486e7d37f3d5d3a936505430b28e28f73
 Section: utils
 Priority: optional
 Homepage: https://github.com/yeager/mqtt-dashboard
-Description: MQTT topic dashboard for monitoring IoT devices.
+Description: MQTT dashboard with GTK4/Adwaita
+ MQTT topic dashboard for monitoring IoT devices.
+ Built with GTK4/Adwaita. Part of the [Danne L10n
+ Suite](https://github.com/yeager/debian-repo).
+ ```bash
+ sudo apt install mqtt-dashboard
+ ```
 
 Package: mqtt-inspector
 Version: 0.2.4
@@ -808,14 +1078,20 @@ Architecture: all
 Maintainer: Daniel Nylander <daniel@danielnylander.se>
 Depends: python3 (>= 3.10), python3-gi, gir1.2-gtk-4.0, gir1.2-adw-1
 Filename: ./mqtt-inspector_0.2.4_all.deb
-Size: 13374
-MD5sum: 52fceb2299e419400caefd9a21ea1356
-SHA1: fa43868f10a08dfe64dde75dd7ece927b5ed0cf6
-SHA256: b56895d52760dcc85bf75e82f19e77f7947c0eaf3b5849a2da913597c6e111b4
+Size: 14178
+MD5sum: fb941e95dd617d8f3762239ebc305328
+SHA1: c05c50e323d75d51620ec0488289a02a7e359539
+SHA256: bf4b5423cc88251232a6ff9e89d9ace5a15bea97192374f26043fdfdb9546167
 Section: utils
 Priority: optional
 Homepage: https://github.com/yeager/mqtt-inspector
-Description: MQTT message inspector and debugger for IoT development.
+Description: MQTT message inspector for IoT
+ MQTT message inspector and debugger for IoT development.
+ Built with GTK4/Adwaita. Part of the [Danne L10n
+ Suite](https://github.com/yeager/debian-repo).
+ ```bash
+ sudo apt install mqtt-inspector
+ ```
 
 Package: new-queue-monitor
 Version: 0.1.3
@@ -823,14 +1099,20 @@ Architecture: all
 Maintainer: Daniel Nylander <daniel@danielnylander.se>
 Depends: python3 (>= 3.10), python3-gi, gir1.2-gtk-4.0, gir1.2-adw-1
 Filename: ./new-queue-monitor_0.1.3_all.deb
-Size: 6660
-MD5sum: b1dd0b377da74ae95fb8a3a59c9dc1df
-SHA1: 745b07e4ed9a5b1470ebadf646e04fdcad2f53f9
-SHA256: 0121ce5d84c1cc29cca4af6732658d9d4782a842370785b37d86f13c1504807e
+Size: 7482
+MD5sum: 543cdd7e3e54475102ff39578015b109
+SHA1: 826dfce4dd9940e553556469ecbe1cb84e5b7098
+SHA256: 39bf78bf55f3300f6dcd9675080e2851b13db8b659f8bd58fa068b6e55ce2683
 Section: utils
 Priority: optional
 Homepage: https://github.com/yeager/new-queue-monitor
-Description: Monitor the Debian FTP NEW queue with desktop notifications.
+Description: GTK4 monitor for Debian FTP NEW queue with notifications
+ Monitor the Debian FTP NEW queue with desktop notifications.
+ Built with GTK4/Adwaita. Part of the [Danne L10n
+ Suite](https://github.com/yeager/debian-repo).
+ ```bash
+ sudo apt install new-queue-monitor
+ ```
 
 Package: obd2-viewer
 Version: 0.2.4
@@ -838,44 +1120,58 @@ Architecture: all
 Maintainer: Daniel Nylander <daniel@danielnylander.se>
 Depends: python3 (>= 3.10), python3-gi, gir1.2-gtk-4.0, gir1.2-adw-1
 Filename: ./obd2-viewer_0.2.4_all.deb
-Size: 22518
-MD5sum: 44e04f88637e0ea373c217a51c3874d7
-SHA1: 80c1c1f466d57e049e1989d5c134d06e1fbf0779
-SHA256: df3d35d6a1bd498cd2312796879c431d42c4cb3b8da3785963f4aeb3e2afeb5b
+Size: 23288
+MD5sum: 1a40067c95318d43942fcd7dc5f28791
+SHA1: 9e3cd420a8fbd42c1492fe374f8990044ff05404
+SHA256: aeecd746078b7973e3396953dc60c65ae6a6a1718ff0feeeee9050a8592e0fce
 Section: utils
 Priority: optional
 Homepage: https://github.com/yeager/obd2-viewer
-Description: OBD2 diagnostic data viewer and logger for vehicles.
+Description: OBD2 diagnostic data viewer and logger
+ This package is part of the Danne L10n Suite, a collection of
+ localization and accessibility tools for Linux.
+ .
+ OBD2 diagnostic data viewer and logger
 
 Package: ordbyggaren
-Version: 0.2.5-1
+Version: 0.2.5
 Architecture: all
 Maintainer: Daniel Nylander <daniel@danielnylander.se>
-Depends: python3 (>= 3.9), python3-gi, gir1.2-gtk-4.0, gir1.2-adw-1
-Filename: ./pool/ordbyggaren_0.2.5-1_all.deb
-Size: 12262
-MD5sum: 292f932ddc5a5768e5acd2002f1e69c1
-SHA1: aae248af5651d8b300b8b2face1c061b01e0d923
-SHA256: d2a4c6e5d40b1b795babe97861bb045f829bce2b2963f18b3ff0f85f6b5f95ed
-Section: utils
+Depends: python3 (>= 3.10), python3-gi, gir1.2-gtk-4.0, gir1.2-adw-1
+Filename: ./ordbyggaren_0.2.5_all.deb
+Size: 12944
+MD5sum: 224bf7c31ce891474fc7c411d0b4a7d0
+SHA1: bf784da8410ba44a120e8f48e485946a3c05056e
+SHA256: b1227a3fe8e33ab4f92aa4fecd1724b907ac46bf87264aaaafb22ffba76ac0d9
+Section: education
 Priority: optional
 Homepage: https://github.com/yeager/ordbyggaren
-Description: L10n App Suite - ordbyggaren
+Description: Phonological training app - build words from sounds and letters
+ This package is part of the Danne L10n Suite, a collection of
+ Built with GTK4/Adwaita. Part of the [Danne L10n
+ Suite](https://github.com/yeager/debian-repo).
+ ```bash
+ sudo apt install ordbyggaren
+ ```
 
 Package: ovningstavlan
 Version: 0.1.0-1
 Architecture: all
 Maintainer: Daniel Nylander <daniel@danielnylander.se>
 Depends: python3 (>= 3.9), python3-gi, gir1.2-gtk-4.0, gir1.2-adw-1
-Filename: ./pool/ovningstavlan_0.1.0-1_all.deb
-Size: 4760
-MD5sum: 48f5c4d7a974a80db730475e958df268
-SHA1: c588f4c7deb473192fb9433c5773a79b1e5226eb
-SHA256: 8b914cddf482f5d5142e619f92165eace86eabdc8ff9a0df31c7f82a83c0e0d0
-Section: utils
+Filename: ./ovningstavlan_0.1.0-1_all.deb
+Size: 5576
+MD5sum: faff821d59fdea059f1482dca146872b
+SHA1: eb7fc488f174b5bea759e116e4f6064030ec4d44
+SHA256: 8f3994e9372a90aba82ae7a15cdd92d811467271dd55d6dcd6f273a877b9c2d9
+Section: education
 Priority: optional
 Homepage: https://github.com/yeager/ovningstavlan
-Description: L10n App Suite - ovningstavlan
+Description: Practice board with visual feedback for children
+ This package is part of the Danne L10n Suite, a collection of
+ localization and accessibility tools for Linux.
+ .
+ Practice board with visual feedback for children
 
 Package: packetlens
 Version: 0.2.7
@@ -883,59 +1179,77 @@ Architecture: all
 Maintainer: Daniel Nylander <daniel@danielnylander.se>
 Depends: python3 (>= 3.10), python3-gi, gir1.2-gtk-4.0, gir1.2-adw-1
 Filename: ./packetlens_0.2.7_all.deb
-Size: 36612
-MD5sum: c3337d76337441361f229ce76236d528
-SHA1: ff10c30ec890f5bc9db7732f039b4a0151181164
-SHA256: 8956656765e7553d8a6233555e9785ec196b22da02f46baa2eb0ef41d18f06a1
-Section: net
+Size: 37366
+MD5sum: c0f10880562799904233320f6c7d5e8a
+SHA1: 61c119deff2dcdc48e8a891fb9b039908b5cdaad
+SHA256: 37fc25b15b2184cd801d94b9454f1dfd1347c2ed9d92b7a495d118ed5bc20e63
+Section: utils
 Priority: optional
-Homepage: https://github.com/yeager/pcap-viewer
-Description: PacketLens - network packet capture viewer
+Homepage: https://github.com/yeager/packetlens
+Description: Tool: PacketLens - network packet capture viewer
+ This package is part of the Danne L10n Suite, a collection of
+ localization and accessibility tools for Linux.
+ .
+ PacketLens - network packet capture viewer
 
 Package: pauskollen
 Version: 0.1.0-1
 Architecture: all
 Maintainer: Daniel Nylander <daniel@danielnylander.se>
 Depends: python3 (>= 3.9), python3-gi, gir1.2-gtk-4.0, gir1.2-adw-1
-Filename: ./pool/pauskollen_0.1.0-1_all.deb
-Size: 6948
-MD5sum: c73b459090e8e94db76c5e9af35d841b
-SHA1: b28b62f463898e50006a32afd61b942b650388e0
-SHA256: 9776bfc8ae762f5f6b86dce65400280e2a89761a2c028fc9e4ed0988102bda32
-Section: utils
+Filename: ./pauskollen_0.1.0-1_all.deb
+Size: 7756
+MD5sum: 6ffaeaee042869923e97fa82ec087840
+SHA1: f549f46279b4cb14fd2604d32052770810e14e6f
+SHA256: b5ad7a15b2a47845a2a7120ef512b64645b1ba4eab801f17c32e790884107b50
+Section: education
 Priority: optional
 Homepage: https://github.com/yeager/pauskollen
-Description: L10n App Suite - pauskollen
+Description: Visual timer and regulation exercises for children with ADHD
+ This package is part of the Danne L10n Suite, a collection of
+ localization and accessibility tools for Linux.
+ .
+ Visual timer and regulation exercises for children with ADHD
 
 Package: pecsbrada
 Version: 0.3.6-1
 Architecture: all
 Maintainer: Daniel Nylander <daniel@danielnylander.se>
 Depends: python3 (>= 3.9), python3-gi, gir1.2-gtk-4.0, gir1.2-adw-1
-Filename: ./pool/pecsbrada_0.3.6-1_all.deb
-Size: 157482
-MD5sum: c3054a2f6dad5a003262bd8b9db4aabe
-SHA1: cf643148c6972bab2b889b21db3bc29c674412a5
-SHA256: b30d74008564bebf478c56adebe10f950ddc5df17f3f98da2826840fda806aec
-Section: utils
+Filename: ./pecsbrada_0.3.6-1_all.deb
+Size: 158236
+MD5sum: f6650443364aa56fecc1d58a00fc1f66
+SHA1: f154398513876853cb8ff8eed547c2d1d2506884
+SHA256: c81ef7d16ca8a8dd9b8e7b8cbb4300ef127e9c66945c696573872edc44bed745
+Section: education
 Priority: optional
 Homepage: https://github.com/yeager/pecsbrada
-Description: PECS communication board
+Description: Digital PECS communication board with text-to-speech
+ Digital PECS communication board with ARASAAC pictograms and text-to-speech.
+ Built with GTK4/Adwaita. Part of the [Danne L10n
+ Suite](https://github.com/yeager/debian-repo).
+ ```bash
+ sudo apt install pecsbrada
+ ```
 
 Package: pengakollen
 Version: 0.1.0-1
 Architecture: all
 Maintainer: Daniel Nylander <daniel@danielnylander.se>
 Depends: python3 (>= 3.9), python3-gi, gir1.2-gtk-4.0, gir1.2-adw-1
-Filename: ./pool/pengakollen_0.1.0-1_all.deb
-Size: 4266
-MD5sum: 248f30a150fc1088a5b43517eeb6bcd6
-SHA1: 03a461984e2c0c40679e0fa297d750bdba39b490
-SHA256: 476951b33072b726743cc72dcc093a84d8b35db738cd8f1834b2943306dca81c
-Section: utils
+Filename: ./pengakollen_0.1.0-1_all.deb
+Size: 5066
+MD5sum: ae4e03129296c303e04618707ff62910
+SHA1: ae6fb4b8ef395030f765cc482afa365a704e617e
+SHA256: f09aa72e6b4ec047d538b197a67106235867fe7c58606c29278d62b60106eb88
+Section: education
 Priority: optional
 Homepage: https://github.com/yeager/pengakollen
-Description: L10n App Suite - pengakollen
+Description: Learn about money for children with IF
+ This package is part of the Danne L10n Suite, a collection of
+ localization and accessibility tools for Linux.
+ .
+ Learn about money for children with IF
 
 Package: po-diff
 Version: 1.0.1
@@ -943,14 +1257,20 @@ Architecture: all
 Maintainer: Daniel Nylander <daniel@danielnylander.se>
 Depends: python3 (>= 3.10), python3-gi, gir1.2-gtk-4.0, gir1.2-adw-1
 Filename: ./po-diff_1.0.1_all.deb
-Size: 6422
-MD5sum: c02c164c1aa79e355dfc2a59ee354676
-SHA1: 40466adf85fa3568a2a95ee6e852bd6cdadc0b58
-SHA256: 42159c651674f5a7b2db37c1f5eb92b8ec4c591253128f2fb8427a7b2489d6a0
-Section: devel
+Size: 7242
+MD5sum: 95c6acf69949f9d0e8e3e8e881a4bf22
+SHA1: 4501d808c44ead089265ef059b3e10379e19a1ba
+SHA256: e80ef0a3e4d410f887515b37ad99efb86c1523fb7f7ee4e4f488555fbe26bd7f
+Section: utils
 Priority: optional
 Homepage: https://github.com/yeager/po-diff
 Description: Visual diff tool for PO translation files
+ Compare PO/TS translation files and show differences.
+ Built with Python CLI. Part of the [Danne L10n
+ Suite](https://github.com/yeager/debian-repo).
+ ```bash
+ sudo apt install po-diff
+ ```
 
 Package: po-review-board
 Version: 0.1.3
@@ -958,31 +1278,42 @@ Architecture: all
 Maintainer: Daniel Nylander <daniel@danielnylander.se>
 Depends: python3 (>= 3.10), python3-gi, gir1.2-gtk-4.0, gir1.2-adw-1
 Filename: ./po-review-board_0.1.3_all.deb
-Size: 10232
-MD5sum: 8fe00e1db8f57c773109dbd61fe7c609
-SHA1: 15c01722329d9cdecc9433d8a291de89635621ae
-SHA256: b008e078c25243f5ae0de93ab2fda74c840fd61c27b0d428079dd24fc4c0ab7e
+Size: 11078
+MD5sum: fb751cf6231244b363112478fd8808c4
+SHA1: 0508c623a97b7a47d04fa4c0a3e6c73a9df0b35c
+SHA256: 9a66f36821442dd5e20248c0889d1961299aa35bf1928709d39670300fbb4863
 Section: utils
 Priority: optional
 Homepage: https://github.com/yeager/po-review-board
-Description: Review .po translations with diff view, comments, and approval workflow.
+Description: GTK4 app for reviewing .po translations with diff view, comments and approval
+ Review .po translations with diff view, comments, and approval workflow.
+ Built with GTK4/Adwaita. Part of the [Danne L10n
+ Suite](https://github.com/yeager/debian-repo).
+ ```bash
+ sudo apt install po-review-board
+ ```
 
 Package: po-translate
 Version: 1.5.8-1
 Architecture: all
 Maintainer: Daniel Nylander <daniel@danielnylander.se>
 Depends: python3 (>= 3.9)
-Filename: ./pool/po-translate_1.5.8-1_all.deb
-Size: 15902
-MD5sum: 06399def9733a5cc8f6b66b436949699
-SHA1: db39da2dcb24b8f168919387b14f060a4122de0d
-SHA256: 9d2007812545e2c7a671f71b207005e7ca1be76b854b8d7711d612472fde74b6
-Section: utils
+Filename: ./po-translate_1.5.8-1_all.deb
+Size: 17350
+MD5sum: 743420d9ee4bd5afcfd3799fb4f0c96d
+SHA1: 88086f2721905dc30f91a012d9d5c06825f754a9
+SHA256: 264847e4ec3f04c507b1ad18c72f04edaee1eab37fc9ff51d24cf018f5eaa191
+Section: devel
 Priority: optional
 Homepage: https://github.com/yeager/po-translate
-Description: Batch translate PO/TS files using AI
- CLI tool for translating .po and .ts localization files using
- various AI services (OpenAI, Anthropic, DeepL, Google, etc).
+Description: Batch translate .po and .ts files using AI
+ Batch translate .po and .ts localization files using AI or free translation
+ services.
+ Built with Python CLI. Part of the [Danne L10n
+ Suite](https://github.com/yeager/debian-repo).
+ ```bash
+ sudo apt install po-translate
+ ```
 
 Package: process-explorer
 Version: 0.1.4
@@ -990,29 +1321,39 @@ Architecture: all
 Maintainer: Daniel Nylander <daniel@danielnylander.se>
 Depends: python3 (>= 3.10), python3-gi, gir1.2-gtk-4.0, gir1.2-adw-1
 Filename: ./process-explorer_0.1.4_all.deb
-Size: 8332
-MD5sum: f27e2ba13690bc97e1998f2a62f1d146
-SHA1: f872f219000d0190d9c2918c2850251061088a03
-SHA256: 2d6a465b2656ac1b7da922be36c001d64f0d95418e5557f356b61eb97f22bc32
+Size: 9166
+MD5sum: 452b784218a842c6ba458f511da63de3
+SHA1: 40d6491954993b072fa68bbf587a951427cddae9
+SHA256: 4dd933e11e16189abe6f50f97ebebf90b4c1e1d0a5e36eea90d4668f643f65aa
 Section: utils
 Priority: optional
 Homepage: https://github.com/yeager/process-explorer
-Description: System process explorer with resource usage graphs.
+Description: GTK4 process explorer - htop in a GUI
+ System process explorer with resource usage graphs.
+ Built with GTK4/Adwaita. Part of the [Danne L10n
+ Suite](https://github.com/yeager/debian-repo).
+ ```bash
+ sudo apt install process-explorer
+ ```
 
 Package: raknestod
 Version: 0.1.0-1
 Architecture: all
 Maintainer: Daniel Nylander <daniel@danielnylander.se>
 Depends: python3 (>= 3.9), python3-gi, gir1.2-gtk-4.0, gir1.2-adw-1
-Filename: ./pool/raknestod_0.1.0-1_all.deb
-Size: 4020
-MD5sum: a4568540ccae2e13e1c4d8ceea3a0168
-SHA1: 73ca65c7913f698ec07800e043bbb483f8002b7b
-SHA256: 548de3b6f0433032d34a294f3e75f23117acb28abd9a2060bba3afb778d3c791
-Section: utils
+Filename: ./raknestod_0.1.0-1_all.deb
+Size: 4834
+MD5sum: 43b86d5d80be4c16158d9f8026865275
+SHA1: 524f598e01f66905bb89b935433cd5aa147846f0
+SHA256: 9c1036560108ee3c7b58ee5d9abaead58421bcb1fd948d499c07c8a8caaff1e1
+Section: education
 Priority: optional
 Homepage: https://github.com/yeager/raknestod
-Description: L10n App Suite - raknestod
+Description: Visual math for children with IF
+ This package is part of the Danne L10n Suite, a collection of
+ localization and accessibility tools for Linux.
+ .
+ Visual math for children with IF
 
 Package: regex-tester
 Version: 0.1.4
@@ -1020,14 +1361,20 @@ Architecture: all
 Maintainer: Daniel Nylander <daniel@danielnylander.se>
 Depends: python3 (>= 3.10), python3-gi, gir1.2-gtk-4.0, gir1.2-adw-1
 Filename: ./regex-tester_0.1.4_all.deb
-Size: 8510
-MD5sum: 88019177037883950e08f8801de21a9d
-SHA1: d467c2a3a99403d391bc89866d2457fde441629c
-SHA256: 4e707cb8b53cfb1d3d2c2797b17ec492189aae201123b96adeedebaad2406e91
+Size: 9328
+MD5sum: d76073917bb1a0301f994ed7d87fdd8d
+SHA1: a2c5b5880e19935c4b06e3483688ced037bb7e7f
+SHA256: d47d55d0cd98091e6212a714a399e020c065f4b870b40d6669c8592f214b7503
 Section: utils
 Priority: optional
 Homepage: https://github.com/yeager/regex-tester
-Description: Interactive regular expression tester with match highlighting.
+Description: Visual regex tester with GTK4/Adwaita
+ Interactive regular expression tester with match highlighting.
+ Built with GTK4/Adwaita. Part of the [Danne L10n
+ Suite](https://github.com/yeager/debian-repo).
+ ```bash
+ sudo apt install regex-tester
+ ```
 
 Package: release-notes-editor
 Version: 0.1.3
@@ -1035,59 +1382,80 @@ Architecture: all
 Maintainer: Daniel Nylander <daniel@danielnylander.se>
 Depends: python3 (>= 3.10), python3-gi, gir1.2-gtk-4.0, gir1.2-adw-1
 Filename: ./release-notes-editor_0.1.3_all.deb
-Size: 7004
-MD5sum: e5d395c56e130a6b21c9047ce4cb3fc4
-SHA1: 1cd4f4c610eaa693f2efc61436812b84e4b9d0b7
-SHA256: dafc904e7f3a94f5cfab253e45f448d6c6ba423b1b0639c0849be2e2252f8aca
+Size: 7826
+MD5sum: 0432f33e11522eb46ad60710b727a406
+SHA1: 9d99a045d59f84630b4fd94e4fa88fa5dcd121c7
+SHA256: e0eda1ee3d89dfb24644985e1b8edaec51e5b48a5c1d0d62b45c2f18e30f4087
 Section: utils
 Priority: optional
 Homepage: https://github.com/yeager/release-notes-editor
-Description: Release notes editor with templates and translation support.
+Description: GTK4 release notes editor with templates and translation support
+ Release notes editor with templates and translation support.
+ Built with GTK4/Adwaita. Part of the [Danne L10n
+ Suite](https://github.com/yeager/debian-repo).
+ ```bash
+ sudo apt install release-notes-editor
+ ```
 
 Package: rpm-policy-checker
 Version: 0.1.0-1
 Architecture: all
 Maintainer: Daniel Nylander <daniel@danielnylander.se>
 Depends: python3 (>= 3.9), python3-gi, gir1.2-gtk-4.0, gir1.2-adw-1
-Filename: ./pool/rpm-policy-checker_0.1.0-1_all.deb
-Size: 10644
-MD5sum: 154808ba5ff7e9ac3984fa646edab010
-SHA1: f494b40a58108c0988a094de911249a575603a4d
-SHA256: 94e912d79f7f373c874227ebc53caaa40a20ae2cbcf5f561f00bbd58f8263abf
+Filename: ./rpm-policy-checker_0.1.0-1_all.deb
+Size: 11466
+MD5sum: 81fc2430fead9c10bbf6bf2c2a49248e
+SHA1: 40343022d7c8aa0b6c826b9b6de4a9f634955d93
+SHA256: bea9a6744813f8c2423bd025d9af9c6f215373e2417886923be1296183a71f01
 Section: utils
 Priority: optional
 Homepage: https://github.com/yeager/rpm-policy-checker
 Description: GTK4 RPM Policy Checker
+ This package is part of the Danne L10n Suite, a collection of
+ localization and accessibility tools for Linux.
+ .
+ GTK4 RPM Policy Checker
 
 Package: rutinkompis
 Version: 0.3.6-1
 Architecture: all
 Maintainer: Daniel Nylander <daniel@danielnylander.se>
 Depends: python3 (>= 3.9), python3-gi, gir1.2-gtk-4.0, gir1.2-adw-1
-Filename: ./pool/rutinkompis_0.3.6-1_all.deb
-Size: 156636
-MD5sum: 05899366708df7c795c9e39e6bd010dc
-SHA1: ad6bb5780556c9b2aaf351d4bf1ade80414f7d09
-SHA256: baebe68304971f1cd9281e002b5782f03c9b63df882fa99c693c353637d37089
-Section: utils
+Filename: ./rutinkompis_0.3.6-1_all.deb
+Size: 157388
+MD5sum: b0f1e26a575ad38478634cbe03046101
+SHA1: 259bbf0ca7019722e30bf5c8ccd7cb01e0680209
+SHA256: f5fe4bd76e31669022e4b56017f4ef3e0e3c713ed2d589086e41ae675843394a
+Section: education
 Priority: optional
 Homepage: https://github.com/yeager/rutinkompis
-Description: Daily routine companion for children
+Description: Step-by-step visual routine guides for children with autism
+ Step-by-step visual routine guides with ARASAAC pictograms for children
+ with autism.
+ Built with GTK4/Adwaita. Part of the [Danne L10n
+ Suite](https://github.com/yeager/debian-repo).
+ ```bash
+ sudo apt install rutinkompis
+ ```
 
 Package: samtalsstod
 Version: 0.1.0-1
 Architecture: all
 Maintainer: Daniel Nylander <daniel@danielnylander.se>
 Depends: python3 (>= 3.9), python3-gi, gir1.2-gtk-4.0, gir1.2-adw-1
-Filename: ./pool/samtalsstod_0.1.0-1_all.deb
-Size: 9660
-MD5sum: c128f3f3c47449ce3713baaa782d630d
-SHA1: 09635d25c9223da67fc616f384fd218d0a7c6e68
-SHA256: 9a137eca94270a564624e620d7d63ac743416ebea3a6a34077a14469c2a8d398
-Section: utils
+Filename: ./samtalsstod_0.1.0-1_all.deb
+Size: 5430
+MD5sum: 550d055f8fbc218267e0b43411d34d63
+SHA1: 70e60c9608949db004dcdb5f9ad2e9330415b7b6
+SHA256: 0879457fc1992f44d35b4759b27d099d1faee589e016eba57af32466ec430d4c
+Section: education
 Priority: optional
 Homepage: https://github.com/yeager/samtalsstod
-Description: L10n App Suite - samtalsstod
+Description: Visual conversation support cards for children with autism
+ This package is part of the Danne L10n Suite, a collection of
+ localization and accessibility tools for Linux.
+ .
+ Visual conversation support cards for children with autism
 
 Package: scummvm-gtk
 Version: 0.2.3
@@ -1095,14 +1463,20 @@ Architecture: all
 Maintainer: Daniel Nylander <daniel@danielnylander.se>
 Depends: python3 (>= 3.10), python3-gi, gir1.2-gtk-4.0, gir1.2-adw-1, gir1.2-webkit-6.0
 Filename: ./scummvm-gtk_0.2.3_all.deb
-Size: 21898
-MD5sum: 8cec7c319cd975b08d9ee4a476e9ddb6
-SHA1: 6096a5bd7d93b39e562544a754af4d1804be65cf
-SHA256: f6643081589307641f149c795cdac22a7cc5fa4ccc92c12ff115c594c2d84a47
+Size: 22764
+MD5sum: 8b530b15a65efb06a19721b18751f351
+SHA1: 35c80f2544618729d49e229562518d5f0542cd67
+SHA256: 50d2082427f23307a0ec23f993a061dee6660e338c52b06b493d9d60e8f72842
 Section: utils
 Priority: optional
 Homepage: https://github.com/yeager/scummvm-gtk
-Description: ScummVM game launcher with grid view and game details.
+Description: GTK4/Adwaita frontend for ScummVM
+ ScummVM game launcher with grid view and game details.
+ Built with GTK4/Adwaita. Part of the [Danne L10n
+ Suite](https://github.com/yeager/debian-repo).
+ ```bash
+ sudo apt install scummvm-gtk
+ ```
 
 Package: snap-l10n
 Version: 0.2.12
@@ -1110,44 +1484,58 @@ Architecture: all
 Maintainer: Daniel Nylander <daniel@danielnylander.se>
 Depends: python3 (>= 3.10), python3-gi, gir1.2-gtk-4.0, gir1.2-adw-1
 Filename: ./snap-l10n_0.2.12_all.deb
-Size: 11824
-MD5sum: 21686adf8f214ce8315cfde4a5589815
-SHA1: c7b2fe4c40b9b2e913aeab7ab6a9393f18274e8c
-SHA256: b8ef39aab2b9fab7e3ce29d33211410894aed74da9bb45ec4ee68a749f754440
+Size: 12604
+MD5sum: 7943c984d4d56d63c0bbeb620c52c508
+SHA1: 15818529500081c31fa22cb4db555ab56838cd82
+SHA256: 22827e66f9c578719c0ea5520f24aa5ddb88a8c99a33317ead8bd9da70b1e0eb
 Section: utils
 Priority: optional
 Homepage: https://github.com/yeager/snap-l10n
-Description: Snap package translation status viewer.
+Description: View snap package translation status
+ Snap package translation status viewer.
+ Built with GTK4/Adwaita. Part of the [Danne L10n
+ Suite](https://github.com/yeager/debian-repo).
+ ```bash
+ sudo apt install snap-l10n
+ ```
 
 Package: socialaberattelser
-Version: 0.1.7-1
+Version: 0.1.7
 Architecture: all
 Maintainer: Daniel Nylander <daniel@danielnylander.se>
-Depends: python3 (>= 3.9), python3-gi, gir1.2-gtk-4.0, gir1.2-adw-1
-Filename: ./pool/socialaberattelser_0.1.7-1_all.deb
-Size: 10044
-MD5sum: 14d5e050e005b0d58956abb5bd19da32
-SHA1: 362fb41b3a99f61e0dc64c9540637d3f09640e3d
-SHA256: edbdecbe1f0f74b348e0196ee8917ab1c3bc2b4fccfb1470aa0a4f0ac2c77a7b
-Section: utils
+Depends: python3 (>= 3.10), python3-gi, gir1.2-gtk-4.0, gir1.2-adw-1
+Filename: ./socialaberattelser_0.1.7_all.deb
+Size: 11904
+MD5sum: 0878b65f2762e47a030b7bda5a02c11a
+SHA1: 900701e89380c80355ca6dd962cac926467e7818
+SHA256: 09900d7f065cbe1b1325e3a3ed3f35e7bddc2a387b89ad647fe67870adf9e3c5
+Section: education
 Priority: optional
 Homepage: https://github.com/yeager/socialaberattelser
-Description: L10n App Suite - socialaberattelser
+Description: Create and view social stories with images for autism
+ This package is part of the Danne L10n Suite, a collection of
+ localization and accessibility tools for Linux.
+ .
+ Create and view social stories with images for autism
 
 Package: stegvisaren
 Version: 0.1.0-1
 Architecture: all
 Maintainer: Daniel Nylander <daniel@danielnylander.se>
 Depends: python3 (>= 3.9), python3-gi, gir1.2-gtk-4.0, gir1.2-adw-1
-Filename: ./pool/stegvisaren_0.1.0-1_all.deb
-Size: 5428
-MD5sum: 21b725926186fdc4e940293a02b6fc0a
-SHA1: 3ba00d36b4f84f1b2dd9bbe720bf70b88d8458f0
-SHA256: fcf9af65c2caa0d68b05e94b1ddfbc7d9e718dcdaa7f4f83d94b3c7874e5bed1
-Section: utils
+Filename: ./stegvisaren_0.1.0-1_all.deb
+Size: 6238
+MD5sum: 054cd3b9ae64fbaf184bc581391e71dd
+SHA1: abd3d62b8fca1aa22acc7cc3f9a64d13dff753d5
+SHA256: 327ff21c6c01af60a722cff66bb7469cb2f01d40ad8f8c03931c2b665c3a3702
+Section: education
 Priority: optional
 Homepage: https://github.com/yeager/stegvisaren
-Description: L10n App Suite - stegvisaren
+Description: Break down tasks into visual steps for children with ADHD/autism
+ This package is part of the Danne L10n Suite, a collection of
+ localization and accessibility tools for Linux.
+ .
+ Break down tasks into visual steps for children with ADHD/autism
 
 Package: svlang
 Version: 0.1.7-1
@@ -1155,14 +1543,18 @@ Architecture: all
 Maintainer: Daniel Nylander <daniel@danielnylander.se>
 Depends: python3
 Filename: ./svlang_0.1.7-1_all.deb
-Size: 5060
-MD5sum: d3446e6ae5774a68a84a1c494434d016
-SHA1: d234bb93049a41705b6e0a00e8880f824fb42a7d
-SHA256: 7f9b2691d661b44adf8eee41ad16ec62965c9914cb054647b08dd049505203d7
-Section: utils
+Size: 5534
+MD5sum: 72962b94e03af05bad811858f51a6bb5
+SHA1: 83eacf056625d76fa6630e049bd5c4c438d8a517
+SHA256: 68a5f8159321e1023d201b8139db652155e41b8f48f0859edb153d4ed17b9538
+Section: devel
 Priority: optional
 Homepage: https://github.com/yeager/svlang
-Description: svlang
+Description: Swedish NLP toolkit for translators
+ This package is part of the Danne L10n Suite, a collection of
+ localization and accessibility tools for Linux.
+ .
+ Swedish NLP toolkit for translators
 
 Package: sysinfo-gtk
 Version: 0.1.2
@@ -1170,29 +1562,39 @@ Architecture: all
 Maintainer: Daniel Nylander <daniel@danielnylander.se>
 Depends: python3 (>= 3.10), python3-gi, gir1.2-gtk-4.0, gir1.2-adw-1
 Filename: ./sysinfo-gtk_0.1.2_all.deb
-Size: 11780
-MD5sum: 3a46ab9fdc81776872eb9880f32e0fe4
-SHA1: e4ffac73b8b787a6d12e7deb8a0375e10f0f4b39
-SHA256: 2f6c4e63b3d204159534ddc463857e680449d916eeaf1acc931b67a537ce5931
+Size: 12584
+MD5sum: 251fa755377d31965736c63369d8693e
+SHA1: e57b8589f87f4a63586cec935f5761e146a8782b
+SHA256: f75467d0f88a7628c7daec1424aa2de29e9657c1b8de671d61ed5365d4df1375
 Section: utils
 Priority: optional
 Homepage: https://github.com/yeager/sysinfo-gtk
-Description: System information viewer — a modern hardinfo2 alternative.
+Description: GTK4/Adwaita system information and benchmark tool
+ System information viewer — a modern hardinfo2 alternative.
+ Built with GTK4/Adwaita. Part of the [Danne L10n
+ Suite](https://github.com/yeager/debian-repo).
+ ```bash
+ sudo apt install sysinfo-gtk
+ ```
 
 Package: tidskollen
-Version: 0.2.5-1
+Version: 0.2.5
 Architecture: all
 Maintainer: Daniel Nylander <daniel@danielnylander.se>
-Depends: python3 (>= 3.9), python3-gi, gir1.2-gtk-4.0, gir1.2-adw-1
-Filename: ./pool/tidskollen_0.2.5-1_all.deb
-Size: 10962
-MD5sum: 96d2e1aaf7ef36c15b52b7bf5e047a50
-SHA1: bce3d769b53fa9a1a04e35a864b201ffdb7031b9
-SHA256: 1607bf5a5db903878d5ec2e971161bfbb1e0b75fc2cbf1177c46525dea77fd86
-Section: utils
+Depends: python3 (>= 3.10), python3-gi, gir1.2-gtk-4.0, gir1.2-adw-1
+Filename: ./tidskollen_0.2.5_all.deb
+Size: 11518
+MD5sum: b79946756ded2a7d6374fd72455f00c8
+SHA1: e0746317eefb0bfb0cf6ca607282154b923869e7
+SHA256: 45a3645ad773d016278bb405a06ab2f823a3c18bf41156e65e7e0632d53033a7
+Section: education
 Priority: optional
 Homepage: https://github.com/yeager/tidskollen
-Description: L10n App Suite - tidskollen
+Description: Visual Time Timer for classrooms and children with autism
+ This package is part of the Danne L10n Suite, a collection of
+ localization and accessibility tools for Linux.
+ .
+ Visual Time Timer for classrooms and children with autism
 
 Package: tm-manager
 Version: 0.2.12
@@ -1200,14 +1602,20 @@ Architecture: all
 Maintainer: Daniel Nylander <daniel@danielnylander.se>
 Depends: python3 (>= 3.10), python3-gi, gir1.2-gtk-4.0, gir1.2-adw-1
 Filename: ./tm-manager_0.2.12_all.deb
-Size: 13656
-MD5sum: 0890fd60b1ad64ed97c65f07377abc22
-SHA1: fb2b778f9cfc2768d87335fa30ce1b1b31d09309
-SHA256: 5cb29559a3d622bfcfed7fcab1200eb4309b2ef1344317375378787b781ee908
+Size: 14446
+MD5sum: 82e9c66ae1de3f08dcbfe0c469d53eff
+SHA1: 77547ce4471405ff72d112996003313af4acf9e3
+SHA256: 6f3e28e2ea7842d7b905c21d6bf245724a9dbeb3a58aef47b4b04ecf330270fc
 Section: utils
 Priority: optional
 Homepage: https://github.com/yeager/tm-manager
-Description: Translation Memory (TMX) manager with fuzzy search.
+Description: Manage local Translation Memory files (TMX)
+ Translation Memory (TMX) manager with fuzzy search.
+ Built with GTK4/Adwaita. Part of the [Danne L10n
+ Suite](https://github.com/yeager/debian-repo).
+ ```bash
+ sudo apt install tm-manager
+ ```
 
 Package: tp-lint
 Version: 1.8.4-1
@@ -1215,14 +1623,20 @@ Architecture: all
 Maintainer: Daniel Nylander <daniel@danielnylander.se>
 Depends: python3, python3-requests
 Filename: ./tp-lint_1.8.4-1_all.deb
-Size: 17748
-MD5sum: 06ba97c7d1d85cfa83686b8d77e0a751
-SHA1: 0ba8903b8e2790c8d4a1b7f1cf73bb64cf98b29a
-SHA256: 23489e90eeb11a5df4b1ca7ef7e3095b85c04e740d292658d6152342aefdc62f
+Size: 19032
+MD5sum: 4126d269e62c47c2fd923111649eb187
+SHA1: 0eb6643dfe05ae89a48c4d4b2d1319b6f415ad35
+SHA256: d5af052136fffaa896ff7d53871a387c8eb55387d93a7df9e82bf073758c8d3e
 Section: utils
 Priority: optional
 Homepage: https://github.com/yeager/tp-lint
 Description: Translation Project lint tool
+ Lint PO files from the Translation Project for common errors.
+ Built with Python CLI. Part of the [Danne L10n
+ Suite](https://github.com/yeager/debian-repo).
+ ```bash
+ sudo apt install tp-lint
+ ```
 
 Package: tp-status
 Version: 0.2.0
@@ -1230,14 +1644,22 @@ Architecture: all
 Maintainer: Daniel Nylander <daniel@danielnylander.se>
 Depends: python3 (>= 3.10), python3-gi, gir1.2-gtk-4.0, gir1.2-adw-1
 Filename: ./tp-status_0.2.0_all.deb
-Size: 13510
-MD5sum: acbb802df1446137f3ad841ceb2eba40
-SHA1: 720edc42f6aab9382d92c9726521875b52f88ec3
-SHA256: 87769bcacd7ab11193ea8e8209925aad682f299e6397cab294b6ae7b08692c79
+Size: 14324
+MD5sum: 4b6e33516b822b92e99d8159eb4bccc9
+SHA1: b8cd1cb1160fba3e1a2052fc5292c54e20f49825
+SHA256: bda15be24391a66e0cf7847b2455c98f7fdf54f7fe5c33ca3c2885b9379b6a86
 Section: utils
 Priority: optional
 Homepage: https://github.com/yeager/tp-status
-Description: View translation statistics from [translationproject.org](https://translationproject.org) for GNU and free software packages.
+Description: Translation Project status viewer
+ View translation statistics from
+ [translationproject.org](https://translationproject.org) for GNU and free
+ software packages.
+ Built with GTK4/Adwaita. Part of the [Danne L10n
+ Suite](https://github.com/yeager/debian-repo).
+ ```bash
+ sudo apt install tp-status
+ ```
 
 Package: transition-tracker
 Version: 0.1.1
@@ -1245,14 +1667,20 @@ Architecture: all
 Maintainer: Daniel Nylander <daniel@danielnylander.se>
 Depends: python3 (>= 3.10), python3-gi, gir1.2-gtk-4.0, gir1.2-adw-1
 Filename: ./transition-tracker_0.1.1_all.deb
-Size: 5240
-MD5sum: 540514e425f7b02cf56e04c63099a069
-SHA1: ef9065ea92cfa6a4a528c92a5d93a546bdd74cb5
-SHA256: 94d7f67d35b93b2d8717bfce132c2120913595af0cb7a5c00b31b9d6d969cd84
+Size: 6064
+MD5sum: 6686c52a142405c4bec408523ba0bf76
+SHA1: a738d8344fc6ef2f902f7c29cde435e7fcf74db3
+SHA256: e22e1da98f098e396c5cefe7af9ab6eb3749af9adfa279880351d8194614bfc8
 Section: utils
 Priority: optional
 Homepage: https://github.com/yeager/transition-tracker
-Description: Track library transitions in Debian and Ubuntu.
+Description: GTK4 tool to track library transitions in Debian and Ubuntu
+ Track library transitions in Debian and Ubuntu.
+ Built with GTK4/Adwaita. Part of the [Danne L10n
+ Suite](https://github.com/yeager/debian-repo).
+ ```bash
+ sudo apt install transition-tracker
+ ```
 
 Package: tts-tester
 Version: 0.2.4
@@ -1260,14 +1688,20 @@ Architecture: all
 Maintainer: Daniel Nylander <daniel@danielnylander.se>
 Depends: python3 (>= 3.10), python3-gi, gir1.2-gtk-4.0, gir1.2-adw-1
 Filename: ./tts-tester_0.2.4_all.deb
-Size: 14698
-MD5sum: cae90a44c978845d2b3758e692961dc9
-SHA1: 7fc54026dbc90e21a72e9b2ad9df7229360e5dd9
-SHA256: 1723f51bb6d77e462e6ea450a7c798170960a3bf10bf8ffb105187be88211b55
+Size: 15486
+MD5sum: ca64107a78ea22435900fbaa23a9ce08
+SHA1: 533c0515b138e7c67b9a9a649945c85280992de2
+SHA256: 7d652063bb835a0074af8b83119ff25867b8bdab8774c0937136728b5ace7fcd
 Section: utils
 Priority: optional
 Homepage: https://github.com/yeager/tts-tester
-Description: Text-to-speech engine comparison and testing tool.
+Description: Text-to-speech engine comparison tool
+ Text-to-speech engine comparison and testing tool.
+ Built with GTK4/Adwaita. Part of the [Danne L10n
+ Suite](https://github.com/yeager/debian-repo).
+ ```bash
+ sudo apt install tts-tester
+ ```
 
 Package: ubuntu-l10n
 Version: 0.3.6
@@ -1275,29 +1709,37 @@ Architecture: all
 Maintainer: Daniel Nylander <daniel@danielnylander.se>
 Depends: python3 (>= 3.10), python3-gi, gir1.2-gtk-4.0, gir1.2-adw-1
 Filename: ./ubuntu-l10n_0.3.6_all.deb
-Size: 14266
-MD5sum: fb9d56430b8c5e5b60082aa8a4172112
-SHA1: 39419ae8aa5432225ce057abeb2ef6b41ca24b21
-SHA256: 50f624ad6699ca1a0986b75f280236441fa7bfec686d5d8e4e7aefa5000e1657
+Size: 15042
+MD5sum: 4ed3786c96b34963c46d21a4a51ba528
+SHA1: 62aa0bd688455d6b993323d17ac58242e54410fc
+SHA256: f96f54f64f9cae8c88321c6dce7879b6f37b2a1a61a96fed0ad32a3c90b18bf1
 Section: utils
 Priority: optional
 Homepage: https://github.com/yeager/ubuntu-l10n
-Description: Ubuntu/Launchpad translation statistics viewer.
+Description: Ubuntu/Launchpad translation statistics viewer
+ This package is part of the Danne L10n Suite, a collection of
+ localization and accessibility tools for Linux.
+ .
+ Ubuntu/Launchpad translation statistics viewer
 
 Package: valjaren
 Version: 0.1.0-1
 Architecture: all
 Maintainer: Daniel Nylander <daniel@danielnylander.se>
 Depends: python3 (>= 3.9), python3-gi, gir1.2-gtk-4.0, gir1.2-adw-1
-Filename: ./pool/valjaren_0.1.0-1_all.deb
-Size: 5462
-MD5sum: f5b0e4c45ea6152acc1869c9ae111b09
-SHA1: 881ed8923bb6400db964a48bc47a0ebf088772f8
-SHA256: f6c9d4e8f3aa8b3e53c786ce7f316a9dcdf08a6887f00ea77203dd7fd0db23f8
-Section: utils
+Filename: ./valjaren_0.1.0-1_all.deb
+Size: 6280
+MD5sum: 015da7e2731785002bb1bbb0f0ab06f0
+SHA1: 3a05ceea86226351135294fff806f76fa487684e
+SHA256: d40762a5fa78305d75790347c04f3626ab8222a7e4fa40fc92c10f10f0debe50
+Section: education
 Priority: optional
 Homepage: https://github.com/yeager/valjaren
-Description: L10n App Suite - valjaren
+Description: Visual decision helper for children with autism/NPF
+ This package is part of the Danne L10n Suite, a collection of
+ localization and accessibility tools for Linux.
+ .
+ Visual decision helper for children with autism/NPF
 
 Package: vsdview
 Version: 0.4.6
@@ -1305,14 +1747,21 @@ Architecture: all
 Maintainer: Daniel Nylander <daniel@danielnylander.se>
 Depends: python3 (>= 3.10), python3-gi, gir1.2-gtk-4.0, gir1.2-adw-1
 Filename: ./vsdview_0.4.6_all.deb
-Size: 49420
-MD5sum: 16438d08310eb0af60af6272bf21e666
-SHA1: 7bb0c4fa22a7dd3fd207d93a3c68ebadf38326ca
-SHA256: a59cbc93484b85428411b00d89cddfb8ecc09363d0ce799636a4fccb716f09c1
+Size: 50270
+MD5sum: c8dd46c3b78f9bfcdce9e9ae22c40fae
+SHA1: 80b01865c578726ce6791440c97d0b7307572a60
+SHA256: 60e93692b29856e66828d82792a5ac164047191a2d2528a3b8486ad869e66abd
 Section: utils
 Priority: optional
 Homepage: https://github.com/yeager/vsdview
-Description: Read-only viewer for Microsoft Visio files (.vsdx/.vsd) with built-in renderer.
+Description: A read-only viewer for Microsoft Visio files (.vsdx/.vsd)
+ Read-only viewer for Microsoft Visio files (.vsdx/.vsd) with built-in
+ renderer.
+ Built with GTK4/Adwaita. Part of the [Danne L10n
+ Suite](https://github.com/yeager/debian-repo).
+ ```bash
+ sudo apt install vsdview
+ ```
 
 Package: wifi-analyzer
 Version: 0.1.4
@@ -1320,14 +1769,20 @@ Architecture: all
 Maintainer: Daniel Nylander <daniel@danielnylander.se>
 Depends: python3 (>= 3.10), python3-gi, gir1.2-gtk-4.0, gir1.2-adw-1
 Filename: ./wifi-analyzer_0.1.4_all.deb
-Size: 9600
-MD5sum: 9607fb909f6f6cf2f2971592e12315a4
-SHA1: 1656258fcc771281a3a475916b662f6c72fb3129
-SHA256: c6e04d493f2263c1ae30b79e31bbbd632749430fcc0d62e84a4e4ccca83ef26e
-Section: utils
+Size: 10454
+MD5sum: b6fb922ae1afa58506d0da37f661526f
+SHA1: 1f80a1406e3cb27460461fc026b169fda8f93ab8
+SHA256: 500730bb39b322823341482d6871fa401c7842cb0767f4fac4e0fd2e0562b897
+Section: net
 Priority: optional
 Homepage: https://github.com/yeager/wifi-analyzer
-Description: Wi-Fi signal analyzer and channel scanner.
+Description: WiFi Analyzer — GTK4/Adwaita app for WiFi network analysis
+ Wi-Fi signal analyzer and channel scanner.
+ Built with GTK4/Adwaita. Part of the [Danne L10n
+ Suite](https://github.com/yeager/debian-repo).
+ ```bash
+ sudo apt install wifi-analyzer
+ ```
 
 Package: zigbee-manager
 Version: 0.1.4
@@ -1335,14 +1790,20 @@ Architecture: all
 Maintainer: Daniel Nylander <daniel@danielnylander.se>
 Depends: python3 (>= 3.10), python3-gi, gir1.2-gtk-4.0, gir1.2-adw-1
 Filename: ./zigbee-manager_0.1.4_all.deb
-Size: 9068
-MD5sum: e31730fc988b77e8207f9d374a35c53c
-SHA1: 348f79c43299493850888648cfb38d4f4a717217
-SHA256: b1fb648d39cef75d4a942bac9f4570ea5d4a55fb21b65b09dc6c646e5a4d513d
+Size: 9896
+MD5sum: 2912dcf67db5ff9111eb1e50173c68cb
+SHA1: 229588867a49e2b2cc10434fc6fae67fc10aff6b
+SHA256: 1c3836bc51109f81110f6e176d12cb8dd0a33302cceeb20bf3f239ca94f34d04
 Section: utils
 Priority: optional
 Homepage: https://github.com/yeager/zigbee-manager
-Description: Zigbee device manager for smart home networks.
+Description: Zigbee device management via Zigbee2MQTT
+ Zigbee device manager for smart home networks.
+ Built with GTK4/Adwaita. Part of the [Danne L10n
+ Suite](https://github.com/yeager/debian-repo).
+ ```bash
+ sudo apt install zigbee-manager
+ ```
 
 Package: zscaler-api-client
 Version: 2.1.0-1

@@ -7,8 +7,8 @@ do_hash() {
     echo "${HASH_NAME}:"
     for f in $(find . -type f ! -name "Release*" ! -name "InRelease" | sort); do
         f=$(echo $f | cut -c3-)
-        SIZE=$(wc -c < "$f" | tr -d ' ')
-        HASH=$($HASH_CMD "$f" | cut -d' ' -f1)
+        SIZE=$(wc -c < "$f" | tr -d " ")
+        HASH=$($HASH_CMD "$f" | cut -d" " -f1)
         echo " ${HASH} ${SIZE} ${f}"
     done
 }
