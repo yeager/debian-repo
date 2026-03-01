@@ -101,6 +101,22 @@ Description: Visual reward system with stars and goals
  .
  Visual reward system with stars and goals
 
+Package: berattarverkstan
+Version: 0.1.0-1
+Architecture: all
+Maintainer: Daniel Nylander <daniel@danielnylander.se>
+Depends: python3 (>= 3.10), python3-gi, gir1.2-gtk-4.0, gir1.2-adw-1
+Filename: ./berattarverkstan_0.1.0_all.deb
+Size: 4498
+MD5sum: 3637352be852582318b55ff24f8d92bf
+SHA1: cd9d0a479beb231bf1e9e467676cbc01c3db89b2
+SHA256: 95fa3f8b63153e4b7698666d2dcca3e95b80ed1d6ab8ff65ced131c3e967a03b
+Section: education
+Priority: optional
+Homepage: https://github.com/yeager/berattarverkstan
+Description: Narrative building and story sequencing for language therapy
+ GTK4/Adwaita app for children with speech and verbal dyspraxia.
+
 Package: bildordbok
 Version: 0.3.6
 Architecture: all
@@ -407,6 +423,22 @@ Description: Visual editor for .desktop files with preview, validation, and tran
  ```bash
  sudo apt install desktop-editor
  ```
+
+Package: efterharmaren
+Version: 0.1.0-1
+Architecture: all
+Maintainer: Daniel Nylander <daniel@danielnylander.se>
+Depends: python3 (>= 3.10), python3-gi, gir1.2-gtk-4.0, gir1.2-adw-1
+Filename: ./efterharmaren_0.1.0_all.deb
+Size: 4454
+MD5sum: 8aa95e3533a48fa9a841f1874eb15422
+SHA1: 3db9fd13caa5b22a543ce69a5b37c35edc5f5262
+SHA256: c69e8ebe8857cb0a7c468cb832b822d737928361bb15f61b9a4cbf1edeb5223e
+Section: education
+Priority: optional
+Homepage: https://github.com/yeager/efterharmaren
+Description: Speech imitation and motor planning exercises for dyspraxia
+ GTK4/Adwaita app for children with speech and verbal dyspraxia.
 
 Package: elementary-l10n
 Version: 0.4.0
@@ -794,6 +826,26 @@ Description: GTK4/Adwaita translation assistant using LibreTranslate API
  sudo apt install libretranslate-gui
  ```
 
+Package: libvisio-ng
+Version: 0.6.0-1
+Architecture: all
+Maintainer: Daniel Nylander <daniel@danielnylander.se>
+Installed-Size: 258
+Depends: python3 (>= 3.10), python3-olefile
+Recommends: python3-cairosvg
+Filename: ./libvisio-ng_0.6.0-1_all.deb
+Size: 51848
+MD5sum: 12f9e70f2d6dfd72623ece08babde330
+SHA1: 3fd61803430d7b45c75490585917102d36a6aff5
+SHA256: 85e5e470c6bb960e4cb2b2097fde5952f1c8834f82a97e568919ee990570ef75
+Section: python
+Priority: optional
+Homepage: https://github.com/yeager/libvisio-ng
+Description: Python library for parsing Microsoft Visio files
+ libvisio-ng is a pure Python library for parsing Microsoft Visio files
+ (.vsdx and .vsd). It supports both XML-based and binary/OLE2 formats
+ natively without external C++ dependencies. Includes a visio2svg CLI tool.
+
 Package: linguaedit
 Version: 1.8.15
 Architecture: all
@@ -829,6 +881,22 @@ Description: Sound sensitivity tool with custom sound profiles
  localization and accessibility tools for Linux.
  .
  Sound sensitivity tool with custom sound profiles
+
+Package: ljudlotteriet
+Version: 0.1.0-1
+Architecture: all
+Maintainer: Daniel Nylander <daniel@danielnylander.se>
+Depends: python3 (>= 3.10), python3-gi, gir1.2-gtk-4.0, gir1.2-adw-1
+Filename: ./ljudlotteriet_0.1.0_all.deb
+Size: 4448
+MD5sum: cb29a5b6019012be9cf41f165704ab1f
+SHA1: ca2fadf391ec0d029796808b25973af3dc2d5e3d
+SHA256: e5b64db55c4f7252cf8b085a871c4d593d19b8f1b7ed1089311a21b85198ba52
+Section: education
+Priority: optional
+Homepage: https://github.com/yeager/ljudlotteriet
+Description: Sound discrimination and phoneme lottery for speech therapy
+ GTK4/Adwaita app for children with speech and verbal dyspraxia.
 
 Package: locale-tester
 Version: 0.2.7
@@ -1093,6 +1161,22 @@ Description: MQTT message inspector for IoT
  sudo apt install mqtt-inspector
  ```
 
+Package: mungymnastiken
+Version: 0.1.0-1
+Architecture: all
+Maintainer: Daniel Nylander <daniel@danielnylander.se>
+Depends: python3 (>= 3.10), python3-gi, gir1.2-gtk-4.0, gir1.2-adw-1
+Filename: ./mungymnastiken_0.1.0_all.deb
+Size: 4430
+MD5sum: 1fa064d85e1fc54cbb7e80f4736fec5e
+SHA1: 54c10da3fbc0cff458390af71f647c38cd755075
+SHA256: 0bc20ae90044232a69389e2330dcdaa7b6125a713566b13241619d6f7c9d4726
+Section: education
+Priority: optional
+Homepage: https://github.com/yeager/mungymnastiken
+Description: Oral motor exercises for speech and verbal dyspraxia
+ GTK4/Adwaita app for children with speech and verbal dyspraxia.
+
 Package: new-queue-monitor
 Version: 0.1.3
 Architecture: all
@@ -1153,6 +1237,22 @@ Description: Phonological training app - build words from sounds and letters
  ```bash
  sudo apt install ordbyggaren
  ```
+
+Package: ordparaden
+Version: 0.1.0-1
+Architecture: all
+Maintainer: Daniel Nylander <daniel@danielnylander.se>
+Depends: python3 (>= 3.10), python3-gi, gir1.2-gtk-4.0, gir1.2-adw-1
+Filename: ./ordparaden_0.1.0_all.deb
+Size: 4426
+MD5sum: 2f013c86b2bd4302616e84eb59374bd3
+SHA1: 1316de18cc477321bd9a4c2cce04fc66f2f562df
+SHA256: abe165fcfea9140c22a45366aa18765b3a974f18929b6896fc4c12e07dfc54d8
+Section: education
+Priority: optional
+Homepage: https://github.com/yeager/ordparaden
+Description: Word sequencing and articulation practice for CAS
+ GTK4/Adwaita app for children with speech and verbal dyspraxia.
 
 Package: ovningstavlan
 Version: 0.1.0-1
@@ -1577,6 +1677,23 @@ Description: GTK4/Adwaita system information and benchmark tool
  sudo apt install sysinfo-gtk
  ```
 
+Package: talrytmen
+Version: 0.1.0-1
+Architecture: all
+Maintainer: Daniel Nylander <daniel@danielnylander.se>
+Depends: python3 (>= 3.10), python3-gi, gir1.2-gtk-4.0, gir1.2-adw-1
+Filename: ./talrytmen_0.1.0_all.deb
+Size: 4444
+MD5sum: 2c3e7ff3640de2f9b7ab1f90a60dd867
+SHA1: 9e99d3865542f93ed1c6f61cfd0da9025a415309
+SHA256: d0c5d22b2a742f69c956fddb08b0bf286278a58e2dd83ed97682a3815975dec5
+Section: education
+Priority: optional
+Homepage: https://github.com/yeager/talrytmen
+Description: Speech rhythm and prosody training for verbal dyspraxia
+ A GTK4/Adwaita application for children with speech
+ and verbal dyspraxia (CAS/DTTC).
+
 Package: tidskollen
 Version: 0.2.5
 Architecture: all
@@ -1806,19 +1923,20 @@ Description: Zigbee device management via Zigbee2MQTT
  ```
 
 Package: zscaler-api-client
-Version: 2.1.0-1
+Version: 2.1.0
 Architecture: all
 Maintainer: Daniel Nylander <daniel@danielnylander.se>
-Depends: python3 (>= 3.10), python3-pyside6.qtcore, python3-pyside6.qtgui, python3-pyside6.qtwidgets, python3-keyring
-Filename: ./zscaler-api-client_2.1.0-1_all.deb
-Size: 249330
-MD5sum: 30d46edf480ada01876bd7f678f4bdc9
-SHA1: da8d5d23ccbe710c17e45c682749376f1cee6173
-SHA256: 8ca6db540b67a968892db7ce7f55bf4f629ec1d111665342a7c168bb0ea5caef
+Depends: python3 (>= 3.10)
+Recommends: python3-pyside6
+Filename: ./zscaler-api-client_2.1.0_all.deb
+Size: 250976
+MD5sum: a7380ffc78d61ace6b435a07154d01aa
+SHA1: 3ab4a511d6b46ba6b5109521fe72e85f507f0cdf
+SHA256: ef23ccb3fb8d9aacfd0deee20e7ae68cdd302ce9b3ab3dfc4b0c5cc099ce866b
 Section: utils
 Priority: optional
 Homepage: https://github.com/yeager/zscaler-api-client
-Description: Postman-like API client for Zscaler APIs
- Supports ZIA (Zscaler Internet Access) and ZPA (Zscaler Private Access)
- with batch operations, CSV import, and multi-language support.
+Description: Zscaler ZIA/ZPA API client
+ A PySide6/Qt6 application for managing Zscaler ZIA and ZPA
+ configurations via the Zscaler API.
 
