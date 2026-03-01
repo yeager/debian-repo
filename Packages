@@ -1345,11 +1345,13 @@ Architecture: all
 Maintainer: Daniel Nylander <daniel@danielnylander.se>
 Installed-Size: 268
 Depends: python3 (>= 3.10), python3-gi, gir1.2-gtk-4.0, gir1.2-adw-1
+Conflicts: packetlens
+Replaces: packetlens
 Filename: pool/pcap-viewer_0.2.7-1_all.deb
-Size: 37906
-MD5sum: 1759847ee46f58871b5fb98f184ad949
-SHA1: be50a3a372788b676138371b9127584583d61864
-SHA256: 781bd556f9367c3893b45d2d9abb1640d1e9a0f11c575b20c16b46255c6744f8
+Size: 37930
+MD5sum: 573b6726ba91b539c9e9f037e91e8d17
+SHA1: fba2e8168db777ef6a40ac56d0c677b2912686dc
+SHA256: 99d31aecce6d87d8f791d0b26eb623f07f215f20e831d292b92d89dc9651b5f8
 Section: net
 Priority: optional
 Homepage: https://github.com/yeager/pcap-viewer
