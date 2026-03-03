@@ -9,7 +9,7 @@ Version: 1.0
 Architectures: amd64 arm64 armhf i386 all
 Components: main
 Description: Autism Apps Package Repository
-Date: Tue, 03 Mar 2026 10:55:34 UTC
+Date: Tue, 03 Mar 2026 10:55:45 UTC
 MD5Sum:
  e142a97aab716061fbe0491e27ac2d0a    76943 main/binary-all/Packages
  e142a97aab716061fbe0491e27ac2d0a    76943 main/binary-amd64/Packages
@@ -45,17 +45,17 @@ SHA256:
  4540c5097cddde2e00378749b8f77d4042102c4790e4f116c74d4f30bbdecce2    18107 main/binary-i386/Packages.gz
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAEBCAAdFiEEN5hu++1i1inAzyaO4xjH3j2ofFsFAmmmvicACgkQ4xjH3j2o
-fFue/hAAmSpJsBnajTP79OeLSkkqJFyuQEGqWS4+kjyj18OGUEdYEdS9MzwARl7W
-XJx5Y/OXlgTas710hINxi+373tJfE06HHXTnOYtGnUvY8nceIidYCEmsUkp9hNdd
-2Cs1lqfLhlc1T5Td/7kPzMPBe4mOqRq++tJe1UZznbjgvMivyHed+oM8AEbU3QSc
-AJE2U9zHSy9vIroYCo+B8BGmEoVyIVz3BCoA0y4QnCUEbnsBwlFiTfrcDdg8acy6
-OdSQILjYleyO1lpZweBiYrjyS7gJAJo6DWwFxbjVFLWormKq9HbFlQhorCHuzcnB
-EuKNictkXih/wA+Ucj12BF4+SyZPW8W3QYpBfoAFIrczyV6BswEgSnYzVgVBpANo
-zl5Qc5Wy/5PydCG8IP2AzQAkQmIKpy//9t9tT89LN+uUn1NyuEu5kcke6YdcWTI9
-mLLuhjz1CyH5ApsQARsQlAdp05i0+t9JgBQB/Cl7ow3KRSu5eLEFxf9CSbIP8lzf
-+5HTxyMY8xzJ9lAffXbAFOK9XYLVwtPN4QtavnLmA07ydEKik8Eknb2vPFO12/zL
-7yVske7wIKnlI9X0n/LBA6SsvbTqxuRUss+wvB4wdV5w9eVk8JNDq7ZO0jgzR5dI
-6+wYsDaP3e41LBrbFPNop0SYGpBYwJ6lpUJgYb5ayJUQZs01PPs=
-=euYQ
+iQIzBAEBCAAdFiEEN5hu++1i1inAzyaO4xjH3j2ofFsFAmmmvkUACgkQ4xjH3j2o
+fFvgag/+Mw+0LgQVz4gqw7AAdAbokLXku+Em9S45XCl9mVSXUYKOt5xaPMNB8y1f
+qa430oQ7Xzb2uA3ZE8xhTU6obK0oXtXf52UZGyXqRW7xkBsNMt0Bhtj+53oVu/Xu
+SWjhtObAPo9JJZ83tnpb+EOzcItRLyOWLEq29pZxFuOWGju4vGzAXx9h/FGKR3cS
+nhx771PdlKDs0f5IHQaQJ8SQckVpWBMsV23Odt09cCiQvFMZZWpfnpX+VDS0LBtf
+PZvCvsBwwA6+RNtCwjDU3JjcK5jPIWI/Qm1RTpJiFFoQm4QhGc5FXWYlfxGlx0F/
+sS3u4l4K8eciyg3ldEA1Fa212Wbgo9zxkqOgARH7AImWBMAawFVOEoTABsNiPEvo
+OMfESZb5BuZrZn+1w/gYiMl2Fj89OIAjPL9d0WCV7+S8+MOZfvC4iLyKk44sA//K
+EydYo6NlAcaoyYZvZrMarAhqg2Il8wlpTzw0E2IsFxfwGeMF5c/relPg+Bw762GM
+jazsT9tfHTpkkMO+ypfw/HWfRzusO6dTjYljjEczmNRfnxMu50x9AtgKamClq4oZ
+SzhZaCR30+0IIYWCM96wQ4Obhqooll4tKhvpsAoQWy1ehN2ywotsVPITh99+n31k
+SCKZSZDmz5FYBhKSWg8Q5luB/f/ZHAaEC+l9H2hXLOR7O62zJIE=
+=DPGW
 -----END PGP SIGNATURE-----
