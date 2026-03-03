@@ -8,21 +8,35 @@ Codename: stable
 Architectures: amd64 arm64
 Components: main
 Description: Danne L10n Suite Repository
-Date: Tue, 03 Mar 2026 16:01:07 UTC
-
+Date: Tue, 03 Mar 2026 16:01:53 UTC
+MD5Sum:
+  731 main/binary-amd64/Packages
+  508 main/binary-amd64/Packages.gz
+  731 main/binary-arm64/Packages
+  508 main/binary-arm64/Packages.gz
+SHA1:
+  731 main/binary-amd64/Packages
+  508 main/binary-amd64/Packages.gz
+  731 main/binary-arm64/Packages
+  508 main/binary-arm64/Packages.gz
+SHA256:
+  731 main/binary-amd64/Packages
+  508 main/binary-amd64/Packages.gz
+  731 main/binary-arm64/Packages
+  508 main/binary-arm64/Packages.gz
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAEBCAAdFiEEN5hu++1i1inAzyaO4xjH3j2ofFsFAmmnBcMACgkQ4xjH3j2o
-fFsybBAAnU0GTRR/v+lqGeppdkD9RFdtqHzuGrK8nvZ/ZDnhIm9jgIHdUxgEdRzD
-bVQm5A9iOsuEM62GWA54dIQCCT+jTMuTlLG0rUofulLZUlHAm3S+K/gENyvr4NZO
-R/gVBxbpVCnvX4w/uWouApj1+ir1YvjRNlp228LfkaFl5hZ8cQb6rcb4JXgcZ3lA
-S0HJKTFbBJ1OAskiMiBQBFSWnh939x6mWn7S2OQOi5VOreWLsX1BT+E27itMp6nf
-d3/1NsKGw4ZFmhGpBvrXixmSNdqcHxO13Isq/oHe9G0W6p96m70RUCYNk9IHeimf
-GaFB9smLLi1PIskxDFz0EeJ5Ew0k6ssuFmU4EQ7/kJlRR5piU9hVpNnoSwr2+SaO
-4jWrF9nKioV7wep3/3qAhJRw3uEl+oUQX5zGACzE087bRYM4eS2NCIgdRRnv6ySc
-AJA/WRUw+MljKOcz7W12HyXeP8Nr26bkH3Df90nIGU1KW4mxAa7+Gf36Ci33pYGc
-TF3ezMR8kcgC9G/KZEejxuYykjQbXJnj/YXl7Cl0DAekoD35TxxAfOCn+Zyb+5D8
-SPpM9WloC/mspO7z3aDZYfhqO+q3ZlzJmMojmW0mmVMmgiUXC0l7gtOwbgW1rN8g
-OM1uO1LhmYV12y5oIBp6qGD8uSyeWzB9lXxSuCgAJgDrzJ/SJoY=
-=fir8
+iQIzBAEBCAAdFiEEN5hu++1i1inAzyaO4xjH3j2ofFsFAmmnBfEACgkQ4xjH3j2o
+fFuabA/+IiFJW3yLHvC1jMQrt45EabxdcTuCyKUdr/g8vyv76FhTMSAQgB51cvsR
+9QqPhhfwAJMdF1pjOddNydd5R8W/GcYilF4HVQBrM1PvYJZM/ioonnOVwjvzVQaC
+3tfVGgPh0VdFbjwRDX9EFmcCf/reW9ARw0mmHo8zJmKUAIggS7tZ7/rkdlla7Ul5
+JIJU6fj4pRx/oUDIk30yLHFtlAPblj8iyou9YVowEIELB5+LRR64nsmC+n5nbYK9
++KmWOYMP8sGz5BoutvmXUwG9o/NUzb7Rww/cIpyQ5kwAEn8n0yC/WpACJa0SmJnk
+UjIJNOXjdbqnywAqhbega5WSdbCGi2raYxUtE37sJbgYRIIy1Uybyz5t38QMcZKb
+7KGdLWRYEuhsz68VLz3XgZ6tgkhp7qcbVwXvYg8B8g5aBQ11A1h3CZ7QwX0S9Uuc
+ThweI+Ia+BNqddpefMDmSOfp4RLq3qqBzFvSoc2B4TE8KpvKVSdHa/O7bPp/NfXg
+TDUfKTzjbpRdrpfz32/iGot8/GthNwaq/IZ/LpjW5eaWEmWSLbo8sP+XI49QkBDy
+O+IPXX5wR2Lf++Pt3cLD6GHMqTTiKwayF826ssb3jFbTvgAjkE0mynoMAiGBirhN
+l/RYP/T7wuzPxpOgbIPjMWaU7PDZPErlZtADe0b4eZX4aryLsbk=
+=SXWi
 -----END PGP SIGNATURE-----
