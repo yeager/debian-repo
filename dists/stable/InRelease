@@ -5,57 +5,24 @@ Origin: Danne L10n Suite
 Label: Danne L10n Suite
 Suite: stable
 Codename: stable
-Version: 1.0
-Architectures: amd64 arm64 armhf i386 all
+Architectures: amd64 arm64
 Components: main
-Description: Autism Apps Package Repository
-Date: Tue, 03 Mar 2026 10:55:45 UTC
-MD5Sum:
- e142a97aab716061fbe0491e27ac2d0a    76943 main/binary-all/Packages
- e142a97aab716061fbe0491e27ac2d0a    76943 main/binary-amd64/Packages
- e142a97aab716061fbe0491e27ac2d0a    76943 main/binary-arm64/Packages
- e142a97aab716061fbe0491e27ac2d0a    76943 main/binary-armhf/Packages
- e142a97aab716061fbe0491e27ac2d0a    76943 main/binary-i386/Packages
- 16e9c12e63f856332abeb16854d076fe    18107 main/binary-all/Packages.gz
- 16e9c12e63f856332abeb16854d076fe    18107 main/binary-amd64/Packages.gz
- 16e9c12e63f856332abeb16854d076fe    18107 main/binary-arm64/Packages.gz
- 16e9c12e63f856332abeb16854d076fe    18107 main/binary-armhf/Packages.gz
- 16e9c12e63f856332abeb16854d076fe    18107 main/binary-i386/Packages.gz
-SHA1:
- af284bd4752c21cdaad7dc9f87d9e846bc936264    76943 main/binary-all/Packages
- af284bd4752c21cdaad7dc9f87d9e846bc936264    76943 main/binary-amd64/Packages
- af284bd4752c21cdaad7dc9f87d9e846bc936264    76943 main/binary-arm64/Packages
- af284bd4752c21cdaad7dc9f87d9e846bc936264    76943 main/binary-armhf/Packages
- af284bd4752c21cdaad7dc9f87d9e846bc936264    76943 main/binary-i386/Packages
- 528cda1e5c701640cf257abd9a2b15e9f9eb2bf5    18107 main/binary-all/Packages.gz
- 528cda1e5c701640cf257abd9a2b15e9f9eb2bf5    18107 main/binary-amd64/Packages.gz
- 528cda1e5c701640cf257abd9a2b15e9f9eb2bf5    18107 main/binary-arm64/Packages.gz
- 528cda1e5c701640cf257abd9a2b15e9f9eb2bf5    18107 main/binary-armhf/Packages.gz
- 528cda1e5c701640cf257abd9a2b15e9f9eb2bf5    18107 main/binary-i386/Packages.gz
-SHA256:
- c1f89f726e1693b63a92ab1b924b405f1d8e77dacc360da1e49b9a093a1d401f    76943 main/binary-all/Packages
- c1f89f726e1693b63a92ab1b924b405f1d8e77dacc360da1e49b9a093a1d401f    76943 main/binary-amd64/Packages
- c1f89f726e1693b63a92ab1b924b405f1d8e77dacc360da1e49b9a093a1d401f    76943 main/binary-arm64/Packages
- c1f89f726e1693b63a92ab1b924b405f1d8e77dacc360da1e49b9a093a1d401f    76943 main/binary-armhf/Packages
- c1f89f726e1693b63a92ab1b924b405f1d8e77dacc360da1e49b9a093a1d401f    76943 main/binary-i386/Packages
- 4540c5097cddde2e00378749b8f77d4042102c4790e4f116c74d4f30bbdecce2    18107 main/binary-all/Packages.gz
- 4540c5097cddde2e00378749b8f77d4042102c4790e4f116c74d4f30bbdecce2    18107 main/binary-amd64/Packages.gz
- 4540c5097cddde2e00378749b8f77d4042102c4790e4f116c74d4f30bbdecce2    18107 main/binary-arm64/Packages.gz
- 4540c5097cddde2e00378749b8f77d4042102c4790e4f116c74d4f30bbdecce2    18107 main/binary-armhf/Packages.gz
- 4540c5097cddde2e00378749b8f77d4042102c4790e4f116c74d4f30bbdecce2    18107 main/binary-i386/Packages.gz
+Description: Danne L10n Suite Repository
+Date: Tue, 03 Mar 2026 16:01:07 UTC
+
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAEBCAAdFiEEN5hu++1i1inAzyaO4xjH3j2ofFsFAmmmvnkACgkQ4xjH3j2o
-fFvu6g//dUq6qb8g6ygPILVmF2fRXY2Ed5QZCwfs5cVKAdLFngUyItbMQjTPZuOZ
-VKkeyhbSQOPj/QpKF6Qjn6wmcWjZvyNUM5elonRO3ciF0JHkIC0wX5fWSBEilvXS
-Zc42wrwE1rU+czAz0lYfGtGkNr9MqAOnZMxNnmbmWH31DXr4CYO8o6ZFZfPHIc77
-+lz/pFcCARV3HbsU2NH2Nluis/QBF1/S64Za7nkufdgJy58L6ycyunxldTNBxyuu
-6xbAJfdXTRv24KYrwlGNC40/BApRK0EqYcU0BzisMJgNE8dUQGzHxfbaWJ9ktNTQ
-SmSN/K2Iv/nu6Yn6dxwKZXd2WeZi2Pg35j5jtQM1myp2kh7LJQEiMPclBAuStBRl
-SVmiNHfZIP+J+vrAtixHjeroM4FYyn243GaxrziELp5Dg1YhpMe+jqJNPe/dqZTg
-vARb7xi1o+mDoSbxrITihbSseJlQ2a7pQ/4O9CdQEETTnxoYKcN1uO0l/MowL0ps
-rp0Wv5XQidlKG6ZuGJ6IrmiSzvgtvw5yHQzmoehWrS+lomsVoMjfTscOtWUM1A8Q
-9SF0eeze8QUjT5CwAL4a9e4wHh2jOmNUgPmDqIFUkImZMgdpScJXNnIqfvvTQh09
-YiDNPwfxgYN7T0pjWIA1N963LNKMQRHzXyUmYD+3hftXhgAaioY=
-=gICJ
+iQIzBAEBCAAdFiEEN5hu++1i1inAzyaO4xjH3j2ofFsFAmmnBcMACgkQ4xjH3j2o
+fFsybBAAnU0GTRR/v+lqGeppdkD9RFdtqHzuGrK8nvZ/ZDnhIm9jgIHdUxgEdRzD
+bVQm5A9iOsuEM62GWA54dIQCCT+jTMuTlLG0rUofulLZUlHAm3S+K/gENyvr4NZO
+R/gVBxbpVCnvX4w/uWouApj1+ir1YvjRNlp228LfkaFl5hZ8cQb6rcb4JXgcZ3lA
+S0HJKTFbBJ1OAskiMiBQBFSWnh939x6mWn7S2OQOi5VOreWLsX1BT+E27itMp6nf
+d3/1NsKGw4ZFmhGpBvrXixmSNdqcHxO13Isq/oHe9G0W6p96m70RUCYNk9IHeimf
+GaFB9smLLi1PIskxDFz0EeJ5Ew0k6ssuFmU4EQ7/kJlRR5piU9hVpNnoSwr2+SaO
+4jWrF9nKioV7wep3/3qAhJRw3uEl+oUQX5zGACzE087bRYM4eS2NCIgdRRnv6ySc
+AJA/WRUw+MljKOcz7W12HyXeP8Nr26bkH3Df90nIGU1KW4mxAa7+Gf36Ci33pYGc
+TF3ezMR8kcgC9G/KZEejxuYykjQbXJnj/YXl7Cl0DAekoD35TxxAfOCn+Zyb+5D8
+SPpM9WloC/mspO7z3aDZYfhqO+q3ZlzJmMojmW0mmVMmgiUXC0l7gtOwbgW1rN8g
+OM1uO1LhmYV12y5oIBp6qGD8uSyeWzB9lXxSuCgAJgDrzJ/SJoY=
+=fir8
 -----END PGP SIGNATURE-----

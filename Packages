@@ -651,6 +651,25 @@ Description: Shape and Color Game - Visual learning game
  Learn shapes and colors through sorting games designed for children with autism and special educational needs.
  Built with GTK4/Adwaita. Part of the autism apps suite.
 
+Package: freeipa-manager
+Version: 0.1.0-1
+Architecture: all
+Maintainer: Daniel Nylander <daniel@danielnylander.se>
+Depends: python3, python3-gi, gir1.2-gtk-4.0, gir1.2-adw-1, python3-requests
+Recommends: python3-gssapi
+Filename: ./freeipa-manager_0.1.0-1.deb
+Size: 24734
+MD5sum: bfc105dac006ea5ba03ed48cac083a45
+SHA1: 0bc0562d81a3c7750400ec04f0b6f24daab84b2a
+SHA256: 0a3ba8b7ea3ccbbfaac38fec2ba6db8eb207298b6fef125033877b138e3e9d49
+Section: admin
+Priority: optional
+Homepage: https://github.com/yeager/freeipa-manager
+Description: FreeIPA GTK4 client and CLI
+ A graphical client and command-line tool for managing FreeIPA servers.
+ Features a dashboard, user/group/host management, DNS, certificates,
+ and HBAC/sudo policy views.
+
 Package: gettext-coverage
 Version: 0.1.3
 Architecture: all
