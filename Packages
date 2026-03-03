@@ -62,22 +62,22 @@ Description: GTK4/Adwaita visual editor for AAC communication boards
  GTK4/Adwaita visual editor for AAC communication boards
 
 Package: autismappar
-Version: 0.2.0-1
+Version: 0.3.0-1
 Architecture: all
 Maintainer: Daniel Nylander <daniel@danielnylander.se>
-Depends: xdg-utils
-Filename: ./autismappar_0.2.0-1.deb
-Size: 16615378
-MD5sum: fc36f4492ed0b8ab73b47da0b9b23313
-SHA1: 130ae38669b2f5aed3519dffd8ab08d35ad852b8
-SHA256: 949a11d521cf5c76ab3f7bac7356893bbea3d5affb8fa04f71061c3b008e9256
+Depends: python3
+Filename: ./autismappar_0.3.0-1.deb
+Size: 18027654
+MD5sum: 3d2e851323c777421d056df2533886c4
+SHA1: 5293458bd1fc2bc6cf1b38f2b1e01b476b1b0fb1
+SHA256: ab70e38b2b7ae179bd9df4b5fd758f916dfe178f6ca2915324b280177682e11e
 Section: education
 Priority: optional
 Homepage: https://autismappar.se
-Description: Autism Apps - Interactive educational apps for autism support
- A collection of educational and therapeutic apps designed to help individuals
- with autism spectrum disorders. This package includes communication aids,
- visual schedules, learning games, and other specialized tools.
+Description: Autism Apps - Communication and Learning Tools
+ A collection of 56+ apps for children with autism, language disorders,
+ and other neurodevelopmental conditions. Includes communication boards,
+ visual schedules, TTS, PECS, social stories, and learning tools.
 
 Package: autopkgtest-runner
 Version: 0.1.3
