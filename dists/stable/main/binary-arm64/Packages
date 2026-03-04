@@ -1484,6 +1484,31 @@ Description: GTK4 process explorer - htop in a GUI
  sudo apt install process-explorer
  ```
 
+Package: python3-libvisio-ng
+Source: libvisio-ng
+Version: 0.7.0-1
+Architecture: all
+Maintainer: Daniel Nylander <daniel@danielnylander.se>
+Installed-Size: 264
+Depends: python3-olefile, python3:any
+Recommends: python3-cairosvg
+Filename: pool/main/libl/libvisio-ng/python3-libvisio-ng_0.7.0-1_all.deb
+Size: 52762
+MD5sum: 5405b5e0c40ecb643af92b5618a16ff9
+SHA1: afe8b6b15a4a4b3cebbba1cc0dcb6516d98363c2
+SHA256: 7bfe1a54e1fd1475cfff105195713120a1d1837aba57c6c75fe08f8da323cf4b
+Section: python
+Priority: optional
+Homepage: https://github.com/yeager/libvisio-ng
+Description: Pure-Python parser for Microsoft Visio files (.vsdx/.vsd)
+ libvisio-ng is a pure-Python library for parsing Microsoft Visio files
+ in both modern XML (.vsdx) and legacy binary (.vsd) formats. It
+ supports themes, gradients, shadows, hatching, connectors, master
+ shapes, NURBS, splines, embedded images, and layers.
+ .
+ It surpasses the C++ libvisio in feature coverage and is actively
+ maintained. It includes a visio2svg command-line converter.
+
 Package: raknestod
 Version: 0.1.0-1
 Architecture: all
