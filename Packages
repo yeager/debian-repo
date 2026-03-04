@@ -265,16 +265,16 @@ Description: GTK4/Adwaita app to visualize Unicode CLDR locale data completeness
  ```
 
 Package: clipkeeper
-Version: 0.2.0-1
+Version: 0.2.1-1
 Architecture: all
 Maintainer: Daniel Nylander <daniel@danielnylander.se>
 Installed-Size: 80
 Depends: python3-gi, python3:any, gir1.2-gtk-4.0, gir1.2-adw-1
-Filename: pool/main/c/clipkeeper/clipkeeper_0.2.0-1_all.deb
-Size: 16124
-MD5sum: 1a5b25e955ee23a98c782056c9b66ed7
-SHA1: e7a1864d4e084c9ce4e3ee300f0462427289ac31
-SHA256: d762e867c7ad673632eacf7e49b3ff56fb52bff78fae389849848face0d3d2a3
+Filename: pool/main/c/clipkeeper/clipkeeper_0.2.1-1_all.deb
+Size: 16292
+MD5sum: 0b3b0a0ddfe900afa06d0069afed49e0
+SHA1: 64ef49ca5a6199f8fbffbfef0af8d1050b955dcb
+SHA256: bdf7b7f04348455de59c618162a8911be3812fb424add95bb5576384c1afd402
 Section: utils
 Priority: optional
 Homepage: https://github.com/yeager/clipkeeper
