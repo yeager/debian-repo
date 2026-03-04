@@ -370,16 +370,16 @@ Description: Translate Debian package descriptions via DDTP
  ```
 
 Package: debconf-translator
-Version: 0.3.0-1
+Version: 0.3.1-1
 Architecture: all
 Maintainer: Daniel Nylander <daniel@danielnylander.se>
 Installed-Size: 120
 Depends: python3-gi, python3:any, gir1.2-gtk-4.0, gir1.2-adw-1
-Filename: pool/main/d/debconf-translator/debconf-translator_0.3.0-1_all.deb
-Size: 22332
-MD5sum: 75f6ba7340588a79d472a60e50da6b16
-SHA1: 9d7ca3b5a41f90bd7dca96363c67c917afcb8e1a
-SHA256: 98f5c6de1d035bc392c6312066a708909b8f3552f2262570857beabc99114809
+Filename: pool/main/d/debconf-translator/debconf-translator_0.3.1-1_all.deb
+Size: 22362
+MD5sum: bd83d372c580591ec4d9d77d6865721c
+SHA1: 41e5d1e721cd11ab124cc10b8a1bddb999574d80
+SHA256: ee89be21af339ec3c71aab457a777d86c51f00ec4572aed3ae0a8eae21545b1d
 Section: devel
 Priority: optional
 Homepage: https://github.com/yeager/debconf-translator
@@ -647,6 +647,25 @@ Homepage: https://github.com/yeager/formspelet
 Description: Shape and Color Game - Visual learning game
  Learn shapes and colors through sorting games designed for children with autism and special educational needs.
  Built with GTK4/Adwaita. Part of the autism apps suite.
+
+Package: freeipa-manager
+Version: 0.2.0-1
+Architecture: all
+Maintainer: Daniel Nylander <daniel@danielnylander.se>
+Installed-Size: 168
+Depends: python3-gi, python3-gssapi, python3-requests, python3:any, gir1.2-gtk-4.0, gir1.2-adw-1
+Filename: pool/main/f/freeipa-manager/freeipa-manager_0.2.0-1_all.deb
+Size: 24444
+MD5sum: 84df9eed8b98af7139d54bc9b95e751a
+SHA1: 35e6a50e94bdfac51c76823c2792a5e715bfa19c
+SHA256: 7694381afcff712b0e30a530598086fddc5cd305c01d805ee49526769bebc261
+Section: admin
+Priority: optional
+Homepage: https://github.com/yeager/freeipa-manager
+Description: GTK4 GUI and CLI for managing FreeIPA servers
+ FreeIPA Manager provides a GTK4/Adwaita GUI and CLI for managing
+ FreeIPA servers with sidebar navigation, settings view, user/group/host
+ management, and keyboard shortcuts.
 
 Package: gettext-coverage
 Version: 0.1.3
