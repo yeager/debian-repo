@@ -5,19 +5,19 @@ Codename: stable
 Architectures: amd64 arm64 all
 Components: main
 Description: L10n App Suite repository
-Date: Wed, 04 Mar 2026 15:43:29 UTC
+Date: Wed, 04 Mar 2026 15:57:28 UTC
 MD5Sum:
- 66154a9bc9b51ce37ebf7fc13ead7585 75238 main/binary-amd64/Packages
- 7e7a2724373d2089828b8b67fd9d2d62 17793 main/binary-amd64/Packages.gz
- 66154a9bc9b51ce37ebf7fc13ead7585 75238 main/binary-arm64/Packages
- f939db7ea3ae8362bf4631254574b808 17793 main/binary-arm64/Packages.gz
+ 382dc9cf0f311fac43a667f6debeeccf 75239 main/binary-amd64/Packages
+ 644b02eb40b1e89e99cd3a2ca098ec5d 17796 main/binary-amd64/Packages.gz
+ 382dc9cf0f311fac43a667f6debeeccf 75239 main/binary-arm64/Packages
+ 3a538dc1b62023a96e41a91f454f967d 17796 main/binary-arm64/Packages.gz
 SHA1:
- b05e32306f42ab5c91a496babbb9aa79bd04b765 75238 main/binary-amd64/Packages
- 7e1a601c3d11aeb85d8026677cab054b370ae7dd 17793 main/binary-amd64/Packages.gz
- b05e32306f42ab5c91a496babbb9aa79bd04b765 75238 main/binary-arm64/Packages
- d046aff461c76c3d8ac055ccbe04ae6aa9540509 17793 main/binary-arm64/Packages.gz
+ 37f4ad1aaf4f458737c0b50e75df7a4ac9a57c59 75239 main/binary-amd64/Packages
+ dbd13c9982d277d89fc4a01397c3ce9c07db1041 17796 main/binary-amd64/Packages.gz
+ 37f4ad1aaf4f458737c0b50e75df7a4ac9a57c59 75239 main/binary-arm64/Packages
+ 8b4168d651c3c5b2d15ab46e5ddb9ea0b41bd5b2 17796 main/binary-arm64/Packages.gz
 SHA256:
- 35f2a83eccc3eb059c0f9a480ff6b6afe6dcb57d915b09354f970227ae109373 75238 main/binary-amd64/Packages
- 6b4595bcec04eaf12af1766c4c94302f9008200b43396cd8df15716983389409 17793 main/binary-amd64/Packages.gz
- 35f2a83eccc3eb059c0f9a480ff6b6afe6dcb57d915b09354f970227ae109373 75238 main/binary-arm64/Packages
- 9620537f4cfa0296517ef20523c759109e62c09174c7dc40a805b94f16985749 17793 main/binary-arm64/Packages.gz
+ 2a7662135753c096cdb70953b7225d1146a2094cd572f3cc8a4f5e1c6b67f640 75239 main/binary-amd64/Packages
+ e22193bbc776a36274e3deb87543f5e32cc8af1ad6fbcfcae826a1a473fe0941 17796 main/binary-amd64/Packages.gz
+ 2a7662135753c096cdb70953b7225d1146a2094cd572f3cc8a4f5e1c6b67f640 75239 main/binary-arm64/Packages
+ 5cf8bc0ca885dd1faebd68c8017c7b387ca5f4eba5d1be28653dc1325a8fbf8e 17796 main/binary-arm64/Packages.gz
