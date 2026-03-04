@@ -370,16 +370,16 @@ Description: Translate Debian package descriptions via DDTP
  ```
 
 Package: debconf-translator
-Version: 0.3.1-1
+Version: 0.4.0-1
 Architecture: all
 Maintainer: Daniel Nylander <daniel@danielnylander.se>
-Installed-Size: 120
+Installed-Size: 129
 Depends: python3-gi, python3:any, gir1.2-gtk-4.0, gir1.2-adw-1
-Filename: pool/main/d/debconf-translator/debconf-translator_0.3.1-1_all.deb
-Size: 22362
-MD5sum: bd83d372c580591ec4d9d77d6865721c
-SHA1: 41e5d1e721cd11ab124cc10b8a1bddb999574d80
-SHA256: ee89be21af339ec3c71aab457a777d86c51f00ec4572aed3ae0a8eae21545b1d
+Filename: pool/main/d/debconf-translator/debconf-translator_0.4.0-1_all.deb
+Size: 24346
+MD5sum: 6497e43b4ed014e562290a2b7b99d5dd
+SHA1: 7d2ce50e636b1e760f087ee91d99f5e0bd4dc108
+SHA256: 2c8cde39c0b6692a26230e5b87a068444269d656743e9562bf66f996baaefd39
 Section: devel
 Priority: optional
 Homepage: https://github.com/yeager/debconf-translator
