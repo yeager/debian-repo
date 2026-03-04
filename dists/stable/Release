@@ -2,22 +2,22 @@ Origin: Danne L10n Suite
 Label: Danne L10n Suite
 Suite: stable
 Codename: stable
-Architectures: amd64 arm64
+Architectures: amd64 arm64 all
 Components: main
-Description: Danne L10n Suite Repository
-Date: Tue, 03 Mar 2026 17:23:19 UTC
+Description: L10n App Suite repository
+Date: Wed, 04 Mar 2026 06:10:21 UTC
 MD5Sum:
- 5ef3ad5acc2302c4c06e79343231ba8e    71886 main/binary-amd64/Packages
- f1c99158ac39dcd91d525a208c721181    16993 main/binary-amd64/Packages.gz
- 5ef3ad5acc2302c4c06e79343231ba8e    71886 main/binary-arm64/Packages
- 4abc10a4c50e5bbdb38edf2a2ef64e31    16993 main/binary-arm64/Packages.gz
+ 4e5b6fc45a33363a43e02798e1e382c5 72396 main/binary-amd64/Packages
+ ce51c2f72d4a1d49f50446a210131151 16903 main/binary-amd64/Packages.gz
+ 4e5b6fc45a33363a43e02798e1e382c5 72396 main/binary-arm64/Packages
+ 492e49411a623d9c9b8957fee187014a 16903 main/binary-arm64/Packages.gz
 SHA1:
- 676356de4869eb95c3a3bee782637b9a011a8bc1    71886 main/binary-amd64/Packages
- 94950f444971187d47963af1f0017a40d4b0b7c9    16993 main/binary-amd64/Packages.gz
- 676356de4869eb95c3a3bee782637b9a011a8bc1    71886 main/binary-arm64/Packages
- edcbd40339feaf7b336b343dbcc1c5c8551c3e78    16993 main/binary-arm64/Packages.gz
+ c98518a4e56be0aaab4ba9927732ccd66df89a46 72396 main/binary-amd64/Packages
+ f5b4cdb170855d495a9db37a9f3577adf34eab74 16903 main/binary-amd64/Packages.gz
+ c98518a4e56be0aaab4ba9927732ccd66df89a46 72396 main/binary-arm64/Packages
+ 45b3531c67c57e2253e82b59d1c2f87a521ef4aa 16903 main/binary-arm64/Packages.gz
 SHA256:
- a238f8b547ca316384bf2589cd4f6b73b4cfd96da8c98330d2db6dc3fb3c60f4    71886 main/binary-amd64/Packages
- 3699a3b3dba9aa60b31e8c6fe44986e86fb295745491c4795fdb338db0657233    16993 main/binary-amd64/Packages.gz
- a238f8b547ca316384bf2589cd4f6b73b4cfd96da8c98330d2db6dc3fb3c60f4    71886 main/binary-arm64/Packages
- 9e2e6511a10e179e29eeb2fa181094ba9e7b204faca29ad2b77ba958aaef8bf1    16993 main/binary-arm64/Packages.gz
+ 7769bf1e9463273508c9f557cdd24d1359ef76472c300f0614cb09dd0391df1c 72396 main/binary-amd64/Packages
+ 6a523635754f91924fe480fbf7a59b4ab00181ec65f740e5142fd47b8dc79d88 16903 main/binary-amd64/Packages.gz
+ 7769bf1e9463273508c9f557cdd24d1359ef76472c300f0614cb09dd0391df1c 72396 main/binary-arm64/Packages
+ 20dd0c3fbac88a600ac0832a0b3f68e6198df74d4d75a492a522d5d9c447fff3 16903 main/binary-arm64/Packages.gz
