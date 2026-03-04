@@ -369,6 +369,26 @@ Description: Translate Debian package descriptions via DDTP
  sudo apt install ddtp-translate
  ```
 
+Package: debconf-translator
+Version: 0.1.0-1
+Architecture: all
+Maintainer: Daniel Nylander <daniel@danielnylander.se>
+Installed-Size: 99
+Depends: python3-gi, python3:any, gir1.2-gtk-4.0, gir1.2-adw-1
+Filename: pool/main/d/debconf-translator/debconf-translator_0.1.0-1_all.deb
+Size: 17134
+MD5sum: d8aa58d208f8e3bf0b9d154d78500bf6
+SHA1: df9f9462810e970f182212194d09d28bf6c194a7
+SHA256: 13f251ef2245f060f00fb0c9b14679b8b986d2a6ad6566e5a1dc519197dfb624
+Section: devel
+Priority: optional
+Homepage: https://github.com/yeager/debconf-translator
+Description: GTK4 tool for managing Debconf template translations
+ Debconf Translation Manager helps translators work with Debian package
+ configuration dialogs (debconf templates). Features include a dashboard
+ with translation statistics, built-in PO editor, review board tracking,
+ and BTS submission tools.
+
 Package: debian-installer-companion
 Version: 0.1.3
 Architecture: all
