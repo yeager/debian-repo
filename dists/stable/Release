@@ -2,22 +2,16 @@ Origin: Danne L10n Suite
 Label: Danne L10n Suite
 Suite: stable
 Codename: stable
-Architectures: amd64 arm64 all
+Architectures: all amd64 arm64 armhf i386
 Components: main
-Description: L10n App Suite repository
-Date: Wed, 04 Mar 2026 20:10:32 UTC
+Date: Thu, 05 Mar 2026 06:54:40 UTC
 MD5Sum:
- e338b25582b4ec0c716b1e53582f5ab4 76036 main/binary-amd64/Packages
- 4cb2333e8e3e7476be5adbbf0417aee4 18042 main/binary-amd64/Packages.gz
- e338b25582b4ec0c716b1e53582f5ab4 76036 main/binary-arm64/Packages
- 31653b926223c1de79b3f25701e3134a 18042 main/binary-arm64/Packages.gz
-SHA1:
- ea904673d0b1bd006d7e45a26b4f3edd4175c388 76036 main/binary-amd64/Packages
- 8af56231f780894699f06aa9ea92b853c786a149 18042 main/binary-amd64/Packages.gz
- ea904673d0b1bd006d7e45a26b4f3edd4175c388 76036 main/binary-arm64/Packages
- 6b710fbefab5b0d5c2c348bf0fe76201484cc334 18042 main/binary-arm64/Packages.gz
+ aabbf8c37474d4bf77ed748d33e5d9a1 81650 main/binary-amd64/Packages
+ 6fd706fc7634de76b7202a060bf12098 19659 main/binary-amd64/Packages.gz
+ aabbf8c37474d4bf77ed748d33e5d9a1 81650 main/binary-arm64/Packages
+ 6fd706fc7634de76b7202a060bf12098 19659 main/binary-arm64/Packages.gz
 SHA256:
- d8213b4d9e0223a001ebef877fd79d037a6fb17d21b9b3c2b27bffc58edde050 76036 main/binary-amd64/Packages
- adca43300728ea23bd13e54fe6718c6bc9cd7d5176a19af290c5639abe412c9b 18042 main/binary-amd64/Packages.gz
- d8213b4d9e0223a001ebef877fd79d037a6fb17d21b9b3c2b27bffc58edde050 76036 main/binary-arm64/Packages
- 47c379b4593e7186ff96337f9b334985ff4b3da20b15d15a4809c011b1319bc6 18042 main/binary-arm64/Packages.gz
+ 20ccf8a02eeae9ada373cca56cdf1654269c26be0eaff419c096f14946a5c469 81650 main/binary-amd64/Packages
+ 3fa166af3e8f31420cb222d294a6e8ff3826703a625f203d72eee4bf54dba732 19659 main/binary-amd64/Packages.gz
+ 20ccf8a02eeae9ada373cca56cdf1654269c26be0eaff419c096f14946a5c469 81650 main/binary-arm64/Packages
+ 3fa166af3e8f31420cb222d294a6e8ff3826703a625f203d72eee4bf54dba732 19659 main/binary-arm64/Packages.gz

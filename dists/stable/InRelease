@@ -5,38 +5,32 @@ Origin: Danne L10n Suite
 Label: Danne L10n Suite
 Suite: stable
 Codename: stable
-Architectures: amd64 arm64 all
+Architectures: all amd64 arm64 armhf i386
 Components: main
-Description: L10n App Suite repository
-Date: Wed, 04 Mar 2026 20:10:32 UTC
+Date: Thu, 05 Mar 2026 06:54:40 UTC
 MD5Sum:
- e338b25582b4ec0c716b1e53582f5ab4 76036 main/binary-amd64/Packages
- 4cb2333e8e3e7476be5adbbf0417aee4 18042 main/binary-amd64/Packages.gz
- e338b25582b4ec0c716b1e53582f5ab4 76036 main/binary-arm64/Packages
- 31653b926223c1de79b3f25701e3134a 18042 main/binary-arm64/Packages.gz
-SHA1:
- ea904673d0b1bd006d7e45a26b4f3edd4175c388 76036 main/binary-amd64/Packages
- 8af56231f780894699f06aa9ea92b853c786a149 18042 main/binary-amd64/Packages.gz
- ea904673d0b1bd006d7e45a26b4f3edd4175c388 76036 main/binary-arm64/Packages
- 6b710fbefab5b0d5c2c348bf0fe76201484cc334 18042 main/binary-arm64/Packages.gz
+ aabbf8c37474d4bf77ed748d33e5d9a1 81650 main/binary-amd64/Packages
+ 6fd706fc7634de76b7202a060bf12098 19659 main/binary-amd64/Packages.gz
+ aabbf8c37474d4bf77ed748d33e5d9a1 81650 main/binary-arm64/Packages
+ 6fd706fc7634de76b7202a060bf12098 19659 main/binary-arm64/Packages.gz
 SHA256:
- d8213b4d9e0223a001ebef877fd79d037a6fb17d21b9b3c2b27bffc58edde050 76036 main/binary-amd64/Packages
- adca43300728ea23bd13e54fe6718c6bc9cd7d5176a19af290c5639abe412c9b 18042 main/binary-amd64/Packages.gz
- d8213b4d9e0223a001ebef877fd79d037a6fb17d21b9b3c2b27bffc58edde050 76036 main/binary-arm64/Packages
- 47c379b4593e7186ff96337f9b334985ff4b3da20b15d15a4809c011b1319bc6 18042 main/binary-arm64/Packages.gz
+ 20ccf8a02eeae9ada373cca56cdf1654269c26be0eaff419c096f14946a5c469 81650 main/binary-amd64/Packages
+ 3fa166af3e8f31420cb222d294a6e8ff3826703a625f203d72eee4bf54dba732 19659 main/binary-amd64/Packages.gz
+ 20ccf8a02eeae9ada373cca56cdf1654269c26be0eaff419c096f14946a5c469 81650 main/binary-arm64/Packages
+ 3fa166af3e8f31420cb222d294a6e8ff3826703a625f203d72eee4bf54dba732 19659 main/binary-arm64/Packages.gz
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAEBCAAdFiEEN5hu++1i1inAzyaO4xjH3j2ofFsFAmmokbgACgkQ4xjH3j2o
-fFtRBxAAo/RSzpk2OUM3XEpRdMFO8rRNNt+5h3gJ0P4Wc+2Ql1fmndbFt+LofVg0
-O9oWM4sZWFNmW4PcqMB9/NUzsnHP9/7NWom4UK+mVKmmHixhxM6Uwb6mYzcPbt82
-+0Yswn3LfVzOSAXQ/V7n21YZ2o8Fk0++Mrv1v7QBtoPzbLLuOH6dKWFhQBjdPoKF
-ktNn6Cq5h8gzBexUuI1dkEymBH8M6XaGJGEtQbFlmtjeP0Gk8KcSxTkaEvovZ5kJ
-yZxuuptLrryPMRjT/gds5pEsTAw/Cp2ZP0etDk8jonMoxNhmhKw5e43JJg0qXj4w
-x45zvrfyCdjsYI8r+96qj+RWims2bZmfEp17dzihSYYPYMO//uerwJx3ofEcdGg0
-1zKyE0EcqvQMrNZfhYtYNmzgWhW8MlDBNATg2CynZ1VwDhovtt4Kd60BFN0RIFq8
-nIfL37jTdM7Fn7zLsmUoOxJL1sc3qkorImWd3r+VvQaqnHaudRToCNLMgQafwfiR
-yL5Md3OPK3wuJtoPXSqJ9bYuTgvPkXmitir7Dcuzng+OjcH9ljzMLeZ6uEd5iuWy
-lv2VdQKX4Z2boXL6vw71DKGSJQCm+eV16PdjImqtCFvD38hWwOjy6ySkxWtCEh9T
-nmZoPnp4sh/MaWcoviph87paVXP6JitHMiF+wFbYYMZ5zid/4pk=
-=etUC
+iQIzBAEBCAAdFiEEN5hu++1i1inAzyaO4xjH3j2ofFsFAmmpKLAACgkQ4xjH3j2o
+fFvfaRAAlcJPkaqQF6eHRrhIlgqtsUd/FeOBG0nnb1BmhYG7ZtpejvFmfLfP6QBi
+GxQTLpbSWmw8nciqGsXVpItJhA1JaCWVlqVW7sfXF5+/4l6pyqtC72ukMOJ7UI1+
+2E+rJynMR0W+tALhUDd1iN4Um0g15V1ON5Z2TSWr1um7c2IzROf4akDO0VGeF+TS
+d6tfoCB3bmB+p5gCFMOWLg402sk/S+BpNNmMJAGWEHEflBVvw+GihcxiudMpsf6i
+Nh/7UiUg9XyAs3vUzTHjrsPfe68VD1yJsLeT2aFsC6Rs3OIb8+sIutMaGJJVmXjs
+zgSclmpRkgjEqX984XVanR6aqfvRiDa8dlnI8U4j4sBjeJmFpekNTqm4CV99QFRo
+o0agOSXREW7E87H6iBdjQMCq2ICtmbKf7dajSrqtXtUSznnIyIdINkVlfel7Mt18
+6jZRBmv484zwMGmYx4BhDXkfLzGd1PWavrU6KaA1EcRa27+vq4w+q+mM4QiIJs4v
+Rd1nuaSYnfgThhBeYYggZI2bKmzFs3Ga/KsLBjryypPY4n10IEOcr6dc3qIeCd9e
+4Fl4+ESI++ldI0r2w2G9JCv3+rsli6qk4ZC3xzzJtJcZtb7h7bI2i67xEhBLUzdm
+v9jzAmpT3+FCOoHfbo6uAt2qJb/BI8/HYD8gY5hS8r0ivNfKYDQ=
+=7SSU
 -----END PGP SIGNATURE-----
