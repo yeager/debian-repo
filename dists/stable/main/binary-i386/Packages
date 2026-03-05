@@ -62,22 +62,22 @@ Description: GTK4/Adwaita visual editor for AAC communication boards
  GTK4/Adwaita visual editor for AAC communication boards
 
 Package: autismappar
-Version: 0.2.0-1
+Version: 0.3.0-1
 Architecture: all
 Maintainer: Daniel Nylander <daniel@danielnylander.se>
-Depends: xdg-utils
-Filename: ./autismappar_0.2.0-1.deb
-Size: 16615378
-MD5sum: fc36f4492ed0b8ab73b47da0b9b23313
-SHA1: 130ae38669b2f5aed3519dffd8ab08d35ad852b8
-SHA256: 949a11d521cf5c76ab3f7bac7356893bbea3d5affb8fa04f71061c3b008e9256
+Depends: python3
+Filename: ./autismappar_0.3.0-1.deb
+Size: 18027654
+MD5sum: 3d2e851323c777421d056df2533886c4
+SHA1: 5293458bd1fc2bc6cf1b38f2b1e01b476b1b0fb1
+SHA256: ab70e38b2b7ae179bd9df4b5fd758f916dfe178f6ca2915324b280177682e11e
 Section: education
 Priority: optional
 Homepage: https://autismappar.se
-Description: Autism Apps - Interactive educational apps for autism support
- A collection of educational and therapeutic apps designed to help individuals
- with autism spectrum disorders. This package includes communication aids,
- visual schedules, learning games, and other specialized tools.
+Description: Autism Apps - Communication and Learning Tools
+ A collection of 56+ apps for children with autism, language disorders,
+ and other neurodevelopmental conditions. Includes communication boards,
+ visual schedules, TTS, PECS, social stories, and learning tools.
 
 Package: autopkgtest-runner
 Version: 0.1.3
@@ -298,6 +298,33 @@ Description: GTK4/Adwaita app to visualize Unicode CLDR locale data completeness
  sudo apt install cldr-viewer
  ```
 
+Package: clipkeeper
+Version: 0.2.1-1
+Architecture: all
+Maintainer: Daniel Nylander <daniel@danielnylander.se>
+Installed-Size: 80
+Depends: python3-gi, python3:any, gir1.2-gtk-4.0, gir1.2-adw-1
+Filename: ./pool/main/c/clipkeeper/clipkeeper_0.2.1-1_all.deb
+Size: 16292
+MD5sum: 0b3b0a0ddfe900afa06d0069afed49e0
+SHA1: 64ef49ca5a6199f8fbffbfef0af8d1050b955dcb
+SHA256: bdf7b7f04348455de59c618162a8911be3812fb424add95bb5576384c1afd402
+Section: utils
+Priority: optional
+Homepage: https://github.com/yeager/clipkeeper
+Description: GTK4 clipboard manager for Linux
+ ClipKeeper is a modern clipboard manager built with GTK4 and libadwaita.
+ It provides a clean interface to manage your clipboard history with features
+ like pinning important entries, searching, and keyboard shortcuts.
+ .
+ Features include:
+  * Clean, modern GTK4/Adwaita interface
+  * Clipboard history with search
+  * Pin important entries
+  * Keyboard shortcuts
+  * Command-line interface
+  * Automatic startup support
+
 Package: commonvoice-status
 Version: 0.1.9
 Architecture: all
@@ -375,6 +402,45 @@ Description: Translate Debian package descriptions via DDTP
  ```bash
  sudo apt install ddtp-translate
  ```
+
+Package: debconf-translation-manager
+Version: 0.4.0-1
+Architecture: all
+Maintainer: Daniel Nylander <daniel@danielnylander.se>
+Installed-Size: 343
+Depends: python3-bs4 (>= 4.11), python3-gi, python3-requests, python3:any, gir1.2-gtk-4.0, gir1.2-adw-1
+Filename: ./debconf-translation-manager_0.4.0-1_all.deb
+Size: 56518
+MD5sum: 6d5223cf9aee93014910785bf4970dc7
+SHA1: d9fe034327bddc60e2e59ce37a9ae8b196b8b962
+SHA256: 542a6411bcce52ef246016dc8cb547215ef0636709e03652f97c4fb8d1baf3e1
+Section: devel
+Priority: optional
+Homepage: https://github.com/yeager/debconf-translation-manager
+Description: GTK4 tool for managing Debconf template translations
+ A GTK4/libadwaita application for managing translations of Debian
+ debconf templates. Features template browser, PO editor, BTS bug
+ filing, DDTSS integration, review board, and statistics.
+
+Package: debconf-translator
+Version: 0.4.0-1
+Architecture: all
+Maintainer: Daniel Nylander <daniel@danielnylander.se>
+Installed-Size: 129
+Depends: python3-gi, python3:any, gir1.2-gtk-4.0, gir1.2-adw-1
+Filename: ./pool/main/d/debconf-translator/debconf-translator_0.4.0-1_all.deb
+Size: 24346
+MD5sum: 6497e43b4ed014e562290a2b7b99d5dd
+SHA1: 7d2ce50e636b1e760f087ee91d99f5e0bd4dc108
+SHA256: 2c8cde39c0b6692a26230e5b87a068444269d656743e9562bf66f996baaefd39
+Section: devel
+Priority: optional
+Homepage: https://github.com/yeager/debconf-translator
+Description: GTK4 tool for managing Debconf template translations
+ Debconf Translation Manager helps translators work with Debian package
+ configuration dialogs (debconf templates). Features include a dashboard
+ with translation statistics, built-in PO editor, review board tracking,
+ and BTS submission tools.
 
 Package: debian-installer-companion
 Version: 0.1.3
@@ -650,6 +716,25 @@ Homepage: https://github.com/yeager/formspelet
 Description: Shape and Color Game - Visual learning game
  Learn shapes and colors through sorting games designed for children with autism and special educational needs.
  Built with GTK4/Adwaita. Part of the autism apps suite.
+
+Package: freeipa-manager
+Version: 0.2.0-1
+Architecture: all
+Maintainer: Daniel Nylander <daniel@danielnylander.se>
+Installed-Size: 168
+Depends: python3-gi, python3-gssapi, python3-requests, python3:any, gir1.2-gtk-4.0, gir1.2-adw-1
+Filename: ./pool/main/f/freeipa-manager/freeipa-manager_0.2.0-1_all.deb
+Size: 24444
+MD5sum: 84df9eed8b98af7139d54bc9b95e751a
+SHA1: 35e6a50e94bdfac51c76823c2792a5e715bfa19c
+SHA256: 7694381afcff712b0e30a530598086fddc5cd305c01d805ee49526769bebc261
+Section: admin
+Priority: optional
+Homepage: https://github.com/yeager/freeipa-manager
+Description: GTK4 GUI and CLI for managing FreeIPA servers
+ FreeIPA Manager provides a GTK4/Adwaita GUI and CLI for managing
+ FreeIPA servers with sidebar navigation, settings view, user/group/host
+ management, and keyboard shortcuts.
 
 Package: gettext-coverage
 Version: 0.1.3
@@ -1582,6 +1667,31 @@ Description: GTK4 process explorer - htop in a GUI
  sudo apt install process-explorer
  ```
 
+Package: python3-libvisio-ng
+Source: libvisio-ng
+Version: 0.7.0-1
+Architecture: all
+Maintainer: Daniel Nylander <daniel@danielnylander.se>
+Installed-Size: 264
+Depends: python3-olefile, python3:any
+Recommends: python3-cairosvg
+Filename: ./pool/main/libl/libvisio-ng/python3-libvisio-ng_0.7.0-1_all.deb
+Size: 52762
+MD5sum: 5405b5e0c40ecb643af92b5618a16ff9
+SHA1: afe8b6b15a4a4b3cebbba1cc0dcb6516d98363c2
+SHA256: 7bfe1a54e1fd1475cfff105195713120a1d1837aba57c6c75fe08f8da323cf4b
+Section: python
+Priority: optional
+Homepage: https://github.com/yeager/libvisio-ng
+Description: Pure-Python parser for Microsoft Visio files (.vsdx/.vsd)
+ libvisio-ng is a pure-Python library for parsing Microsoft Visio files
+ in both modern XML (.vsdx) and legacy binary (.vsd) formats. It
+ supports themes, gradients, shadows, hatching, connectors, master
+ shapes, NURBS, splines, embedded images, and layers.
+ .
+ It surpasses the C++ libvisio in feature coverage and is actively
+ maintained. It includes a visio2svg command-line converter.
+
 Package: raknestod
 Version: 0.1.0-1
 Architecture: all
@@ -2023,24 +2133,28 @@ Description: Visual decision helper for children with autism/NPF
  Visual decision helper for children with autism/NPF
 
 Package: vsdview
-Version: 0.5.0-1
+Version: 0.6.0-1
 Architecture: all
 Maintainer: Daniel Nylander <daniel@danielnylander.se>
-Installed-Size: 107
-Depends: python3 (>= 3.10), python3-gi, libvisio-ng (>= 0.6.0), gir1.2-gtk-4.0, gir1.2-adw-1, gir1.2-rsvg-2.0
+Installed-Size: 116
+Depends: python3-gi, python3:any, python3-libvisio-ng (>= 0.5.0), gir1.2-gtk-4.0, gir1.2-adw-1, gir1.2-rsvg-2.0
 Recommends: librsvg2-bin
-Filename: ./vsdview_0.5.0-1_all.deb
-Size: 19044
-MD5sum: 4927f01d0a2a5458950c606be5180a42
-SHA1: c48782c1eaefbf4488102abe9b896fb9490e0b20
-SHA256: 308d63be00edbcbe48d0407beb2125faa90c34b88635b5fbc5fde28f97ae97c9
+Filename: ./pool/main/v/vsdview/vsdview_0.6.0-1_all.deb
+Size: 20118
+MD5sum: c872e17818806c65822b46f1b50bea30
+SHA1: 94dc7e30e3f92995d0bede6223d1059bffeb9525
+SHA256: 7dea9320552947ab484cff7f34296374eecf545952b609ce3e7682c74b7a9528
 Section: graphics
 Priority: optional
 Homepage: https://github.com/yeager/vsdview
 Description: Read-only viewer for Microsoft Visio files
  VSDView is a read-only viewer for Microsoft Visio files (.vsdx and .vsd),
- built with GTK4 and libadwaita. Uses libvisio-ng for native Visio file
- parsing — no external dependencies needed.
+ built with GTK4 and libadwaita. It uses libvisio-ng for native Visio file
+ parsing with support for both modern XML and legacy binary formats.
+ .
+ Features include interactive zoom, pan/drag navigation, shape info panel,
+ shape tree sidebar, measurement tool, minimap, SVG export, layer
+ visibility toggles, clickable hyperlinks, and search.
 
 Package: wifi-analyzer
 Version: 0.1.4
