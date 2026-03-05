@@ -404,16 +404,16 @@ Description: Translate Debian package descriptions via DDTP
  ```
 
 Package: debconf-translation-manager
-Version: 0.6.1-1
+Version: 0.6.2-1
 Architecture: all
 Maintainer: Daniel Nylander <daniel@danielnylander.se>
 Installed-Size: 377
 Depends: python3-bs4 (>= 4.11), python3-gi, python3-requests, python3:any, gir1.2-gtk-4.0, gir1.2-adw-1
-Filename: ./debconf-translation-manager_0.6.1-1_all.deb
-Size: 62046
-MD5sum: e2a78b8331d0ebe70eb0007d767806e3
-SHA1: 601fe21b23b688a993a3b82320202b470078d736
-SHA256: 368728b01c951de06ad8a4ed139e84d201cf6d7abfe1cc66f14ac62de0b58f1d
+Filename: ./debconf-translation-manager_0.6.2-1_all.deb
+Size: 62252
+MD5sum: 5687b6c94f569027accc470cd0a3ca4f
+SHA1: 9ad83b593f32c41ed43f6f4447123fdb8d1eee9e
+SHA256: 8c4dcd1009abad4370d9501dd9b2425f0b6087c4264a6be70f89fc6c8585e004
 Section: devel
 Priority: optional
 Homepage: https://github.com/yeager/debconf-translation-manager
