@@ -1,66 +1,20 @@
 -----BEGIN PGP SIGNED MESSAGE-----
 Hash: SHA256
 
-Origin: Daniel Nylander
-Label: Daniel Nylander
-Suite: stable
-Codename: stable
-Architectures: amd64 arm64 armhf i386
-Components: main
-Description: L10n App Suite Repository
-Date: Thu, 05 Mar 2026 15:11:37 UTC
-MD5Sum:
- 9dfc301d8fabe3b8350e33e0566c0d21    81650 main/binary-amd64/Packages
- a368523d5412460b67d99c88e2665d5c    19665 main/binary-amd64/Packages.gz
- 6c115205d0362fa1cb4ce2b422b14357    17420 main/binary-amd64/Packages.xz
- 9dfc301d8fabe3b8350e33e0566c0d21    81650 main/binary-arm64/Packages
- a368523d5412460b67d99c88e2665d5c    19665 main/binary-arm64/Packages.gz
- 6c115205d0362fa1cb4ce2b422b14357    17420 main/binary-arm64/Packages.xz
- 9dfc301d8fabe3b8350e33e0566c0d21    81650 main/binary-armhf/Packages
- a368523d5412460b67d99c88e2665d5c    19665 main/binary-armhf/Packages.gz
- 6c115205d0362fa1cb4ce2b422b14357    17420 main/binary-armhf/Packages.xz
- 9dfc301d8fabe3b8350e33e0566c0d21    81650 main/binary-i386/Packages
- a368523d5412460b67d99c88e2665d5c    19665 main/binary-i386/Packages.gz
- 6c115205d0362fa1cb4ce2b422b14357    17420 main/binary-i386/Packages.xz
-SHA1:
- 95a6a65ea34f94c85277c92f3fdaebe65fdb3ca4    81650 main/binary-amd64/Packages
- 443d0855b7a79e122ddf8832e0170618fd533f32    19665 main/binary-amd64/Packages.gz
- f8ce08e9081bee287fb915c4a90009b862a1ff83    17420 main/binary-amd64/Packages.xz
- 95a6a65ea34f94c85277c92f3fdaebe65fdb3ca4    81650 main/binary-arm64/Packages
- 443d0855b7a79e122ddf8832e0170618fd533f32    19665 main/binary-arm64/Packages.gz
- f8ce08e9081bee287fb915c4a90009b862a1ff83    17420 main/binary-arm64/Packages.xz
- 95a6a65ea34f94c85277c92f3fdaebe65fdb3ca4    81650 main/binary-armhf/Packages
- 443d0855b7a79e122ddf8832e0170618fd533f32    19665 main/binary-armhf/Packages.gz
- f8ce08e9081bee287fb915c4a90009b862a1ff83    17420 main/binary-armhf/Packages.xz
- 95a6a65ea34f94c85277c92f3fdaebe65fdb3ca4    81650 main/binary-i386/Packages
- 443d0855b7a79e122ddf8832e0170618fd533f32    19665 main/binary-i386/Packages.gz
- f8ce08e9081bee287fb915c4a90009b862a1ff83    17420 main/binary-i386/Packages.xz
-SHA256:
- 556b7b7925f56e569934176337f766650e0a2968d9452af87c259866457411cc    81650 main/binary-amd64/Packages
- 6ec76203e56d3613e9ef506d6107a571f7dde8194809a33804ca9a410910cf1a    19665 main/binary-amd64/Packages.gz
- bba208136586bf88df483342624ebf373aec9cddb9493a88f1c59fe594fd12f6    17420 main/binary-amd64/Packages.xz
- 556b7b7925f56e569934176337f766650e0a2968d9452af87c259866457411cc    81650 main/binary-arm64/Packages
- 6ec76203e56d3613e9ef506d6107a571f7dde8194809a33804ca9a410910cf1a    19665 main/binary-arm64/Packages.gz
- bba208136586bf88df483342624ebf373aec9cddb9493a88f1c59fe594fd12f6    17420 main/binary-arm64/Packages.xz
- 556b7b7925f56e569934176337f766650e0a2968d9452af87c259866457411cc    81650 main/binary-armhf/Packages
- 6ec76203e56d3613e9ef506d6107a571f7dde8194809a33804ca9a410910cf1a    19665 main/binary-armhf/Packages.gz
- bba208136586bf88df483342624ebf373aec9cddb9493a88f1c59fe594fd12f6    17420 main/binary-armhf/Packages.xz
- 556b7b7925f56e569934176337f766650e0a2968d9452af87c259866457411cc    81650 main/binary-i386/Packages
- 6ec76203e56d3613e9ef506d6107a571f7dde8194809a33804ca9a410910cf1a    19665 main/binary-i386/Packages.gz
- bba208136586bf88df483342624ebf373aec9cddb9493a88f1c59fe594fd12f6    17420 main/binary-i386/Packages.xz
+
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAEBCAAdFiEEN5hu++1i1inAzyaO4xjH3j2ofFsFAmmpnSoACgkQ4xjH3j2o
-fFvpKw/8D8UQyOQetdarTPEhrem4rz3nfKrO5bfNacsvovPTqEygthI1TuyMHEgi
-e+uy9vcI+/PsLtVYN+XucyPJgwW018VYEX3foCDN+/4OCog+Y7xYnpsEjyoCkuEz
-+s//yGhTkO1oZAtS03Zc1etOSyYGYN9Z2lr0O64zhU1uVMHLPGqM8VT86lgtO5VL
-1gNegT1YBPW7EvTqJaud1H98Z7qhOwE4b3zO1eth2+r1hvaRTtC/b5+wdGaPGX41
-tQo3BneDkIpfhoBJv4l0tMSqFRMifYdg+A1Dp0KTpqXU9ZYi7Bl2DjQ7w1Q5B2Bt
-72UNGcQu0ffrgndPmyaLXUbf0PtX+pPGRJ7q3NzSZQdGMIg2CK3C3ISX2lXBNjnt
-+3NxivywiPVoa0uzRRguzagINVQrQVORiBX2B8/pcnzlw6tPvPClMGqOBriYdYqC
-i/NLDThFtGS3bzc+a6Yu8sL/XwSDrul82MI3hzoIL3hrXRJmejCbeIbf0VAJ06iQ
-qpYyL/DvT69e0pk4aY7b8QxF7y4Bgk8rA86IXjysYXyvQT/EskrXZcEUK/Yu9L0A
-k0CtgZXmoX9D4S4PVd62ZBcLS5zFs7k06lVgmsoNlOeUcDWDoL7yJmq0UURmDCy/
-LpqvsdAgsjQwlKjqzdHqkLDGp/QbespAAy6KmWquETJbCxUCpWo=
-=zdER
+iQIzBAEBCAAdFiEEN5hu++1i1inAzyaO4xjH3j2ofFsFAmmqjOIACgkQ4xjH3j2o
+fFswVhAAjt99aDEPKGs0aiCmMYF0mtd1+DzJ/ALipSk07/CEOCgrlTIShtEKRdBY
+z61yujShBWRIC+vDsiBdeWO36JmlHBXa3X5RAshBm26TPlGU5ZoXIQb/5bsVQLrP
+kyv9sBfmLGXSuVWidg86pVSh8GSK9ZoOWwcP9gaGX4DogKPF93AFyTbde/qRbje7
+QBkn4LdQwp+y3YyBpMEibGXMC7huUUik+LnFjU+kzF2pVs8y27W656Wh33Rd02o/
+w503eR06DRQxoTYbuCdn6DhQjYvf4Yh2fyTtAyh0Tq/d6XzKt8W0AlnqQV3Vmeo/
+ymZUrg2Pk3zTXRB/YSUvyU2chSZwJn479Z4tU7w8ID0t7tHOFTQEglOSVJzZXDKp
+hYKjbrybgP1DTF4m8lMvbmK9/Xx9VLL5VBDAAv17LmSsyIZKB3FtcmGbUA3k/9zG
+bENxJBq+JYgZD4y+SY62J0qLjkZ2vSMjBKbFTLLu5j1OJCV7KhNZ5XqnoQ8EkQky
+ZWo2ZFYoUyH0xt4XG9/DuRUwsYChiTv+irtBOn1HF4CFUE8DijFkkT80utWybjFj
+DijeCq87Ck+KpkdZ34IX535KAJkozNXmgl87qjw055qwdGBpWlTU3qiHUqKwXpJt
+ZvZabAk23AZUsU/xfCR15ZWH2+geUx6BQt7XT/njeJ1dUDkh9Yw=
+=d6Ez
 -----END PGP SIGNATURE-----

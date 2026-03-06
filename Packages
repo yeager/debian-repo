@@ -403,25 +403,6 @@ Description: Translate Debian package descriptions via DDTP
  sudo apt install ddtp-translate
  ```
 
-Package: debconf-translation-manager
-Version: 0.6.2-1
-Architecture: all
-Maintainer: Daniel Nylander <daniel@danielnylander.se>
-Installed-Size: 377
-Depends: python3-bs4 (>= 4.11), python3-gi, python3-requests, python3:any, gir1.2-gtk-4.0, gir1.2-adw-1
-Filename: ./debconf-translation-manager_0.6.2-1_all.deb
-Size: 62252
-MD5sum: 5687b6c94f569027accc470cd0a3ca4f
-SHA1: 9ad83b593f32c41ed43f6f4447123fdb8d1eee9e
-SHA256: 8c4dcd1009abad4370d9501dd9b2425f0b6087c4264a6be70f89fc6c8585e004
-Section: devel
-Priority: optional
-Homepage: https://github.com/yeager/debconf-translation-manager
-Description: GTK4 tool for managing Debconf template translations
- A GTK4/libadwaita application for managing translations of Debian
- debconf templates. Features template browser, PO editor, BTS bug
- filing, DDTSS integration, review board, and statistics.
-
 Package: debconf-translator
 Version: 0.4.0-1
 Architecture: all
@@ -2216,3 +2197,21 @@ Description: Zscaler ZIA/ZPA API client
  A PySide6/Qt6 application for managing Zscaler ZIA and ZPA
  configurations via the Zscaler API.
 
+Package: debconf-translation-manager
+Version: 0.7.0-1
+Architecture: all
+Maintainer: Daniel Nylander <daniel@danielnylander.se>
+Installed-Size: 184
+Depends: python3-bs4 (>= 4.11), python3-gi, python3-polib, python3-requests, python3:any, gir1.2-gtk-4.0, gir1.2-adw-1
+Filename: pool/main/debconf-translation-manager_0.7.0-1_all.deb
+Size: 30260
+MD5sum: 338608ce9d87ecf5283a53e543b01f75
+SHA1: 4657f05adfcb7b37bdac261b775d3d9f418526aa
+SHA256: 6af69e7c7d0082138313cabe616390d07dd1c54544c9d0c1056c9f549d537b70
+Section: devel
+Priority: optional
+Homepage: https://github.com/yeager/debconf-translation-manager
+Description: GTK4 tool for managing Debconf template translations
+ A GTK4/libadwaita application for managing translations of Debian
+ debconf templates. Browse untranslated packages, edit PO files with a
+ built-in side-by-side editor, and submit translations via email.
