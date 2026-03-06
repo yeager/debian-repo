@@ -22,6 +22,6 @@ Architectures: all amd64 arm64 armhf i386
 Components: main
 Description: Danne L10n Suite APT Repository
 Date: $(LC_ALL=C date -u +"%a, %d %b %Y %H:%M:%S UTC")
-$(do_hash "MD5Sum" "openssl md5 -r")
 $(do_hash "SHA256" "openssl dgst -sha256 -r")
+$(do_hash "SHA512" "openssl dgst -sha512 -r")
 RELEASE
