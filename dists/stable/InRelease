@@ -1,14 +1,14 @@
 -----BEGIN PGP SIGNED MESSAGE-----
 Hash: SHA256
 
-Origin: Danne L10n Suite
-Label: Danne L10n Suite
+Origin: Daniel Nylander
+Label: Daniel Nylander
 Suite: stable
 Codename: stable
 Architectures: all amd64 arm64 armhf i386
 Components: main
 Description: Danne L10n Suite APT Repository
-Date: Fri, 06 Mar 2026 12:31:15 UTC
+Date: Fri, 06 Mar 2026 12:32:31 UTC
 SHA256:
  da5b61e79b66398add7f1ae70b363dce5c93d442ae6f163380ebd1b98c5c1c52 81685 main/binary-amd64/Packages
  aef01a5877c02c9021ea19dd024e696ab983f3f15bf5885fe03293fbd6365611 19686 main/binary-amd64/Packages.gz
@@ -441,17 +441,17 @@ SHA512:
  4368bcbe52b79db682aca3bff18de2b52aba78e44b2fa3585c8a2bbb90fea4ef65a0fb74b017cd6c40f030e0b767884583e0b6e475736f70c28a0d8138aadd2a 17420 main/binary-i386/Packages.xz
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAEBCAAdFiEEN5hu++1i1inAzyaO4xjH3j2ofFsFAmmqyRYACgkQ4xjH3j2o
-fFtr/RAAnCGZDBR9lmBNVqrsboJ1ZD5a7oaFXOn/oXQAE3euGNc4gkIRJ4IXTSm+
-/1ReWhVWNs7+Ss+VSn+uUEDiHw6CAikGId+bGbS9n2tg4ISBbR2JBK4hWI7EopJ3
-ZlG+OVJIR1bO7DZgIbozI0h4RZhu8aBZllGZe8jLxlsaoTglRapJwYNFEZzT2VPO
-OZ44lFxxJPbiOm3DKiLQC4nQ9nDW0/Urec1fRhe5GgavwS5pGYVJFZUIMzYp+uap
-yPP7Poww7A4A3Wp9LjshpEzA5Iwx88XVuyt4RV8YBgz/0Afwa2Ns1p26pBdND/9a
-FJ9Rtp9MWBP9cfoZB5WSJsxocax5MeiN9Y5Hp+YNZRyrNXmLvNWVxEQ3EFICZVZ9
-Wi9b/kwkryUkuyM2MVJGqMV3IxgdNG83xnKJSJWMo5O/voL8Tc84Bc5S0uwJGqZR
-ZUxY8r02RCqVSKoe7+owITrqsoFVuN9opInnewXvpElvQ+ribBf0Kuge/a/C7ziD
-oAN8yTzaIYuQoNtz6wlbpdFaHchOFhUNmIi8yKz5zJaSFA3/kWA/3jaHG+NyD/EW
-wFZVfl+wCSXQiD4+VSdaYHk0B8vi7V5Xg3MUOkg2TcwhCYa+YMmBwbOXyyQpJx0Q
-ARE9EQ3zkQJX/DGY4W/gC8dhWLW5/aSc7OjGm4MGbtDb67Xrj+U=
-=kv0S
+iQIzBAEBCAAdFiEEN5hu++1i1inAzyaO4xjH3j2ofFsFAmmqyWEACgkQ4xjH3j2o
+fFt8CQ/+LjhAmz3wk4Hz9xcDykTDte7wIbf1ohN66T71mi02naix2+hTDwMfdWRx
+s7n8QRI3jwihnulyHoZStXd1oyTWbn72Zs6VX9Vpo41IlrFRRvhEDcA/veRUnN7m
+uALA8R9sTwR6k6BEmCPT0LOrox0Q8Sb4KuR1dMk4f3hZCdq6fPjV0PHbHt9ZYg28
+d2ciCGKKuTngqKsfWD5Ba/0REVe7Ce+ueGZgbmEoA7Dplezb3ee5xe1APf8gWd0f
+vweFdbiI0pts6HrE02xRZsNDZ9Jni/5duocA8CV5l8Yu5huoBwq7CrzNPSNa5DZJ
+W2dN44hbDYTtFvI2PR0IW5vMKghFQTgeZJHUPQNSFNHLJW0EeGX43kMTXNEDAigW
+AD+iXJ59dngnpKa+DDXbLtJ2rgIE+Iavz6L4uwx/xDwmbd2h+wH1up0plCmPzJUT
+Z5B7Ja4FA+c5SWPIgwe+uIDHx3z0zQfOAB2BnKWJvwJkaH+rk+6NYWcewZXBKS29
+uxd1ZyMvZT+iOYrqtTZj/UTZHLpBNAc4RE6wfJH9ze98ZtQIngZygKOdxZaqottT
+O/s9vc+ZmKSBEZxRSzfstMK1rfmQqXXpHIgmDIz2X/r9dtOzWuKrD6moS447m8cQ
+4IUbii1epRKpHS7QJRMbcX1fEiDVDTB69yolXi16WmL84pvN3W0=
+=0Qrh
 -----END PGP SIGNATURE-----

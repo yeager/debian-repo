@@ -14,8 +14,8 @@ do_hash() {
 }
 
 cat << RELEASE
-Origin: Danne L10n Suite
-Label: Danne L10n Suite
+Origin: Daniel Nylander
+Label: Daniel Nylander
 Suite: stable
 Codename: stable
 Architectures: all amd64 arm64 armhf i386

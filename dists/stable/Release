@@ -1,11 +1,11 @@
-Origin: Danne L10n Suite
-Label: Danne L10n Suite
+Origin: Daniel Nylander
+Label: Daniel Nylander
 Suite: stable
 Codename: stable
 Architectures: all amd64 arm64 armhf i386
 Components: main
 Description: Danne L10n Suite APT Repository
-Date: Fri, 06 Mar 2026 12:31:15 UTC
+Date: Fri, 06 Mar 2026 12:32:31 UTC
 SHA256:
  da5b61e79b66398add7f1ae70b363dce5c93d442ae6f163380ebd1b98c5c1c52 81685 main/binary-amd64/Packages
  aef01a5877c02c9021ea19dd024e696ab983f3f15bf5885fe03293fbd6365611 19686 main/binary-amd64/Packages.gz
