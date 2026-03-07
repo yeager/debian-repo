@@ -888,16 +888,16 @@ Description: Glossary editor for localization — manage term lists, flag incons
  ```
 
 Package: l10n-lint
-Version: 1.17.1-1
+Version: 1.17.2-1
 Architecture: all
 Maintainer: Daniel Nylander <daniel@danielnylander.se>
-Installed-Size: 181
+Installed-Size: 191
 Depends: python3:any
-Filename: pool/l10n-lint_1.17.1-1_all.deb
-Size: 37844
-MD5sum: beb2efd2d43bf9bbe191612529027670
-SHA1: a120ee3979429d92416decf982e03ec2c2b8433a
-SHA256: 21064fa7e9c577535daf4dd3983c79218d77e424365180466d3325f9170c9c1f
+Filename: pool/l10n-lint_1.17.2-1_all.deb
+Size: 39412
+MD5sum: 63ff7de6d1e5ee2c1c798bf3ec7cbf19
+SHA1: 5aadf01b8c0db2c6cd63ad27bdce4a1af174fc21
+SHA256: 4bc9b33b76e23ffafb104ac37a657879a92eb487c5c50146c6d87052fa677251
 Section: devel
 Priority: optional
 Homepage: https://github.com/yeager/l10n-lint
