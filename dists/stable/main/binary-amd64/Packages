@@ -1837,16 +1837,16 @@ Description: Break down tasks into visual steps for children with ADHD/autism
  Break down tasks into visual steps for children with ADHD/autism
 
 Package: svlang
-Version: 0.1.7-2
+Version: 0.2.0-1
 Architecture: all
 Maintainer: Daniel Nylander <daniel@danielnylander.se>
-Installed-Size: 2692
+Installed-Size: 2711
 Depends: python3:any
-Filename: pool/svlang_0.1.7-2_all.deb
-Size: 827324
-MD5sum: 9dee928ae095636560c685dcc3e32ccc
-SHA1: c9aa5e20ca4882b7a0d3c1f301b6967d201a470b
-SHA256: 0b7ac79e602db09379594aa2f1fb90872325db12a364b226581a2a76f40c951b
+Filename: pool/svlang_0.2.0-1_all.deb
+Size: 831798
+MD5sum: e9971ebbde8e0abb348cd6ff9b9dd5bd
+SHA1: 4cb70ba5a0dcb4bc6772f3651d64cfe07b02510f
+SHA256: 8db2f3c185010ed0c8cf35743fb25b00d50fd12cf1a89e1452b33c0593f009a0
 Section: text
 Priority: optional
 Homepage: https://github.com/yeager/svlang

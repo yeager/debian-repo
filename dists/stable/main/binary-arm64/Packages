@@ -888,23 +888,25 @@ Description: Glossary editor for localization — manage term lists, flag incons
  ```
 
 Package: l10n-lint
-Version: 1.16.0
+Version: 1.17.2-1
 Architecture: all
 Maintainer: Daniel Nylander <daniel@danielnylander.se>
-Depends: python3 (>= 3.10)
-Filename: pool/l10n-lint_1.16.0_all.deb
-Size: 32622
-MD5sum: 124ced12e794a2120ad91e8a9c11f668
-SHA1: 485b5d9fa15d7b6b5930e722992f07962eaf07c8
-SHA256: 4d4543b1199e3a02d509863807d07000e18e77c65a90203e29eb70f494475281
+Installed-Size: 191
+Depends: python3:any
+Filename: pool/l10n-lint_1.17.2-1_all.deb
+Size: 39412
+MD5sum: 63ff7de6d1e5ee2c1c798bf3ec7cbf19
+SHA1: 5aadf01b8c0db2c6cd63ad27bdce4a1af174fc21
+SHA256: 4bc9b33b76e23ffafb104ac37a657879a92eb487c5c50146c6d87052fa677251
 Section: devel
 Priority: optional
 Homepage: https://github.com/yeager/l10n-lint
 Description: Linter for localization files (.po, .ts)
- This package is part of the Danne L10n Suite, a collection of
- localization and accessibility tools for Linux.
+ l10n-lint checks PO and Qt TS translation files for common errors
+ such as missing format specifiers, inconsistent punctuation,
+ untranslated strings, and encoding issues.
  .
- Linter for localization files (.po, .ts)
+ It supports both command-line and GTK graphical interfaces.
 
 Package: l10n-preview
 Version: 0.2.7
@@ -1835,23 +1837,23 @@ Description: Break down tasks into visual steps for children with ADHD/autism
  Break down tasks into visual steps for children with ADHD/autism
 
 Package: svlang
-Version: 0.1.7-1
+Version: 0.2.0-1
 Architecture: all
 Maintainer: Daniel Nylander <daniel@danielnylander.se>
-Depends: python3
-Filename: pool/svlang_0.1.7-1_all.deb
-Size: 5534
-MD5sum: 72962b94e03af05bad811858f51a6bb5
-SHA1: 83eacf056625d76fa6630e049bd5c4c438d8a517
-SHA256: 68a5f8159321e1023d201b8139db652155e41b8f48f0859edb153d4ed17b9538
-Section: devel
+Installed-Size: 2711
+Depends: python3:any
+Filename: pool/svlang_0.2.0-1_all.deb
+Size: 831798
+MD5sum: e9971ebbde8e0abb348cd6ff9b9dd5bd
+SHA1: 4cb70ba5a0dcb4bc6772f3651d64cfe07b02510f
+SHA256: 8db2f3c185010ed0c8cf35743fb25b00d50fd12cf1a89e1452b33c0593f009a0
+Section: text
 Priority: optional
 Homepage: https://github.com/yeager/svlang
-Description: Swedish NLP toolkit for translators
- This package is part of the Danne L10n Suite, a collection of
- localization and accessibility tools for Linux.
- .
- Swedish NLP toolkit for translators
+Description: Swedish language analysis tool
+ svlang is a command-line tool for analyzing Swedish text. It provides
+ grammar checking, word frequency analysis, readability scoring, and
+ other linguistic analysis features for the Swedish language.
 
 Package: sysinfo-gtk
 Version: 0.1.2
