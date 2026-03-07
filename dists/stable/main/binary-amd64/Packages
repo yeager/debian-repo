@@ -888,16 +888,16 @@ Description: Glossary editor for localization — manage term lists, flag incons
  ```
 
 Package: l10n-lint
-Version: 1.16.0-1
+Version: 1.17.1-1
 Architecture: all
 Maintainer: Daniel Nylander <daniel@danielnylander.se>
-Installed-Size: 160
+Installed-Size: 181
 Depends: python3:any
-Filename: pool/l10n-lint_1.16.0-1_all.deb
-Size: 32940
-MD5sum: 8ebf7b781f1bc418f8844d40124c5450
-SHA1: ce5fd6d88f5dac5a7cf3bf646867bb147f41b54a
-SHA256: baa69646704a3f27ab5ee0a38c47d419fec26f3ec92f3a0173224ba35831ce50
+Filename: pool/l10n-lint_1.17.1-1_all.deb
+Size: 37844
+MD5sum: beb2efd2d43bf9bbe191612529027670
+SHA1: a120ee3979429d92416decf982e03ec2c2b8433a
+SHA256: 21064fa7e9c577535daf4dd3983c79218d77e424365180466d3325f9170c9c1f
 Section: devel
 Priority: optional
 Homepage: https://github.com/yeager/l10n-lint
@@ -1837,23 +1837,23 @@ Description: Break down tasks into visual steps for children with ADHD/autism
  Break down tasks into visual steps for children with ADHD/autism
 
 Package: svlang
-Version: 0.1.7-1
+Version: 0.1.7-2
 Architecture: all
 Maintainer: Daniel Nylander <daniel@danielnylander.se>
-Depends: python3
-Filename: pool/svlang_0.1.7-1_all.deb
-Size: 5534
-MD5sum: 72962b94e03af05bad811858f51a6bb5
-SHA1: 83eacf056625d76fa6630e049bd5c4c438d8a517
-SHA256: 68a5f8159321e1023d201b8139db652155e41b8f48f0859edb153d4ed17b9538
-Section: devel
+Installed-Size: 2692
+Depends: python3:any
+Filename: pool/svlang_0.1.7-2_all.deb
+Size: 827324
+MD5sum: 9dee928ae095636560c685dcc3e32ccc
+SHA1: c9aa5e20ca4882b7a0d3c1f301b6967d201a470b
+SHA256: 0b7ac79e602db09379594aa2f1fb90872325db12a364b226581a2a76f40c951b
+Section: text
 Priority: optional
 Homepage: https://github.com/yeager/svlang
-Description: Swedish NLP toolkit for translators
- This package is part of the Danne L10n Suite, a collection of
- localization and accessibility tools for Linux.
- .
- Swedish NLP toolkit for translators
+Description: Swedish language analysis tool
+ svlang is a command-line tool for analyzing Swedish text. It provides
+ grammar checking, word frequency analysis, readability scoring, and
+ other linguistic analysis features for the Swedish language.
 
 Package: sysinfo-gtk
 Version: 0.1.2
