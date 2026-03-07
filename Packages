@@ -888,23 +888,25 @@ Description: Glossary editor for localization — manage term lists, flag incons
  ```
 
 Package: l10n-lint
-Version: 1.16.0
+Version: 1.16.0-1
 Architecture: all
 Maintainer: Daniel Nylander <daniel@danielnylander.se>
-Depends: python3 (>= 3.10)
-Filename: pool/l10n-lint_1.16.0_all.deb
-Size: 32622
-MD5sum: 124ced12e794a2120ad91e8a9c11f668
-SHA1: 485b5d9fa15d7b6b5930e722992f07962eaf07c8
-SHA256: 4d4543b1199e3a02d509863807d07000e18e77c65a90203e29eb70f494475281
+Installed-Size: 160
+Depends: python3:any
+Filename: pool/l10n-lint_1.16.0-1_all.deb
+Size: 32940
+MD5sum: 8ebf7b781f1bc418f8844d40124c5450
+SHA1: ce5fd6d88f5dac5a7cf3bf646867bb147f41b54a
+SHA256: baa69646704a3f27ab5ee0a38c47d419fec26f3ec92f3a0173224ba35831ce50
 Section: devel
 Priority: optional
 Homepage: https://github.com/yeager/l10n-lint
 Description: Linter for localization files (.po, .ts)
- This package is part of the Danne L10n Suite, a collection of
- localization and accessibility tools for Linux.
+ l10n-lint checks PO and Qt TS translation files for common errors
+ such as missing format specifiers, inconsistent punctuation,
+ untranslated strings, and encoding issues.
  .
- Linter for localization files (.po, .ts)
+ It supports both command-line and GTK graphical interfaces.
 
 Package: l10n-preview
 Version: 0.2.7
