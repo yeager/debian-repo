@@ -1,36 +1,37 @@
 -----BEGIN PGP SIGNED MESSAGE-----
 Hash: SHA256
 
-Origin: Daniel Nylander
-Label: Daniel Nylander
+Origin: Danne L10n Suite
+Label: Danne L10n Suite
 Suite: stable
 Codename: stable
+Architectures: amd64 arm64 all
 Components: main
-Architectures: amd64 arm64
-Date: Sat, 07 Mar 2026 17:38:49 UTC
+Description: Danne L10n Suite APT Repository
+Date: Sun, 08 Mar 2026 09:29:27 UTC
 MD5Sum:
- a5be42ca9b1735ddb22e15ab3fc37fc7 77939 main/binary-amd64/Packages
- ee8fd6e4180bf8a30ebf82ab0aba4257 18782 main/binary-amd64/Packages.gz
- a5be42ca9b1735ddb22e15ab3fc37fc7 77939 main/binary-arm64/Packages
- ee8fd6e4180bf8a30ebf82ab0aba4257 18782 main/binary-arm64/Packages.gz
+ 552ce58ac2d37cf95edd0385db2aa25f 82726 main/binary-amd64/Packages
+ 0b605fa4356b3616da0953d97a4c1364 20110 main/binary-amd64/Packages.gz
+ 552ce58ac2d37cf95edd0385db2aa25f 82726 main/binary-arm64/Packages
+ 0b605fa4356b3616da0953d97a4c1364 20110 main/binary-arm64/Packages.gz
 SHA256:
- c562d8728dc729e93cf1e6d1c887ac2ba732bf0b145d01282767c50409093e9c 77939 main/binary-amd64/Packages
- 221476410d3c4aa58d307d7e37c5716c3b19c1c5dbf6b0775343ea08d875e203 18782 main/binary-amd64/Packages.gz
- c562d8728dc729e93cf1e6d1c887ac2ba732bf0b145d01282767c50409093e9c 77939 main/binary-arm64/Packages
- 221476410d3c4aa58d307d7e37c5716c3b19c1c5dbf6b0775343ea08d875e203 18782 main/binary-arm64/Packages.gz
+ 3fe27eb12fa8e021241d08787164755674459dced4bcde1542ee98fbecf7dcdd 82726 main/binary-amd64/Packages
+ 97138d5d662e36588035f25c231d416f3e474043b0c32282f8a439e68161a287 20110 main/binary-amd64/Packages.gz
+ 3fe27eb12fa8e021241d08787164755674459dced4bcde1542ee98fbecf7dcdd 82726 main/binary-arm64/Packages
+ 97138d5d662e36588035f25c231d416f3e474043b0c32282f8a439e68161a287 20110 main/binary-arm64/Packages.gz
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAEBCAAdFiEEN5hu++1i1inAzyaO4xjH3j2ofFsFAmmsYskACgkQ4xjH3j2o
-fFtHpA/9FE3mRpWLS89CT60/iz9cVPe3CxzquPvh2zaGFkZlk9TIfS2pQI263Hbm
-pNbQrNeUKJtnRtxs2wG40Z/4Nnaw9ZJD2jXzeqLf7mtBCfGPNk087D1ottqwnUCw
-tDKMm0iLjgyLGmQcNGPaPVl0QvGJXUr8Bxn+PRzmdulaG+cFwRoKhJGWE/2EhCBm
-zSJfjaTWH7DeW1pp3VGVyQ461WCoBGI/cKfCQ2x+EFU21EI7cG0TVSVGy46vu5w8
-W75/lJczrs0rmrO/YLI6V9TpngZOngRZVee4PJ9NlxIftJmbWKYoeEMxqIC4/ol8
-uHHgyAAvJ105Ohhar7cmn1+s62yvZUkATuXvJFnEuuiykySE18ua/vteS97JNSrg
-aRBVI+H+U6coAjlBk/B86Gix1Jc/vIBcOP9A5858GwQtovWNhpRvVBJj4U6Rtlch
-DwchLQae8b/uWeZtwR7c2hWwtlFhoUKx5GK/DtTbl+++luzZr+MaqkxSR9WRO6On
-9l3uzIHBgm12xHkSjIUWhhenpEGyPNc4DcZlUpN1ggUC7mXrayoqybeTojBGaato
-KzBjkMSSiS2SPS0wnwj6iIeWwwVhDbbvQ4V9V8kEh8r6hAdgptdYgLKQDQklgENu
-R0oN3gNSWD+DhTfkK5/YTwiTVeR5STGNxuY5tr1Y+Ljb1O0rh1s=
-=aCRS
+iQIzBAEBCAAdFiEEN5hu++1i1inAzyaO4xjH3j2ofFsFAmmtQX0ACgkQ4xjH3j2o
+fFuwTBAAhs0+EucwiBmTRqVwDLs1C5XT/aMDUFHT+d75CLePHRB/Vo+DXnu1ZBmH
+xXiLAIy5sdTMJ9KLweGQhmtdsDAFGvCt1uykZJgAVVBtIKqknMZQ5HGxeEXXh10J
+hxrwg94Xcd4xxTtkzHOB5lepQP4zVP+17GkAnHPnVTC12PFunnsyJsrChU9LyelP
+aym77HUq6UfIlmrHgjPWjPHV1f95qATLvMhMT3rMB6IwbCobv8phox8M8W5jo+0S
+DSv/ipnaQNk3CxmY6Qni8t8fOjFWY/unYkHuo++r60p+iZb172ExVpyj8H40cSsa
+cdAoaXolvKIooMjiNU5PGw5j3PVCfTL6tjlv251hImuUSRtS076P8uCt354pXegl
+nCCLFvT5qiRqpjv6B6PnyZccD+IhtFzkOFsZXAiNIt+n8TS5jX+oyXW7/6/nVnT5
+QaYzzfmBr+nk7KnKX+tnjNBVtXZJSnOjHDtWTiDOe5/2yovIIA3kwjxhYPK2Y2WE
+JChx6QunAwEEd/mOo+btbCzTWAOxaOgJoeVyknoJL5DCAoE60caT74o8m3fJyW+N
+CWhn6BAqclD/hUhVzeRP7PvqHyijHH5uJ76jesDChzc9zFQnnVCsBwB5yvdzROV7
+oOA0VB+Ng+8B+85a0trjM3oKWdxz4VdE1gMjtYiq2mYjqaVrkYQ=
+=4+Sm
 -----END PGP SIGNATURE-----

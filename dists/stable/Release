@@ -1,17 +1,18 @@
-Origin: Daniel Nylander
-Label: Daniel Nylander
+Origin: Danne L10n Suite
+Label: Danne L10n Suite
 Suite: stable
 Codename: stable
+Architectures: amd64 arm64 all
 Components: main
-Architectures: amd64 arm64
-Date: Sat, 07 Mar 2026 17:38:49 UTC
+Description: Danne L10n Suite APT Repository
+Date: Sun, 08 Mar 2026 09:29:27 UTC
 MD5Sum:
- a5be42ca9b1735ddb22e15ab3fc37fc7 77939 main/binary-amd64/Packages
- ee8fd6e4180bf8a30ebf82ab0aba4257 18782 main/binary-amd64/Packages.gz
- a5be42ca9b1735ddb22e15ab3fc37fc7 77939 main/binary-arm64/Packages
- ee8fd6e4180bf8a30ebf82ab0aba4257 18782 main/binary-arm64/Packages.gz
+ 552ce58ac2d37cf95edd0385db2aa25f 82726 main/binary-amd64/Packages
+ 0b605fa4356b3616da0953d97a4c1364 20110 main/binary-amd64/Packages.gz
+ 552ce58ac2d37cf95edd0385db2aa25f 82726 main/binary-arm64/Packages
+ 0b605fa4356b3616da0953d97a4c1364 20110 main/binary-arm64/Packages.gz
 SHA256:
- c562d8728dc729e93cf1e6d1c887ac2ba732bf0b145d01282767c50409093e9c 77939 main/binary-amd64/Packages
- 221476410d3c4aa58d307d7e37c5716c3b19c1c5dbf6b0775343ea08d875e203 18782 main/binary-amd64/Packages.gz
- c562d8728dc729e93cf1e6d1c887ac2ba732bf0b145d01282767c50409093e9c 77939 main/binary-arm64/Packages
- 221476410d3c4aa58d307d7e37c5716c3b19c1c5dbf6b0775343ea08d875e203 18782 main/binary-arm64/Packages.gz
+ 3fe27eb12fa8e021241d08787164755674459dced4bcde1542ee98fbecf7dcdd 82726 main/binary-amd64/Packages
+ 97138d5d662e36588035f25c231d416f3e474043b0c32282f8a439e68161a287 20110 main/binary-amd64/Packages.gz
+ 3fe27eb12fa8e021241d08787164755674459dced4bcde1542ee98fbecf7dcdd 82726 main/binary-arm64/Packages
+ 97138d5d662e36588035f25c231d416f3e474043b0c32282f8a439e68161a287 20110 main/binary-arm64/Packages.gz
