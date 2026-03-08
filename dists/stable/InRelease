@@ -1,8 +1,8 @@
 -----BEGIN PGP SIGNED MESSAGE-----
 Hash: SHA256
 
-Origin: Danne L10n Suite
-Label: Danne L10n Suite
+Origin: yeager
+Label: yeager
 Suite: stable
 Codename: stable
 Architectures: amd64 arm64 all
@@ -21,17 +21,17 @@ SHA256:
  97138d5d662e36588035f25c231d416f3e474043b0c32282f8a439e68161a287 20110 main/binary-arm64/Packages.gz
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAEBCAAdFiEEN5hu++1i1inAzyaO4xjH3j2ofFsFAmmtQX0ACgkQ4xjH3j2o
-fFuwTBAAhs0+EucwiBmTRqVwDLs1C5XT/aMDUFHT+d75CLePHRB/Vo+DXnu1ZBmH
-xXiLAIy5sdTMJ9KLweGQhmtdsDAFGvCt1uykZJgAVVBtIKqknMZQ5HGxeEXXh10J
-hxrwg94Xcd4xxTtkzHOB5lepQP4zVP+17GkAnHPnVTC12PFunnsyJsrChU9LyelP
-aym77HUq6UfIlmrHgjPWjPHV1f95qATLvMhMT3rMB6IwbCobv8phox8M8W5jo+0S
-DSv/ipnaQNk3CxmY6Qni8t8fOjFWY/unYkHuo++r60p+iZb172ExVpyj8H40cSsa
-cdAoaXolvKIooMjiNU5PGw5j3PVCfTL6tjlv251hImuUSRtS076P8uCt354pXegl
-nCCLFvT5qiRqpjv6B6PnyZccD+IhtFzkOFsZXAiNIt+n8TS5jX+oyXW7/6/nVnT5
-QaYzzfmBr+nk7KnKX+tnjNBVtXZJSnOjHDtWTiDOe5/2yovIIA3kwjxhYPK2Y2WE
-JChx6QunAwEEd/mOo+btbCzTWAOxaOgJoeVyknoJL5DCAoE60caT74o8m3fJyW+N
-CWhn6BAqclD/hUhVzeRP7PvqHyijHH5uJ76jesDChzc9zFQnnVCsBwB5yvdzROV7
-oOA0VB+Ng+8B+85a0trjM3oKWdxz4VdE1gMjtYiq2mYjqaVrkYQ=
-=4+Sm
+iQIzBAEBCAAdFiEEN5hu++1i1inAzyaO4xjH3j2ofFsFAmmtQkoACgkQ4xjH3j2o
+fFtflw/6AlVWuo/q/T/PoeTnW5xrpeDMmjx4dRYfwdXvP041WGHmi6e4f12pLbxa
+c8uh7eFevoFpcB+RWoHdR8BE0z1TW52OvefqjIowgy63SQ+PnKpyOo3mcFimv5Ml
+Yb1mm94B27cpXdKf2lHI9nZIDzlOCx8hMQmUP1QKW4eFejpOVWk6rpa2NvhLvpx3
+VQMYaoamDf4E07jzrtkQVrBcA8LHNRJNoAoEO8HVvbZt/lnEcx0n0Azm7TNkHcvk
+MHmgM/Ww4DspjyjE/Mg8PxVS3/pfedMG9GBN+Z/7l+BUMaQkSlTbGgW6CKjYzDtI
+Cg+qN2jA+osi2ImLymvrX+45LDxUHfVlL/JGRW0lW5vYfzdTQDVzJeHe0SFbAbp1
+QIRh+OetS0aEAtGFjXnWNjALJb9NUdtWDJrcyrrkjkcTFlawSEGNfdZaZWbCpDHk
+ccollbvDCO+UUuk/1wlrVFAPcknzmrdd1jHOblITDEU37hKXbX57101iMzfbtlfI
+xZQTsfHKYEmywxmyyF6FAV5XyooC1tFz+RIXzZIhwsZr/7xTrmmg5FYkfkk2SyAI
+xZB1iQIUx6CAtbTz1PSOWzv4xxRFOish/SKDLGLM8kG/CTqgGGFB7vq2Bo1379Rz
+mexpwnE9KiWzqwG+bszEbBIaFJt/Kl6/u2RwLB0hM67oW16rQEo=
+=dokB
 -----END PGP SIGNATURE-----
