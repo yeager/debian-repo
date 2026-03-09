@@ -25,6 +25,23 @@ Description: GTK4 clipboard manager for Linux
   * Command-line interface
   * Automatic startup support
 
+Package: cve-monitor
+Version: 0.3.6
+Architecture: all
+Maintainer: Daniel Nylander <daniel@danielnylander.se>
+Depends: python3 (>= 3.10), python3-gi, gir1.2-gtk-4.0, gir1.2-adw-1, python3-requests
+Filename: pool/main/cve-monitor_0.3.6_all.deb
+Size: 75966
+MD5sum: 0727a91abf650de138359861fddd95f1
+SHA1: e5e1b2b42e0e7204b9d9fd6cbfd437f19e38fa61
+SHA256: 61d87c48bb9d516637522c3cfc3c25c8ee468a32160a236341897c8cc7ef4372
+Section: utils
+Priority: optional
+Homepage: https://github.com/yeager/cve-monitor
+Description: Monitor CVE vulnerabilities for installed system packages
+ Monitor CVE vulnerabilities for installed system packages via NVD, GCVE, and EUVD.
+ Built with GTK4/Adwaita. Part of the Danne L10n Suite.
+
 Package: debconf-translation-manager
 Version: 0.7.0-1
 Architecture: all
