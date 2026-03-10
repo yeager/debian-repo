@@ -1819,14 +1819,14 @@ Package: speech-provider-piper
 Version: 0.1.0-1
 Architecture: amd64
 Maintainer: Daniel Nylander <daniel@danielnylander.se>
-Depends: libglib2.0-0 (>= 2.56), libdbus-1-3 (>= 1.12), libgstreamer1.0-0, piper-voices-sv
+Depends: libglib2.0-0 (>= 2.56), libdbus-1-3 (>= 1.12)
 Recommends: orca, libspiel-1-0
 Suggests: piper-voices
 Filename: pool/main/s/speech-provider-piper/speech-provider-piper_0.1.0-1_amd64.deb
-Size: 11381832
-MD5sum: e28dfe49d2938f018d76a7eaa2ea7bb7
-SHA1: 121712756f4d156a1f0eccf3ccac862b9f7aedb8
-SHA256: 2847a5281f0711aeebe807353fec3bdf33cde8d8787b6289182a18ce83be19a0
+Size: 11381816
+MD5sum: dd28a9472f6b9684129083f8e23d8911
+SHA1: 24a90a7d91fe3b45c59a9533770c9c8e47397d35
+SHA256: 64d072a1676648863f0cfaf859eeb74cf8533407d790f0b739c68e3c490b0461
 Section: sound
 Priority: optional
 Homepage: https://github.com/yeager/speech-provider-piper
