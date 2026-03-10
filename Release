@@ -1,30 +1,12 @@
-Origin: Danne L10n Suite
-Label: Danne L10n Suite
+Origin: yeager
+Label: yeager
 Suite: stable
 Codename: stable
-Architectures: all amd64 arm64 armhf i386
+Architectures: amd64 all
 Components: main
-Description: Danne L10n Suite APT Repository
-Date: Sat, 28 Feb 2026 19:51:08 UTC
-MD5Sum:
- 35e329730c62a9946a3aa629128db139 49078 main/binary-all/Packages
- deef63ec59c097ab2c7f855ed4360d93 13472 main/binary-all/Packages.gz
- 35e329730c62a9946a3aa629128db139 49078 main/binary-amd64/Packages
- 2d8b717946e2cedeba94bd4e7eea247c 13472 main/binary-amd64/Packages.gz
- 35e329730c62a9946a3aa629128db139 49078 main/binary-arm64/Packages
- f49fa6da944d5ec20669d2fe7a255227 13472 main/binary-arm64/Packages.gz
- 35e329730c62a9946a3aa629128db139 49078 main/binary-armhf/Packages
- 39ba69ad25e8dc827e634d8d685e0b91 13472 main/binary-armhf/Packages.gz
- 35e329730c62a9946a3aa629128db139 49078 main/binary-i386/Packages
- a4a92df2b4e35eda1c61a941305cbb49 13472 main/binary-i386/Packages.gz
+Description: Yeager APT Repository
+Date: Tue, 10 Mar 2026 06:09:17 UTC
 SHA256:
- 1e9b0ca24be7dbcc9c23fbbb9de5a7b35790e26bb3e963a225c296b2909f1f37 49078 main/binary-all/Packages
- 1e8fa4d176d0428efebbf7cc278d0b598c6e6956a26fc7216f91fd5d7d06637f 13472 main/binary-all/Packages.gz
- 1e9b0ca24be7dbcc9c23fbbb9de5a7b35790e26bb3e963a225c296b2909f1f37 49078 main/binary-amd64/Packages
- 4fb0f84e430dd0308c90abbb31553b103e4474873cc4c6d05f7048a3cedd08a6 13472 main/binary-amd64/Packages.gz
- 1e9b0ca24be7dbcc9c23fbbb9de5a7b35790e26bb3e963a225c296b2909f1f37 49078 main/binary-arm64/Packages
- 11044a92bd8b5b081cacdcc4ec2de57eb076e55857b3106f60bccfe93aaa27a7 13472 main/binary-arm64/Packages.gz
- 1e9b0ca24be7dbcc9c23fbbb9de5a7b35790e26bb3e963a225c296b2909f1f37 49078 main/binary-armhf/Packages
- e152ef39df7262e56e8ab6f392ede239d3cb2e648a9f738927200d8a76155b6a 13472 main/binary-armhf/Packages.gz
- 1e9b0ca24be7dbcc9c23fbbb9de5a7b35790e26bb3e963a225c296b2909f1f37 49078 main/binary-i386/Packages
- bd3438491f10f9188338aa1b492ff317afa9a096d8ec0f1a77088b9e2c01667a 13472 main/binary-i386/Packages.gz
+ d2f03c007c62a42318046e4482ac599d798ed2eaaa8c26f24d0f5127f0f1fcf3 83556 Packages
+ 9d2dbab1585b39746981867d385992bd20f6ae97326261b152de6f949e96c695 20491 Packages.gz
+ fad8f51a2d2cb4bd054ccf92ab9065d9dc710f97d8ad516764493838e0f477e4 18192 Packages.xz
