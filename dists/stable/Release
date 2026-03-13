@@ -1,17 +1,9 @@
-Origin: yeager
-Label: yeager
+Origin: Daniel Nylander
+Label: L10n Apps Repository
 Suite: stable
 Codename: stable
-Architectures: amd64 all
+Architectures: amd64
 Components: main
-Date: Tue, 10 Mar 2026 17:37:02 UTC
+Date: Fri Mar 13 19:45:05 UTC 2026
 MD5Sum:
- c937fc08e905c0a38ce5fce3b881d1d4 79578 main/binary-amd64/Packages
- a5da9f9a44ac86c52037db6f8258aa71 19413 main/binary-amd64/Packages.gz
- c937fc08e905c0a38ce5fce3b881d1d4 79578 main/binary-all/Packages
- 616479703ecc353f0b7df051b7ee40d3 19413 main/binary-all/Packages.gz
-SHA256:
- cc2b074d091fed187711561cb471502723d969c2947a9ca1d6cf1d5ec7e8d01c 79578 main/binary-amd64/Packages
- b054cfd9d676b71c31941ff160007fcb687ab4606dcd9de0694a375711cdf93e 19413 main/binary-amd64/Packages.gz
- cc2b074d091fed187711561cb471502723d969c2947a9ca1d6cf1d5ec7e8d01c 79578 main/binary-all/Packages
- 23f5d2ef59f993401476d585495212da0c9bb084d94a9ef1b584a6998f66fbc7 19413 main/binary-all/Packages.gz
+  85086 Packages
