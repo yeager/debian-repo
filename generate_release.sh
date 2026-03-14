@@ -8,20 +8,21 @@ do_hash() {
     for f in $(find . -type f ! -name "Release*" ! -name "InRelease" | sort); do
         f=$(echo $f | cut -c3-)
         SIZE=$(wc -c < "$f" | tr -d " ")
-        HASH=$($HASH_CMD "$f" | cut -d" " -f1)
+        HASH=$(${HASH_CMD} "$f" | cut -d" " -f1)
         echo " ${HASH} ${SIZE} ${f}"
     done
 }
 
 cat << RELEASE
-Origin: Daniel Nylander
-Label: Daniel Nylander
+Origin: Nylander L10n Suite
+Label: Nylander L10n Suite
 Suite: stable
 Codename: stable
-Architectures: all amd64 arm64 armhf i386
+Architectures: amd64
 Components: main
-Description: Danne L10n Suite APT Repository
-Date: $(LC_ALL=C date -u +"%a, %d %b %Y %H:%M:%S UTC")
+Description: Daniel Nylander's localization and development packages
+Date: $(LC_ALL=C date -u +"%a, %d %b %Y %H:%M:%S +0000")
+$(do_hash "MD5Sum" "openssl dgst -md5 -r")
+$(do_hash "SHA1" "openssl dgst -sha1 -r")
 $(do_hash "SHA256" "openssl dgst -sha256 -r")
-$(do_hash "SHA512" "openssl dgst -sha512 -r")
 RELEASE
