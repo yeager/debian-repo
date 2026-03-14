@@ -755,6 +755,26 @@ Description: GTK4 app showing translation coverage per package in a distribution
  sudo apt install gettext-coverage
  ```
 
+Package: gir1.2-spiel-1.0
+Source: libspiel
+Version: 1.0.5-1
+Architecture: amd64
+Maintainer: Daniel Nylander <daniel@danielnylander.se>
+Installed-Size: 92
+Filename: ./gir1.2-spiel-1.0_1.0.5-1_amd64.deb
+Size: 10642
+MD5sum: d2c3e819f91e933ab1befa74838bb700
+SHA1: 03d54a12e4f7f8450bfa2bf6573954ffbf42e91c
+SHA256: a7566f8bcce256328b32a04d6ca040d61f8226403235985cfe03a9656e4ed62b
+Section: introspection
+Priority: optional
+Homepage: https://project-spiel.org/
+Description: GObject introspection data for libspiel
+ This package contains introspection data for the libspiel library.
+ .
+ It can be used by packages using the GIRepository format to generate
+ dynamic bindings.
+
 Package: github-l10n
 Version: 0.2.7
 Architecture: all
@@ -1038,6 +1058,45 @@ Description: GTK4/Adwaita translation assistant using LibreTranslate API
  ```bash
  sudo apt install libretranslate-gui
  ```
+
+Package: libspiel-1.0-0
+Source: libspiel
+Version: 1.0.5-1
+Architecture: amd64
+Maintainer: Daniel Nylander <daniel@danielnylander.se>
+Installed-Size: 146
+Depends: libc6 (>= 2.34), libglib2.0-0t64 (>= 2.83.0), libgstreamer-plugins-base1.0-0 (>= 1.0.0), libgstreamer1.0-0 (>= 1.20.0), libspeech-provider-1.0-0 (>= 1.0.3), dconf-gsettings-backend | gsettings-backend
+Filename: ./libspiel-1.0-0_1.0.5-1_amd64.deb
+Size: 39100
+MD5sum: 15041b7882161f6ec71aaa6e6463624c
+SHA1: d2bdbc608cd1dbddbeaaf507095b56d5eed0b538
+SHA256: cf52a694ce7c727a932a4293e26ab6ee2e10a9a8a097f78ce1bf5cfe80ea339f
+Section: libs
+Priority: optional
+Homepage: https://project-spiel.org/
+Description: Speech synthesis client library
+ This client library is designed to provide an ergonomic interface to the
+ myriad of potential speech providers that are installed in a given session.
+ The API is inspired by the W3C Web Speech API.
+
+Package: libspiel-dev
+Source: libspiel
+Version: 1.0.5-1
+Architecture: amd64
+Maintainer: Daniel Nylander <daniel@danielnylander.se>
+Installed-Size: 35
+Depends: libspiel-1.0-0 (= 1.0.5-1), libglib2.0-dev (>= 2.76), libgstreamer1.0-dev (>= 1.0), libspeech-provider-dev (>= 1.0.3)
+Filename: ./libspiel-dev_1.0.5-1_amd64.deb
+Size: 5188
+MD5sum: 71318ab372fc7bc5753b2a2ea53a99d5
+SHA1: e1c8a2ba6207e7a70a0ad27b3f530750063e9d0d
+SHA256: 8cd486b2f3e1375969b8fe110fb59ed55a123f493f5d6d3bd509219764c8f3f1
+Section: libdevel
+Priority: optional
+Homepage: https://project-spiel.org/
+Description: Development files for libspiel
+ This package contains the header files and development libraries needed
+ to compile applications that use libspiel.
 
 Package: libvisio-ng
 Version: 0.6.0-1

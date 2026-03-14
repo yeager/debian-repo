@@ -1,9 +1,20 @@
-Origin: Daniel Nylander
-Label: L10n Apps Repository
+Origin: Nylander L10n Suite
+Label: Nylander L10n Suite  
 Suite: stable
 Codename: stable
+Date: Sat Mar 14 06:48:23 UTC 2026
 Architectures: amd64
 Components: main
-Date: Fri Mar 13 19:48:12 UTC 2026
+Description: Daniel Nylander's localization and development packages
 MD5Sum:
- 74349a986e551ee80f9a7678548fe93c 85086 main/binary-amd64/Packages
+f265aef949d12118ffa46cc98e5a0514 Packages.xz
+7746e99744ab53a4a822511f18780a09 Packages.gz
+03fd5865738de318d28b34ec57d854c0 Packages
+SHA1:
+4b3d36f4f429cce9816fe7a1d7b855feb21d3aa8 Packages.xz
+b7c32362c75abd0261871258d517581a4234b412 Packages.gz
+8ed0874abb8306fc069af05b11595e33cf351165 Packages
+SHA256:
+e80f37a2161d8a7ebeea6095c03584054455878fccfbe730f517d9ec3b69346a Packages.xz
+bfdbb0c16ded0cef241ab8f41ee8c2f70083a15f30ff19cc3a61c1a67e4c6ea4 Packages.gz
+c5b1dcb5606e341a6be8733139987c9e88358c3cb64576bf97ab90ab29258a8b Packages
