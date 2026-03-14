@@ -8,10 +8,10 @@ Codename: stable
 Architectures: amd64
 Components: main
 Description: Daniel Nylander's localization and development packages
-Date: Sat, 14 Mar 2026 10:16:18 +0000
+Date: Sat, 14 Mar 2026 10:17:58 +0000
 MD5Sum:
- c937fc08e905c0a38ce5fce3b881d1d4 79578 main/binary-all/Packages
- 616479703ecc353f0b7df051b7ee40d3 19413 main/binary-all/Packages.gz
+ 74bd3441898971e6b5fac3f52e1c33f9 316323 main/binary-all/Packages
+ 56776824396edda0a6e03f7cc2d981d2 28005 main/binary-all/Packages.gz
  7d55287eed04190b2d3aa2ddaac51a44 15518 main/binary-amd64/anpr-viewer_0.4.0_all.deb
  6542d807a2ca338f070d9b1948f6268d 7798 main/binary-amd64/apt-changelog-viewer_0.1.3_all.deb
  77cc3053fde107fa0c15f8128a4fdbc8 12886 main/binary-amd64/asterics-board-editor_0.1.0-1_all.deb
@@ -78,9 +78,9 @@ MD5Sum:
  224bf7c31ce891474fc7c411d0b4a7d0 12944 main/binary-amd64/ordbyggaren_0.2.5_all.deb
  2f013c86b2bd4302616e84eb59374bd3 4426 main/binary-amd64/ordparaden_0.1.0_all.deb
  faff821d59fdea059f1482dca146872b 5576 main/binary-amd64/ovningstavlan_0.1.0-1_all.deb
- c937fc08e905c0a38ce5fce3b881d1d4 79578 main/binary-amd64/Packages
- a5da9f9a44ac86c52037db6f8258aa71 19413 main/binary-amd64/Packages.gz
- b4c8bb169f2460dab286a9b7ca7ae5ef 16964 main/binary-amd64/Packages.xz
+ 74bd3441898971e6b5fac3f52e1c33f9 316323 main/binary-amd64/Packages
+ 56776824396edda0a6e03f7cc2d981d2 28005 main/binary-amd64/Packages.gz
+ 44329650edc1c53a05dac35e64ac6c0e 23408 main/binary-amd64/Packages.xz
  c0f10880562799904233320f6c7d5e8a 37366 main/binary-amd64/packetlens_0.2.7_all.deb
  6ffaeaee042869923e97fa82ec087840 7756 main/binary-amd64/pauskollen_0.1.0-1_all.deb
  f6650443364aa56fecc1d58a00fc1f66 158236 main/binary-amd64/pecsbrada_0.3.6-1_all.deb
@@ -227,8 +227,8 @@ MD5Sum:
  40af4fdba0761ae1628ea9d714054a33 19686 main/binary-i386/Packages.gz
  50fbecd2860ffd15680a20017317043c 17460 main/binary-i386/Packages.xz
 SHA1:
- b0539c08d31503876198c4810cf6fab962ae8d31 79578 main/binary-all/Packages
- 6c3f264811d45741ac6d2b4225d24a53c9f5f20a 19413 main/binary-all/Packages.gz
+ e5e98c900b7ccccc83ac76aebfc569aa85e1023a 316323 main/binary-all/Packages
+ c1a78f8d851c832ebdcda64e6e9515baf788e152 28005 main/binary-all/Packages.gz
  b4e724ba9945d4d215d57603248f3efe9e7798f7 15518 main/binary-amd64/anpr-viewer_0.4.0_all.deb
  d442c2f94770760e7dc8c5e8deeb97e20ab624fe 7798 main/binary-amd64/apt-changelog-viewer_0.1.3_all.deb
  55a53036ea5590907c392fc52b0e23f53e0efe5b 12886 main/binary-amd64/asterics-board-editor_0.1.0-1_all.deb
@@ -295,9 +295,9 @@ SHA1:
  bf784da8410ba44a120e8f48e485946a3c05056e 12944 main/binary-amd64/ordbyggaren_0.2.5_all.deb
  1316de18cc477321bd9a4c2cce04fc66f2f562df 4426 main/binary-amd64/ordparaden_0.1.0_all.deb
  eb7fc488f174b5bea759e116e4f6064030ec4d44 5576 main/binary-amd64/ovningstavlan_0.1.0-1_all.deb
- b0539c08d31503876198c4810cf6fab962ae8d31 79578 main/binary-amd64/Packages
- 1fa84593ff3ee9ac7c93ec4069768c68974cf0bc 19413 main/binary-amd64/Packages.gz
- 308ad449f090b8cdf42d20e16b41b3688ff11b3d 16964 main/binary-amd64/Packages.xz
+ e5e98c900b7ccccc83ac76aebfc569aa85e1023a 316323 main/binary-amd64/Packages
+ c1a78f8d851c832ebdcda64e6e9515baf788e152 28005 main/binary-amd64/Packages.gz
+ 750863912d46e58d6c7636e83f0d468059dcfde9 23408 main/binary-amd64/Packages.xz
  61c119deff2dcdc48e8a891fb9b039908b5cdaad 37366 main/binary-amd64/packetlens_0.2.7_all.deb
  f549f46279b4cb14fd2604d32052770810e14e6f 7756 main/binary-amd64/pauskollen_0.1.0-1_all.deb
  f154398513876853cb8ff8eed547c2d1d2506884 158236 main/binary-amd64/pecsbrada_0.3.6-1_all.deb
@@ -444,8 +444,8 @@ SHA1:
  a13b901a01322ee1a645f00009ebf756f49f77dd 19686 main/binary-i386/Packages.gz
  23a2072cd2c606322f4ddd2333fc682df2333b62 17460 main/binary-i386/Packages.xz
 SHA256:
- cc2b074d091fed187711561cb471502723d969c2947a9ca1d6cf1d5ec7e8d01c 79578 main/binary-all/Packages
- 23f5d2ef59f993401476d585495212da0c9bb084d94a9ef1b584a6998f66fbc7 19413 main/binary-all/Packages.gz
+ ae1e4bce862e498ef0c29398f1df4bde28761c60c8e1605f07670bc8184a7f67 316323 main/binary-all/Packages
+ fda65025c9de67f553c6ce1e017ba92ba0ed2aed02c31e1b4e8dbed4c6b6aeb3 28005 main/binary-all/Packages.gz
  c7ac612af458900c26c37a3118753db0378f5985404d5cb1ae6df0f77227a0e3 15518 main/binary-amd64/anpr-viewer_0.4.0_all.deb
  5da8ece25f4022e6fbd93543783a3751ea129d869e744a8a994a25b79340b060 7798 main/binary-amd64/apt-changelog-viewer_0.1.3_all.deb
  dafadfd9fb62929f1d5f81fea00029874a791599d3171fc8498511099604d97a 12886 main/binary-amd64/asterics-board-editor_0.1.0-1_all.deb
@@ -512,9 +512,9 @@ SHA256:
  b1227a3fe8e33ab4f92aa4fecd1724b907ac46bf87264aaaafb22ffba76ac0d9 12944 main/binary-amd64/ordbyggaren_0.2.5_all.deb
  abe165fcfea9140c22a45366aa18765b3a974f18929b6896fc4c12e07dfc54d8 4426 main/binary-amd64/ordparaden_0.1.0_all.deb
  8f3994e9372a90aba82ae7a15cdd92d811467271dd55d6dcd6f273a877b9c2d9 5576 main/binary-amd64/ovningstavlan_0.1.0-1_all.deb
- cc2b074d091fed187711561cb471502723d969c2947a9ca1d6cf1d5ec7e8d01c 79578 main/binary-amd64/Packages
- b054cfd9d676b71c31941ff160007fcb687ab4606dcd9de0694a375711cdf93e 19413 main/binary-amd64/Packages.gz
- ee4051a48567e94b4ffd2f626c7c36e7d7709ce4efcad8e98c70eb6328518f7d 16964 main/binary-amd64/Packages.xz
+ ae1e4bce862e498ef0c29398f1df4bde28761c60c8e1605f07670bc8184a7f67 316323 main/binary-amd64/Packages
+ fda65025c9de67f553c6ce1e017ba92ba0ed2aed02c31e1b4e8dbed4c6b6aeb3 28005 main/binary-amd64/Packages.gz
+ b5fd140c1ed0b8c3c95853d6b38eb4946987f647c1a883f6943c3a2c05c81af5 23408 main/binary-amd64/Packages.xz
  37fc25b15b2184cd801d94b9454f1dfd1347c2ed9d92b7a495d118ed5bc20e63 37366 main/binary-amd64/packetlens_0.2.7_all.deb
  b5ad7a15b2a47845a2a7120ef512b64645b1ba4eab801f17c32e790884107b50 7756 main/binary-amd64/pauskollen_0.1.0-1_all.deb
  c81ef7d16ca8a8dd9b8e7b8cbb4300ef127e9c66945c696573872edc44bed745 158236 main/binary-amd64/pecsbrada_0.3.6-1_all.deb
@@ -662,17 +662,17 @@ SHA256:
  6cc87c3de97b895875112e700225955e8cc9ee236e661bf62b39d7396db94012 17460 main/binary-i386/Packages.xz
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAEBCAAdFiEEN5hu++1i1inAzyaO4xjH3j2ofFsFAmm1NXYACgkQ4xjH3j2o
-fFu5CxAAlFvqbkyIXH9MCFPojeOKUB5O58+Mf8zXBb/qXuMXYKEhVQL0WRCtrrc1
-wgEq3w8RrMmA3lFOqHm7LU6j/n1BtqWkLo9qk7Hwd1I9Kpovez/iJ5Y+8PCBODw1
-k04mG37fuBlPiVkUf3Pap8yK9gP0/rjQpRkhTIj7Dy0Rc7HxKBAfrI/qGP479iwb
-r8OhqzK/KYMXFNZEdlkEuk9cVJVdnmtyN9rlF/eDYCLQuTRlQReG8AYEDbWEU4Aj
-RdqVblotjM63Pys7JFJyGh2ORi2QzScN5Espla2XXvI7ZsCrU7ZVPlpBD9Pib8Ie
-Rk4quO4uTGVyzFyxvFohlaSbfw3CSQ/6o6RZ3sZAEF/MHNKb+p7dXQMgf45had8R
-cGX4jBAFlYYbfS9rmQyJM63MdR+Mljfh0eUoyDlgmBwRrn9Nqx8tJ2bJdeqVZRsU
-BBIQ5nb+Yl6XjwJuIkkMcrbhsYYqyOVi3vawBUrdZ/HYt6UXOJhFEe9PoRPQiQml
-ymdRrF7Evm/4e6rSJSIW61Rc6/sP3z3S4KUQiQRKcijZ379I4LXFQNCRUK4oxiOT
-opCtru0RToEBgBkKmHAmQcLKtPMMLNdbW1GrLbwR2bmcgcd1E+jbODFmwjCdPFVg
-II08dOvf0vLDxLPQJX90uz42okijjWsNloYHgvS0OT2+2b+GaUA=
-=8Le8
+iQIzBAEBCAAdFiEEN5hu++1i1inAzyaO4xjH3j2ofFsFAmm1NdoACgkQ4xjH3j2o
+fFvmaQ/+LeNZT6BiIUqOfdoUBkaosPLieymuEG4T1Z92mxgxQmgaOtdEe3T9JW6U
+Xkuo5lpan0+sHWnh6eGvHsr3Yr0pBQvI188Rxr7QefkMbiAknoaPNRDQieB0Asjr
+J0jl+BSqtKWfe1WakNxBGN0fwuirVXZJu3WAcAjfO0O9vMHgR3Dm/IeAQCct4vdH
+GR6rEz1uiTV+9ydwgcFWfWzoMT+DD1dPBCW5ZvXxChgnf3vDMFAsje5C6jFTE0mf
+q2UnJwUAj6wc22n65sl0ZGDiMTnZ21uhd2patIOyw49knrCIKJisalsvZmKuPotB
+LXKtG5ozwFiSDIpJeuSwEpZxDRTUKXXRs2hXmv/XlsLVQeptwaBDWnF+9MTC7dcD
+WxGHvwWZCCZUeZ05JLdV6Bhn8cH38uVG96lClEbSLAei/hghcfsDfSpJ3Ml32BgP
+hiFtkQKCtDgv159YhRHuvtLeU2KOpqNBEvCojKcbTZX3OQqrkWFbG5lo10b4jKZ8
+b4rzfAu1Zb561/6OYwewOLLi254yLMdDdI2A98se+ZmWjnNWvnGoEID3dBetKnR/
+DUwqx5javFkeJVJa/7u1h4YtZrKlZnG6Gqkx3M8GePB8Y6MBD+YzJw91TIWUdwoQ
+BUMQC2OlQKubh91CbCKfzZkJqWScKfkfo/48dxu8DKPijkJAJZ0=
+=o0ih
 -----END PGP SIGNATURE-----
