@@ -5,7 +5,7 @@ Origin: Nylander L10n Suite
 Label: Nylander L10n Suite  
 Suite: stable
 Codename: stable
-Date: Sat Mar 14 06:55:00 UTC 2026
+Date: Sat, 14 Mar 2026 07:06:34 +0000
 Architectures: amd64
 Components: main
 Description: Daniel Nylander's localization and development packages
@@ -20,17 +20,17 @@ SHA256: 7f0f9e5d82369f6a77fd103512a36e1a6fd47cb7d2e978e5bc713485e81f4729 21873 m
 SHA256: e80f37a2161d8a7ebeea6095c03584054455878fccfbe730f517d9ec3b69346a 18172 main/binary-amd64/Packages.xz
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAEBCAAdFiEEN5hu++1i1inAzyaO4xjH3j2ofFsFAmm1BnsACgkQ4xjH3j2o
-fFt/nA/7BLwaYhc5SCr4x3NQGCMDwiCz+7SewJbPKdkJuivMV8Ah5J41qYnMe6OU
-wTiHMkOABkrb/4vKQ1mIrZKEX+93tslwdIVBaYdluqYFbT1zGbLylpWRlwfkLF+C
-xi7hzvVyS8Z1Oe+WT7BKIPM1FrFA+g0kOwtWjDpkutSO4JletGwqyFFiDUwH0dWU
-Krqtb9JlDE1nfTGRoGo79CtS0sg8HmU853iuQUaZA2rbWiTfDVSmmhmUYwG2l3uY
-0+uQKEOLUIHiLXuPcp3oKP+kcCaKiq6w5VasexLDFNe/17jd3vaxl2eh+8XB8F90
-MoIgo7XY94P5xfqPmU3YX0+4XHB1LgtqDkLGNM1ULyrUVtc0yC3uMpOl3jfahZWc
-TAKlWnteIq4Cf6NVSP/j66HJhSAp/BHfiY/AvoJ/v0NIB79qdUP371QTHWidph/B
-X8lHT1O9VEMP2olwDK1JV8Q9UOvr531TBdR1MIo5foCRxMrY8JKLU1hpRvi/Rd3s
-P2dvK5NHoevFSvjozPizUvCyVLbx8lUJoUcwRvV3RN0uFzaiWqpM8fn23pKRSbY2
-xG+Vs7v/U7kAel3IuOM6rNrua9YphctFcxHN92Xle/MzmShUshvKvJVhccGcUq2k
-QaZPh1DS3t8aBfLISx6tZj173qt/Kva/jNqZk+TFlvG+Mri2QN4=
-=reYu
+iQIzBAEBCAAdFiEEN5hu++1i1inAzyaO4xjH3j2ofFsFAmm1CQsACgkQ4xjH3j2o
+fFs5Xw//a3U3u8JT+P0DjiMrta9CKtk8wKTqjohnIIMSkQ79KnwKqzbRIuxI9BSo
+fxKhCA+WjgdioSCV9QVcBKKE4AaQp8/wXgwe69RPW/P+3DA/N9KX6uTFXyZ4lhU+
+/h0sviDxEwYKnICGuak3LBeVmMrgI//Xs/DHNZ7scvDgOTKeAsY/vZV7xvWyZxcw
+7FrtnnKN6pxTt/7LdSCvcprIwUF/EEb5Fz8wZ7xnuAK+hA10hvfi0jnA0zKOguf+
+GzlcaJQ51HgM4/Z9i99DaeRTA+b1yVPf/x0gMAd9yNzb5G+9KcyV0hFf6jchO8y/
+qqQBReXpH9Ez0XxKpBe1w+ubsImhJDc8rhWnGVV5yn86eNeFybhmCA0tcfrz96qK
++HqQ/st5ojcQ/8RaeV16a2LWpZy8aqWPGQ8mXbwgmmIALl6PbifRMZ7lCNAVTGPD
+XyPxBm++6YG6ypL6WiBqU1f9mGmSgcQuy+BII156VCgliHekSc4raSbbpIwHpJPH
+Oj3pe8v478tW3ueTh9/cLllypsvTv0F+rXPj6+HTscQ5HSXzySX5npAsIxKFZPZr
+Yg1OZvCuIplFvMYcP+laC2EaOrfWaOnXYAdmrPLuw+r0KNGsq2Ut6A2pLFCIYxMk
+HazYR3uJkCe4mVhsgyu6JDDKYtTTMWFXJo3YePcvCrBxo7+yCAg=
+=1C4f
 -----END PGP SIGNATURE-----
