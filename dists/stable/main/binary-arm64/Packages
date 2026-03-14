@@ -1406,16 +1406,16 @@ Description: Tool: PacketLens - network packet capture viewer
  PacketLens - network packet capture viewer
 
 Package: paintbrush
-Version: 1.0.0-1
+Version: 1.1.0-1
 Architecture: all
 Maintainer: Daniel Nylander <daniel@danielnylander.se>
 Installed-Size: 40
 Depends: python3, python3-gi, python3-gi-cairo, gir1.2-gtk-4.0, gir1.2-adw-1, gir1.2-gdkpixbuf-2.0
-Filename: pool/main/paintbrush_1.0.0-1_all.deb
-Size: 7622
-MD5sum: 786afc2a13a0779cce9c48156706d921
-SHA1: 12126f64ea940f563882ad24289f9e3a6a078a14
-SHA256: 915a0fe968a9c2e96eb7bef002a0c8068b816548b1860a71e7c29458e45b942b
+Filename: pool/main/paintbrush_1.1.0-1_all.deb
+Size: 7902
+MD5sum: 734db4db447ba4c00b35267b4c58af33
+SHA1: 8480cacea1cab2e94b588b303c5c65fb554800e2
+SHA256: 0bd21b1e9012e3d28a5620ae7b4e653a016d3d63f21665b847b91124d58feb04
 Section: graphics
 Priority: optional
 Homepage: https://github.com/yeager/paintbrush
