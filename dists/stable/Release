@@ -5,10 +5,10 @@ Codename: stable
 Architectures: amd64
 Components: main
 Description: Daniel Nylander's localization and development packages
-Date: Sun, 15 Mar 2026 10:09:23 +0000
+Date: Sun, 15 Mar 2026 11:03:24 +0000
 MD5Sum:
  2f26613798b5c27339f4a3f127f1cadf 77980 main/binary-all/Packages
- 5ab1dac145796e04bcf39cafb96164e2 19022 main/binary-all/Packages.gz
+ 9e7f7343e52c5c2a87ac9e2770303619 19022 main/binary-all/Packages.gz
  a809844a909ea7051ad4414a5e287b1a 16952 main/binary-all/Packages.xz
  3c5045c665c408d615662dfb1f19ae1f 23724 main/binary-all/paintbrush_1.4.0-1_all.deb
  7d55287eed04190b2d3aa2ddaac51a44 15518 main/binary-amd64/anpr-viewer_0.4.0_all.deb
@@ -82,7 +82,7 @@ MD5Sum:
  2f013c86b2bd4302616e84eb59374bd3 4426 main/binary-amd64/ordparaden_0.1.0_all.deb
  faff821d59fdea059f1482dca146872b 5576 main/binary-amd64/ovningstavlan_0.1.0-1_all.deb
  2f26613798b5c27339f4a3f127f1cadf 77980 main/binary-amd64/Packages
- 5ab1dac145796e04bcf39cafb96164e2 19022 main/binary-amd64/Packages.gz
+ 9e7f7343e52c5c2a87ac9e2770303619 19022 main/binary-amd64/Packages.gz
  a809844a909ea7051ad4414a5e287b1a 16952 main/binary-amd64/Packages.xz
  c0f10880562799904233320f6c7d5e8a 37366 main/binary-amd64/packetlens_0.2.7_all.deb
  f33c2cfc5373c197cb9039bc52600c93 32084 main/binary-amd64/paintbrush_1.4.1-1_all.deb
@@ -188,7 +188,7 @@ MD5Sum:
  2f013c86b2bd4302616e84eb59374bd3 4426 main/binary-arm64/ordparaden_0.1.0_all.deb
  faff821d59fdea059f1482dca146872b 5576 main/binary-arm64/ovningstavlan_0.1.0-1_all.deb
  2f26613798b5c27339f4a3f127f1cadf 77980 main/binary-arm64/Packages
- 5ab1dac145796e04bcf39cafb96164e2 19022 main/binary-arm64/Packages.gz
+ 9e7f7343e52c5c2a87ac9e2770303619 19022 main/binary-arm64/Packages.gz
  a809844a909ea7051ad4414a5e287b1a 16952 main/binary-arm64/Packages.xz
  c0f10880562799904233320f6c7d5e8a 37366 main/binary-arm64/packetlens_0.2.7_all.deb
  6ffaeaee042869923e97fa82ec087840 7756 main/binary-arm64/pauskollen_0.1.0-1_all.deb
@@ -226,14 +226,14 @@ MD5Sum:
  2912dcf67db5ff9111eb1e50173c68cb 9896 main/binary-arm64/zigbee-manager_0.1.4_all.deb
  a7380ffc78d61ace6b435a07154d01aa 250976 main/binary-arm64/zscaler-api-client_2.1.0_all.deb
  2f26613798b5c27339f4a3f127f1cadf 77980 main/binary-armhf/Packages
- 5ab1dac145796e04bcf39cafb96164e2 19022 main/binary-armhf/Packages.gz
+ 9e7f7343e52c5c2a87ac9e2770303619 19022 main/binary-armhf/Packages.gz
  a809844a909ea7051ad4414a5e287b1a 16952 main/binary-armhf/Packages.xz
  2f26613798b5c27339f4a3f127f1cadf 77980 main/binary-i386/Packages
- 5ab1dac145796e04bcf39cafb96164e2 19022 main/binary-i386/Packages.gz
+ 9e7f7343e52c5c2a87ac9e2770303619 19022 main/binary-i386/Packages.gz
  a809844a909ea7051ad4414a5e287b1a 16952 main/binary-i386/Packages.xz
 SHA1:
  7a75e39141014a1a18295fa98c90a5b515839970 77980 main/binary-all/Packages
- 1d22623dcda682293e7d7bd370b9bdd18d20a669 19022 main/binary-all/Packages.gz
+ d5b5a9344492c89275514a071a1ec55830e333dc 19022 main/binary-all/Packages.gz
  dcfd24c7dad111c579b398cdb771be8ba81e0700 16952 main/binary-all/Packages.xz
  5f150012f25921b839e1f4187f35d5567c5c3390 23724 main/binary-all/paintbrush_1.4.0-1_all.deb
  b4e724ba9945d4d215d57603248f3efe9e7798f7 15518 main/binary-amd64/anpr-viewer_0.4.0_all.deb
@@ -307,7 +307,7 @@ SHA1:
  1316de18cc477321bd9a4c2cce04fc66f2f562df 4426 main/binary-amd64/ordparaden_0.1.0_all.deb
  eb7fc488f174b5bea759e116e4f6064030ec4d44 5576 main/binary-amd64/ovningstavlan_0.1.0-1_all.deb
  7a75e39141014a1a18295fa98c90a5b515839970 77980 main/binary-amd64/Packages
- 1d22623dcda682293e7d7bd370b9bdd18d20a669 19022 main/binary-amd64/Packages.gz
+ d5b5a9344492c89275514a071a1ec55830e333dc 19022 main/binary-amd64/Packages.gz
  dcfd24c7dad111c579b398cdb771be8ba81e0700 16952 main/binary-amd64/Packages.xz
  61c119deff2dcdc48e8a891fb9b039908b5cdaad 37366 main/binary-amd64/packetlens_0.2.7_all.deb
  407f2d10cd0b0971c65691b5ce803d11c128b267 32084 main/binary-amd64/paintbrush_1.4.1-1_all.deb
@@ -413,7 +413,7 @@ SHA1:
  1316de18cc477321bd9a4c2cce04fc66f2f562df 4426 main/binary-arm64/ordparaden_0.1.0_all.deb
  eb7fc488f174b5bea759e116e4f6064030ec4d44 5576 main/binary-arm64/ovningstavlan_0.1.0-1_all.deb
  7a75e39141014a1a18295fa98c90a5b515839970 77980 main/binary-arm64/Packages
- 1d22623dcda682293e7d7bd370b9bdd18d20a669 19022 main/binary-arm64/Packages.gz
+ d5b5a9344492c89275514a071a1ec55830e333dc 19022 main/binary-arm64/Packages.gz
  dcfd24c7dad111c579b398cdb771be8ba81e0700 16952 main/binary-arm64/Packages.xz
  61c119deff2dcdc48e8a891fb9b039908b5cdaad 37366 main/binary-arm64/packetlens_0.2.7_all.deb
  f549f46279b4cb14fd2604d32052770810e14e6f 7756 main/binary-arm64/pauskollen_0.1.0-1_all.deb
@@ -451,14 +451,14 @@ SHA1:
  229588867a49e2b2cc10434fc6fae67fc10aff6b 9896 main/binary-arm64/zigbee-manager_0.1.4_all.deb
  3ab4a511d6b46ba6b5109521fe72e85f507f0cdf 250976 main/binary-arm64/zscaler-api-client_2.1.0_all.deb
  7a75e39141014a1a18295fa98c90a5b515839970 77980 main/binary-armhf/Packages
- 1d22623dcda682293e7d7bd370b9bdd18d20a669 19022 main/binary-armhf/Packages.gz
+ d5b5a9344492c89275514a071a1ec55830e333dc 19022 main/binary-armhf/Packages.gz
  dcfd24c7dad111c579b398cdb771be8ba81e0700 16952 main/binary-armhf/Packages.xz
  7a75e39141014a1a18295fa98c90a5b515839970 77980 main/binary-i386/Packages
- 1d22623dcda682293e7d7bd370b9bdd18d20a669 19022 main/binary-i386/Packages.gz
+ d5b5a9344492c89275514a071a1ec55830e333dc 19022 main/binary-i386/Packages.gz
  dcfd24c7dad111c579b398cdb771be8ba81e0700 16952 main/binary-i386/Packages.xz
 SHA256:
  d58bb986eeb8603438e20bcef911a4dbcdc4e6800286bf7409bdd790944a9f09 77980 main/binary-all/Packages
- db8e979ff7dff155e32f398581a246566a45829285dbc30cd55c99c1a1304c7a 19022 main/binary-all/Packages.gz
+ d40ea87b12b4ac64f44009762371ae3818ed45c99e5092716f07b3ac01c17815 19022 main/binary-all/Packages.gz
  0291bb56cf6f8aff335238b01cc852ef14cf363d443b06ca200fdabf506fe595 16952 main/binary-all/Packages.xz
  4c0ce9ad9857cf0e41fd17d43d0201ab2e2a731ef972b7198cca5376e56c584e 23724 main/binary-all/paintbrush_1.4.0-1_all.deb
  c7ac612af458900c26c37a3118753db0378f5985404d5cb1ae6df0f77227a0e3 15518 main/binary-amd64/anpr-viewer_0.4.0_all.deb
@@ -532,7 +532,7 @@ SHA256:
  abe165fcfea9140c22a45366aa18765b3a974f18929b6896fc4c12e07dfc54d8 4426 main/binary-amd64/ordparaden_0.1.0_all.deb
  8f3994e9372a90aba82ae7a15cdd92d811467271dd55d6dcd6f273a877b9c2d9 5576 main/binary-amd64/ovningstavlan_0.1.0-1_all.deb
  d58bb986eeb8603438e20bcef911a4dbcdc4e6800286bf7409bdd790944a9f09 77980 main/binary-amd64/Packages
- db8e979ff7dff155e32f398581a246566a45829285dbc30cd55c99c1a1304c7a 19022 main/binary-amd64/Packages.gz
+ d40ea87b12b4ac64f44009762371ae3818ed45c99e5092716f07b3ac01c17815 19022 main/binary-amd64/Packages.gz
  0291bb56cf6f8aff335238b01cc852ef14cf363d443b06ca200fdabf506fe595 16952 main/binary-amd64/Packages.xz
  37fc25b15b2184cd801d94b9454f1dfd1347c2ed9d92b7a495d118ed5bc20e63 37366 main/binary-amd64/packetlens_0.2.7_all.deb
  64ae62c39dd27687be72852a4ab10a0295818f6b95059c9bcdd370c154821153 32084 main/binary-amd64/paintbrush_1.4.1-1_all.deb
@@ -638,7 +638,7 @@ SHA256:
  abe165fcfea9140c22a45366aa18765b3a974f18929b6896fc4c12e07dfc54d8 4426 main/binary-arm64/ordparaden_0.1.0_all.deb
  8f3994e9372a90aba82ae7a15cdd92d811467271dd55d6dcd6f273a877b9c2d9 5576 main/binary-arm64/ovningstavlan_0.1.0-1_all.deb
  d58bb986eeb8603438e20bcef911a4dbcdc4e6800286bf7409bdd790944a9f09 77980 main/binary-arm64/Packages
- db8e979ff7dff155e32f398581a246566a45829285dbc30cd55c99c1a1304c7a 19022 main/binary-arm64/Packages.gz
+ d40ea87b12b4ac64f44009762371ae3818ed45c99e5092716f07b3ac01c17815 19022 main/binary-arm64/Packages.gz
  0291bb56cf6f8aff335238b01cc852ef14cf363d443b06ca200fdabf506fe595 16952 main/binary-arm64/Packages.xz
  37fc25b15b2184cd801d94b9454f1dfd1347c2ed9d92b7a495d118ed5bc20e63 37366 main/binary-arm64/packetlens_0.2.7_all.deb
  b5ad7a15b2a47845a2a7120ef512b64645b1ba4eab801f17c32e790884107b50 7756 main/binary-arm64/pauskollen_0.1.0-1_all.deb
@@ -676,8 +676,8 @@ SHA256:
  1c3836bc51109f81110f6e176d12cb8dd0a33302cceeb20bf3f239ca94f34d04 9896 main/binary-arm64/zigbee-manager_0.1.4_all.deb
  ef23ccb3fb8d9aacfd0deee20e7ae68cdd302ce9b3ab3dfc4b0c5cc099ce866b 250976 main/binary-arm64/zscaler-api-client_2.1.0_all.deb
  d58bb986eeb8603438e20bcef911a4dbcdc4e6800286bf7409bdd790944a9f09 77980 main/binary-armhf/Packages
- db8e979ff7dff155e32f398581a246566a45829285dbc30cd55c99c1a1304c7a 19022 main/binary-armhf/Packages.gz
+ d40ea87b12b4ac64f44009762371ae3818ed45c99e5092716f07b3ac01c17815 19022 main/binary-armhf/Packages.gz
  0291bb56cf6f8aff335238b01cc852ef14cf363d443b06ca200fdabf506fe595 16952 main/binary-armhf/Packages.xz
  d58bb986eeb8603438e20bcef911a4dbcdc4e6800286bf7409bdd790944a9f09 77980 main/binary-i386/Packages
- db8e979ff7dff155e32f398581a246566a45829285dbc30cd55c99c1a1304c7a 19022 main/binary-i386/Packages.gz
+ d40ea87b12b4ac64f44009762371ae3818ed45c99e5092716f07b3ac01c17815 19022 main/binary-i386/Packages.gz
  0291bb56cf6f8aff335238b01cc852ef14cf363d443b06ca200fdabf506fe595 16952 main/binary-i386/Packages.xz
