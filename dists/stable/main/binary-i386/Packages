@@ -358,6 +358,25 @@ Description: Translate Debian package descriptions via DDTP
  sudo apt install ddtp-translate
  ```
 
+Package: debconf-translation-manager
+Version: 0.6.2-1
+Architecture: all
+Maintainer: Daniel Nylander <daniel@danielnylander.se>
+Installed-Size: 377
+Depends: python3-bs4 (>= 4.11), python3-gi, python3-requests, python3:any, gir1.2-gtk-4.0, gir1.2-adw-1
+Filename: ./debconf-translation-manager_0.6.2-1_all.deb
+Size: 62252
+MD5sum: 5687b6c94f569027accc470cd0a3ca4f
+SHA1: 9ad83b593f32c41ed43f6f4447123fdb8d1eee9e
+SHA256: 8c4dcd1009abad4370d9501dd9b2425f0b6087c4264a6be70f89fc6c8585e004
+Section: devel
+Priority: optional
+Homepage: https://github.com/yeager/debconf-translation-manager
+Description: GTK4 tool for managing Debconf template translations
+ A GTK4/libadwaita application for managing translations of Debian
+ debconf templates. Features template browser, PO editor, BTS bug
+ filing, DDTSS integration, review board, and statistics.
+
 Package: debian-installer-companion
 Version: 0.1.3
 Architecture: all
@@ -802,23 +821,25 @@ Description: Glossary editor for localization — manage term lists, flag incons
  ```
 
 Package: l10n-lint
-Version: 1.16.0
+Version: 1.19.0-1
 Architecture: all
 Maintainer: Daniel Nylander <daniel@danielnylander.se>
-Depends: python3 (>= 3.10)
-Filename: ./l10n-lint_1.16.0_all.deb
-Size: 32622
-MD5sum: 124ced12e794a2120ad91e8a9c11f668
-SHA1: 485b5d9fa15d7b6b5930e722992f07962eaf07c8
-SHA256: 4d4543b1199e3a02d509863807d07000e18e77c65a90203e29eb70f494475281
+Installed-Size: 213
+Depends: python3:any
+Filename: ./l10n-lint_1.19.0-1_all.deb
+Size: 43434
+MD5sum: b6856a6bb361d9b5e369530ec5af8502
+SHA1: 398cf2ab95d0d663e28fa4387a0e90d67fa09c9d
+SHA256: f1cdee32ac14a6051278408bf980122c686a750f5734c04c5f64c1cc080b2d2f
 Section: devel
 Priority: optional
 Homepage: https://github.com/yeager/l10n-lint
 Description: Linter for localization files (.po, .ts)
- This package is part of the Danne L10n Suite, a collection of
- localization and accessibility tools for Linux.
+ l10n-lint checks PO and Qt TS translation files for common errors
+ such as missing format specifiers, inconsistent punctuation,
+ untranslated strings, and encoding issues.
  .
- Linter for localization files (.po, .ts)
+ It supports both command-line and GTK graphical interfaces.
 
 Package: l10n-preview
 Version: 0.2.7
@@ -1551,23 +1572,6 @@ Description: GTK4 app for reviewing .po translations with diff view, comments an
  ```
 
 Package: po-translate
-Version: 1.5.8
-Architecture: all
-Maintainer: Daniel Nylander <daniel@danielnylander.se>
-Depends: python3 (>= 3.10), python3-polib
-Filename: ./po-translate_1.5.8_all.deb
-Size: 14780
-MD5sum: c524c382865b0d16c8824f73cef80529
-SHA1: 20bc42e900c5ab965cd64a3d1049cb3ceaf351cf
-SHA256: 6c430163daadea491a87e940172188dd3bd5d24d809525767266a3fdf86c6b61
-Section: devel
-Priority: optional
-Homepage: https://github.com/yeager/po-translate
-Description: Batch translate PO and TS localization files
- A CLI tool for batch translating PO and TS files using
- various translation APIs (Google, DeepL, Claude, etc.).
-
-Package: po-translate
 Version: 1.5.8-1
 Architecture: all
 Maintainer: Daniel Nylander <daniel@danielnylander.se>
@@ -1791,6 +1795,27 @@ Description: Create and view social stories with images for autism
  localization and accessibility tools for Linux.
  .
  Create and view social stories with images for autism
+
+Package: speech-provider-piper
+Version: 0.1.0-1
+Architecture: amd64
+Maintainer: Daniel Nylander <daniel@danielnylander.se>
+Depends: libglib2.0-0 (>= 2.56), libdbus-1-3 (>= 1.12)
+Recommends: orca, libspiel-1-0
+Suggests: piper-voices
+Filename: ./speech-provider-piper_0.1.0-1_amd64.deb
+Size: 11381816
+MD5sum: dd28a9472f6b9684129083f8e23d8911
+SHA1: 24a90a7d91fe3b45c59a9533770c9c8e47397d35
+SHA256: 64d072a1676648863f0cfaf859eeb74cf8533407d790f0b739c68e3c490b0461
+Section: sound
+Priority: optional
+Homepage: https://github.com/yeager/speech-provider-piper
+Description: Piper Speech Provider for GNOME Spiel
+ A D-Bus speech provider for neural TTS models like Piper,
+ compatible with GNOME's Spiel speech synthesis framework.
+ Provides high-quality neural text-to-speech for screen readers
+ like Orca.
 
 Package: stegvisaren
 Version: 0.1.0-1
@@ -2051,26 +2076,6 @@ Description: Read-only viewer for Microsoft Visio files
  VSDView is a read-only viewer for Microsoft Visio files (.vsdx and .vsd),
  built with GTK4 and libadwaita. Uses libvisio-ng for native Visio file
  parsing — no external dependencies needed.
-
-Package: vsdview
-Version: 0.5.0-1
-Architecture: all
-Maintainer: Daniel Nylander <daniel@danielnylander.se>
-Installed-Size: 264
-Depends: python3 (>= 3.10), python3-gi, gir1.2-gtk-4.0, gir1.2-adw-1, gir1.2-rsvg-2.0
-Recommends: libreoffice-draw, librsvg2-bin
-Filename: ./vsdview_0.5.0_all.deb
-Size: 52468
-MD5sum: eb9cb2f30d865f3ecaa5a46e9ee82e76
-SHA1: e3d35900669a36627b16cfaf703b43c85ee4e964
-SHA256: 95b655ff8368e05d124c0e3cc6a411b19576e53867b8ea6776f4c928af930b12
-Section: graphics
-Priority: optional
-Homepage: https://github.com/yeager/vsdview
-Description: Read-only viewer for Microsoft Visio files
- VSDView is a minimal viewer for Microsoft Visio files (.vsdx and .vsd),
- built with GTK4 and libadwaita. It uses LibreOffice in headless mode to
- convert diagrams to SVG for rendering.
 
 Package: wifi-analyzer
 Version: 0.1.4
