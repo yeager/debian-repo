@@ -1430,25 +1430,26 @@ Description: Tool: PacketLens - network packet capture viewer
  PacketLens - network packet capture viewer
 
 Package: paintbrush
-Version: 1.4.1-1
+Version: 2.0.0-1
 Architecture: all
 Maintainer: Daniel Nylander <daniel@danielnylander.se>
-Installed-Size: 130
+Installed-Size: 200
 Depends: python3, python3-gi, python3-gi-cairo, gir1.2-gtk-4.0, gir1.2-adw-1, gir1.2-gdkpixbuf-2.0
-Filename: ./paintbrush_1.4.1-1_all.deb
-Size: 32084
-MD5sum: f33c2cfc5373c197cb9039bc52600c93
-SHA1: 407f2d10cd0b0971c65691b5ce803d11c128b267
-SHA256: 64ae62c39dd27687be72852a4ab10a0295818f6b95059c9bcdd370c154821153
+Filename: ./paintbrush_2.0.0-1_all.deb
+Size: 41648
+MD5sum: 9976ad6ff016bb8d2b3a4067765ffae3
+SHA1: 21a63e4507771d0e3237a351fe70ae685d56b5fc
+SHA256: 3ffe8ba33b5f6bb92d2fd599746f474fd74852c2661e7fc273ff7d50c9953bb3
 Section: graphics
 Priority: optional
 Homepage: https://github.com/yeager/paintbrush
-Description: Simple painting and drawing application for Linux
- PaintBrush is a modern paint program for Linux, built with GTK4 and
- libadwaita. Features include layers, crop, rotate, gradient fill,
- brush shapes, clipboard support, and multiple export formats.
- .
- Supports opening and saving PNG, JPEG, GIF, BMP, and WebP images.
+Description: Professional painting and image editing application for Linux
+ PaintBrush is a lightweight yet powerful paint program for Linux, built
+ with GTK4 and libadwaita. Features include HSV/RGB color picker, layers
+ with blend modes, selection tools (rectangle, ellipse, lasso, magic wand),
+ transforms (scale, perspective, shear), Bezier paths, image adjustments
+ (brightness, contrast, hue/saturation, curves), filters (blur, sharpen,
+ emboss, edge detect, pixelate), and professional UI with dockable panels.
 
 Package: pauskollen
 Version: 0.1.0-1
