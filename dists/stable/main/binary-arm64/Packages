@@ -1415,10 +1415,10 @@ Maintainer: Daniel Nylander <daniel@danielnylander.se>
 Installed-Size: 120
 Depends: python3, python3-gi, python3-gi-cairo, gir1.2-gtk-4.0, gir1.2-adw-1, gir1.2-gdkpixbuf-2.0
 Filename: ./paintbrush_1.4.0-1_all.deb
-Size: 23724
-MD5sum: 3c5045c665c408d615662dfb1f19ae1f
-SHA1: 5f150012f25921b839e1f4187f35d5567c5c3390
-SHA256: 4c0ce9ad9857cf0e41fd17d43d0201ab2e2a731ef972b7198cca5376e56c584e
+Size: 23712
+MD5sum: cc1d528f6fc93fee0abc7040230e323d
+SHA1: ca181a368eda46429ce69c0a5b42614fd1028cc4
+SHA256: e48e57ffd9b88aca58cb76e451ae8e45275c1494990db72de2d62c505f419a91
 Section: graphics
 Priority: optional
 Homepage: https://github.com/yeager/paintbrush
