@@ -1436,10 +1436,10 @@ Maintainer: Daniel Nylander <daniel@danielnylander.se>
 Installed-Size: 200
 Depends: python3, python3-gi, python3-gi-cairo, gir1.2-gtk-4.0, gir1.2-adw-1, gir1.2-gdkpixbuf-2.0
 Filename: ./paintbrush_2.0.0-1_all.deb
-Size: 41648
-MD5sum: 9976ad6ff016bb8d2b3a4067765ffae3
-SHA1: 21a63e4507771d0e3237a351fe70ae685d56b5fc
-SHA256: 3ffe8ba33b5f6bb92d2fd599746f474fd74852c2661e7fc273ff7d50c9953bb3
+Size: 41644
+MD5sum: 92a3d10aeaf8d75e3f02cce0e7825f70
+SHA1: 7c6d3e4c3ad2bc54ee98801d4e0ae1270ee377f3
+SHA256: 87dd7ac443c09a94f10cd1ee418571847176dda3bfb06dcca1c73fae920b3464
 Section: graphics
 Priority: optional
 Homepage: https://github.com/yeager/paintbrush
