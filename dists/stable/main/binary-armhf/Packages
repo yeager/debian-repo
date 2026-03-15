@@ -1487,6 +1487,26 @@ Description: Learn about money for children with IF
  .
  Learn about money for children with IF
 
+Package: piper-voice-sv-alma
+Version: 1.0.0-1
+Architecture: all
+Maintainer: Daniel Nylander <daniel@danielnylander.se>
+Installed-Size: 62464
+Depends: speech-provider-piper | piper
+Filename: ./piper-voice-sv-alma_1.0.0-1_all.deb
+Size: 58025520
+MD5sum: 8108d7fef716322d6ed01914536acaba
+SHA1: 547240dc51371432267e9a773ab9ff21e30e37d6
+SHA256: 35d63bc8edf959242775861be551c120f2ff76f13f6c399262695bc6d6caefa4
+Section: sound
+Priority: optional
+Homepage: https://github.com/yeager/speech-provider-piper
+Description: Swedish TTS voice for Piper - Alma (medium quality)
+ Retrained Alma voice for the Piper text-to-speech engine.
+ Trained for 10,000 epochs with optimized inference parameters
+ for natural Swedish speech synthesis. Works with GNOME Spiel/Orca
+ and standalone Piper installations.
+
 Package: po-diff
 Version: 1.0.1
 Architecture: all
