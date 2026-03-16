@@ -8,7 +8,7 @@ Codename: stable
 Architectures: amd64
 Components: main
 Description: Daniel Nylander's localization and development packages
-Date: mån, 16 mars 2026 09:28:07 +0000
+Date: Mon, 16 Mar 2026 09:37:52 +0000
 MD5Sum:
   26318 main/binary-amd64/Packages
   7933 main/binary-amd64/Packages.gz
@@ -21,17 +21,17 @@ SHA256:
  c05f49a2381a47e154416ed2a5fa0422918185822e781a68ebe5368ed154be57 7933 main/binary-all/Packages.gz
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAEBCAAdFiEEN5hu++1i1inAzyaO4xjH3j2ofFsFAmm3zScACgkQ4xjH3j2o
-fFt3TRAAkhz5pZWzwn/vdmh0FNp1NlqvylqCs+bLHmiAhusinqWqX8ZtFLKNjol9
-cCZHo5CRPdjpXQ48Gm1vc4tivzte0WlC5bUynnOrqZkiP+SjrN/yKBzw5hansNP0
-LuO9uhRUL0WVKGLoiRKD31Bnk1vW7zUJsUUxiEU1vgZCSYDxbmx3wWvbMA7yj+bK
-IqPmbu89kL/dVgHBpMJwDsUGi8Cs9ZyoOsxq54gHhVbiAWgviS9Z5x/GPYrrc2aO
-2MdatMnYAulvqLn7Dxsovwx1KwAlgoxNUvZgRbMjPr89SbP+HreQNtWsG/BqlyS5
-ly0WKGG3QFpcwCM13SiU9nw9Quvj1Vy+YuvYnblPxUIUmomvQy7IdcNipthZ6SDS
-MYDdvne6L00/4RrW9aHkaf9cWSCCfA97mAh1Mvm2FUy9hwaK2VIrBLiVkLG5ehif
-xCWrvZxFOiTOUd06Yj6WNaNXQMDBvjLWFrifCWVBZn9DWyh6Dhtm/lrcNAzuTmhJ
-uY5LHYZ4k9r4vgtGRjWqhSKYLwwXKTe21ghxA2+XXH0sd0CWqtNF5HljLCAlNr7b
-DjfaWBibupiBjzaX1jkkSi1/oxpkNxmVqU4NUaiHQmmAcwO4cDKZUNm1D9s6KK8q
-vVJSZdHbkko4av+dbnih6S+ulFkXVdh/iEvZ8FM06iPfKyY1mUc=
-=8qjA
+iQIzBAEBCAAdFiEEN5hu++1i1inAzyaO4xjH3j2ofFsFAmm3z3AACgkQ4xjH3j2o
+fFt8Hw/+MacqsGVyQEwlDrBEzcShU0ThjTae3Fwb7GC9j9wQ4eiYjx4C1wkq1uWH
+UL0FH41R0tdqOCeqyNs8N5IyixS8fj/DsVmeq/FfeoUKkI03NuRsUnEyXLGoucQu
+Bqa0Jojdln4pI2GLTn3LWgvU0ZsMTM8kBPeOj1F3lk1dMXHu8W6jXUtJl5tgYa4Q
+JTnx0GpNiKmsJbxqNHSg8P2HIxnGnpRp2r5wuDkU9zslKlzuu/zL6g/LoP6Lbi5W
+PwXId/u2KhBmwRMSzRs/D/OdM+tso5ZluLt9ozOjsxJmGzJwgh4X3F6tYynre17O
+NNkJMIFQfnAoCnqElHAFaCJ8GBEgTcfv9wuT+yZUAcWKKtrxx4Nn1EktGM5FgaNo
+3P/Y+/AbFx+YA/nMw/kmV/QOQPdFNeP5cNjG5DGqlZck9E9Ffivy2+u5QY+3wFD2
+a/qXf2FhatrSmJ3JGIicNuR0an0vMrc1UjaGtYxGbkE7NjUyGZY9gZbup1ZGU9mZ
+2H26/4jlpQo5qBLSC0pMhiUeez3D5dZx+ycBQcLOhzJjb152EMuQSSBBLIxKmGh0
+ELuUBSFL6AhtT1cTa72BKBPptnFK5DgsclBhYz2R+ab2Q1XvVhz9eXPzAGpO5pcm
+vsJR2lJdjpnnSOausFHEexJ+B9MIXC7n6UhjjgtG5TNcEs9FItM=
+=p3sN
 -----END PGP SIGNATURE-----
