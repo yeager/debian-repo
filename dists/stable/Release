@@ -5,14 +5,14 @@ Codename: stable
 Architectures: amd64
 Components: main
 Description: Daniel Nylander's localization and development packages
-Date: Mon, 16 Mar 2026 17:43:30 +0000
+Date: Mon, 16 Mar 2026 18:01:25 +0000
 MD5Sum:
- f7102b5e8b23a1db74e6508d2cedc8c2 26442 main/binary-amd64/Packages
- fbef19e98e4627ab7ea68020d4e68e9d 8003 main/binary-amd64/Packages.gz
- f7102b5e8b23a1db74e6508d2cedc8c2 26442 main/binary-all/Packages
- 1d8d3431dab70c12d23c5fadc672b064 8003 main/binary-all/Packages.gz
+ 77298a83f6e912c0be0acc08c0342627 26301 main/binary-amd64/Packages
+ 8fe0fe83d8d77bcb1fb8c9c1e6ee947f 7956 main/binary-amd64/Packages.gz
+ 77298a83f6e912c0be0acc08c0342627 26301 main/binary-all/Packages
+ b2328e8ed7167db9e6d9a2e6dd425a64 7956 main/binary-all/Packages.gz
 SHA256:
- dcc51e1d8d041c716c8b07059a2b2b12864af7ec9f50badd0805e44a4f086d36 26442 main/binary-amd64/Packages
- c5471b0e8be71ffaa60c7195ffc5aa7513ba6a41182955bf75ed40ab9abbf95c 8003 main/binary-amd64/Packages.gz
- dcc51e1d8d041c716c8b07059a2b2b12864af7ec9f50badd0805e44a4f086d36 26442 main/binary-all/Packages
- 14765f08168c48b269fa9be26bfd67e19e1224c83efdd69c9972bc67be65882b 8003 main/binary-all/Packages.gz
+ 2fff2ae240edd4e2ac2c1675979049d2adafbde654695c0208616d5e446c0a3c 26301 main/binary-amd64/Packages
+ f7c75bc841f4d7142c773073a7d5ff6a9497e0123b1f7e3aaf5192c604d93583 7956 main/binary-amd64/Packages.gz
+ 2fff2ae240edd4e2ac2c1675979049d2adafbde654695c0208616d5e446c0a3c 26301 main/binary-all/Packages
+ 1739d14836c6f5eb933dfd15d2874c32843a9581b324724e4b2bfb16dc71ba64 7956 main/binary-all/Packages.gz

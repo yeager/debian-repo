@@ -609,16 +609,14 @@ Version: 0.2.0-1
 Architecture: all
 Maintainer: Daniel Nylander <daniel@danielnylander.se>
 Depends: python3, python3-gi, gir1.2-gtk-4.0, gir1.2-adw-1, piper, piper-voice-sv-alma
-Recommends: piper-voice-en-us-lessac-medium, piper-voice-en-us-ryan-medium
 Filename: pool/main/storymaker_0.2.0-1_all.deb
-Size: 716
-MD5sum: 5d010a9c5e03a0d2bea87a4cc612995c
-SHA1: 7dcbb39195d53aa3c85af4447a4165b9fd2dce8b
-SHA256: d140ffbbffbfb94eaff37af7944ee80d2d07ad6bc5cf38229b307a11faba894b
+Size: 27178
+MD5sum: 99ad8a20220835b4bbbe1395f3ce3787
+SHA1: b5a8d4f43dc9f338d3b5793bacf15be0d392e77b
+SHA256: 0e7012b5e44d1005d255a2fabafed4d3ee4b1c5b29f8f42c1468027093a5dca6
 Section: utils
 Priority: optional
-Description: StoryMaker - Interactive story creator with AI and Piper TTS
- GTK4 app for interactive children stories with Alma Swedish voice.
+Description: StoryMaker - Interactive stories for children with Piper TTS
 
 Package: taskbreaker
 Version: 0.1.0-1
