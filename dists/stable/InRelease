@@ -8,12 +8,12 @@ Codename: stable
 Architectures: amd64
 Components: main
 Description: Daniel Nylander's localization and development packages
-Date: Mon, 16 Mar 2026 09:37:52 +0000
+Date: Mon, 16 Mar 2026 09:38:02 +0000
 MD5Sum:
-  26318 main/binary-amd64/Packages
-  7933 main/binary-amd64/Packages.gz
-  26318 main/binary-all/Packages
-  7933 main/binary-all/Packages.gz
+ d114956e36732f133d2cabb1313e829c 26318 main/binary-amd64/Packages
+ 0fba386758cab84a85477ee592026ce2 7933 main/binary-amd64/Packages.gz
+ d114956e36732f133d2cabb1313e829c 26318 main/binary-all/Packages
+ ef0f5ad6146ade32334b4705e9f5187d 7933 main/binary-all/Packages.gz
 SHA256:
  81a093c9519cdca1e125dbdcfe918e8c017638e1ee430a82317fab166698fc6b 26318 main/binary-amd64/Packages
  6ce14ed7f375ad1f11049f9cd5a593b8638020b6fd7f418efb5f5388eb21729a 7933 main/binary-amd64/Packages.gz
@@ -21,17 +21,17 @@ SHA256:
  c05f49a2381a47e154416ed2a5fa0422918185822e781a68ebe5368ed154be57 7933 main/binary-all/Packages.gz
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAEBCAAdFiEEN5hu++1i1inAzyaO4xjH3j2ofFsFAmm3z3AACgkQ4xjH3j2o
-fFt8Hw/+MacqsGVyQEwlDrBEzcShU0ThjTae3Fwb7GC9j9wQ4eiYjx4C1wkq1uWH
-UL0FH41R0tdqOCeqyNs8N5IyixS8fj/DsVmeq/FfeoUKkI03NuRsUnEyXLGoucQu
-Bqa0Jojdln4pI2GLTn3LWgvU0ZsMTM8kBPeOj1F3lk1dMXHu8W6jXUtJl5tgYa4Q
-JTnx0GpNiKmsJbxqNHSg8P2HIxnGnpRp2r5wuDkU9zslKlzuu/zL6g/LoP6Lbi5W
-PwXId/u2KhBmwRMSzRs/D/OdM+tso5ZluLt9ozOjsxJmGzJwgh4X3F6tYynre17O
-NNkJMIFQfnAoCnqElHAFaCJ8GBEgTcfv9wuT+yZUAcWKKtrxx4Nn1EktGM5FgaNo
-3P/Y+/AbFx+YA/nMw/kmV/QOQPdFNeP5cNjG5DGqlZck9E9Ffivy2+u5QY+3wFD2
-a/qXf2FhatrSmJ3JGIicNuR0an0vMrc1UjaGtYxGbkE7NjUyGZY9gZbup1ZGU9mZ
-2H26/4jlpQo5qBLSC0pMhiUeez3D5dZx+ycBQcLOhzJjb152EMuQSSBBLIxKmGh0
-ELuUBSFL6AhtT1cTa72BKBPptnFK5DgsclBhYz2R+ab2Q1XvVhz9eXPzAGpO5pcm
-vsJR2lJdjpnnSOausFHEexJ+B9MIXC7n6UhjjgtG5TNcEs9FItM=
-=p3sN
+iQIzBAEBCAAdFiEEN5hu++1i1inAzyaO4xjH3j2ofFsFAmm3z3oACgkQ4xjH3j2o
+fFt2zA//TIeC58nUNzCxmIDfbh9E9MhNYjNEB0hR8P3FAo2an1SQOz9q1lVq9eAJ
+mulwoTSOLof/xdr7m+herk55lidltXjwus/ws878184Kt2vhuWHn9pxfkjlhDZwl
+wj0N9ErPQLln+RGPPnt6+2O4gjDfzVBPCJ9lcjCKiVMVSV7X70uK109qcLo4gZ1W
+aglRhUokKyn/KnftMYLytERBxzbGfouba4NkTizEA6FjrOkzFNjiCYgg+gtryMLu
+dm85eOOrD+NbgtLruXHWingeGT63t15D/UgnPe4e0UXIM2k32h52OazaEKexNjiH
+5cSGrNY0ZYnawXTja0QDpXJiypkLOMOIAuhxnklpJXg2VjDIrG9yxCBUimZj8Mlf
+AM7nXZiSKGHp6IyNxnhWfu+17tbH/w9cdIB4NEwhZpnK/PvdVC0bDFHGY02LVEMf
+aI0iKC0bt4OxF4xnfRiW50AdPT4hSMH5c35qahrSfy9QKZMe2k0HqnRwlGk2eUVA
+ls45rRqDsax27bKxYBkeke+VPIsQ101JkGEPIvg6QpG/t0AkqjN1sSGOuCAsY1jk
+r6GyMhrzgxtrwaUsNeZnRzDsPanW8NtICsPe2g/XsDqvf2Auzl/AmkNc98zAkz1w
+wlgQ721YEPGRUah/n0pwFuAPw4+p5KI6JumWVpdzEAjKsSGM0/8=
+=Cyp1
 -----END PGP SIGNATURE-----
