@@ -605,19 +605,20 @@ Description: Piper Speech Provider for GNOME Spiel
  like Orca.
 
 Package: storymaker
-Version: 0.1.0-1
+Version: 0.2.0-1
 Architecture: all
 Maintainer: Daniel Nylander <daniel@danielnylander.se>
-Depends: python3, python3-gi, gir1.2-gtk-4.0, gir1.2-adw-1
-Filename: pool/main/storymaker_0.1.0-1_all.deb
-Size: 22952
-MD5sum: 49f5a3d07152c50f5b29a41072605500
-SHA1: cf085642af9c894c4386f4fb482e446a1302fe3e
-SHA256: a690bb2a721b7c5aaa83e4224eb13d7d1ddcdee30df40047b74f7f48117157a7
+Depends: python3, python3-gi, gir1.2-gtk-4.0, gir1.2-adw-1, piper, piper-voice-sv-alma
+Recommends: piper-voice-en-us-lessac-medium, piper-voice-en-us-ryan-medium
+Filename: pool/main/storymaker_0.2.0-1_all.deb
+Size: 716
+MD5sum: 5d010a9c5e03a0d2bea87a4cc612995c
+SHA1: 7dcbb39195d53aa3c85af4447a4165b9fd2dce8b
+SHA256: d140ffbbffbfb94eaff37af7944ee80d2d07ad6bc5cf38229b307a11faba894b
 Section: utils
 Priority: optional
-Description: StoryMaker - GTK4 accessibility application
- StoryMaker is a GTK4 application designed for accessibility.
+Description: StoryMaker - Interactive story creator with AI and Piper TTS
+ GTK4 app for interactive children stories with Alma Swedish voice.
 
 Package: taskbreaker
 Version: 0.1.0-1

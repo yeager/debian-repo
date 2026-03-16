@@ -8,30 +8,30 @@ Codename: stable
 Architectures: amd64
 Components: main
 Description: Daniel Nylander's localization and development packages
-Date: Mon, 16 Mar 2026 09:38:02 +0000
+Date: Mon, 16 Mar 2026 17:43:30 +0000
 MD5Sum:
- d114956e36732f133d2cabb1313e829c 26318 main/binary-amd64/Packages
- 0fba386758cab84a85477ee592026ce2 7933 main/binary-amd64/Packages.gz
- d114956e36732f133d2cabb1313e829c 26318 main/binary-all/Packages
- ef0f5ad6146ade32334b4705e9f5187d 7933 main/binary-all/Packages.gz
+ f7102b5e8b23a1db74e6508d2cedc8c2 26442 main/binary-amd64/Packages
+ fbef19e98e4627ab7ea68020d4e68e9d 8003 main/binary-amd64/Packages.gz
+ f7102b5e8b23a1db74e6508d2cedc8c2 26442 main/binary-all/Packages
+ 1d8d3431dab70c12d23c5fadc672b064 8003 main/binary-all/Packages.gz
 SHA256:
- 81a093c9519cdca1e125dbdcfe918e8c017638e1ee430a82317fab166698fc6b 26318 main/binary-amd64/Packages
- 6ce14ed7f375ad1f11049f9cd5a593b8638020b6fd7f418efb5f5388eb21729a 7933 main/binary-amd64/Packages.gz
- 81a093c9519cdca1e125dbdcfe918e8c017638e1ee430a82317fab166698fc6b 26318 main/binary-all/Packages
- c05f49a2381a47e154416ed2a5fa0422918185822e781a68ebe5368ed154be57 7933 main/binary-all/Packages.gz
+ dcc51e1d8d041c716c8b07059a2b2b12864af7ec9f50badd0805e44a4f086d36 26442 main/binary-amd64/Packages
+ c5471b0e8be71ffaa60c7195ffc5aa7513ba6a41182955bf75ed40ab9abbf95c 8003 main/binary-amd64/Packages.gz
+ dcc51e1d8d041c716c8b07059a2b2b12864af7ec9f50badd0805e44a4f086d36 26442 main/binary-all/Packages
+ 14765f08168c48b269fa9be26bfd67e19e1224c83efdd69c9972bc67be65882b 8003 main/binary-all/Packages.gz
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAEBCAAdFiEEN5hu++1i1inAzyaO4xjH3j2ofFsFAmm3z3oACgkQ4xjH3j2o
-fFt2zA//TIeC58nUNzCxmIDfbh9E9MhNYjNEB0hR8P3FAo2an1SQOz9q1lVq9eAJ
-mulwoTSOLof/xdr7m+herk55lidltXjwus/ws878184Kt2vhuWHn9pxfkjlhDZwl
-wj0N9ErPQLln+RGPPnt6+2O4gjDfzVBPCJ9lcjCKiVMVSV7X70uK109qcLo4gZ1W
-aglRhUokKyn/KnftMYLytERBxzbGfouba4NkTizEA6FjrOkzFNjiCYgg+gtryMLu
-dm85eOOrD+NbgtLruXHWingeGT63t15D/UgnPe4e0UXIM2k32h52OazaEKexNjiH
-5cSGrNY0ZYnawXTja0QDpXJiypkLOMOIAuhxnklpJXg2VjDIrG9yxCBUimZj8Mlf
-AM7nXZiSKGHp6IyNxnhWfu+17tbH/w9cdIB4NEwhZpnK/PvdVC0bDFHGY02LVEMf
-aI0iKC0bt4OxF4xnfRiW50AdPT4hSMH5c35qahrSfy9QKZMe2k0HqnRwlGk2eUVA
-ls45rRqDsax27bKxYBkeke+VPIsQ101JkGEPIvg6QpG/t0AkqjN1sSGOuCAsY1jk
-r6GyMhrzgxtrwaUsNeZnRzDsPanW8NtICsPe2g/XsDqvf2Auzl/AmkNc98zAkz1w
-wlgQ721YEPGRUah/n0pwFuAPw4+p5KI6JumWVpdzEAjKsSGM0/8=
-=Cyp1
+iQIzBAEBCAAdFiEEN5hu++1i1inAzyaO4xjH3j2ofFsFAmm4QUIACgkQ4xjH3j2o
+fFsFpw/+OgdNr5ecA/je2SUTthWjJfk3j10ZsfBQnVDKrilvHk7iJAAHrF850jna
+80PQSMNwtiK1fxpcqvq5hOm7Bh/SV2z3/dQJWqbR2UKlUxWIEURTYCMFdz0VkTW2
+Xy5o/RlZu+Tjz81KALHPG9buF7Z+A4FKc8hOK+khsEPPlmrdhmFZoQ1F+/3rb0pI
+BA0by249of+Xgn7Dow0ctPWotIHz2g510c5hiC3e3/KaMJ5gtwhmmiq2DwyyP43o
+z8edZ+Ma7u6DlK/v+DMvWrcaCCVGtakusiV2oY3Xhj5qsf+6wmqIU+Cc8Ujh41Lh
+ohh+Di06Louyp4OxprIarFjeHFZS8EtM8WZQ5da1dq6ZTMoZm0JeILf/w3h2Cv7Y
+EaMaVzB/8rCz8AGhepekk4qYC5gEp/uKDVP/D7NQjX2tMvck3oPlli4eBF1CCist
++2XqCrfPUJ9wZNkTzAA+rzWNNK10vuZrOUdRAnG/5h12iCB37L2EwII+WBuJm/1O
+8mc3n1MgFiL8Xgq0TPB5LF4ZxlPqW1z55ylZIve+qFK7dbtAile56ka8YtvtZOhc
+nI2APX5D/Na3W6O+H9o7Nuw/d238vXkiYj3WWc2KOlYzkBFXIIOOY8w475ZdSuNn
+7IeKX7Zzd7XIh5BI/cTIG4TNS98t+c9eIvdZJyp1+rk6655atGE=
+=bTt4
 -----END PGP SIGNATURE-----
