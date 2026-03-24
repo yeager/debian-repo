@@ -1,3 +1,12 @@
+dpkg-scanpackages: warning: package l10n-lint (filename pool/l10n-lint_1.16.0-1_all.deb) is repeat; ignored that one and using data from pool/l10n-lint_1.17.2-1_all.deb!
+dpkg-scanpackages: warning: package svlang (filename pool/svlang_0.2.0-1_all.deb) is repeat but newer version; used that one and ignored data from pool/svlang_0.1.7-2_all.deb!
+dpkg-scanpackages: warning: package svlang (filename pool/svlang_0.1.7-1_all.deb) is repeat; ignored that one and using data from pool/svlang_0.2.0-1_all.deb!
+dpkg-scanpackages: warning: package l10n-lint (filename pool/l10n-lint_1.16.0_all.deb) is repeat; ignored that one and using data from pool/l10n-lint_1.17.2-1_all.deb!
+dpkg-scanpackages: warning: package l10n-lint (filename pool/l10n-lint_1.18.0-1_all.deb) is repeat but newer version; used that one and ignored data from pool/l10n-lint_1.17.2-1_all.deb!
+dpkg-scanpackages: warning: package l10n-lint (filename pool/l10n-lint_1.17.1-1_all.deb) is repeat; ignored that one and using data from pool/l10n-lint_1.18.0-1_all.deb!
+dpkg-scanpackages: warning: package l10n-lint (filename pool/main/l/l10n-lint/l10n-lint_1.19.0-1_all.deb) is repeat but newer version; used that one and ignored data from pool/l10n-lint_1.18.0-1_all.deb!
+dpkg-scanpackages: warning: package cve-monitor (filename pool/main/c/cve-monitor/cve-monitor_0.3.6_all.deb) is repeat but newer version; used that one and ignored data from pool/cve-monitor_0.3.5_all.deb!
+dpkg-scanpackages: warning: package sleepcoach (filename pool/main/s/sleepcoach/sleepcoach_0.2.0-1_all.deb) is repeat; ignored that one and using data from pool/main/s/sleepcoach_0.2.0-1_all.deb!
 Package: anpr-viewer
 Version: 0.4.0
 Architecture: all
@@ -907,17 +916,17 @@ Description: HomeHelper - GTK4 accessibility application
  HomeHelper is a GTK4 application designed for accessibility.
 
 Package: hunspell-sv
-Version: 2.42.3
+Version: 2:2.42.3
 Architecture: all
 Maintainer: Daniel Nylander <daniel@danielnylander.se>
 Depends: hunspell | libhunspell-1.7-0
 Replaces: hunspell-sv
 Provides: hunspell-dictionary, hunspell-dictionary-sv
 Filename: pool/hunspell-sv_2.42.3_all.deb
-Size: 1049220
-MD5sum: 6bf7fb2a8f4db1877d200b27feedf6f5
-SHA1: a8743362cdc456b779936bc9a728421798545382
-SHA256: b23767faa05c0c160ff2b1d1e6b70e5b3e290c789181aa3bbe29853baeb16c91
+Size: 1049224
+MD5sum: 05208c1adf1484dc73877808f6316039
+SHA1: 5ecb0b12cc3e810769b993f1ae9f5125f12788de
+SHA256: 49bce5ef2c9f37c56619584976759615d7dc2fd213a912d9d10b1d9b6815d1a2
 Section: text
 Priority: optional
 Description: Swedish dictionary for Hunspell spell checker
@@ -2638,3 +2647,17 @@ Description: Zigbee device management via Zigbee2MQTT
  sudo apt install zigbee-manager
  ```
 
+dpkg-scanpackages: warning: Packages with multiple instances but no --multiversion specified:
+dpkg-scanpackages: warning: pool/l10n-lint_1.16.0-1_all.deb
+dpkg-scanpackages: warning: pool/l10n-lint_1.16.0_all.deb
+dpkg-scanpackages: warning: pool/l10n-lint_1.17.1-1_all.deb
+dpkg-scanpackages: warning: pool/l10n-lint_1.17.2-1_all.deb
+dpkg-scanpackages: warning: pool/l10n-lint_1.18.0-1_all.deb
+dpkg-scanpackages: warning: pool/main/c/cve-monitor/cve-monitor_0.3.6_all.deb
+dpkg-scanpackages: warning: pool/main/l/l10n-lint/l10n-lint_1.19.0-1_all.deb
+dpkg-scanpackages: warning: pool/main/s/sleepcoach/sleepcoach_0.2.0-1_all.deb
+dpkg-scanpackages: warning: pool/svlang_0.1.7-1_all.deb
+dpkg-scanpackages: warning: pool/svlang_0.2.0-1_all.deb
+dpkg-scanpackages: warning: Packages in archive but missing from override file:
+dpkg-scanpackages: warning:   anpr-viewer apt-changelog-viewer asterics-board-editor autopkgtest-runner beloningskartan bildordbok bildquiz bildschema bildstod bokstavsresan breathingbuddy build-log-analyzer cert-watch cldr-viewer clipkeeper codelingo commonvoice-status communityboard cve-monitor dagboken ddtp-translate debconf-translation-manager debconf-translator debian-installer-companion debian-policy-checker dep-graph-viewer desktop-editor easybank elementary-l10n emergencycard energimataren fedora-l10n firewall-manager flaggleken flashkort fokuskompis font-preview foodhelper formspelet freeipa-manager gettext-coverage gir1.2-spiel-1.0 github-l10n gnome-l10n grammarbuddy ha-l10n homehelper hunspell-sv ilskehanteraren kanslokartan kladvaljaren klocklararen l10n-conv l10n-glossary l10n-lint l10n-preview langpack-inspector lexiscan libpiper libretranslate-gui libspiel-1.0-0 libspiel-dev libvisio-ng linguaedit ljudjakten ljudladan locale-tester log-viewer lp-bug-triager lugnarummet makebread matlagaren mediremind meetinghelper meningsbyggaren mentor-dashboard merge-o-matic-viewer minnet mittschema moneyteacher moodtracker mqtt-dashboard mqtt-inspector new-queue-monitor obd2-viewer ordbyggaren ovningstavlan packetlens paintbrush pauskollen pcap-viewer pecsbrada pengakollen piper-voice-sv-alma po-diff po-review-board po-translate process-explorer pronounceit python3-libvisio-ng raknestod readaloud regex-tester release-notes-editor rhvoice-language-swedish rightsguide rpm-policy-checker rutinkompis safewalk samtalsstod scummvm-gtk sensorysafe signbridge simplemail skoldagen sleepcoach snap-l10n socialaberattelser speech-provider-piper stegvisaren storymaker svlang sysinfo-gtk taskbreaker tidskollen tm-manager tp-lint tp-status transitbuddy transition-tracker tts-tester ubuntu-l10n valjaren vsdview waittimer wifi-analyzer zigbee-manager
+dpkg-scanpackages: info: Wrote 137 entries to output Packages file.
