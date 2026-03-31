@@ -5,10 +5,15 @@ Codename: stable
 Architectures: amd64
 Components: main
 Description: Daniel Nylander's localization and development packages
-Date: Sat, 14 Mar 2026 10:17:58 +0000
+Date: Tue, 31 Mar 2026 07:59:47 +0000
 MD5Sum:
- 74bd3441898971e6b5fac3f52e1c33f9 316323 main/binary-all/Packages
- 56776824396edda0a6e03f7cc2d981d2 28005 main/binary-all/Packages.gz
+ b3075af8498507d2893f2ee80e0e7a88 94243 main/binary-all/Packages
+ 6272241d1fb4b6ca2824994215d640df 23096 main/binary-all/Packages.gz
+ 1ee8b13ebf05eb24ef72589e9ad86300 20356 main/binary-all/Packages.xz
+ 3c5045c665c408d615662dfb1f19ae1f 23724 main/binary-all/paintbrush_1.4.0-1_all.deb
+ 8d1805dea04652475d2bb5439e23c753 98218 main/binary-amd64/Packages
+ 2b68876a67f49106796e20a4c9ecc638 24448 main/binary-amd64/Packages.gz
+ 94492596aa458915659c64212058ebf3 21524 main/binary-amd64/Packages.xz
  7d55287eed04190b2d3aa2ddaac51a44 15518 main/binary-amd64/anpr-viewer_0.4.0_all.deb
  6542d807a2ca338f070d9b1948f6268d 7798 main/binary-amd64/apt-changelog-viewer_0.1.3_all.deb
  77cc3053fde107fa0c15f8128a4fdbc8 12886 main/binary-amd64/asterics-board-editor_0.1.0-1_all.deb
@@ -27,6 +32,7 @@ MD5Sum:
  68d526c505abb308b57376a0f21a38ed 23312 main/binary-amd64/cve-monitor_0.3.5_all.deb
  20375f38e13970a6c0c8a74d1c6f8955 5306 main/binary-amd64/dagboken_0.1.0-1_all.deb
  c9e312c16b37767a58d54fecc29b837c 43128 main/binary-amd64/ddtp-translate_0.14.2_all.deb
+ 5687b6c94f569027accc470cd0a3ca4f 62252 main/binary-amd64/debconf-translation-manager_0.6.2-1_all.deb
  5da9ddcc73dbf5c0ff425ce259f5fdee 7680 main/binary-amd64/debian-installer-companion_0.1.3_all.deb
  a1fb92095f0a03c8f438d17fc312f296 11120 main/binary-amd64/debian-policy-checker_0.1.3_all.deb
  6b81c9869f8bf1d0d7faf0f39b2e6828 8048 main/binary-amd64/dep-graph-viewer_0.1.3_all.deb
@@ -39,6 +45,7 @@ MD5Sum:
  c869a7e7979988c2d14d7b079b778e63 12240 main/binary-amd64/font-preview_0.2.9_all.deb
  bfc105dac006ea5ba03ed48cac083a45 24734 main/binary-amd64/freeipa-manager_0.1.0-1.deb
  fbf71234883e68924b2e0153022838b1 7884 main/binary-amd64/gettext-coverage_0.1.3_all.deb
+ d2c3e819f91e933ab1befa74838bb700 10642 main/binary-amd64/gir1.2-spiel-1.0_1.0.5-1_amd64.deb
  f9f36b0aa9dc271a011b7c1270619b30 12556 main/binary-amd64/github-l10n_0.2.7_all.deb
  8e481a6d8dfb6d21216db5778d24b188 14448 main/binary-amd64/gnome-l10n_0.2.4_all.deb
  e3686e11841aa2bc93f6d7ebc9429a65 19100 main/binary-amd64/ha-l10n_0.2.4_all.deb
@@ -48,10 +55,13 @@ MD5Sum:
  b4f5d0516f2a674827b1c6abb0f06747 5322 main/binary-amd64/klocklararen_0.1.0-1_all.deb
  231d3913f183d856a16603ca28a92dfc 14212 main/binary-amd64/l10n-conv_1.0.9-1_all.deb
  c359de796ba48a2a3950ec1c9a183b0e 14954 main/binary-amd64/l10n-glossary_0.2.10_all.deb
- 124ced12e794a2120ad91e8a9c11f668 32622 main/binary-amd64/l10n-lint_1.16.0_all.deb
+ b6856a6bb361d9b5e369530ec5af8502 43434 main/binary-amd64/l10n-lint_1.19.0-1_all.deb
  253b5d4f9103638b58d2e53db25554c7 9936 main/binary-amd64/l10n-preview_0.2.7_all.deb
  59ae2298f825502921d4a89bd06e0628 13124 main/binary-amd64/langpack-inspector_0.2.9_all.deb
+ 7655f2fd3d3a20cfa10e65d05a19992b 1138 main/binary-amd64/libpiper_1.2.0-1_amd64.deb
  d95862ae66083beb518e01df4e7ebb37 9642 main/binary-amd64/libretranslate-gui_0.2.7_all.deb
+ 15041b7882161f6ec71aaa6e6463624c 39100 main/binary-amd64/libspiel-1.0-0_1.0.5-1_amd64.deb
+ 71318ab372fc7bc5753b2a2ea53a99d5 5188 main/binary-amd64/libspiel-dev_1.0.5-1_amd64.deb
  12f9e70f2d6dfd72623ece08babde330 51848 main/binary-amd64/libvisio-ng_0.6.0-1_all.deb
  f326de2ceed2b8a34ab0b63732c48e70 291034 main/binary-amd64/linguaedit_1.8.15_all.deb
  015bb06629d10959bf9bdfa7fe1e2244 8896 main/binary-amd64/ljudladan_0.1.6_all.deb
@@ -75,16 +85,14 @@ MD5Sum:
  224bf7c31ce891474fc7c411d0b4a7d0 12944 main/binary-amd64/ordbyggaren_0.2.5_all.deb
  2f013c86b2bd4302616e84eb59374bd3 4426 main/binary-amd64/ordparaden_0.1.0_all.deb
  faff821d59fdea059f1482dca146872b 5576 main/binary-amd64/ovningstavlan_0.1.0-1_all.deb
- 74bd3441898971e6b5fac3f52e1c33f9 316323 main/binary-amd64/Packages
- 56776824396edda0a6e03f7cc2d981d2 28005 main/binary-amd64/Packages.gz
- 44329650edc1c53a05dac35e64ac6c0e 23408 main/binary-amd64/Packages.xz
  c0f10880562799904233320f6c7d5e8a 37366 main/binary-amd64/packetlens_0.2.7_all.deb
+ ca95ce43c917eebdd9921ad7355e6bd5 41448 main/binary-amd64/paintbrush_2.0.0-3_all.deb
  6ffaeaee042869923e97fa82ec087840 7756 main/binary-amd64/pauskollen_0.1.0-1_all.deb
  f6650443364aa56fecc1d58a00fc1f66 158236 main/binary-amd64/pecsbrada_0.3.6-1_all.deb
  ae4e03129296c303e04618707ff62910 5066 main/binary-amd64/pengakollen_0.1.0-1_all.deb
+ 8108d7fef716322d6ed01914536acaba 58025520 main/binary-amd64/piper-voice-sv-alma_1.0.0-1_all.deb
  95c6acf69949f9d0e8e3e8e881a4bf22 7242 main/binary-amd64/po-diff_1.0.1_all.deb
  fb751cf6231244b363112478fd8808c4 11078 main/binary-amd64/po-review-board_0.1.3_all.deb
- c524c382865b0d16c8824f73cef80529 14780 main/binary-amd64/po-translate_1.5.8_all.deb
  743420d9ee4bd5afcfd3799fb4f0c96d 17350 main/binary-amd64/po-translate_1.5.8-1_all.deb
  452b784218a842c6ba458f511da63de3 9166 main/binary-amd64/process-explorer_0.1.4_all.deb
  43b86d5d80be4c16158d9f8026865275 4834 main/binary-amd64/raknestod_0.1.0-1_all.deb
@@ -96,6 +104,7 @@ MD5Sum:
  8b530b15a65efb06a19721b18751f351 22764 main/binary-amd64/scummvm-gtk_0.2.3_all.deb
  7943c984d4d56d63c0bbeb620c52c508 12604 main/binary-amd64/snap-l10n_0.2.12_all.deb
  0878b65f2762e47a030b7bda5a02c11a 11904 main/binary-amd64/socialaberattelser_0.1.7_all.deb
+ dd28a9472f6b9684129083f8e23d8911 11381816 main/binary-amd64/speech-provider-piper_0.1.0-1_amd64.deb
  054cd3b9ae64fbaf184bc581391e71dd 6238 main/binary-amd64/stegvisaren_0.1.0-1_all.deb
  72962b94e03af05bad811858f51a6bb5 5534 main/binary-amd64/svlang_0.1.7-1_all.deb
  251fa755377d31965736c63369d8693e 12584 main/binary-amd64/sysinfo-gtk_0.1.2_all.deb
@@ -108,11 +117,13 @@ MD5Sum:
  ca64107a78ea22435900fbaa23a9ce08 15486 main/binary-amd64/tts-tester_0.2.4_all.deb
  4ed3786c96b34963c46d21a4a51ba528 15042 main/binary-amd64/ubuntu-l10n_0.3.6_all.deb
  015da7e2731785002bb1bbb0f0ab06f0 6280 main/binary-amd64/valjaren_0.1.0-1_all.deb
- eb9cb2f30d865f3ecaa5a46e9ee82e76 52468 main/binary-amd64/vsdview_0.5.0_all.deb
  4927f01d0a2a5458950c606be5180a42 19044 main/binary-amd64/vsdview_0.5.0-1_all.deb
  b6fb922ae1afa58506d0da37f661526f 10454 main/binary-amd64/wifi-analyzer_0.1.4_all.deb
  2912dcf67db5ff9111eb1e50173c68cb 9896 main/binary-amd64/zigbee-manager_0.1.4_all.deb
  a7380ffc78d61ace6b435a07154d01aa 250976 main/binary-amd64/zscaler-api-client_2.1.0_all.deb
+ 67f3717e1068497253a1984bb60e7fe6 78129 main/binary-arm64/Packages
+ 5edb2922bf2043b6de40ab17ecad81b0 19188 main/binary-arm64/Packages.gz
+ 81534340f14f729bf083b470f758954e 17092 main/binary-arm64/Packages.xz
  7d55287eed04190b2d3aa2ddaac51a44 15518 main/binary-arm64/anpr-viewer_0.4.0_all.deb
  6542d807a2ca338f070d9b1948f6268d 7798 main/binary-arm64/apt-changelog-viewer_0.1.3_all.deb
  77cc3053fde107fa0c15f8128a4fdbc8 12886 main/binary-arm64/asterics-board-editor_0.1.0-1_all.deb
@@ -179,17 +190,14 @@ MD5Sum:
  224bf7c31ce891474fc7c411d0b4a7d0 12944 main/binary-arm64/ordbyggaren_0.2.5_all.deb
  2f013c86b2bd4302616e84eb59374bd3 4426 main/binary-arm64/ordparaden_0.1.0_all.deb
  faff821d59fdea059f1482dca146872b 5576 main/binary-arm64/ovningstavlan_0.1.0-1_all.deb
- b5a4e16ef485dd10b7f10fe0023ac80e 7873 main/binary-arm64/Packages
- 0779008446a5d413d58cbeeb0d826ead 2981 main/binary-arm64/Packages.gz
- 50fbecd2860ffd15680a20017317043c 17460 main/binary-arm64/Packages.xz
  c0f10880562799904233320f6c7d5e8a 37366 main/binary-arm64/packetlens_0.2.7_all.deb
  6ffaeaee042869923e97fa82ec087840 7756 main/binary-arm64/pauskollen_0.1.0-1_all.deb
  f6650443364aa56fecc1d58a00fc1f66 158236 main/binary-arm64/pecsbrada_0.3.6-1_all.deb
  ae4e03129296c303e04618707ff62910 5066 main/binary-arm64/pengakollen_0.1.0-1_all.deb
  95c6acf69949f9d0e8e3e8e881a4bf22 7242 main/binary-arm64/po-diff_1.0.1_all.deb
  fb751cf6231244b363112478fd8808c4 11078 main/binary-arm64/po-review-board_0.1.3_all.deb
- c524c382865b0d16c8824f73cef80529 14780 main/binary-arm64/po-translate_1.5.8_all.deb
  743420d9ee4bd5afcfd3799fb4f0c96d 17350 main/binary-arm64/po-translate_1.5.8-1_all.deb
+ c524c382865b0d16c8824f73cef80529 14780 main/binary-arm64/po-translate_1.5.8_all.deb
  452b784218a842c6ba458f511da63de3 9166 main/binary-arm64/process-explorer_0.1.4_all.deb
  43b86d5d80be4c16158d9f8026865275 4834 main/binary-arm64/raknestod_0.1.0-1_all.deb
  d76073917bb1a0301f994ed7d87fdd8d 9328 main/binary-arm64/regex-tester_0.1.4_all.deb
@@ -212,20 +220,25 @@ MD5Sum:
  ca64107a78ea22435900fbaa23a9ce08 15486 main/binary-arm64/tts-tester_0.2.4_all.deb
  4ed3786c96b34963c46d21a4a51ba528 15042 main/binary-arm64/ubuntu-l10n_0.3.6_all.deb
  015da7e2731785002bb1bbb0f0ab06f0 6280 main/binary-arm64/valjaren_0.1.0-1_all.deb
- eb9cb2f30d865f3ecaa5a46e9ee82e76 52468 main/binary-arm64/vsdview_0.5.0_all.deb
  4927f01d0a2a5458950c606be5180a42 19044 main/binary-arm64/vsdview_0.5.0-1_all.deb
+ eb9cb2f30d865f3ecaa5a46e9ee82e76 52468 main/binary-arm64/vsdview_0.5.0_all.deb
  b6fb922ae1afa58506d0da37f661526f 10454 main/binary-arm64/wifi-analyzer_0.1.4_all.deb
  2912dcf67db5ff9111eb1e50173c68cb 9896 main/binary-arm64/zigbee-manager_0.1.4_all.deb
  a7380ffc78d61ace6b435a07154d01aa 250976 main/binary-arm64/zscaler-api-client_2.1.0_all.deb
- a0586d2270f830bb8e839a85d658e78c 81685 main/binary-armhf/Packages
- 40af4fdba0761ae1628ea9d714054a33 19686 main/binary-armhf/Packages.gz
- 50fbecd2860ffd15680a20017317043c 17460 main/binary-armhf/Packages.xz
- a0586d2270f830bb8e839a85d658e78c 81685 main/binary-i386/Packages
- 40af4fdba0761ae1628ea9d714054a33 19686 main/binary-i386/Packages.gz
- 50fbecd2860ffd15680a20017317043c 17460 main/binary-i386/Packages.xz
+ 67f3717e1068497253a1984bb60e7fe6 78129 main/binary-armhf/Packages
+ 5edb2922bf2043b6de40ab17ecad81b0 19188 main/binary-armhf/Packages.gz
+ 81534340f14f729bf083b470f758954e 17092 main/binary-armhf/Packages.xz
+ 67f3717e1068497253a1984bb60e7fe6 78129 main/binary-i386/Packages
+ 5edb2922bf2043b6de40ab17ecad81b0 19188 main/binary-i386/Packages.gz
+ 81534340f14f729bf083b470f758954e 17092 main/binary-i386/Packages.xz
 SHA1:
- e5e98c900b7ccccc83ac76aebfc569aa85e1023a 316323 main/binary-all/Packages
- c1a78f8d851c832ebdcda64e6e9515baf788e152 28005 main/binary-all/Packages.gz
+ 0fab8e2c153115101337dcda1a58030e3c900bad 94243 main/binary-all/Packages
+ 3a76fdf5c2d5be884d47f97d50a17f3ee2e100d5 23096 main/binary-all/Packages.gz
+ f98b809b8457b122c013afaa5fcbbf37496fe1ca 20356 main/binary-all/Packages.xz
+ 5f150012f25921b839e1f4187f35d5567c5c3390 23724 main/binary-all/paintbrush_1.4.0-1_all.deb
+ 7af739224c30e6b40facb77d9f9562bf38866fcf 98218 main/binary-amd64/Packages
+ 35651c54c58f269bfd2c9c1191fceb092b3e75cb 24448 main/binary-amd64/Packages.gz
+ 8fe267d3a8ea82d7fad23155b37661efcbb4a77b 21524 main/binary-amd64/Packages.xz
  b4e724ba9945d4d215d57603248f3efe9e7798f7 15518 main/binary-amd64/anpr-viewer_0.4.0_all.deb
  d442c2f94770760e7dc8c5e8deeb97e20ab624fe 7798 main/binary-amd64/apt-changelog-viewer_0.1.3_all.deb
  55a53036ea5590907c392fc52b0e23f53e0efe5b 12886 main/binary-amd64/asterics-board-editor_0.1.0-1_all.deb
@@ -244,6 +257,7 @@ SHA1:
  a4f565c5a7fe8f49d85b317bce15ffab5ace1b0a 23312 main/binary-amd64/cve-monitor_0.3.5_all.deb
  f241499bf3179f0face6eeeab7306ffabfb3ceb1 5306 main/binary-amd64/dagboken_0.1.0-1_all.deb
  8b9cbcfe425bba0fb071d0c3133ed2b02048c65d 43128 main/binary-amd64/ddtp-translate_0.14.2_all.deb
+ 9ad83b593f32c41ed43f6f4447123fdb8d1eee9e 62252 main/binary-amd64/debconf-translation-manager_0.6.2-1_all.deb
  a465ff24f0ba38ba57056074e1aaee3c1bef2c75 7680 main/binary-amd64/debian-installer-companion_0.1.3_all.deb
  59a90fb0739ae46d9fb788bdcefb96b4b6cf2d4e 11120 main/binary-amd64/debian-policy-checker_0.1.3_all.deb
  4ab1b6bbb1fc7875a409a8da5927ed6379a89a45 8048 main/binary-amd64/dep-graph-viewer_0.1.3_all.deb
@@ -256,6 +270,7 @@ SHA1:
  62ab47f66da9aaff619d7b76d3906e25aa53d433 12240 main/binary-amd64/font-preview_0.2.9_all.deb
  0bc0562d81a3c7750400ec04f0b6f24daab84b2a 24734 main/binary-amd64/freeipa-manager_0.1.0-1.deb
  784ea10565bb3de72e25e8fe55854749bd2bcdeb 7884 main/binary-amd64/gettext-coverage_0.1.3_all.deb
+ 03d54a12e4f7f8450bfa2bf6573954ffbf42e91c 10642 main/binary-amd64/gir1.2-spiel-1.0_1.0.5-1_amd64.deb
  d4416d9fee4017ceb58f6e362ddca825ee5d42c1 12556 main/binary-amd64/github-l10n_0.2.7_all.deb
  9d53f68d42033e2e07da759b6d787a0821c0d6b8 14448 main/binary-amd64/gnome-l10n_0.2.4_all.deb
  093dcbc02c45aea9e3c2fb24d651b884b720d340 19100 main/binary-amd64/ha-l10n_0.2.4_all.deb
@@ -265,10 +280,13 @@ SHA1:
  4b435cd6a1500c1ac0cd5fae26808dc791fedc73 5322 main/binary-amd64/klocklararen_0.1.0-1_all.deb
  4c215f5c90545c3355312c381287e9a02ce2eb6d 14212 main/binary-amd64/l10n-conv_1.0.9-1_all.deb
  68c76075213e1f82de25defbc7b491afcac4071d 14954 main/binary-amd64/l10n-glossary_0.2.10_all.deb
- 485b5d9fa15d7b6b5930e722992f07962eaf07c8 32622 main/binary-amd64/l10n-lint_1.16.0_all.deb
+ 398cf2ab95d0d663e28fa4387a0e90d67fa09c9d 43434 main/binary-amd64/l10n-lint_1.19.0-1_all.deb
  bae0063671133b456e06343a877eddce81fecc32 9936 main/binary-amd64/l10n-preview_0.2.7_all.deb
  23cee9a31614b7e7beea25692530b7593d56e017 13124 main/binary-amd64/langpack-inspector_0.2.9_all.deb
+ 63f94b59513e690b30be6f56ecd6ebb81178979b 1138 main/binary-amd64/libpiper_1.2.0-1_amd64.deb
  e85e1963479aca7ccc0262c6859eaa763d5a0a37 9642 main/binary-amd64/libretranslate-gui_0.2.7_all.deb
+ d2bdbc608cd1dbddbeaaf507095b56d5eed0b538 39100 main/binary-amd64/libspiel-1.0-0_1.0.5-1_amd64.deb
+ e1c8a2ba6207e7a70a0ad27b3f530750063e9d0d 5188 main/binary-amd64/libspiel-dev_1.0.5-1_amd64.deb
  3fd61803430d7b45c75490585917102d36a6aff5 51848 main/binary-amd64/libvisio-ng_0.6.0-1_all.deb
  a23e02272932bc2f03f331b953eeb77d0ed2df11 291034 main/binary-amd64/linguaedit_1.8.15_all.deb
  25d0592d6cbc0f8aebef39bc13803e9186661991 8896 main/binary-amd64/ljudladan_0.1.6_all.deb
@@ -292,16 +310,14 @@ SHA1:
  bf784da8410ba44a120e8f48e485946a3c05056e 12944 main/binary-amd64/ordbyggaren_0.2.5_all.deb
  1316de18cc477321bd9a4c2cce04fc66f2f562df 4426 main/binary-amd64/ordparaden_0.1.0_all.deb
  eb7fc488f174b5bea759e116e4f6064030ec4d44 5576 main/binary-amd64/ovningstavlan_0.1.0-1_all.deb
- e5e98c900b7ccccc83ac76aebfc569aa85e1023a 316323 main/binary-amd64/Packages
- c1a78f8d851c832ebdcda64e6e9515baf788e152 28005 main/binary-amd64/Packages.gz
- 750863912d46e58d6c7636e83f0d468059dcfde9 23408 main/binary-amd64/Packages.xz
  61c119deff2dcdc48e8a891fb9b039908b5cdaad 37366 main/binary-amd64/packetlens_0.2.7_all.deb
+ 213443716e45cadd63abf6eedac929ed43b87f0b 41448 main/binary-amd64/paintbrush_2.0.0-3_all.deb
  f549f46279b4cb14fd2604d32052770810e14e6f 7756 main/binary-amd64/pauskollen_0.1.0-1_all.deb
  f154398513876853cb8ff8eed547c2d1d2506884 158236 main/binary-amd64/pecsbrada_0.3.6-1_all.deb
  ae6fb4b8ef395030f765cc482afa365a704e617e 5066 main/binary-amd64/pengakollen_0.1.0-1_all.deb
+ 547240dc51371432267e9a773ab9ff21e30e37d6 58025520 main/binary-amd64/piper-voice-sv-alma_1.0.0-1_all.deb
  4501d808c44ead089265ef059b3e10379e19a1ba 7242 main/binary-amd64/po-diff_1.0.1_all.deb
  0508c623a97b7a47d04fa4c0a3e6c73a9df0b35c 11078 main/binary-amd64/po-review-board_0.1.3_all.deb
- 20bc42e900c5ab965cd64a3d1049cb3ceaf351cf 14780 main/binary-amd64/po-translate_1.5.8_all.deb
  88086f2721905dc30f91a012d9d5c06825f754a9 17350 main/binary-amd64/po-translate_1.5.8-1_all.deb
  40d6491954993b072fa68bbf587a951427cddae9 9166 main/binary-amd64/process-explorer_0.1.4_all.deb
  524f598e01f66905bb89b935433cd5aa147846f0 4834 main/binary-amd64/raknestod_0.1.0-1_all.deb
@@ -313,6 +329,7 @@ SHA1:
  35c80f2544618729d49e229562518d5f0542cd67 22764 main/binary-amd64/scummvm-gtk_0.2.3_all.deb
  15818529500081c31fa22cb4db555ab56838cd82 12604 main/binary-amd64/snap-l10n_0.2.12_all.deb
  900701e89380c80355ca6dd962cac926467e7818 11904 main/binary-amd64/socialaberattelser_0.1.7_all.deb
+ 24a90a7d91fe3b45c59a9533770c9c8e47397d35 11381816 main/binary-amd64/speech-provider-piper_0.1.0-1_amd64.deb
  abd3d62b8fca1aa22acc7cc3f9a64d13dff753d5 6238 main/binary-amd64/stegvisaren_0.1.0-1_all.deb
  83eacf056625d76fa6630e049bd5c4c438d8a517 5534 main/binary-amd64/svlang_0.1.7-1_all.deb
  e57b8589f87f4a63586cec935f5761e146a8782b 12584 main/binary-amd64/sysinfo-gtk_0.1.2_all.deb
@@ -325,11 +342,13 @@ SHA1:
  533c0515b138e7c67b9a9a649945c85280992de2 15486 main/binary-amd64/tts-tester_0.2.4_all.deb
  62aa0bd688455d6b993323d17ac58242e54410fc 15042 main/binary-amd64/ubuntu-l10n_0.3.6_all.deb
  3a05ceea86226351135294fff806f76fa487684e 6280 main/binary-amd64/valjaren_0.1.0-1_all.deb
- e3d35900669a36627b16cfaf703b43c85ee4e964 52468 main/binary-amd64/vsdview_0.5.0_all.deb
  c48782c1eaefbf4488102abe9b896fb9490e0b20 19044 main/binary-amd64/vsdview_0.5.0-1_all.deb
  1f80a1406e3cb27460461fc026b169fda8f93ab8 10454 main/binary-amd64/wifi-analyzer_0.1.4_all.deb
  229588867a49e2b2cc10434fc6fae67fc10aff6b 9896 main/binary-amd64/zigbee-manager_0.1.4_all.deb
  3ab4a511d6b46ba6b5109521fe72e85f507f0cdf 250976 main/binary-amd64/zscaler-api-client_2.1.0_all.deb
+ 5ccddada5f87453a8c6794701edda1333862d28b 78129 main/binary-arm64/Packages
+ 410b97217f96f64386eec832106339ec654ac2e0 19188 main/binary-arm64/Packages.gz
+ ee9bec651be6a7b297070d77d78555fb8de6a573 17092 main/binary-arm64/Packages.xz
  b4e724ba9945d4d215d57603248f3efe9e7798f7 15518 main/binary-arm64/anpr-viewer_0.4.0_all.deb
  d442c2f94770760e7dc8c5e8deeb97e20ab624fe 7798 main/binary-arm64/apt-changelog-viewer_0.1.3_all.deb
  55a53036ea5590907c392fc52b0e23f53e0efe5b 12886 main/binary-arm64/asterics-board-editor_0.1.0-1_all.deb
@@ -396,17 +415,14 @@ SHA1:
  bf784da8410ba44a120e8f48e485946a3c05056e 12944 main/binary-arm64/ordbyggaren_0.2.5_all.deb
  1316de18cc477321bd9a4c2cce04fc66f2f562df 4426 main/binary-arm64/ordparaden_0.1.0_all.deb
  eb7fc488f174b5bea759e116e4f6064030ec4d44 5576 main/binary-arm64/ovningstavlan_0.1.0-1_all.deb
- ae63859ef75c56b3de5369e309d5c2def2ea3d04 7873 main/binary-arm64/Packages
- 1962fd9d0a02eabf2217aebdd61391022a54eefd 2981 main/binary-arm64/Packages.gz
- 23a2072cd2c606322f4ddd2333fc682df2333b62 17460 main/binary-arm64/Packages.xz
  61c119deff2dcdc48e8a891fb9b039908b5cdaad 37366 main/binary-arm64/packetlens_0.2.7_all.deb
  f549f46279b4cb14fd2604d32052770810e14e6f 7756 main/binary-arm64/pauskollen_0.1.0-1_all.deb
  f154398513876853cb8ff8eed547c2d1d2506884 158236 main/binary-arm64/pecsbrada_0.3.6-1_all.deb
  ae6fb4b8ef395030f765cc482afa365a704e617e 5066 main/binary-arm64/pengakollen_0.1.0-1_all.deb
  4501d808c44ead089265ef059b3e10379e19a1ba 7242 main/binary-arm64/po-diff_1.0.1_all.deb
  0508c623a97b7a47d04fa4c0a3e6c73a9df0b35c 11078 main/binary-arm64/po-review-board_0.1.3_all.deb
- 20bc42e900c5ab965cd64a3d1049cb3ceaf351cf 14780 main/binary-arm64/po-translate_1.5.8_all.deb
  88086f2721905dc30f91a012d9d5c06825f754a9 17350 main/binary-arm64/po-translate_1.5.8-1_all.deb
+ 20bc42e900c5ab965cd64a3d1049cb3ceaf351cf 14780 main/binary-arm64/po-translate_1.5.8_all.deb
  40d6491954993b072fa68bbf587a951427cddae9 9166 main/binary-arm64/process-explorer_0.1.4_all.deb
  524f598e01f66905bb89b935433cd5aa147846f0 4834 main/binary-arm64/raknestod_0.1.0-1_all.deb
  a2c5b5880e19935c4b06e3483688ced037bb7e7f 9328 main/binary-arm64/regex-tester_0.1.4_all.deb
@@ -429,20 +445,25 @@ SHA1:
  533c0515b138e7c67b9a9a649945c85280992de2 15486 main/binary-arm64/tts-tester_0.2.4_all.deb
  62aa0bd688455d6b993323d17ac58242e54410fc 15042 main/binary-arm64/ubuntu-l10n_0.3.6_all.deb
  3a05ceea86226351135294fff806f76fa487684e 6280 main/binary-arm64/valjaren_0.1.0-1_all.deb
- e3d35900669a36627b16cfaf703b43c85ee4e964 52468 main/binary-arm64/vsdview_0.5.0_all.deb
  c48782c1eaefbf4488102abe9b896fb9490e0b20 19044 main/binary-arm64/vsdview_0.5.0-1_all.deb
+ e3d35900669a36627b16cfaf703b43c85ee4e964 52468 main/binary-arm64/vsdview_0.5.0_all.deb
  1f80a1406e3cb27460461fc026b169fda8f93ab8 10454 main/binary-arm64/wifi-analyzer_0.1.4_all.deb
  229588867a49e2b2cc10434fc6fae67fc10aff6b 9896 main/binary-arm64/zigbee-manager_0.1.4_all.deb
  3ab4a511d6b46ba6b5109521fe72e85f507f0cdf 250976 main/binary-arm64/zscaler-api-client_2.1.0_all.deb
- f7d7805226772aeae1b28e4929b4cdb39cd048ba 81685 main/binary-armhf/Packages
- a13b901a01322ee1a645f00009ebf756f49f77dd 19686 main/binary-armhf/Packages.gz
- 23a2072cd2c606322f4ddd2333fc682df2333b62 17460 main/binary-armhf/Packages.xz
- f7d7805226772aeae1b28e4929b4cdb39cd048ba 81685 main/binary-i386/Packages
- a13b901a01322ee1a645f00009ebf756f49f77dd 19686 main/binary-i386/Packages.gz
- 23a2072cd2c606322f4ddd2333fc682df2333b62 17460 main/binary-i386/Packages.xz
+ 5ccddada5f87453a8c6794701edda1333862d28b 78129 main/binary-armhf/Packages
+ 410b97217f96f64386eec832106339ec654ac2e0 19188 main/binary-armhf/Packages.gz
+ ee9bec651be6a7b297070d77d78555fb8de6a573 17092 main/binary-armhf/Packages.xz
+ 5ccddada5f87453a8c6794701edda1333862d28b 78129 main/binary-i386/Packages
+ 410b97217f96f64386eec832106339ec654ac2e0 19188 main/binary-i386/Packages.gz
+ ee9bec651be6a7b297070d77d78555fb8de6a573 17092 main/binary-i386/Packages.xz
 SHA256:
- ae1e4bce862e498ef0c29398f1df4bde28761c60c8e1605f07670bc8184a7f67 316323 main/binary-all/Packages
- fda65025c9de67f553c6ce1e017ba92ba0ed2aed02c31e1b4e8dbed4c6b6aeb3 28005 main/binary-all/Packages.gz
+ 84d095e005a6a3b56c398504e47e996a4ef692cc4424e6f0bb3131bd12ec66b8 94243 main/binary-all/Packages
+ 58e1740a027424ee2485f8191c8757c7f5fe18c08ecfcc1b8e9ced7d2f549ae9 23096 main/binary-all/Packages.gz
+ 2152b81bb0579bbaeada4f051a92145c1ee885429d16064c3e945adb0011a678 20356 main/binary-all/Packages.xz
+ 4c0ce9ad9857cf0e41fd17d43d0201ab2e2a731ef972b7198cca5376e56c584e 23724 main/binary-all/paintbrush_1.4.0-1_all.deb
+ 5fa4051d532f9c05ff76b9f55b330edcc4c00d837a634285f2e9bad8fd19582c 98218 main/binary-amd64/Packages
+ ec5929a037fdb9552c9d942bf40502e28082a6be3f01692a77f2b2408d032a1f 24448 main/binary-amd64/Packages.gz
+ 23acc12f087f2be7bebf19e56f5b84a79f4a353225c3511af7d126fb70dafa98 21524 main/binary-amd64/Packages.xz
  c7ac612af458900c26c37a3118753db0378f5985404d5cb1ae6df0f77227a0e3 15518 main/binary-amd64/anpr-viewer_0.4.0_all.deb
  5da8ece25f4022e6fbd93543783a3751ea129d869e744a8a994a25b79340b060 7798 main/binary-amd64/apt-changelog-viewer_0.1.3_all.deb
  dafadfd9fb62929f1d5f81fea00029874a791599d3171fc8498511099604d97a 12886 main/binary-amd64/asterics-board-editor_0.1.0-1_all.deb
@@ -461,6 +482,7 @@ SHA256:
  6f29a075c02346151978073db2d133c4a2a4d8b317a9e05140c734feb82eff3f 23312 main/binary-amd64/cve-monitor_0.3.5_all.deb
  fe7459da6b3a9d2ac9a982627fef6172557918cc8213ba07ad209459bff46c72 5306 main/binary-amd64/dagboken_0.1.0-1_all.deb
  f188cdfaed44d7439e062c13413403f8041af890b284cbc9df0b83b67f498df4 43128 main/binary-amd64/ddtp-translate_0.14.2_all.deb
+ 8c4dcd1009abad4370d9501dd9b2425f0b6087c4264a6be70f89fc6c8585e004 62252 main/binary-amd64/debconf-translation-manager_0.6.2-1_all.deb
  80a04cfe14986c97141b1a6f3be0856ca1f2d2cef72b0afd3174dd9d80f8f42e 7680 main/binary-amd64/debian-installer-companion_0.1.3_all.deb
  d813e85ea2c7030c17e4efb6c02d0768ca34579a9d4762e374b5c2d657827bdf 11120 main/binary-amd64/debian-policy-checker_0.1.3_all.deb
  a5995a4746eac75682ee3e6be98744052b1fc47089d06cf6ad6f17513802eccb 8048 main/binary-amd64/dep-graph-viewer_0.1.3_all.deb
@@ -473,6 +495,7 @@ SHA256:
  05b8ddbf394910d0dd97af903582a7cc31a655e4156015b2864a49bf9ca06eed 12240 main/binary-amd64/font-preview_0.2.9_all.deb
  0a3ba8b7ea3ccbbfaac38fec2ba6db8eb207298b6fef125033877b138e3e9d49 24734 main/binary-amd64/freeipa-manager_0.1.0-1.deb
  cfb898032846498375432dc9bce0aa53ed1a6085eba87e05fbe69c60328ec118 7884 main/binary-amd64/gettext-coverage_0.1.3_all.deb
+ a7566f8bcce256328b32a04d6ca040d61f8226403235985cfe03a9656e4ed62b 10642 main/binary-amd64/gir1.2-spiel-1.0_1.0.5-1_amd64.deb
  eb5bc794b23adba7bb8a6cc94b459a63a44a252c9de71c27eecb1ac6bf480a8b 12556 main/binary-amd64/github-l10n_0.2.7_all.deb
  65dc89598bb767f34b7eef8129a04226b890cfbc56636ab70799380253a3972e 14448 main/binary-amd64/gnome-l10n_0.2.4_all.deb
  6a2ae022204ae5616675671f6bbbd72a03350a5a513b715e0371ae331df2a141 19100 main/binary-amd64/ha-l10n_0.2.4_all.deb
@@ -482,10 +505,13 @@ SHA256:
  28f597a5c7eb92f1a491fafcb6ad363f8432d2aa8fa1e1704ba427cbef783a51 5322 main/binary-amd64/klocklararen_0.1.0-1_all.deb
  bb89c61c24cf08d5453288127fe2ab82324da321907016d00479a1bf488955a0 14212 main/binary-amd64/l10n-conv_1.0.9-1_all.deb
  ddcbf4d625a26a1bad35303cb95fbf515247822f57d13a7f1ef5a65addd6bb18 14954 main/binary-amd64/l10n-glossary_0.2.10_all.deb
- 4d4543b1199e3a02d509863807d07000e18e77c65a90203e29eb70f494475281 32622 main/binary-amd64/l10n-lint_1.16.0_all.deb
+ f1cdee32ac14a6051278408bf980122c686a750f5734c04c5f64c1cc080b2d2f 43434 main/binary-amd64/l10n-lint_1.19.0-1_all.deb
  424e0accb096047ae6b7634bf2a0b78369cfdbd9b88c19337b4fd59f9bd8a199 9936 main/binary-amd64/l10n-preview_0.2.7_all.deb
  b36d5f472af41f65049216241faa09138d75b91905ac5eea5f37022a3b34322d 13124 main/binary-amd64/langpack-inspector_0.2.9_all.deb
+ 0c8f820ee0c23f2fb18a298d7215b867aeabe4d13f250e8523f64f00f8e568a2 1138 main/binary-amd64/libpiper_1.2.0-1_amd64.deb
  4324c7f8f1a0a78385e9687c5be2528d06e0f5de8690ebdcb6db927ce4d2216e 9642 main/binary-amd64/libretranslate-gui_0.2.7_all.deb
+ cf52a694ce7c727a932a4293e26ab6ee2e10a9a8a097f78ce1bf5cfe80ea339f 39100 main/binary-amd64/libspiel-1.0-0_1.0.5-1_amd64.deb
+ 8cd486b2f3e1375969b8fe110fb59ed55a123f493f5d6d3bd509219764c8f3f1 5188 main/binary-amd64/libspiel-dev_1.0.5-1_amd64.deb
  85e5e470c6bb960e4cb2b2097fde5952f1c8834f82a97e568919ee990570ef75 51848 main/binary-amd64/libvisio-ng_0.6.0-1_all.deb
  096a6aac927b6031b5dbb949a996cc4903a64e71e6bd57977cf70c045fc62145 291034 main/binary-amd64/linguaedit_1.8.15_all.deb
  3d24b5d719f970c62a64a22abfe5e8d1eafa46b47ea3f97ec17d8f152b048a21 8896 main/binary-amd64/ljudladan_0.1.6_all.deb
@@ -509,16 +535,14 @@ SHA256:
  b1227a3fe8e33ab4f92aa4fecd1724b907ac46bf87264aaaafb22ffba76ac0d9 12944 main/binary-amd64/ordbyggaren_0.2.5_all.deb
  abe165fcfea9140c22a45366aa18765b3a974f18929b6896fc4c12e07dfc54d8 4426 main/binary-amd64/ordparaden_0.1.0_all.deb
  8f3994e9372a90aba82ae7a15cdd92d811467271dd55d6dcd6f273a877b9c2d9 5576 main/binary-amd64/ovningstavlan_0.1.0-1_all.deb
- ae1e4bce862e498ef0c29398f1df4bde28761c60c8e1605f07670bc8184a7f67 316323 main/binary-amd64/Packages
- fda65025c9de67f553c6ce1e017ba92ba0ed2aed02c31e1b4e8dbed4c6b6aeb3 28005 main/binary-amd64/Packages.gz
- b5fd140c1ed0b8c3c95853d6b38eb4946987f647c1a883f6943c3a2c05c81af5 23408 main/binary-amd64/Packages.xz
  37fc25b15b2184cd801d94b9454f1dfd1347c2ed9d92b7a495d118ed5bc20e63 37366 main/binary-amd64/packetlens_0.2.7_all.deb
+ 59bf4d61d7b1e4e5c8d0d67ec84af9e2826e44dfa4a5c4b0ae6830c549ace56d 41448 main/binary-amd64/paintbrush_2.0.0-3_all.deb
  b5ad7a15b2a47845a2a7120ef512b64645b1ba4eab801f17c32e790884107b50 7756 main/binary-amd64/pauskollen_0.1.0-1_all.deb
  c81ef7d16ca8a8dd9b8e7b8cbb4300ef127e9c66945c696573872edc44bed745 158236 main/binary-amd64/pecsbrada_0.3.6-1_all.deb
  f09aa72e6b4ec047d538b197a67106235867fe7c58606c29278d62b60106eb88 5066 main/binary-amd64/pengakollen_0.1.0-1_all.deb
+ 35d63bc8edf959242775861be551c120f2ff76f13f6c399262695bc6d6caefa4 58025520 main/binary-amd64/piper-voice-sv-alma_1.0.0-1_all.deb
  e80ef0a3e4d410f887515b37ad99efb86c1523fb7f7ee4e4f488555fbe26bd7f 7242 main/binary-amd64/po-diff_1.0.1_all.deb
  9a66f36821442dd5e20248c0889d1961299aa35bf1928709d39670300fbb4863 11078 main/binary-amd64/po-review-board_0.1.3_all.deb
- 6c430163daadea491a87e940172188dd3bd5d24d809525767266a3fdf86c6b61 14780 main/binary-amd64/po-translate_1.5.8_all.deb
  264847e4ec3f04c507b1ad18c72f04edaee1eab37fc9ff51d24cf018f5eaa191 17350 main/binary-amd64/po-translate_1.5.8-1_all.deb
  4dd933e11e16189abe6f50f97ebebf90b4c1e1d0a5e36eea90d4668f643f65aa 9166 main/binary-amd64/process-explorer_0.1.4_all.deb
  9c1036560108ee3c7b58ee5d9abaead58421bcb1fd948d499c07c8a8caaff1e1 4834 main/binary-amd64/raknestod_0.1.0-1_all.deb
@@ -530,6 +554,7 @@ SHA256:
  50d2082427f23307a0ec23f993a061dee6660e338c52b06b493d9d60e8f72842 22764 main/binary-amd64/scummvm-gtk_0.2.3_all.deb
  22827e66f9c578719c0ea5520f24aa5ddb88a8c99a33317ead8bd9da70b1e0eb 12604 main/binary-amd64/snap-l10n_0.2.12_all.deb
  09900d7f065cbe1b1325e3a3ed3f35e7bddc2a387b89ad647fe67870adf9e3c5 11904 main/binary-amd64/socialaberattelser_0.1.7_all.deb
+ 64d072a1676648863f0cfaf859eeb74cf8533407d790f0b739c68e3c490b0461 11381816 main/binary-amd64/speech-provider-piper_0.1.0-1_amd64.deb
  327ff21c6c01af60a722cff66bb7469cb2f01d40ad8f8c03931c2b665c3a3702 6238 main/binary-amd64/stegvisaren_0.1.0-1_all.deb
  68a5f8159321e1023d201b8139db652155e41b8f48f0859edb153d4ed17b9538 5534 main/binary-amd64/svlang_0.1.7-1_all.deb
  f75467d0f88a7628c7daec1424aa2de29e9657c1b8de671d61ed5365d4df1375 12584 main/binary-amd64/sysinfo-gtk_0.1.2_all.deb
@@ -542,11 +567,13 @@ SHA256:
  7d652063bb835a0074af8b83119ff25867b8bdab8774c0937136728b5ace7fcd 15486 main/binary-amd64/tts-tester_0.2.4_all.deb
  f96f54f64f9cae8c88321c6dce7879b6f37b2a1a61a96fed0ad32a3c90b18bf1 15042 main/binary-amd64/ubuntu-l10n_0.3.6_all.deb
  d40762a5fa78305d75790347c04f3626ab8222a7e4fa40fc92c10f10f0debe50 6280 main/binary-amd64/valjaren_0.1.0-1_all.deb
- 95b655ff8368e05d124c0e3cc6a411b19576e53867b8ea6776f4c928af930b12 52468 main/binary-amd64/vsdview_0.5.0_all.deb
  308d63be00edbcbe48d0407beb2125faa90c34b88635b5fbc5fde28f97ae97c9 19044 main/binary-amd64/vsdview_0.5.0-1_all.deb
  500730bb39b322823341482d6871fa401c7842cb0767f4fac4e0fd2e0562b897 10454 main/binary-amd64/wifi-analyzer_0.1.4_all.deb
  1c3836bc51109f81110f6e176d12cb8dd0a33302cceeb20bf3f239ca94f34d04 9896 main/binary-amd64/zigbee-manager_0.1.4_all.deb
  ef23ccb3fb8d9aacfd0deee20e7ae68cdd302ce9b3ab3dfc4b0c5cc099ce866b 250976 main/binary-amd64/zscaler-api-client_2.1.0_all.deb
+ 2ef0d50e6499e47d98d5e2fd566032d096cc67612d1d4c7e1e3affad3d009fbf 78129 main/binary-arm64/Packages
+ 481f7e8e28ddfdd970eceeabe7af2911c074df142446c1ab3fbbe73686e5d667 19188 main/binary-arm64/Packages.gz
+ 42b412adf12a3ff259b30424b1d7523005431c3aeec19035b0978faf5237fa8d 17092 main/binary-arm64/Packages.xz
  c7ac612af458900c26c37a3118753db0378f5985404d5cb1ae6df0f77227a0e3 15518 main/binary-arm64/anpr-viewer_0.4.0_all.deb
  5da8ece25f4022e6fbd93543783a3751ea129d869e744a8a994a25b79340b060 7798 main/binary-arm64/apt-changelog-viewer_0.1.3_all.deb
  dafadfd9fb62929f1d5f81fea00029874a791599d3171fc8498511099604d97a 12886 main/binary-arm64/asterics-board-editor_0.1.0-1_all.deb
@@ -613,17 +640,14 @@ SHA256:
  b1227a3fe8e33ab4f92aa4fecd1724b907ac46bf87264aaaafb22ffba76ac0d9 12944 main/binary-arm64/ordbyggaren_0.2.5_all.deb
  abe165fcfea9140c22a45366aa18765b3a974f18929b6896fc4c12e07dfc54d8 4426 main/binary-arm64/ordparaden_0.1.0_all.deb
  8f3994e9372a90aba82ae7a15cdd92d811467271dd55d6dcd6f273a877b9c2d9 5576 main/binary-arm64/ovningstavlan_0.1.0-1_all.deb
- 9c9fdbd6b2aa099708176c63ed1cc1c5617d9e7a7080452f9dcb4c7c8f6c2792 7873 main/binary-arm64/Packages
- 22d0df0a60842cd93cd6788b99a92b5b7a488ae826cfba25c7bd58c280d1c67b 2981 main/binary-arm64/Packages.gz
- 6cc87c3de97b895875112e700225955e8cc9ee236e661bf62b39d7396db94012 17460 main/binary-arm64/Packages.xz
  37fc25b15b2184cd801d94b9454f1dfd1347c2ed9d92b7a495d118ed5bc20e63 37366 main/binary-arm64/packetlens_0.2.7_all.deb
  b5ad7a15b2a47845a2a7120ef512b64645b1ba4eab801f17c32e790884107b50 7756 main/binary-arm64/pauskollen_0.1.0-1_all.deb
  c81ef7d16ca8a8dd9b8e7b8cbb4300ef127e9c66945c696573872edc44bed745 158236 main/binary-arm64/pecsbrada_0.3.6-1_all.deb
  f09aa72e6b4ec047d538b197a67106235867fe7c58606c29278d62b60106eb88 5066 main/binary-arm64/pengakollen_0.1.0-1_all.deb
  e80ef0a3e4d410f887515b37ad99efb86c1523fb7f7ee4e4f488555fbe26bd7f 7242 main/binary-arm64/po-diff_1.0.1_all.deb
  9a66f36821442dd5e20248c0889d1961299aa35bf1928709d39670300fbb4863 11078 main/binary-arm64/po-review-board_0.1.3_all.deb
- 6c430163daadea491a87e940172188dd3bd5d24d809525767266a3fdf86c6b61 14780 main/binary-arm64/po-translate_1.5.8_all.deb
  264847e4ec3f04c507b1ad18c72f04edaee1eab37fc9ff51d24cf018f5eaa191 17350 main/binary-arm64/po-translate_1.5.8-1_all.deb
+ 6c430163daadea491a87e940172188dd3bd5d24d809525767266a3fdf86c6b61 14780 main/binary-arm64/po-translate_1.5.8_all.deb
  4dd933e11e16189abe6f50f97ebebf90b4c1e1d0a5e36eea90d4668f643f65aa 9166 main/binary-arm64/process-explorer_0.1.4_all.deb
  9c1036560108ee3c7b58ee5d9abaead58421bcb1fd948d499c07c8a8caaff1e1 4834 main/binary-arm64/raknestod_0.1.0-1_all.deb
  d47d55d0cd98091e6212a714a399e020c065f4b870b40d6669c8592f214b7503 9328 main/binary-arm64/regex-tester_0.1.4_all.deb
@@ -646,14 +670,14 @@ SHA256:
  7d652063bb835a0074af8b83119ff25867b8bdab8774c0937136728b5ace7fcd 15486 main/binary-arm64/tts-tester_0.2.4_all.deb
  f96f54f64f9cae8c88321c6dce7879b6f37b2a1a61a96fed0ad32a3c90b18bf1 15042 main/binary-arm64/ubuntu-l10n_0.3.6_all.deb
  d40762a5fa78305d75790347c04f3626ab8222a7e4fa40fc92c10f10f0debe50 6280 main/binary-arm64/valjaren_0.1.0-1_all.deb
- 95b655ff8368e05d124c0e3cc6a411b19576e53867b8ea6776f4c928af930b12 52468 main/binary-arm64/vsdview_0.5.0_all.deb
  308d63be00edbcbe48d0407beb2125faa90c34b88635b5fbc5fde28f97ae97c9 19044 main/binary-arm64/vsdview_0.5.0-1_all.deb
+ 95b655ff8368e05d124c0e3cc6a411b19576e53867b8ea6776f4c928af930b12 52468 main/binary-arm64/vsdview_0.5.0_all.deb
  500730bb39b322823341482d6871fa401c7842cb0767f4fac4e0fd2e0562b897 10454 main/binary-arm64/wifi-analyzer_0.1.4_all.deb
  1c3836bc51109f81110f6e176d12cb8dd0a33302cceeb20bf3f239ca94f34d04 9896 main/binary-arm64/zigbee-manager_0.1.4_all.deb
  ef23ccb3fb8d9aacfd0deee20e7ae68cdd302ce9b3ab3dfc4b0c5cc099ce866b 250976 main/binary-arm64/zscaler-api-client_2.1.0_all.deb
- da5b61e79b66398add7f1ae70b363dce5c93d442ae6f163380ebd1b98c5c1c52 81685 main/binary-armhf/Packages
- d4a94510cd0e2c7d136b16ac89ddfdbe5caa5a158bd84911d3f0004103c8c6f2 19686 main/binary-armhf/Packages.gz
- 6cc87c3de97b895875112e700225955e8cc9ee236e661bf62b39d7396db94012 17460 main/binary-armhf/Packages.xz
- da5b61e79b66398add7f1ae70b363dce5c93d442ae6f163380ebd1b98c5c1c52 81685 main/binary-i386/Packages
- d4a94510cd0e2c7d136b16ac89ddfdbe5caa5a158bd84911d3f0004103c8c6f2 19686 main/binary-i386/Packages.gz
- 6cc87c3de97b895875112e700225955e8cc9ee236e661bf62b39d7396db94012 17460 main/binary-i386/Packages.xz
+ 2ef0d50e6499e47d98d5e2fd566032d096cc67612d1d4c7e1e3affad3d009fbf 78129 main/binary-armhf/Packages
+ 481f7e8e28ddfdd970eceeabe7af2911c074df142446c1ab3fbbe73686e5d667 19188 main/binary-armhf/Packages.gz
+ 42b412adf12a3ff259b30424b1d7523005431c3aeec19035b0978faf5237fa8d 17092 main/binary-armhf/Packages.xz
+ 2ef0d50e6499e47d98d5e2fd566032d096cc67612d1d4c7e1e3affad3d009fbf 78129 main/binary-i386/Packages
+ 481f7e8e28ddfdd970eceeabe7af2911c074df142446c1ab3fbbe73686e5d667 19188 main/binary-i386/Packages.gz
+ 42b412adf12a3ff259b30424b1d7523005431c3aeec19035b0978faf5237fa8d 17092 main/binary-i386/Packages.xz
