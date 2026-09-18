@@ -1,0 +1,8 @@
+{
+  "package": "po-translate",
+  "version": "1.6.1",
+  "source_commit": "ca705c90deedd46f531e34723b733b55e62dec1f",
+  "source_repository": "https://github.com/yeager/po-translate",
+  "sha256": "3306c14a0163d383637a4ada01bfbdc7f70298611d9c4be3bbdb9314b3e9692b",
+  "apt_index_status": "direct download only; waiting for the existing APT signing key"
+}

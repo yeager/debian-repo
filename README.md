@@ -55,3 +55,11 @@ Source commits and package SHA-256 checksums are recorded in
 [`maintenance/swedish-tools-20260918.json`](maintenance/swedish-tools-20260918.json).
 The [shared RPM/DEB build recipe](https://github.com/yeager/rpm-repo/blob/main/packaging/build-swedish-tools.py)
 pins and verifies the source files before building both package formats.
+
+## po-translate 1.6.1
+
+[po-translate_1.6.1_all.deb](https://yeager.github.io/debian-repo/pool/main/p/po-translate/po-translate_1.6.1_all.deb)
+fixes plural translation and prevents files from being written after a failed
+translation request or altered placeholders. It is available for direct
+installation with `sudo apt install ./po-translate_1.6.1_all.deb`; adding it to
+the signed APT index awaits the existing repository signing key.
