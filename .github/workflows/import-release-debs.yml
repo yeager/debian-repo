@@ -41,7 +41,7 @@ jobs:
       - name: Sign indexes with the repository key and verify
         env:
           APT_SIGNING_KEY: ${{ secrets.APT_SIGNING_KEY }}
-          EXPECTED_FINGERPRINT: A387E4E726298FDA9599A4ACA689083BF25B5D38
+          EXPECTED_FINGERPRINT: 497A39BE28C8389ED4BBAE39CB94F175B0803158
         run: |
           export GNUPGHOME="$RUNNER_TEMP/apt-signing-gnupg"
           install -d -m 700 "$GNUPGHOME"
