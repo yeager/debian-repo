@@ -80,6 +80,25 @@ Description: GTK4 changelog viewer with security reference highlighting
  packages in a modern GTK4 interface. It highlights CVE and distribution
  security advisory references for review.
 
+Package: apt-changelog-viewer
+Version: 0.1.7-1
+Architecture: all
+Maintainer: Daniel Nylander <daniel@danielnylander.se>
+Installed-Size: 57
+Depends: python3:any, python3-gi, gir1.2-gtk-4.0, gir1.2-adw-1
+Filename: pool/main/a/apt-changelog-viewer/apt-changelog-viewer_0.1.7-1_all.deb
+Size: 11822
+MD5sum: de33d77e6d427d4cad7d803965042931
+SHA1: 2e76936a3f158960769517bd6e8b441ee1bfac8f
+SHA256: 5bfcd7f70f570e66bfeca55df52ac932133cb0935892b20372f8c7c625c21274
+Section: devel
+Priority: optional
+Homepage: https://github.com/yeager/apt-changelog-viewer
+Description: GTK4 changelog viewer with security reference highlighting
+ apt-changelog-viewer displays changelogs for installed Debian/Ubuntu
+ packages in a modern GTK4 interface. It highlights CVE and distribution
+ security advisory references for review.
+
 Package: asterics-board-editor
 Version: 0.1.0-1
 Architecture: all
