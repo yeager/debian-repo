@@ -526,5 +526,13 @@
     "size": 48440,
     "url": "https://github.com/yeager/tp-lint/releases/download/v1.8.4/tp-lint_1.8.4-2_all.deb",
     "sha256": "aa230f13d08f4ea6813d7142e361768bb6caeaa67be53f585ee458a2e90405cd"
+  },
+  {
+    "repo": "yeager/ubuntu-start",
+    "tag": "v0.3.56",
+    "name": "ubuntu-start_0.3.56-1_all.deb",
+    "size": 387480,
+    "url": "https://github.com/yeager/ubuntu-start/releases/download/v0.3.56/ubuntu-start_0.3.56-1_all.deb",
+    "sha256": "daa6d1d9cdda194f4d68e8f8d6b09b54bbc3f2f0cf828b6b37c037caf64af0b8"
   }
 ]
