@@ -9,10 +9,17 @@ POOL = ROOT / "pool"
 POOL.mkdir(exist_ok=True)
 
 def metadata(path):
-    fields = subprocess.check_output(["dpkg-deb", "-f", str(path), "Package", "Version", "Architecture"], text=True).splitlines()
-    if len(fields) != 3 or not re.fullmatch(r"[a-z0-9][a-z0-9+.-]*", fields[0]):
+    control = subprocess.check_output(["dpkg-deb", "-f", str(path)], text=True)
+    fields = {}
+    for line in control.splitlines():
+        if line[:1].isspace() or ":" not in line:
+            continue
+        name, value = line.split(":", 1)
+        fields[name] = value.strip()
+    identity = tuple(fields.get(name, "") for name in ("Package", "Version", "Architecture"))
+    if not all(identity) or not re.fullmatch(r"[a-z0-9][a-z0-9+.-]*", identity[0]):
         raise ValueError(f"Invalid DEB control metadata: {path}")
-    return tuple(fields)
+    return identity
 
 def sha256(path):
     h = hashlib.sha256()
