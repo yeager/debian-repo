@@ -1230,6 +1230,21 @@ Description: Home Assistant translation status dashboard
  .
  Home Assistant translation status dashboard
 
+Package: ha-l10n
+Version: 0.2.5
+Architecture: all
+Maintainer: Daniel Nylander <daniel@danielnylander.se>
+Depends: python3 (>= 3.10), python3-gi, gir1.2-gtk-4.0, gir1.2-adw-1
+Filename: pool/main/h/ha-l10n/ha-l10n_0.2.5_all.deb
+Size: 18584
+MD5sum: c59dde9acc784440532161f4257e6eef
+SHA1: 311d90e8a05d2af8fcbc23933be580634b7ce8b2
+SHA256: 59ca2915f229992dd85090dc5d9860915cc5fb2ae26232bf1acdfafc5a8e9da4
+Section: utils
+Priority: optional
+Homepage: https://github.com/yeager/ha-l10n
+Description: Home Assistant translation status dashboard
+
 Package: homehelper
 Version: 0.1.0-1
 Architecture: all
@@ -1363,6 +1378,23 @@ Description: Universal localization file converter, validator, and compiler — 
  ```bash
  sudo apt install l10n-conv
  ```
+
+Package: l10n-conv
+Version: 1.0.9-2
+Architecture: all
+Maintainer: Daniel Nylander <daniel@danielnylander.se>
+Depends: python3 (>= 3.9)
+Filename: pool/main/l/l10n-conv/l10n-conv_1.0.9-2_all.deb
+Size: 16902
+MD5sum: e8ad4bf58fc85c541f27a3c17430d8de
+SHA1: 6ad3a2dbfe79944d52dc22a3db199309844954cd
+SHA256: 9b5a95d4af5ec17d9d68b3ab00841e4ab0c5c0fc0c3768de128b40268f2f5bc0
+Section: devel
+Priority: optional
+Homepage: https://github.com/yeager/l10n-conv
+Description: Convert between localization file formats
+ l10n-conv converts between gettext PO, Qt TS, XLIFF, JSON,
+ Android XML, iOS Strings, and other localization formats.
 
 Package: l10n-glossary
 Version: 0.1.2-1
@@ -3449,6 +3481,23 @@ Description: Translation Project lint tool
  ```bash
  sudo apt install tp-lint
  ```
+
+Package: tp-lint
+Version: 1.8.4-2
+Architecture: all
+Maintainer: Daniel Nylander <daniel@danielnylander.se>
+Depends: python3 (>= 3.9)
+Filename: pool/main/t/tp-lint/tp-lint_1.8.4-2_all.deb
+Size: 48440
+MD5sum: 81ded416bd955ebeb129cd8663d3c405
+SHA1: 742e819074a7d6ed2966a92fb725d71606f641bc
+SHA256: aa230f13d08f4ea6813d7142e361768bb6caeaa67be53f585ee458a2e90405cd
+Section: devel
+Priority: optional
+Homepage: https://github.com/yeager/tp-lint
+Description: Lint PO files from the Translation Project
+ tp-lint fetches and lints PO files from the Translation Project
+ (translationproject.org), checking for common translation issues.
 
 Package: tp-status
 Version: 0.2.0
