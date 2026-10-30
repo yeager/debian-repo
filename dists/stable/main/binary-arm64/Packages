@@ -61,6 +61,25 @@ Description: GTK4 changelog viewer with security reference highlighting
  packages in a modern GTK4 interface. It highlights CVE and distribution
  security advisory references for review.
 
+Package: apt-changelog-viewer
+Version: 0.1.6-1
+Architecture: all
+Maintainer: Daniel Nylander <daniel@danielnylander.se>
+Installed-Size: 57
+Depends: python3:any, python3-gi, gir1.2-gtk-4.0, gir1.2-adw-1
+Filename: pool/main/a/apt-changelog-viewer/apt-changelog-viewer_0.1.6-1_all.deb
+Size: 11688
+MD5sum: 23b9324467f3e77f655188abc66597d2
+SHA1: c292f0c2a97b0410d695e26cca8e5bbc6a527d6c
+SHA256: eb089719e5ee28fd6734bbed8b86b53b599852b8c4aca3d0e3c3709cade38213
+Section: devel
+Priority: optional
+Homepage: https://github.com/yeager/apt-changelog-viewer
+Description: GTK4 changelog viewer with security reference highlighting
+ apt-changelog-viewer displays changelogs for installed Debian/Ubuntu
+ packages in a modern GTK4 interface. It highlights CVE and distribution
+ security advisory references for review.
+
 Package: asterics-board-editor
 Version: 0.1.0-1
 Architecture: all
@@ -3625,6 +3644,21 @@ Homepage: https://github.com/yeager/ubuntu-l10n
 Description: Ubuntu/Launchpad translation statistics viewer
 
 Package: ubuntu-l10n
+Version: 0.3.13-1
+Architecture: all
+Maintainer: Daniel Nylander <daniel@danielnylander.se>
+Depends: python3 (>= 3.10), python3-gi, gir1.2-gtk-4.0, gir1.2-adw-1, python3-bs4, python3-requests, python3-lxml
+Filename: pool/main/u/ubuntu-l10n/ubuntu-l10n_0.3.13-1_all.deb
+Size: 20540
+MD5sum: dcdf5b3c23a7b9ce798608a74929efd1
+SHA1: a5e9c0d5f2cd783d3eec51059241e4cf40c5b363
+SHA256: a67e0a514c4804524e872889be3ce90d5f1e584ac539eeb1629ae423829d50e1
+Section: devel
+Priority: optional
+Homepage: https://github.com/yeager/ubuntu-l10n
+Description: Ubuntu/Launchpad translation statistics viewer
+
+Package: ubuntu-l10n
 Version: 0.3.6
 Architecture: all
 Maintainer: Daniel Nylander <daniel@danielnylander.se>
@@ -3803,6 +3837,25 @@ Size: 269528
 MD5sum: 791a079c87366629d4f611fa4ff0e0ba
 SHA1: 14a190a67d47c37e0c4248f0db1e845d876c718e
 SHA256: ddfa410eabf5b4275047600bdc29acba323bf01b34024194c8694a6cb5aef1f4
+Section: net
+Priority: optional
+Homepage: https://www.danielnylander.se
+Description: GTK application for inspecting nearby Wi-Fi networks
+ WiFi Analyzer displays nearby access points, their signal strength, channel,
+ security mode, overlap and regulatory hints through NetworkManager.
+
+Package: wifi-analyzer
+Version: 0.1.34
+Architecture: all
+Maintainer: Daniel Nylander <po@danielnylander.se>
+Installed-Size: 553
+Depends: python3:any, gir1.2-adw-1, gir1.2-gtk-4.0, network-manager, python3-cairo, python3-gi-cairo, python3-gi
+Recommends: iw
+Filename: pool/main/w/wifi-analyzer/wifi-analyzer_0.1.34_all.deb
+Size: 270096
+MD5sum: 442f731c0b6812eac7f47dab7ee9964e
+SHA1: 8cbd1795e62d87b882a17002d36647fef0824436
+SHA256: ee2a963fc69e47ed340ed6aa65d2965f2ebfd775fe73ce8f3bf14f22b474f345
 Section: net
 Priority: optional
 Homepage: https://www.danielnylander.se
