@@ -34,14 +34,19 @@ def canonical(path, identity):
 
 # Migrate legacy packages beside indexes into pool so regenerated indexes keep them.
 existing = {}
-for path in sorted(ROOT.rglob("*.deb")):
-    if ".git" in path.parts or path.name.endswith(".download"):
-        continue
+deb_paths = sorted(
+    (path for path in ROOT.rglob("*.deb") if ".git" not in path.parts and not path.name.endswith(".download")),
+    key=lambda path: (not path.is_relative_to(POOL), str(path)),
+)
+for path in deb_paths:
     identity = metadata(path)
     old = existing.get(identity)
     target = canonical(path, identity)
     if old:
         if sha256(old) != sha256(path):
+            if old.is_relative_to(POOL) and not path.is_relative_to(POOL):
+                print(f"Keeping indexed pool package and preserving differing legacy copy: {path}")
+                continue
             raise ValueError(f"Conflicting existing DEB {identity}: {old}, {path}")
         if path != old:
             path.unlink()
