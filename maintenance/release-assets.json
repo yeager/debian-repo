@@ -502,5 +502,29 @@
     "size": 9740,
     "url": "https://github.com/yeager/locale-tester/releases/download/v0.1.2/locale-tester_0.1.2-1_all.deb",
     "sha256": "95758d3afdeb5cecf8c2c5eaeb2ec6c6728dd1d4f5f3e6785eb59a90ea3813ea"
+  },
+  {
+    "repo": "yeager/ha-l10n",
+    "tag": "v0.2.5",
+    "name": "ha-l10n_0.2.5_all.deb",
+    "size": 18584,
+    "url": "https://github.com/yeager/ha-l10n/releases/download/v0.2.5/ha-l10n_0.2.5_all.deb",
+    "sha256": "59ca2915f229992dd85090dc5d9860915cc5fb2ae26232bf1acdfafc5a8e9da4"
+  },
+  {
+    "repo": "yeager/l10n-conv",
+    "tag": "v1.0.9",
+    "name": "l10n-conv_1.0.9-2_all.deb",
+    "size": 16902,
+    "url": "https://github.com/yeager/l10n-conv/releases/download/v1.0.9/l10n-conv_1.0.9-2_all.deb",
+    "sha256": "9b5a95d4af5ec17d9d68b3ab00841e4ab0c5c0fc0c3768de128b40268f2f5bc0"
+  },
+  {
+    "repo": "yeager/tp-lint",
+    "tag": "v1.8.4",
+    "name": "tp-lint_1.8.4-2_all.deb",
+    "size": 48440,
+    "url": "https://github.com/yeager/tp-lint/releases/download/v1.8.4/tp-lint_1.8.4-2_all.deb",
+    "sha256": "aa230f13d08f4ea6813d7142e361768bb6caeaa67be53f585ee458a2e90405cd"
   }
 ]
