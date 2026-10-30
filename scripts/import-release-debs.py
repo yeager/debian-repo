@@ -30,7 +30,13 @@ def sha256(path):
 
 def canonical(path, identity):
     package = identity[0]
-    return POOL / "main" / package[0] / package / path.name
+    name = path.name.removesuffix(".download")
+    return POOL / "main" / package[0] / package / name
+
+# Remove incomplete files left by an older importer that preserved its
+# temporary .download suffix when moving packages into the pool.
+for stale in POOL.rglob("*.deb.download"):
+    stale.unlink()
 
 # Migrate legacy packages beside indexes into pool so regenerated indexes keep them.
 existing = {}
@@ -64,6 +70,7 @@ for path in deb_paths:
 
 imported = 0
 verified = 0
+asset_identities = set()
 skipped_conflicts = []
 for asset in ASSETS:
     name = asset["name"]
@@ -82,6 +89,7 @@ for asset in ASSETS:
     if sha256(temp) != expected_sha256:
         raise ValueError(f"SHA-256 mismatch for {asset['repo']}:{name}")
     identity = metadata(temp)
+    asset_identities.add(identity)
     old = existing.get(identity)
     if old:
         if sha256(old) != sha256(temp):
@@ -109,6 +117,26 @@ for arch in ("amd64", "arm64"):
     index_dir = ROOT / "dists/stable/main" / f"binary-{arch}"
     index_dir.mkdir(parents=True, exist_ok=True)
     packages = subprocess.check_output(["dpkg-scanpackages", "--multiversion", "--arch", arch, "pool", "/dev/null"], cwd=ROOT, text=True)
+    indexed_identities = set()
+    for stanza in packages.split("\n\n"):
+        fields = {}
+        for line in stanza.splitlines():
+            if line[:1].isspace() or ":" not in line:
+                continue
+            field, value = line.split(":", 1)
+            fields[field] = value.strip()
+        identity = tuple(fields.get(field, "") for field in ("Package", "Version", "Architecture"))
+        if all(identity):
+            indexed_identities.add(identity)
+    missing_assets = {
+        identity for identity in asset_identities
+        if identity[2] in {arch, "all"} and identity not in indexed_identities
+    }
+    if missing_assets:
+        raise RuntimeError(
+            f"Pinned DEB asset versions missing from {arch} index: "
+            + ", ".join(" ".join(identity) for identity in sorted(missing_assets))
+        )
     (index_dir / "Packages").write_text(packages)
     with (index_dir / "Packages.gz").open("wb") as output:
         subprocess.run(["gzip", "-n", "-9c", str(index_dir / "Packages")], check=True, stdout=output)
