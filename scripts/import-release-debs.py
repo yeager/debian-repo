@@ -116,9 +116,10 @@ for asset in ASSETS:
 for arch in ("amd64", "arm64"):
     index_dir = ROOT / "dists/stable/main" / f"binary-{arch}"
     index_dir.mkdir(parents=True, exist_ok=True)
-    packages = subprocess.check_output(["dpkg-scanpackages", "--multiversion", "--arch", arch, "pool", "/dev/null"], cwd=ROOT, text=True)
+    all_packages = subprocess.check_output(["dpkg-scanpackages", "--multiversion", "pool", "/dev/null"], cwd=ROOT, text=True)
+    package_stanzas = []
     indexed_identities = set()
-    for stanza in packages.split("\n\n"):
+    for stanza in all_packages.split("\n\n"):
         fields = {}
         for line in stanza.splitlines():
             if line[:1].isspace() or ":" not in line:
@@ -127,7 +128,9 @@ for arch in ("amd64", "arm64"):
             fields[field] = value.strip()
         identity = tuple(fields.get(field, "") for field in ("Package", "Version", "Architecture"))
         if all(identity):
-            indexed_identities.add(identity)
+            if identity[2] in {arch, "all"}:
+                package_stanzas.append(stanza)
+                indexed_identities.add(identity)
     missing_assets = {
         identity for identity in asset_identities
         if identity[2] in {arch, "all"} and identity not in indexed_identities
@@ -137,6 +140,7 @@ for arch in ("amd64", "arm64"):
             f"Pinned DEB asset versions missing from {arch} index: "
             + ", ".join(" ".join(identity) for identity in sorted(missing_assets))
         )
+    packages = "\n\n".join(package_stanzas) + "\n"
     (index_dir / "Packages").write_text(packages)
     with (index_dir / "Packages.gz").open("wb") as output:
         subprocess.run(["gzip", "-n", "-9c", str(index_dir / "Packages")], check=True, stdout=output)
