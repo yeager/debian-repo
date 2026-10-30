@@ -120,14 +120,6 @@
     "sha256": "b4afbf5cdcfe1cd4d04f242b758fcd07f959167826171996ff840dedb24baee6"
   },
   {
-    "repo": "yeager/ha-l10n",
-    "tag": "v0.2.4",
-    "name": "ha-l10n_0.2.4_all.deb",
-    "size": 18574,
-    "url": "https://github.com/yeager/ha-l10n/releases/download/v0.2.4/ha-l10n_0.2.4_all.deb",
-    "sha256": "27b41f800232d835db81fc6b90498237730ee4fc9fdde4471ac2ee9ca11a6357"
-  },
-  {
     "repo": "yeager/firewall-manager",
     "tag": "v0.1.4",
     "name": "firewall-manager_0.1.4-1_all.deb",
@@ -150,14 +142,6 @@
     "size": 11628,
     "url": "https://github.com/yeager/github-l10n/releases/download/v0.2.0/github-l10n_0.2.0_all.deb",
     "sha256": "fa47ce1f843b5d988f1bd80e51042782e3803418ff915bdfd671411981796e98"
-  },
-  {
-    "repo": "yeager/l10n-conv",
-    "tag": "v1.0.9",
-    "name": "l10n-conv_1.0.9-1_all.deb",
-    "size": 16908,
-    "url": "https://github.com/yeager/l10n-conv/releases/download/v1.0.9/l10n-conv_1.0.9-1_all.deb",
-    "sha256": "2e3b075160c9cf5cb7b94c95b8b5de7a8c094e1c07fd0a7f69a3a7787c21f271"
   },
   {
     "repo": "yeager/l10n-glossary",
@@ -222,14 +206,6 @@
     "size": 12214,
     "url": "https://github.com/yeager/ordbyggaren/releases/download/v0.2.5/ordbyggaren_0.2.5-1_all.deb",
     "sha256": "9d69f8338e228ff3f4e7a9a92f34c3cb98ddfe85462dfddd8e45fadb3a5361d5"
-  },
-  {
-    "repo": "yeager/obd2-viewer",
-    "tag": "v0.2.4",
-    "name": "obd2-viewer_0.2.4_all.deb",
-    "size": 22774,
-    "url": "https://github.com/yeager/obd2-viewer/releases/download/v0.2.4/obd2-viewer_0.2.4_all.deb",
-    "sha256": "0d6e7bdea0cbfeade0c8fd9684f1f764a068ebcb6e56c8027e93c1d102a08bf5"
   },
   {
     "repo": "yeager/ordverk",
@@ -360,28 +336,12 @@
     "sha256": "e194e9d85b2985cba6d1f6756a6fc75f80a17929b41df3a85a806e7d1686ef8b"
   },
   {
-    "repo": "yeager/tp-lint",
-    "tag": "v1.8.4",
-    "name": "tp-lint_1.8.4-1_all.deb",
-    "size": 48424,
-    "url": "https://github.com/yeager/tp-lint/releases/download/v1.8.4/tp-lint_1.8.4-1_all.deb",
-    "sha256": "06cc8eeb156aea9e5db7b91cb0d90c270e2335fe2b85b4a964f88b28841ccae7"
-  },
-  {
     "repo": "yeager/tts-tester",
     "tag": "v0.2.4",
     "name": "tts-tester_0.2.4-1_all.deb",
     "size": 14926,
     "url": "https://github.com/yeager/tts-tester/releases/download/v0.2.4/tts-tester_0.2.4-1_all.deb",
     "sha256": "acb31c78ba72b8d5a4caaacb566d06aa8635a175c6c07ea3d61933e4f774319e"
-  },
-  {
-    "repo": "yeager/tts-tester",
-    "tag": "v0.2.4",
-    "name": "tts-tester_0.2.4_all.deb",
-    "size": 14960,
-    "url": "https://github.com/yeager/tts-tester/releases/download/v0.2.4/tts-tester_0.2.4_all.deb",
-    "sha256": "c82e5d01175ef5aff20ea0606f9e9c8d89a81a1908f766ed3c4e19dd2f96ff5e"
   },
   {
     "repo": "yeager/ubuntu-l10n",
@@ -478,14 +438,6 @@
     "size": 13586,
     "url": "https://github.com/yeager/mqtt-inspector/releases/download/v0.2.4/mqtt-inspector_0.2.4-1_all.deb",
     "sha256": "fb29ca2208360784f0adfa7c14251898a6092ada930ab48c79230c55ce422cca"
-  },
-  {
-    "repo": "yeager/mqtt-inspector",
-    "tag": "v0.2.4",
-    "name": "mqtt-inspector_0.2.4_all.deb",
-    "size": 13630,
-    "url": "https://github.com/yeager/mqtt-inspector/releases/download/v0.2.4/mqtt-inspector_0.2.4_all.deb",
-    "sha256": "794ad976da7458dff29d8d7e625e978bf4338623cea9d3c0cfed2e9216496e9d"
   },
   {
     "repo": "yeager/obd2-viewer",
