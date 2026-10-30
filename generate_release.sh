@@ -18,7 +18,7 @@ Origin: Nylander L10n Suite
 Label: Nylander L10n Suite
 Suite: stable
 Codename: stable
-Architectures: amd64
+Architectures: amd64 arm64
 Components: main
 Description: Daniel Nylander's localization and development packages
 Date: $(LC_ALL=C date -u +"%a, %d %b %Y %H:%M:%S +0000")
