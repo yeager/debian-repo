@@ -1,0 +1,75 @@
+name: Import release DEBs
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+concurrency:
+  group: apt-repository-update
+  cancel-in-progress: false
+
+jobs:
+  import-and-publish:
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${ steps.deployment.outputs.page_url }
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+      - name: Check signing key availability
+        env:
+          APT_SIGNING_KEY: ${ secrets.APT_SIGNING_KEY }
+        run: |
+          if [ -z "$APT_SIGNING_KEY" ]; then
+            echo "Repository secret APT_SIGNING_KEY is required to preserve signed APT metadata." >&2
+            exit 1
+          fi
+      - name: Install DEB repository tools
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y dpkg-dev gzip xz-utils gnupg
+      - name: Import packages and rebuild indexes
+        run: python3 scripts/import-release-debs.py
+      - name: Sign indexes with the existing repository key and verify
+        env:
+          APT_SIGNING_KEY: ${ secrets.APT_SIGNING_KEY }
+          EXPECTED_FINGERPRINT: 7CEE83C9C621B18667DD1BFECAED4975DAB053A8
+        run: |
+          export GNUPGHOME="$RUNNER_TEMP/apt-signing-gnupg"
+          install -d -m 700 "$GNUPGHOME"
+          trap 'rm -rf "$GNUPGHOME"' EXIT
+          printf '%s\n' "$APT_SIGNING_KEY" | gpg --batch --import
+          actual=$(gpg --batch --with-colons --list-secret-keys "$EXPECTED_FINGERPRINT" | awk -F: '$1 == "fpr" { print $10; exit }')
+          test "$actual" = "$EXPECTED_FINGERPRINT" || { echo "Signing key fingerprint mismatch" >&2; exit 1; }
+          sed -i 's/^Architectures: amd64$/Architectures: amd64 arm64/' generate_release.sh
+          bash generate_release.sh > dists/stable/Release
+          gpg --batch --yes --local-user "$EXPECTED_FINGERPRINT" --clearsign --output dists/stable/InRelease dists/stable/Release
+          gpg --batch --yes --local-user "$EXPECTED_FINGERPRINT" --armor --detach-sign --output dists/stable/Release.gpg dists/stable/Release
+          gpg --batch --verify dists/stable/InRelease
+          gpg --batch --verify dists/stable/Release.gpg dists/stable/Release
+      - name: Commit and push to main
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add pool dists/stable generate_release.sh
+          if git diff --cached --quiet; then
+            echo "No repository changes to publish."
+            exit 0
+          fi
+          git commit -m "Import DEB release assets and refresh signed indexes"
+          git push origin HEAD:main
+      - name: Setup Pages
+        uses: actions/configure-pages@v4
+      - name: Upload Pages artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: .
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
