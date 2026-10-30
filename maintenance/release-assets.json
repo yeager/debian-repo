@@ -414,5 +414,37 @@
     "size": 9418,
     "url": "https://github.com/yeager/zigbee-manager/releases/download/v0.1.4/zigbee-manager_0.1.4-1_all.deb",
     "sha256": "d167e0ec5d3875f9aaa24a1baa85789e6aa4cd205de5a2f65d78c6e563b86fb7"
+  },
+  {
+    "repo": "yeager/apt-changelog-viewer",
+    "tag": "v0.1.5",
+    "name": "apt-changelog-viewer_0.1.5-1_all.deb",
+    "size": 11606,
+    "url": "https://github.com/yeager/apt-changelog-viewer/releases/download/v0.1.5/apt-changelog-viewer_0.1.5-1_all.deb",
+    "sha256": "e65172c4444bd1049f8b5f1b7f7bc56239dad8f03f8e43e2e94951b408a8059c"
+  },
+  {
+    "repo": "yeager/ubuntu-l10n",
+    "tag": "v0.3.12",
+    "name": "ubuntu-l10n_0.3.12-1_all.deb",
+    "size": 20140,
+    "url": "https://github.com/yeager/ubuntu-l10n/releases/download/v0.3.12/ubuntu-l10n_0.3.12-1_all.deb",
+    "sha256": "810ecaa3c9a1577213e57ddb5e23bc79b1628b24e9d9f20d6e80cefc818cd830"
+  },
+  {
+    "repo": "yeager/ubuntu-start",
+    "tag": "v0.3.54",
+    "name": "ubuntu-start_0.3.54-1_all.deb",
+    "size": 386220,
+    "url": "https://github.com/yeager/ubuntu-start/releases/download/v0.3.54/ubuntu-start_0.3.54-1_all.deb",
+    "sha256": "e6d41592aac51ba4361b2ceb4d3f53d775eacf77ee7a4e9b73c778341570bb9b"
+  },
+  {
+    "repo": "yeager/wifi-analyzer",
+    "tag": "v0.1.33",
+    "name": "wifi-analyzer_0.1.33_all.deb",
+    "size": 269528,
+    "url": "https://github.com/yeager/wifi-analyzer/releases/download/v0.1.33/wifi-analyzer_0.1.33_all.deb",
+    "sha256": "ddfa410eabf5b4275047600bdc29acba323bf01b34024194c8694a6cb5aef1f4"
   }
 ]
