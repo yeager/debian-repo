@@ -40,6 +40,23 @@ sudo apt update
 sudo apt install signal-lantern
 ```
 
+## Ubuntu desktop apps
+
+The repository also provides these Ubuntu-focused desktop tools:
+
+| Package | Purpose |
+| --- | --- |
+| `ubuntu-start` | First-run, hardware, accessibility, network and security guidance |
+| `ubuntu-l10n` | Ubuntu and Launchpad translation statistics |
+| `wifi-analyzer` | Wi-Fi signal and channel analysis |
+| `apt-changelog-viewer` | Installed package changelogs and security references |
+
+Install them together with:
+
+```bash
+sudo apt install ubuntu-start ubuntu-l10n wifi-analyzer apt-changelog-viewer
+```
+
 ## Notes
 
 - Repository URL: <https://yeager.github.io/debian-repo>
