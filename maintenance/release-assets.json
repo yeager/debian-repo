@@ -446,5 +446,61 @@
     "size": 269528,
     "url": "https://github.com/yeager/wifi-analyzer/releases/download/v0.1.33/wifi-analyzer_0.1.33_all.deb",
     "sha256": "ddfa410eabf5b4275047600bdc29acba323bf01b34024194c8694a6cb5aef1f4"
+  },
+  {
+    "repo": "yeager/mqtt-dashboard",
+    "tag": "v0.1.4",
+    "name": "mqtt-dashboard_0.1.4-1_all.deb",
+    "size": 9592,
+    "url": "https://github.com/yeager/mqtt-dashboard/releases/download/v0.1.4/mqtt-dashboard_0.1.4-1_all.deb",
+    "sha256": "a2112578ff58a1b6d742dd7c1934aefe934174f188af5dc931bd14294b537d9c"
+  },
+  {
+    "repo": "yeager/log-viewer",
+    "tag": "v0.1.4",
+    "name": "log-viewer_0.1.4-1_all.deb",
+    "size": 8904,
+    "url": "https://github.com/yeager/log-viewer/releases/download/v0.1.4/log-viewer_0.1.4-1_all.deb",
+    "sha256": "31669da6415e9ea777f2b8d982e2550eb9224167c2e2a813d93ca1857bcbe6fe"
+  },
+  {
+    "repo": "yeager/makebread",
+    "tag": "v0.4.3",
+    "name": "makebread_0.4.3-1_all.deb",
+    "size": 21986,
+    "url": "https://github.com/yeager/makebread/releases/download/v0.4.3/makebread_0.4.3-1_all.deb",
+    "sha256": "0ebe12ce5d097882b0fcda15b83964f25232ef5ca5426c6f900428d33e5e849b"
+  },
+  {
+    "repo": "yeager/mqtt-inspector",
+    "tag": "v0.2.4",
+    "name": "mqtt-inspector_0.2.4-1_all.deb",
+    "size": 13586,
+    "url": "https://github.com/yeager/mqtt-inspector/releases/download/v0.2.4/mqtt-inspector_0.2.4-1_all.deb",
+    "sha256": "fb29ca2208360784f0adfa7c14251898a6092ada930ab48c79230c55ce422cca"
+  },
+  {
+    "repo": "yeager/mqtt-inspector",
+    "tag": "v0.2.4",
+    "name": "mqtt-inspector_0.2.4_all.deb",
+    "size": 13630,
+    "url": "https://github.com/yeager/mqtt-inspector/releases/download/v0.2.4/mqtt-inspector_0.2.4_all.deb",
+    "sha256": "794ad976da7458dff29d8d7e625e978bf4338623cea9d3c0cfed2e9216496e9d"
+  },
+  {
+    "repo": "yeager/obd2-viewer",
+    "tag": "v0.2.4",
+    "name": "obd2-viewer_0.2.4-1_all.deb",
+    "size": 22746,
+    "url": "https://github.com/yeager/obd2-viewer/releases/download/v0.2.4/obd2-viewer_0.2.4-1_all.deb",
+    "sha256": "01119450c00a357448ad75a7c17fbda40e8c38ab7f87d6cd7a5e2952262237bc"
+  },
+  {
+    "repo": "yeager/locale-tester",
+    "tag": "v0.1.2",
+    "name": "locale-tester_0.1.2-1_all.deb",
+    "size": 9740,
+    "url": "https://github.com/yeager/locale-tester/releases/download/v0.1.2/locale-tester_0.1.2-1_all.deb",
+    "sha256": "95758d3afdeb5cecf8c2c5eaeb2ec6c6728dd1d4f5f3e6785eb59a90ea3813ea"
   }
 ]
