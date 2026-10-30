@@ -1,0 +1,35 @@
+name: Validate DEB repository import
+
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - "maintenance/release-assets.json"
+      - "scripts/import-release-debs.py"
+      - "scripts/validate-release-assets.py"
+      - ".github/workflows/validate-deb-import.yml"
+  pull_request:
+    paths:
+      - "maintenance/release-assets.json"
+      - "scripts/import-release-debs.py"
+      - "scripts/validate-release-assets.py"
+      - ".github/workflows/validate-deb-import.yml"
+
+permissions:
+  contents: read
+
+jobs:
+  validate-import:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+      - name: Validate pinned release assets
+        run: python3 scripts/validate-release-assets.py
+      - name: Install DEB repository tools
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y dpkg-dev gzip xz-utils
+      - name: Download and validate all DEBs and build test indexes
+        run: python3 scripts/import-release-debs.py
