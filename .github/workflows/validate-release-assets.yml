@@ -1,0 +1,25 @@
+name: Validate release asset manifest
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - "maintenance/release-assets.json"
+      - "scripts/validate-release-assets.py"
+      - ".github/workflows/validate-release-assets.yml"
+  pull_request:
+    paths:
+      - "maintenance/release-assets.json"
+      - "scripts/validate-release-assets.py"
+      - ".github/workflows/validate-release-assets.yml"
+
+permissions:
+  contents: read
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Validate pinned DEB release assets
+        run: python3 scripts/validate-release-assets.py

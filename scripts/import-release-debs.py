@@ -63,6 +63,9 @@ for asset in ASSETS:
             stream.write(chunk)
     if temp.stat().st_size != asset["size"]:
         raise ValueError(f"Size mismatch for {asset['repo']}:{name}")
+    expected_sha256 = asset.get("sha256")
+    if expected_sha256 and sha256(temp) != expected_sha256:
+        raise ValueError(f"SHA-256 mismatch for {asset['repo']}:{name}")
     identity = metadata(temp)
     old = existing.get(identity)
     if old:
