@@ -26,7 +26,7 @@ jobs:
         run: python3 scripts/validate-release-assets.py
       - name: Check signing key availability
         env:
-          APT_SIGNING_KEY: ${ secrets.APT_SIGNING_KEY }
+          APT_SIGNING_KEY: ${{ secrets.APT_SIGNING_KEY }}
         run: |
           if [ -z "$APT_SIGNING_KEY" ]; then
             echo "Repository secret APT_SIGNING_KEY is required to preserve signed APT metadata." >&2
@@ -40,7 +40,7 @@ jobs:
         run: python3 scripts/import-release-debs.py
       - name: Sign indexes with the repository key and verify
         env:
-          APT_SIGNING_KEY: ${ secrets.APT_SIGNING_KEY }
+          APT_SIGNING_KEY: ${{ secrets.APT_SIGNING_KEY }}
           EXPECTED_FINGERPRINT: A387E4E726298FDA9599A4ACA689083BF25B5D38
         run: |
           export GNUPGHOME="$RUNNER_TEMP/apt-signing-gnupg"
