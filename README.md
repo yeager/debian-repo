@@ -11,15 +11,26 @@ The repository contains packages including:
 
 ## Setup
 
-The repository key's primary fingerprint is
-`7CEE83C9C621B18667DD1BFECAED4975DAB053A8`. After downloading the key, check
+The repository signing key was rotated on 2026-10-30. Its primary fingerprint
+is `A387E4E726298FDA9599A4ACA689083BF25B5D38`. After downloading the key, check
 it with `gpg --show-keys --with-fingerprint /tmp/yeager-repo-key.asc` before
-installing it.
+installing it. Existing users must replace their old key file with this key
+before refreshing APT indexes.
 
 ```bash
 wget -qO /tmp/yeager-repo-key.asc https://yeager.github.io/debian-repo/yeager-repo-key.asc
 sudo install -m 0644 /tmp/yeager-repo-key.asc /usr/share/keyrings/yeager-repo.asc
 echo 'deb [signed-by=/usr/share/keyrings/yeager-repo.asc] https://yeager.github.io/debian-repo stable main' | sudo tee /etc/apt/sources.list.d/yeager.list
+sudo apt update
+```
+
+If you already use this repository, replace the installed key before running
+`sudo apt update`:
+
+```bash
+wget -qO /tmp/yeager-repo-key.asc https://yeager.github.io/debian-repo/yeager-repo-key.asc
+gpg --show-keys --with-fingerprint /tmp/yeager-repo-key.asc
+sudo install -m 0644 /tmp/yeager-repo-key.asc /usr/share/keyrings/yeager-repo.asc
 sudo apt update
 ```
 
@@ -52,11 +63,6 @@ The translation memory and terminology data are installed under
 `/usr/share/swedish-tm/` and `/usr/share/swedish-foss-terminology/` respectively.
 The svlang package includes both lexicons and fixes false unknown-word reports
 for words that are absent from the frequency list but present in a lexicon.
-
-De här versionerna är **inte ännu med i de signerade APT-indexen**. De kan
-installeras direkt med kommandot ovan. Uppdaterade index och städning av
-arkivet publiceras när den befintliga signeringsnyckeln finns tillgänglig:
-`7CEE83C9C621B18667DD1BFECAED4975DAB053A8`.
 
 Source commits and package SHA-256 checksums are recorded in
 [`maintenance/swedish-tools-20260918.json`](maintenance/swedish-tools-20260918.json).

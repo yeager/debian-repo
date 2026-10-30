@@ -38,10 +38,10 @@ jobs:
           sudo apt-get install -y dpkg-dev gzip xz-utils gnupg
       - name: Import packages and rebuild indexes
         run: python3 scripts/import-release-debs.py
-      - name: Sign indexes with the existing repository key and verify
+      - name: Sign indexes with the repository key and verify
         env:
           APT_SIGNING_KEY: ${ secrets.APT_SIGNING_KEY }
-          EXPECTED_FINGERPRINT: 7CEE83C9C621B18667DD1BFECAED4975DAB053A8
+          EXPECTED_FINGERPRINT: A387E4E726298FDA9599A4ACA689083BF25B5D38
         run: |
           export GNUPGHOME="$RUNNER_TEMP/apt-signing-gnupg"
           install -d -m 700 "$GNUPGHOME"
