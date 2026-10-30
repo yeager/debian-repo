@@ -11,12 +11,9 @@ The repository contains packages including:
 
 ## Setup
 
-Repository metadata is dual-signed during the key transition. The published
-key bundle contains both the previous key, `497A39BE28C8389ED4BBAE39CB94F175B0803158`, <!-- gitleaks:allow -->
-and the replacement key, `C7982569D1DCC5468A072D94D7B45ED27B9EBB63`. <!-- gitleaks:allow --> Existing
-installations that trust the previous key continue to verify indexes during
-the transition. Replace the installed keyring with the combined bundle before
-the previous signing key is retired.
+Repository metadata now uses the replacement signing key with fingerprint
+`C7982569D1DCC5468A072D94D7B45ED27B9EBB63`. <!-- gitleaks:allow --> The previous key is retired. Existing users must install the new key before
+running `sudo apt update`.
 
 ```bash
 wget -qO /tmp/yeager-repo-key.asc https://yeager.github.io/debian-repo/yeager-repo-key.asc
@@ -25,8 +22,8 @@ echo 'deb [signed-by=/usr/share/keyrings/yeager-repo.asc] https://yeager.github.
 sudo apt update
 ```
 
-If you already use this repository, install the combined keyring before the
-previous signing key is retired:
+If you already use this repository, replace the old key before running
+`sudo apt update`:
 
 ```bash
 wget -qO /tmp/yeager-repo-key.asc https://yeager.github.io/debian-repo/yeager-repo-key.asc

@@ -28,10 +28,9 @@ jobs:
       - name: Check signing key availability
         env:
           APT_SIGNING_KEY: ${{ secrets.APT_SIGNING_KEY }}
-          APT_SIGNING_KEY_NEXT: ${{ secrets.APT_SIGNING_KEY_NEXT }}
         run: |
-          if [ -z "$APT_SIGNING_KEY" ] || [ -z "$APT_SIGNING_KEY_NEXT" ]; then
-            echo "Both APT signing keys are required during the dual-signature transition." >&2
+          if [ -z "$APT_SIGNING_KEY" ]; then
+            echo "Repository secret APT_SIGNING_KEY is required to sign APT metadata." >&2
             exit 1
           fi
       - name: Install DEB repository tools
@@ -43,22 +42,18 @@ jobs:
       - name: Sign indexes with the repository key and verify
         env:
           APT_SIGNING_KEY: ${{ secrets.APT_SIGNING_KEY }}
-          APT_SIGNING_KEY_NEXT: ${{ secrets.APT_SIGNING_KEY_NEXT }}
-          EXPECTED_FINGERPRINT: 497A39BE28C8389ED4BBAE39CB94F175B0803158
-          NEXT_FINGERPRINT: C7982569D1DCC5468A072D94D7B45ED27B9EBB63
+          EXPECTED_FINGERPRINT: C7982569D1DCC5468A072D94D7B45ED27B9EBB63
         run: |
           export GNUPGHOME="$RUNNER_TEMP/apt-signing-gnupg"
           install -d -m 700 "$GNUPGHOME"
           trap 'rm -rf "$GNUPGHOME"' EXIT
-          printf '%s\n%s\n' "$APT_SIGNING_KEY" "$APT_SIGNING_KEY_NEXT" | gpg --batch --import
+          printf '%s\n' "$APT_SIGNING_KEY" | gpg --batch --import
           actual=$(gpg --batch --with-colons --list-secret-keys "$EXPECTED_FINGERPRINT" | awk -F: '$1 == "fpr" { print $10; exit }')
           test "$actual" = "$EXPECTED_FINGERPRINT" || { echo "Signing key fingerprint mismatch" >&2; exit 1; }
-          next_actual=$(gpg --batch --with-colons --list-secret-keys "$NEXT_FINGERPRINT" | awk -F: '$1 == "fpr" { print $10; exit }')
-          test "$next_actual" = "$NEXT_FINGERPRINT" || { echo "Next signing key fingerprint mismatch" >&2; exit 1; }
           sed -i 's/^Architectures: amd64$/Architectures: amd64 arm64/' generate_release.sh
           bash generate_release.sh > dists/stable/Release
-          gpg --batch --yes --local-user "$EXPECTED_FINGERPRINT" --local-user "$NEXT_FINGERPRINT" --clearsign --output dists/stable/InRelease dists/stable/Release
-          gpg --batch --yes --local-user "$EXPECTED_FINGERPRINT" --local-user "$NEXT_FINGERPRINT" --armor --detach-sign --output dists/stable/Release.gpg dists/stable/Release
+          gpg --batch --yes --local-user "$EXPECTED_FINGERPRINT" --clearsign --output dists/stable/InRelease dists/stable/Release
+          gpg --batch --yes --local-user "$EXPECTED_FINGERPRINT" --armor --detach-sign --output dists/stable/Release.gpg dists/stable/Release
           gpg --batch --verify dists/stable/InRelease
           gpg --batch --verify dists/stable/Release.gpg dists/stable/Release
       - name: Commit and push to main
