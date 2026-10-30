@@ -1,0 +1,369 @@
+Warning: truncated output (original token count: 3432)
+Total output lines: 415
+
+[
+  {
+    "repo": "yeager/asterisk-prompts-sv",
+    "tag": "v0.1.0-anton",
+    "name": "asterisk-prompt-sv-anton.deb",
+    "size": 89136430,
+    "url": "https://github.com/yeager/asterisk-prompts-sv/releases/download/v0.1.0-anton/asterisk-prompt-sv-anton.deb"
+  },
+  {
+    "repo": "yeager/autismapps",
+    "tag": "v0.3.0",
+    "name": "autismappar_0.3.0-1.deb",
+    "size": 18027654,
+    "url": "https://github.com/yeager/autismapps/releases/download/v0.3.0/autismappar_0.3.0-1.deb"
+  },
+  {
+    "repo": "yeager/bildordbok",
+    "tag": "v0.3.6",
+    "name": "bildordbok_0.3.6-1_all.deb",
+    "size": 161298,
+    "url": "https://github.com/yeager/bildordbok/releases/download/v0.3.6/bildordbok_0.3.6-1_all.deb"
+  },
+  {
+    "repo": "yeager/bildschema",
+    "tag": "v0.3.5",
+    "name": "bildschema_0.3.5-1_all.deb",
+    "size": 224190,
+    "url": "https://github.com/yeager/bildschema/releases/download/v0.3.5/bildschema_0.3.5-1_all.deb"
+  },
+  {
+    "repo": "yeager/bildstod",
+    "tag": "main",
+    "name": "bildstod_0.4.5-1_all.deb",
+    "size": 29034,
+    "url": "https://github.com/yeager/bildstod/releases/download/main/bildstod_0.4.5-1_all.deb"
+  },
+  {
+    "repo": "yeager/cert-watch",
+    "tag": "v0.1.4",
+    "name": "cert-watch_0.1.4-1_all.deb",
+    "size": 9886,
+    "url": "https://github.com/yeager/cert-watch/releases/download/v0.1.4/cert-watch_0.1.4-1_all.deb"
+  },
+  {
+    "repo": "yeager/cldr-viewer",
+    "tag": "v0.1.4",
+    "name": "cldr-viewer_0.1.4_all.deb",
+    "size": 10614,
+    "url": "https://github.com/yeager/cldr-viewer/releases/download/v0.1.4/cldr-viewer_0.1.4_all.deb"
+  },
+  {
+    "repo": "yeager/commonvoice-status",
+    "tag": "v0.2.0",
+    "name": "commonvoice-status_0.2.0-1_all.deb",
+    "size": 10336,
+    "url": "https://github.com/yeager/commonvoice-status/releases/download/v0.2.0/commonvoice-status_0.2.0-1_all.deb"
+  },
+  {
+    "repo": "yeager/cve-monitor",
+    "tag": "v0.3.6",
+    "name": "cve-monitor_0.3.6_all.deb",
+    "size": 75966,
+    "url": "https://github.com/yeager/cve-monitor/releases/download/v0.3.6/cve-monitor_0.3.6_all.deb"
+  },
+  {
+    "repo": "yeager/ddtp-translate",
+    "tag": "v0.14.4",
+    "name": "ddtp-translate_0.14.4-1_all.deb",
+    "size": 41666,
+    "url": "https://github.com/yeager/ddtp-translate/releases/download/v0.14.4/ddtp-translate_0.14.4-1_all.deb"
+  },
+  {
+    "repo": "yeager/desktop-editor",
+    "tag": "v0.1.2",
+    "name": "desktop-editor_0.1.2-1_all.deb",
+    "size": 13572,
+    "url": "https://github.com/yeager/desktop-editor/releases/download/v0.1.2/desktop-editor_0.1.2-1_all.deb"
+  },
+  {
+    "repo": "yeager/elementary-l10n",
+    "tag": "v0.1.2",
+    "name": "elementary-l10n_0.1.2-1_all.deb",
+    "size": 14950,
+    "url": "https://github.com/yeager/elementary-l10n/releases/download/v0.1.2/elementary-l10n_0.1.2-1_all.deb"
+  },
+  {
+    "repo": "yeager/fedora-l10n",
+    "tag": "v0.2.10",
+    "name": "fedora-l10n_0.2.10-1_all.deb",
+    "size": 14540,
+    "url": "https://github.com/yeager/fedora-l10n/releases/download/v0.2.10/fedora-l10n_0.2.10-1_all.deb"
+  },
+  {
+    "repo": "yeager/firestaff",
+    "tag": "v3.0.420",
+    "name": "firestaff_3.0.420_amd64.deb",
+    "size": 67691910,
+    "url": "https://github.com/yeager/firestaff/releases/download/v3.0.420/firestaff_3.0.420_amd64.deb"
+  },
+  {
+    "repo": "yeager/firestaff",
+    "tag": "v3.0.420",
+    "name": "firestaff_3.0.420_arm64.deb",
+    "size": 65615626,
+    "url": "https://github.com/yeager/firestaff/releases/download/v3.0.420/firestaff_3.0.420_arm64.deb"
+  },
+  {
+    "repo": "yeager/firewall-manager",
+    "tag": "v0.1.4",
+    "name": "firewall-manager_0.1.4-1_all.deb",
+    "size": 10594,
+    "url": "https://github.com/yeager/firewall-manager/releases/download/v0.1.4/firewall-manager_0.1.4-1_all.deb"
+  },
+  {
+    "repo": "yeager/font-preview",
+    "tag": "v0.1.2",
+    "name": "font-preview_0.1.2-1_all.deb",
+    "size": 11818,
+    "url": "https://github.com/yeager/font-preview/releases/download/v0.1.2/font-preview_0.1.2-1_all.deb"
+  },
+  {
+    "repo": "yeager/github-l10n",
+    "tag": "v0.2.0",
+    "name": "github-l10n_0.2.0_all.deb",
+    "size": 11628,
+    "url": "https://github.com/yeager/github-l10n/releases/download/v0.2.0/github-l10n_0.2.0_all.deb"
+  },
+  {
+    "repo": "yeager/ha-l10n",
+    "tag": "v0.2.4",
+    "name": "ha-l10n_0.2.4_all.deb",
+    "size": 18574,
+    "url": "https://github.com/yeager/ha-l10n/releases/download/v0.2.4/ha-l10n_0.2.4_all.deb"
+  },
+  {
+    "repo": "yeager/l10n-conv",
+    "tag": "v1.0.9",
+    "name": "l10n-conv_1.0.9-1_all.deb",
+    "size": 16908,
+    "url": "https://github.com/yeager/l10n-conv/releases/download/v1.0.9/l10n-conv_1.0.9-1_all.deb"
+  },
+  {
+    "repo": "yeager/l10n-glossary",
+    "tag": "v0.1.2",
+    "name": "l10n-glossary_0.1.2-1_all.deb",
+    "size": 14582,
+    "url": "https://github.com/yeager/l10n-glossary/releases/download/v0.1.2/l10n-glossary_0.1.2-1_all.deb"
+  },
+  {
+    "repo": "yeager/l10n-lint",
+    "tag": "v1.23.31",
+    "name": "l10n-lint_1.23.31-1_all.deb",
+    "size": 73350,
+    "url": "https://github.com/yeager/l10n-lint/releases/download/v1.23.31/l10n-lint_1.23.31-1_all.deb"
+  },
+  {
+    "repo": "yeager/l10n-preview",
+    "tag": "v0.1.2",
+    "name": "l10n-preview_0.1.2-1_all.deb",
+    "size": 9344,
+    "url": "https://github.com/yeager/l10n-preview/releases/download/v0.1.2/l10n-preview_0.1.2-1_all.deb"
+  },
+  {
+    "repo": "yeager/langpack-inspector",
+    "tag": "v0.1.2",
+    "name": "langpack-inspector_0.1.2-1_all.deb",
+    "size": 12546,
+    "url": "https://github.com/yeager/langpack-inspector/releases/download/v0.1.2/langpack-inspector_0.1.2-1_all.deb"
+  },
+  {
+    "repo": "yeager/libretranslate-gui",
+    "tag": "v0.1.5",
+    "name": "libretranslate-gui_0.1.5_all.deb",
+    "size": 9462,
+    "url": "https://github.com/yeager/libretranslate-gui/releases/download/v0.1.5/libretranslate-gui_0.1.5_all.deb"
+  },
+  {
+    "repo": "yeager/linguaedit",
+    "tag": "v1.8.20",
+    "name": "linguaedit_1.8.20_all.deb",
+    "size": 619898,
+ …432 tokens truncated…all.deb"
+  },
+  {
+    "repo": "yeager/obd2-viewer",
+    "tag": "v0.2.4",
+    "name": "obd2-viewer_0.2.4_all.deb",
+    "size": 22774,
+    "url": "https://github.com/yeager/obd2-viewer/releases/download/v0.2.4/obd2-viewer_0.2.4_all.deb"
+  },
+  {
+    "repo": "yeager/OpenCaptive",
+    "tag": "v1.1.127",
+    "name": "opencaptive_1.1.127_amd64.deb",
+    "size": 5494492,
+    "url": "https://github.com/yeager/OpenCaptive/releases/download/v1.1.127/opencaptive_1.1.127_amd64.deb"
+  },
+  {
+    "repo": "yeager/ordbyggaren",
+    "tag": "v0.2.5",
+    "name": "ordbyggaren_0.2.5-1_all.deb",
+    "size": 12214,
+    "url": "https://github.com/yeager/ordbyggaren/releases/download/v0.2.5/ordbyggaren_0.2.5-1_all.deb"
+  },
+  {
+    "repo": "yeager/ordverk",
+    "tag": "v0.4",
+    "name": "ordverk_0.4-1_all.deb",
+    "size": 1125152,
+    "url": "https://github.com/yeager/ordverk/releases/download/v0.4/ordverk_0.4-1_all.deb"
+  },
+  {
+    "repo": "yeager/pcap-viewer",
+    "tag": "v0.2.7",
+    "name": "packetlens_0.2.7-1_all.deb",
+    "size": 37254,
+    "url": "https://github.com/yeager/pcap-viewer/releases/download/v0.2.7/packetlens_0.2.7-1_all.deb"
+  },
+  {
+    "repo": "yeager/pecsbrada",
+    "tag": "v0.3.5",
+    "name": "pecsbrada_0.3.5-1_all.deb",
+    "size": 225526,
+    "url": "https://github.com/yeager/pecsbrada/releases/download/v0.3.5/pecsbrada_0.3.5-1_all.deb"
+  },
+  {
+    "repo": "yeager/po-diff",
+    "tag": "v1.0.1",
+    "name": "po-diff_1.0.1-1_all.deb",
+    "size": 12396,
+    "url": "https://github.com/yeager/po-diff/releases/download/v1.0.1/po-diff_1.0.1-1_all.deb"
+  },
+  {
+    "repo": "yeager/process-explorer",
+    "tag": "v0.1.4",
+    "name": "process-explorer_0.1.4-1_all.deb",
+    "size": 8744,
+    "url": "https://github.com/yeager/process-explorer/releases/download/v0.1.4/process-explorer_0.1.4-1_all.deb"
+  },
+  {
+    "repo": "yeager/project-eon",
+    "tag": "v0.1.7",
+    "name": "project-eon_0.1.7-1_amd64.deb",
+    "size": 36575914,
+    "url": "https://github.com/yeager/project-eon/releases/download/v0.1.7/project-eon_0.1.7-1_amd64.deb"
+  },
+  {
+    "repo": "yeager/ordverk",
+    "tag": "v0.4",
+    "name": "python3-l10n-lint_1.21.4-1_all.deb",
+    "size": 73960,
+    "url": "https://github.com/yeager/ordverk/releases/download/v0.4/python3-l10n-lint_1.21.4-1_all.deb"
+  },
+  {
+    "repo": "yeager/ordverk",
+    "tag": "v0.4",
+    "name": "python3-svlang_0.2.2-1_all.deb",
+    "size": 815936,
+    "url": "https://github.com/yeager/ordverk/releases/download/v0.4/python3-svlang_0.2.2-1_all.deb"
+  },
+  {
+    "repo": "yeager/regex-tester",
+    "tag": "v0.1.4",
+    "name": "regex-tester_0.1.4-1_all.deb",
+    "size": 8874,
+    "url": "https://github.com/yeager/regex-tester/releases/download/v0.1.4/regex-tester_0.1.4-1_all.deb"
+  },
+  {
+    "repo": "yeager/rhvoice-swedish",
+    "tag": "v0.1.0",
+    "name": "rhvoice-language-swedish_0.1.0-1_all.deb",
+    "size": 9688,
+    "url": "https://github.com/yeager/rhvoice-swedish/releases/download/v0.1.0/rhvoice-language-swedish_0.1.0-1_all.deb"
+  },
+  {
+    "repo": "yeager/rutinkompis",
+    "tag": "v0.3.5",
+    "name": "rutinkompis_0.3.5-1_all.deb",
+    "size": 224390,
+    "url": "https://github.com/yeager/rutinkompis/releases/download/v0.3.5/rutinkompis_0.3.5-1_all.deb"
+  },
+  {
+    "repo": "yeager/signal-lantern",
+    "tag": "v0.1.0",
+    "name": "signal-lantern_0.1.0-1_all.deb",
+    "size": 22444,
+    "url": "https://github.com/yeager/signal-lantern/releases/download/v0.1.0/signal-lantern_0.1.0-1_all.deb"
+  },
+  {
+    "repo": "yeager/snap-l10n",
+    "tag": "v0.1.2",
+    "name": "snap-l10n_0.1.2-1_all.deb",
+    "size": 12064,
+    "url": "https://github.com/yeager/snap-l10n/releases/download/v0.1.2/snap-l10n_0.1.2-1_all.deb"
+  },
+  {
+    "repo": "yeager/svlang",
+    "tag": "v0.2.23",
+    "name": "svlang_0.2.23-1_all.deb",
+    "size": 841838,
+    "url": "https://github.com/yeager/svlang/releases/download/v0.2.23/svlang_0.2.23-1_all.deb"
+  },
+  {
+    "repo": "yeager/tidskollen",
+    "tag": "v0.2.5",
+    "name": "tidskollen_0.2.5-1_all.deb",
+    "size": 10880,
+    "url": "https://github.com/yeager/tidskollen/releases/download/v0.2.5/tidskollen_0.2.5-1_all.deb"
+  },
+  {
+    "repo": "yeager/tm-manager",
+    "tag": "v0.1.2",
+    "name": "tm-manager_0.1.2-1_all.deb",
+    "size": 13932,
+    "url": "https://github.com/yeager/tm-manager/releases/download/v0.1.2/tm-manager_0.1.2-1_all.deb"
+  },
+  {
+    "repo": "yeager/tp-lint",
+    "tag": "v1.8.4",
+    "name": "tp-lint_1.8.4-1_all.deb",
+    "size": 48424,
+    "url": "https://github.com/yeager/tp-lint/releases/download/v1.8.4/tp-lint_1.8.4-1_all.deb"
+  },
+  {
+    "repo": "yeager/tts-tester",
+    "tag": "v0.2.4",
+    "name": "tts-tester_0.2.4-1_all.deb",
+    "size": 14926,
+    "url": "https://github.com/yeager/tts-tester/releases/download/v0.2.4/tts-tester_0.2.4-1_all.deb"
+  },
+  {
+    "repo": "yeager/tts-tester",
+    "tag": "v0.2.4",
+    "name": "tts-tester_0.2.4_all.deb",
+    "size": 14960,
+    "url": "https://github.com/yeager/tts-tester/releases/download/v0.2.4/tts-tester_0.2.4_all.deb"
+  },
+  {
+    "repo": "yeager/ubuntu-l10n",
+    "tag": "v0.3.11",
+    "name": "ubuntu-l10n_0.3.11-1_all.deb",
+    "size": 19546,
+    "url": "https://github.com/yeager/ubuntu-l10n/releases/download/v0.3.11/ubuntu-l10n_0.3.11-1_all.deb"
+  },
+  {
+    "repo": "yeager/ubuntu-start",
+    "tag": "v0.3.41",
+    "name": "ubuntu-start_0.3.41-1_all.deb",
+    "size": 373830,
+    "url": "https://github.com/yeager/ubuntu-start/releases/download/v0.3.41/ubuntu-start_0.3.41-1_all.deb"
+  },
+  {
+    "repo": "yeager/wifi-analyzer",
+    "tag": "v0.1.31",
+    "name": "wifi-analyzer_0.1.31_all.deb",
+    "size": 266408,
+    "url": "https://github.com/yeager/wifi-analyzer/releases/download/v0.1.31/wifi-analyzer_0.1.31_all.deb"
+  },
+  {
+    "repo": "yeager/zigbee-manager",
+    "tag": "v0.1.4",
+    "name": "zigbee-manager_0.1.4-1_all.deb",
+    "size": 9418,
+    "url": "https://github.com/yeager/zigbee-manager/releases/download/v0.1.4/zigbee-manager_0.1.4-1_all.deb"
+  }
+]
