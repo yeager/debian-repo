@@ -128,13 +128,6 @@
     "url": "https://github.com/yeager/github-l10n/releases/download/v0.2.0/github-l10n_0.2.0_all.deb"
   },
   {
-    "repo": "yeager/ha-l10n",
-    "tag": "v0.2.4",
-    "name": "ha-l10n_0.2.4_all.deb",
-    "size": 18574,
-    "url": "https://github.com/yeager/ha-l10n/releases/download/v0.2.4/ha-l10n_0.2.4_all.deb"
-  },
-  {
     "repo": "yeager/l10n-conv",
     "tag": "v1.0.9",
     "name": "l10n-conv_1.0.9-1_all.deb",
