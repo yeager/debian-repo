@@ -33,7 +33,7 @@ for index, asset in enumerate(assets):
     prefix = f"entry {index + 1}"
     if not isinstance(asset, dict):
         fail(f"{prefix} must be an object")
-    required = {"repo", "tag", "name", "size", "url"}
+    required = {"repo", "tag", "name", "size", "url", "sha256"}
     if not required.issubset(asset):
         fail(f"{prefix} is missing fields: {', '.join(sorted(required - asset.keys()))}")
     if not isinstance(asset["repo"], str) or not REPO_RE.fullmatch(asset["repo"]):
@@ -47,9 +47,7 @@ for index, asset in enumerate(assets):
     expected_url = f"https://github.com/{asset['repo']}/releases/download/{asset['tag']}/{asset['name']}"
     if asset["url"] != expected_url or urlparse(asset["url"]).hostname != "github.com":
         fail(f"{prefix} URL does not match its repository, tag, and filename")
-    if "sha256" in asset and (
-        not isinstance(asset["sha256"], str) or not SHA256_RE.fullmatch(asset["sha256"])
-    ):
+    if not isinstance(asset["sha256"], str) or not SHA256_RE.fullmatch(asset["sha256"]):
         fail(f"{prefix} SHA-256 must contain 64 lowercase hexadecimal characters")
     identity = (asset["repo"].lower(), asset["tag"], asset["name"])
     if identity in seen:
