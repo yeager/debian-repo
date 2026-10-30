@@ -107,6 +107,14 @@
     "sha256": "b4afbf5cdcfe1cd4d04f242b758fcd07f959167826171996ff840dedb24baee6"
   },
   {
+    "repo": "yeager/ha-l10n",
+    "tag": "v0.2.4",
+    "name": "ha-l10n_0.2.4_all.deb",
+    "size": 18574,
+    "url": "https://github.com/yeager/ha-l10n/releases/download/v0.2.4/ha-l10n_0.2.4_all.deb",
+    "sha256": "27b41f800232d835db81fc6b90498237730ee4fc9fdde4471ac2ee9ca11a6357"
+  },
+  {
     "repo": "yeager/firewall-manager",
     "tag": "v0.1.4",
     "name": "firewall-manager_0.1.4-1_all.deb",
@@ -189,6 +197,14 @@
     "name": "ordbyggaren_0.2.5-1_all.deb",
     "size": 12214,
     "url": "https://github.com/yeager/ordbyggaren/releases/download/v0.2.5/ordbyggaren_0.2.5-1_all.deb"
+  },
+  {
+    "repo": "yeager/obd2-viewer",
+    "tag": "v0.2.4",
+    "name": "obd2-viewer_0.2.4_all.deb",
+    "size": 22774,
+    "url": "https://github.com/yeager/obd2-viewer/releases/download/v0.2.4/obd2-viewer_0.2.4_all.deb",
+    "sha256": "0d6e7bdea0cbfeade0c8fd9684f1f764a068ebcb6e56c8027e93c1d102a08bf5"
   },
   {
     "repo": "yeager/ordverk",

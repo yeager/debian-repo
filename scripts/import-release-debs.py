@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """Import pinned DEB release assets, canonicalize the pool, and rebuild indexes."""
-import hashlib, json, re, shutil, subprocess, urllib.request
+import hashlib, json, os, re, shutil, subprocess, urllib.request
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -62,6 +62,9 @@ for path in deb_paths:
             shutil.move(str(path), str(target))
         existing[identity] = target
 
+imported = 0
+verified = 0
+skipped_conflicts = []
 for asset in ASSETS:
     name = asset["name"]
     if not re.fullmatch(r"[A-Za-z0-9._+~-]+\.deb", name):
@@ -82,8 +85,17 @@ for asset in ASSETS:
     old = existing.get(identity)
     if old:
         if sha256(old) != sha256(temp):
-            raise ValueError(f"Conflicting release DEB {identity}: {old}")
+            temp.unlink()
+            relative_old = old.relative_to(ROOT)
+            skipped_conflicts.append((asset, identity, relative_old))
+            print(
+                f"::warning title=Same-version DEB conflict::Skipping {asset['repo']}:{name}; "
+                f"{identity[0]} {identity[1]} ({identity[2]}) already exists at {relative_old} "
+                "with different contents."
+            )
+            continue
         temp.unlink()
+        verified += 1
         continue
     target = canonical(temp, identity)
     target.parent.mkdir(parents=True, exist_ok=True)
@@ -91,6 +103,7 @@ for asset in ASSETS:
         raise ValueError(f"Refusing to overwrite unrelated package file: {target}")
     shutil.move(str(temp), str(target))
     existing[identity] = target
+    imported += 1
 
 for arch in ("amd64", "arm64"):
     index_dir = ROOT / "dists/stable/main" / f"binary-{arch}"
@@ -102,4 +115,21 @@ for arch in ("amd64", "arm64"):
     with (index_dir / "Packages.xz").open("wb") as output:
         subprocess.run(["xz", "-9e", "-c", str(index_dir / "Packages")], check=True, stdout=output)
 shutil.rmtree(ROOT / "dists/stable/main/binary-all", ignore_errors=True)
-print(f"Imported/verified {len(ASSETS)} release DEBs; indexed {len(existing)} package versions for amd64/arm64")
+print(
+    f"Imported {imported} release DEBs; verified {verified}; skipped "
+    f"{len(skipped_conflicts)} same-version content conflicts; indexed "
+    f"{len(existing)} package versions for amd64/arm64"
+)
+if summary_path := os.environ.get("GITHUB_STEP_SUMMARY"):
+    with open(summary_path, "a", encoding="utf-8") as summary:
+        summary.write("## DEB import results\n\n")
+        summary.write(f"- Imported: {imported}\n- Verified unchanged: {verified}\n")
+        summary.write(f"- Skipped same-version content conflicts: {len(skipped_conflicts)}\n")
+        if skipped_conflicts:
+            summary.write("\n| Repository | Tag | Asset | Existing package | Indexed file |\n")
+            summary.write("|---|---|---|---|---|\n")
+            for asset, identity, old_path in skipped_conflicts:
+                summary.write(
+                    f"| `{asset['repo']}` | `{asset['tag']}` | `{asset['name']}` | "
+                    f"`{identity[0]} {identity[1]} ({identity[2]})` | `{old_path}` |\n"
+                )
