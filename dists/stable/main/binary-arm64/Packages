@@ -3727,6 +3727,21 @@ Homepage: https://github.com/yeager/ubuntu-l10n
 Description: Ubuntu/Launchpad translation statistics viewer
 
 Package: ubuntu-l10n
+Version: 0.3.16-1
+Architecture: all
+Maintainer: Daniel Nylander <daniel@danielnylander.se>
+Depends: python3 (>= 3.10), python3-gi, gir1.2-gtk-4.0, gir1.2-adw-1, python3-bs4, python3-requests, python3-lxml
+Filename: pool/main/u/ubuntu-l10n/ubuntu-l10n_0.3.16-1_all.deb
+Size: 21040
+MD5sum: 42a22fb3e2e15e2e37782a0ac52883d5
+SHA1: 4c4273f2a231bb75382f1a9d6e69d3689c7418a8
+SHA256: b28dc117d595d1cf2d1d14f976b52f8db5d5bc505a1577edf818744e1dfeac76
+Section: devel
+Priority: optional
+Homepage: https://github.com/yeager/ubuntu-l10n
+Description: Ubuntu/Launchpad translation statistics viewer
+
+Package: ubuntu-l10n
 Version: 0.3.6
 Architecture: all
 Maintainer: Daniel Nylander <daniel@danielnylander.se>
