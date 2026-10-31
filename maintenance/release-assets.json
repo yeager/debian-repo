@@ -552,6 +552,14 @@
     "sha256": "9bf5eccd7bf00c43eb77ad8e7c0d9af3655cb6eaeb516bd99931d3dadad6d3c8"
   },
   {
+    "repo": "yeager/ubuntu-l10n",
+    "tag": "v0.3.16",
+    "name": "ubuntu-l10n_0.3.16-1_all.deb",
+    "size": 21040,
+    "url": "https://github.com/yeager/ubuntu-l10n/releases/download/v0.3.16/ubuntu-l10n_0.3.16-1_all.deb",
+    "sha256": "b28dc117d595d1cf2d1d14f976b52f8db5d5bc505a1577edf818744e1dfeac76"
+  },
+  {
     "repo": "yeager/wifi-analyzer",
     "tag": "v0.1.36",
     "name": "wifi-analyzer_0.1.36_all.deb",
