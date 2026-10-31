@@ -542,5 +542,21 @@
     "size": 270428,
     "url": "https://github.com/yeager/wifi-analyzer/releases/download/v0.1.35/wifi-analyzer_0.1.35_all.deb",
     "sha256": "80b04c354eaae6ce7827f7a8a88709e11354e8ceca702b61f4eac8b9276bbd26"
+  },
+  {
+    "repo": "yeager/ubuntu-l10n",
+    "tag": "v0.3.15",
+    "name": "ubuntu-l10n_0.3.15-1_all.deb",
+    "size": 20840,
+    "url": "https://github.com/yeager/ubuntu-l10n/releases/download/v0.3.15/ubuntu-l10n_0.3.15-1_all.deb",
+    "sha256": "9bf5eccd7bf00c43eb77ad8e7c0d9af3655cb6eaeb516bd99931d3dadad6d3c8"
+  },
+  {
+    "repo": "yeager/wifi-analyzer",
+    "tag": "v0.1.36",
+    "name": "wifi-analyzer_0.1.36_all.deb",
+    "size": 270560,
+    "url": "https://github.com/yeager/wifi-analyzer/releases/download/v0.1.36/wifi-analyzer_0.1.36_all.deb",
+    "sha256": "d2abab99288a6567f9ce42636d50705eebc584d5e4604483fe582c330a547993"
   }
 ]
