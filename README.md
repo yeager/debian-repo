@@ -62,6 +62,9 @@ sudo apt install ubuntu-start ubuntu-l10n wifi-analyzer apt-changelog-viewer
 - Repository URL: <https://yeager.github.io/debian-repo>
 - Packages index is published as `Packages`, `Packages.gz`, and `Packages.xz`
 - `InRelease` and `Release.gpg` are published for signed metadata
+- GitHub Pages limits a published site to 1 GB. The import workflow checks the
+  generated artifact before publishing; larger package archives need a separate
+  package host.
 
 ## Svenska språkverktyg
 

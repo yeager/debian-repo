@@ -56,6 +56,8 @@ jobs:
           gpg --batch --yes --local-user "$EXPECTED_FINGERPRINT" --armor --detach-sign --output dists/stable/Release.gpg dists/stable/Release
           gpg --batch --verify dists/stable/InRelease
           gpg --batch --verify dists/stable/Release.gpg dists/stable/Release
+      - name: Check GitHub Pages artifact size
+        run: python3 scripts/check-pages-size.py
       - name: Commit and push to main
         run: |
           git config user.name "github-actions[bot]"

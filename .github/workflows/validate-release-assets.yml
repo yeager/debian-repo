@@ -6,11 +6,13 @@ on:
     paths:
       - "maintenance/release-assets.json"
       - "scripts/validate-release-assets.py"
+      - "scripts/check-pages-size.py"
       - ".github/workflows/validate-release-assets.yml"
   pull_request:
     paths:
       - "maintenance/release-assets.json"
       - "scripts/validate-release-assets.py"
+      - "scripts/check-pages-size.py"
       - ".github/workflows/validate-release-assets.yml"
 
 permissions:
@@ -23,3 +25,5 @@ jobs:
       - uses: actions/checkout@v7
       - name: Validate pinned DEB release assets
         run: python3 scripts/validate-release-assets.py
+      - name: Check GitHub Pages artifact size
+        run: python3 scripts/check-pages-size.py
