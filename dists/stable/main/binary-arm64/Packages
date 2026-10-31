@@ -3987,6 +3987,25 @@ Description: GTK application for inspecting nearby Wi-Fi networks
  security mode, overlap and regulatory hints through NetworkManager.
 
 Package: wifi-analyzer
+Version: 0.1.37
+Architecture: all
+Maintainer: Daniel Nylander <po@danielnylander.se>
+Installed-Size: 554
+Depends: python3:any, gir1.2-adw-1, gir1.2-gtk-4.0, network-manager, python3-cairo, python3-gi-cairo, python3-gi
+Recommends: iw
+Filename: pool/main/w/wifi-analyzer/wifi-analyzer_0.1.37_all.deb
+Size: 270740
+MD5sum: e6c3ce0d25b9002dbbef08e472293029
+SHA1: b7f0874884389016a91fdac6f04aa06e27d7c903
+SHA256: cd2edd9fd1248b16073948d163339d3a7e35eb82ae328f06064fdf79d5d122d6
+Section: net
+Priority: optional
+Homepage: https://www.danielnylander.se
+Description: GTK application for inspecting nearby Wi-Fi networks
+ WiFi Analyzer displays nearby access points, their signal strength, channel,
+ security mode, overlap and regulatory hints through NetworkManager.
+
+Package: wifi-analyzer
 Version: 0.1.4
 Architecture: all
 Maintainer: Daniel Nylander <daniel@danielnylander.se>
