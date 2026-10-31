@@ -560,6 +560,14 @@
     "sha256": "d2abab99288a6567f9ce42636d50705eebc584d5e4604483fe582c330a547993"
   },
   {
+    "repo": "yeager/wifi-analyzer",
+    "tag": "v0.1.37",
+    "name": "wifi-analyzer_0.1.37_all.deb",
+    "size": 270740,
+    "url": "https://github.com/yeager/wifi-analyzer/releases/download/v0.1.37/wifi-analyzer_0.1.37_all.deb",
+    "sha256": "cd2edd9fd1248b16073948d163339d3a7e35eb82ae328f06064fdf79d5d122d6"
+  },
+  {
     "repo": "yeager/ubuntu-start",
     "tag": "v0.3.57",
     "name": "ubuntu-start_0.3.57-1_all.deb",
