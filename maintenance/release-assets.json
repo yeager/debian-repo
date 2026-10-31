@@ -582,5 +582,13 @@
     "size": 387696,
     "url": "https://github.com/yeager/ubuntu-start/releases/download/v0.3.57/ubuntu-start_0.3.57-1_all.deb",
     "sha256": "7f615afe03a9f5a6571545e3609b38700434575fb3ef67f1f1889e8c3d85baac"
+  },
+  {
+    "repo": "yeager/ubuntu-start",
+    "tag": "v0.3.58",
+    "name": "ubuntu-start_0.3.58-1_all.deb",
+    "size": 387996,
+    "url": "https://github.com/yeager/ubuntu-start/releases/download/v0.3.58/ubuntu-start_0.3.58-1_all.deb",
+    "sha256": "d27496958337e41e31cacde16fd8f585f1954c10066a6c2dd38a23027fe818c2"
   }
 ]
