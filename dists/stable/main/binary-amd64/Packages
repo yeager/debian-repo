@@ -3963,6 +3963,23 @@ Description: Ubuntu Desktop first-run and device troubleshooting guide
  A GTK application with step-by-step Ubuntu guides, hardware and network
  troubleshooting, accessibility help and a Swedish translation.
 
+Package: ubuntu-start
+Version: 0.3.58-1
+Architecture: all
+Maintainer: Daniel Nylander <daniel@nylander.se>
+Depends: python3, python3-gi, gir1.2-gtk-4.0, gir1.2-adw-1
+Filename: pool/main/u/ubuntu-start/ubuntu-start_0.3.58-1_all.deb
+Size: 387996
+MD5sum: fa98575e2c6c406f87718751f9bb0685
+SHA1: 8adf38654644798f62237c4b3888ea27dc32b503
+SHA256: d27496958337e41e31cacde16fd8f585f1954c10066a6c2dd38a23027fe818c2
+Section: utils
+Priority: optional
+Homepage: https://github.com/yeager/ubuntu-start
+Description: Ubuntu Desktop first-run and device troubleshooting guide
+ A GTK application with step-by-step Ubuntu guides, hardware and network
+ troubleshooting, accessibility help and a Swedish translation.
+
 Package: valjaren
 Version: 0.1.0-1
 Architecture: all
