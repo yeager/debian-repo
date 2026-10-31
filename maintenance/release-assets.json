@@ -558,5 +558,13 @@
     "size": 270560,
     "url": "https://github.com/yeager/wifi-analyzer/releases/download/v0.1.36/wifi-analyzer_0.1.36_all.deb",
     "sha256": "d2abab99288a6567f9ce42636d50705eebc584d5e4604483fe582c330a547993"
+  },
+  {
+    "repo": "yeager/ubuntu-start",
+    "tag": "v0.3.57",
+    "name": "ubuntu-start_0.3.57-1_all.deb",
+    "size": 387696,
+    "url": "https://github.com/yeager/ubuntu-start/releases/download/v0.3.57/ubuntu-start_0.3.57-1_all.deb",
+    "sha256": "7f615afe03a9f5a6571545e3609b38700434575fb3ef67f1f1889e8c3d85baac"
   }
 ]
