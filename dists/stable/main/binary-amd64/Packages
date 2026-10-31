@@ -3847,6 +3847,21 @@ Homepage: https://github.com/yeager/ubuntu-l10n
 Description: Ubuntu/Launchpad translation statistics viewer
 
 Package: ubuntu-l10n
+Version: 0.3.15-1
+Architecture: all
+Maintainer: Daniel Nylander <daniel@danielnylander.se>
+Depends: python3 (>= 3.10), python3-gi, gir1.2-gtk-4.0, gir1.2-adw-1, python3-bs4, python3-requests, python3-lxml
+Filename: pool/main/u/ubuntu-l10n/ubuntu-l10n_0.3.15-1_all.deb
+Size: 20840
+MD5sum: f3a4acaa8de2551c449a0e9f9d9bbe20
+SHA1: 241beda75ef94dc291f77c862a2637a2269cc7f0
+SHA256: 9bf5eccd7bf00c43eb77ad8e7c0d9af3655cb6eaeb516bd99931d3dadad6d3c8
+Section: devel
+Priority: optional
+Homepage: https://github.com/yeager/ubuntu-l10n
+Description: Ubuntu/Launchpad translation statistics viewer
+
+Package: ubuntu-l10n
 Version: 0.3.6
 Architecture: all
 Maintainer: Daniel Nylander <daniel@danielnylander.se>
@@ -4063,6 +4078,25 @@ Size: 270428
 MD5sum: 6b2f6474f9a4bb00067ac812f3d5d171
 SHA1: 6b9a416c3dd32ed27d956dadfa0d3c6d92badbe8
 SHA256: 80b04c354eaae6ce7827f7a8a88709e11354e8ceca702b61f4eac8b9276bbd26
+Section: net
+Priority: optional
+Homepage: https://www.danielnylander.se
+Description: GTK application for inspecting nearby Wi-Fi networks
+ WiFi Analyzer displays nearby access points, their signal strength, channel,
+ security mode, overlap and regulatory hints through NetworkManager.
+
+Package: wifi-analyzer
+Version: 0.1.36
+Architecture: all
+Maintainer: Daniel Nylander <po@danielnylander.se>
+Installed-Size: 553
+Depends: python3:any, gir1.2-adw-1, gir1.2-gtk-4.0, network-manager, python3-cairo, python3-gi-cairo, python3-gi
+Recommends: iw
+Filename: pool/main/w/wifi-analyzer/wifi-analyzer_0.1.36_all.deb
+Size: 270560
+MD5sum: e3964da572880c0a617bb1590bb19eb6
+SHA1: fa10b68b63589d9aa36dac6d2e4fe9f2ea3f34c0
+SHA256: d2abab99288a6567f9ce42636d50705eebc584d5e4604483fe582c330a547993
 Section: net
 Priority: optional
 Homepage: https://www.danielnylander.se
