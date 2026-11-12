@@ -590,5 +590,13 @@
     "size": 387996,
     "url": "https://github.com/yeager/ubuntu-start/releases/download/v0.3.58/ubuntu-start_0.3.58-1_all.deb",
     "sha256": "d27496958337e41e31cacde16fd8f585f1954c10066a6c2dd38a23027fe818c2"
+  },
+  {
+    "repo": "yeager/po-translate",
+    "tag": "v1.6.2",
+    "name": "po-translate_1.6.2-1_all.deb",
+    "size": 15784,
+    "url": "https://github.com/yeager/po-translate/releases/download/v1.6.2/po-translate_1.6.2-1_all.deb",
+    "sha256": "866addb51ab63558966353250395915ac192fafbc9f286ef362ac4466fbaa5ff"
   }
 ]
