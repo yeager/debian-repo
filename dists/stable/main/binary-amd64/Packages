@@ -2824,6 +2824,23 @@ Description: Batch translate PO and TS localization files
  A CLI tool for batch translating PO and TS files using
  various translation APIs (Google, DeepL, Claude, etc.).
 
+Package: po-translate
+Version: 1.6.2-1
+Architecture: all
+Maintainer: Daniel Nylander <daniel@danielnylander.se>
+Depends: python3 (>= 3.9)
+Filename: pool/main/p/po-translate/po-translate_1.6.2-1_all.deb
+Size: 15784
+MD5sum: cc1c22a30b7077a3595d1c7fee1c97ab
+SHA1: 0392ff1c6e788173414668b3f022bea2c40fce7b
+SHA256: 866addb51ab63558966353250395915ac192fafbc9f286ef362ac4466fbaa5ff
+Section: devel
+Priority: optional
+Homepage: https://github.com/yeager/po-translate
+Description: Translate PO files using multiple translation services
+ po-translate translates gettext PO files using various services
+ including DeepL, Google, OpenAI, Anthropic, and more.
+
 Package: process-explorer
 Version: 0.1.4
 Architecture: all
