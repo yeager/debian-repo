@@ -630,5 +630,13 @@
     "size": 841956,
     "url": "https://github.com/yeager/svlang/releases/download/v0.2.24/svlang_0.2.24-1_all.deb",
     "sha256": "619534b7a2c3fd734397bc7864932358c5b2306f6ede2e7b48d9291f3cd47e85"
+  },
+  {
+    "repo": "yeager/hardware",
+    "tag": "v0.2.1",
+    "name": "hardware_0.2.1-1_all.deb",
+    "size": 296830,
+    "url": "https://github.com/yeager/hardware/releases/download/v0.2.1/hardware_0.2.1-1_all.deb",
+    "sha256": "54183d92cb50de9a850720dfb56bfa6e8ac3dff4c7a684d9d41b735bfdf3852c"
   }
 ]
