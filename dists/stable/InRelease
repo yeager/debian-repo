@@ -8,7 +8,7 @@ Codename: stable
 Architectures: amd64 arm64
 Components: main
 Description: Daniel Nylander's localization and development packages
-Date: Thu, 12 Nov 2026 07:23:52 +0000
+Date: Thu, 12 Nov 2026 07:30:38 +0000
 MD5Sum:
  cde9e5f77406d44c7b2f5af59f0adda8 165379 main/binary-amd64/Packages
  7c310f46b42efcfa1b9ddef04e8aa2e5 39439 main/binary-amd64/Packages.gz
@@ -62,17 +62,17 @@ SHA256:
  42b412adf12a3ff259b30424b1d7523005431c3aeec19035b0978faf5237fa8d 17092 main/binary-i386/Packages.xz
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAEBCgAdFiEEx5gladHcxUaKBy2U17Re0nueu2MFAmr1aYkACgkQ17Re0nue
-u2OIHQ/8DD0eqMyY1S90rL9qPudsxBBN69k/friYKRtY0jcCIjAcqu5BDWuU3Vz4
-FhNIyBbfM+2X4LDnMMotNe+gYG+fvRGhQZspZmL3cMTefNYAGFvzVVmmWF7inmAV
-rKBQjfsu07J3yQmcZhgt0/WX/Q81HjCBDb+dhObSKg7i/olw4iTtWulkLFmjyWVb
-6qOm3fA3rtLK0vKn4bOGmuBmAMyGPl8N00DgT2BJjJXyvjickWSDjJ158BFP/Wg6
-Yc9UECVtQcEqBlxpCdciqTROCPN3i53YLhdP3UrOVCrVXUh9t79paTGPiG6vT0Pz
-F/9hcEeDhzT9oXJQ8A8xP7wPZ8AarUDadlaRUA7ETbHhK1o3mdijZLg9VxVuKgBD
-Ip6jMWaA+999vJnvPV2cK+13vdGYee+ziLu+Zx2lRTx6RGEOwdnzk+npohm1PRqh
-4q12CNJmY8G7BsGUtHY8HCq2zD/sVRxgooqmlw5Ef5Ad4LOVXme86UKdudKpgxc9
-AKItiTY2TZpmO98ewaeuMXPa4M0oOS8jj6diWLBW0uO16yOoqW+wSmGKulTpVOx1
-KB9RqxLVDdLCyRBuk+Jz8l1HpV0PmNsT3Xr4UCTHW6ZJbryqNUDI9xXgVCY2otIv
-ufF+YgcRHUO6p1mONW5vwdRjmVE/wcV2C2nRNgmuosb811TJ+ek=
-=MjeI
+iQIzBAEBCgAdFiEEx5gladHcxUaKBy2U17Re0nueu2MFAmr1ax8ACgkQ17Re0nue
+u2M+Kw/+O6Sl8FyA7QLlV1FcRIBnfLwrQsLjLQ8o9mEsIUYdZnVzWp/ry3hvaFgs
+qIiJx8rsdKVj4ialfOs4SNQRCadxz1X/8Aol2SmzpLpDsnjn0+UnPbO+/PGfY/vU
+MUJNBQXkIxsb3TdZ3LvherySs/uqCgnlc1/ZM4AZvL2A/L7EcuU6eVcauWQMxRhv
+SLpc5FiKv97oZP+N9QXT0yrPudRyCO6JGtF4pui7BtTcW4k+Xv0+4xo5bCL97MNn
+JedQVlkw+QGlHSF+9zS3jZ4efztJkmtEWsS6chTOerMGW2xoQ87MtYwb+q3O7aHz
+yVGmAqr9E9CJrbo6dKUbPAAZfxyJQXWABPJca3GyWMg+hEVo84ocjkBPvc+ICVrT
+B1j6IZLsQLJAQKcbDTa2g+crjEcO8por3PTptpupNO/nsgINbZwdGODoMjn32s8R
++WL0WGMJTULk3MmWLDsi1i/UOYRKhDlIAIQ3zgKsRjMb5ZssiRlEY7fs0ZoixWoW
+YyctWlZA5oYwNo/Zx/WtD5nJuIRDvwzjy/CHAHYF2eDZJP/RGaYe3mdl96WxVAe5
+WmDT6oGRh62vM5yxxSvkLxzfi8LpDOB8odmg3Ul39T/9U1n7HSdZL7jMDWT4vQEE
+mCVDYU5plVl/hJds6jmniJM3aWSunp9y5/VZi8gWnfeXMmxpU7w=
+=5wl0
 -----END PGP SIGNATURE-----
