@@ -1337,6 +1337,24 @@ Priority: optional
 Homepage: https://github.com/yeager/ha-l10n
 Description: Home Assistant translation status dashboard
 
+Package: hardware
+Version: 0.2.1-1
+Architecture: all
+Maintainer: <danielnylander@HGWKWQ50X4>
+Installed-Size: 302
+Depends: python3 (>= 3.10), python3-gi, gir1.2-gtk-4.0, gir1.2-adw-1, pciutils
+Filename: pool/main/h/hardware/hardware_0.2.1-1_all.deb
+Size: 296830
+MD5sum: 1f4eb1bd221cecf97d9bfcd3230e2b19
+SHA1: 7ec6b939406899c079b4470f017f5cbdaaa34b26
+SHA256: 54183d92cb50de9a850720dfb56bfa6e8ac3dff4c7a684d9d41b735bfdf3852c
+Section: default
+Priority: optional
+Homepage: https://github.com/yeager/hardware
+Description: GNOME app for Linux hardware and kernel driver inventory
+License: GPL-3.0-or-later
+Vendor: none
+
 Package: homehelper
 Version: 0.1.0-1
 Architecture: all
