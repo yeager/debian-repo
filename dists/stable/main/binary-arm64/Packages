@@ -974,6 +974,21 @@ Priority: optional
 Description: Firestaff native Dungeon Master engine
  Firestaff provides source-faithful Dungeon Master compatibility work. This package does not bundle original game data.
 
+Package: firestaff
+Version: 3.0.426
+Architecture: arm64
+Maintainer: Firestaff Preview <noreply@github.com>
+Depends: libsdl3-0 | libsdl3-0-0
+Filename: pool/main/f/firestaff/firestaff_3.0.426_arm64.deb
+Size: 65749998
+MD5sum: 55ba59f8f236b337e7acd4047581a770
+SHA1: ee56a79a3cbbd9485de1270dc7ff6f7ce2c82245
+SHA256: cddd3d437043dd12be010be4069daaf9097807fcb5caff506879e0aec0516b19
+Section: games
+Priority: optional
+Description: Firestaff native Dungeon Master engine
+ Firestaff provides source-faithful Dungeon Master compatibility work. This package does not bundle original game data.
+
 Package: firewall-manager
 Version: 0.1.4
 Architecture: all
@@ -1624,6 +1639,25 @@ Size: 73350
 MD5sum: abf6d0043e68cf3566a918c652c00077
 SHA1: 1d837962cc5e71d687674550af29413bea4a3008
 SHA256: 744116af175f46ca7244d944d2854d7b43c604fab83004ffc2a037c2ab900949
+Section: devel
+Priority: optional
+Homepage: https://github.com/yeager/l10n-lint
+Description: Linter for localization files (.po, .ts, .xlf/.xliff, .json, .arb, .resx)
+ l10n-lint checks gettext .po, Qt .ts, XLIFF, JSON, ARB and ResX localization files for
+ common issues: missing translations, fuzzy entries, placeholder
+ mismatches, and more.
+
+Package: l10n-lint
+Version: 1.23.32-1
+Architecture: all
+Maintainer: Daniel Nylander <daniel@danielnylander.se>
+Depends: python3 (>= 3.9), python3-tomli
+Recommends: python3-gi, gir1.2-gtk-4.0, gir1.2-adw-1
+Filename: pool/main/l/l10n-lint/l10n-lint_1.23.32-1_all.deb
+Size: 73492
+MD5sum: b349e4cf91e173675db56ac06256374f
+SHA1: 72f9325261738bb284a76cebc7cfc9648e6a2744
+SHA256: f8b6114e6ac996b4faa31d6c838716d88c2d45f2ce7f9198069bfc59e15874f2
 Section: devel
 Priority: optional
 Homepage: https://github.com/yeager/l10n-lint
@@ -3370,6 +3404,23 @@ Size: 841838
 MD5sum: 7effe6a5cb76c6a1c55c945d75387d2d
 SHA1: 562a5151cd355b35f130e2bf0b56ee764f78bbfa
 SHA256: ea0fbf335d5f9f0895fe8d6ff7f2e02dba35b616eb11d9915f7f4788803a3a9e
+Section: text
+Priority: optional
+Homepage: https://github.com/yeager/svlang
+Description: Swedish NLP toolkit for translators
+ svlang checks Swedish text for svengelska, consistency issues,
+ compound word errors, and readability (LIX score).
+
+Package: svlang
+Version: 0.2.24-1
+Architecture: all
+Maintainer: Daniel Nylander <daniel@danielnylander.se>
+Depends: python3 (>= 3.10)
+Filename: pool/main/s/svlang/svlang_0.2.24-1_all.deb
+Size: 841956
+MD5sum: 2454deccf17957b000269edacf877e2b
+SHA1: a8bd65f8567167465fe90d722d6a431d58123d65
+SHA256: 619534b7a2c3fd734397bc7864932358c5b2306f6ede2e7b48d9291f3cd47e85
 Section: text
 Priority: optional
 Homepage: https://github.com/yeager/svlang
