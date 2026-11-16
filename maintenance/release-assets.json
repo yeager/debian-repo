@@ -638,5 +638,13 @@
     "size": 296830,
     "url": "https://github.com/yeager/hardware/releases/download/v0.2.1/hardware_0.2.1-1_all.deb",
     "sha256": "54183d92cb50de9a850720dfb56bfa6e8ac3dff4c7a684d9d41b735bfdf3852c"
+  },
+  {
+    "repo": "yeager/l10n-lint",
+    "tag": "v1.23.34",
+    "name": "l10n-lint_1.23.34-1_all.deb",
+    "size": 74530,
+    "url": "https://github.com/yeager/l10n-lint/releases/download/v1.23.34/l10n-lint_1.23.34-1_all.deb",
+    "sha256": "c3c162d0ea1dc74b34c7710c97bfc188fb703344c329a8d3e476baa720b1d377"
   }
 ]
