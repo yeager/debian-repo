@@ -1704,6 +1704,25 @@ Description: Linter for localization files (.po, .ts, .xlf/.xliff, .json, .arb, 
  common issues: missing translations, fuzzy entries, placeholder
  mismatches, and more.
 
+Package: l10n-lint
+Version: 1.23.34-1
+Architecture: all
+Maintainer: Daniel Nylander <daniel@danielnylander.se>
+Depends: python3 (>= 3.9), python3-tomli
+Recommends: python3-gi, gir1.2-gtk-4.0, gir1.2-adw-1
+Filename: pool/main/l/l10n-lint/l10n-lint_1.23.34-1_all.deb
+Size: 74530
+MD5sum: 3fe3f2fc7350741c7661e71e166f9b69
+SHA1: 27b78c005f92fadd33b0d3ba599872d3492b61f1
+SHA256: c3c162d0ea1dc74b34c7710c97bfc188fb703344c329a8d3e476baa720b1d377
+Section: devel
+Priority: optional
+Homepage: https://github.com/yeager/l10n-lint
+Description: Linter for localization files (.po, .ts, .xlf/.xliff, .json, .arb, .toml, .resx)
+ l10n-lint checks gettext .po, Qt .ts, XLIFF, JSON, ARB, TOML and ResX localization files for
+ common issues: missing translations, fuzzy entries, placeholder
+ mismatches, and more.
+
 Package: l10n-preview
 Version: 0.1.2-1
 Architecture: all
