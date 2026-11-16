@@ -1371,6 +1371,33 @@ Description: Swedish dictionary for Hunspell spell checker
  .
  Homepage: https://github.com/yeager/hunspell-sv
 
+Package: hunspell-sv
+Version: 3:2026.11.16-1
+Architecture: all
+Maintainer: Daniel Nylander <github@danielnylander.se>
+Installed-Size: 6437
+Depends: dictionaries-common (>= 1.0)
+Suggests: hunspell
+Breaks: hunspell-sv-se (<< 1:6.1.0~rc2-3)
+Replaces: hunspell-sv-se (<< 1:6.1.0~rc2-3)
+Provides: hunspell-dictionary, hunspell-dictionary-sv
+Filename: pool/main/h/hunspell-sv/hunspell-sv_2026.11.16-1_all.deb
+Size: 1306654
+MD5sum: ea3624c2e057b730429c2c109d2f175d
+SHA1: 321495f0cf6310d9b6ac210a4d9f726dadd231af
+SHA256: 980e09b08760d25605dccee199b1c87ed350bb4fee37b78fd9a96f7f7850af5e
+Section: text
+Priority: optional
+Multi-Arch: foreign
+Homepage: https://github.com/yeager/hunspell-sv
+Description: Swedish dictionary for Hunspell
+ Swedish spelling dictionary with affix and compound rules, including
+ vocabulary for software, information technology and modern Swedish.
+ .
+ The main sv_SE dictionary is installed for Hunspell-compatible applications.
+ The historical supplementary dictionary is included as an example and
+ still requires its corresponding affix file.
+
 Package: ilskehanteraren
 Version: 0.1.0-1
 Architecture: all
