@@ -8,7 +8,7 @@ Codename: stable
 Architectures: amd64 arm64
 Components: main
 Description: Daniel Nylander's localization and development packages
-Date: Mon, 16 Nov 2026 08:22:43 +0000
+Date: Mon, 16 Nov 2026 08:33:17 +0000
 MD5Sum:
  be1c5392d14a7d9d67c234ee446282db 167388 main/binary-amd64/Packages
  de7f1ff881ed071d8c48f11723631aa7 39896 main/binary-amd64/Packages.gz
@@ -62,17 +62,17 @@ SHA256:
  42b412adf12a3ff259b30424b1d7523005431c3aeec19035b0978faf5237fa8d 17092 main/binary-i386/Packages.xz
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAEBCgAdFiEEx5gladHcxUaKBy2U17Re0nueu2MFAmr6vVMACgkQ17Re0nue
-u2N1+hAAwo2FvDe4sk+0PrkSu0LIcJHrpyq3fcYdYcKSPy7dgo+pZeBTAMMgzLWe
-QXAlQsqHkAW2DMzhsfMuAj1HHJRpdE0fELTLQ2bqOowhtAxj6JqBsPj8217EWWS1
-kHR46drrClojSxehm6RVFyuohdDlaps17F9mtlcuAlUO6Gqmlvx2RftyQYfBXflP
-9i6ih3TAjv7az3vcXhfoBLrJxjO7vf6HTiY4RNAhw8abv+kgAaI04yLoYDu+Um8s
-fXXA8VT6qQtoByfJl9wgXDhxH7kPxqmCDC2Er4xiojqySNOiF9WgZYdTjxwOYGs4
-6qB/4LDJYDITRKwZXQCUcc2jNdFNXbP2s8SFfsG3+d/Ul87L0Gn+dI6qHYy6nkyM
-/wz57rj51f71lO+pNBlQAaa+03NIxhnGdpDkE0xqmBjC+nKvU/EGkizW7tR2fC2I
-9KZIcLzoveE+yqdFJZKcBMLcHG4j+UGPj/GYYQxLd44B1wH3yZFNNp4oj9s8Bkon
-p+DxgrdR3aYICXD8LtlfD3EaXYvlM37TsbOCNe+V1KDwQdY9KT4jf+i9Q2S6RGAv
-wNRJzAGUtqg8TSFTYQifwD4U40ITdZAY48wRqO4fOcLc3yODQOCiz1XHe++kywVR
-tV2RQPUXZlNNEb5GakTX5hi0L5IrS58ZiGBZP9qDfmNnKtSYCt4=
-=S+tU
+iQIzBAEBCgAdFiEEx5gladHcxUaKBy2U17Re0nueu2MFAmr6v80ACgkQ17Re0nue
+u2Pwtw//VbeADoUnfHu6orWMYWw+F8qY3RQRfSgS2ANuiVnxgpTCHD4UyPHG0vum
+JQ9sh2GlR1R4yAQroBi0wEBx9h2YNQUuy6BgLyylnRJmRVMMVkIL64oMhciGs+6b
+rUneIiZkPl2SjeD/uVLGJBPu/JVJukAvMdLMSsh4nuJ52fIU9LChBDO1paT/wzBA
+xTf0uG2Bn9ULNZR+zWLRR3+9K0+Y9amZlqoCgWfTjXPE0ZUtbMtaiMT6A9t6ACwC
+w04pHzuCdBHyFULL2W6xN0jiTclppUnMoK81NDUnf1eWuUj9fs0QvSeD89o1Cj9k
+PrKZmoEK1k4sSEYTNfuAjLOTjEEg8kn4v57vhEydTjHi47miFrQOe+jIqODRTIH0
+NpMhZkJAeBVHZLmfI7JdpgcHIvKvpHI0nmTDjjkqEt7bH1L9K+x7x2UFBAXtziN8
+lzhvtvqSufiuXJsbBgaz3kw4qmhoNppaoxVTImfY8cnAjlSwxM+v3Z+uvrVueb6+
+IE+/SCLXKmQzgpCZc+hVCJojNTeke/h3tUWRhiasAGHupS2O2eIcmyyhk9sTdU3B
+dlSh9+vDSN+mJfK9LI/0bz9y6yvbMnAhyBVtrZ/McdWxXR948QfDjqGNFl3cZh+r
+6NTiIvv+PhH/CabTcSeZFXBW8qArtNJawYU7t6rYRMOOw4XsyW4=
+=OIEg
 -----END PGP SIGNATURE-----
