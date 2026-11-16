@@ -3600,6 +3600,23 @@ Description: Swedish NLP toolkit for translators
  svlang checks Swedish text for svengelska, consistency issues,
  compound word errors, and readability (LIX score).
 
+Package: svlang
+Version: 0.3.0-1
+Architecture: all
+Maintainer: Daniel Nylander <daniel@danielnylander.se>
+Depends: python3 (>= 3.10)
+Filename: pool/main/s/svlang/svlang_0.3.0-1_all.deb
+Size: 843900
+MD5sum: 7e6587014259a954c4fbd4024d7f2a6c
+SHA1: 40a33bc18b162d4ac5dceabacb48d74cbc38294f
+SHA256: 2aad2020a682272ba930543f7d30582cb10b3511af0811d7ad9111c3b89aa780
+Section: text
+Priority: optional
+Homepage: https://github.com/yeager/svlang
+Description: Swedish NLP toolkit for translators
+ svlang checks Swedish text for svengelska, consistency issues,
+ compound word errors, and readability (LIX score).
+
 Package: swedish-foss-terminology
 Version: 20260918-1
 Architecture: all
