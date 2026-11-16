@@ -595,9 +595,9 @@
     "repo": "yeager/po-translate",
     "tag": "v1.6.2",
     "name": "po-translate_1.6.2-1_all.deb",
-    "size": 15784,
+    "size": 15786,
     "url": "https://github.com/yeager/po-translate/releases/download/v1.6.2/po-translate_1.6.2-1_all.deb",
-    "sha256": "866addb51ab63558966353250395915ac192fafbc9f286ef362ac4466fbaa5ff"
+    "sha256": "3c9cea081f0aabeb077a08f9ba684620bd372e9d33a2ef1d2efdce6855b81715"
   },
   {
     "repo": "yeager/firestaff",
