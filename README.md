@@ -73,7 +73,7 @@ the repaired upstream sources and work on any architecture with Python 3.10+:
 
 | Package | Version | Download |
 | --- | --- | --- |
-| svlang | 0.2.0-2 | [DEB](https://yeager.github.io/debian-repo/pool/main/s/svlang/svlang_0.2.0-2_all.deb) |
+| svlang | 0.3.0-1 | [DEB](https://yeager.github.io/debian-repo/pool/main/s/svlang/svlang_0.3.0-1_all.deb) |
 | swedish-tm | 20260918-1 | [DEB](https://yeager.github.io/debian-repo/pool/main/s/swedish-tm/swedish-tm_20260918-1_all.deb) |
 | swedish-foss-terminology | 20260918-1 | [DEB](https://yeager.github.io/debian-repo/pool/main/s/swedish-foss-terminology/swedish-foss-terminology_20260918-1_all.deb) |
 | po-translate | 1.6.1 | [DEB](https://yeager.github.io/debian-repo/pool/main/p/po-translate/po-translate_1.6.1_all.deb) |
