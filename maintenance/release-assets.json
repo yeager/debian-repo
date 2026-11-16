@@ -654,5 +654,13 @@
     "size": 843900,
     "url": "https://github.com/yeager/svlang/releases/download/v0.3.0/svlang_0.3.0-1_all.deb",
     "sha256": "2aad2020a682272ba930543f7d30582cb10b3511af0811d7ad9111c3b89aa780"
+  },
+  {
+    "repo": "yeager/hunspell-sv",
+    "tag": "v2026.11.16",
+    "name": "hunspell-sv_2026.11.16-1_all.deb",
+    "size": 1306654,
+    "url": "https://github.com/yeager/hunspell-sv/releases/download/v2026.11.16/hunspell-sv_2026.11.16-1_all.deb",
+    "sha256": "980e09b08760d25605dccee199b1c87ed350bb4fee37b78fd9a96f7f7850af5e"
   }
 ]
