@@ -646,5 +646,13 @@
     "size": 74530,
     "url": "https://github.com/yeager/l10n-lint/releases/download/v1.23.34/l10n-lint_1.23.34-1_all.deb",
     "sha256": "c3c162d0ea1dc74b34c7710c97bfc188fb703344c329a8d3e476baa720b1d377"
+  },
+  {
+    "repo": "yeager/svlang",
+    "tag": "v0.3.0",
+    "name": "svlang_0.3.0-1_all.deb",
+    "size": 843900,
+    "url": "https://github.com/yeager/svlang/releases/download/v0.3.0/svlang_0.3.0-1_all.deb",
+    "sha256": "2aad2020a682272ba930543f7d30582cb10b3511af0811d7ad9111c3b89aa780"
   }
 ]
