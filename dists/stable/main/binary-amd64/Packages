@@ -1452,6 +1452,21 @@ Description: Browse and import media from an iPhone on GNOME
  Uses the GNOME Files device integration to browse USB-connected iPhones
  and copies photos and videos to a local folder.
 
+Package: iphone-import
+Version: 0.1.1
+Architecture: all
+Maintainer: GNOME Cloud Sync Prototype <prototype@localhost>
+Depends: python3, python3-gi, gir1.2-gtk-4.0 (>= 4.10), gvfs-backends, usbmuxd
+Recommends: nautilus
+Filename: pool/main/i/iphone-import/iphone-import_0.1.1_all.deb
+Size: 18888
+MD5sum: 294e449faf4b61bfa8ccea0cf2ad4cbb
+SHA1: 648f90e8f0caa4031abdd152faf3319afb04a793
+SHA256: 4b4092558890764e2c3d37f3ab9311d3f592e18e5e93a589edbe6de9b33e8172
+Description: Browse and import media from an iPhone on GNOME
+ Uses the GNOME Files device integration to browse USB-connected iPhones
+ and copies photos and videos to a local folder.
+
 Package: kanslokartan
 Version: 0.1.7
 Architecture: all
