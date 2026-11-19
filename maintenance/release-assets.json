@@ -702,5 +702,13 @@
     "size": 50736,
     "url": "https://github.com/yeager/libvisio-ng/releases/download/v0.7.2/python3-libvisio-ng_0.7.2-1_all.deb",
     "sha256": "387adf4efc660fde25c14bcc216fc180ba6ac4b13ccf44c75f6f6a6047445f8a"
+  },
+  {
+    "repo": "yeager/iphone-import",
+    "tag": "v0.1.1",
+    "name": "iphone-import_0.1.1_all.deb",
+    "size": 18888,
+    "url": "https://github.com/yeager/iphone-import/releases/download/v0.1.1/iphone-import_0.1.1_all.deb",
+    "sha256": "4b4092558890764e2c3d37f3ab9311d3f592e18e5e93a589edbe6de9b33e8172"
   }
 ]
