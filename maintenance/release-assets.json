@@ -686,5 +686,21 @@
     "size": 49966,
     "url": "https://github.com/yeager/pcap-viewer/releases/download/v0.2.8/packetlens_0.2.8-1_all.deb",
     "sha256": "8df74541d1dfd4e0dcf965871287797c795b25f9204d91e518f0937d86871b33"
+  },
+  {
+    "repo": "yeager/vsdview",
+    "tag": "v0.6.3",
+    "name": "vsdview_0.6.3-1_all.deb",
+    "size": 56584,
+    "url": "https://github.com/yeager/vsdview/releases/download/v0.6.3/vsdview_0.6.3-1_all.deb",
+    "sha256": "ab9f04275d44fc5d9c8c5f083a77f6bc1b92194d3168edd924e17c197f64b8c0"
+  },
+  {
+    "repo": "yeager/libvisio-ng",
+    "tag": "v0.7.2",
+    "name": "python3-libvisio-ng_0.7.2-1_all.deb",
+    "size": 50736,
+    "url": "https://github.com/yeager/libvisio-ng/releases/download/v0.7.2/python3-libvisio-ng_0.7.2-1_all.deb",
+    "sha256": "387adf4efc660fde25c14bcc216fc180ba6ac4b13ccf44c75f6f6a6047445f8a"
   }
 ]
