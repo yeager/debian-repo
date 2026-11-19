@@ -1417,6 +1417,21 @@ Description: Step-by-step anger management for children with NPF
  .
  Step-by-step anger management for children with NPF
 
+Package: iphone-import
+Version: 0.1.0
+Architecture: all
+Maintainer: GNOME Cloud Sync Prototype <prototype@localhost>
+Depends: python3, python3-gi, gir1.2-gtk-4.0 (>= 4.10), gvfs-backends, usbmuxd
+Recommends: nautilus
+Filename: pool/main/i/iphone-import/iphone-import_0.1.0_all.deb
+Size: 18288
+MD5sum: 2a7d788b4f24a34c9c6e146899dba7e8
+SHA1: 91758252634dc93a14a13096f6b498889b996b8c
+SHA256: 0861970a90e0285cb4e76952825828fc41c247e8eabd741fd891ba1a435d1e7f
+Description: Browse and import media from an iPhone on GNOME
+ Uses the GNOME Files device integration to browse USB-connected iPhones
+ and copies photos and videos to a local folder.
+
 Package: kanslokartan
 Version: 0.1.7
 Architecture: all
@@ -3799,6 +3814,20 @@ Section: utils
 Priority: optional
 Homepage: https://github.com/yeager/tts-tester
 Description: Text-to-speech engine comparison tool
+
+Package: ubuntu-cloud-sync
+Version: 0.4.2
+Architecture: all
+Maintainer: GNOME Cloud Sync Prototype <prototype@localhost>
+Depends: python3, python3-gi, gir1.2-gtk-4.0 (>= 4.10), python3-nautilus, systemd
+Recommends: onedrive (>= 2.5.12), rclone, x-terminal-emulator, gnome-control-center, gvfs-backends
+Filename: pool/main/u/ubuntu-cloud-sync/ubuntu-cloud-sync_0.4.2_all.deb
+Size: 25390
+MD5sum: f4b2a502c971d47234988da5b5d1dd94
+SHA1: 0c5e2aea9ca8732355d687ef08f6a1fbeee8cb0f
+SHA256: a54cc04de7bb53cd181462809bb000b184a42248122c15fed05c79f7efb1d63a
+Description: GTK setup and GNOME Files badges for cloud sync
+ Uses OneDrive Client for Linux and rclone as separate per-user engines.
 
 Package: ubuntu-l10n
 Version: 0.3.11-1
