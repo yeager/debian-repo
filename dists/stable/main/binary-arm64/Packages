@@ -1832,6 +1832,21 @@ Description: GTK4/Adwaita app to inspect Ubuntu language packs and find missing 
  sudo apt install langpack-inspector
  ```
 
+Package: levande-screensaver
+Version: 0.1.0
+Architecture: all
+Maintainer: Daniel Nylander <po@danielnylander.se>
+Depends: python3, python3-gi, python3-gi-cairo, python3-cairo, gir1.2-gtk-4.0
+Filename: pool/main/l/levande-screensaver/levande-screensaver_0.1.0_all.deb
+Size: 5109614
+MD5sum: 677242bb4d46522d9757800e19866efd
+SHA1: 04c9083ce5613aec7f35be45bd1736e950715ce8
+SHA256: 310ee80c6c8f48e26e0e1a79a71ff15cc35fdc1852a7177b43dd1dec9500a948
+Section: graphics
+Priority: optional
+Description: Animated screensavers for GNOME
+ Nine animated scenes with GNOME idle monitoring and lock integration.
+
 Package: lexiscan
 Version: 0.1.0-1
 Architecture: all
