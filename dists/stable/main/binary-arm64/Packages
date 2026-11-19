@@ -2970,6 +2970,22 @@ Description: Pure-Python parser for Microsoft Visio files (.vsdx/.vsd)
  It surpasses the C++ libvisio in feature coverage and is actively
  maintained. It includes a visio2svg command-line converter.
 
+Package: python3-libvisio-ng
+Version: 0.7.2-1
+Architecture: all
+Maintainer: Daniel Nylander <daniel@danielnylander.se>
+Depends: python3 (>= 3.10), python3-olefile
+Recommends: python3-cairosvg
+Filename: pool/main/p/python3-libvisio-ng/python3-libvisio-ng_0.7.2-1_all.deb
+Size: 50736
+MD5sum: 84c1d6d002b9e563aa5916b662527c67
+SHA1: 0cf898a523ae16bf1a8fc437a8e4b8c997b09a06
+SHA256: 387adf4efc660fde25c14bcc216fc180ba6ac4b13ccf44c75f6f6a6047445f8a
+Section: graphics
+Priority: optional
+Homepage: https://github.com/yeager/libvisio-ng
+Description: Python parser for Microsoft Visio files
+
 Package: python3-svlang
 Source: python-svlang
 Version: 0.2.2-1
@@ -4101,6 +4117,22 @@ Description: Read-only viewer for Microsoft Visio files
  Features include interactive zoom, pan/drag navigation, shape info panel,
  shape tree sidebar, measurement tool, minimap, SVG export, layer
  visibility toggles, clickable hyperlinks, and search.
+
+Package: vsdview
+Version: 0.6.3-1
+Architecture: all
+Maintainer: Daniel Nylander <daniel@danielnylander.se>
+Depends: python3 (>= 3.10), python3-gi, python3-libvisio-ng (>= 0.7.2), gir1.2-gtk-4.0, gir1.2-adw-1, gir1.2-rsvg-2.0
+Recommends: librsvg2-bin
+Filename: pool/main/v/vsdview/vsdview_0.6.3-1_all.deb
+Size: 56584
+MD5sum: 79f30fa22da28067767b9a24be201219
+SHA1: 64fe5d8429ec00a1d22568de449cc5f8b412f7c4
+SHA256: ab9f04275d44fc5d9c8c5f083a77f6bc1b92194d3168edd924e17c197f64b8c0
+Section: graphics
+Priority: optional
+Homepage: https://github.com/yeager/vsdview
+Description: GTK viewer for Microsoft Visio files
 
 Package: waittimer
 Version: 0.1.0-1
