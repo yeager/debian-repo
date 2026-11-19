@@ -678,5 +678,13 @@
     "size": 25390,
     "url": "https://github.com/yeager/gnome-cloud-sync/releases/download/v0.4.2/ubuntu-cloud-sync_0.4.2_all.deb",
     "sha256": "a54cc04de7bb53cd181462809bb000b184a42248122c15fed05c79f7efb1d63a"
+  },
+  {
+    "repo": "yeager/pcap-viewer",
+    "tag": "v0.2.8",
+    "name": "packetlens_0.2.8-1_all.deb",
+    "size": 49966,
+    "url": "https://github.com/yeager/pcap-viewer/releases/download/v0.2.8/packetlens_0.2.8-1_all.deb",
+    "sha256": "8df74541d1dfd4e0dcf965871287797c795b25f9204d91e518f0937d86871b33"
   }
 ]
