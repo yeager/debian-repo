@@ -662,5 +662,21 @@
     "size": 1306654,
     "url": "https://github.com/yeager/hunspell-sv/releases/download/v2026.11.16/hunspell-sv_2026.11.16-1_all.deb",
     "sha256": "980e09b08760d25605dccee199b1c87ed350bb4fee37b78fd9a96f7f7850af5e"
+  },
+  {
+    "repo": "yeager/iphone-import",
+    "tag": "v0.1.0",
+    "name": "iphone-import_0.1.0_all.deb",
+    "size": 18288,
+    "url": "https://github.com/yeager/iphone-import/releases/download/v0.1.0/iphone-import_0.1.0_all.deb",
+    "sha256": "0861970a90e0285cb4e76952825828fc41c247e8eabd741fd891ba1a435d1e7f"
+  },
+  {
+    "repo": "yeager/gnome-cloud-sync",
+    "tag": "v0.4.2",
+    "name": "ubuntu-cloud-sync_0.4.2_all.deb",
+    "size": 25390,
+    "url": "https://github.com/yeager/gnome-cloud-sync/releases/download/v0.4.2/ubuntu-cloud-sync_0.4.2_all.deb",
+    "sha256": "a54cc04de7bb53cd181462809bb000b184a42248122c15fed05c79f7efb1d63a"
   }
 ]
