@@ -726,5 +726,29 @@
     "size": 15932,
     "url": "https://github.com/yeager/po-translate/releases/download/v1.6.3/po-translate_1.6.3-1_all.deb",
     "sha256": "1faf5926a868a2d5bf9da0a30d2e42a0f7078b87a5d644888cfbe52e47a7a4c3"
+  },
+  {
+    "repo": "yeager/hardware",
+    "tag": "v0.2.2",
+    "name": "hardware_0.2.2-1_all.deb",
+    "size": 292406,
+    "url": "https://github.com/yeager/hardware/releases/download/v0.2.2/hardware_0.2.2-1_all.deb",
+    "sha256": "2f5fd2464abaf62d3f81bbbce7c8d719fdb1629da7b92105c19ef5638253bca5"
+  },
+  {
+    "repo": "yeager/log-viewer",
+    "tag": "v0.1.5",
+    "name": "log-viewer_0.1.5-1_all.deb",
+    "size": 8754,
+    "url": "https://github.com/yeager/log-viewer/releases/download/v0.1.5/log-viewer_0.1.5-1_all.deb",
+    "sha256": "b7d531ea8746e245ad8921e1bbd7a93257ced920029f271035bf5b7664a9ca06"
+  },
+  {
+    "repo": "yeager/pcap-viewer",
+    "tag": "v0.2.9",
+    "name": "packetlens_0.2.9-1_all.deb",
+    "size": 50112,
+    "url": "https://github.com/yeager/pcap-viewer/releases/download/v0.2.9/packetlens_0.2.9-1_all.deb",
+    "sha256": "c302f81d4174c3bbb048b118be46d4a76bba8b4a4ac28e33c493e3b6617f52ff"
   }
 ]
