@@ -2905,6 +2905,23 @@ Description: Translate PO files using multiple translation services
  po-translate translates gettext PO files using various services
  including DeepL, Google, OpenAI, Anthropic, and more.
 
+Package: po-translate
+Version: 1.6.3-1
+Architecture: all
+Maintainer: Daniel Nylander <daniel@danielnylander.se>
+Depends: python3 (>= 3.9)
+Filename: pool/main/p/po-translate/po-translate_1.6.3-1_all.deb
+Size: 15932
+MD5sum: 1c738bd4ea6249fe0f80d3dbcb10b867
+SHA1: ab89c23fba6c5392211f7f1a6756e30ee7562581
+SHA256: 1faf5926a868a2d5bf9da0a30d2e42a0f7078b87a5d644888cfbe52e47a7a4c3
+Section: devel
+Priority: optional
+Homepage: https://github.com/yeager/po-translate
+Description: Translate PO files using multiple translation services
+ po-translate translates gettext PO files using various services
+ including DeepL, Google, OpenAI, Anthropic, and more.
+
 Package: process-explorer
 Version: 0.1.4
 Architecture: all
