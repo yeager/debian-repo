@@ -718,5 +718,13 @@
     "size": 9418,
     "url": "https://github.com/yeager/zigbee-manager/releases/download/v0.1.4/zigbee-manager_0.1.4-1_all.deb",
     "sha256": "d167e0ec5d3875f9aaa24a1baa85789e6aa4cd205de5a2f65d78c6e563b86fb7"
+  },
+  {
+    "repo": "yeager/po-translate",
+    "tag": "v1.6.3",
+    "name": "po-translate_1.6.3-1_all.deb",
+    "size": 15932,
+    "url": "https://github.com/yeager/po-translate/releases/download/v1.6.3/po-translate_1.6.3-1_all.deb",
+    "sha256": "1faf5926a868a2d5bf9da0a30d2e42a0f7078b87a5d644888cfbe52e47a7a4c3"
   }
 ]
