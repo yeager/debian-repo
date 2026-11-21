@@ -8,16 +8,16 @@ Codename: stable
 Architectures: amd64 arm64
 Components: main
 Description: Daniel Nylander's localization and development packages
-Date: Sat, 21 Nov 2026 17:14:36 +0000
+Date: Sat, 21 Nov 2026 17:58:51 +0000
 MD5Sum:
- e7e7bcc72d45c40fc0feae011be4af80 173498 main/binary-amd64/Packages
- 6d9c7ee0c686ba6544fe351361499b19 41739 main/binary-amd64/Packages.gz
- 843b8a523ae1ad8aed7a121ac040516f 35436 main/binary-amd64/Packages.xz
+ bdfacd494459c3d27439265ff54a1f83 175825 main/binary-amd64/Packages
+ 553c268b69f121c672681cc62fb95793 42381 main/binary-amd64/Packages.gz
+ 458b1cb4a42ef635ad1b262d8f4a6a82 35972 main/binary-amd64/Packages.xz
  b6856a6bb361d9b5e369530ec5af8502 43434 main/binary-amd64/l10n-lint_1.19.0-1_all.deb
  12f9e70f2d6dfd72623ece08babde330 51848 main/binary-amd64/libvisio-ng_0.6.0-1_all.deb
- 074e386f4333469f832ff857803bf0be 168069 main/binary-arm64/Packages
- 68a4d45cd5d76275c2cbe5b3a263352b 39749 main/binary-arm64/Packages.gz
- c0542791d22ddeffddc30aea310b07b7 33788 main/binary-arm64/Packages.xz
+ 2aecd26b2334549a02c458a17afbb965 170396 main/binary-arm64/Packages
+ d0c8a3b4278269dd5d6c8508376e8f9b 40456 main/binary-arm64/Packages.gz
+ 54a46b98021e28f8c19fa34e0296b9ee 34316 main/binary-arm64/Packages.xz
  12f9e70f2d6dfd72623ece08babde330 51848 main/binary-arm64/libvisio-ng_0.6.0-1_all.deb
  eb9cb2f30d865f3ecaa5a46e9ee82e76 52468 main/binary-arm64/vsdview_0.5.0_all.deb
  67f3717e1068497253a1984bb60e7fe6 78129 main/binary-armhf/Packages
@@ -27,14 +27,14 @@ MD5Sum:
  5edb2922bf2043b6de40ab17ecad81b0 19188 main/binary-i386/Packages.gz
  81534340f14f729bf083b470f758954e 17092 main/binary-i386/Packages.xz
 SHA1:
- 9d7c0b670147d4c742e81b5e732f94229224a080 173498 main/binary-amd64/Packages
- fcf95adb59601d0c8267d0b959d5acc94454d478 41739 main/binary-amd64/Packages.gz
- 9023ec796dfe5c9c4dfb198af75f883f77b2e688 35436 main/binary-amd64/Packages.xz
+ 00acb4a846b730ce7b615b34e4661ff3b4b650d8 175825 main/binary-amd64/Packages
+ 1ee3cd1831ce68c81ce2d2921f2caf129578fc95 42381 main/binary-amd64/Packages.gz
+ f62b9638e29ad840d6eda8f566f516cb30974a13 35972 main/binary-amd64/Packages.xz
  398cf2ab95d0d663e28fa4387a0e90d67fa09c9d 43434 main/binary-amd64/l10n-lint_1.19.0-1_all.deb
  3fd61803430d7b45c75490585917102d36a6aff5 51848 main/binary-amd64/libvisio-ng_0.6.0-1_all.deb
- e405de99358a45149ee543879d60df4ebdafb7bb 168069 main/binary-arm64/Packages
- 85baa14883564b0cc8e857abece618531a19ccce 39749 main/binary-arm64/Packages.gz
- 8fd1e39183d2224148b4f5395c14727e446bf631 33788 main/binary-arm64/Packages.xz
+ 38bd2790d6121d7cd5afa007be2a7a7402b9a568 170396 main/binary-arm64/Packages
+ 1b2b769e59fd018942d9167cb68ee309bd9bba39 40456 main/binary-arm64/Packages.gz
+ e60e08ba7bb21a009e17697ff81fa0f5d39906c0 34316 main/binary-arm64/Packages.xz
  3fd61803430d7b45c75490585917102d36a6aff5 51848 main/binary-arm64/libvisio-ng_0.6.0-1_all.deb
  e3d35900669a36627b16cfaf703b43c85ee4e964 52468 main/binary-arm64/vsdview_0.5.0_all.deb
  5ccddada5f87453a8c6794701edda1333862d28b 78129 main/binary-armhf/Packages
@@ -44,14 +44,14 @@ SHA1:
  410b97217f96f64386eec832106339ec654ac2e0 19188 main/binary-i386/Packages.gz
  ee9bec651be6a7b297070d77d78555fb8de6a573 17092 main/binary-i386/Packages.xz
 SHA256:
- e7766febb7f0509a53b1c68b1fcfcf26b858cca6afb8cf90f1ce7572a7bee58d 173498 main/binary-amd64/Packages
- ff23e81c43076f9149d3e72764ed195409169ef80273728e91f16467fb9fc6fc 41739 main/binary-amd64/Packages.gz
- 9d1fafb354d28e29e54f7346aaa4e96b6ce1ac8c133b8ae4b0fa77cc45fee651 35436 main/binary-amd64/Packages.xz
+ d3102bbed6161d255a515e695953a58a51b1c62156fa793719c3416bf8aab2c2 175825 main/binary-amd64/Packages
+ abce0dbdcb2b3aa586e89ca320b28feaf99af5e9df8e2b77ce4a0ed879eb226c 42381 main/binary-amd64/Packages.gz
+ b500159fdbf54f8da271997d553c916c51aa1c9277ad92d68f46de29c900fce1 35972 main/binary-amd64/Packages.xz
  f1cdee32ac14a6051278408bf980122c686a750f5734c04c5f64c1cc080b2d2f 43434 main/binary-amd64/l10n-lint_1.19.0-1_all.deb
  85e5e470c6bb960e4cb2b2097fde5952f1c8834f82a97e568919ee990570ef75 51848 main/binary-amd64/libvisio-ng_0.6.0-1_all.deb
- 4448688413853c497051d177c08bb87bd9c73cb3cd5f2cfc6910075fbf110379 168069 main/binary-arm64/Packages
- f438b3a360697f642fca2c4cd6c15bb1b132a33395677751ddc4df00c72a3d56 39749 main/binary-arm64/Packages.gz
- b977b216c6cc0bfd12083f131e8ab307a91343baa309a054fd7cf72ae6983fec 33788 main/binary-arm64/Packages.xz
+ 9be9875d169da323a3cac22ac379a64da5aa18d9069433b937bb3bce88c2dbc8 170396 main/binary-arm64/Packages
+ 976dc9309afeeb270ba8d2872259d87f2aa0ffea6ecc818c35db0c926a771d64 40456 main/binary-arm64/Packages.gz
+ 5ab77f24c5b96f58b108c26bfa57b9ec330e8a8d004cfd239f1b02bac4017644 34316 main/binary-arm64/Packages.xz
  85e5e470c6bb960e4cb2b2097fde5952f1c8834f82a97e568919ee990570ef75 51848 main/binary-arm64/libvisio-ng_0.6.0-1_all.deb
  95b655ff8368e05d124c0e3cc6a411b19576e53867b8ea6776f4c928af930b12 52468 main/binary-arm64/vsdview_0.5.0_all.deb
  2ef0d50e6499e47d98d5e2fd566032d096cc67612d1d4c7e1e3affad3d009fbf 78129 main/binary-armhf/Packages
@@ -62,17 +62,17 @@ SHA256:
  42b412adf12a3ff259b30424b1d7523005431c3aeec19035b0978faf5237fa8d 17092 main/binary-i386/Packages.xz
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAEBCgAdFiEEx5gladHcxUaKBy2U17Re0nueu2MFAmsB0XwACgkQ17Re0nue
-u2OYRQ//R8eZ/COXuU7JuodgB2Uz3sgyELEOWZUDNkG3ltpp7fQDWW6D69sqDLsx
-bR3gisSmK7fwsS8TizRrkF13q9gJvZN7xAq1SULBtKKMS73gh9EScbYPbbuzF4Sd
-Itz8z1HvVc0OzRiz+MlWZRKFjdl/4jS5jJAl5xsB1HQqa4K+1v/Z3Lc7HB7/M8uC
-2E6GwenBqcFRUP2POBBBN/e9LNjqzHf+w4/v1q4isKsYyttLckWI0RI1nimEvq+s
-PwZlbT10JWT0ZjQVad4CpNhDnsorzsdLmpMe/6NGNZqg7OodPjxAjurjdrt5Dyj/
-szpl2Cgv91vXKc8hy/pqliNOjjiZ2vzG8PuICRQPQH8hQyunlYtSmuVZMcFnV9ay
-3lkcdsLMHlnWaDIN1knueP4ngRJ90En2BR/HFb/3Sm/HuVVgCXHyc6QwSbUWpOXH
-0ZqVP2ATSiJ9wy6xLkw0DDN6tqHyzJ+pd2+GRLQ+6OL6KLsTdc7IUsJER8FrB9F/
-6Ouz+9xCYtnzZHypqm0nNpHSWit29nQinPewovjEJMjoy7KZmirL/DTfyWKPR+Rg
-dyRYacaAY2GIF1jckc4z6o07FJvGtA/WFAFdLwzuko9okletQOrI1WnQZ71MYoBH
-Xtioeg69HXwJiy8uq6hK9x6myDkU7AIeVc2zOu3SgRTPxOafbgQ=
-=HtMH
+iQIzBAEBCgAdFiEEx5gladHcxUaKBy2U17Re0nueu2MFAmsB29sACgkQ17Re0nue
+u2P8lxAAuuvl8dHxHK9xQrMrlYnrEX7aI0v65b7lWwg681FTGB1vp0ThzkbhZ+w6
+0Vkc3y0oskC4W0eIvMejtE/pjhs5pm+voSWUMVsk7cYpQCKpjA0Sh9tVZDZZK/PB
+e/i9FswvjjKHVO76r63VZbBT40JVoWvNpgAyT3gXKgpzzceJCnxkbpu4DfVv4R5S
+KYKHakBSWrE2YbDTXgB3TDnR6QEWRfMSDr0FsWHr2skjrPl/IR5W1Po9ZCjsgVv8
+xTtgIlOeepxMkG+q8zyrHrYoIRNSoeBWpcOx9MA2SJxXm3spV3I4gsJtGqpeyriO
+yfvYI9QvKHGxB8aiGNz/NBKHzjPpG3jpmnfra+8O8OQbS1ZKmzQF3y9ZbM6AArIL
+31pXs29CU2QYlWFQUwmnSP9+K7Cvt5Obt+n082jIdFTSnuLU/XAwi2fH9b06IQhr
+GUBEGT+pd+tzmOKLZenq/uTMf+45mYmqNAc2VuU9VNPylbkpXwc3bcWDnzaH7Us8
+sn8WEEZVjW0+bZSaIHJEwY8pGF6YJF0id2DA0Z0QZYsJv/BzkpHuH8T2XF7+IbLD
+r/ds1+rRXB+2i1TaD2aRbu2iHSt8h122fYibCzND8cpD2MQFroW0rC0jcX/2Hp1o
+pK0iG0U+4tcDtFOzz4oqRev0xTLj4N5FbSsXe/3DkGGgoss0FUM=
+=Wi7b
 -----END PGP SIGNATURE-----
