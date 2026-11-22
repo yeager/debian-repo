@@ -3872,6 +3872,21 @@ Description: GTK4/Adwaita system information and benchmark tool
  sudo apt install sysinfo-gtk
  ```
 
+Package: sysinfo-gtk
+Version: 0.1.3
+Architecture: all
+Maintainer: Daniel Nylander <daniel@danielnylander.se>
+Depends: python3 (>= 3.10), python3-gi, gir1.2-gtk-4.0, gir1.2-adw-1
+Filename: pool/main/s/sysinfo-gtk/sysinfo-gtk_0.1.3_all.deb
+Size: 12954
+MD5sum: 33fa1cd6cb5688247d026f66a14de515
+SHA1: 7d526ea418837d34837f176052e828c2972949d4
+SHA256: db59453a22ed055a7cc1ad2206a7b9239462c3dfa0930218e2ef46471ab941e7
+Section: admin
+Priority: optional
+Description: GTK4/Adwaita system information and benchmark tool
+ View hardware and operating system details, run benchmarks, and export reports.
+
 Package: talrytmen
 Version: 0.1.0-1
 Architecture: all
