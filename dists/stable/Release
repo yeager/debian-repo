@@ -5,16 +5,16 @@ Codename: stable
 Architectures: amd64 arm64
 Components: main
 Description: Daniel Nylander's localization and development packages
-Date: Sun, 22 Nov 2026 14:51:51 +0000
+Date: Sun, 22 Nov 2026 20:32:55 +0000
 MD5Sum:
- dae8bb40bc5a6352f2654f442dd90432 177072 main/binary-amd64/Packages
- e64d1be56e33c5a3628b452f1e348497 42739 main/binary-amd64/Packages.gz
- c6992e7473a7403391abdbffb7918e8d 36276 main/binary-amd64/Packages.xz
+ 3b2ed634d6b8f8ebccac82d0454244fb 177728 main/binary-amd64/Packages
+ 4f42eb8f8a3aa1a6189224753d648166 42853 main/binary-amd64/Packages.gz
+ 4cacd68eb8a07f46d164b4e23c3bd1a7 36396 main/binary-amd64/Packages.xz
  b6856a6bb361d9b5e369530ec5af8502 43434 main/binary-amd64/l10n-lint_1.19.0-1_all.deb
  12f9e70f2d6dfd72623ece08babde330 51848 main/binary-amd64/libvisio-ng_0.6.0-1_all.deb
- 188dc8f3925dcf30211f7c0cd388b0d4 171643 main/binary-arm64/Packages
- 50ad5bd7c0cb1e02449dde6a794dc514 40851 main/binary-arm64/Packages.gz
- f26609c264a573d66f8e219fad8c2c83 34620 main/binary-arm64/Packages.xz
+ f39f6b31d97f5c56b931164b6013e127 172299 main/binary-arm64/Packages
+ 9043b3736accc31d8481181a0d347f8b 40967 main/binary-arm64/Packages.gz
+ e1f457d387af2550cffb0dddb224865b 34720 main/binary-arm64/Packages.xz
  12f9e70f2d6dfd72623ece08babde330 51848 main/binary-arm64/libvisio-ng_0.6.0-1_all.deb
  eb9cb2f30d865f3ecaa5a46e9ee82e76 52468 main/binary-arm64/vsdview_0.5.0_all.deb
  67f3717e1068497253a1984bb60e7fe6 78129 main/binary-armhf/Packages
@@ -24,14 +24,14 @@ MD5Sum:
  5edb2922bf2043b6de40ab17ecad81b0 19188 main/binary-i386/Packages.gz
  81534340f14f729bf083b470f758954e 17092 main/binary-i386/Packages.xz
 SHA1:
- afcf1c5bcc1b6a53d56ea80ca002fa811d4b93b0 177072 main/binary-amd64/Packages
- 9e700bbe695339a6d4edd47c16d2436e44baa6df 42739 main/binary-amd64/Packages.gz
- a266cb69c270b829e723c4006cc474a13eb079df 36276 main/binary-amd64/Packages.xz
+ 05c420cc5b4dd9716a44263fc4f2e64d28e8ac2c 177728 main/binary-amd64/Packages
+ 14512a36be82da46e0ef79635e3079c41294640b 42853 main/binary-amd64/Packages.gz
+ 9e3b0ab7564e0a2b69e99cf0f3c623277efea081 36396 main/binary-amd64/Packages.xz
  398cf2ab95d0d663e28fa4387a0e90d67fa09c9d 43434 main/binary-amd64/l10n-lint_1.19.0-1_all.deb
  3fd61803430d7b45c75490585917102d36a6aff5 51848 main/binary-amd64/libvisio-ng_0.6.0-1_all.deb
- 4d1f68f793313779823a58845e7d34029d32c95a 171643 main/binary-arm64/Packages
- e4c793bf867825bfc1f402bb22a536e7ed1bbe58 40851 main/binary-arm64/Packages.gz
- f05040988b1523e54c53977928f511f2531a0ad7 34620 main/binary-arm64/Packages.xz
+ 7ad9e95f1c217c5ed30f9c4cde5098f0bb2fe486 172299 main/binary-arm64/Packages
+ 3ab3bb90ac41f42f63c2575c098578ec9af187a6 40967 main/binary-arm64/Packages.gz
+ 969c925a1f3a43d8eb5fdc353ea042e221c0f545 34720 main/binary-arm64/Packages.xz
  3fd61803430d7b45c75490585917102d36a6aff5 51848 main/binary-arm64/libvisio-ng_0.6.0-1_all.deb
  e3d35900669a36627b16cfaf703b43c85ee4e964 52468 main/binary-arm64/vsdview_0.5.0_all.deb
  5ccddada5f87453a8c6794701edda1333862d28b 78129 main/binary-armhf/Packages
@@ -41,14 +41,14 @@ SHA1:
  410b97217f96f64386eec832106339ec654ac2e0 19188 main/binary-i386/Packages.gz
  ee9bec651be6a7b297070d77d78555fb8de6a573 17092 main/binary-i386/Packages.xz
 SHA256:
- f5df7491c6fddcdcfd443cd69ef3e4a73a73dc83b71da94f35b1e775070ad35c 177072 main/binary-amd64/Packages
- 16f2ce595757e4c38717247bf7ee01872a510ea15a432bc4cee36abe01e8355b 42739 main/binary-amd64/Packages.gz
- 409ad978480facf47e6110b43dd0434603a782a32d0a9370d25d2fc95ab0ecb0 36276 main/binary-amd64/Packages.xz
+ f2fbc65630816d2ca898dad303a247179180ad5b90d771c40c15199643a044f5 177728 main/binary-amd64/Packages
+ abf8ea22243c9a8ef34d89f5dccade38030a832f10b10cf57ee2602d6e7829bf 42853 main/binary-amd64/Packages.gz
+ 1d079baafc1726e4df1f2eed84a7551bfeca17dfef0e4f7029a1c0921b7065b1 36396 main/binary-amd64/Packages.xz
  f1cdee32ac14a6051278408bf980122c686a750f5734c04c5f64c1cc080b2d2f 43434 main/binary-amd64/l10n-lint_1.19.0-1_all.deb
  85e5e470c6bb960e4cb2b2097fde5952f1c8834f82a97e568919ee990570ef75 51848 main/binary-amd64/libvisio-ng_0.6.0-1_all.deb
- 42880e75f3eb1d41373f762e4f34bc4e14027b8ecb75dc628f1dff0c87462613 171643 main/binary-arm64/Packages
- b1b57a446cf86988852a0a5419fe5043af58fbe86ec0c265b319ce1af4e05c9b 40851 main/binary-arm64/Packages.gz
- df827c3ce2294a5569b213201d20be598855a0a99e975d43781e1d0de07b6cf1 34620 main/binary-arm64/Packages.xz
+ 1b1fa26af7bf71fc9189bf61c942096ac18e6601ed20cc4e3f91a7043a15d88e 172299 main/binary-arm64/Packages
+ e0856690e747ab81e78ebc7d3e1ce87a423480e4e6fc71add5e6f35cd6e4b0df 40967 main/binary-arm64/Packages.gz
+ be94dfb5aee37bf9caeea324cfd83cb47e5d9b6721f4352bded6aecd8083da38 34720 main/binary-arm64/Packages.xz
  85e5e470c6bb960e4cb2b2097fde5952f1c8834f82a97e568919ee990570ef75 51848 main/binary-arm64/libvisio-ng_0.6.0-1_all.deb
  95b655ff8368e05d124c0e3cc6a411b19576e53867b8ea6776f4c928af930b12 52468 main/binary-arm64/vsdview_0.5.0_all.deb
  2ef0d50e6499e47d98d5e2fd566032d096cc67612d1d4c7e1e3affad3d009fbf 78129 main/binary-armhf/Packages

@@ -1304,6 +1304,22 @@ Description: CPU and memory monitor for GNOME Shell
  Compact panel graphs, process lists, Swedish localization,
  configurable refresh intervals, and resource threshold alerts.
 
+Package: gnome-shell-extension-system-monitor
+Version: 1.0.2-1
+Architecture: all
+Maintainer: Daniel Nylander <po@danielnylander.se>
+Depends: gnome-shell (>= 49)
+Filename: pool/main/g/gnome-shell-extension-system-monitor/gnome-shell-extension-system-monitor_1.0.2-1_all.deb
+Size: 9282
+MD5sum: f7992661f8b9c4aa2441099ec4c464bb
+SHA1: c253040ddaec1289a9e3f5f996bd7af3f91e6c7f
+SHA256: 2b050d7a18395ea4ef8c3a46390ccf246971fccf858b324c56b435ba2643ac41
+Section: gnome
+Priority: optional
+Description: CPU and memory monitor for GNOME Shell
+ Compact panel graphs, process lists, Swedish localization,
+ configurable refresh intervals, and resource threshold alerts.
+
 Package: gnomojo
 Version: 1.0.12
 Architecture: all
