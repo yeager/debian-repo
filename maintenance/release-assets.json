@@ -774,5 +774,13 @@
     "size": 12954,
     "url": "https://github.com/yeager/sysinfo-gtk/releases/download/v0.1.3/sysinfo-gtk_0.1.3_all.deb",
     "sha256": "db59453a22ed055a7cc1ad2206a7b9239462c3dfa0930218e2ef46471ab941e7"
+  },
+  {
+    "repo": "yeager/system-monitor-extension",
+    "tag": "v1.0.2",
+    "name": "gnome-shell-extension-system-monitor_1.0.2-1_all.deb",
+    "size": 9282,
+    "url": "https://github.com/yeager/system-monitor-extension/releases/download/v1.0.2/gnome-shell-extension-system-monitor_1.0.2-1_all.deb",
+    "sha256": "2b050d7a18395ea4ef8c3a46390ccf246971fccf858b324c56b435ba2643ac41"
   }
 ]
