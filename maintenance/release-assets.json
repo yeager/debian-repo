@@ -763,9 +763,9 @@
     "repo": "yeager/system-monitor-extension",
     "tag": "v1.0.1",
     "name": "gnome-shell-extension-system-monitor_1.0.1-1_all.deb",
-    "size": 7202,
+    "size": 7182,
     "url": "https://github.com/yeager/system-monitor-extension/releases/download/v1.0.1/gnome-shell-extension-system-monitor_1.0.1-1_all.deb",
-    "sha256": "7487b6fd5712dad857015383c7bdf89e771686a361cede241841b49b8f3856ff"
+    "sha256": "32b6bbcda9bd70cb8351866b24f51c7a29719b7a9903e3b492eccb1c7fad0a13"
   },
   {
     "repo": "yeager/sysinfo-gtk",
