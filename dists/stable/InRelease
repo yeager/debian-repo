@@ -8,7 +8,7 @@ Codename: stable
 Architectures: amd64 arm64
 Components: main
 Description: Daniel Nylander's localization and development packages
-Date: Sun, 22 Nov 2026 14:49:54 +0000
+Date: Sun, 22 Nov 2026 14:51:51 +0000
 MD5Sum:
  dae8bb40bc5a6352f2654f442dd90432 177072 main/binary-amd64/Packages
  e64d1be56e33c5a3628b452f1e348497 42739 main/binary-amd64/Packages.gz
@@ -62,17 +62,17 @@ SHA256:
  42b412adf12a3ff259b30424b1d7523005431c3aeec19035b0978faf5237fa8d 17092 main/binary-i386/Packages.xz
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAEBCgAdFiEEx5gladHcxUaKBy2U17Re0nueu2MFAmsDARIACgkQ17Re0nue
-u2MlPxAAz+bMN11CtvwQyB9LpM0vw15d19tugmdHlEwGkPUBFaDDrJ4zHV6KdqLb
-coiRHa8kfuY8bPyP6wIaF7KdVNkAcCsmtSC4+OhYDao+U4j+bVIvAgI3bmxg8JuG
-4zxersPKQEXk8jIjUXheahzOIJQUkIA/LFPrhVAzDHWFmBmU/hbTTp1gt6E0gZph
-/MqDKfdF8Urt4zSW59ruOevEl9YpXiaDC/R3RLd06GI+fv0oCvc+482yLfESHmiT
-1vA0BkJd7wz0dgLR16nZqzms2j1xS2gc3sWQNBmL/75O9eDqwaRDGWHWN2E/xZt3
-4GmwQpu7PJ+SUzoT0n8ofTcL3BeIyXCCs+CDMXKL0AyfLKvXP3bJas4mWZK00dSC
-SZCG6wYmb+AydKxv3cTzd1NxOwQUF713TwcP0twSDMVBqqdK5WaqWiGXgbj+HY2Q
-zniEyEjufiAI/poZdOKxvVGU6iAYUMVRa3mxcDPGUsUDNMpghvxZfSwWtQjp5jHl
-xQ/f9eiyWubdXWkJpD+hXyjaUB8ByK9NQ2dq/f9rtHce9nb9KfAStiRn3eq2cwb1
-vzNHg5j2wsmBMjRvP0WjM48vLteOTKzcWrxv3un8JfxGYnpEZvXM78OV633VnLbn
-hr5zIArO1G+Nu61BuusTk9h5bvp3RWw43cUOmi4OpMdzgfepqn0=
-=ijX9
+iQIzBAEBCgAdFiEEx5gladHcxUaKBy2U17Re0nueu2MFAmsDAYcACgkQ17Re0nue
+u2O/0BAAiWre2MPDJG9pjH9lH28Y8up51pDiP8qgtMXfhFwvuRKn/r30GDbHAaFw
+Osgl7FboO+98h6Ownw/RumBFmcJz+rPVS6owNuS/VKFYClMPp5wSWeyokU1TquhD
+ipPiBsse2eIjUC2wmbtMj2fwrT4JS8ICy8xHLfU+WlvCqxT1lkNxpLFLexldOjiz
+jv3zrDErDJMRQ3GHtiWDvSXz6/It94x4LnAnwq4t2D4i4xAOPZiKPHS8w49PSC4e
+eNXug/fbJISO2Nzbfv3ofDIYdnxRnwFQ7RUlacz5GJHfofiCwl8AU5fAdUlgZxVL
+xVv0SEc72sW8lA/rYB5gR4HFx+kOcCRMwm8VLE9EnRPBo6rN0fLbef1takzOyJpQ
+s3np0qfnDretFnnw7QOqvOGOBylba9/Sr4X2L0+deliMa+TNwEn30nW74wqaBVF0
+2ardKVqx7+/gzrq1W/zg2XJEth1MQJ6N8RD66quYmMxf/gFfHGCM7S7XoAKl1ThD
+fekDoBFSxIBNEPQ4DPGpUqQmC/heqd8uhlcEBABKZpLy4lPWON8T41yKfSzZ7oyA
+gr+sSf398FZRnTrmjVMjjFTZ569nPL9CT2S70zCaP8F3+EoYw2BiTz5tjU392yRj
+uBI4hVGrBjjXbFavM6Gu4AXH2din0wjUWVWBViJWZZlSojlQYdY=
+=N0hq
 -----END PGP SIGNATURE-----
