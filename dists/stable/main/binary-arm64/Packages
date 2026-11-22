@@ -1268,6 +1268,22 @@ Description: GTK4/Adwaita translation statistics viewer for GNOME
  sudo apt install gnome-l10n
  ```
 
+Package: gnome-shell-extension-system-monitor
+Version: 1.0.1-1
+Architecture: all
+Maintainer: Daniel Nylander <po@danielnylander.se>
+Depends: gnome-shell (>= 49)
+Filename: pool/main/g/gnome-shell-extension-system-monitor/gnome-shell-extension-system-monitor_1.0.1-1_all.deb
+Size: 7202
+MD5sum: 6a1a36affd32e7a1b862b8e0ba23329a
+SHA1: 65fea9e5f099f943336af8cb96cd749ef55b2caf
+SHA256: 7487b6fd5712dad857015383c7bdf89e771686a361cede241841b49b8f3856ff
+Section: gnome
+Priority: optional
+Description: CPU and memory monitor for GNOME Shell
+ Compact panel graphs, process lists, Swedish localization,
+ configurable refresh intervals, and resource threshold alerts.
+
 Package: gnomojo
 Version: 1.0.12
 Architecture: all
