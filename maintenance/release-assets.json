@@ -758,5 +758,13 @@
     "size": 16077384,
     "url": "https://github.com/yeager/debian-repo/releases/download/gnomojo-v1.0.12/gnomojo_1.0.12_all.deb",
     "sha256": "8f65f6a4b61c82528606ac18e508128efebd4b1a6a837bf93288eee4c9773883"
+  },
+  {
+    "repo": "yeager/system-monitor-extension",
+    "tag": "v1.0.1",
+    "name": "gnome-shell-extension-system-monitor_1.0.1-1_all.deb",
+    "size": 7202,
+    "url": "https://github.com/yeager/system-monitor-extension/releases/download/v1.0.1/gnome-shell-extension-system-monitor_1.0.1-1_all.deb",
+    "sha256": "7487b6fd5712dad857015383c7bdf89e771686a361cede241841b49b8f3856ff"
   }
 ]
