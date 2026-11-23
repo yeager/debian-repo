@@ -774,5 +774,13 @@
     "size": 1125720,
     "url": "https://github.com/yeager/ordverk/releases/download/v0.5/ordverk_0.5-1_all.deb",
     "sha256": "9d68f8be1edc80a54cf667ad1fe54563f59510cb0c43ee8d4e493c9e51a882c8"
+  },
+  {
+    "repo": "yeager/ordverk",
+    "tag": "v0.6",
+    "name": "ordverk_0.6-1_all.deb",
+    "size": 1125952,
+    "url": "https://github.com/yeager/ordverk/releases/download/v0.6/ordverk_0.6-1_all.deb",
+    "sha256": "7019e787219b02ee548c29e686f848ada4474f8463fb86871f8e10a969b9a4af"
   }
 ]
