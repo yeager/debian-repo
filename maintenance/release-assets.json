@@ -782,5 +782,13 @@
     "size": 1125952,
     "url": "https://github.com/yeager/ordverk/releases/download/v0.6/ordverk_0.6-1_all.deb",
     "sha256": "7019e787219b02ee548c29e686f848ada4474f8463fb86871f8e10a969b9a4af"
+  },
+  {
+    "repo": "yeager/system-monitor-extension",
+    "tag": "v1.0.3",
+    "name": "gnome-shell-extension-system-monitor_1.0.3-1_all.deb",
+    "size": 8938,
+    "url": "https://github.com/yeager/system-monitor-extension/releases/download/v1.0.3/gnome-shell-extension-system-monitor_1.0.3-1_all.deb",
+    "sha256": "f9b5df8a862010e0a10ff50c184584c617014da8ee972b3dbe1dfa934bf5ee72"
   }
 ]
