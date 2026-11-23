@@ -2649,6 +2649,26 @@ Description: Swedish translation workbench for Linux
  JSON files in Swedish, with translation memory, terminology, spellchecking,
  optional LLM assistance and translation-platform file transfers.
 
+Package: ordverk
+Version: 0.6-1
+Architecture: all
+Maintainer: Daniel Nylander <daniel@danielnylander.se>
+Installed-Size: 1405
+Depends: python3-l10n-lint (>= 1.21.4), python3-lxml, python3-polib, python3-svlang (>= 0.2.2), python3:any, python3 (>= 3.11), python3-gi, gir1.2-gtk-4.0 (>= 4.10), gir1.2-adw-1 (>= 1.4), gettext, locales | locales-all
+Recommends: hunspell, aspell, python3-keyring, xdg-utils, language-pack-gnome-sv
+Filename: pool/main/o/ordverk/ordverk_0.6-1_all.deb
+Size: 1125952
+MD5sum: ad5c49fc281ebf0a17c8807524e7e5b3
+SHA1: ebba6d626c72ba6ae674b70c678ae07a93d52a61
+SHA256: 7019e787219b02ee548c29e686f848ada4474f8463fb86871f8e10a969b9a4af
+Section: text
+Priority: optional
+Homepage: https://github.com/yeager/ordverk
+Description: Swedish translation workbench for Linux
+ Native GTK application for translating and reviewing PO, Qt TS, XLIFF and
+ JSON files in Swedish, with translation memory, terminology, spellchecking,
+ optional LLM assistance and translation-platform file transfers.
+
 Package: ovningstavlan
 Version: 0.1.0-1
 Architecture: all
