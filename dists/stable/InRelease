@@ -8,7 +8,7 @@ Codename: stable
 Architectures: amd64 arm64
 Components: main
 Description: Daniel Nylander's localization and development packages
-Date: Mon, 23 Nov 2026 10:32:49 +0000
+Date: Mon, 23 Nov 2026 10:56:08 +0000
 MD5Sum:
  6679dd8f1bdcb1816b530e0b45eb3cd3 180400 main/binary-amd64/Packages
  bf35f82a7c382338e78791974909f9d7 43236 main/binary-amd64/Packages.gz
@@ -62,17 +62,17 @@ SHA256:
  42b412adf12a3ff259b30424b1d7523005431c3aeec19035b0978faf5237fa8d 17092 main/binary-i386/Packages.xz
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAEBCgAdFiEEx5gladHcxUaKBy2U17Re0nueu2MFAmsEFlEACgkQ17Re0nue
-u2OV7Q//ckhYI1XK2FtOLUpFAwUt9ZIJTIdXCQYadaOdi3mT5A3aijwB8LHSdMpm
-Bc5I+MHvnbVV4VMJLsWR2h22T8ljEhgmca9w1kXXWV5zuqfmfY+4F2LIttZOPaOm
-7VjZChqTmKVqlTr2/A8GrfIyQJHI446bh1YmA6G3UxMMu0v/n8I+aawGnLkM+siU
-7lI7GSJOzKB/CdGeKQRKGpOlTaMjrh88IGhNqax7CP/kAxDOF+3CYby5/w01tsdO
-U6xKWovxSZPJOU7I1DB3Bx2q6z6348afgad4h84riDwRhrnGaL0BUVwfbx/18zs3
-8qWUGZZiGzStqMv8XlIk2I2EhXyPPOeG8cgheYmDCcPfp8kgur8cz8a0hwXxGHW8
-BPN+D8Q8o4eAnzybP2rXoupzaSBPheqPdTPMLkYUz/TUc18gRQG0gdB82kcQjkfK
-/NXT7cU2foVDRje0pYStp/wOzj8yYMHEUEg28agJ5rHXhKcc8hNY69yspBfLAtPT
-MRZjsK6jh7rM+e0pCHGOIT6/vZcOwova/MVjxEHUV/lOF2yzznw+mcry9zqXgxBN
-5/gAwi/YzdxwvZgEf+H3RSgyoHPjVPZl8pZ8Zjk2aLavyv3zU0DDDButQ7ENZZTd
-WwxovcssU3iZ+akherGIxt0DS/e6NxhiuzpSbIIRKsnkG+sb0FQ=
-=fMmM
+iQIzBAEBCgAdFiEEx5gladHcxUaKBy2U17Re0nueu2MFAmsEG8kACgkQ17Re0nue
+u2NNNw//RaFevMcg0Cw5+0MnZZ7IvCKUiIlXpbiq+HijVlEmV8I0Kh/lZtZL9oyO
+/3xBenlOKKMf1goLh4ddJl5vpXqWwVmeEOMw6jbqXK/+cWE4GZnlbSdUEMwCK66T
+zize/2Lwl+0mODJKT68sk49CQ0bmUmPYFJeo6I0bvNgJ+Pakt2vXM5p8GT9SubUR
+cqqSure4yC7H01NMSlUoLzb2a40M02djnM5KF1AHmGCxeJLrFVYhLFW3lOdKxrSI
+j2Gw6AycxbobiHbzfPPx5eX6xGKWLTx6dGf9y3OtccnBjsWdVAKx0rQO9II9By1Y
+GdMsfqpqzDQOPXurOh1Ki10vbEc8itikflrrC/649dz4hQdYjOdASH4URuEjhJEG
+J8BRTgDv8vRjTO28cbjf6hr8dyi2/3F0hbv9MA748ioS9Ot8f977IZb6j2AkQ0nA
+pyuqxkKPXdjYIP/RBuLbTfnHTwbqKvIqGJXStNIE1HQplVzcc1GLqo1ixOiRgL5i
+OmXTLOODaXaGD+HfR4+WkrhhtnIHUHlCbeX09L0AXYjzwHbR0bjMJk6x8IFKcLzp
+yXyPlanr+y3E4eMaZyKDZwx24azXu5EBtnqdhDVrPfKSmhn6fsMH1cL4k9BSbb5a
++SauDFHv8vJzfr5FxlO2qjOKaDpmh1ZaU3Nx9tzb/FsvGTXSXJQ=
+=z6f0
 -----END PGP SIGNATURE-----
