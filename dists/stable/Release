@@ -5,7 +5,7 @@ Codename: stable
 Architectures: amd64 arm64
 Components: main
 Description: Daniel Nylander's localization and development packages
-Date: Sun, 22 Nov 2026 20:47:50 +0000
+Date: Mon, 23 Nov 2026 01:52:10 +0000
 MD5Sum:
  3b2ed634d6b8f8ebccac82d0454244fb 177728 main/binary-amd64/Packages
  4f42eb8f8a3aa1a6189224753d648166 42853 main/binary-amd64/Packages.gz
