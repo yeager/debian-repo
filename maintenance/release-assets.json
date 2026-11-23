@@ -400,22 +400,6 @@
     "sha256": "af16c5d485a3484f31e0f98fc349a134019d6322e2a2ed0581d2bd35598e71db"
   },
   {
-    "repo": "yeager/ordverk",
-    "tag": "v0.4",
-    "name": "python3-l10n-lint_1.21.4-1_all.deb",
-    "size": 73960,
-    "url": "https://github.com/yeager/ordverk/releases/download/v0.4/python3-l10n-lint_1.21.4-1_all.deb",
-    "sha256": "7a5e7728ea10c573ff39aa1bd6feb091f29713cf54ea57101a452facffd7210d"
-  },
-  {
-    "repo": "yeager/ordverk",
-    "tag": "v0.4",
-    "name": "python3-svlang_0.2.2-1_all.deb",
-    "size": 815936,
-    "url": "https://github.com/yeager/ordverk/releases/download/v0.4/python3-svlang_0.2.2-1_all.deb",
-    "sha256": "37956de29931c8528cd1f3c80f7ab15986f13394930c228976196af23fe2cb35"
-  },
-  {
     "repo": "yeager/pcap-viewer",
     "tag": "v0.2.7",
     "name": "packetlens_0.2.7-1_all.deb",
@@ -782,5 +766,29 @@
     "size": 9282,
     "url": "https://github.com/yeager/system-monitor-extension/releases/download/v1.0.2/gnome-shell-extension-system-monitor_1.0.2-1_all.deb",
     "sha256": "2b050d7a18395ea4ef8c3a46390ccf246971fccf858b324c56b435ba2643ac41"
+  },
+  {
+    "repo": "yeager/ordverk",
+    "tag": "v0.5",
+    "name": "python3-l10n-lint_1.21.4-1_all.deb",
+    "size": 73960,
+    "url": "https://github.com/yeager/ordverk/releases/download/v0.5/python3-l10n-lint_1.21.4-1_all.deb",
+    "sha256": "7a5e7728ea10c573ff39aa1bd6feb091f29713cf54ea57101a452facffd7210d"
+  },
+  {
+    "repo": "yeager/ordverk",
+    "tag": "v0.5",
+    "name": "python3-svlang_0.2.2-1_all.deb",
+    "size": 815936,
+    "url": "https://github.com/yeager/ordverk/releases/download/v0.5/python3-svlang_0.2.2-1_all.deb",
+    "sha256": "37956de29931c8528cd1f3c80f7ab15986f13394930c228976196af23fe2cb35"
+  },
+  {
+    "repo": "yeager/ordverk",
+    "tag": "v0.5",
+    "name": "ordverk_0.5-1_all.deb",
+    "size": 1125720,
+    "url": "https://github.com/yeager/ordverk/releases/download/v0.5/ordverk_0.5-1_all.deb",
+    "sha256": "9d68f8be1edc80a54cf667ad1fe54563f59510cb0c43ee8d4e493c9e51a882c8"
   }
 ]
