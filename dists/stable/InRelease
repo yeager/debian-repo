@@ -8,7 +8,7 @@ Codename: stable
 Architectures: amd64 arm64
 Components: main
 Description: Daniel Nylander's localization and development packages
-Date: Tue, 24 Nov 2026 07:00:57 +0000
+Date: Tue, 24 Nov 2026 18:58:53 +0000
 MD5Sum:
  d8d6f8b9f3a92482d4765422551a2cdc 181066 main/binary-amd64/Packages
  f506889408a8bffc63471f12ce12d050 43353 main/binary-amd64/Packages.gz
@@ -62,17 +62,17 @@ SHA256:
  42b412adf12a3ff259b30424b1d7523005431c3aeec19035b0978faf5237fa8d 17092 main/binary-i386/Packages.xz
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAEBCgAdFiEEx5gladHcxUaKBy2U17Re0nueu2MFAmsFNioACgkQ17Re0nue
-u2OP1BAAuUL0Iidtd4OYh79giJNfUjzm8QVuSGleosOPSm+6kiaTF4w29K4zUq+m
-yz2lO6+fPtT0QvqxdwfnP53F4u4T0IMhfzT/rHe6qMeBmheBLA0FckBDMshifHVb
-sZ0gGw6lkXSpd/DZ/UbEVh8PZfIVrAq3K95J57ab6K/cqYK2RUE8Cv+yhfCkYS8V
-PCF1wBcmZeeCuHFLplyCRT73qvfyuM/sIsKuvWmiMjGDGNMAdCMIsyUF+0J3ThKq
-zGJvC0RKdIJXc6wFFkf7peIUqkizLiY5veCV4OXWEq7FQETLKIIBGkrbyr0g6dtQ
-4ZrynuqNszLmbxSjYWLQ+lG3qTONjktQxJ8Kf7Rtph4slSujQ5v0iyJ6qbyVCTP/
-eJ4Znw24UjDCib5B0C2tbTRjjeizvvdut66jrSWHQXPCIUa882lfj/FiDnrf2hdp
-l8WpCZnzM+vBVvOdrCrdAFOsa56SJ2MwuePRd293dLPz5OxZWlfYcHBdMdmwOJHK
-PHsBkvOY+rLQ0+b3ovyezINFS9hL7qqY2Wo7lDuXONpp1FEzBI++5SO39ZAdo7qU
-g9oB+RrjenAd9iMvAnYN1BPMAwQloWug9XRRuI7Swn6QHEngwpnk0072IZchASOu
-dilJqnqZ8PciNtMCc47L/26wgjgK2HC981ju9NF75bp2D+TaEXc=
-=WrKb
+iQIzBAEBCgAdFiEEx5gladHcxUaKBy2U17Re0nueu2MFAmsF3m0ACgkQ17Re0nue
+u2PFIxAAjj2tUfmYZugj3nReh4cvtcztgmMBLA/edTgstMrKpz97KPFWYiXN0/tK
+UNXmgzfiPElAv0bjknsrQCRVjQoEtuNxHDFsLU2GIIRDqeoEFI2FzZm54IzhXi9c
+bAPtSQrpkRIpBTSXlGyrXto9S+iEcVPp92Xr2SwSSpiAt0PK7HPqYHyg5/xJ++mJ
+6+pIOBPpo8mbIoCUn/UN+NvRWMT13olo5pgYz1oeynWp6hlMRWB8AlS1untz6R38
+NNI2fEDTfQb5pajlDbnvDeD1nhHMWjBiZrbIt+RJ7qCWdnVLro2oM7OPiBxS/UoK
+K0A4QIerwnlX2SaZhqJxDRbJvy/4J9Ly3mrBII/SRbxkEuhenCaBA/cMZRzmUyNy
+9dj5HBdPXOhd/4kugI7l+4nnyjBa448gmpwxMtD0Xdu+n3CFB+rUepQL4pgbf2GE
+VJ5NK7UbLFxwHnKcSwuNIZFgIqf9rqrTg7tIHmaSN1RirKjWLYJ+YeaaX07c2m99
+5llViCDWnCw67jiPobPlDGjM9uXPMTBJls26FFkwxnGR8zyu+ENyvotTV4Y8rPDV
+xkd05o37kRbJF6+zoyvN52D9pMqwA6Nkh6RIEbxKyZGGUu8OxMUy6dwWOdYVhrU6
+HtR5z+9TDRst+YdSAXBFE/eEQbqhR1uWvaW6q0GFpRWLXSpWM54=
+=CVeT
 -----END PGP SIGNATURE-----
