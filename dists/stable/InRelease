@@ -8,7 +8,7 @@ Codename: stable
 Architectures: amd64 arm64
 Components: main
 Description: Daniel Nylander's localization and development packages
-Date: Mon, 23 Nov 2026 22:50:30 +0000
+Date: Tue, 24 Nov 2026 07:00:57 +0000
 MD5Sum:
  d8d6f8b9f3a92482d4765422551a2cdc 181066 main/binary-amd64/Packages
  f506889408a8bffc63471f12ce12d050 43353 main/binary-amd64/Packages.gz
@@ -62,17 +62,17 @@ SHA256:
  42b412adf12a3ff259b30424b1d7523005431c3aeec19035b0978faf5237fa8d 17092 main/binary-i386/Packages.xz
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAEBCgAdFiEEx5gladHcxUaKBy2U17Re0nueu2MFAmsEwzcACgkQ17Re0nue
-u2PG9xAAizfBG9AjHUZr+ytzk+OuKsNceaGf/KXSdor/gQ32XnZYFVg1h3U8pWXm
-lofawqI9UYS7dLYssIgd5Fv8qsB5Q8HO30FAf5zgiURE4usceNWisgxQpcob7mP2
-9hki4cuou2ThJI2VBJC2KUE4lBmLD145oesyECBNEcai4OmOuf5mZfy3UoYVx2Qg
-MKS/wrsMGfexP+YZzOrB7jgd2wZZXJx/LzgdEHzRE9G9VZyLDVf7uIadrRRmOrHQ
-8bRtukyS5+JrVA2M1hvpsvEhY2tveYwNanLlbFVyh9hLzut2UdQ/VrFz6p+w+wxu
-ZvwagqMm0hL4bkEb/CJAMf6EN0UGVzPBcHyRUToe2Ht9LjM+FkuzbZRSglul7HkJ
-T3a0krq/cA21T0NEv29MDvYK7Z5qxNvy6aUaJMzM9w+OPl0PdKOG7MRDTTVR523I
-1M9TJiCOyV0J3G3ygl4040oj96mJzhb6WKU3R3DUr7uYjqDUorWd2SWNhgr860BQ
-VieCFZ+XFDQePXZ+nWOL9pw35bkpQutyCZlcg1TMXkHu5q98uHGzXoWcGyOJSZMG
-RIeZquo6PL5GA0sRJPrWWOJQOlp3crv6d+sH4GU33ohrQ8nG9pGGHT8vu1T/wAqG
-cd0czO/PCa0K5BOeK9UfNxPB3Upnw0kQCegZqknUX1ofRHpLgd0=
-=WnYU
+iQIzBAEBCgAdFiEEx5gladHcxUaKBy2U17Re0nueu2MFAmsFNioACgkQ17Re0nue
+u2OP1BAAuUL0Iidtd4OYh79giJNfUjzm8QVuSGleosOPSm+6kiaTF4w29K4zUq+m
+yz2lO6+fPtT0QvqxdwfnP53F4u4T0IMhfzT/rHe6qMeBmheBLA0FckBDMshifHVb
+sZ0gGw6lkXSpd/DZ/UbEVh8PZfIVrAq3K95J57ab6K/cqYK2RUE8Cv+yhfCkYS8V
+PCF1wBcmZeeCuHFLplyCRT73qvfyuM/sIsKuvWmiMjGDGNMAdCMIsyUF+0J3ThKq
+zGJvC0RKdIJXc6wFFkf7peIUqkizLiY5veCV4OXWEq7FQETLKIIBGkrbyr0g6dtQ
+4ZrynuqNszLmbxSjYWLQ+lG3qTONjktQxJ8Kf7Rtph4slSujQ5v0iyJ6qbyVCTP/
+eJ4Znw24UjDCib5B0C2tbTRjjeizvvdut66jrSWHQXPCIUa882lfj/FiDnrf2hdp
+l8WpCZnzM+vBVvOdrCrdAFOsa56SJ2MwuePRd293dLPz5OxZWlfYcHBdMdmwOJHK
+PHsBkvOY+rLQ0+b3ovyezINFS9hL7qqY2Wo7lDuXONpp1FEzBI++5SO39ZAdo7qU
+g9oB+RrjenAd9iMvAnYN1BPMAwQloWug9XRRuI7Swn6QHEngwpnk0072IZchASOu
+dilJqnqZ8PciNtMCc47L/26wgjgK2HC981ju9NF75bp2D+TaEXc=
+=WrKb
 -----END PGP SIGNATURE-----
