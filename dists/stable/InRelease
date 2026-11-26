@@ -8,7 +8,7 @@ Codename: stable
 Architectures: amd64 arm64
 Components: main
 Description: Daniel Nylander's localization and development packages
-Date: Thu, 26 Nov 2026 05:12:51 +0000
+Date: Thu, 26 Nov 2026 15:29:01 +0000
 MD5Sum:
  d8d6f8b9f3a92482d4765422551a2cdc 181066 main/binary-amd64/Packages
  f506889408a8bffc63471f12ce12d050 43353 main/binary-amd64/Packages.gz
@@ -62,17 +62,17 @@ SHA256:
  42b412adf12a3ff259b30424b1d7523005431c3aeec19035b0978faf5237fa8d 17092 main/binary-i386/Packages.xz
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAEBCgAdFiEEx5gladHcxUaKBy2U17Re0nueu2MFAmsHv9MACgkQ17Re0nue
-u2Mx8Q/+OHMQA1LKkcmPYKPgIJOEuIAwaT45/mf9LuGXWRw6Ymdznhz6dfAUev7A
-0V83tSdAsJ3trsixeUj14DtbNPBkNiKqSI4JkNSKMNUslono+VWTTWrpuDKcflfP
-WmZV1eity0YRTkoz9JPutnYeTj6dGsP2V4yeCkLuC7m3hMkTCfESVf6yw9udD8tk
-m1OgYP1fxhazDdRXxOMLnRat5D9GSBXKHoOlFFI0KNhR0bd5VngsR1NE2ytCxUqo
-rXXOD6VXPgT3hTxvgwXOg7Zn1PIfcYbCrPBwimaU7E60ujLeqLSzlh1IW9rXLCpc
-GSBAlHMuhwXc1Zs+J0Y3TrSnvFC0PgBRk/ScwWwaYzv0as5gu2mCIYUr5y2QWZ74
-4ZgUyvKKL+ewAGR9wqnrJga9IYM5AW4bzci0xzzgccw+6/nlGfEUhOSyfpTQEyRT
-zwsIrxXiHETLY8LV5HdlYf2Yx4PVNO3LkUFaqvdzkl+l8usJ9bzXqxvcy41J0+MK
-mULRf0WyP1SsWc/JV4pUjoJdWDU3EAGsC/9Ul9Ec/f2q9sI75pFWqVOKDSYfcQ9g
-Q1G/8pK+WcvvsnbJy6gfBWO252Uv0C5S+od3RYeVs8LNUj40VnMFK4sNkkjrODZZ
-ToKoZAN1qA3Isep5K9XYq7zIcViO4uVJh7XAq+Ahz0MB1I1YvlI=
-=unUF
+iQIzBAEBCgAdFiEEx5gladHcxUaKBy2U17Re0nueu2MFAmsIUD4ACgkQ17Re0nue
+u2OR0g//XZrEnUKsgsDKpt64IuEB6AC2VIuitnEgD0pIseaiu+iBimMO8Q3dPfhx
+QYPVnWiw15CerRtE5M4zp5H3PIpVLGyCobVwDa92Rh49u93ax8a/Gz87Fi9ju2DJ
+/3rBzwDvLOpEyjX3nXl4QODRylJLM4E0GmqHg1enhfymj40oihs6wadsKk17uJJW
+Md5Jf6XNuiF3eJ6mbGVzDMYPwdOwpzEDOyD3pEfDFSZKSrJTwmH4qtt9qAVtGGPx
+vqH6td7UOlO4u/xDFmSq2f90F6yyq7T8bkFb1mohnq9RPXNLvBPVWZpfwUs4jBQV
+LToR7V+rochsJZPr3p1nTSOOu/s6bdcsNWb7bP+4zztQrTE7bb6vEtw0oFAsf1Yj
+yblHwnaBkhA6ud7fvu035I6pk+BnalioIoJ7gKX9j3S7F6/NoLpnPJAxaUm5JgTL
+hay27t+CqmQoF74LOFDm7X/yoXMpQf0SQkyZNdKq+vEqDymZJsSn5UUgNiCRKpe4
+4sP9uZhxT2yogQ9ByhOhgzd6+aQVDOASQCCzEM6F1Ncwm1ZXzPo7qo1JoyIqZdRv
+eH2sfi7xMu4lKf3gpqE3vuax7Mp93FTG2Iurxoje1ERNiR3Ek1lzR1CzAvj7ZAl2
+8KApnMeclhcHMAn6IAvwUeA9jSS+YN8QhDNx+cVotfip5nxDEWk=
+=Ij+R
 -----END PGP SIGNATURE-----
