@@ -8,7 +8,7 @@ Codename: stable
 Architectures: amd64 arm64
 Components: main
 Description: Daniel Nylander's localization and development packages
-Date: Thu, 26 Nov 2026 15:29:01 +0000
+Date: Fri, 27 Nov 2026 00:41:49 +0000
 MD5Sum:
  d8d6f8b9f3a92482d4765422551a2cdc 181066 main/binary-amd64/Packages
  f506889408a8bffc63471f12ce12d050 43353 main/binary-amd64/Packages.gz
@@ -62,17 +62,17 @@ SHA256:
  42b412adf12a3ff259b30424b1d7523005431c3aeec19035b0978faf5237fa8d 17092 main/binary-i386/Packages.xz
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAEBCgAdFiEEx5gladHcxUaKBy2U17Re0nueu2MFAmsIUD4ACgkQ17Re0nue
-u2OR0g//XZrEnUKsgsDKpt64IuEB6AC2VIuitnEgD0pIseaiu+iBimMO8Q3dPfhx
-QYPVnWiw15CerRtE5M4zp5H3PIpVLGyCobVwDa92Rh49u93ax8a/Gz87Fi9ju2DJ
-/3rBzwDvLOpEyjX3nXl4QODRylJLM4E0GmqHg1enhfymj40oihs6wadsKk17uJJW
-Md5Jf6XNuiF3eJ6mbGVzDMYPwdOwpzEDOyD3pEfDFSZKSrJTwmH4qtt9qAVtGGPx
-vqH6td7UOlO4u/xDFmSq2f90F6yyq7T8bkFb1mohnq9RPXNLvBPVWZpfwUs4jBQV
-LToR7V+rochsJZPr3p1nTSOOu/s6bdcsNWb7bP+4zztQrTE7bb6vEtw0oFAsf1Yj
-yblHwnaBkhA6ud7fvu035I6pk+BnalioIoJ7gKX9j3S7F6/NoLpnPJAxaUm5JgTL
-hay27t+CqmQoF74LOFDm7X/yoXMpQf0SQkyZNdKq+vEqDymZJsSn5UUgNiCRKpe4
-4sP9uZhxT2yogQ9ByhOhgzd6+aQVDOASQCCzEM6F1Ncwm1ZXzPo7qo1JoyIqZdRv
-eH2sfi7xMu4lKf3gpqE3vuax7Mp93FTG2Iurxoje1ERNiR3Ek1lzR1CzAvj7ZAl2
-8KApnMeclhcHMAn6IAvwUeA9jSS+YN8QhDNx+cVotfip5nxDEWk=
-=Ij+R
+iQIzBAEBCgAdFiEEx5gladHcxUaKBy2U17Re0nueu2MFAmsI0c4ACgkQ17Re0nue
+u2OnRw//aWg86FPDAe35IsBh9V50quV811OqZg8EmcdY2hcjbHMbW3wcZQvsd2fq
+C7VX2rX2Vg4NQotZmCELDvF94Tlar+C/T7fB230Loo5dmopWmc7JtCQsftWQX05U
+YxrVMgOSPSPt74/9hrwMj3g0j3xhq+6NUgUrchYEDRxurMyrvq5QMfjgv54RllHF
+mFZnswb8SE2PTjuLmc5xUS3UBXLFUMI9x7tSvwtS8hkB51wkcDa4ixsUTR7IvwMA
+HMTEegXZjU8l+coEYvxgrudIBUjVGAgB92GUliFYJf5LSeOmHWoxhsI+Vunom1bT
+aTdw+kLXBzzYqIUxFpfNqypTRgQByVewBGIRudNYPKYwp3C5kOL6wsx/iCI+ZcuA
+mmo8riRQE3SpsCPg8Cvm1U5cW+ZIO78NoOrDuNuvBGO6pbruJtkaysy/s7VJoV4Z
+NG3XhaCUvu9SoZ6/ac5EKymgHfx5nMWuCTpxa2C9W1NqbbLC1jtJgK57uK81K334
+NZDExHBPLN6RrJ9MyzS4jxt9oW7f4KdcWMNc0F/NEbZ46F0pB7PPFPS9GD0ZKJqQ
+x6+KKWigLvxjpLnB7PSvUhdXlhaJ33NGPEta97v2ZNxmltsvGbyIWaM8jcbiiJgw
+ygqiiBQFmrjomf0qv3iPx874KKmziM63HC2cf0Q3/ctOmhrEr7g=
+=2c2T
 -----END PGP SIGNATURE-----
